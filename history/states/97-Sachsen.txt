@@ -1,0 +1,28 @@
+state={
+	id=97
+	name="STATE_97"
+	provinces={
+		146 926 1012 1068 1417 1447 1871 2316 3281 3666 3832 3976 4255 4441 4541 4954 5345 5517 5869 5978 6106 6345 7329 8406 9099 9245 9334 10037 10484 10509 10730 10970 11064 11081 11486 11491 13837 13868 13903 13905 13945 13991 13996 14000 14028 14078 14152 14188 14195 14252 14283 14305 14327 
+	}
+	manpower=5592576
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+	resources={
+		steel=53 # was: 90
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 7
+		}
+		victory_points = {
+		3832 10
+		}
+		victory_points = {
+		14152 15
+		}
+       }
+}

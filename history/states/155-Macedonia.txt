@@ -1,0 +1,27 @@
+
+state={
+	id=155
+	name="STATE_155"
+	resources={
+		chromium=20.000
+		aluminium=6.000
+	}
+
+	history={
+		owner = YUG
+		add_core_of = YUG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		783 3077 3273 3488 3997 4110 4330 4557 5408 5711 6500 6736 6811 7780 8750 9047 9185 9578 9816 10344 10968 11151 15877 15892 15917 15933 15987 16004 16013 20300 
+	}
+	manpower=1374200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

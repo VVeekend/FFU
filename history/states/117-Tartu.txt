@@ -1,0 +1,32 @@
+
+state={
+	id=117
+	name="STATE_117"
+
+	history={
+		owner = EST
+		add_core_of = EST
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			9576 5
+		}
+		victory_points = {
+			12712 1
+		}
+		victory_points = {
+			4670 1
+		}
+		victory_points = {
+			7834 1
+		}
+	}
+
+	provinces={
+		77 438 674 2208 3156 3229 4032 4670 5182 7112 7834 8561 9171 9576 9793 9949 10030 10135 12638 12647 12681 12712 12716 12720 12751 12763 12778 12812 12818 19391 
+	}
+	manpower=376400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

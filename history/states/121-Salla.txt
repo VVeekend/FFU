@@ -1,0 +1,17 @@
+state={
+	id=121
+	name="STATE_121"
+	provinces={
+		1049 1764 1867 4072 6207 9203 11755 11779 11801 11857 11871 11873 
+	}
+	manpower=4630
+	buildings_max_level_factor=1.000
+	state_category = enclave
+	history = {	
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 3
+		}
+        }
+}

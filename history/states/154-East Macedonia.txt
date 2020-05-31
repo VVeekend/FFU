@@ -1,0 +1,18 @@
+
+state={
+	id=154
+	name="STATE_154"
+	provinces={
+		5766 7292 8269 8519 10631 11559 15842 15874 15959 
+	}
+	manpower=75000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history = {
+		owner = YUG
+		add_core_of=YUG
+		buildings={
+			infrastructure=4
+		}
+	}
+}

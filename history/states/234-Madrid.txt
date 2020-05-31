@@ -1,0 +1,24 @@
+
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		757 1305 2173 2525 3423 3431 4460 4865 4891 5092 5414 5606 6714 6939 7642 8007 8264 8475 8901 9146 10039 10110 10122 11206 15994 15998 16024 16061 16086 16094 16112 16171 16177 16181 16200 16202 16208 
+	}
+	manpower=2064659
+	buildings_max_level_factor=1.000
+	state_category=city
+	resources={
+		aluminium=1.000
+	}
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 6
+		}
+         }
+}

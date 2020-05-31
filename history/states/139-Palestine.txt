@@ -1,0 +1,44 @@
+
+state={
+	id=139
+	name="STATE_139"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		victory_points = {
+			7990 20 
+		}
+		victory_points = {
+			2904 10 
+		}
+		victory_points = {
+			2369 1 
+		}
+		victory_points = {
+			16846 1 
+		}
+		victory_points = {
+			16708 1 
+		}
+		victory_points = {
+			16703 1 
+		}
+		victory_points = {
+			7304 1 
+		}
+
+	}
+
+	provinces={
+		902 1878 2009 2369 2774 2904 3266 4481 5050 5154 6580 6795 7304 7370 7372 7990 8035 8983 9585 10284 10353 10482 10835 11200 16697 16703 16708 16734 16748 16773 16778 16786 16804 16809 16814 16828 16846 20325 
+	}
+	manpower=933142
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

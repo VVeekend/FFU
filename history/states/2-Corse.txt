@@ -1,0 +1,19 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		344 1948 4392 4740 6569 8836 9539 10163 10760 11248 11282 15882 15936 15995 16000 
+	}
+	manpower=322900
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+		}
+	}
+}

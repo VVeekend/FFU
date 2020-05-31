@@ -1,0 +1,55 @@
+state={
+	id=32
+	name="STATE_32"
+	provinces={
+		178 375 378 1827 2204 2237 2589 2785 3144 3233 3981 6610 7047 8853 8934 9116 10072 10421 10486 10857 10990 15744 15769 15798 15897 15932 15937 15956 15969 16010 19486 19487 19488 
+	}
+	manpower=2979335
+	buildings_max_level_factor=1.000
+        state_category = city
+
+	history={
+		owner = ITA
+                add_core_of = ITA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		victory_points = {
+		2237 3 
+		}
+		victory_points = {
+		6610 1 
+		}
+		victory_points = {
+		2785 5 
+		}
+		victory_points = {
+		15969 1 
+		}
+		victory_points = {
+		9116 1 
+		}
+		victory_points = {
+		15903 1 
+		}
+		victory_points = {
+		378 1 
+		}
+		victory_points = {
+		7047 5 
+		}
+		victory_points = {
+		3981 1 
+		}
+		victory_points = {
+		8934 1 
+		}
+		victory_points = {
+		19486 1 
+		}
+		victory_points = {
+		15637 1 
+		}		
+	}
+}

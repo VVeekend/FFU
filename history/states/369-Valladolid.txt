@@ -1,0 +1,21 @@
+state={
+	id=369
+	name="STATE_369"
+	provinces={
+		190 412 647 802 2520 2721 2928 3357 3471 3625 4492 5314 5552 5861 6055 6491 6505 6998 10686 10844 11162 11164 15643 15655 15660 15671 15737 15765 15830 15885 15915 15918 15966 
+	}
+	manpower=713628
+	buildings_max_level_factor=1.000
+	state_category=rural
+	resources={
+		tungsten=10.000 #added due to Portugal Setup
+	}
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+	}
+}

@@ -1,0 +1,39 @@
+state={
+	id=149
+	name="STATE_149"
+	provinces={
+		785 916 1143 1694 1804 2000 3359 4432 4573 5148 5272 5478 5525 6068 7173 7230 7680 7864 7926 8812 8993 9280 9324 9494 9732 11052 11067 11520 15439 15443 15471 15472 15502 15519 15525 15533 15546 15550 15583 15594 15600 15620 15645 15747 
+	}
+	manpower=1575499
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			}
+		victory_points = {
+		785 5
+		}
+		victory_points = {
+		15519 3
+		}
+		victory_points = {
+		7173 1
+		}
+		victory_points = {
+		15472  5
+		}
+		victory_points = {
+		5525 5
+		}
+		victory_points = {
+		11052 1
+		}
+		victory_points = {
+		1694 1
+		}
+	}
+}

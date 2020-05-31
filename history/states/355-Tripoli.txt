@@ -1,0 +1,18 @@
+state={
+	id=355
+	name="STATE_355"
+	provinces={
+		460 712 877 1144 1697 2118 2627 2854 3558 3783 4022 4282 4586 4713 4759 5170 5473 5872 6630 7847 7984 8141 8240 8439 8957 10208 10568 10918 11154 11603 16901 16911 16915 16924 16930 16952 16954 16969 16975 16986 17033 
+	}
+	manpower=469136
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 3
+			air_base = 6
+			}
+		}
+}

@@ -1,0 +1,51 @@
+
+state={
+	id=33
+	name="STATE_33"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 8
+			air_base = 8
+			arms_factory = 1
+			industrial_complex = 4
+
+		}
+		victory_points = {
+			8587 50 
+		}
+		victory_points = {
+			19484 1 
+		}
+		victory_points = {
+			9505 1 
+		}
+		victory_points = {
+			6614 1 
+		}
+		victory_points = {
+			16092 1 
+		}
+		victory_points = {
+			16034 1 
+		}
+		victory_points = {
+			1943 1 
+		}
+		victory_points = {
+			15968 1 
+		}
+		victory_points = {
+			11592 1 
+		}
+
+	}
+
+	provinces={
+		1943 3310 3529 4456 4889 6614 6633 7089 8384 8587 8862 9505 9700 10356 11592 15191 15850 15855 15863 15868 15884 15894 15895 15903 15919 15941 15962 15968 15974 15979 15996 16034 16037 16092 19484 19485 20290 20291 20292 
+	}
+	manpower=2781971
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,27 @@
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		47 1533 3134 3499 3946 4234 5036 8127 9107 9296 11421 11502 13503 13545 13553 13592 13634 13641 13685 17292 17297 
+	}
+	manpower=1006221
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 6
+			fuel_silo = 1
+		}
+		victory_points = {
+		11502 3
+		}
+		victory_points = {
+		5036 1
+		}
+		victory_points = {
+		47 3
+		}
+        }
+}

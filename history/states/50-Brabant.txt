@@ -1,0 +1,39 @@
+state={
+	id=50
+	name="STATE_50"
+	provinces={
+		255 272 3763 6113 7253 10756 13935 13977 14018 14042 14055 14088 
+	}
+	manpower=1449000
+	buildings_max_level_factor=1.000
+	state_category=city
+	history={
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+		}
+		victory_points = {
+		13935 1
+		}
+		victory_points = {
+		13977 1
+		}
+		victory_points = {
+		6113 3
+		}
+		victory_points = {
+		14088 5
+		}
+		victory_points = {
+		10756 3
+		}
+		victory_points = {
+		3763 5
+		}
+		victory_points = {
+		14055 1
+		}
+         }
+}

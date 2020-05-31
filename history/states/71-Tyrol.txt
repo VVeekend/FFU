@@ -1,0 +1,49 @@
+state={
+	id=71
+	name="STATE_71"
+	provinces={
+		269 2880 2909 2958 2980 3285 3701 5673 6864 7005 7092 7163 7165 8096 8362 10081 10291 10680 11477 14958 14973 14975 14996 15008 15018 15033 15042 15055 15060 15070 15081 15091 15105 15129 
+	}
+	manpower=1655340
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 3
+		}
+		victory_points = {
+		8259 20
+		}
+		victory_points = {
+		15018 1
+		}
+		victory_points = {
+		15008 1
+		}
+		victory_points = {
+		2980 20 
+		}
+		victory_points = {
+		15060 1 
+		}
+		victory_points = {
+		15033 1 
+		}
+		victory_points = {
+		15105 3 
+		}
+		victory_points = {
+		15042 1 
+		}
+		victory_points = {
+		14958 1 
+		}
+		victory_points = {
+		8362 1 
+		}
+         }
+}

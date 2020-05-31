@@ -1,0 +1,23 @@
+
+state={
+	id=296
+	name="STATE_296"
+	provinces={
+		93 892 995 1367 2865 3116 3257 3331 3506 5002 5122 5557 5615 6626 6663 6984 7549 7563 7603 7672 7742 8053 8085 8104 8201 8628 8753 8914 9204 9963 10512 10974 12798 12810 12816 12824 12832 12843 12869 12890 12891 12895 12904 12937 12952 12960 12986 12998 13045 13063 13074 13083 13088 13104 
+	}
+	manpower=918593
+	buildings_max_level_factor=1.000
+	state_category = town
+	resources={
+		steel=7 # was: 10
+	}
+	history={
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 2
+			}
+		}
+}

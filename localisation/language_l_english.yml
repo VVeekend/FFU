@@ -1,0 +1,70 @@
+﻿l_english:
+    
+   language.1.t:0 "Language Selection"
+   language.1.d:0 "Here you can choose the language you want to see Europe in. Keep in mind that this won't change the language of the game but rather the cities on the map. A dynamic language option will also be implemented later on."
+   language.1.a:0 "Native Names - Each City In Its Own Language - Default"
+   language.1.b:0 "English"
+   language.1.c:0 "German"
+   language.1.e:0 "Turkish"
+   
+   language.2.t:0 "English City Names"
+   language.2.d:0 "City names will be translated to English. Not all the cities have English names, small settlements and places that lack an alternative name in English won't be translated. (There may be controversial changes)"
+   language.2.a:0 "Translate it away."
+   
+   language.3.t:0 "Städtenamen auf Deutsch"
+   language.3.d:0 "Die Städtenamen werden auf Deutsch übersetzt. Nicht alle von die Städte werden übersetzt, denn nicht alle ihre eigene Namen auf Deutsch haben. Meisten von die kleine Siedlungen und Orten ohne einzigartige Namen auf Deutsch werden nicht bearbeitet. (Es kann kontrovers Alternativen geben)"
+   language.3.a:0 "Germanisiert die Städten!"
+   
+   language.4.t:0 "Türkçe Şehir İsimleri"
+   language.4.d:0 "Şehir isimleri Türkçe'ye çevrilecek. Her şehrin Türkçe ismi olmadığı için genellikle küçük bölgeler ve direkt olarak Türkçe özel ismi olmayan şehirler çevrilmeyecektir. (Tartışmalı çeviriler olabilir)"
+   language.4.a:0 "Çevir çevir Tokyo drift."
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

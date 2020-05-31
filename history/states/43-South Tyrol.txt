@@ -1,0 +1,38 @@
+
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		2416 4558 5279 5464 5730 6051 6190 6803 6813 7625 7974 8313 8951 9498 9837 9914 15114 15118 15143 15148 15187 15196 15268 20181 20184 20259 20260 20261 20264 20267 
+	}
+	manpower=641650
+	buildings_max_level_factor=1.000
+	state_category = town
+	resources={
+		aluminium=14 # was: 22
+	}
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		victory_points = {
+		7625 5 
+		}
+		victory_points = {
+		6051 1 
+		}
+		victory_points = {
+		15143 1 
+		}		
+		victory_points = {
+		5279 1 
+		}		
+		victory_points = {
+		5464 1 
+		}
+	}
+}

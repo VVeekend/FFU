@@ -1,0 +1,17 @@
+
+state={
+	id=141
+	name="STATE_141"
+	provinces={
+		1436 1825 1959 2274 2361 3578 3755 4478 5293 5559 5588 5594 6510 6680 7361 7377 7626 7689 7727 7733 7985 8629 10141 16907 16918 16919 16921 16927 16937 16941 16944 16945 16950 
+	}
+	manpower=52556
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+		}
+    }
+}

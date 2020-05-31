@@ -1,0 +1,17 @@
+state={
+	state_category = town
+	id=189
+	name="STATE_189"
+	provinces={
+		1949 2406 4848 5067 6536 11250 11420 14169 
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 5 }
+	}
+}

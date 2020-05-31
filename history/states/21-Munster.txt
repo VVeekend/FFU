@@ -1,0 +1,18 @@
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		477 1432 1734 1934 4724 4767 5240 8055 8256 8685 8737 9526 9965 10774 11001 11448 13419 13443 13455 13548 13617 13654 13666 
+	}
+	manpower=941400
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = IRE
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+	}
+}

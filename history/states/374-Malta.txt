@@ -1,0 +1,17 @@
+state={
+	id=374
+	name="STATE_374"
+	provinces={
+		16733 17406 
+	}
+	manpower=241621
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	history= {
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			}
+		}
+}

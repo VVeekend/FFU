@@ -1,0 +1,30 @@
+state={
+	state_category = town
+	id=199
+	name="STATE_199"
+	history={
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 5
+			arms_factory = 4 }
+		victory_points = {
+			12947 1 
+		}
+		victory_points = {
+			5467 1 
+		}
+		victory_points = {
+			12991 5 
+		}
+		victory_points = {
+			13089 1 
+		}
+
+	}
+	provinces={
+		27 1168 2047 2318 2857 3274 3328 4473 5157 5304 5467 6209 6889 7003 7070 7940 8884 9092 9809 10169 11061 12947 12965 12991 13009 13022 13059 13064 13087 13089 13090 13115 13122 13149 13150 13185 13193 
+	}
+	manpower=1183000
+	buildings_max_level_factor=1.000
+}

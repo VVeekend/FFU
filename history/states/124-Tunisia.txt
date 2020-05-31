@@ -1,0 +1,23 @@
+
+state={
+	id=124
+	name="STATE_124"
+	provinces={
+		448 956 979 1030 1506 1655 1739 1890 2127 2251 2286 2977 3398 3466 4368 5004 5712 6210 6435 6576 7219 7967 8078 8200 8351 9466 10295 10530 11319 16653 16666 16680 16685 16698 16710 16727 16739 16757 16764 16766 16775 16776 16785 16793 17404 17409 
+	}
+	manpower=1982940
+	buildings_max_level_factor=1.000
+	state_category = town
+	resources={
+		steel=6 # was: 8
+	}
+	history={
+		owner = FRA
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 8
+			}
+		}
+}

@@ -1,0 +1,61 @@
+
+state={
+	id=103
+	name="STATE_103"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 3
+
+		}
+		victory_points = {
+		5575 5
+		}
+		victory_points = {
+		5500 5
+		}
+		victory_points = {
+		7765 1
+		}
+		victory_points = {
+		15056 1
+		}
+		victory_points = {
+		10602 1
+		}
+		victory_points = {
+		15107 1
+		}
+		victory_points = {
+		5213 5
+		}
+		victory_points = {
+		9003 5
+		}
+		victory_points = {
+		2676 1
+		}
+		victory_points = {
+		6327 1
+		}
+		victory_points = {
+		14979 5
+		}
+
+	}
+
+	provinces={
+		469 2676 3026 3045 3268 3519 3751 4329 4809 4817 4879 4912 5130 5213 5407 5413 5500 5575 5644 5814 6025 6327 6387 6896 6958 7586 7657 7765 8680 9003 9095 9254 9259 9320 9870 10599 10602 10854 10916 11465 14824 14851 14882 14906 14921 14936 14948 14951 14960 14979 14990 14997 15014 15019 15034 15035 15046 15053 15056 15057 15064 15084 15085 15093 15098 15100 15107 15108 15112 15121 15122 15138 15188 15231 19400 20190 20191 20192 20193 20195 20197 20198 20200 20203 20204 20206 20208 20210 20211 20212 20274 20275 20276 20279 20280 20285 
+	}
+	manpower=2197605
+	buildings_max_level_factor=1.000
+	state_category=city
+}

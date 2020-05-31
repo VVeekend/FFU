@@ -1,0 +1,30 @@
+state={
+	id=361
+	name="STATE_361"
+	provinces={
+		1639 5701 7828 8448 10465 11557 15859 15916 15949 15957 
+	}
+	manpower=75000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		victory_points={ 11774 1 }
+		owner = GRE
+		add_core_of=GRE
+		buildings={
+			infrastructure=2
+		}
+        victory_points = {
+		11557 5
+		}
+        victory_points = {
+		1639 1
+		}
+        victory_points = {
+		15957 1
+		}
+        victory_points = {
+		8448 1
+		}
+	}
+}

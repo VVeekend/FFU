@@ -1,0 +1,27 @@
+state={
+	id=22
+	name="STATE_22"
+	provinces={
+		698 4532 5458 7074 7383 7870 7999 9101 9599 9739 9937 9962 10391 11054 11376 11535 13286 13309 13335 13385 13408 13430 13579 13622 
+	}
+	manpower=1357600
+	buildings_max_level_factor=1.000
+	state_category = city
+	resources={
+		aluminium=0 # was: 2
+		steel=2 # was: 3
+	}
+	history={
+		owner = IRE
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 3
+			}
+		victory_points = {
+		7383 30
+		}
+	}
+}

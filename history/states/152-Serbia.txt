@@ -1,0 +1,39 @@
+
+state={
+	id=152
+	name="STATE_152"
+	provinces={
+		1653 1725 1833 3181 4343 4597 5193 5217 5315 5359 6999 7077 7593 7623 8042 8342 10096 10182 15377 15385 15422 15461 15466 15512 15520 15575 15578 15582 15595 15599 19997 20232 
+	}
+	manpower=1864700
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	history={
+		owner = YUG
+		add_core_of = YUG
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 4
+				air_base = 5
+				arms_factory = 3
+			}
+	victory_points = {
+	19997 50
+	}
+	victory_points = {
+	15385 5
+	}
+	victory_points = {
+	1653 5
+	}
+	victory_points = {
+	15582 5
+	}
+	victory_points = {
+	1725 5
+	}
+	victory_points = {
+	8342 1
+	}
+            }
+}

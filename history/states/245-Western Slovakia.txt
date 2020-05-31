@@ -1,0 +1,38 @@
+
+state={
+	id=245
+	name="STATE_245"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = CZE
+		add_core_of = CZE
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 3
+		}
+		victory_points = {
+			7296 1
+		}
+		victory_points = {
+			14576 1 
+		}
+		victory_points = {
+			11205 1 
+		}
+		victory_points = {
+			14705 10
+		}
+	}
+
+	provinces={
+		903 2496 3352 4116 4631 4934 5641 7296 7927 8060 9033 9083 9593 10813 11205 14494 14523 14565 14576 14603 14613 14624 14633 14652 14653 14672 14687 14697 14705 
+	}
+	manpower=1230500
+	buildings_max_level_factor=1.000
+	state_category=city
+}

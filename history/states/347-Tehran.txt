@@ -1,0 +1,20 @@
+state={
+	id=347
+	name="STATE_347"
+	provinces={
+		330 600 759 1209 1316 1476 1570 1793 1883 2303 2360 3393 3963 3984 4222 4477 4595 4866 5039 5283 5663 5752 6395 6455 6850 7236 7265 7396 7445 7629 7814 7953 8415 8676 8980 9014 9671 10055 10188 10445 10560 10929 11033 14716 14801 14963 14982 15054 15088 15220 15315 15363 15415 15484 
+	}
+	manpower=3446250
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
+		}
+       }
+}

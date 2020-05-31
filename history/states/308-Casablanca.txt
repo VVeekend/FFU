@@ -1,0 +1,22 @@
+state={
+	id=308
+	name="STATE_308"
+	provinces={
+		814 1259 1262 1844 2008 2149 2451 2513 2571 2577 2635 2983 3210 3269 3412 3525 3739 3745 4046 4293 4442 4551 4966 5305 5479 5481 5501 5546 5887 6098 6126 6572 6617 6822 6879 7118 7207 10052 10891 10978 10983 11099 11534 11594 16724 16743 16745 16754 16755 16758 16762 16770 16771 16783 16799 16800 16811 
+	}
+	manpower=3197719
+	buildings_max_level_factor=1.000
+	state_category = rural
+	resources={
+		chromium=12.000 #added due to portugal setup
+	}
+	history={
+		owner = FRA
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 4
+			}
+		}
+}

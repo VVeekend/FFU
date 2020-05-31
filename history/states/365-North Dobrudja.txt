@@ -1,0 +1,32 @@
+state={
+	id=365
+	name="STATE_365"
+	provinces={
+		210 471 3820 4396 4537 5452 5661 6012 7287 9243 9605 9762 10045 10842 10901 15094 15124 15126 15164 15205 15244 15250 15271 15306 15326 15346 
+	}
+	manpower=250467
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={		
+		owner = ROM
+		add_core_of = ROM
+		buildings = {
+			infrastructure = 5
+                    }
+		victory_points = {
+		210 1 
+		}
+		victory_points = {
+		4396 5 
+		}
+		victory_points = {
+		9605 5 
+		}
+		victory_points = {
+		15306 1 
+		}
+		victory_points = {
+		10842 1 
+		}
+	}
+}

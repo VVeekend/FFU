@@ -1,0 +1,44 @@
+
+state={
+	id=202
+	name="STATE_202"
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 5
+			arms_factory = 4
+
+		}
+		victory_points = {
+			10964 1 
+		}
+		victory_points = {
+			9661 1 
+		}
+		victory_points = {
+			834 1 
+		}
+		victory_points = {
+			2711 1 
+		}
+		victory_points = {
+			1112 1 
+		}
+		victory_points = {
+			6555 1 
+		}
+		victory_points = {
+			12464 1 
+		}
+
+	}
+
+	provinces={
+		224 317 834 1052 1112 1221 1503 1571 1610 2216 2233 2483 2711 3107 3379 3491 3504 3559 3911 4279 4562 4945 5337 5598 5617 5634 6438 6555 7103 7217 7291 7479 8004 8020 8209 8470 8580 9661 9865 9961 10031 10059 10103 10561 10964 11035 11062 11131 11415 11583 12361 12363 12379 12405 12418 12424 12430 12440 12446 12464 12473 12481 12487 12497 12510 12526 12584 12603 12607 12624 12646 19349 19350 
+	}
+	manpower=1248000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

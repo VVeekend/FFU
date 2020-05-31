@@ -1,0 +1,23 @@
+
+state={
+	id=326
+	name="STATE_326"
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UZB
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		340 352 880 1095 1171 1554 1828 2386 2468 2781 3283 3898 4028 6041 6398 6585 8028 8512 8883 8923 9512 10451 11424 12936 12981 12982 13019 13035 13039 13084 13112 13113 13131 13244 13340 13348 13349 13458 13473 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

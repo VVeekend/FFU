@@ -1,0 +1,72 @@
+
+state={
+	id=86
+	name="STATE_86"
+	provinces={
+		501 1958 4401 4483 4760 4888 4904 5251 5421 5468 5548 6109 6235 6959 7024 7057 7455 8471 8954 9118 10143 10684 11005 11226 11230 11275 11395 14737 14751 14766 14803 14810 14823 14845 14890 14905 14930 14938 14946 
+	}
+	manpower=2679413
+	buildings_max_level_factor=1.000
+	state_category = city
+	resources={
+		aluminium=18 # was: 30
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 6
+		}
+		victory_points = {	
+		14930 1
+		}
+		victory_points = {
+		9118 1
+		}
+		victory_points = {
+		5548 1
+		}
+		victory_points = {	
+		8100 3
+		}
+		victory_points = {	
+		6109 1
+		}
+		victory_points = {	
+		14823 30
+		}
+		victory_points = {	
+		14890 1
+		}
+		victory_points = {	
+		4888 1
+		}
+		victory_points = {	
+		14946 1
+		}
+		victory_points = {	
+		14845 1
+		}
+		victory_points = {	
+		14810 10
+		}
+		victory_points = {
+		501 1 #Monheim
+		}
+		victory_points = {
+		7057 1 
+		}
+		victory_points = {	
+		11395 1
+		}
+		victory_points = {	
+		5251 1
+		}
+		victory_points = {	
+		11230 1
+		}
+           }      
+     }

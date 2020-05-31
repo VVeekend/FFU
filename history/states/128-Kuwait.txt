@@ -1,0 +1,22 @@
+
+state={
+	id=128
+	name="STATE_128"
+
+	history={
+		add_core_of = KUW
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		791 938 1070 2576 3723 3809 4023 4710 5269 8477 8851 9129 10818 11635 16579 16590 16624 16638 17389 20327 
+	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=307
+	name="STATE_307"
+	resources={
+		steel=23.000
+	}
+
+	history={
+		owner = SPR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		324 393 1437 1906 2767 3425 4178 4362 4927 5570 8570 8930 9882 16719 16726 16730 16732 17407 
+	}
+	manpower=744000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

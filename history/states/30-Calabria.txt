@@ -1,0 +1,72 @@
+
+state={
+	id=30
+	name="STATE_30"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 5
+			dockyard = 4
+			fuel_silo = 1
+			air_base = 5
+
+		}
+		victory_points = {
+		16166 10 
+		}
+		victory_points = {
+		16279 1 
+		}
+		victory_points = {
+		11360 1 
+		}
+		victory_points = {
+		862 1 
+		}
+		victory_points = {
+		16178 1 
+		}
+		victory_points = {
+		9500 1 
+		}
+		victory_points = {
+		253 1 
+		}
+		victory_points = {
+		5706 1 
+		}
+		victory_points = {
+		8355 1 
+		}
+		victory_points = {
+		4997 1 
+		}
+		victory_points = {
+		10724 1 
+		}
+		victory_points = {
+		19478 1 
+		}
+		victory_points = {
+		19479 1 
+		}
+		victory_points = {
+		16438 1 
+		}
+		victory_points = {
+		10834 1 
+		}
+		victory_points = {
+		3731 1 
+		}
+	}
+
+	provinces={
+		195 862 1388 1915 2226 2307 3476 3731 5264 6009 6346 6521 7171 7192 7606 9117 9500 9780 9868 9978 10724 10834 10878 11199 11360 11422 16117 16132 16156 16166 16178 16192 16198 16220 16279 16285 16383 16404 16420 16438 16441 16445 16466 16517 17364 19478 19479 
+	}
+	manpower=2966315
+	buildings_max_level_factor=1.000
+	state_category=city
+}

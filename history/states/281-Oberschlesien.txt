@@ -1,0 +1,21 @@
+state={
+	id=281
+	name="STATE_281"
+	provinces={
+		860 2419 3733 4607 5343 6638 7632 9520 14120 14161 14196 14233 14244 14265 14275 
+	}
+	manpower=1402591
+	buildings_max_level_factor=1.000
+	state_category = city
+	resources={
+		steel=19 # was: 60
+		aluminium=6 # was: 20
+	}
+	history={
+		add_core_of = GER
+		owner = GER
+		buildings = {
+			infrastructure = 6
+		}
+         }
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=109
+	name="STATE_109"
+
+	history={
+		owner = LIT
+		add_core_of = LIT
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 4
+
+		}
+		victory_points = {
+			13233 25 
+		}
+		victory_points = {
+			13313 1 
+		}
+		victory_points = {
+			2298 1 
+		}
+		victory_points = {
+			13098 1 
+		}
+		victory_points = {
+			6490 1 
+		}
+
+	}
+
+	provinces={
+		356 468 613 959 1273 1749 2211 2298 2455 2587 2653 2654 2729 2808 3508 3744 4890 4892 6000 6099 6132 6271 6490 6937 7332 8024 8213 8541 8782 9571 10374 10382 10606 10681 10687 13037 13047 13093 13094 13098 13119 13124 13137 13157 13163 13164 13181 13203 13233 13258 13264 13279 13280 13283 13297 13298 13313 13317 13368 
+	}
+	manpower=1353130
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=298
+	name="STATE_298"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		329 1280 1659 2026 2072 2500 2957 3120 3851 4035 4137 4143 4192 4764 4863 4909 5192 5555 5760 5786 5964 6145 6268 6700 6870 7149 7210 7408 7520 7641 8092 8656 8734 8998 9367 10008 10149 12594 12652 12687 12690 12695 12698 12703 12724 12730 12740 12811 12837 12851 12878 12879 12897 12903 12918 12926 12939 12950 12963 12974 13016 17260 17269 17275 17537 19083 19086 19395 
+	}
+	manpower=1282827
+	buildings_max_level_factor=1.000
+	state_category=city
+}

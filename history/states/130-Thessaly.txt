@@ -1,0 +1,65 @@
+state={
+	id=130
+	name="STATE_130"
+	provinces={
+		10 142 1149 1169 2608 3702 4223 4705 4907 5186 5379 5902 5989 6474 6508 6688 7553 8809 10180 10339 11188 11528 16246 16247 16270 16276 16277 16286 16294 16304 16309 16311 16320 16326 16343 16344 16353 16357 16368 16374 16381 16405 16413 16428 16446 16447 17356 17362 
+	}
+	manpower=1212500‬
+	buildings_max_level_factor=1.000
+	state_category = town
+	resources={
+		chromium=14 # was: 20
+		steel = 14 # was: 20
+	}
+	history={
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			}
+        victory_points = {
+		11528 1
+		}
+       victory_points = {
+		16311 1
+		}
+        victory_points = {
+		16374 1
+		}
+        victory_points = {
+		16368 1
+		}
+        victory_points = {
+		16381 5
+		}
+        victory_points = {
+		16446 5
+		}
+        victory_points = {
+		4705 1
+		}
+        victory_points = {
+		10180 1
+		}
+        victory_points = {
+		16270 10
+		}
+        victory_points = {
+		16277 5
+		}
+        victory_points = {
+		2608 5
+		}
+        victory_points = {
+		17348 1
+		}
+        victory_points = {
+		8809 1
+		}
+        victory_points = {
+		16320 1
+		}
+	}
+}

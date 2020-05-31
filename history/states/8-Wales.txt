@@ -1,0 +1,38 @@
+state={
+	id=8
+	name="STATE_8"
+	provinces={
+		1079 1435 4082 4380 4511 4887 5141 5569 6273 6424 6773 8399 8634 9369 9483 9807 10487 10772 10986 11253 13537 13608 13812 13875 13899 
+	}
+	manpower=2309230
+	buildings_max_level_factor=1.000
+	state_category = city
+	resources={
+		steel=11 # was: 16
+		aluminium=3 # was: 4
+	}
+	history=
+	{
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+		4511 1
+		}
+		victory_points = {
+		10487 1
+		}
+		victory_points = {
+		10986 1
+		}
+		victory_points = {
+		13899 3
+		}
+		victory_points = {
+		1079 1
+		}
+	}
+}

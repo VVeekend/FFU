@@ -1,0 +1,19 @@
+
+state={
+	id=83
+	name="STATE_83"
+	provinces={
+		587 1621 11136 11303 12944 17271 
+	}
+	manpower=56988
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	history=
+	{
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 6
+			}
+		}
+}

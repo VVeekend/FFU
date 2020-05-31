@@ -1,0 +1,18 @@
+state={
+	id=376
+	name="STATE_376"
+	provinces={
+		17221 17222 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	history=
+	{
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 3
+			}
+		}
+}

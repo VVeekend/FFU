@@ -1,0 +1,36 @@
+
+state={
+	id=46
+	name="STATE_46"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			4073 10 
+		}
+		victory_points = {
+			9971 1 
+		}
+		victory_points = {
+			14411 1 
+		}
+
+	}
+
+	provinces={
+		4073 9971 14411 19690 19691 20323 
+	}
+	manpower=294748
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

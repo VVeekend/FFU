@@ -1,0 +1,75 @@
+state={
+	id=248
+	name="STATE_248"
+	provinces={
+		778 1263 1277 1336 1347 1634 1811 1848 2539 2893 3650 3670 3714 3718 4331 4819 4827 4926 6333 6873 7278 7310 7411 7714 7885 8095 8160 9029 9394 9750 9776 9802 10951 11160 15875 15898 15960 16005 16017 16047 16048 16053 16068 16078 16083 16084 16113 16139 16151 17339 17341 
+	}
+	manpower=1026527
+	buildings_max_level_factor=1.000
+	state_category = town
+	resources={
+		chromium=39 # was: 54
+	}
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+		9750 1
+		}
+		victory_points = {
+		3718 1
+		}
+		victory_points = {
+		3650 10
+		}		
+		victory_points = {
+		10951 1 #Gemlik
+		}		
+		victory_points = {
+		9802 1 #İnegöl
+		}		
+		victory_points = {
+		16017 1 #Mustafakemalpaşa
+		}		
+		victory_points = {
+		6333 1 #Karacabey
+		}
+		victory_points = {
+		3714 3
+		}
+		victory_points = {
+		9394 2
+		}		
+		victory_points = {
+		5483 2
+		}				
+		victory_points = {
+		17339 1
+		}		
+		victory_points = {
+		16047 1
+		}		
+		victory_points = {
+		7310 1
+		}		
+		victory_points = {
+		16084 1
+		}
+		victory_points = {
+		4926 5
+		}
+		victory_points = {
+		16151 1
+		}	
+		victory_points = {
+		4819 2 #Biga
+		}	
+		victory_points = {
+		17341 1 #Bozcaada
+		}		
+	}
+}

@@ -1,0 +1,64 @@
+state={
+	id=27
+	name="STATE_27"
+	provinces={
+		369 2709 3413 7588 7772 8158 8526 9246 9442 9753 9973 9974 10320 11039 11130 11295 13202 13238 13266 13276 13301 13312 13356 13372 17283 17287 17289 
+	}
+	manpower=2034114
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	history=
+	{
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 6
+		}
+	victory_points = {
+	8158 10
+	}
+	victory_points = {
+	2709 5
+	}
+	victory_points = {
+	7588 1
+	}
+	victory_points = {
+	17287 1
+	}
+	victory_points = {
+	9974 3
+	}
+	victory_points = {
+	11130 1
+	}
+	victory_points = {
+	9753 5
+	}
+	victory_points = {
+	11295 3
+	}
+	victory_points = {
+	9973 5
+	}
+	victory_points = {
+	13238 2
+	}
+	victory_points = {
+	10320 3
+	}
+	victory_points = {
+	7772  4
+	}
+	victory_points = {
+	13202 25
+	}
+	victory_points = {
+	11039 3
+	}
+    }
+}

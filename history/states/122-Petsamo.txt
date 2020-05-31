@@ -1,0 +1,17 @@
+state={
+	id=122
+	name="STATE_122"
+	provinces={
+		2802 3062 10628 11386 11648 11649 11667 11700 
+	}
+	manpower=2371
+	buildings_max_level_factor=1.000
+	state_category = enclave
+	history={
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 3
+			}
+		}
+}

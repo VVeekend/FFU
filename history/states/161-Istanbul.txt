@@ -1,0 +1,62 @@
+state={
+	id=161
+	name="STATE_161"
+	provinces={
+		3195 4290 5401 6730 15819 15846 19707 19708 19709 19710 19711 19712 
+	}
+	manpower=1404509
+	buildings_max_level_factor=1.000
+	state_category = city
+	resources={
+		chromium=45 # was: 84
+		steel = 10 # was: 20
+	}
+	history= {
+		owner = TUR
+		add_core_of = TUR
+		add_claim_by = GRE
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			arms_factory = 2
+			air_base = 4
+			}
+		victory_points = {
+		19709 15
+		}
+		victory_points = {
+		19708 10
+		}
+		victory_points = {
+		19707 5
+		}
+		victory_points = {
+		15819 3
+		}
+		victory_points = {
+		3195 30
+		}
+		victory_points = {
+		4290 5
+		}
+		victory_points = {
+		19710 10 
+		}
+		victory_points = {
+		19711 3
+		}
+		victory_points = {
+		19712 3
+		}
+		victory_points = {
+		15865 1
+		}
+		victory_points = {
+		6730 1
+		}
+		victory_points = {
+		15793 1 #Çatalca
+		}
+	}
+}

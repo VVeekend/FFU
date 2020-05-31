@@ -1,0 +1,52 @@
+state={
+	id=114
+	name="STATE_114"
+	provinces={
+		328 376 417 644 1083 1396 1491 2644 3051 3762 3835 4033 4321 4352 5411 6095 6557 6705 6784 7323 7373 7887 8493 9066 9199 9818 10107 10144 10588 10639 10651 11533 14714 14719 14738 14746 14765 14770 14791 14814 14864 14889 14891 14892 14895 14907 14929 14940 14994 17316 18002 
+	}
+	manpower=1061607
+	buildings_max_level_factor=1.000
+	state_category = city
+	history={
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			air_base = 3
+		}
+		victory_points = {
+		8493 20
+		}
+		victory_points = {
+		9818 5
+		}
+		victory_points = {
+		5411 1
+		}
+		victory_points = {
+		7887 1
+		}
+		victory_points = {
+		9066 1
+		}
+		victory_points = {
+		14738 1
+		}
+		victory_points = {
+		14814 1
+		}
+		victory_points = {
+		14714 1
+		}
+		victory_points = {
+		2644 5
+		}
+		victory_points = {
+		10639 1
+		}
+		victory_points = {
+		1083 1
+		}
+     }
+}

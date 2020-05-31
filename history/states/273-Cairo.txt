@@ -1,0 +1,35 @@
+
+state={
+	id=273
+	name="STATE_273"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 5
+
+		}
+		victory_points = {
+			11529 20 
+		}
+		victory_points = {
+			2265 1 
+		}
+		victory_points = {
+			2595 1 
+		}
+		victory_points = {
+			5820 1 
+		}
+
+	}
+
+	provinces={
+		490 504 623 694 994 1038 1119 1165 2265 2435 2443 2595 3983 4285 4306 4314 5608 5788 5820 6176 6208 7319 7891 8453 9138 9144 9999 10670 10795 11458 11529 11578 16837 16839 16873 16874 16879 16887 16928 16946 16953 17006 17030 20009 20318 20319 20330 
+	}
+	manpower=6586596
+	buildings_max_level_factor=1.000
+	state_category=town
+}

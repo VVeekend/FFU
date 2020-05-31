@@ -1,0 +1,17 @@
+state={
+	id=350
+	name="STATE_350"
+	provinces={
+		131 267 333 970 1017 1072 1260 1345 1544 1847 2810 3208 3536 3682 4070 5108 5329 5595 6866 6955 7245 7655 9030 9560 9628 10542 15670 15710 15740 15821 15854 
+	}
+	manpower=796396
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=324
+	name="STATE_324"
+	provinces={
+		17285
+	}
+	manpower=1144300
+	buildings_max_level_factor=1.000
+	state_category = large_town
+	history =
+	{
+		owner = YUG
+		add_core_of = SLV
+		buildings = {
+			infrastructure = 6
+	     }
+	}
+}

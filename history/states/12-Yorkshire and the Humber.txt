@@ -1,0 +1,36 @@
+
+state={
+	id=12
+	name="STATE_12"
+	provinces={
+		242 708 1024 3990 4136 5550 5628 6603 7016 7585 8717 9055 13352 13387 13460 
+	}
+	manpower=4762495
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+	resources={
+		steel=71 # was: 120
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 10
+			}
+		victory_points = {
+		5550 5 
+		}
+		victory_points = {
+		13387 5 
+		}
+		victory_points = {
+		3990 5 
+		}
+		victory_points = {
+		7585 5
+		}
+	}
+}

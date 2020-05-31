@@ -1,0 +1,35 @@
+state={
+	id=160
+	name="STATE_160"
+	provinces={
+		1670 1967 2246 2333 2659 2667 2717 3416 3945 4180 5335 6383 6908 7575 7877 8318 8677 8844 9417 9658 11032 11076 15726 15772 15779 15793 15812 15814 15838 15865 15896 15924 15947 15948 15975 
+	}
+	manpower=75000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = YUG
+		add_core_of = YUG
+		buildings = {
+			infrastructure = 4
+                }
+		victory_points = {
+		7877 2
+		}
+		victory_points = {
+		6383 1 #Çerkez
+		}
+		victory_points = {
+		8844 1
+		}
+		victory_points = {
+		15814 2
+		}
+		victory_points = {
+		15726 1
+		}
+		victory_points = {
+		15975 3
+		}
+	}
+}

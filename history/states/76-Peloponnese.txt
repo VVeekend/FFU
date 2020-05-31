@@ -1,0 +1,62 @@
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		1047 1226 1312 3101 3580 4801 5201 5516 5841 6343 6735 7627 7775 8185 8504 9534 10420 10493 10658 11178 16506 16507 16529 16534 16543 16552 16556 16557 16568 16574 16584 16595 16602 16609 16620 17369 17381 17386 17402 
+	}
+	manpower=945000
+	buildings_max_level_factor=1.000
+	state_category = town
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+         	}
+		victory_points = {
+		16506 10
+		}
+		victory_points = {
+		10658 1
+		}
+		victory_points = {
+		3101 1
+		}
+		victory_points = {
+		16543 1
+		}
+		victory_points = {
+		16507 1
+		}
+		victory_points = {
+		16595 10
+		}
+		victory_points = {
+		7627 5
+		}
+		victory_points = {
+		16568 5
+		}
+		victory_points = {
+		10493 1
+		}
+		victory_points = {
+		11178 1
+		}
+		victory_points = {
+		16620 1
+		}
+		victory_points = {
+		5201 1
+		}
+		victory_points = {
+		602 1
+		}
+		victory_points = {
+		8185 1
+		}
+	}
+}

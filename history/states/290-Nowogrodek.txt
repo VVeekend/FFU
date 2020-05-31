@@ -1,0 +1,30 @@
+state={
+	id=290
+	name="STATE_290"
+	provinces={
+		918 948 1241 2219 2482 2692 3498 4252 5033 5490 5659 5742 7844 8910 9020 9479 10468 10531 10584 11373 11511 13357 13373 13401 13413 13426 13456 13463 13482 13488 13496 13522 13566 13583 13606 
+	}
+	manpower=1598900
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		add_core_of = POL
+		owner = POL
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+		}
+		victory_points = {
+			5659 3
+		}
+		victory_points = {
+			13373 1
+		}
+		victory_points = {
+			9479 1
+		}
+		victory_points = {
+			13482 1
+		}
+        }
+}

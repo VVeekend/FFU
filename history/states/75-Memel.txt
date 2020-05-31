@@ -1,0 +1,21 @@
+state={
+	id=75
+	name="STATE_75"
+	provinces={
+		2187 7364 13215 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history = {
+		add_core_of = LIT
+		owner = LIT
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			}
+		victory_points = {
+		2187 10
+		}
+	}
+}

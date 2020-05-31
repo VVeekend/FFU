@@ -1,0 +1,82 @@
+
+state={
+	id=259
+	name="STATE_259"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			1894 3 
+		}
+		victory_points = {
+			9438 2 
+		}
+		victory_points = {
+			7384 1 
+		}
+		victory_points = {
+			5832 2 
+		}
+		victory_points = {
+			5241 2 
+		}
+		victory_points = {
+			2374 2 
+		}
+		victory_points = {
+			5011 1 
+		}
+		victory_points = {
+			16 1 
+		}
+		victory_points = {
+			10215 1 
+		}
+		victory_points = {
+			5770 1 
+		}
+		victory_points = {
+			6772 1 
+		}
+		victory_points = {
+			15688 2 
+		}
+		victory_points = {
+			36 1 
+		}
+		victory_points = {
+			281 1 
+		}
+		victory_points = {
+			542 5 
+		}
+		victory_points = {
+			7859 2 
+		}
+		victory_points = {
+			2959 1 
+		}
+		victory_points = {
+			15440 1 
+		}
+		victory_points = {
+			15604 1 
+		}
+		victory_points = {
+			15493 1 
+		}
+
+	}
+
+	provinces={
+		16 36 281 542 1073 1511 1663 1894 2190 2306 2374 2519 3516 3914 4674 5241 6725 6756 6772 6851 7108 7326 7469 7859 8154 8569 8735 9438 9737 10215 10220 11012 11467 15440 15458 15477 15493 15539 15544 15603 15604 15617 15642 15688 15693 15811 19706 
+	}
+	manpower=365490
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

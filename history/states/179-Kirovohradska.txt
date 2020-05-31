@@ -1,0 +1,33 @@
+
+state={
+	id=179
+	name="STATE_179"
+	resources={
+		oil=8.000
+		aluminium=7.000
+	}
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 5
+
+		}
+		victory_points = {
+			10601 1 
+		}
+		victory_points = {
+			7706 1 
+		}
+
+	}
+
+	provinces={
+		844 1067 1253 1448 2165 2290 2358 3317 3721 4576 4703 4941 7355 7706 7994 8458 9935 10022 10601 11209 11222 11243 14112 14176 14220 14270 14271 14280 14319 14325 14340 20301 
+	}
+	manpower=1218000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

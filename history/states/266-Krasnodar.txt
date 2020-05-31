@@ -1,0 +1,46 @@
+state={
+	id=266
+	name="STATE_266"
+	provinces={
+		123 170 416 805 855 1282 1512 1845 1861 1889 1941 2218 2557 2918 3163 3185 3743 3797 4169 4598 4838 5232 5342 5353 5507 5846 5914 6019 6083 6328 7466 7631 7634 7664 7862 7883 7933 8013 8027 8170 8941 9152 9455 9457 9553 9598 9716 9798 10259 10266 10475 10920 11195 11249 11332 11449 14246 14272 14289 14293 14302 14308 14315 14320 14365 14379 14380 14392 14401 14495 14496 14497 14537 14585 14594 14620 14640 14641 14668 14677 14684 14685 14700 14727 14728 14749 14768 
+	}
+	manpower=2903371
+	buildings_max_level_factor=1.000
+	state_category = city
+	resources={
+		tungsten=17 # was: 26
+		oil=12 # was: 18
+	}
+	history={
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			1861 5 
+		}
+		victory_points = {
+			3797 1 
+		}
+		victory_points = {
+			7634 1 
+		}
+		victory_points = {
+			14872 1 
+		}
+		victory_points = {
+			8941 1 
+		}
+		victory_points = {
+			9152 1 
+		}
+		victory_points = {
+			11249 1 
+		}
+		victory_points = {
+			8027 1 
+		}
+	}
+}

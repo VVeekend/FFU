@@ -1,0 +1,583 @@
+﻿l_english:
+  
+
+  ####Khersonska#####
+  VICTORY_POINTS_9680:0 "Kherson"
+  VICTORY_POINTS_2833:0 "Skadovsik"
+  VICTORY_POINTS_1392:0 "Heniches'k"
+  VICTORY_POINTS_2590:0 "Verknii Rohachyk"
+  VICTORY_POINTS_14560:0 "Nova Kakhovka"
+  
+  ####Crimea####
+  VICTORY_POINTS_8493:0 "Sevastopol"
+  VICTORY_POINTS_9818:0 "Yalta"
+  VICTORY_POINTS_5411:0 "Yevpatoriya"
+  VICTORY_POINTS_7887:0 "Chornomors'ke"
+  VICTORY_POINTS_9066:0 "Armiansk"
+  VICTORY_POINTS_14738:0 "Dzhankoi"
+  VICTORY_POINTS_14814:0 "Feodosia"
+  VICTORY_POINTS_14714:0 "Kerch"
+  VICTORY_POINTS_2644:0 "Simferopol"
+  VICTORY_POINTS_10639:0 "Nizhnegorskiy"
+  VICTORY_POINTS_1083:0 "Rozdol'ne"
+  
+  ####Zaporizka####
+  VICTORY_POINTS_2660:0 "Kyrylivka"
+  VICTORY_POINTS_14421:0 "Berdyans'k"
+  VICTORY_POINTS_3123:0 "Melitopol"
+  VICTORY_POINTS_1315:0 "Zaporizhzhia"
+  
+  ####Donetska####
+  VICTORY_POINTS_8306:0 "Donetsk"
+  VICTORY_POINTS_7761:0 "Pokrovsk"
+  VICTORY_POINTS_6162:0 "Slovyansk"
+  VICTORY_POINTS_9096:0 "Bakhmut"
+  VICTORY_POINTS_1720:0 "Amvrosiivka"
+ 
+  ####Rostov####
+  VICTORY_POINTS_1551:0 "Rostov-no-Donu"
+  VICTORY_POINTS_14150:0 "Taganrog"
+  VICTORY_POINTS_14094:0 "Matveyev Kurgan"
+  VICTORY_POINTS_9227:0 "Shakhty"
+  VICTORY_POINTS_9338:0 "Millerovo"
+  VICTORY_POINTS_10886:0 "Morozovsk"
+  VICTORY_POINTS_10563:0 "Salsk"
+  VICTORY_POINTS_13913:0 "Volgodonsk"
+  
+  ####Krasnodar Krai####
+  VICTORY_POINTS_1861:0 "Krasnodar"
+  VICTORY_POINTS_3797:0 "Anapa"
+  VICTORY_POINTS_7634:0 "Novorossiysk"
+  VICTORY_POINTS_14872:0 "Sochi"
+  VICTORY_POINTS_8941:0 "Armavir"
+  VICTORY_POINTS_9152:0 "Tikhoretsk"
+  VICTORY_POINTS_11249:0 "Timashevsk"
+  VICTORY_POINTS_8027:0 "Yeysk"
+
+  ####Adygea####
+  VICTORY_POINTS_14641:0 "Maykop"
+  
+  ####Mykolayivska####
+  VICTORY_POINTS_10550:0 "Mykolaiv"
+  VICTORY_POINTS_5797:0 "Pervomais'k"
+  VICTORY_POINTS_1899:0 "Novyi Buh"
+  
+  ####Odeska####
+  VICTORY_POINTS_9149:0 "Odesa"
+  VICTORY_POINTS_4741:0 "Okny"
+  VICTORY_POINTS_10329:0 "Lyubashivka"
+  
+  ####Voznesensk####
+  VICTORY_POINTS_830:0 "Voznesensk"
+  
+  ####Transnitria####
+  VICTORY_POINTS_1802:0 "Tiraspolo"
+  
+  ####Moscow####
+  VICTORY_POINTS_1920:0 "Moskva"
+  VICTORY_POINTS_20053:0 "Lyublino"
+  VICTORY_POINTS_20054:0 "Konkovo"
+  VICTORY_POINTS_20055:0 "Kuntsevo"
+  VICTORY_POINTS_20056:0 "Otradnoye"
+  VICTORY_POINTS_20057:0 "Voykovskiy"
+  VICTORY_POINTS_20058:0 "Golyanovo"
+  VICTORY_POINTS_283:0 "Orekhovo-Zuyevo"
+  VICTORY_POINTS_12910:0 "Stupino"
+  VICTORY_POINTS_6789:0 "Klin"
+  VICTORY_POINTS_3018:0 "Volokolamsk"
+  VICTORY_POINTS_12726:0 "Sergiyev Posad"
+  VICTORY_POINTS_2141:0 "Kolomna"
+  VICTORY_POINTS_508:0 "Serebryanye Prudy"
+  VICTORY_POINTS_985:0 "Serpukhov"
+  
+  ####Leningrad####
+  VICTORY_POINTS_12534:0 "Leningrad"
+  VICTORY_POINTS_12506:0 "Sestroretsk"
+  VICTORY_POINTS_4266:0 "Petergof"
+  VICTORY_POINTS_20059:0 "Smolyachkovo"
+  VICTORY_POINTS_20060:0 "Moskovskiy"
+  VICTORY_POINTS_20061:0 "Pushkin"
+  VICTORY_POINTS_20062:0 "Shushari"
+  VICTORY_POINTS_20063:0 "Kolpino"
+
+  
+  ####Vinnytska####
+  VICTORY_POINTS_14206:0 "Vinnytsia"
+  VICTORY_POINTS_7659:0 "Haisyn"
+  
+  ####Khmelnytska####
+  VICTORY_POINTS_14219:0 "Khmelnytskyi"
+  VICTORY_POINTS_6945:0 "Shepetivka"
+  
+  ####Kyyivska####
+  VICTORY_POINTS_8497:0 "Bila Tserkva" 
+  VICTORY_POINTS_2995:0 "Pereiaslva" 
+  
+  ####Zhytomyrska####
+  VICTORY_POINTS_1836:0 "Zhytomyr" 
+  VICTORY_POINTS_8903:0 "Korosten"
+  VICTORY_POINTS_13958:0 "Novohrad-Volyns'kyi"
+  
+  ####Cherkaska####
+  VICTORY_POINTS_14036:0 "Cherkasy"
+  VICTORY_POINTS_3084:0 "Uman"
+  VICTORY_POINTS_4592:0 "Smila"
+  
+  ####Kirovohradska####
+  VICTORY_POINTS_10601:0 "Kropyvnytskyi"
+  VICTORY_POINTS_7706:0 "Oleksandriya"
+  
+  ####Dnipropetrovska####
+  VICTORY_POINTS_3614:0 "Dnipro"
+  VICTORY_POINTS_8467:0 "Kryvyi Rih"
+  
+  ####Poltavska####
+  VICTORY_POINTS_8918:0 "Poltava"
+  VICTORY_POINTS_7345:0 "Kremenchuk"
+  VICTORY_POINTS_9735:0 "Lubny"
+  
+  ####Kharkivska####
+  VICTORY_POINTS_13731:0 "Kharkiv" 
+  VICTORY_POINTS_13888:0 "Izyum" 
+  VICTORY_POINTS_13944:0 "Lozova"
+  
+  ####Luhanska####
+  VICTORY_POINTS_3869:0 "Luhansk"
+  VICTORY_POINTS_10006:0 "Severodonetsk"
+  VICTORY_POINTS_10057:0 "Starobil's'k"
+  
+  ####Sumska####
+  VICTORY_POINTS_2720:0 "Sumy"  
+  VICTORY_POINTS_1562:0 "Shostka"
+  VICTORY_POINTS_10195:0 "Romny"
+  
+  ####Chernihivska####
+  VICTORY_POINTS_9141:0 "Pryluky"
+  VICTORY_POINTS_8621:0 "Chernihiv"
+  VICTORY_POINTS_4221:0 "Nizhyn"
+  
+  ####Mazir####
+  VICTORY_POINTS_10511:0 "Mazyr"
+  
+  ####Gomelskaya####
+  VICTORY_POINTS_11015:0 "Gomel"
+  VICTORY_POINTS_10646:0 "Zlobin"
+  VICTORY_POINTS_160:0 "Zylkavicy"
+  
+  ####Minskaya####
+  VICTORY_POINTS_1126:0 "Minsk"
+  VICTORY_POINTS_5732:0 "Barysaw"
+  VICTORY_POINTS_13523:0 "Salihorsk"
+  VICTORY_POINTS_13435:0 "Niasviz"
+  
+  ####Mahilouskaya####
+  VICTORY_POINTS_9354:0 "Mahilyow"
+  VICTORY_POINTS_9625:0 "Kryshaw"
+  VICTORY_POINTS_9493:0 "Babruysk"
+  
+  ####Vichebskaya####
+  VICTORY_POINTS_13073:0 "Vitsyebsk" 
+  VICTORY_POINTS_11244:0 "Polatsk" 
+  VICTORY_POINTS_13182:0 "Orsha" 
+  VICTORY_POINTS_4690:0 "Pastavy"
+  
+  ####Pskov####
+  VICTORY_POINTS_9345:0 "Pskov"
+  VICTORY_POINTS_9081:0 "Opochika"
+  VICTORY_POINTS_3152:0 "Velikiye Luki"
+  
+  ####Leningrad####
+  VICTORY_POINTS_10964:0 "Gatchina"
+  VICTORY_POINTS_9661:0 "Kingisepp"
+  VICTORY_POINTS_834:0 "Luga"
+  VICTORY_POINTS_2711:0 "Volkhov"
+  VICTORY_POINTS_1112:0 "Kirishi"
+  VICTORY_POINTS_6555:0 "Voznesenye"
+  VICTORY_POINTS_12464:0 "Radogoshch"
+  
+  ####Novgorod####
+  VICTORY_POINTS_12623:0 "Veliky Novgorod"
+  VICTORY_POINTS_12548:0 "Pestovo"
+  VICTORY_POINTS_12696:0 "Staraya Russa"
+  VICTORY_POINTS_12589:0 "Borovichi"
+  
+  ####Tver####
+  VICTORY_POINTS_2643:0 "Tver"
+  VICTORY_POINTS_10428:0 "Rzhev"
+  VICTORY_POINTS_11095:0 "Toropets"
+  VICTORY_POINTS_12785:0 "Ostashkov"
+  VICTORY_POINTS_7132:0 "Vesyegonsk"
+  VICTORY_POINTS_12573:0 "Kesma"
+  VICTORY_POINTS_6269:0 "Kashin"
+  VICTORY_POINTS_12959:0 "Zharkovsky"
+  
+  ####Murmansk####
+  VICTORY_POINTS_7294:0 "Kandalaksha"
+  VICTORY_POINTS_8395:0 "Apatity"
+  
+  ####Karelian Republic#### 
+  VICTORY_POINTS_4815:0 "Petrozavodsk"
+  VICTORY_POINTS_11975:0 "Kem"
+  VICTORY_POINTS_8783:0 "Kostomuksha"
+  VICTORY_POINTS_11837:0 "Malinovaya"
+  VICTORY_POINTS_12372:0 "Kuytezha"
+  VICTORY_POINTS_6032:0 "Segezha"
+  
+  ####Smolensk####
+  VICTORY_POINTS_13086:0 "Smolensk"
+  VICTORY_POINTS_2817:0 "Roslavl"
+  VICTORY_POINTS_3448:0 "Vyazma"
+  VICTORY_POINTS_13043:0 "Yartsevo"
+ 
+  ####Bryansk####
+  VICTORY_POINTS_1814:0 "Bryansk"
+  VICTORY_POINTS_13420:0 "Novozybkov"
+  VICTORY_POINTS_8284:0 "Pochep"
+  VICTORY_POINTS_13405:0 "Sevsk"
+  
+  ####Oryol####
+  VICTORY_POINTS_7498:0 "Oryol"
+  VICTORY_POINTS_3304:0 "Livny"
+  VICTORY_POINTS_13167:0 "Mtsensk"
+  
+  ####Kaluga####
+  VICTORY_POINTS_12947:0 "Obninsk"
+  VICTORY_POINTS_5467:0 "Lyudinovo"
+  VICTORY_POINTS_12991:0 "Kaluga"
+  VICTORY_POINTS_13089:0 "Spas-Demensk"
+  
+  ####Kursk####
+  VICTORY_POINTS_706:0 "Kursk"
+  VICTORY_POINTS_2920:0 "Kurchatov"
+  VICTORY_POINTS_8893:0 "Gorshechnoye"
+  
+  ####Belgorod####
+  VICTORY_POINTS_5356:0 "Belgorod"
+  VICTORY_POINTS_13428:0 "Stary Oskol"
+  VICTORY_POINTS_5918:0 "Alexeyevka"
+  VICTORY_POINTS_13600:0 "Valuyki"
+  
+  ####Tula####
+  VICTORY_POINTS_8256:0 "Tula"
+  VICTORY_POINTS_952:0 "Novomoskovsk"
+  VICTORY_POINTS_9093:0 "Yefremov"
+  VICTORY_POINTS_13106:0 "Belyov"
+  VICTORY_POINTS_11285:0 "Shchyokino"
+  
+  ####Vladimir####
+  VICTORY_POINTS_12707:0 "Vladimir"
+  VICTORY_POINTS_12674:0 "Suzdal"
+  VICTORY_POINTS_1592:0 "Murom"
+  VICTORY_POINTS_1923:0 "Vyazniki"
+  VICTORY_POINTS_8334:0 "Kovrov"
+  VICTORY_POINTS_12762:0 "Gus-Khrustalny"
+ 
+  ####Ivanovo####
+  VICTORY_POINTS_5383:0 "Ivanovo"
+  VICTORY_POINTS_610:0 "Kineshma"
+  VICTORY_POINTS_7621:0 "Pestyaki"
+  
+  ####Yaroslavl####
+  VICTORY_POINTS_5317:0 "Yaroslavl"
+  VICTORY_POINTS_6023:0 "Rybinsk"
+  VICTORY_POINTS_3204:0 "Pereslavl-Zalessky"
+  VICTORY_POINTS_2671:0 "Danilov"
+  
+  ####Vologda####
+  VICTORY_POINTS_12426:0 "Vologda"
+  VICTORY_POINTS_1649:0 "Cherepovets"
+  VICTORY_POINTS_7196:0 "Veliky Ustyug"
+  VICTORY_POINTS_12315:0 "Vytegra"
+  VICTORY_POINTS_4138:0 "Ustyuzhna"
+  VICTORY_POINTS_930:0 "Sal'nik"
+  
+  ####Arkhangelsk####
+  VICTORY_POINTS_8310:0 "Arkhangelsk"
+  VICTORY_POINTS_5096:0 "Velsk"
+  VICTORY_POINTS_4358:0 "Kotlas"
+  VICTORY_POINTS_11309:0 "Onega"
+  
+  ####Ryazan####
+  VICTORY_POINTS_4334:0 "Ryazan" 
+  VICTORY_POINTS_5423:0 "Ermish"
+  VICTORY_POINTS_367:0 "Shelemishevo"
+  VICTORY_POINTS_10233:0 "Shatsk"
+  
+  ####Lipetsk####
+  VICTORY_POINTS_6561:0 "Lipetsk"
+  VICTORY_POINTS_6402:0 "Yelets"
+  VICTORY_POINTS_839:0 "Usman"
+  
+  ####Tambov####
+  VICTORY_POINTS_3012:0 "Tambov"
+  VICTORY_POINTS_13072:0 "Michurinsk"
+  VICTORY_POINTS_4721:0 "Pichayevo"
+  VICTORY_POINTS_12977:0 "Morhansk"
+  
+  ####Voronej####
+  VICTORY_POINTS_10015:0 "Voronezh"
+  VICTORY_POINTS_13218:0 "Borisoglebsk"
+  VICTORY_POINTS_5014:0 "Rossosh"
+  
+  ####Stravropol Krai####
+  VICTORY_POINTS_6185:0 "Stavropol"
+  VICTORY_POINTS_14553:0 "Pyatigorsk"
+  VICTORY_POINTS_6276:0 "Budyonnovsk"
+  
+  ####Kalmykia####
+  VICTORY_POINTS_8991:0 "Elista"
+  VICTORY_POINTS_1121:0 "Sladkoye"
+  VICTORY_POINTS_5810:0 "Sadovoye"
+  VICTORY_POINTS_13933:0 "Lagan"
+  VICTORY_POINTS_4857:0 "Utta"
+  
+  ####Dagestand####
+  VICTORY_POINTS_8403:0 "Makhachkala"
+  VICTORY_POINTS_14515:0 "Derbent"
+  VICTORY_POINTS_1831:0 "Khasavyurt"
+  VICTORY_POINTS_9943:0 "Kizlyar"
+  VICTORY_POINTS_14249:0 "Yuzhno-Sukhokumsk"
+
+  ####Chechnya####
+  VICTORY_POINTS_76:0 "Grozny"
+  VICTORY_POINTS_14446:0 "Naurskaya"
+  VICTORY_POINTS_6823:0 "Urus-Martan"
+  VICTORY_POINTS_14422:0 "Gudermes"
+  
+  ####Ingushetia####
+  VICTORY_POINTS_4409:0 "Nazran"
+  
+  ####North Ossetia####
+  VICTORY_POINTS_9169:0 "Vladikavkaz"
+  VICTORY_POINTS_1629:0 "Mozdok"
+  
+  ####Kabardino-Balkaria####
+  VICTORY_POINTS_1377:0 "Naichik"
+  VICTORY_POINTS_6861:0 "Tyrnyauz"
+  
+  ####Karachaevo-Cherkess####
+  VICTORY_POINTS_14572:0 "Cherkessk"
+  VICTORY_POINTS_14776:0 "Dombay"
+  VICTORY_POINTS_7353:0 "Mednogorskii"
+  
+  ####Azerbaijan####
+  VICTORY_POINTS_10406:0 "Baku"	
+  VICTORY_POINTS_10255:0 "Lankaran"	
+  VICTORY_POINTS_4878:0 "Shirvan"
+  VICTORY_POINTS_14806:0 "Sheki"
+  VICTORY_POINTS_14952:0 "Ganja"
+  VICTORY_POINTS_15101:0 "Zankandi"
+  VICTORY_POINTS_14621:0 "Quba"
+  VICTORY_POINTS_9565:0 "Gebele"
+  VICTORY_POINTS_6596:0 "Beyalagan"
+  
+  ####Abkhazeti####
+  VICTORY_POINTS_14914:0 "Sokumi"
+  VICTORY_POINTS_7031:0 "Gali"
+  VICTORY_POINTS_2946:0 "Alakhadzi"
+  
+  ####Volgograd####
+  VICTORY_POINTS_7794:0 "Stalingrad"
+  VICTORY_POINTS_6543:0 "Surovikino"
+  VICTORY_POINTS_13795:0 "Kotelnikovo"
+  VICTORY_POINTS_7254:0 "Kalach-na-Donu"
+  VICTORY_POINTS_6541:0 "Kamyshin"
+  VICTORY_POINTS_1279:0 "Pallasovka"
+  VICTORY_POINTS_904:0 "Mikhaylovka"
+  VICTORY_POINTS_3286:0 "Uryupinsk"
+  VICTORY_POINTS_4148:0 "Yelan"
+  
+  ####Saratov####
+  VICTORY_POINTS_11281:0 "Saratov"
+  VICTORY_POINTS_5071:0 "Volsk"
+  VICTORY_POINTS_4111:0 "Balashov"
+  VICTORY_POINTS_13034:0 "Ritschevo"
+  VICTORY_POINTS_9478:0 "Zolotoye"
+  VICTORY_POINTS_1086:0 "Kalininsk"
+  
+  ####Penza####
+  VICTORY_POINTS_8162:0 "Penza"
+  VICTORY_POINTS_2976:0 "Kuznetsk"
+  VICTORY_POINTS_9380:0 "Serdobsk"
+  VICTORY_POINTS_606:0 "Nizhny Lornov"
+  VICTORY_POINTS_12941:0 "Lopatino"
+  
+  ####Saransk####
+  VICTORY_POINTS_12771:0 "Saransk"
+  VICTORY_POINTS_7800:0 "Kovyikino"
+  VICTORY_POINTS_6611:0 "Ruzayevka"
+  VICTORY_POINTS_12870:0 "Umer"
+  
+  ####Nijniy Novgorod####
+  VICTORY_POINTS_4365:0 "Nizhy Novgorod"
+  VICTORY_POINTS_2899:0 "Shakhunya"
+  VICTORY_POINTS_12749:0 "Sarov"
+  VICTORY_POINTS_1044:0 "Arzamas"
+  
+  ####Kostroma####
+  VICTORY_POINTS_10856:0 "Kostroma"
+  VICTORY_POINTS_8890:0 "Odoyevskoye"
+  VICTORY_POINTS_12433:0 "Neya"
+  VICTORY_POINTS_879:0 "Soligalich"
+  VICTORY_POINTS_4813:0 "Buy"
+  
+  ####Astrakhan####
+  VICTORY_POINTS_13742:0 "Astrakhan"
+  VICTORY_POINTS_8974:0 "Znamensk"
+  VICTORY_POINTS_1176:0 "Verkhny Baskunchak"
+  VICTORY_POINTS_13826:0 "Basy"
+  
+  ####Atyrau####
+  VICTORY_POINTS_1746:0 "Atyrau"
+  VICTORY_POINTS_13153:0 "Makat"
+  VICTORY_POINTS_3:0 "Kulsary"
+  VICTORY_POINTS_1930:0 "Inderbor"
+  VICTORY_POINTS_10395:0 "Karabau"
+  VICTORY_POINTS_4873:0 "Ganyushkino"
+  VICTORY_POINTS_2600:0 "Isatay"
+  
+  ####Ekaterinburg####
+  VICTORY_POINTS_187:0 "Yekaterinburg"
+  VICTORY_POINTS_1111:0 "Nizhny Tagil"
+  VICTORY_POINTS_631:0 "Serov"
+  VICTORY_POINTS_9368:0 "Irbit"
+
+  ####Chelyabinsk####
+  VICTORY_POINTS_1046:0 "Chelyabinsk"
+  VICTORY_POINTS_1229:0 "Miass"
+  VICTORY_POINTS_103:0 "Troitsk"
+  VICTORY_POINTS_295:0 "Magnitogorsk"
+  
+  ####Batys Qazaqstan####
+  VICTORY_POINTS_5488:0 "Katalovka"
+  VICTORY_POINTS_2876:0 "Uralsk"
+  VICTORY_POINTS_2113:0 "Taipaq"
+  VICTORY_POINTS_2580:0 "Chapaev"
+  VICTORY_POINTS_2965:0 "Saykhin"
+  
+  ####Ulyanovsk####
+  VICTORY_POINTS_12640:0 "Ulyanovsk"
+  VICTORY_POINTS_11572:0 "Dimitrovgrad"
+  VICTORY_POINTS_12693:0 "Akneyevo"
+  VICTORY_POINTS_10678:0 "Barysh"
+  VICTORY_POINTS_6397:0 "Pavlovoka"
+  
+  ####Samara####
+  VICTORY_POINTS_3588:0 "Tolyatti"
+  VICTORY_POINTS_12721:0 "Samara"
+  VICTORY_POINTS_3954:0 "Syzran"
+  VICTORY_POINTS_10734:0 "Bol'shaya Chernigovka"
+  VICTORY_POINTS_6628:0 "Sukhodol"
+  
+  ####Tatarstan####
+  VICTORY_POINTS_9754:0 "Kazan"
+  VICTORY_POINTS_12595:0 "Buinsk"
+  VICTORY_POINTS_12444:0 "Naberezhnye Chelny"
+  VICTORY_POINTS_12475:0 "Almetyevsk"
+  VICTORY_POINTS_1838:0 "Nurlat"
+  VICTORY_POINTS_1311:0 "Christopol"
+  
+  ####Kirov####
+  VICTORY_POINTS_62:0 "Kirov"
+  VICTORY_POINTS_7774:0 "Yaransk"
+  VICTORY_POINTS_2141:0 "Sovietsk"
+  VICTORY_POINTS_12399:0 "Vyatskiye Polyany"
+  VICTORY_POINTS_1002:0 "Urzhum"
+  
+  ####Udmuritya####
+  VICTORY_POINTS_5450:0 "Izhevsk" 
+  VICTORY_POINTS_1520:0 "Glazov" 
+  VICTORY_POINTS_573:0 "Mozhga"
+  
+  ####Perm####
+  VICTORY_POINTS_1601:0 "Perm"
+  VICTORY_POINTS_9209:0 "Berezniki"
+  VICTORY_POINTS_728:0 "Kungur"
+  VICTORY_POINTS_1450:0 "Ochyor"
+  
+  ####Komi Republic####
+  VICTORY_POINTS_1528:0 "Ukhta"
+  VICTORY_POINTS_11957:0 "Syktvkar"
+  VICTORY_POINTS_787:0 "Chim"
+  
+  ####Bashkurtistan####
+  VICTORY_POINTS_8622:0 "Ufa"
+  VICTORY_POINTS_2357:0 "Neftekamsk"
+  VICTORY_POINTS_9292:0 "Salavat"
+  VICTORY_POINTS_11260:0 "Beloretsk"
+  VICTORY_POINTS_6641:0 "Sibay"
+  VICTORY_POINTS_12500:0 "Oktyabrsky"
+ 
+  ####Orenburg####
+  VICTORY_POINTS_4202:0 "Orenburg"
+  VICTORY_POINTS_735:0 "Buzuluk"
+  VICTORY_POINTS_286:0 "Sharlyk"
+  VICTORY_POINTS_5097:0 "Orsk"
+  
+  ####Kurgan####
+  VICTORY_POINTS_5866:0 "Kurgan"
+  VICTORY_POINTS_11971:0 "Shadrinsk"
+  VICTORY_POINTS_11613:0 "Petukhovo"
+  
+  ####Tyumen####
+  VICTORY_POINTS_3616:0 "Tyumen"
+  
+  ####Omsk####
+  VICTORY_POINTS_1408:0 "Omsk"
+  
+  ####Mangghystau####
+  VICTORY_POINTS_2770:0 "Aktau"
+  VICTORY_POINTS_13720:0 "Tushikuduk"
+  VICTORY_POINTS_5225:0 "Beyneu"
+  
+  ####Balkan####
+  VICTORY_POINTS_14509:0 "Turkmenbashi"
+  VICTORY_POINTS_7979:0 "Serdar"
+  VICTORY_POINTS_2311:0 "Balkanabat"
+  
+  ####Ahal####
+  VICTORY_POINTS_7945:0 "Ashgabat"
+  
+  ####Dashhowuz####
+  VICTORY_POINTS_10326:0 "Darvaza"
+  VICTORY_POINTS_13515:0 "Dashoguz"
+  
+  ####Lebap####
+  VICTORY_POINTS_13468:0 "Gazadzhak"
+  
+  ####Qaraqalpoghiston####
+  VICTORY_POINTS_13429:0 "Nukus"
+  VICTORY_POINTS_13511:0 "Urgench"
+  
+  ####Lazeti####
+  VICTORY_POINTS_9826:0 "Batumi"
+  
+  ####Adchara####
+  VICTORY_POINTS_8528:0 "Khulo"
+  
+  ####Guria####
+  VICTORY_POINTS_1281:0 "Chokhatarui"
+  
+  ####Samegrelo####
+  VICTORY_POINTS_5497:0 "Poti"
+  VICTORY_POINTS_8459:0 "Mazeri"
+  
+  ####Imereti####
+  VICTORY_POINTS_3011:0 "Kutaisi"
+  
+  ####Kakheti####
+  VICTORY_POINTS_8346:0 "Sighnaghi"
+  VICTORY_POINTS_1115:0 "Omalo"
+  
+  ####Kvemo Kartli####
+  VICTORY_POINTS_8159:0 "Rustavi"
+  VICTORY_POINTS_15000:0 "Tsalka"
+  VICTORY_POINTS_14903:0 "Tbilisi"
+  
+  ####Shida Kartli####
+  VICTORY_POINTS_2172:0 "Tskhinvali"
+  
+  ####Javakheti####
+  VICTORY_POINTS_11218:0 "Ninotsminda"
+  VICTORY_POINTS_3217:0 "Akhaltsikhe"
+  VICTORY_POINTS_10309:0 "Bakuriani"

@@ -1,0 +1,37 @@
+
+state={
+	id=165
+	name="STATE_165"
+	resources={
+		tungsten=50.000
+	}
+
+	history={
+		owner = POR
+		add_core_of = POR
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 5
+			dockyard = 2
+
+		}
+		victory_points = {
+		4925 1
+		}
+		victory_points = {
+		16001 5
+		}
+		victory_points = {
+		4517 5
+		}
+	}
+
+	provinces={
+		1534 4095 4517 4925 6115 8274 10867 10957 16001 16029 16081 16128 16146 
+	}
+	manpower=1995800
+	buildings_max_level_factor=1.000
+	state_category=city
+}

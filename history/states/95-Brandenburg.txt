@@ -1,0 +1,36 @@
+state={
+	id=95
+	name="STATE_95"
+	provinces={
+		42 700 2019 2103 2698 2834 3069 3242 4289 5027 6292 6420 6432 6922 8891 9469 10423 10871 11556 13706 13711 13746 13748 13751 13780 13787 13796 13816 13860 13871 13909 13916 19454 19455 19456 19457 19458 19459 19460 
+	}
+	manpower=7265029
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 8
+			arms_factory = 5
+			industrial_complex = 4
+			anti_air_building = 2
+			air_base = 6
+		}
+		victory_points = {
+		19458 200
+		}
+		victory_points = {
+		19456 10
+		}
+		victory_points = {
+		19455 5
+		}
+		victory_points = {
+		19459 19
+		}
+		victory_points = {
+		6292 5
+		}
+	}
+}

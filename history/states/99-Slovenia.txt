@@ -1,0 +1,32 @@
+
+state={
+	id=99
+	name="STATE_99"
+	provinces={
+		568 1975 3427 5461 6708 7598 9058 9637 9791 10345 10458 10902 11224 15092 15104 15120 15128 15144 15145 15167 15168 15193 15208 15209 15218 15318 15319 19998 20296 
+	}
+	manpower=1144300
+	buildings_max_level_factor=1.000
+	state_category = large_town
+	history =
+	{
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = SLV
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+		19998 25
+		}
+		victory_points = {
+		15145 5
+		}
+		victory_points = {
+		1975 1
+		}
+		victory_points = {
+		15092 1
+		}
+	}
+}

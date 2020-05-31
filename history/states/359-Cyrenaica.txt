@@ -1,0 +1,17 @@
+state={
+	id=359
+	name="STATE_359"
+	provinces={
+		470 536 1611 1664 1755 2327 2912 3889 4042 4617 4669 4999 5919 6236 6848 7963 8574 8841 9210 9537 9964 9970 10627 10888 11461 16931 16939 16943 16974 16992 17019 
+	}
+	manpower=8808
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	history={
+		owner = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

@@ -1,0 +1,36 @@
+state={
+	id=276
+	name="STATE_276"
+	provinces={
+		3019 3135 3387 3546 5702 10012 13853 13880 13965 
+	}
+	manpower=1800615
+	buildings_max_level_factor=1.000
+	state_category = city
+	resources={
+		steel=9 # was: 16
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+		}
+		victory_points = {
+		13853 1
+		}
+		victory_points = {
+		3019 1
+		}
+		victory_points = {
+		3387 5 
+		}
+		victory_points = {
+		3135 1 
+		}
+	}
+
+}

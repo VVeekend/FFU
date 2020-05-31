@@ -1,0 +1,17 @@
+state={
+	id=356
+	name="STATE_356"
+	provinces={
+		96 285 703 813 1643 2586 3076 3128 3196 3287 4646 4975 5566 5707 5823 5865 6007 6809 8015 8593 9572 9711 9934 10621 10623 10816 17035 17037 17044 17049 17058 17066 17072 17089 17105 
+	}
+	manpower=40431
+	buildings_max_level_factor=1.000
+	state_category = enclave
+	history={
+		owner = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

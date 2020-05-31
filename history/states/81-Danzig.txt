@@ -1,0 +1,32 @@
+
+state={
+	id=81
+	name="STATE_81"
+
+	history={
+		owner = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+
+		}
+		victory_points = {
+			436 5 
+		}
+		victory_points = {
+			5030 20 
+		}
+
+	}
+
+	provinces={
+		436 1742 1924 3456 5030 5784 6816 6869 6923 7873 8056 8798 9326 9842 10042 10085 10787 11632 13400 13404 13434 13493 13494 13605 13767 
+	}
+	manpower=1080100
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=16
+	name="STATE_16"
+	provinces={
+		2446 3031 4388 5361 6683 6713 7635 9439 10097 10556 10872 12907 12928 12984 13007 13013 13027 13036 
+	}
+	manpower=745466
+	buildings_max_level_factor=1.000
+	state_category = town
+	resources={
+		tungsten=4 # was: 6
+		aluminium=3 # was: 4
+	}
+	history={
+		add_core_of = ENG
+		owner = ENG
+		buildings = {
+			infrastructure = 6
+			dockyard = 2
+		}
+		victory_points = {
+			12928 1
+		}
+		victory_points = {
+			3031 1
+		}
+	}
+}

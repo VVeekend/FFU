@@ -1,0 +1,18 @@
+state={
+	id=358
+	name="STATE_358"
+	provinces={
+		1007 1136 2063 2091 2715 2898 2986 3290 3557 4305 4588 5111 5190 5432 7454 9684 10649 16861 16865 16882 16885 16893 16902 16910 16912 
+	}
+	manpower=45628
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	history={
+		owner = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			}
+		}
+}

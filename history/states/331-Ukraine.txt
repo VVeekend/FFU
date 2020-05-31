@@ -1,0 +1,34 @@
+
+state={
+	id=331
+	name="STATE_331"
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 2
+
+		}
+		victory_points = {
+			13886 25 
+		}
+		victory_points = {
+			8497 1 
+		}
+		victory_points = {
+			2995 1 
+		}
+
+	}
+
+	provinces={
+		888 1632 1880 2903 2995 3406 3408 3512 4955 6110 7517 8202 8487 8497 8603 10461 10626 11413 13707 13727 13764 13809 13828 13831 13873 13886 13920 13921 13964 14039 14099 14167 20320 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

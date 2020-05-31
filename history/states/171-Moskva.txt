@@ -1,0 +1,65 @@
+state={
+	state_category = town
+	id=171
+	name="STATE_171"
+	resources={
+		steel=16 # was: 28
+	}
+	history={
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4 }
+		victory_points = {
+		1920 50
+		}
+		victory_points = {
+		20053 5 #Lyublino
+		}
+		victory_points = {
+		20054 5 #Konkovo
+		}
+		victory_points = {
+		20055 5 #Kuntsevo
+		}
+		victory_points = {
+		20056 5 #Otradnoye
+		}
+		victory_points = {
+		20057 5 #Voykovskiy
+		}
+		victory_points = {
+		20058 5 #Golyanovo
+		}
+		victory_points = {
+		283 1
+		}
+		victory_points = {
+		12910 1
+		}
+		victory_points = {
+		6789 1
+		}
+		victory_points = {
+		3018 1
+		}
+		victory_points = {
+		12726 1
+		}
+		victory_points = {
+		2141 1
+		}
+		victory_points = {
+		508 1
+		}
+		victory_points = {
+		985 1
+		}
+	}
+	provinces={
+		283 508 985 1429 1920 2141 2387 2984 2999 3018 3303 4016 4068 4403 4618 4636 4859 5179 5565 6674 6687 6789 7741 8211 8423 8759 9150 10696 11387 11485 11555 11570 12726 12748 12813 12827 12838 12848 12863 12889 12910 12921 12975 20053 20054 20055 20056 20057 20058
+	}
+	manpower=3565000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=272
+	name="STATE_272"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 6
+
+		}
+		victory_points = {
+			16890 20 
+		}
+		victory_points = {
+			7391 1 
+		}
+		victory_points = {
+			3968 1 
+		}
+		victory_points = {
+			4285 1 
+		}
+		victory_points = {
+			3214 1 
+		}
+
+	}
+
+	provinces={
+		679 900 3127 3214 3968 5069 5456 8152 8757 16844 16890 20328 
+	}
+	manpower=3859239
+	buildings_max_level_factor=1.000
+	state_category=town
+}

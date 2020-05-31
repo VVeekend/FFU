@@ -1,0 +1,73 @@
+state={
+	id=265
+	name="STATE_265"
+	provinces={
+		662 1281 1419 1440 1626 1756 1865 2172 2281 2291 3011 3138 3217 3566 3927 4304 4938 5418 5497 5830 5998 6537 6540 6647 7031 7063 7249 7485 7496 7750 7970 8159 8183 8346 8358 8528 8703 9034 9131 9461 9510 9517 9547 9570 9681 9826 10309 10422 10624 10660 11193 11218 11220 11361 11538 11539 11551 14832 14847 14854 14855 14867 14874 14879 14903 14914 14918 14944 14950 14984 15000 15001 15015 15027 15028 15068 15111 15131 15174 
+	}
+	manpower=2949413
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 3
+			}
+		victory_points = {
+			8346 1 
+		}
+		victory_points = {
+			1115 1 
+		}
+		victory_points = {
+			8159 1 
+		}
+		victory_points = {
+			15000 1 
+		}
+		victory_points = {
+			14903 20 
+		}
+		victory_points = {
+			2172 1 
+		}
+		victory_points = {
+			3011 10 
+		}
+		victory_points = {
+			11218 1 
+		}
+		victory_points = {
+			3217 1 
+		}
+		victory_points = {
+			10309 1 
+		}
+		victory_points = {
+			9826 15 
+		}
+		victory_points = {
+			8528 1 
+		}
+		victory_points = {
+			1281 1 
+		}
+		victory_points = {
+			5497 5 
+		}
+		victory_points = {
+			8459 1 
+		}
+		victory_points = {
+			14914 1 
+		}
+		victory_points = {
+			7031 1 
+		}
+		victory_points = {
+			2946 1 
+		}
+	}
+}

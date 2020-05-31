@@ -1,0 +1,38 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		914 963 5558 9271 10053 11009 13596 13633 13729 13734 13770 13775 13802 13833 
+	}
+	manpower=3685235
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+	resources={
+		steel=27 # was: 48
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 6
+		}
+		victory_points = {
+		963 1
+		}
+		victory_points = {
+		10053 5 
+		}
+		victory_points = {
+		9102 5 
+		}
+		victory_points = {
+		9236 5 
+		}
+		victory_points = {
+		13775 1
+		}
+       }
+}

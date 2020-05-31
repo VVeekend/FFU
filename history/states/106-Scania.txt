@@ -1,0 +1,20 @@
+
+state={
+	id=106
+	name="STATE_106"
+	provinces={
+		1200 1563 1763 2085 3777 3860 4753 5015 5753 5849 6129 6336 8381 8394 8398 8653 8894 9128 9473 9779 10499 11438 13044 13077 13097 13117 13138 13139 13143 13155 13186 13232 
+	}
+	manpower=1047701
+	buildings_max_level_factor=1.000
+        state_category = town
+	history={
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			}
+		}
+}

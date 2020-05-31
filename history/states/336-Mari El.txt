@@ -1,0 +1,17 @@
+state={
+	state_category = town
+	id=336
+	name="STATE_336"
+	provinces={
+		1624 3175 3590 4531 5652 6334 6416 6767 7375 7423 8929 10713 12388 12403 12482 12505 12517 
+	}
+	manpower=581000
+	buildings_max_level_factor=1.000
+	history={
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 3 }
+
+	}
+}

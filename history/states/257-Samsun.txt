@@ -1,0 +1,63 @@
+
+state={
+	id=257
+	name="STATE_257"
+	provinces={
+		134 156 519 1555 1638 2368 2727 2936 3461 4096 4156 4315 4931 4949 5524 5655 5790 6168 6431 6501 6885 7148 7187 7675 7676 7678 7861 8217 8619 8639 8643 9044 9378 9655 9956 10583 10717 10784 11245 11517 11626 15454 15462 15498 15509 15513 15529 15535 15536 15538 15553 15571 15601 15630 15667 15678 15730 
+	}
+	manpower=1151863
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+		519 2
+		}
+		victory_points = {
+		15538 1
+		}
+		victory_points = {
+		10717 1
+		}
+		victory_points = {
+		7675 3
+		}
+		victory_points = {
+		5655 1
+		}
+		victory_points = {
+		4931 1 #Mesudiye
+		}
+		victory_points = {
+		15667 2
+		}
+		victory_points = {
+		9956 1
+		}
+		victory_points = {
+		8639 1
+		}
+		victory_points = {
+		5524 3
+		}
+		victory_points = {
+		3282 1
+		}
+		victory_points = {
+		8217 10
+		}
+		victory_points = {
+		8913 3
+		}
+		victory_points = {
+		11517 1 #Çarþamba
+		}
+		victory_points = {
+		15588 1 #Havza
+		}
+	}
+}

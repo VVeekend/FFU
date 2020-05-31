@@ -1,0 +1,39 @@
+state={
+	id=115
+	name="STATE_115"
+	provinces={
+		2866 2892 2968 2987 3497 3812 4825 4871 4977 7153 7518 7679 7787 7838 7956 8583 8615 9198 9233 9303 9393 9608 10770 11068 11342 11357 11399 12925 12961 12969 12987 12994 13008 13014 13020 13021 13032 13033 13050 13069 
+	}
+	manpower=379500
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = LAT
+		add_core_of = LAT
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+		}
+		victory_points = {
+		12961 20
+		}
+		victory_points = {
+		2968 1
+		}
+		victory_points = {
+		9198 1
+		}
+		victory_points = {
+		7518 1
+		}
+		victory_points = {
+		11342 10
+		}
+		victory_points = {
+		4977 1
+		}
+		victory_points = {
+		13008 1
+		}
+	}
+}

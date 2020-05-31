@@ -1,0 +1,20 @@
+state={
+	id=368
+	name="STATE_368"
+	provinces={
+		2550 2962 6128 6525 8050 8845 9053 10793 15872 15893 15926 15965 15984 15997 
+	}
+	manpower=364601
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	resources={
+		tungsten=10.000 #added due to Portugal Setup
+	}
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 5
+		}
+        }
+}

@@ -1,0 +1,48 @@
+
+state={
+	state_category = town
+	id=182
+	name="STATE_182"
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 5 }
+		victory_points = {
+			2600 1 
+		}
+		victory_points = {
+		    14421 1 
+		}
+		victory_points = {
+		    3123 1 
+		}
+		victory_points = {
+		    8306 1
+		}
+		victory_points = {
+		    7761 1
+		}
+		victory_points = {
+		    6162 1
+		}
+		victory_points = {
+		    9096 1
+		}
+		victory_points = {
+		    1720 1
+		}
+		victory_points = {
+		    1315 20
+		}
+
+	}
+
+	provinces={
+		550 1315 2660 2812 3123 3819 4005 4149 4225 5184 5410 5906 6010 6324 7705 9376 9806 10393 14243 14257 14301 14307 14331 14342 14358 14375 14421 14433 14455 
+	}
+	manpower=1464000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=135
+	name="STATE_135"
+	provinces={
+		927 2706 3125 3313 3604 4206 4621 4744 5037 6652 6720 7330 7473 7889 7981 8795 8872 9454 9610 10528 10944 10950 11097 11110 11628 16077 16154 16160 16182 16185 16187 16206 16255 16334 
+	}
+	manpower=228000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner=GRE
+		add_core_of=GRE
+		buildings={
+			infrastructure=4
+			}
+        victory_points = {
+		6652 1
+		}
+        victory_points = {
+		9454 1
+		}
+        victory_points = {
+		16160 1
+		}
+        victory_points = {
+		11628 1
+		}
+        victory_points = {
+		3313 5
+		}
+        victory_points = {
+		10528 1
+		}
+        victory_points = {
+		8872 1
+		}
+        victory_points = {
+		16357 1
+		}
+	}
+}

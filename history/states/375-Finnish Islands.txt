@@ -1,0 +1,18 @@
+state={
+	id=375
+	name="STATE_375"
+	provinces={
+		17195 17200 17205 17206 17207 17208 17209 17223 17227 17230 17231 17232 17233 17234 17235 17236 17238 17240 17241 
+	}
+	manpower=17400
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	history=
+	{
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 3
+			}
+		}
+}

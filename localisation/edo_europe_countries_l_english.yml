@@ -1,0 +1,165 @@
+﻿l_english:
+
+ NCY_democratic:0 "Northern Cyprus"
+ NCY_democratic_ADJ:0 "Turkish-Cypriot"
+ NCY_democratic_DEF:0 "the Turkish Republic of Northern Cyprus"
+ 
+ RUS_democratic:0 "Russian Federation"
+ RUS_democratic_ADJ:0 "Russian"
+ RUS_democratic_DEF:0 "the Russian Federation"
+ 
+ KOS_democratic:0 "Kosovo"
+ KOS_democratic_DEF:0 "Kosovo"
+ KOS_democratic_ADJ:0 "Kosovar"
+ 
+ HAN_neutrality:0 "Hannover"
+ HAN_neutrality_DEF:0 "Hannover"
+ HAN_neutrality_ADJ:0 "Hannoverian"
+ 
+ SAX_neutrality:0 "Saxony"
+ SAX_neutrality_DEF:0 "Saxony"
+ SAX_neutrality_ADJ:0 "Saxon"
+ 
+ THU_neutrality:0 "Thuringia" 
+ THU_neutrality_DEF:0 "Thuringia" 
+ THU_neutrality_ADJ:0 "Thuringian" 
+ 
+ HES_neutrality:0 "Hesse"
+ HES_neutrality_DEF:0 "Hesse"
+ HES_neutrality_ADJ:0 "Hessisch"
+ 
+ BAD_neutrality:0 "Baden"
+ BAD_neutrality_DEF:0 "Baden"
+ BAD_neutrality_ADJ:0 "Badisch"
+ 
+ HLS_neutrality:0 "Schleswig-Holstein"
+ HLS_neutrality_DEF:0 "Schleswig-Holstein"
+ HLS_neutrality_ADJ:0 "Schleswigoholsteiner"
+ 
+ POM_neutrality:0 "Pomerania"
+ POM_neutrality_DEF:0 "Pomerania"
+ POM_neutrality_ADJ:0 "Pomeranian"
+ 
+ RHI_neutrality:0 "Rhineland"
+ RHI_neutrality_DEF:0 "Rhineland"
+ RHI_neutrality_ADJ:0 "Rhinelander"
+ 
+ BRN_neutrality:0 "Brandenburg"
+ BRN_neutrality_DEF:0 "Brandenburg"
+ BRN_neutrality_ADJ:0 "Brandenburger"
+ 
+ SIL_neutrality:0 "Silesia"
+ SIL_neutrality_DEF:0 "Silesia"
+ SIL_neutrality_ADJ:0 "Silesian"
+ 
+ WST_neutrality:0 "Westphalia"
+ WST_neutrality_DEF:0 "Westphalia"
+ WST_neutrality_ADJ:0 "Westphalian"
+ 
+ NRM_neutrality:0 "Normandy"
+ NRM_neutrality_DEF:0 "Normandy"
+ NRM_neutrality_ADJ:0 "Normand"
+ 
+ ALS_neutrality:0 "Alsace"
+ ALS_neutrality_DEF:0 "Alsace"
+ ALS_neutrality_ADJ:0 "Alsacien"
+ 
+ LOR_neutrality:0 "Lorraine"
+ LOR_neutrality_DEF:0 "Lorraine"
+ LOR_neutrality_ADJ:0 "Lorrain"
+ 
+ PIC_neutrality:0 "Picardie"
+ PIC_neutrality_DEF:0 "Picardie"
+ PIC_neutrality_ADJ:0 "Picard"
+ 
+ CHM_neutrality:0 "Champagne"
+ CHM_neutrality_DEF:0 "Champagne"
+ CHM_neutrality_ADJ:0 "Champenois"
+ 
+ IDF_neutrality:0 "Île-de-France"
+ IDF_neutrality_DEF:0 "Île-de-France"
+ IDF_neutrality_ADJ:0 "Francilien"
+ 
+ BOU_neutrality:0 "Bourgogne"
+ BOU_neutrality_DEF:0 "Bourgogne"
+ BOU_neutrality_ADJ:0 "Bourguignon"
+ 
+ FRC_neutrality:0 "Franche-Comté"
+ FRC_neutrality_DEF:0 "Franche-Comté"
+ FRC_neutrality_ADJ:0 "Franc-Comtois"
+ 
+ ORL_neutrality:0 "Orléans"
+ ORL_neutrality_DEF:0 "Orléans"
+ ORL_neutrality_ADJ:0 "Orléanais"
+ 
+ ANJ_neutrality:0 "Anjou"
+ ANJ_neutrality_DEF:0 "Anjou"
+ ANJ_neutrality_ADJ:0 "Angévin"
+ 
+ POI_neutrality:0 "Poitou"
+ POI_neutrality_DEF:0 "Poitou"
+ POI_neutrality_ADJ:0 "	Poitevin"
+ 
+ LIM_neutrality:0 "Limousin"
+ LIM_neutrality_DEF:0 "Limousin"
+ LIM_neutrality_ADJ:0 "Limousin"
+ 
+ GUY_neutrality:0 "Guyenne"
+ GUY_neutrality_DEF:0 "Guyenne"
+ GUY_neutrality_ADJ:0 "Guyennen"
+ 
+ GSC_neutrality:0 "Gascogne"
+ GSC_neutrality_DEF:0 "Gascogne"
+ GSC_neutrality_ADJ:0 "Gascognen"
+ 
+ LNG_neutrality:0 "Languedoc"
+ LNG_neutrality_DEF:0 "Languedoc"
+ LNG_neutrality_ADJ:0 "Languedocn"
+ 
+ AUV_neutrality:0 "Auvergne"
+ AUV_neutrality_DEF:0 "Auvergne"
+ AUV_neutrality_ADJ:0 "Auvergnen"
+ 
+ DAU_neutrality:0 "Dauphiné"
+ DAU_neutrality_DEF:0 "Dauphiné"
+ DAU_neutrality_ADJ:0 "Dauphinén"
+ 
+ PRV_neutrality:0 "Provence"
+ PRV_neutrality_DEF:0 "Provence"
+ PRV_neutrality_ADJ:0 "Provencen"
+ 
+ SAV_neutrality:0 "Savoie"
+ SAV_neutrality_DEF:0 "Savoie"
+ SAV_neutrality_ADJ:0 "Savoien"
+ 
+ STR_neutrality:0 "Duchy of Styria"
+ STR_neutrality_DEF:0 "Styria"
+ STR_neutrality_ADJ:0 "Styrian"
+ 
+ MRV_neutrality:0 "Kingdom of Moravia"
+ MRV_neutrality_DEF:0 "Kingdom of Moravia"
+ MRV_neutrality_ADJ:0 "Moravian"
+ 
+ BHM_neutrality:0 "Kingdom of Bohemia"
+ BHM_neutrality_DEF:0 "Kingdom of Bohemia"
+ BHM_neutrality_ADJ:0 "Bohemian"
+ 
+ TIR_neutrality:0 "Duchy of Tirol"
+ TIR_neutrality_DEF:0 "Duchy of Tirol"
+ TIR_neutrality_ADJ:0 "Tirolian"
+ 
+ SLZ_neutrality:0 "Salzburg"
+ SLZ_neutrality_DEF:0 "Salzburg"
+ SLZ_neutrality_ADJ:0 "Salzburgian"
+
+ SDZ_neutrality:0 "Sandzak"
+ SDZ_neutrality_DEF:0 "Sandzak"
+ SDZ_neutrality_ADJ:0 "Sandzak"
+
+ SRP_neutrality:0 "Republika Srpska"
+ SRP_neutrality_DEF:0 "Republika Srpska"
+ SRP_neutrality_ADJ:0 "Srpskan"
+ 
+ VJV_neutrality:0 "Vojvodina"
+ VJV_neutrality_DEF:0 "Vojvodina"
+ VJV_neutrality_ADJ:0 "Vojvodinan"

@@ -1,0 +1,18 @@
+state={
+	id=352
+	name="STATE_352"
+	provinces={
+		249 544 847 869 1071 1208 1261 1582 1807 1905 2339 2385 2826 3081 3343 3730 4120 4575 4782 4858 5035 5218 5285 5769 6845 7268 7489 7863 8412 9946 9988 10214 10355 10470 11006 11196 11439 14452 14477 14491 14561 14670 14729 14802 14964 15047 
+	}
+	manpower=1059739
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+}

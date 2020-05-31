@@ -1,0 +1,60 @@
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		1422 1866 3756 4161 4816 5476 5794 5877 9113 9649 10130 10636 11392 13976 14002 14022 14023 14061 14070 14071 14082 14105 14109 14116 
+	}
+	manpower=3193383
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	history={
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			fuel_silo = 1
+			anti_air_building = 2
+			radar_station = 1
+			air_base = 10
+		}
+		victory_points = {
+		14116 5 
+		}
+		victory_points = {
+		5877 1 
+		}
+		victory_points = {
+		14070 5 
+		}
+		victory_points = {
+		13976 1 
+		}
+		victory_points = {
+		9649 5 
+		}
+		victory_points = {
+		11392 1 
+		}
+		victory_points = {
+		14061 5 
+		}
+		victory_points = {
+		14109 5 
+		}
+		victory_points = {
+		4816 1
+		}
+		victory_points = {
+		14105 1
+		}
+		victory_points = {
+		14023 1
+		}
+		victory_points = {
+		10130 1
+		}
+        }
+}

@@ -1,0 +1,41 @@
+state={
+	id=263
+	name="STATE_263"
+	provinces={
+		1205 2426 2437 2839 3556 3659 3803 4194 4209 4604 4711 5709 6590 6676 6806 7560 7868 7876 7892 8122 8589 8911 8919 9147 9436 9884 10162 10526 10694 11010 11181 15171 15184 15202 15233 15276 15313 15317 15340 15361 15402 15412 15473 
+	}
+	manpower=1031129
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+		8911 5
+		}
+		victory_points = {
+		9147 1
+		}
+		victory_points = {
+		15174 3 
+		}
+		victory_points = {
+		2437 1
+		}
+		victory_points = {
+		15202 3 #I'm from here!
+		}
+		victory_points = {
+		15276 1
+		}
+		victory_points = {
+		7876 3
+		}
+		victory_points = {
+		8589 1
+		}
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=153
+	name="STATE_153"
+
+	history={
+		owner = YUG
+		add_core_of = YUG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			677 10 
+		}
+		victory_points = {
+			865 15 
+		}
+		victory_points = {
+			6930 1 
+		}
+		victory_points = {
+			10924 15 
+		}
+
+	}
+
+	provinces={
+		677 865 1615 3089 3500 5465 5756 6279 6362 6930 7136 7369 9234 9426 9477 10924 11194 15381 15403 15414 15423 15424 15437 15451 15452 15480 15508 15523 15537 15548 15585 15605 15651 15675 15721 15777 20298 
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

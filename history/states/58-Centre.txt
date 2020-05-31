@@ -1,0 +1,39 @@
+state={
+	id=58
+	name="STATE_58"
+	provinces={
+		1380 2169 3262 4854 4920 5691 6374 7320 7348 7653 8252 8329 8436 9217 11153 11410 14795 14865 14875 14901 14908 14945 15002 19544 19546 19548 19551 19553 19554 19555 19556 19558 19578 19966 19967 19970 19975 19982 19983 19984 19986 
+	}
+	manpower=1546300
+	buildings_max_level_factor=1.000
+	state_category = large_town
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+		}
+		victory_points = {
+			19555 20
+		}
+		victory_points = {
+			19556 1
+		}
+		victory_points = {
+			3950 1
+		}
+		victory_points = {
+			19983 10
+		}
+		victory_points = {
+			19553 1
+		}
+		victory_points = {
+			2169 1
+		}
+		victory_points = {
+			19967 10
+		}
+       }
+}

@@ -1,0 +1,41 @@
+state={
+	id=10
+	name="STATE_10"
+	provinces={
+		2266 2377 3369 4186 5395 6940 7104 7591 8939 9102 9236 9475 11372 13542 13591 13603 13638 13700 13771 
+	}
+	manpower=2212021
+	buildings_max_level_factor=1.000
+	state_category = city
+	resources={
+		steel=11 # was: 20
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 5
+		}
+		victory_points = {
+		6940 1
+		}
+		victory_points = {
+		7591 5 
+		}
+		victory_points = {
+		13591 1 
+		}
+		victory_points = {
+		6603 1 
+		}
+		victory_points = {
+		7104 1 
+		}
+		victory_points = {
+		5395 1 
+		}
+         }
+}

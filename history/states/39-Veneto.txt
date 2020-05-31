@@ -1,0 +1,63 @@
+
+state={
+	id=39
+	name="STATE_39"
+	resources={
+		steel=20.000
+		aluminium=11.000
+	}
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			air_base = 3
+
+		}
+		victory_points = {
+			15228 5 
+		}
+		victory_points = {
+			5540 1 
+		}
+		victory_points = {
+			19477 1 
+		}
+		victory_points = {
+			5087 20 
+		}
+		victory_points = {
+			10855 1 
+		}
+		victory_points = {
+			7299 5 
+		}
+		victory_points = {
+			3969 1 
+		}
+		victory_points = {
+			15442 1 
+		}
+		victory_points = {
+			3113 1 
+		}
+		victory_points = {
+			11029 1 
+		}
+		victory_points = {
+			15304 1 
+		}
+
+	}
+
+	provinces={
+		30 1313 1654 3113 3479 3969 4171 5087 5540 6779 6782 7000 7299 7350 8273 9589 9983 10701 10855 10941 11029 15158 15159 15161 15198 15228 15248 15258 15266 15279 15286 15304 15334 15337 15344 15406 15408 15442 19475 19476 19477 19489 19490 19491 20257 20258 20262 20266 20324 
+	}
+	manpower=3963151
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

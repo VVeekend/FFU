@@ -1,0 +1,44 @@
+
+state={
+	state_category = town
+	id=213
+	name="STATE_213"
+	resources={
+		steel=24 # was: 40
+		tungsten=16 # was: 34
+	}
+	history={
+		owner = SOV
+		add_core_of = SOV
+		
+		buildings = {
+	    infrastructure = 7
+        industrial_complex = 1 
+        arms_factory = 1 }
+		
+		victory_points = {
+			11281 20 
+		}
+		victory_points = {
+			5071 1 
+		}
+		victory_points = {
+			4111 1 
+		}
+		victory_points = {
+			13034 1 
+		}
+		victory_points = {
+			9478 1 
+		}
+		victory_points = {
+			1086 1 
+		}
+	}
+
+	provinces={
+		64 473 876 983 1086 1275 1486 1953 2277 2371 2396 2564 2645 2773 2794 2805 3072 3230 3232 3815 3817 3841 4010 4111 4336 4338 4627 4655 4788 4843 5010 5071 5178 5670 5679 5713 6069 6078 6378 6588 6599 6907 7107 7184 7237 7255 7271 7475 7546 7607 7788 8190 8196 8369 8452 8515 8563 9059 9247 9269 9285 9478 9990 10173 10737 10914 11007 11143 11281 11337 11353 11605 12856 12887 12912 12917 12948 12957 12978 13010 13011 13034 13040 13055 13056 13079 13091 13109 13111 13116 13129 13152 13212 
+	}
+	manpower=2273000
+	buildings_max_level_factor=1.000
+}

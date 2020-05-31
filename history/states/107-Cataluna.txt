@@ -1,0 +1,20 @@
+state={
+	id=107
+	name="STATE_107"
+	provinces={
+		278 368 439 681 1035 1509 2510 5072 5307 5635 6154 6339 6470 7123 7684 7791 8682 8857 8926 9435 9871 9902 10876 11350 15790 15822 15856 15870 15890 15891 15934 15945 15955 15970 15978 15990 15999 16003 16009 16030 16033 16043 16051 16054 19719 
+	}
+	manpower=3036537
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+			}
+   	    }
+}

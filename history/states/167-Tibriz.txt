@@ -1,0 +1,18 @@
+
+state={
+	id=167
+	name="STATE_167"
+	provinces={
+		182 302 388 1196 1389 1546 1564 1597 1660 1731 2712 2728 2877 3563 3598 4436 5105 5498 5521 6266 6616 7054 7240 7975 8667 8821 9161 9429 9864 9910 10019 10331 10640 11142 11272 15278 15292 15338 15354 15374 15503 15530 15612 15731 15734 15826 
+	}
+	manpower=1431714
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

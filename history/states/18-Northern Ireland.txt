@@ -1,0 +1,47 @@
+state={
+	id=18
+	name="STATE_18"
+	provinces={
+		1393 3555 4779 5399 6003 6217 6872 8218 8709 8916 9516 9903 10377 13172 13176 13192 13194 13220 13230 13251 13319 
+	}
+	manpower=1198537
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			dockyard = 2
+		   }
+		victory_points = {
+		13251 1
+		}
+		victory_points = {
+		13172 5
+		}
+		victory_points = {
+		13230 1
+		}
+		victory_points = {
+		6872 1
+		}
+		victory_points = {
+		9903 5
+		}
+		victory_points = {
+		5399 1
+		}
+		victory_points = {
+		13176 1
+		}
+		victory_points = {
+		3555 1
+		}
+
+	}
+}

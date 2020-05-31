@@ -1,0 +1,44 @@
+state={
+	id=258
+	name="STATE_258"
+	provinces={
+		116 136 171 553 556 807 1039 1193 1675 2502 2552 2593 2932 3375 3687 3953 4201 5220 5610 5800 6169 6194 6199 6556 8098 8523 8575 8779 9063 9122 10350 10450 10906 11003 15729 15783 15810 15825 15886 15938 15964 15967 15971 15989 16014 16015 16102 16127 16163 16203 
+	}
+	manpower=858452
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+		16127 3
+		}
+		victory_points = {
+		9063 2
+		}
+		victory_points = {
+		16014 5
+		}
+		victory_points = {
+		16127 3
+		}
+		victory_points = {
+		9063 2
+		}
+		victory_points = {
+		15783 2
+		}
+		victory_points = {
+		8575 1 #Sorgun
+		}
+		victory_points = {
+		1193 1 #Boðazlýyan
+		}
+		victory_points = {
+		1675 2
+		}
+	}
+}

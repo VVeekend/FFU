@@ -1,0 +1,46 @@
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		265 350 653 688 766 825 1703 1707 2730 3595 4123 4350 5637 5780 6492 7301 7403 8105 8216 8485 8490 8719 9606 9844 10197 10615 11090 11541 15827 15845 15857 15858 15873 15883 15905 15920 15939 15942 16039 16062 16071 16097 16120 16145 16159 16189 16213 16241 
+	}
+	manpower=1003000
+	buildings_max_level_factor=1.000
+	state_category = town
+	resources={
+		aluminium=2 # was: 3
+		chromium=2 # was: 3
+	}
+	history={
+		owner = ALB
+		add_core_of = ALB
+		add_claim_by = ITA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+			air_base = 3
+			}
+		victory_points = {
+		1703 20
+		}
+		victory_points = {
+		766 1
+		}
+		victory_points = {
+		265 1
+		}
+		victory_points = {
+		16241 1
+		}
+		victory_points = {
+		5637 1
+		}
+		victory_points = {
+		15883 1
+		}
+		victory_points = {
+		6492 1
+		}
+	}
+}

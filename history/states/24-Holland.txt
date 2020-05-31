@@ -1,0 +1,40 @@
+state={
+	id=24
+	name="STATE_24"
+	provinces={
+		4144 5859 5985 8705 9022 9090 9896 11011 11484 13762 13859 13863 13864 13902 13937 14017 17305 
+	}
+	manpower=4123000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 5
+		}
+		victory_points = {
+		13863 20
+		}
+		victory_points = {
+		9022 5
+		}
+		victory_points = {
+		4144 5
+		}
+		victory_points = {
+		11484 1
+		}
+		victory_points = {
+		13859 20
+		}
+	}
+}

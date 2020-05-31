@@ -1,0 +1,37 @@
+
+state={
+	id=158
+	name="STATE_158"
+
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+		victory_points = {
+		7506 30
+		}
+		victory_points = {
+		8620 1
+		}
+		victory_points = {
+		5639 1
+		}
+		victory_points = {
+		9490 1
+		}
+		victory_points = {
+		8383 1
+		}
+	}
+
+	provinces={
+		596 710 1161 2668 2738 3607 3662 3847 4157 4369 5639 5765 6191 6249 6579 6825 7506 7914 8383 8409 8520 8720 8850 9490 10140 10954 15235 15241 15243 15273 15284 15293 15300 15311 15335 15345 15353 15355 15360 
+	}
+	manpower=2124400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

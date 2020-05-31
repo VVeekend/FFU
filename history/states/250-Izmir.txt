@@ -1,0 +1,64 @@
+state={
+	id=250
+	name="STATE_250"
+	provinces={
+		327 721 742 1355 3106 3677 4354 4411 4793 5017 5483 6251 6723 7177 7229 7470 7579 7884 8111 8191 8244 8556 9151 9230 10453 10710 10789 11036 11063 11234 16201 16215 16225 16228 16237 16248 16265 16275 16278 16282 16349 16384 16387 16451 16470 16485 17351 
+	}
+	manpower=1111755
+	buildings_max_level_factor=1.000
+	state_category = town
+	resources={
+		chromium=50 # was: 86
+	}
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+		}
+		victory_points = {
+		16278 3
+		}
+		victory_points = {
+		16215 2
+		}
+		victory_points = {
+		10789 3 #Alaşehir
+		}
+		victory_points = {
+		9897 1 #Demirci
+		}
+		victory_points = {
+		327 20
+		}
+		victory_points = {
+		7177 1
+		}			
+		victory_points = {
+		16275 3 
+		}			
+		victory_points = {
+		16237 1 #Dikili
+		}			
+		victory_points = {
+		7579 2
+		}
+		victory_points = {
+		10710 1
+		}
+	        victory_points = {
+	        3677 3
+	        }
+	        victory_points = {
+	        742 1
+	        }
+	        victory_points = {
+	        6251 1
+	        }	
+	        victory_points = {
+	       7229 1
+	      }
+	}
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=279
+	name="STATE_279"
+
+	history={
+		owner = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 7
+			arms_factory = 6
+			industrial_complex = 2
+			anti_air_building = 2
+			air_base = 5
+
+		}
+		victory_points = {
+			3016 50 
+		}
+		victory_points = {
+			13804 1 
+		}
+		victory_points = {
+			7557 1 
+		}
+		victory_points = {
+			5633 1 
+		}
+		victory_points = {
+			13830 1 
+		}
+		victory_points = {
+			2430 1 
+		}
+
+	}
+
+	provinces={
+		1864 2241 2430 3016 3444 4692 4822 5633 7557 9026 10462 10617 11073 11377 11404 11440 11508 13789 13800 13804 13825 13881 13941 13984 14027 15703 19427 20015 20297 
+	}
+	manpower=3089000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

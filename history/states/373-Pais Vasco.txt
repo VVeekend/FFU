@@ -1,0 +1,23 @@
+state={
+	id=373
+	name="STATE_373"
+	provinces={
+		738 4243 9783 10297 11365 11437 15610 15625 15656 
+	}
+	manpower=928094
+	buildings_max_level_factor=1.000
+	state_category=town
+	resources={
+		steel=8.000
+	}
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+		}
+        }
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=244
+	name="STATE_244"
+
+	history={
+		add_core_of = CZE
+		owner = CZE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		victory_points = {
+			11026 1 
+		}
+		victory_points = {
+			14569 1 
+		}
+	}
+
+	provinces={
+		2769 3347 4680 5181 5371 5676 5749 6038 6480 6533 6548 8113 8681 8714 9135 9841 11026 11172 14416 14461 14463 14512 14513 14558 14661 
+	}
+	manpower=1197800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

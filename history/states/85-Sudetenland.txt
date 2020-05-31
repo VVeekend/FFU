@@ -1,0 +1,35 @@
+
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		240 772 1166 1201 2960 3039 4387 4772 5351 5776 5944 6461 6515 7746 8302 9043 9079 10247 14181 14203 14204 14242 14398 14436 14471 14534 14574 14596 14609 14610 14622 
+	}
+	manpower=2830000
+	buildings_max_level_factor=1.000
+	state_category = town	
+	resources={
+		steel=4 # was: 8
+	}
+	history={
+		owner = CZE
+		add_core_of = CZE
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			anti_air_building = 1
+		}
+		victory_points = {
+			6461 5 
+		}
+		victory_points = {
+			14242 1 
+		}
+		victory_points = {
+			3039 1 
+		}
+		victory_points = {
+			240 1 
+		}
+	}
+}

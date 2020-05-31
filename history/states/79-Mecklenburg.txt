@@ -1,0 +1,31 @@
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		454 1304 3826 4287 5826 6066 7334 7371 8400 9717 10310 11094 11307 13480 13516 13552 13565 13588 13604 13619 13629 
+	}
+	manpower=836353
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 6
+			arms_factory = 3
+			air_base = 3
+		}
+		victory_points = {
+		1304 10
+		}
+		victory_points = {
+		13552 3
+		}
+		victory_points = {
+		11094 5
+		}
+		victory_points = {
+		6066 1
+		}
+	}
+}

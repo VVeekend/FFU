@@ -1,0 +1,21 @@
+state={
+	id=137
+	name="STATE_137"
+	provinces={
+		31 642 820 1003 1298 1950 2490 3395 3455 3474 3776 3823 3828 3926 3957 3994 4083 4102 4519 4629 4808 4948 5029 5308 6604 6671 6752 7412 7628 7839 8601 8860 8870 9300 9891 11292 16700 16738 16741 16742 16752 16760 16761 16765 16772 16784 16794 
+	}
+	manpower=3089944
+	buildings_max_level_factor=1.000
+	state_category = town
+	resources={
+		steel=26 # was: 36
+	}
+	history={
+		owner = FRA
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 4
+			air_base = 5
+			}
+		}
+}

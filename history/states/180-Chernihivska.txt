@@ -1,0 +1,29 @@
+
+state={
+	state_category = town
+	id=180
+	name="STATE_180"
+	provinces={
+		15 2347 3301 3917 4221 4296 4691 4939 4989 5746 6545 7178 7493 8074 8621 8623 8858 9064 9141 10334 10985 11239 11297 11310 13524 13559 13567 13611 13655 13660 13678 13708 13730 13733 13783 
+	}
+	manpower=909900
+	buildings_max_level_factor=1.000
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 5
+            industrial_complex = 3 }
+			
+		victory_points = {
+			9141 1 
+		}
+		victory_points = {
+			8621 1 
+		}
+		victory_points = {
+			4221 1 
+		}
+	}
+}

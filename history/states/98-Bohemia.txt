@@ -1,0 +1,40 @@
+
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		1271 1727 2230 2323 2752 2786 2913 2953 3388 3429 4291 4333 4367 4613 5310 7619 7980 7998 8226 8388 8405 8408 8535 8618 9286 9644 10605 11058 11129 11314 14286 14295 14306 14345 14352 14384 14386 14399 14425 14447 14454 14487 14500 14529 14564 14573 
+	}
+	manpower=4492600
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	resources={
+		steel=5 # was: 8
+	}
+	history={
+		owner = CZE
+		add_core_of = CZE
+		buildings = {
+			infrastructure = 7
+			arms_factory = 6
+			industrial_complex = 1
+			anti_air_building = 5
+			air_base = 5
+		}
+		victory_points = {
+			8388 5 
+		}
+		victory_points = {
+			5251 5 
+		}
+		victory_points = {
+			8226 5 
+		}
+		victory_points = {
+			3388 5 
+		}
+		victory_points = {
+			11129 25
+		}
+          }
+}

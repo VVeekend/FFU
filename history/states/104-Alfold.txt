@@ -1,0 +1,33 @@
+
+state={
+	id=104
+	name="STATE_104"
+	provinces={
+		1036 1318 1420 3070 3434 5511 6370 6961 8558 9863 10099 10895 11503 14673 14704 14752 14790 14838 14924 14961 14970 15005 15031 15073 20194 20196 20199 20201 20202 20217 20269 20270 20272 20273 20282 20284 
+	}
+	manpower=2735383
+	buildings_max_level_factor=1.000
+	state_category = city
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+		}
+		victory_points = {
+		11503 1
+		}
+		victory_points = {
+		3070 1
+		}
+		victory_points = {
+		6370 1
+		}
+		victory_points = {
+		14704 1
+		}
+	}
+}

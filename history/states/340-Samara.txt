@@ -1,0 +1,33 @@
+state={
+	state_category = town
+	id=340
+	name="STATE_340"
+	provinces={
+		563 599 654 2036 2259 2652 2734 3205 3374 3389 3441 3588 3954 4029 4485 5348 5415 6571 6628 7996 8148 8298 8332 8637 8713 9760 10734 10769 11261 11264 11523 12582 12615 12684 12721 12745 12756 12822 
+	}
+	manpower=1644000
+	buildings_max_level_factor=1.000
+	history={
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+		infrastructure = 5 }
+
+		victory_points = {
+			3588 20 
+		}
+		victory_points = {
+			12721 20 
+		}
+		victory_points = {
+			3954 1 
+		}
+		victory_points = {
+			10734 1 
+		}
+		victory_points = {
+			6628 1 
+		}
+
+	}
+}

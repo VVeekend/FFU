@@ -1,0 +1,40 @@
+state={
+	id=287
+	name="STATE_287"
+	provinces={
+		1162 1602 2227 3517 4593 4596 4787 5528 5715 5946 6740 7116 7181 7713 7973 8097 8316 8571 8609 8861 9258 9849 10120 10479 13759 13782 13801 13844 13865 13872 13882 13917 13932 13942 13952 13973 13985 14072 14097 14098 14115 14121 
+	}
+	manpower=2464600
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		add_core_of = POL
+		owner = POL
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 1
+		}
+                victory_points = {
+		8316 15
+		}
+                victory_points = {
+		13973 1
+		}
+                victory_points = {
+		14098 1
+		}
+                victory_points = {
+		13942 1
+		}
+                victory_points = {
+		5528 1
+		}
+                victory_points = {
+		13782 1
+		}
+                victory_points = {
+		7181 1
+		}
+        }
+}

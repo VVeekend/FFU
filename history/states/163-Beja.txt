@@ -1,0 +1,62 @@
+
+state={
+	id=163
+	name="STATE_163"
+	resources={
+		tungsten=150.000
+	}
+
+	history={
+		owner = POR
+		add_core_of = POR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+
+		}
+		victory_points = {
+		10427 1 
+		}
+		victory_points = {
+		8600 5 
+		}
+		victory_points = {
+		5455 1 
+		}
+		victory_points = {
+		9944 1 
+		}
+		victory_points = {
+		16345 1 
+		}
+		victory_points = {
+		16379 5 
+		}
+		victory_points = {
+		16431 1
+		}
+		victory_points = {
+		7105 1
+		}
+		victory_points = {
+		8011 1
+		}
+		victory_points = {
+		7472 1
+		}
+		victory_points = {
+		16498 5
+		}
+		victory_points = {
+		5811 1
+		}
+
+	}
+
+	provinces={
+		1444 3407 3760 4013 4151 4344 4512 5125 5270 5455 5662 5811 7105 7472 7766 8011 8150 8600 8973 9139 9385 9944 10171 10427 10782 16209 16239 16318 16345 16351 16355 16372 16379 16431 16437 16477 16498 
+	}
+	manpower=777895
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

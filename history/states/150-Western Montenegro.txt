@@ -1,0 +1,31 @@
+state={
+	id=150
+	name="STATE_150"
+	provinces={
+		525 3034 3585 4059 5166 6140 6188 8099 8999 10100 10519 10704 15782 15816 15847 20104 20105 20106 
+	}
+	manpower=395500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	resources={
+		chromium=20.000
+		aluminium=70.000
+	}
+	history={
+		owner = YUG
+		add_core_of = YUG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		     }
+		victory_points = {
+			10100 50
+		}
+		victory_points = {
+			15847 10
+		}
+		victory_points = {
+			15782 10
+		}
+	}
+}

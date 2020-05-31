@@ -1,0 +1,18 @@
+state={
+	id=357
+	name="STATE_357"
+	provinces={
+		598 809 1832 1994 2223 3782 3850 3993 4528 5530 5657 10982 16936 16976 17012 17053 
+	}
+	manpower=82535
+	buildings_max_level_factor=1.000
+	state_category = enclave
+	history={
+		owner = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			}
+		}
+}

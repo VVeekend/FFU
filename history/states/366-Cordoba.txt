@@ -1,0 +1,20 @@
+
+state={
+	id=366
+	name="STATE_366"
+	provinces={
+		298 455 808 1339 1712 1882 2638 2969 3001 3275 3542 3995 4056 4251 4675 4785 5306 6489 7289 7428 8156 8198 8455 8465 9069 9188 9458 9486 9536 9715 10004 10290 10527 11137 16390 16396 16407 16409 16422 16444 16480 16496 16499 16526 16532 
+	}
+	manpower=1428513
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+                         }
+
+		}
+}

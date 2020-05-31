@@ -1,0 +1,29 @@
+state={
+	id=363
+	name="STATE_363"
+	provinces={
+		409 3048 3827 8246 9180 9497 9672 9797 11144 15221 15263 15357 15397 19995 20237 20238 20239 20240 20246 
+	}
+	manpower=585579
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = YUG
+		add_core_of = YUG
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+		3048 5 
+		}
+		victory_points = {
+		9672 5 
+		}
+		victory_points = {
+		9797 5 
+		}
+		victory_points = {
+		19995 10 
+		}
+	}
+}

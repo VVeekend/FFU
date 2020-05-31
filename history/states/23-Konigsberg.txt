@@ -1,0 +1,52 @@
+
+state={
+	id=23
+	name="STATE_23"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			air_base = 6
+			anti_air_building = 2
+
+		}
+		victory_points = {
+			6791 1 
+		}
+		victory_points = {
+			13255 1 
+		}
+		victory_points = {
+			5716 1 
+		}
+		victory_points = {
+			13307 3 
+		}
+		victory_points = {
+			13346 1 
+		}
+		victory_points = {
+			11021 3 
+		}
+		victory_points = {
+			9249 20 
+		}
+		victory_points = {
+			9569 1 
+		}
+		victory_points = {
+			40 3 
+		}
+
+	}
+
+	provinces={
+		40 607 1771 2197 2944 4973 5716 6791 7935 9249 9569 10952 11021 11051 13252 13255 13295 13307 13316 13324 13336 13346 20314 
+	}
+	manpower=2140234
+	buildings_max_level_factor=1.000
+	state_category=city
+}

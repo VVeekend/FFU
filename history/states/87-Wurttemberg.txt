@@ -1,0 +1,67 @@
+
+state={
+	id=87
+	name="STATE_87"
+	provinces={
+		89 2065 3639 4117 4568 4959 6227 6314 6758 6771 6913 7222 7390 7422 7444 7457 7925 7989 8082 8222 8473 8704 8846 10066 10300 10396 10712 10740 11168 11213 11304 14539 14566 14583 14602 14617 14628 14659 14671 14676 14717 14733 14745 14755 14764 14782 14788 14813 14816 14836 14848 14858 14876 14902 19461 
+	}
+	manpower=5086854
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	resources={
+		aluminium=6 # was: 10.000
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 8
+			arms_factory = 5
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		victory_points = {
+		3639 3
+		}
+		victory_points = {
+		14617 5
+		}
+		victory_points = {
+		14659 3
+		}
+		victory_points = {
+		10712 3
+		}
+		victory_points = {		
+		11304 20
+		}
+		victory_points = {		
+		8704 5
+		}
+		victory_points = {
+		6314 1
+		}
+		victory_points = {
+		14671 3
+		}
+		victory_points = {	
+		7925 10
+		}
+		victory_points = {	
+		4117 5
+		}
+		victory_points = {	
+		8846 3
+		}
+		victory_points = {
+		8082 1
+		}
+		victory_points = {
+		7390 5
+		}
+		victory_points = {
+		7444 1
+		}
+        }
+}

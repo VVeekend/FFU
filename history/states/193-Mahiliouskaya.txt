@@ -1,0 +1,28 @@
+state={
+	state_category = town
+	id=193
+	name="STATE_193"
+	provinces={
+		555 908 917 1182 1692 2033 2699 3271 4020 4702 6677 6766 6892 8345 8648 9354 9493 9625 10026 10802 11014 11126 11642 13210 13243 13274 13275 13288 13299 13303 13304 13343 13354 13369 13388 13423 13427 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = BLR
+		buildings = {
+			infrastructure = 5 }
+
+		victory_points = {
+			9354 1 
+		}
+		victory_points = {
+			9625 1 
+		}
+		victory_points = {
+			9493 1 
+		}
+
+	}
+}

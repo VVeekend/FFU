@@ -1,0 +1,18 @@
+state={
+	id=321
+	name="STATE_321"
+
+	history={
+		owner = SOV
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 1 }
+
+	}
+	state_category=town
+	manpower=800000
+	provinces={
+		199 284 382 583 625 769 1405 1456 1769 2175 3091 3143 3334 3949 4075 4256 4578 5365 5404 5502 6171 6246 7064 7318 7427 7924 8418 8962 9315 9340 9527 9543 10091 10101 10664 10727 10764 11665 11673 11723 11767 11791 
+	}
+	buildings_max_level_factor=1.000
+}

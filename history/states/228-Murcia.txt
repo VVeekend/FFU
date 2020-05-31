@@ -1,0 +1,19 @@
+state={
+	id=228
+	name="STATE_228"
+	provinces={
+		1320 4446 4584 4802 4840 5202 5573 6323 6352 6666 8224 9443 10060 10532 16308 16310 16329 16333 16338 16356 16380 16415 16417 16493 16494 16511 16520 16567 
+	}
+	manpower=1007605
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			air_base = 2
+			}
+	}
+}

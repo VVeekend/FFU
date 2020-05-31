@@ -1,0 +1,70 @@
+state={
+	id=72
+	name="STATE_72"
+	provinces={
+		314 411 2309 2621 3057 3481 3672 4026 4936 4980 5451 5700 5736 6315 6472 6554 7030 7824 8259 8546 9381 9751 9917 10032 10041 10492 10612 10779 10799 10955 11371 11586 14650 14696 14725 14726 14756 14769 14772 14785 14799 14860 14861 14881 14920 14942 14959 15024 15066 15082 15106 15115 15119 15140 
+	}
+	manpower=2275377
+	buildings_max_level_factor=1.000
+	state_category = city	
+	resources={
+		steel=5 # was: 8
+		aluminium=1 # was: 1
+	}
+	history={
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+		victory_points = {
+		11586 5 
+		}
+		victory_points = {
+		15119 3 
+		}
+		victory_points = {
+		15082 3 
+		}
+		victory_points = {
+		15091 1 
+		}
+		victory_points = {
+		9265 20
+		}
+		victory_points = {
+		2881 3 #Leoben
+		}
+		victory_points = {
+		15083 1 #Leibnitz
+		}
+		victory_points = {
+		7648 1 #Hartberg
+		}
+		victory_points = {
+		5451 1 #Spielberg
+		}
+		victory_points = {
+		14920 1 #Liezen
+		}
+		victory_points = {
+		9751 1 #Kammersberg
+		}
+		victory_points = {
+		14756 10
+		}
+		victory_points = {
+		6472 3
+		}
+		victory_points = {
+		6554 3
+		}
+		victory_points = {
+		5700 1
+		}
+		victory_points = {
+		14942 1
+		}
+        }
+}

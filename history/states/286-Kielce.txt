@@ -1,0 +1,35 @@
+state={
+	id=286
+	name="STATE_286"
+	provinces={
+		392 1064 1093 1220 2163 2853 3838 5806 6948 7076 7190 7968 8309 8324 8367 9787 10111 10385 10698 11123 14003 14035 14059 14080 14085 14090 14110 14126 14128 14130 14162 14174 14191 14198 14215 14245 
+	}
+	manpower=1835700
+	buildings_max_level_factor=1.000
+	state_category = town
+	resources={
+		steel=8 # was: 12
+	}
+	history={
+		owner = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+		7968 20
+		}
+		victory_points = {
+		14126 10
+		}
+		victory_points = {
+		3016 40
+		}
+		victory_points = {
+		10111 1
+		}
+		victory_points = {
+		3838 20
+		}
+        }
+}

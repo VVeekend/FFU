@@ -1,0 +1,29 @@
+
+state={
+	id=20
+	name="STATE_20"
+	provinces={
+		929 1614 1780 2475 8675 10207 10286 10923 11127 16566 16674 
+	}
+	manpower=1104000
+	buildings_max_level_factor=1.000
+	state_category = town
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 5
+			}
+		victory_points = {
+		11127 15
+		}
+		victory_points = {
+		10207 1
+		}
+		victory_points = {
+		929 1
+		}
+	}
+}

@@ -1,0 +1,58 @@
+state={
+	id=90
+	name="STATE_90"
+	provinces={
+		200 342 857 1078 1123 2694 3142 3312 3363 3695 3878 4611 5208 6539 7439 8059 8295 9653 14326 14360 14374 14391 14397 14475 14503 14525 14555 14571 19674 19676 
+	}
+	manpower=3027739
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+	resources={
+		steel=59 # was: 100
+		aluminium=14 # was: 24
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+		}
+		victory_points = {
+		3363 10 
+		}
+		victory_points = {
+		14475 1 
+		}
+		victory_points = {
+		14503 5
+		}
+		victory_points = {
+		3695 3
+		}
+		victory_points = {
+		3142 3
+		}
+		victory_points = {
+		14525 3
+		}
+		victory_points = {
+		8295 10
+		}
+		victory_points = {
+		14391 1
+		}
+		victory_points = {
+		9653 3 
+		}
+		victory_points = {
+		342 5
+		}
+		victory_points = {
+		6539 5
+		}
+		victory_points = {
+		200 1
+		}
+         }
+}

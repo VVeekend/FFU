@@ -1,0 +1,40 @@
+
+state={
+	id=256
+	name="STATE_256"
+	provinces={
+		144 526 992 1122 1553 2024 2639 3915 4124 4183 5377 5382 5584 6056 6341 6406 6620 6751 6946 7368 7547 7690 7717 7920 8166 8420 8992 9019 9045 9087 9134 9444 9600 9741 9987 10153 10336 10340 10440 10608 10676 10741 11017 11344 11442 15981 16022 16026 16044 16056 16073 16085 16088 16142 16152 16158 16167 16188 16251 16296 
+	}
+	manpower=727198
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+                      }
+		victory_points = {
+		526 20
+		}
+		victory_points = {
+		16158 5
+		}
+		victory_points = {
+		11442 1
+		}
+		victory_points = {
+		6341 1
+		}
+		victory_points = {
+		8992 1
+		}
+		victory_points = {
+		6556 1
+		}
+		victory_points = {
+		4183 1
+		}
+		}
+}

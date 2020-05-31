@@ -1,0 +1,36 @@
+state={
+	id=268
+	name="STATE_268"
+	provinces={
+		105 220 671 798 827 859 969 1137 1202 1308 1535 1743 1831 2124 2409 2466 2516 2697 2745 3437 3855 3942 4097 4129 4522 4699 5587 6844 7045 7259 7687 8155 8275 8385 8403 8462 8659 8698 8700 9017 9415 9943 10186 10507 11338 11380 14221 14249 14262 14291 14294 14343 14344 14422 14457 14476 14485 14498 14515 14533 14538 14549 14616 14651 14701 14731 14758 17311 17312 
+	}
+	manpower=1658292
+	buildings_max_level_factor=1.000
+	state_category = rural
+	resources={
+		oil=19 # was: 26
+	}
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			8403 10 
+		}
+		victory_points = {
+			14515 1 
+		}
+		victory_points = {
+			1813 1 
+		}
+		victory_points = {
+			9943 1 
+		}
+		victory_points = {
+			14249 1 
+		}
+	}
+}

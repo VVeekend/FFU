@@ -1,0 +1,20 @@
+
+state={
+	id=377
+	name="STATE_377"
+	provinces={
+		4988 5447 6225 7832 9127 17174 17175 17176 17177 17178 17179 17180 17181 17182 17186 17187 17189 17190 17191 17193 17194 17196 17197 17198 17199 17203 17204 17212 17217 17219 17225 17229 17239 17242 17248 17249 17254 17262 17264 17267 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	history=
+	{
+		owner = NOR
+		add_core_of = NOR
+		buildings = {
+			infrastructure = 3
+			}
+		}
+
+}

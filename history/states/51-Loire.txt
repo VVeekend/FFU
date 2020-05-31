@@ -1,0 +1,60 @@
+state={
+	id=51
+	name="STATE_51"
+	provinces={
+		964 1302 1328 3254 3382 4867 5001 5079 6479 6988 7007 7276 7895 8956 9948 11115 11134 14626 14656 14679 14690 14709 14711 14741 14760 14761 14781 14793 14794 14808 14828 14831 14873 14877 14883 14893 19507 19508 19509 19510 19511 19512 19513 19514 19515 19516 19517 19518 19519 19520 19525 19526 19527 19528 19529 19531 19532 19549 19550 19552 19557 19579 19580 19581 19985 19988 19989 
+	}
+	manpower=1388400
+	buildings_max_level_factor=1.000
+	state_category = city
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+		}
+		victory_points = {
+			19549 20
+		}
+		victory_points = {
+			3382 1
+		}
+		victory_points = {
+			2524 5
+		}
+		victory_points = {
+			14935 1
+		}
+		victory_points = {
+			5079 1
+		}
+		victory_points = {
+			14831 1
+		}
+		victory_points = {
+			19581 15
+		}
+		victory_points = {
+			19520 10
+		}
+		victory_points = {
+			14656 3
+		}
+		victory_points = {
+			19517 1
+		}
+		victory_points = {
+			19509 20 
+		}
+		victory_points = {
+			7895 10 
+		}
+		victory_points = {
+			14793 1 
+		}
+
+	}
+}

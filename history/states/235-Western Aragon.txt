@@ -1,0 +1,22 @@
+state={
+	id=235
+	name="STATE_235"
+	provinces={
+		179 305 326 401 403 1460 1519 1531 1983 2184 2479 2683 4259 4294 4746 4905 5425 5619 5884 6453 6523 7154 8010 8029 8319 8354 8524 8834 9073 9205 9474 9676 9960 10938 15761 15800 15841 15880 15889 15927 15928 15958 15976 15977 16002 16016 16019 16067 16069 16070 16091 16096 16119 16153 
+	}
+	manpower=1055731‬
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	resources={
+		steel=15.000
+	}
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			air_base = 3
+		}
+        }
+}

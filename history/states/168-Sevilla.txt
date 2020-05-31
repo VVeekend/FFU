@@ -1,0 +1,21 @@
+
+state={
+	id=168
+	name="STATE_168"
+	provinces={
+		114 244 2700 3872 3972 4957 4985 5075 5665 5828 5890 6270 6591 6894 7357 7937 8476 9612 10262 10663 10807 11075 11278 11482 11509 16412 16443 16454 16469 16486 16487 16492 16504 16521 16522 16523 16599 16639 
+	}
+	manpower=1746650
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 3
+			}
+		}
+}

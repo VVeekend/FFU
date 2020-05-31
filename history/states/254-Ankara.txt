@@ -1,0 +1,59 @@
+state={
+	id=254
+	name="STATE_254"
+	provinces={
+		346 624 1140 2093 2188 2836 3126 3611 4869 4993 5051 5180 5266 5340 5427 5714 5937 6149 6594 7624 8151 8441 8732 8740 8815 8978 9105 9241 9304 9508 9881 10170 11049 11157 11616 15741 15753 15904 15943 15961 15963 15988 15991 16007 16020 16049 16072 16093 19705 
+	}
+	manpower=770758
+	buildings_max_level_factor=1.000
+	state_category = town
+	resources={
+		chromium=11 # was: 16
+	}
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+		}
+		victory_points = {
+		19705 20
+		}
+		victory_points = {
+		7624 3
+		}
+		victory_points = {
+		8151 1
+		}
+		victory_points = {
+		15904 1
+		}
+		victory_points = {
+		8978 1
+		}
+		victory_points = {
+		15764 1
+		}
+		victory_points = {
+		15961 1
+		}
+		victory_points = {
+		16015 1
+		}
+		victory_points = {
+		3611 1
+		}
+		victory_points = {
+		11157 5
+		}	
+		victory_points = {
+		346 1
+		}
+		victory_points = {
+		3126 1
+		}
+	}
+}

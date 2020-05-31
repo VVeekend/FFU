@@ -1,0 +1,63 @@
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		148 150 736 1373 1541 2156 2672 3173 4504 4600 4722 4765 5018 5254 5690 5743 5883 6080 6304 6369 6971 7338 7453 7720 7938 8070 8143 8257 8481 8692 9804 9950 10222 10270 10280 10409 10566 10883 15240 15379 15383 15392 15394 15418 15432 15448 15460 15465 15555 15569 15581 20019 20024 20125 20126 20127 20128 20129 20130 20131 20132 20133 20134 20135 20136 20137 20138 20139 20140 20142 20143 20144 20145 20146 20148 20150 20152 20153 20159 20160 20161 20165 20166 20167 20168 20176 20177 20186 
+	}
+	manpower=4765476
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+	resources={
+		steel=24 # was: 40
+		aluminium=16 # was: 28
+		chromium = 2 # was: 4
+		tungsten = 1 # was: 2
+	}
+	history={
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 7
+			industrial_complex = 1
+			dockyard = 2
+			air_base = 8
+		}
+		victory_points = {
+		6369 5 
+		}
+		victory_points = {
+		8481 1 
+		}
+		victory_points = {
+		4600 1
+		}
+		victory_points = {
+		9804 20 
+		}
+		victory_points = {
+		15465 1 
+		}
+		victory_points = {
+		1541 1 
+		}
+		victory_points = {
+		10280 1 
+		}
+		victory_points = {
+		6080 1 
+		}
+		victory_points = {
+		15555 20 
+		}
+		victory_points = {
+		9400 1 
+		}
+		victory_points = {
+		5883 1 
+		}
+		victory_points = {
+		10883 1 
+		}
+       }
+}

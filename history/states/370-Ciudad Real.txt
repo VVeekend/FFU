@@ -1,0 +1,19 @@
+state={
+	id=370
+	name="STATE_370"
+	provinces={
+		140 1991 2037 2061 3742 4326 4841 5398 6202 6654 7069 7463 7880 8530 10292 10401 10485 16235 16243 16291 16322 16337 16359 16373 
+	}
+	manpower=526903
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 6
+
+		}
+        }
+}

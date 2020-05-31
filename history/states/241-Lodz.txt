@@ -1,0 +1,30 @@
+state={
+	id=241
+	name="STATE_241"
+	provinces={
+		2092 3265 3684 5038 5453 5589 6746 8090 8690 8814 9001 9687 10016 10129 10773 10993 13849 13861 13900 13951 13972 13980 13992 14019 
+	}
+	manpower=2632000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		    }
+		victory_points = {
+		6746 20
+		}
+		victory_points = {
+		5589 5
+		}
+		victory_points = {
+		2092 1
+		}
+		victory_points = {
+		9687 1
+		}
+         }
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=253
+	name="STATE_253"
+	provinces={
+		4 399 1107 1198 1350 1395 2210 2283 2458 2723 2861 3494 3709 4582 4633 4643 5043 5386 5671 5915 5951 6100 6214 6317 6787 7182 7239 7459 7637 7964 8037 8040 8167 8560 8649 8743 9615 9792 9897 10510 10753 10998 11057 11228 11471 11571 16018 16031 16040 16100 16106 16107 16124 16125 16133 16148 16172 16221 16238 16242 16249 16253 16266 16267 16283 16331 
+	}
+	manpower=955763
+	buildings_max_level_factor=1.000
+	state_category = rural
+	resources={
+		chromium=25 # was: 32
+	}
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	victory_points = {
+	6214 3
+	}
+	victory_points = {
+	4582 1
+	}	
+	victory_points = {
+	3709 1
+	}
+	victory_points = {
+	7637 2
+	}
+	victory_points = {
+	9372 2
+	}
+	victory_points = {
+	11228 1
+	}
+	victory_points = {
+	2458 1
+	}
+    }
+}

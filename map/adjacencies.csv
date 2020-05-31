@@ -1,0 +1,182 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+3195;19709;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
+9405;10724;sea;17601;-1;-1;-1;-1;;Calabria-Sicily
+8836;9945;sea;17750;-1;-1;-1;-1;;Corsica-Sardinia
+17406;16733;sea;18532;-1;-1;-1;-1;;West Malta-East Malta
+14714;5232;sea;18426;-1;-1;-1;-1;;West Crimea-East Crimea
+17313;17314;sea;18573;-1;-1;-1;-1;;North Anglo Island to South Anglo Island
+16633;393;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar to North Africa
+11484;17305;sea;18295;-1;-1;-1;-1;;Dutch Island Chain 1
+17305;17304;sea;18295;-1;-1;-1;-1;;Dutch Island Chain 2
+17304;17303;sea;18295;-1;-1;-1;-1;;Dutch Island Chain 3
+17303;17302;sea;18295;-1;-1;-1;-1;;Dutch Island Chain 4
+17302;17301;sea;18527;-1;-1;-1;-1;;Dutch Island Chain 5
+17301;17299;sea;18527;-1;-1;-1;-1;;Dutch Island Chain 6
+16502;17367;sea;18616;-1;-1;-1;-1;;South Aegean Islands 1
+17367;17368;sea;18616;-1;-1;-1;-1;;South Aegean Islands 2
+17368;17376;sea;17498;-1;-1;-1;-1;;South Aegean Islands 3
+17376;17383;sea;17498;-1;-1;-1;-1;;South Aegean Islands 4
+17383;17388;sea;17498;-1;-1;-1;-1;;South Aegean Islands 5
+17388;17394;sea;18007;-1;-1;-1;-1;;South Aegean Islands 6
+17394;17397;sea;18007;-1;-1;-1;-1;;South Aegean Islands 7
+17388;17398;sea;18007;-1;-1;-1;-1;;South Aegean Islands 8
+17398;17395;sea;18007;-1;-1;-1;-1;;South Aegean Islands 9
+17395;17392;sea;18007;-1;-1;-1;-1;;South Aegean Islands 10
+17392;17399;sea;18200;-1;-1;-1;-1;;South Aegean Islands 11
+17399;17400;sea;18808;-1;-1;-1;-1;;South Aegean Islands 12
+9397;8808;sea;18967;-1;-1;-1;-1;;South Aegean Islands 13
+16488;17365;sea;18967;-1;-1;-1;-1;;South Aegean Islands 14
+17365;17370;sea;18967;-1;-1;-1;-1;;South Aegean Islands 15
+17370;17379;sea;18200;-1;-1;-1;-1;;South Aegean Islands 16
+17379;17380;sea;18200;-1;-1;-1;-1;;South Aegean Islands 17
+17380;17385;sea;18007;-1;-1;-1;-1;;South Aegean Islands 18
+17379;17384;sea;18200;-1;-1;-1;-1;;South Aegean Islands 19
+17379;17392;sea;18200;-1;-1;-1;-1;;South Aegean Islands 20
+17365;17373;sea;18967;-1;-1;-1;-1;;South Aegean Islands 21
+17403;17401;sea;17694;-1;-1;-1;-1;;Dodecanese islands 1
+17401;3526;sea;18961;-1;-1;-1;-1;;Dodecanese islands 2
+11024;16539;sea;18895;-1;-1;-1;-1;;Dodecanese islands 3
+17396;3526;sea;18895;-1;-1;-1;-1;;Dodecanese islands 4
+17390;17396;sea;19178;-1;-1;-1;-1;;Dodecanese islands 5
+17387;17390;sea;19178;-1;-1;-1;-1;;Dodecanese islands 6
+17387;3816;sea;19178;-1;-1;-1;-1;;Dodecanese islands 7
+17382;16539;sea;19178;-1;-1;-1;-1;;Dodecanese islands 8
+6613;3816;sea;19178;-1;-1;-1;-1;;Dodecanese islands 9
+17387;6613;sea;19178;-1;-1;-1;-1;;Dodecanese islands 10
+17375;6613;sea;17640;-1;-1;-1;-1;;Dodecanese islands 11
+17375;4509;sea;17640;-1;-1;-1;-1;;Dodecanese islands 12
+17371;17375;sea;17640;-1;-1;-1;-1;;Dodecanese islands 13
+17393;17391;sea;17666;-1;-1;-1;-1;;Dodecanese islands 14
+9767;7177;sea;17567;-1;-1;-1;-1;;Izmit Aegean Islands 1
+17352;10131;sea;17596;-1;-1;-1;-1;;Izmit Aegean Islands 2
+17351;16349;sea;18870;-1;-1;-1;-1;;Izmit Aegean Islands 3
+17344;5483;sea;18652;-1;-1;-1;-1;;Izmit Aegean Islands 4
+17344;16151;sea;18652;-1;-1;-1;-1;;Izmit Aegean Islands 5
+17341;16113;sea;17510;-1;-1;-1;-1;;Izmit Aegean Islands 6
+3718;17341;sea;17510;-1;-1;-1;-1;;Izmit Aegean Islands 7
+8900;3718;sea;18459;-1;-1;-1;-1;;Izmit Aegean Islands 8
+11192;3718;sea;18459;-1;-1;-1;-1;;Izmit Aegean Islands 9
+17345;8900;sea;18318;-1;-1;-1;-1;;Izmit Aegean Islands 10
+9750;4926;sea;18802;-1;-1;-1;-1;;Izmit Edrine Bursa
+17339;3714;sea;18309;-1;-1;-1;-1;;Izmit Edrine Bursa 2
+11346;11368;sea;18766;-1;-1;-1;-1;;Thrace to Island
+4007;17316;sea;18578;-1;-1;-1;-1;;Zaporizka to small island
+17358;17353;sea;17431;-1;-1;-1;-1;;Baleares Islands 1
+17353;10335;sea;18065;-1;-1;-1;-1;;Baleares Islands 2
+16402;17354;sea;18879;-1;-1;-1;-1;;Baleares Islands 3
+11445;9365;sea;17602;-1;-1;-1;-1;;Baleares Islands 4
+16455;17359;sea;19007;-1;-1;-1;-1;;Sardina to small islands 1
+17357;17359;sea;19007;-1;-1;-1;-1;;Sardina to small islands 2
+17357;16455;sea;19007;-1;-1;-1;-1;;Sardina to small islands 3
+1404;17342;sea;19162;-1;-1;-1;-1;;Sardina to small islands 4
+9945;17340;sea;17750;-1;-1;-1;-1;;Sardina to small islands 5
+13242;13266;sea;17932;-1;-1;-1;-1;;Jutland to Sjaelland
+8158;17283;sea;18615;-1;-1;-1;-1;;West Sjaelland to north small island
+3413;17289;sea;18731;-1;-1;-1;-1;;West Sjaelland to south small island 1
+17289;7588;sea;18731;-1;-1;-1;-1;;Denmark South small island to south small island 2
+7588;9442;sea;18731;-1;-1;-1;-1;;Denmark South small island to south small island 3
+9974;17287;sea;19104;-1;-1;-1;-1;;Denmark South small island to south small island 4
+9974;13312;sea;18615;-1;-1;-1;-1;;Denmark South small island to south small island 5
+9974;13312;sea;18615;-1;-1;-1;-1;;Denmark South small island to south small island 6
+2709;13301;sea;18615;-1;-1;-1;-1;;West Sjaelland to East Sjaelland
+13202;8653;sea;17945;-1;-1;-1;-1;;East Sjaelland to Scania
+12989;17279;sea;18592;-1;-1;-1;-1;;Jutland to North East Jutland
+16491;17363;sea;18616;-1;-1;-1;-1;;Athens to South West Island 1
+1699;17363;sea;18616;-1;-1;-1;-1;;Athens to South West Island 2
+17363;17369;sea;18616;-1;-1;-1;-1;;Athens to South West Island 3
+17369;16552;sea;17498;-1;-1;-1;-1;;South West Island 4 to Peloponnese
+16552;17381;sea;18361;-1;-1;-1;-1;;East Peloponnese to East small islands 1
+16552;17386;sea;18361;-1;-1;-1;-1;;East Peloponnese to East small islands 2
+11178;17402;sea;18683;-1;-1;-1;-1;;South Peloponnese to South Island
+1047;3101;sea;18896;-1;-1;-1;-1;;West Peloponnese to West Island 1
+11528;1047;sea;18896;-1;-1;-1;-1;;West Peloponnese to West Island 2
+11528;17362;sea;18530;-1;-1;-1;-1;;West Peloponnese to West Island 3
+11528;4705;sea;18530;-1;-1;-1;-1;;West Peloponnese to West Island 4
+4705;17362;sea;18530;-1;-1;-1;-1;;West Peloponnese to West Island 5
+17356;10;sea;18530;-1;-1;-1;-1;;West Island 6 to Thessaly
+16311;8872;sea;17497;-1;-1;-1;-1;;Corfu to Epirus
+6508;10615;sea;18947;-1;-1;-1;-1;;Corfu to Albania
+17336;15784;sea;18863;-1;-1;-1;-1;;Dalmatia to South Islands
+17336;17337;sea;19155;-1;-1;-1;-1;;Dalmatia Islands 1 to 2
+17337;15784;sea;19155;-1;-1;-1;-1;;Dalmatia Islands 2 to 3
+17334;17337;sea;19155;-1;-1;-1;-1;;Dalmatia Islands 4 to 5
+17334;17333;sea;19155;-1;-1;-1;-1;;Dalmatia Islands 4 to 6
+17333;17332;sea;18487;-1;-1;-1;-1;;Dalmatia Islands 6 to 7
+17332;4664;sea;18487;-1;-1;-1;-1;;Dalmatia Islands 7 to Dalmatia
+15679;17331;sea;18487;-1;-1;-1;-1;;Dalmatia Islands 8 to Dalmatia 2
+17332;17331;sea;18487;-1;-1;-1;-1;;Dalmatia Islands 8 to Dalmatia 9
+16309;17349;sea;19170;-1;-1;-1;-1;;Thessaly to West Islands 1
+17349;17348;sea;19170;-1;-1;-1;-1;;Thessaly to West Islands 2
+17348;17347;sea;18367;-1;-1;-1;-1;;Thessaly to West Islands 3
+17347;17346;sea;18367;-1;-1;-1;-1;;Thessaly to West Islands 4
+16416;17350;sea;17530;-1;-1;-1;-1;;Athens to West Island
+11212;17323;sea;18384;-1;-1;-1;-1;;Istria to small island 1
+17323;17326;sea;18427;-1;-1;-1;-1;;Istria to small island 2
+17326;17327;sea;18427;-1;-1;-1;-1;;Istria to small island 3
+17327;17325;sea;18427;-1;-1;-1;-1;;Istria to small island 4
+17323;17324;sea;18427;-1;-1;-1;-1;;Istria to small island 5
+17324;11633;sea;18427;-1;-1;-1;-1;;small island 5 to dalamatia
+17328;17330;sea;18250;-1;-1;-1;-1;;Dalmatia to small island 1
+17330;9955;sea;18250;-1;-1;-1;-1;;Dalmatia to small island 2
+17328;17329;sea;18250;-1;-1;-1;-1;;Dalmatia to small island 3
+17329;7018;sea;18427;-1;-1;-1;-1;;Dalmatia to small island 4
+17325;20122;sea;18427;-1;-1;-1;-1;;Dalmatia to small island 5
+17325;11633;sea;18427;-1;-1;-1;-1;;Dalmatia to small island 6
+5804;17377;sea;17625;-1;-1;-1;-1;;Sicily to North Island 1
+17377;17374;sea;17625;-1;-1;-1;-1;;Sicily to North Island 2
+17374;17372;sea;17625;-1;-1;-1;-1;;Sicily to North Island 3
+17372;17364;sea;18737;-1;-1;-1;-1;;Sicily to North Island 4
+5613;17343;sea;17921;-1;-1;-1;-1;;Campania to Small island
+17338;9577;sea;19023;-1;-1;-1;-1;;Tuscany to South Small island
+9924;7481;sea;18425;-1;-1;-1;-1;;Tuscany to Small Island
+9924;17335;sea;17907;-1;-1;-1;-1;;Tuscany Small island to north
+16860;17411;sea;17706;-1;-1;-1;-1;;Gabes to South Island 1
+16849;17411;sea;17706;-1;-1;-1;-1;;Gabes to South Island 2
+2977;17410;sea;17706;-1;-1;-1;-1;;Tunisia to Island 1
+17410;17409;sea;17706;-1;-1;-1;-1;;Tunisia to Island 2
+5476;14116;sea;18996;-1;-1;-1;-1;;South England Island
+17319;3383;sea;17834;-1;-1;-1;-1;;Brittany to small island
+17320;20120;sea;17790;-1;-1;-1;-1;;Poitou north
+17322;15179;sea;18369;-1;-1;-1;-1;;Poitou south 1
+17322;17321;sea;18369;-1;-1;-1;-1;;Poitou south 2
+17321;19540;sea;18369;-1;-1;-1;-1;;Poitou south 3
+12739;17268;sea;17874;-1;-1;-1;-1;;West Norway to Small island
+13049;17282;sea;18925;-1;-1;-1;-1;;Scottish Islands 1
+7072;17282;sea;18925;-1;-1;-1;-1;;Scottish Islands 2
+7072;6972;sea;18140;-1;-1;-1;-1;;Scottish Islands 3
+17280;6972;sea;17626;-1;-1;-1;-1;;Scottish Islands 4
+7771;12968;sea;19021;-1;-1;-1;-1;;Scottish Islands 5
+17277;12968;sea;19021;-1;-1;-1;-1;;Scottish Islands 6
+17277;17278;sea;19021;-1;-1;-1;-1;;Scottish Islands 7
+3385;17277;sea;19021;-1;-1;-1;-1;;Scottish Islands 8
+612;17276;sea;19021;-1;-1;-1;-1;;Scottish Islands 9
+17272;8044;sea;18576;-1;-1;-1;-1;;Scottish Islands 10
+17274;17272;sea;18143;-1;-1;-1;-1;;Scottish Islands 11
+10371;10517;sea;18576;-1;-1;-1;-1;;Scottish Islands 12
+17270;10517;sea;18576;-1;-1;-1;-1;;Scottish Islands 13
+17272;17270;sea;18576;-1;-1;-1;-1;;Scottish Islands 14
+10371;17273;sea;18576;-1;-1;-1;-1;;Scottish Islands 15
+2140;17258;sea;17954;-1;-1;-1;-1;;North Scottish Islands 1
+2140;17259;sea;17954;-1;-1;-1;-1;;North Scottish Islands 2
+17258;9575;sea;17954;-1;-1;-1;-1;;North Scottish Islands 3
+17259;9575;sea;17954;-1;-1;-1;-1;;North Scottish Islands 4
+9575;17250;sea;19079;-1;-1;-1;-1;;North Scottish Islands 5
+9575;17253;sea;19006;-1;-1;-1;-1;;North Scottish Islands 6
+9575;17256;sea;19006;-1;-1;-1;-1;;North Scottish Islands 7
+17253;17252;sea;19006;-1;-1;-1;-1;;North Scottish Islands 8
+17252;8434;sea;19006;-1;-1;-1;-1;;North Scottish Islands 9
+8434;17226;sea;19068;-1;-1;-1;-1;;North Scottish Islands 10
+17226;17224;sea;19068;-1;-1;-1;-1;;North Scottish Islands 11
+17226;17228;sea;18068;-1;-1;-1;-1;;North Scottish Islands 12
+17224;17228;sea;18068;-1;-1;-1;-1;;North Scottish Islands 13
+17216;17215;sea;18585;-1;-1;-1;-1;;Faroe Islands 1
+17215;9084;sea;18760;-1;-1;-1;-1;;Faroe Islands 2
+9084;17210;sea;17577;-1;-1;-1;-1;;Faroe Islands 3
+9963;5122;sea;18515;-1;-1;-1;-1;;Sweden to south small island
+12736;17265;sea;18724;-1;-1;-1;-1;;Sweden to East small island 1
+17265;17266;sea;18724;-1;-1;-1;-1;;Sweden to East small island 2
+12736;17261;sea;18724;-1;-1;-1;-1;;Sweden to East small island 3
+4192;17275;sea;17795;-1;-1;-1;-1;;Sweden to West Small island 1
+12669;17255;sea;17997;-1;-1;-1;-1;;Sweden to West Small island 2
+1384;17251;sea;17997;-1;-1;-1;-1;;Sweden to West Small island 3
+151;17244;sea;19075;-1;-1;-1;-1;;Sweden to West Small island 4

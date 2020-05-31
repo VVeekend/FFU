@@ -1,0 +1,29 @@
+state={
+	id=343
+	name="STATE_343"
+	provinces={
+		349 1558 2064 2261 2613 2795 2855 2924 3042 4286 4399 4591 4847 6175 6255 8277 8449 9173 9832 9919 9958 10205 10593 11190 11375 11596 16559 16577 16578 16603 16607 16617 16636 16637 16650 16665 16683 16707 
+	}
+	manpower=547797
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		victory_points = {
+		9919 15
+		}
+		victory_points = {
+		9173 1
+		}
+		victory_points = {
+		6175 1
+		}
+		victory_points = {
+		16578 1
+		}
+        }
+}

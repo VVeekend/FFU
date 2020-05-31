@@ -1,0 +1,17 @@
+state={
+	id=49
+	name="STATE_49"
+	provinces={
+		9873 19474 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = BEL
+		add_core_of = BEL
+		buildings = {
+			infrastructure = 5
+                    }
+	}
+}

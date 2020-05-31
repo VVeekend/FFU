@@ -1,0 +1,32 @@
+state={
+	id=91
+	name="STATE_91"
+	provinces={
+		294 315 1192 2262 2607 3790 4433 5303 5824 6022 6037 6326 6729 8285 8296 8852 10354 10815 11240 11306 11496 13570 13580 13628 13663 13750 13763 13779 13815 13848 13855 13856 13876 13883 13892 13897 13908 13924 13928 19462 
+	}
+	manpower=2438286
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	resources={
+		oil=2 # was: 4
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+			}
+		victory_points = {
+		5824 3
+		}
+		victory_points = {
+		13570 3
+		}
+		victory_points = {
+		2262 1
+		}
+	    }
+}

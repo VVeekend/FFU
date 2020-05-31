@@ -1,0 +1,53 @@
+
+state={
+	id=105
+	name="STATE_105"
+	resources={
+		steel=3.000
+		aluminium=100.000
+	}
+
+	history={
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+			infrastructure = 6
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+
+		}
+		victory_points = {
+			5216 1 
+		}
+		victory_points = {
+			14789 1 
+		}
+		victory_points = {
+			14913 5 
+		}
+		victory_points = {
+			14894 1 
+		}
+		victory_points = {
+			3098 1 
+		}
+		victory_points = {
+			19994 20 
+		}
+		victory_points = {
+			14852 1 
+		}
+		victory_points = {
+			2370 1 
+		}
+
+	}
+
+	provinces={
+		1172 1493 1990 2212 2370 2498 2758 2816 3098 3167 3422 3692 3788 3951 4067 4745 5216 5248 5604 5996 7032 8250 9641 9834 10847 11408 14634 14667 14721 14778 14786 14789 14797 14852 14894 14923 14928 14932 14966 14969 19994 20205 20209 20213 20215 20219 20220 20222 20223 20224 20225 20227 20228 20277 20278 20281 20283 20286 
+	}
+	manpower=3750752
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}
