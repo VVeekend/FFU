@@ -1,0 +1,9 @@
+version="1.9.*"
+tags={
+	"Balance"
+	"Fixes"
+	"Historical"
+	"Gameplay"
+}
+name="FFU"
+supported_version="1.9.2"
