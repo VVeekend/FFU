@@ -1,0 +1,56 @@
+ideas={
+	country={
+	
+		kis_auh_unifyrealm_focus = {
+
+			modifier = {
+				conscription = 0.02
+				army_morale_factor = 0.05
+				army_core_attack_factor = 0.04
+				army_core_defence_factor = 0.04
+			}
+
+		}
+
+		ww1_Scramble_for_Africa = {
+
+			allowed={ always=no } removal_cost=-1
+
+			modifier = {
+				justify_war_goal_time = -0.02
+				conscription = 0.001
+			}
+		}
+
+		ww1_Faith_Allah = {
+
+			allowed={ always=no } allowed_civil_war={ NOT={ has_government=communism } } removal_cost=-1
+
+			modifier = {
+				army_org_factor = 0.02
+				communism_drift = -0.05
+				conscription = 0.020
+			}
+		}
+
+		authoritarianism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				neutrality_drift = 0.1
+			}
+		}
+	}
+}

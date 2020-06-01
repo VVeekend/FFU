@@ -1,0 +1,616 @@
+﻿
+###################################################################
+
+division_template = {
+	name = "Fanteria Divisione"	# Infantry
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Bersaglieri Division"		# Elite
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Coloniali Troops"		# Special
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }		
+	}
+}
+
+division_template = {
+	name = "Alpini Division"		# Alpini Division
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+   		engineer = { x = 0 y = 1 }
+        logistics_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Fanteria Brigata"	# Militia
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Cavalleria di Linea"		# Cavalry
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+###################################################################
+
+units = {
+	division= { 
+			name = "1a Brigada Alpini"
+			location = 8587 # Roma
+			division_template="Alpini Division"
+			start_experience_factor=0.1
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "23a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "24a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "16a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "29a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "19a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "20a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "6a Brigada Bersaglieri"
+			location = 8587 # Roma
+			division_template="Fanteria Brigata"
+			start_experience_factor=0.2
+			}
+	
+	
+	division= { 
+			name = "30a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "31a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "25a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "28a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "26a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "27a Divisione di Fanteria"
+			location = 955 # Salerno
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "3a Divisione di Cavalleria"
+			location = 8587 # Roma
+			division_template="Cavalleria di Linea"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "4a Divisione di Cavalleria"
+			location = 8587 # Roma
+			division_template="Cavalleria di Linea"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Carabinieri"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "4a Brigada Bersaglieri"
+			location = 8587 # Roma
+			division_template="Fanteria Brigata"
+			start_experience_factor=0.2
+			}
+	
+	
+	division= { 
+			name = "3a Brigada Alpini"
+			location = 8587 # Roma
+			division_template="Alpini Division"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "22/27 Cavalleggeri"
+			location = 8587 # Roma
+			division_template="Cavalleria di Linea"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "5a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "6a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "35a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "9a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "34a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "15a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "2a Brigada Alpini"
+			location = 8587 # Roma
+			division_template="Alpini Division"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "1a Divisione Bersaglieri"
+			location = 8587 # Roma
+			division_template="Fanteria Brigata"
+			start_experience_factor=0.2
+			}
+	
+	
+	division= { 
+			name = "Fortezza Verona"
+			location = 8587 # Roma
+			division_template="Fanteria Brigata"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "32a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "7a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "8a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "3a Brigada Bersaglieri"
+			location = 8587 # Roma
+			division_template="Fanteria Brigata"
+			start_experience_factor=0.2
+			}
+	
+	
+	division= { 
+			name = "11a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "12a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "1a Divisione di Cavalleria"
+			location = 8587 # Roma
+			division_template="Cavalleria di Linea"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "13a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "14a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "21a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "22a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "2a Divisione di Cavalleria"
+			location = 8587 # Roma
+			division_template="Cavalleria di Linea"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "4a Brigada Alpini"
+			location = 8587 # Roma
+			division_template="Alpini Division"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "5a Brigada Bersaglieri"
+			location = 8587 # Roma
+			division_template="Fanteria Brigata"
+			start_experience_factor=0.2
+			}
+	
+	
+	division= { 
+			name = "1a Guardia Finanza"
+			location = 8587 # Roma
+			division_template="Fanteria Brigata"
+			start_experience_factor=0.05
+			# start_equipment_factor = 0.3 
+			# start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "21/23 Cavalleggeri"
+			location = 8587 # Roma
+			division_template="Cavalleria di Linea"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "1a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "2a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "10a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "17a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "18a Divisione di Fanteria"
+			location = 8587 # Roma
+			division_template="Fanteria Divisione"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Regio Corpo Truppe Coloniali della Somalia"
+			location = 8587 # Roma
+			division_template="Coloniali Troops"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "1o Gruppo Coloniali dell'Eritrea"
+			location = 8587 # Roma
+			division_template="Coloniali Troops"
+			start_experience_factor=0.05
+			}
+	navy = {
+		name = "1a Squadra Navale"
+		location=5613 # Campania
+		base=5613 # Campania
+	 ship = { name = "Terrible" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner =ITA version_name = "Dreadnoughts" } } }
+     ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ITA version_name = "Dreadnoughts" } } }
+     ship = { name = "Caïman" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ITA version_name = "Dreadnoughts" } } }
+     ship = { name = "Terrible" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } }
+     ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } }
+     ship = { name = "Caïman" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } }
+     ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } } 
+	 ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } }
+     ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } } 
+	 ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } }
+	 ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
+	 ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
+	 ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
+	 ship = { name = "Tourville" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
+	 ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
+     ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
+	 ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Light Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Light Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Light Cruisers" } } }
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }	 
+
+
+	}
+}
+air_wings = { 
+    }
+}
+instant_effect = {
+	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "ITA" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = support_equipment_1 creator = "ITA" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "ITA" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "ITA" } requested_factories = 1 progress = 0.1 efficiency = 50}
+
+}

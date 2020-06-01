@@ -12,12 +12,7 @@ state={
 		oil=3 # was: 3
 	}
 	history={
-		owner = SAU
-		add_core_of = SAU
 		buildings = {
-			infrastructure = 1
-			arms_factory = 1
-			industrial_complex = 1
 			}
 		}
 

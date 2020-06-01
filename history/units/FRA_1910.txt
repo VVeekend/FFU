@@ -1,0 +1,1376 @@
+﻿
+###################################################################
+
+division_template = {
+	name = "Division d'Infanterie"	# Infantry
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Légion Etrangère"		# Elite
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Troupes Coloniales"		# Special
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }		
+	}
+}
+
+division_template = {
+	name = "Chasseurs Alpins"		# Mountain Division
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+   		engineer = { x = 0 y = 1 }
+        logistics_company = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Brigade de Gendarmerie"	# Militia
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Hussards"		# Cavalry
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+    name = "Reconnaissance Blindée"
+
+    regiments = {
+        armored_car = { x = 0 y = 0 }
+        armored_car = { x = 0 y = 1 }       
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+    }
+
+    support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+    }
+}
+###################################################################
+
+units = {
+	division= { 
+			name = "81eme Division d'Infanterie territoriale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "82eme Division d'Infanterie territoriale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "87eme Division d'Infanterie territoriale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "15e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "86eme Division d'Infanterie territoriale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "88eme Division d'Infanterie territoriale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "85eme Division d'Infanterie territoriale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "90eme Division Territoriale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "58eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "63eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "66eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "61eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "62eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "67eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "51eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "53eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "69eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "1re Division de Cavalerie"
+			location=19583 # Val de Marnes
+			division_template="Hussards"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "3eme Division de Cavalerie"
+			location=19583 # Val de Marnes
+			division_template="Hussards"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "5eme Division de Cavalerie"
+			location=19583 # Val de Marnes
+			division_template="Hussards"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "1re Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "2eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "1re Corps d'Infanterie Reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "3eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "4eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "2e Corps d'Infanterie reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "12eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "40eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "42eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "7eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "8eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "9eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "10eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "7eme Division de Cavalerie"
+			location=19583 # Val de Marnes
+			division_template="Hussards"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "54eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "55eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "56eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "17eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "18eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "9eme Corps d'infanterie reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "57eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "73eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "71eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "72eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "13eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "43eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "8eme Division de Cavalerie"
+			location=19583 # Val de Marnes
+			division_template="Hussards"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "14eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "41eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "7eme Corps d'Infanterie reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "6eme Division de Cavalerie"
+			location=19583 # Val de Marnes
+			division_template="Hussards"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "15eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "16eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "8eme Corps d'infanterie reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "11eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "39eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "10eme Division de Cavalerie"
+			location=19583 # Val de Marnes
+			division_template="Hussards"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "25e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "92eme Division d'Infanterie territoriale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "91eme Division d'Infanterie territoriale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "89eme Division d'Infanterie territoriale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "16e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "17e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "18e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "19e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "21e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "20e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "24e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "23e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "22e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "1er Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "2e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "4e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "3e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "5e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "6e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "7e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "10e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "8e Division de Gendarmerie"
+			location=19583 # Val de Marnes
+			division_template="Brigade de Gendarmerie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "64eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "74eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "65eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "75eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "Alpins d'territoriale"
+			location=19583 # Val de Marnes
+			division_template="Chasseurs Alpins"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "23eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "24eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "33eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "34eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "1re Division d'infanterie coloniale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "2eme Division d'infanterie coloniale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "3eme Division d'infanterie coloniale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "9eme Division de Cavalerie"
+			location=19583 # Val de Marnes
+			division_template="Hussards"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "31eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "32eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "90eme Division d'Infanterie territoriale"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "29eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "30eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "2eme Division de Cavalerie"
+			location=19583 # Val de Marnes
+			division_template="Hussards"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "35eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "36eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "25eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "26eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "27eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "28eme Division d'Infanterie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "70eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "59eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "68eme Division d'Infanterie de reserve"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "d'Infanterie coloniale du Toulon"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Legion d'Infanterie Foreign"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.15
+			}
+	
+	
+	division= { 
+			name = "Division d'Alger"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "Division d'Oran"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "Division de Constantine"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Division d'occupation de Tunisie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "2eme brigade d'occupation de Tunisie"
+			location=19583 # Val de Marnes
+			division_template="Division d'Infanterie"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "d'infanterie coloniale do Saigon"
+			location=19583 # Val de Marnes
+			division_template="Troupes Coloniales"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "d'infanterie coloniale do Annam"
+			location=19583 # Val de Marnes
+			division_template="Troupes Coloniales"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "d'infanterie coloniale du Tonkin"
+			location=19583 # Val de Marnes
+			division_template="Troupes Coloniales"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "Brigade indigene de la cote francaise des Somalis"
+			location=19583 # Val de Marnes
+			division_template="Troupes Coloniales"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "1re brigade de tirailleurs malgaches"
+			location=19583 # Val de Marnes
+			division_template="Troupes Coloniales"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3 
+			start_manpower_factor = 0.3
+			}
+	
+	
+	division= { 
+			name = "1re Brigade de tirailleurs senegalais"
+			location=19583 # Val de Marnes
+			division_template="Troupes Coloniales"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "2eme Brigade de tirailleurs senegalais"
+			location=19583 # Val de Marnes
+			division_template="Troupes Coloniales"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Regiments indigini du Gabon et Tchad"
+			location=19583 # Val de Marnes
+			division_template="Troupes Coloniales"
+			start_experience_factor=0.05
+			}
+	 navy = {
+		name = "1ère Armée Navale"
+		location = 20005 # 
+		base =  20005 # 
+	     ship = { name = "Terrible" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = FRA version_name = "Dreadnoughts" } } }
+             ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = FRA version_name = "Dreadnoughts" } } }
+             ship = { name = "Caïman" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = FRA version_name = "Dreadnoughts" } } }
+             ship = { name = "Requin" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = FRA version_name = "Dreadnoughts" } } }
+	     ship = { name = "Furieux" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Semi-Dreadnoughts" } } }
+             ship = { name = "Achéron" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Semi-Dreadnoughts" } } }
+             ship = { name = "Cocyte" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Semi-Dreadnoughts" } } }
+             ship = { name = "Styx" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Semi-Dreadnoughts" } } }
+	     ship = { name = "Cocyte" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Semi-Dreadnoughts" } } }
+             ship = { name = "Styx" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Semi-Dreadnoughts" } } }
+	     ship = { name = "Furieux" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Achéron" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Cocyte" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Styx" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Jemmapes" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Valmy" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Bouvines" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Amiral Tréhouart" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Dévastation" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Terrible" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Caïman" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } } 
+			 ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Pre-Dreadnoughts" } } }
+			 ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Tourville" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Tourville" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Tourville" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Tourville" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Armored Cruisers" } } }
+			 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Protected Cruisers" } } }
+			 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Protected Cruisers" } } }
+			 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Protected Cruisers" } } }
+			 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Protected Cruisers" } } }
+			 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Protected Cruisers" } } }
+			 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Protected Cruisers" } } }
+			 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Protected Cruisers" } } }
+			 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Protected Cruisers" } } }
+			 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Protected Cruisers" } } }
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+			 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+			 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }			 
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+			 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+}
+}
+
+	
+air_wings = { 
+	18 = {
+    }
+}
+instant_effect = {
+	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "FRA" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = support_equipment_1 creator = "FRA" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "FRA" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "FRA" } requested_factories = 1 progress = 0.1 efficiency = 50}
+}
+
+
+

@@ -1,0 +1,67 @@
+﻿###################################################################
+
+division_template = {
+	name = "Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }	
+		
+	}
+}
+
+###################################################################
+
+units = {
+	division= { 
+		name = "Pljevlja divizija"
+		location = 4059 # Cetinje
+		division_template="Infantry Division"
+		start_experience_factor=0.5
+	}
+	
+	
+	division= { 
+		name = "Hercegovina odreda"
+		location = 4059 # Cetinje
+		division_template="Infantry Division"
+		start_experience_factor=0.5
+	}
+	
+	
+	division= { 
+		name = "Lovcena odreda"
+		location = 4059 # Cetinje
+		division_template="Infantry Division"
+		start_experience_factor=0.5
+	}
+	
+	
+	division= { 
+		name = "1. Stara Srbija odreda"
+		location = 4059 # Cetinje
+		division_template="Infantry Division"
+		start_experience_factor=0.5
+	}
+
+	division= { 
+		name = "2. Stara Srbija odreda"
+		location = 4059 # Cetinje
+		division_template="Infantry Division"
+		start_experience_factor=0.5
+	}
+	
+	}
+air_wings = { 
+	}
+instant_effect = {
+	add_equipment_production = { equipment = { type = infantry_equipment_0 creator = "ROM" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = support_equipment_1 creator = "ROM" } requested_factories = 1 progress = 0.1 efficiency = 50}
+}

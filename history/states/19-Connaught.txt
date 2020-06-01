@@ -10,8 +10,8 @@ state={
 	state_category = town
 	history=
 	{
-		owner = IRE
-		add_core_of = IRE
+		owner = ENG
+		add_core_of = ENG
 		buildings = {
 			infrastructure = 6
 		}

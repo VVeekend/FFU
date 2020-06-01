@@ -1,0 +1,294 @@
+﻿capital = 126
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_fuel_ratio = 0.33
+set_research_slots = 4
+set_stability = 0.55
+set_war_support = 0.50
+set_convoys = 100
+#-------------------------------------------------------
+#					POLITICS & ARMY
+#-------------------------------------------------------
+
+#LEADERS
+create_country_leader={ name = "Vladimir Lenin" desc=RUS_vladimir_ilyich_lenin_DESC picture="gfx/leaders/RUS/RUS_vladimir_lenin.dds" expire="1935.1.1" ideology=leninism traits={  } }
+create_country_leader={ name = "Georgy Lvov" desc=RUS_georgy_lvov_DESC picture="gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_georgy_lvov.dds" expire="1935.1.1" ideology=liberalism traits={  } }
+create_country_leader={ name = "Nikolay II" desc=RUS_nikolai_ii_DESC picture="gfx/leaders/RUS/RUS_nicholas_romanov.dds" expire="1935.1.1" ideology=liberalism traits={  } }
+create_country_leader={ name = "Nikolay II" desc=RUS_nikolai_ii_DESC picture="gfx/leaders/RUS/RUS_nicholas_romanov.dds" expire="1935.1.1" ideology=autocracy traits={  } }
+create_country_leader={ name = "Nikolay II" desc=RUS_nikolai_ii_DESC picture="gfx/leaders/RUS/RUS_nicholas_romanov.dds" expire="1935.1.1" ideology=fascism_ideology traits={  } }
+create_country_leader={ name = "Aleksandr Kolchak" desc=WHR_aleksandr_kolchak_DESC picture="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_kolchak.dds" expire="1935.1.1" ideology=fascism_ideology  traits={  } }
+
+#ARMY
+create_field_marshal={  name = "Mikhail Alexeyev" id=76321 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_alekseyev.dds" traits={ thorough_planner } skill=2 
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}			
+create_field_marshal={  name = "Nikolay Rouzski" id=76837 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_ruzsky.dds" traits={ logistics_wizard organizer defensive_doctrine } skill=2 
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}							
+create_field_marshal={  name = "Vladimir Sukhomlinov" id=76860 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_sukhomlinov.dds" traits={ } skill=3 
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+				
+create_corps_commander={ name = "Nikolay Baratov" id=77711 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_baratov.dds" traits={ } skill=2 
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}	
+create_corps_commander={ name = "Alexeï Broussilov" id=76187 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_brusilov.dds" traits={ cavalry_expert thorough_planner trickster winter_expert hill_fighter } skill=6
+	attack_skill = 7
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 2
+}		
+create_corps_commander={ name = "Anton Denikin" id=76428 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_denikin.dds" traits={ } skill=2 
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}							
+create_corps_commander={ name = "Alexei Evert" id=76431 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_evert.dds" traits={  } skill=2 
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}								
+create_corps_commander={ name = "Nikolay Iudovich Ivanov" id=76696 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_ivanov.dds" traits={ } skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}						
+create_corps_commander={ name = "Alexey Kaledin" id=76546 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_kaledin.dds" traits={ trickster cavalry_expert } skill=2 
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}						
+create_corps_commander={ name = "Aleksey Kuropatkin" id=77712 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_kuropatkin.dds" traits={ } skill=3 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}	
+create_corps_commander={ name = "Platon Lechitsky" id=77713 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_lechitsky.dds" traits={ } skill=2 
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}						
+create_corps_commander={ name = "Pavel Karlovitch Rennenkampf" id=77001 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_rennenkampf.dds" traits={  } skill=3 
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}								
+create_corps_commander={ name = "Aleksandr Samsonov" id=77166 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_samsonov.dds" traits={ } skill=2 
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}								
+create_corps_commander={ name = "Vladimir Sakharov" id=77532 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_sakharov.dds" traits={ } skill=2 
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}							
+create_corps_commander={ name = "Dmitry Shcherbachev" id=77298 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_shcherbachev.dds" traits={ trickster } skill=2 
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}								
+create_corps_commander={ name = "Piotr Wrangel" id=77689 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_wrangel.dds" traits={ } skill=2 
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}							
+create_corps_commander={ name = "Nikolai Yudenich" id=77714 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_yudenich.dds" traits={  fortress_buster } skill=2 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}														
+
+#NAVY
+create_navy_leader={ name = "Aleksandr Kolchak" id=76649 portrait_path="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_kolchak.dds" traits={ blockade_runner superior_tactician } skill=4 }
+create_navy_leader={  name = "Yevgeni Ivanovich Alekseyev" id=77234 portrait_path="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_admiral_alekseyev.dds" traits={ superior_tactician  } skill=3 }
+create_navy_leader={ name = "Andrei Eberhardt" id=76323 portrait_path="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_eberhard.dds" traits={ ironside } skill=3 }													
+create_navy_leader={ name = "Grand Duke Alexander" id=76455 portrait_path="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_gd_alexander.dds" traits={ spotter } skill=2 }																	
+create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_rusin.dds" traits={   } skill=2 }
+
+
+1910.1.1 = {
+	oob = "SOV_1910"
+
+	#-------------------------------------------------------
+	#							NF
+	#-------------------------------------------------------
+
+	#-------------------------------------------------------
+
+	set_technology = {
+
+		# Infantry
+		infantry_weapons = 1
+		ww1infantry_weapons1 = 1
+		support_weapons = 1
+		infantry_binoculars = 1
+		motorised_infantry = 1
+		ww1_ambulance1 = 1
+
+
+		# Support
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		#tech_military_police = 1
+		#tech_maintenance_company = 1
+		#tech_field_hospital = 1
+		#tech_logistics_company = 1
+
+		# Armor
+		gwtank=1 # 1910 Armored Car
+
+
+		# Artillery
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+
+		# Navy
+		transport = 1
+
+		# Air
+
+		# Engineering
+		electronic_mechanical_engineering = 1
+
+		# Industry
+		ww1_fortification1 = 1
+	}
+
+	set_politics = {
+	    ruling_party = neutrality
+	    last_election = "1912.9.1"
+	    election_frequency = 60
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 10
+	    fascism = 5
+	    communism = 10
+	    neutrality = 75
+	}
+
+	add_ideas = {
+		limited_conscription
+		limited_exports 
+		RUS_ww1_orthodox_church
+		RUS_ww1_tsushima_humiliation
+		RUS_ww1_mixed_railways
+	}	
+}
+
+1914.1.1 = {
+	oob = "SOV_1914"
+
+
+	#-------------------------------------------------------
+	#							NF
+	#-------------------------------------------------------
+
+	#Army
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = ww1_artillery_effort_1
+	complete_national_focus = doctrine_effort
+	complete_national_focus = ww1_trenchwarfare
+
+	#Industrial
+	complete_national_focus = industrial_effort
+	complete_national_focus = infrastructure_effort
+
+	#Political
+	complete_national_focus = political_effort
+
+	#Diplomatic
+	complete_national_focus = ww1_diplomatic_effort
+	complete_national_focus = neutrality_focus
+	complete_national_focus = ww1_military_reserve
+	
+
+	#-------------------------------------------------------
+
+	set_technology = {
+
+		# Infantry
+		infantry_weapons = 1
+		ww1infantry_weapons1 = 1
+		support_weapons = 1
+		infantry_binoculars = 1
+		infantry_grenade = 1
+		motorised_infantry = 1
+		ww1_ambulance1 = 1
+
+
+		# Support
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		tech_military_police = 1
+		tech_maintenance_company = 1
+		tech_field_hospital = 1
+		tech_logistics_company = 1
+
+		# Armor
+		gwtank = 1 # 1910 Armored Car
+
+		# Artillery
+		light_field_gun1 = 1
+		bonus_artillery1 = 1
+		heavy_field_gun1 = 1
+		bonus_bertha1 = 1
+
+		# Navy
+		transport = 1
+
+		# Air
+		ww1_fighter1 = 1
+
+		# Engineering
+		electronic_mechanical_engineering = 1
+
+		# Industry
+	}
+
+	set_politics = {
+	    ruling_party = communism
+	    last_election = "1910.1.1"
+	    election_frequency = 48
+	    elections_allowed = no
+	}
+	set_popularities = {
+	    democratic = 0
+	    fascism = 0
+	    communism = 100
+	    neutrality = 0
+	}
+
+	add_ideas = {
+	}
+}

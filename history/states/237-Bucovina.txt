@@ -9,8 +9,8 @@ state={
 	state_category = rural
 	history=
 	{
-		owner = ROM
-		add_core_of = ROM
+		owner = AUS
+		add_core_of = AUS
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1

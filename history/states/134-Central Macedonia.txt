@@ -4,13 +4,13 @@ state={
 	name="STATE_134"
 
 	history={
-		owner = GRE
+		owner = TUR
 		add_core_of = GRE
 		add_claim_by = BUL
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 2
 		}
         victory_points = {

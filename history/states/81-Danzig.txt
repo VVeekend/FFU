@@ -4,8 +4,8 @@ state={
 	name="STATE_81"
 
 	history={
-		owner = POL
-		add_core_of = POL
+		owner = GER
+		add_core_of = GER
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2

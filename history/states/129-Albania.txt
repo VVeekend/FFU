@@ -12,13 +12,12 @@ state={
 		chromium=2 # was: 3
 	}
 	history={
-		owner = ALB
+		owner = TUR
 		add_core_of = ALB
-		add_claim_by = ITA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 2 
+			industrial_complex = 1
 			air_base = 3
 			}
 		victory_points = {

@@ -1,0 +1,275 @@
+######### BATTLESOUND
+sound =
+{
+	name = "USA_infantry_rifle_attack01"
+	file = "animations/USA_infantry_fire_standing_state_01.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "USA_infantry_rifle_attack02"
+	file = "animations/USA_infantry_fire_standing_state_02.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "USA_infantry_rifle_attack03"
+	file = "animations/USA_infantry_fire_standing_state_03.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "USA_infantry_rifle_attack04"
+	file = "animations/USA_infantry_fire_standing_state_04.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "USA_infantry_rifle_attack05"
+	file = "animations/USA_infantry_fire_standing_state_05.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "USA_infantry_rifle_attack06"
+	file = "animations/USA_infantry_fire_standing_state_06.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "USA_infantry_rifle_attack07"
+	file = "animations/USA_infantry_fire_standing_state_07.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "USA_infantry_rifle_attack08"
+	file = "animations/USA_infantry_fire_standing_state_08.wav"
+	always_load = yes
+}
+
+sound =
+{
+	name = "USA_infantry_rifle_cartridge_01"
+	file = "animations/USA_infantry_rifle_cartridge_01.wav"
+}
+sound =
+{
+	name = "USA_infantry_rifle_cartridge_02"
+	file = "animations/USA_infantry_rifle_cartridge_02.wav"
+}
+sound =
+{
+	name = "USA_infantry_rifle_cartridge_03"
+	file = "animations/USA_infantry_rifle_cartridge_03.wav"
+}
+sound =
+{
+	name = "GER_stuka_01"
+	file = "animations/GER_stuka_01.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "GER_stuka_02"
+	file = "animations/GER_stuka_02.wav"
+	always_load = yes
+}
+
+sound =
+{
+	name = "FRA_infantry_rifle_attack01"
+	file = "animations/FRA_infantry_fire_standing_state_01.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "FRA_infantry_rifle_attack02"
+	file = "animations/FRA_infantry_fire_standing_state_02.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "FRA_infantry_rifle_attack03"
+	file = "animations/FRA_infantry_fire_standing_state_03.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "FRA_infantry_rifle_attack04"
+	file = "animations/FRA_infantry_fire_standing_state_04.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "FRA_infantry_rifle_attack05"
+	file = "animations/FRA_infantry_fire_standing_state_05.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "FRA_infantry_rifle_attack06"
+	file = "animations/FRA_infantry_fire_standing_state_06.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "FRA_infantry_rifle_attack07"
+	file = "animations/FRA_infantry_fire_standing_state_07.wav"
+	always_load = yes
+}
+
+sound =
+{
+	name = "GER_infantry_rifle_attack01"
+	file = "animations/GER_infantry_fire_standing_state_01.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "GER_infantry_rifle_attack02"
+	file = "animations/GER_infantry_fire_standing_state_02.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "GER_infantry_rifle_attack03"
+	file = "animations/GER_infantry_fire_standing_state_03.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "GER_infantry_rifle_attack04"
+	file = "animations/GER_infantry_fire_standing_state_04.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "GER_infantry_rifle_attack05"
+	file = "animations/GER_infantry_fire_standing_state_05.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "GER_infantry_rifle_attack06"
+	file = "animations/GER_infantry_fire_standing_state_06.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "GER_infantry_rifle_attack07"
+	file = "animations/GER_infantry_fire_standing_state_07.wav"
+	always_load = yes
+}
+
+
+sound =
+{
+	name = "ENG_infantry_rifle_attack01"
+	file = "animations/ENG_infantry_fire_standing_state_01.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "ENG_infantry_rifle_attack02"
+	file = "animations/ENG_infantry_fire_standing_state_02.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "ENG_infantry_rifle_attack03"
+	file = "animations/ENG_infantry_fire_standing_state_03.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "ENG_infantry_rifle_attack04"
+	file = "animations/ENG_infantry_fire_standing_state_04.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "ENG_infantry_rifle_attack05"
+	file = "animations/ENG_infantry_fire_standing_state_05.wav"
+	always_load = yes
+}
+
+
+sound =
+{
+	name = "ITA_infantry_rifle_attack01"
+	file = "animations/ITA_infantry_fire_standing_state_01.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "ITA_infantry_rifle_attack02"
+	file = "animations/ITA_infantry_fire_standing_state_02.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "ITA_infantry_rifle_attack03"
+	file = "animations/ITA_infantry_fire_standing_state_03.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "ITA_infantry_rifle_attack04"
+	file = "animations/ITA_infantry_fire_standing_state_04.wav"
+}
+sound =
+{
+	name = "ITA_infantry_rifle_attack05"
+	file = "animations/ITA_infantry_fire_standing_state_05.wav"
+}
+
+
+sound = 
+{
+	name = "USA_mechanized_units_mg_fire_01"
+	file = "animations/USA_mechanized_units_mg_fire_01.wav"
+}
+sound = 
+{
+	name = "USA_mechanized_units_mg_fire_02"
+	file = "animations/USA_mechanized_units_mg_fire_02.wav"
+}
+
+
+sound = 
+{
+	name = "GER_mechanized_units_mg_fire_01"
+	file = "animations/GER_mechanized_units_mg_fire_01.wav"
+}
+sound = 
+{
+	name = "GER_mechanized_units_mg_fire_02"
+	file = "animations/GER_mechanized_units_mg_fire_02.wav"
+}
+
+sound =
+{
+	name = "GER_infantry_mg_attack01"
+	file = "animations/GER_infantry_fire_mg_standing_state_01.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "GER_infantry_mg_attack02"
+	file = "animations/GER_infantry_fire_mg_standing_state_02.wav"
+	always_load = yes
+}
+
+sound =
+{
+	name = "USA_infantry_mg_attack01"
+	file = "animations/USA_infantry_fire_mg_standing_state_01.wav"
+	always_load = yes
+}
+sound =
+{
+	name = "USA_infantry_mg_attack02"
+	file = "animations/USA_infantry_fire_mg_standing_state_02.wav"
+	always_load = yes
+}

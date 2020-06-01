@@ -11,8 +11,8 @@ state={
 		steel=2 # was: 3
 	}
 	history={
-		owner = LIT
-		add_core_of = LIT
+		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 5
 			}

@@ -1,0 +1,2202 @@
+focus_tree = {
+	id = german_focus
+	default = no
+	country = { factor=0 modifier = { add = 10 tag = GER } }	
+
+	###########################################################################################################################
+	# POLITICAL
+	###########################################################################################################################
+
+	focus = {
+		id = GER_ww1_political_effort
+		icon = GFX_goal_generic_demand_territory
+		completion_reward = { add_political_power=120 }
+		ai_will_do = { factor = 800 }
+		cost = 10
+		x = 3
+		y = 0
+	}	
+
+	#----------------------------------------------------------------------- 
+	# Bloc 1 - Reinforce Kaiser
+	#-----------------------------------------------------------------------
+	focus = {
+		id = GER_ww1_support_kaiser
+		prerequisite = { focus=GER_ww1_political_effort }
+
+		icon = GFX_hoi4tgw_germanempire
+		available = { has_government=neutrality }
+
+		completion_reward = { add_political_power=100 }
+
+
+		ai_will_do = { factor = 800 }
+
+		cost = 8
+		x = 2
+		y = 1
+	}
+
+	focus = {
+		id = GER_ww1_militarism
+		prerequisite = { focus=GER_ww1_support_kaiser }
+		icon = GFX_goal_generic_political_pressure
+		completion_reward = { add_ideas=militarism_focus army_experience=20 set_rule={ can_send_volunteers=yes } }
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 2
+		y = 2
+	}
+
+	#---------- Kaiser+
+
+	focus = {
+		id = GER_ww1_centralizedpower
+		prerequisite = { focus=GER_ww1_militarism }
+		icon = GFX_goal_molotov_ribbentrop_pact
+
+		completion_reward = {
+
+		 random_owned_state={ limit={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes }} 
+
+			add_political_power=30
+		}
+
+		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes }		 }
+
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 2
+		y = 3
+	}
+
+	focus = {
+		id = GER_ww1_full_rearmament
+		prerequisite = { focus=GER_ww1_centralizedpower }
+		icon = GFX_goal_generic_build_tank
+
+		completion_reward = { army_experience=20 add_political_power=50 }
+
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 2
+		y = 4
+
+	}
+
+	focus = {
+		id = GER_ww1_reorganization_act
+		prerequisite = { focus=GER_ww1_full_rearmament }
+		icon = GFX_goal_generic_production2
+
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } } add_political_power=50 }
+		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
+
+		ai_will_do = {	factor = 10	}
+		cost = 10
+		x = 2
+		y = 5
+
+		mutually_exclusive = { focus=GER_ww1_fascist_coup }
+	}
+
+	focus = {
+		id = GER_ww1_unitedpeople
+		prerequisite = { focus=GER_ww1_reorganization_act }
+		icon = GFX_goal_generic_demand_territory
+
+		completion_reward = {
+			add_political_power=50
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=land_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=naval_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=air_doctrine }
+		}
+
+		ai_will_do = {	factor = 10	}
+		cost = 10
+		x = 2
+		y = 6
+	}
+
+	#---------- Fascist
+	focus = {
+		id = GER_ww1_military_youth
+		prerequisite = { focus=GER_ww1_militarism }
+		icon = GFX_goal_generic_more_territorial_claims
+		completion_reward = { add_ideas=military_youth_focus if={ limit={ has_government=fascism } add_popularity={ ideology=fascism popularity=0.2 } } if={ limit={ has_government=communism } add_popularity={ ideology=communism popularity=0.2 } } }
+		ai_will_do = { factor = 0 }
+		cost = 10
+		x = 0
+		y = 3
+	}
+
+	focus = {
+		id = GER_ww1_paramilitarism
+		prerequisite = { focus=GER_ww1_military_youth }
+		icon = GFX_goal_generic_military_sphere
+		completion_reward = { add_ideas=paramilitarism_focus }
+		ai_will_do = { factor = 0 }
+		cost = 10
+		x = 0
+		y = 4
+	}
+
+	focus = {
+		id = GER_ww1_fascist_coup
+		prerequisite = { focus=GER_ww1_paramilitarism }
+		icon = GFX_goal_support_fascism
+		available = { has_government=neutrality }
+
+		completion_reward = {
+			set_cosmetic_tag = GER_MIL
+			add_political_power=-300
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 1
+			}
+			add_timed_idea = { idea = reign_of_terror days = 730 }
+
+		}
+
+
+		ai_will_do = { factor = 0 }
+		cost = 10
+		x = 0
+		y = 5
+
+		mutually_exclusive = { focus=GER_ww1_reorganization_act }
+	}
+
+	focus = {
+		id = GER_ww1_oppression_minorities
+		prerequisite = { focus=GER_ww1_fascist_coup }
+		icon = GFX_goal_generic_secret_weapon
+		available = { has_government=fascism }
+
+		completion_reward = {
+			add_political_power=-150
+			add_timed_idea = {
+				idea = idea_oppression_minorities
+				days = 360
+			}
+			add_timed_idea = {
+				idea = ideological_fanaticism_focus
+				days = 420
+			}
+		}
+		ai_will_do = { factor = 0 }
+		cost = 10
+		x = 0
+		y = 6
+
+	}
+
+	#----------------------------------------------------------------------- 
+	# Bloc 2 - Contest Kaiser
+	#-----------------------------------------------------------------------
+	
+	
+
+	
+
+	#
+
+	#-----------------------------------------------------------------------
+
+	focus = {
+		id = GER_ww1_massive_effort
+		prerequisite = { focus=GER_ww1_unitedpeople focus=GER_ww1_oppression_minorities}
+		icon = GFX_goal_generic_construction
+
+		completion_reward = {
+
+
+			random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
+
+			army_experience=20
+			add_political_power=30 
+
+			random_owned_state = {
+				limit = { 
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}							
+			}
+
+		}
+
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 1
+		y = 7
+	}
+
+	focus = {
+		id = GER_ww1_fortify_city
+		prerequisite = { focus = GER_ww1_massive_effort }
+		icon = GFX_goal_generic_fortify_city
+
+		completion_reward = { 
+			random_owned_state = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 12299
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 0
+		y = 8
+		mutually_exclusive = { focus=GER_ww1_fortify_coast }
+	}
+
+	focus = {
+		id = GER_ww1_fortify_coast
+		prerequisite = { focus = GER_ww1_massive_effort }
+		icon = GFX_goal_generic_construct_military
+
+		completion_reward = { 
+			random_owned_state = {
+				limit = {
+					#is_in_home_area = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = { factor = 10 }
+		x = 2
+		y = 8
+		cost = 10
+		mutually_exclusive = { focus=GER_ww1_fortify_city }
+	}
+
+	###########################################################################################################################
+	# DIPLOMATIC
+	###########################################################################################################################
+
+	focus = {
+		id = GER_ww1_diplomatic_effort
+		icon = GFX_goal_generic_intelligence_exchange
+		completion_reward = { add_political_power=150 }
+
+		ai_will_do = { factor = 20	}
+		cost = 10
+		x = 13
+		y = 0
+	}
+
+	# HOI4TGW 0.1.9
+
+	focus = {
+		id = GER_ww1_free_BAV
+		prerequisite = { focus = GER_ww1_diplomatic_effort }
+		icon = GFX_goal_generic_propaganda
+
+		available = {
+			NOT = {country_exists=BAV }
+			controls_state = 52
+			controls_state = 53
+			controls_state = 54
+		}
+
+		completion_reward = {
+
+			add_stability = 0.10
+			add_manpower = 15000
+
+			BAV = {
+				transfer_state = 52
+				transfer_state = 53
+				transfer_state = 54
+			}
+
+			puppet = BAV
+
+	        # SPECIAL_DLC Together for Victory
+	        if = { limit = { has_dlc = "Together for Victory" }
+
+	            #IF-----------------------------------------
+	            set_autonomy = {
+	                target = BAV
+	                autonomous_state = autonomy_integrated_puppet
+	            }
+	            #-------------------------------------------
+
+	            #ELSE---------------------------------------
+	            else = {
+	                # WORK IN PROGRESS # Temporary Solution for Open Beta 0.1.9
+	            }
+	            #-------------------------------------------
+	        }
+
+	        hidden_effect {
+
+	        	BAV = { load_oob = "BAV_1910" }
+	        }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		cost = 9
+		x = 7
+		y = 1
+	}
+
+
+	#----------------------------------------------------------------------- 
+	# Bloc 1
+	#-----------------------------------------------------------------------
+
+	focus = {
+		id = GER_ww1_triple_alliance
+		prerequisite = { focus=GER_ww1_diplomatic_effort }
+		icon = GFX_goal_generic_demand_territory
+		completion_reward = { AUH={ add_opinion_modifier={ target=GER modifier=triple_alliance_opinion } } ITA={ add_opinion_modifier={ target=GER modifier=triple_alliance_opinion } } }
+		
+		available = {
+			NOT = { has_global_flag = kis_treaty_of_versailles }
+		}
+
+
+		ai_will_do = { factor = 20	}
+		cost = 10
+		x = 9
+		y = 1
+	}
+
+	focus = {
+		id = GER_ww1_send_advisor
+		prerequisite = { focus=GER_ww1_triple_alliance }
+		icon = GFX_goal_generic_territory_or_war
+		completion_reward = { 
+			ITA = { 
+				add_opinion_modifier = { 
+					target = GER modifier=HOI4TGW_Opinion_ger_ita_advisor_bonus 
+				} 
+			}
+			GER = { 
+				add_opinion_modifier = { 
+					target = ITA modifier=HOI4TGW_Opinion_ger_ita_advisor_bonus 
+				} 
+			} 
+			AUH = { 
+				add_opinion_modifier = { 
+					target = GER modifier=HOI4TGW_Opinion_ger_auh_advisor_bonus
+				} 
+			} 
+			GER = { 
+				add_opinion_modifier = { 
+					target = AUH modifier=HOI4TGW_Opinion_ger_auh_advisor_bonus
+				} 
+			} 
+		}
+		ai_will_do = { factor = 20	}
+		cost = 10
+		x = 9
+		y = 2
+	}
+
+	focus = {
+		id = GER_ww1_baghdad
+		prerequisite = { focus=GER_ww1_send_advisor }
+		available = {
+			has_war_with = FRA
+			TUR = {
+				is_in_faction_with = GER
+			}
+		}
+		icon = GFX_goal_generic_construction2
+		completion_reward = { 329={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 330={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 331={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 348={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 349={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }38={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 382={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 342={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 100={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 567={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } }
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 10
+		y = 3
+	}
+    
+	focus = {
+		id = GER_asienkorps
+		available = {
+			has_war_with = FRA
+			TUR = {
+				is_in_faction_with = GER
+			}
+		}
+		prerequisite = { focus=GER_ww1_baghdad }
+		icon = GFX_goal_generic_axis_build_infantry
+
+		completion_reward = {
+			#country_event=ww1_ottoman.4 #BUG
+			GER = { add_manpower = -250000 }
+			TUR = { add_manpower = 250000 }
+		}
+
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 10
+		y = 4
+	}
+
+	# Finnish Civil War # Open Beta 0.5
+	focus = {
+		id = GER_ww1_finnish_civil_war
+
+		available = {
+
+			SOV = {exists = yes}
+
+			date > 1917.1.1
+			not = {has_global_flag = kis_treaty_of_versailles }
+
+			FIN = {
+				exists = yes
+				is_puppet=no
+			}
+		}
+		prerequisite = { focus=GER_ww1_send_advisor }
+
+		icon = GFX_goal_anti_comintern_pact
+
+		completion_reward = {
+			FIN = {
+				start_civil_war = {
+					ruling_party = democratic
+					ideology = communism
+					size = 0.1
+					capital = 150
+					states = { 150 }
+				}
+			}
+
+			hidden_effect = {
+				news_event = { id = ww1_finland.1 days = 3 } # Finnish Civil War
+			}
+		}
+
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 9
+		y = 5
+	}
+
+
+
+
+
+	#----------------------------------------------------------------------- 
+	# Bloc 2
+	#-----------------------------------------------------------------------
+	focus = {
+		id = GER_ww1_assert_position_west
+		prerequisite = { focus = GER_ww1_diplomatic_effort }
+		icon = GFX_goal_generic_army_doctrines
+		completion_reward = { add_political_power=75 }
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 13
+		y = 1
+	}
+
+	focus = {
+		id = GER_ww1_anti_fr
+		prerequisite = { focus = GER_ww1_assert_position_west }
+		icon = GFX_goal_generic_cavalry
+		completion_reward = { GER={ add_opinion_modifier={ target=FRA modifier=HOI4TGW_Opinion_anti_fr_policy_malus } } }
+		ai_will_do = { factor = 30 }
+		cost = 10
+		x = 13
+		y = 2
+	}
+
+	focus = {
+		id = GER_ww1_anti_uk
+		prerequisite = { focus = GER_ww1_anti_fr }
+		icon = GFX_goal_generic_political_pressure
+		completion_reward = { GER={ add_opinion_modifier={ target=ENG modifier=HOI4TGW_Opinion_anti_uk_policy_malus } } }
+		ai_will_do = { factor = 30 }
+		cost = 10
+		x = 13
+		y = 3
+	}
+
+	focus = {
+		id = GER_ww1_support_boer
+		prerequisite = { focus = GER_ww1_anti_uk }
+		icon = GFX_goal_molotov_ribbentrop_pact		
+		available = { 
+			SAF = {
+	 			exists = yes
+	 		}
+	 		NOT = { has_global_flag = kis_treaty_of_versailles }
+		}
+		completion_reward = { 
+			541 = {
+				add_building_construction = {
+					type = air_base
+					level = 1
+					#province = 5189
+					instant_build = yes
+				}
+			}
+			541 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					#province = 5189
+					instant_build = yes
+				}
+			}			
+		}
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 12
+		y = 4
+	}
+
+	focus = {
+		id = GER_ww1_support_boer_war
+		prerequisite = { focus = GER_ww1_support_boer }
+		icon = GFX_goal_generic_small_arms
+		completion_reward = { country_event=ww1_germany.20 }
+		available = { 
+	 		ENG = {
+	 			exists = yes
+	 		}
+			has_war_with=ENG
+			SAF = {
+	 			exists = yes
+	 		}
+			has_war_with=SAF 
+		}
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 12
+		y = 5
+	}
+
+	focus = {
+		id = GER_ww1_agadir_crisis
+		prerequisite = { focus = GER_ww1_anti_uk }
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		available = {
+			  country_exists=FRA
+			  country_exists=MOR
+			  country_exists=ENG
+			  country_exists=GER
+			  has_war=no
+			  date>1911.6.1
+			  NOT = { has_global_flag = kis_treaty_of_versailles }
+			  }
+		bypass = { FRA = { has_completed_focus = FRA_ww1_agadir_crisis } }
+		completion_reward = { country_event=ww1_morocco.1 }
+		ai_will_do = { factor = 100 }
+		cost = 5
+		x = 14
+		y = 4
+	}	
+	#-----------------------------------------------------------------------
+
+	#-----------------------------------------------------------------------
+	# Bloc 3
+	#-----------------------------------------------------------------------
+	focus = {
+		id = GER_ww1_restructure_ostafrika
+		prerequisite = { focus = GER_ww1_diplomatic_effort }
+		icon = GFX_goal_generic_construct_civilian
+
+		available = {
+			NOT = { has_global_flag = kis_treaty_of_versailles }
+		}
+
+		completion_reward = { 
+			546 = {
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 15
+		y = 1
+	}
+
+	focus = {
+		id = GER_ww1_train_ostafrika
+		prerequisite = { focus = GER_ww1_restructure_ostafrika }
+		icon = GFX_goal_generic_more_territorial_claims
+
+		available = {
+			has_war_with=ENG
+			NOT = { has_global_flag = kis_treaty_of_versailles }
+		}
+
+		completion_reward = { news_event=ww1_germany.16 }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 15
+		y = 2
+	}
+	#-----------------------------------------------------------------------	
+
+	#-----------------------------------------------------------------------
+	# Bloc 4
+	#-----------------------------------------------------------------------
+	focus = {
+		id = GER_ww1_assert_position_east
+		prerequisite = { focus = GER_ww1_diplomatic_effort }
+		icon = GFX_goal_generic_army_doctrines
+		completion_reward = { add_political_power=75 }
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 17
+		y = 1
+	}
+
+	focus = {
+		id = GER_ww1_anti_ru
+		prerequisite = { focus = GER_ww1_assert_position_east }
+		icon = GFX_goal_generic_political_pressure
+		completion_reward = { GER={ add_opinion_modifier={ target=RUS modifier=HOI4TGW_Opinion_anti_ru_policy_malus } } }
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 17
+		y = 2
+	}
+
+	focus = {
+		id = GER_ww1_anti_serb
+		prerequisite = { focus = GER_ww1_anti_ru }
+		icon = GFX_goal_generic_attack_allies
+		completion_reward = { GER={ add_opinion_modifier={ target=SER modifier=HOI4TGW_Opinion_anti_serb_policy_malus } } }
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 17
+		y = 3
+	}
+
+	focus = {
+		id = GER_ww1_bulgaria_friend
+		prerequisite = { focus = GER_ww1_anti_serb }
+		icon = GFX_goal_generic_military_deal
+		available = {
+
+			NOT = { 
+				has_global_flag = kis_treaty_of_versailles 
+			}
+
+			date > 1915.6.1 
+			is_puppet = no 
+			NOT= {  
+				has_war_with = BUL 
+			} 
+			BUL = { 
+				exists = yes 
+				is_puppet = no
+			}
+		}
+		completion_reward = { 
+			BUL = { 
+				country_event = ww1_bulgaria.1 
+			}
+		}
+		ai_will_do = { factor = 800 }
+		cost = 10
+		x = 17
+		y = 4
+	}
+	#-----------------------------------------------------------------------
+
+	focus = {
+		id = GER_ww1_ready_country
+		prerequisite = { focus = GER_ww1_anti_serb }
+		icon = GFX_goal_demand_sudetenland   
+		completion_reward = {
+			add_manpower = 100000
+			army_experience=20 navy_experience=40 air_experience=10
+		}    
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 15
+		y = 5
+	}
+
+	focus = {
+		id = GER_ww1_polnische_wehrmacht
+		prerequisite = { focus = GER_ww1_ready_country }
+		icon = GFX_hoi4tgw_poland  
+		available = {
+			has_war = yes
+		}
+		completion_reward = {
+			add_manpower = 100000
+			87 = { add_core_of = POL }
+			98 = { add_core_of = POL }
+			10 = { add_core_of = POL }
+			90 = { add_core_of = POL }
+			88 = { add_core_of = POL }
+			92 = { add_core_of = POL }
+		}     
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 13
+		y = 6
+	}
+
+	#National Focus: Schlieffen Plan
+	focus = {
+		id = GER_ww1_war_with_france
+
+		icon = GFX_hoi4tgw_ironcross
+		available = {
+			date > 1914.6.28
+			date < 1916.1.1
+			OR = {
+             has_war_with = FRA
+			}
+			NOT = { has_global_flag = kis_treaty_of_versailles }
+		}
+
+		completion_reward = {
+			add_named_threat = { threat = 15 name = "Schlieffen Plan" }
+
+			GER = {
+				set_country_flag=GER_ww1_schlieffen_plan
+				country_event = { id = ww1_franzferdinand.8 days = 1 }
+				add_timed_idea = {
+					days = 100
+					idea = GER_schlieffen1
+			}
+			}
+		}
+		x = 15
+		y = 8
+		cost = 2
+
+
+		ai_will_do = { 
+			factor = 500
+		}
+	}
+
+	focus = {
+		id = GER_ww1_Kaiserschlacht
+		prerequisite = { }
+		icon = GFX_hoi4tgw_ironcross
+		available = {  has_war_with = USA 
+		                 date > 1916.1.1 }
+		completion_reward = { 
+			add_timed_idea = {
+					days = 100
+					idea = GER_westernfront
+			}
+		}
+		ai_will_do = { factor = 2000 }
+		cost = 2
+		x = 15
+		y = 9
+	}
+	
+	focus = {
+		id = GER_East
+		prerequisite = {  }
+		icon = GFX_hoi4tgw_ironcross
+		available = {  has_war_with = RUS }
+		completion_reward = { 
+			add_timed_idea = {
+					days = 75
+					idea = GER_East_attack
+			}
+			AUS = {
+				add_timed_idea = {
+					days = 100
+					idea = GER_East_attack
+			}
+			}
+			
+			TUR = {
+				add_timed_idea = {
+					days = 100
+					idea = GER_East_attack
+			  }
+			}
+			BUL = {
+				add_timed_idea = {
+					days = 100
+					idea = GER_East_attack
+			  }
+			}
+		}
+		ai_will_do = { factor = 2000 }
+		cost = 2
+		x = 17
+		y = 8
+	}
+
+	focus = {
+		id = GER_strat_bombing
+		prerequisite = { focus = GER_ww1_ready_country }
+		icon = GFX_hoi4tgw_zeppelin
+		available = {  has_war_with=ENG  NOT={  GER={  has_country_flag=Zeppelin_bombing  }  }  }
+		completion_reward = { 
+	        GER = {
+				set_country_flag = Zeppelin_bombing  
+				news_event = ww1_germany.2  
+				add_tech_bonus = { 
+					name = bomber_bonus 
+					bonus = 0.5 
+					ahead_reduction=1 
+					technology = ww1_zeppelin2 
+				}
+			}  
+		}
+		ai_will_do = { factor = 80 }
+		cost = 10
+		x = 17
+		y = 6
+	}
+             #################################################
+focus = {
+		id = GER_ww1_army_effort_1
+		icon = GFX_goal_generic_allies_build_infantry
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_1 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_1 }
+		cost = 10
+		x = 20
+		y = 1
+		}
+focus = {
+		id = GER_ww1_equipment_effort_1
+		prerequisite = {  }
+		icon = GFX_goal_generic_small_arms
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=infantry_weapons} }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_1 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_1 }
+		cost = 10
+		x = 22
+		y = 1
+	}
+focus = {
+		id = GER_ww1_artillery_effort_1
+		prerequisite = { }
+		icon = GFX_goal_generic_army_artillery2
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=artillery } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_1 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_1 }
+		cost = 10
+		x = 24
+		y = 1
+	}
+focus = {
+		id = GER_ww1_aircraftprod_1
+		prerequisite = {  }
+		icon = GFX_goal_generic_air_production
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=0.5 uses=1 category=air_equipment } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_1 }
+		cost = 10
+		x = 26
+		y = 1
+	}
+focus = {
+		id = GER_ww1_large_navy_1
+		prerequisite = {  }
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=0.5 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=0.5 uses=1 category=air_doctrine }}
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		mutually_exclusive = { focus = GER_ww1_army_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_1 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_1 }
+		cost = 5
+		x = 28
+		y = 1
+		
+		}
+
+	##############################################################################
+
+focus = {
+		id = GER_ww1_army_effort_2
+		prerequisite = { focus=GER_ww1_army_effort_1
+		 focus=GER_ww1_equipment_effort_1
+		 focus=GER_ww1_artillery_effort_1
+		 focus=GER_ww1_aircraftprod_1
+		 focus=GER_ww1_large_navy_1}
+		icon = GFX_goal_generic_allies_build_infantry
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_2 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_2 }
+		cost = 10
+		x = 20
+		y = 2
+		}
+focus = {
+		id = GER_ww1_equipment_effort_2
+		prerequisite = { focus=GER_ww1_army_effort_1
+		 focus=GER_ww1_equipment_effort_1
+		 focus=GER_ww1_artillery_effort_1
+		 focus=GER_ww1_aircraftprod_1
+		 focus=GER_ww1_large_navy_1}
+		icon = GFX_goal_generic_small_arms
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=infantry_weapons} }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_2 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_2}
+		cost = 10
+		x = 22
+		y = 2
+	}
+focus = {
+		id = GER_ww1_artillery_effort_2
+		prerequisite = { focus=GER_ww1_army_effort_1
+		 focus=GER_ww1_equipment_effort_1
+		 focus=GER_ww1_artillery_effort_1
+		 focus=GER_ww1_aircraftprod_1
+		 focus=GER_ww1_large_navy_1}
+		icon = GFX_goal_generic_army_artillery2
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=artillery } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_2 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_2 }
+		cost = 10
+		x = 24
+		y = 2
+	}
+focus = {
+		id = GER_ww1_aircraftprod_2
+		prerequisite = { focus=GER_ww1_army_effort_1
+		focus=GER_ww1_equipment_effort_1
+		focus=GER_ww1_artillery_effort_1
+		focus=GER_ww1_aircraftprod_1
+		focus=GER_ww1_large_navy_1}
+		icon = GFX_goal_generic_air_production
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=0.5 uses=1 category=air_equipment } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_2 }
+		cost = 10
+		x = 26
+		y = 2
+	}
+focus = {
+		id = GER_ww1_large_navy_2
+		prerequisite = { focus=GER_ww1_army_effort_1
+		focus=GER_ww1_equipment_effort_1
+		focus=GER_ww1_artillery_effort_1
+		focus=GER_ww1_aircraftprod_1
+		focus=GER_ww1_large_navy_1}
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=0.5 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=0.5 uses=1 category=air_doctrine }}
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		mutually_exclusive = { focus = GER_ww1_army_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_2 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_2 }
+		cost = 5
+		x = 28
+		y = 2
+	}
+	################################################################
+
+focus = {
+		id = GER_ww1_army_effort_3
+		prerequisite = { focus=GER_ww1_army_effort_2
+		 focus=GER_ww1_equipment_effort_2
+		 focus=GER_ww1_artillery_effort_2
+		 focus=GER_ww1_aircraftprod_2
+		 focus=GER_ww1_large_navy_2}
+		icon = GFX_goal_generic_allies_build_infantry
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_3 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_3 }
+		cost = 10
+		x = 20
+		y = 3
+		}
+focus = {
+		id = GER_ww1_equipment_effort_3
+		prerequisite = { focus=GER_ww1_army_effort_2
+		 focus=GER_ww1_equipment_effort_2
+		 focus=GER_ww1_artillery_effort_2
+		 focus=GER_ww1_aircraftprod_2
+		 focus=GER_ww1_large_navy_2}
+		icon = GFX_goal_generic_small_arms
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=infantry_weapons} }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_3 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_3}
+		cost = 10
+		x = 22
+		y = 3
+	}
+focus = {
+		id = GER_ww1_artillery_effort_3
+		prerequisite = { focus=GER_ww1_army_effort_2
+		 focus=GER_ww1_equipment_effort_2
+		 focus=GER_ww1_artillery_effort_2
+		 focus=GER_ww1_aircraftprod_2
+		 focus=GER_ww1_large_navy_2}
+		icon = GFX_goal_generic_army_artillery2
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=artillery } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_3 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_3 }
+		cost = 10
+		x = 24
+		y = 3
+	}
+focus = {
+		id = GER_ww1_aircraftprod_3
+		prerequisite = { focus=GER_ww1_army_effort_2
+		focus=GER_ww1_equipment_effort_2
+		focus=GER_ww1_artillery_effort_2
+		focus=GER_ww1_aircraftprod_2
+		focus=GER_ww1_large_navy_2}
+		icon = GFX_goal_generic_air_production
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=0.5 uses=1 category=air_equipment } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_3 }
+		cost = 10
+		x = 26
+		y = 3
+	}
+focus = {
+		id = GER_ww1_large_navy_3
+		prerequisite = { focus=GER_ww1_army_effort_2
+		focus=GER_ww1_equipment_effort_2
+		focus=GER_ww1_artillery_effort_2
+		focus=GER_ww1_aircraftprod_2
+		focus=GER_ww1_large_navy_2 }
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=0.5 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=0.5 uses=1 category=air_doctrine }}
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		mutually_exclusive = { focus = GER_ww1_army_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_3 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_3 }
+		cost = 5
+		x = 28
+		y = 3
+	}
+	################################################################
+
+focus = {
+		id = GER_ww1_army_effort_4
+		prerequisite = { focus=GER_ww1_army_effort_3
+		 focus=GER_ww1_equipment_effort_3
+		 focus=GER_ww1_artillery_effort_3
+		 focus=GER_ww1_aircraftprod_3
+		 focus=GER_ww1_large_navy_3}
+		icon = GFX_goal_generic_allies_build_infantry
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_4 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_4 }
+		cost = 10
+		x = 20
+		y = 4
+		}
+focus = {
+		id = GER_ww1_equipment_effort_4
+		prerequisite = { focus=GER_ww1_army_effort_3
+		 focus=GER_ww1_equipment_effort_3
+		 focus=GER_ww1_artillery_effort_3
+		 focus=GER_ww1_aircraftprod_3
+		 focus=GER_ww1_large_navy_3}
+		icon = GFX_goal_generic_small_arms
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=infantry_weapons} }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_4 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_4 }
+		cost = 10
+		x = 22
+		y = 4
+	}
+focus = {
+		id = GER_ww1_artillery_effort_4
+		prerequisite = { focus=GER_ww1_army_effort_3
+		 focus=GER_ww1_equipment_effort_3
+		 focus=GER_ww1_artillery_effort_3
+		 focus=GER_ww1_aircraftprod_3
+		 focus=GER_ww1_large_navy_3 }
+		icon = GFX_goal_generic_army_artillery2
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=artillery } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_4 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_4 }
+		cost = 10
+		x = 24
+		y = 4
+	}
+focus = {
+		id = GER_ww1_aircraftprod_4
+		prerequisite = { focus=GER_ww1_army_effort_3
+		focus=GER_ww1_equipment_effort_3
+		focus=GER_ww1_artillery_effort_3
+		focus=GER_ww1_aircraftprod_3
+		focus=GER_ww1_large_navy_3}
+		icon = GFX_goal_generic_air_production
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=0.5 uses=1 category=air_equipment } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_4 }
+		cost = 10
+		x = 26
+		y = 4
+	}
+focus = {
+		id = GER_ww1_large_navy_4
+		prerequisite = { focus=GER_ww1_army_effort_3
+		focus=GER_ww1_equipment_effort_3
+		focus=GER_ww1_artillery_effort_3
+		focus=GER_ww1_aircraftprod_3
+		focus=GER_ww1_large_navy_3 }
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=0.5 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=0.5 uses=1 category=air_doctrine }}
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		mutually_exclusive = { focus = GER_ww1_army_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_4 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_4 }
+		cost = 5
+		x = 28
+		y = 4
+	}
+
+   ############################################################################
+ 	################################################################
+
+focus = {
+		id = GER_ww1_army_effort_5
+		prerequisite = { focus=GER_ww1_army_effort_4
+		 focus=GER_ww1_equipment_effort_4
+		 focus=GER_ww1_artillery_effort_4
+		 focus=GER_ww1_aircraftprod_4
+		 focus=GER_ww1_large_navy_4}
+		icon = GFX_goal_generic_allies_build_infantry
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_5 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_5 }
+		cost = 10
+		x = 20
+		y = 5
+		}
+focus = {
+		id = GER_ww1_equipment_effort_5
+		prerequisite = { focus=GER_ww1_army_effort_4
+		 focus=GER_ww1_equipment_effort_4
+		 focus=GER_ww1_artillery_effort_4
+		 focus=GER_ww1_aircraftprod_4
+		 focus=GER_ww1_large_navy_4}
+		icon = GFX_goal_generic_small_arms
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=infantry_weapons} }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_5 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_5 }
+		cost = 10
+		x = 22
+		y = 5
+	}
+focus = {
+		id = GER_ww1_artillery_effort_5
+		prerequisite = { focus=GER_ww1_army_effort_4
+		 focus=GER_ww1_equipment_effort_4
+		 focus=GER_ww1_artillery_effort_4
+		 focus=GER_ww1_aircraftprod_4
+		 focus=GER_ww1_large_navy_4 }
+		icon = GFX_goal_generic_army_artillery2
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=artillery } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_5 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_5 }
+		cost = 10
+		x = 24
+		y = 5
+	}
+focus = {
+		id = GER_ww1_aircraftprod_5
+		prerequisite = { focus=GER_ww1_army_effort_4
+		focus=GER_ww1_equipment_effort_4
+		focus=GER_ww1_artillery_effort_4
+		focus=GER_ww1_aircraftprod_4
+		focus=GER_ww1_large_navy_4}
+		icon = GFX_goal_generic_air_production
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=0.5 uses=1 category=air_equipment } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = GER_ww1_army_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_large_navy_5 }
+		cost = 10
+		x = 26
+		y = 5
+	}
+focus = {
+		id = GER_ww1_large_navy_5
+		prerequisite = { focus=GER_ww1_army_effort_4
+		focus=GER_ww1_equipment_effort_4
+		focus=GER_ww1_artillery_effort_4
+		focus=GER_ww1_aircraftprod_4
+		focus=GER_ww1_large_navy_4 }
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=0.5 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=0.5 uses=1 category=air_doctrine }}
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		mutually_exclusive = { focus = GER_ww1_army_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_equipment_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_artillery_effort_5 }
+		mutually_exclusive = { focus = GER_ww1_aircraftprod_5 }
+		cost = 5
+		x = 28
+		y = 5
+	}
+
+   ############################################################################
+focus = {
+		id = GER_ww1_armor_effort_1
+		prerequisite = { focus=GER_ww1_army_effort_5
+		focus=GER_ww1_equipment_effort_5
+		focus=GER_ww1_artillery_effort_5
+		focus=GER_ww1_aircraftprod_5
+		focus=GER_ww1_large_navy_5 }
+		icon = GFX_hoi4tgw_renaultft
+		completion_reward = { army_experience=50 add_tech_bonus={ name=armor_bonus bonus=0.5 uses=2 category=armor } }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 24
+		y = 6
+	}
+######################################################################################
+
+	focus = {
+		id = GER_ww1_industrial_effort
+		icon = GFX_goal_generic_production
+		completion_reward = { add_tech_bonus={ name=industrial_bonus bonus=1.0 uses=1 category=industry } }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 33
+		y = 0
+	}
+
+	focus = {
+		id = GER_ww1_infrastructure_effort
+		prerequisite = { focus=GER_ww1_industrial_effort }
+		icon = GFX_goal_generic_construct_infrastructure
+		bypass = { custom_trigger_tooltip={ tooltip=infrastructure_effort_tt all_owned_state={			 free_building_slots={ building=infrastructure size < 1 } } } }
+		completion_reward = {
+			random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
+
+
+			random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } } 
+		}
+
+
+		complete_tooltip = { add_building_construction={ type=infrastructure level=1 instant_build=yes } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 33
+		y = 1
+	}
+
+	focus = {
+		id = GER_ww1_construction_effort
+		prerequisite = { focus=GER_ww1_infrastructure_effort }
+		icon = GFX_goal_generic_construct_civ_factory
+		bypass = { custom_trigger_tooltip={ tooltip=construction_effort_tt all_owned_state={ free_building_slots={ building=industrial_complex size < 1 include_locked=yes }					 } } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } } }
+		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes }			 }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 32
+		y = 2
+	}
+
+	focus = {
+		id = GER_ww1_production_effort
+		prerequisite = { focus=GER_ww1_infrastructure_effort }
+		icon = GFX_goal_generic_construct_mil_factory
+		bypass = { custom_trigger_tooltip={ tooltip=production_effort_tt all_owned_state={ free_building_slots={ building=arms_factory size < 1 include_locked=yes } } } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } } }
+		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 34
+		y = 2
+	}
+
+
+	focus = {
+		id = GER_ww1_dockyard_effort_1
+		prerequisite = { focus=GER_ww1_infrastructure_effort }
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 36
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 10 }
+		bypass = {
+			custom_trigger_tooltip = {
+
+				NOT = {
+					any_owned_state = {
+						is_in_home_area = yes
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+
+			random_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+
+
+	focus = {
+		id = GER_ww1_airfield_expansion_1
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus=GER_ww1_infrastructure_effort }
+		x = 30
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 10 }
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = air_focus_bypass_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = air_base
+						size < 2
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+
+			random_owned_state = {
+				limit = { 
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}							
+			}
+			random_owned_state = {
+				limit = { 
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}							
+			}
+			random_owned_state = {
+				limit = { 
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}							
+			}			
+		}
+	}
+
+	focus = {
+		id = GER_ww1_infrastructure_effort_2
+		prerequisite = { focus=GER_ww1_construction_effort focus=GER_ww1_production_effort focus=GER_ww1_dockyard_effort_1 focus=GER_ww1_airfield_expansion_1}
+		icon = GFX_goal_generic_construct_infrastructure
+		bypass = { custom_trigger_tooltip={ tooltip=infrastructure_effort_tt all_owned_state={			 free_building_slots={ building=infrastructure size < 1 } } } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } } random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } } }
+		complete_tooltip = { add_building_construction={ type=infrastructure level=1 instant_build=yes } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 33
+		y = 3
+	}
+
+	focus = {
+		id = GER_ww1_construction_effort_2
+		prerequisite = { focus=GER_ww1_infrastructure_effort_2 }
+		prerequisite = { focus=GER_ww1_construction_effort }
+		icon = GFX_goal_generic_construct_civ_factory
+		bypass = { custom_trigger_tooltip={ tooltip=construction_effort_tt all_owned_state={ free_building_slots={ building=industrial_complex size < 1 include_locked=yes } } } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } } }
+		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes } }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 32
+		y = 4
+	}
+
+	focus = {
+		id = GER_ww1_production_effort_2
+		prerequisite = { focus=GER_ww1_infrastructure_effort_2 }
+		prerequisite = { focus=GER_ww1_production_effort }
+		icon = GFX_goal_generic_construct_mil_factory
+		bypass = { custom_trigger_tooltip={ tooltip=production_effort_tt all_owned_state={ free_building_slots={ building=arms_factory size < 1 include_locked=yes } } } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } } }
+		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 34
+		y = 4
+	}
+
+
+	focus = {
+		id = GER_ww1_dockyard_effort_2
+		prerequisite = { focus=GER_ww1_infrastructure_effort_2 }
+		prerequisite = { focus=GER_ww1_dockyard_effort_1 }
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 36
+		y = 4
+		cost = 5
+		ai_will_do = { factor = 10 }
+		bypass = {
+			custom_trigger_tooltip = {
+
+				NOT = {
+					any_owned_state = {
+						is_in_home_area = yes
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+
+			random_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GER_ww1_airfield_expansion_2
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus=GER_ww1_infrastructure_effort_2 }
+		prerequisite = { focus=GER_ww1_airfield_expansion_1 }
+		x = 30
+		y = 4
+		cost = 5
+		ai_will_do = { factor = 10 }
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = air_focus_bypass_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = air_base
+						size < 2
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+
+			random_owned_state = {
+				limit = { 
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}							
+			}
+			random_owned_state = {
+				limit = { 
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}							
+			}
+			random_owned_state = {
+				limit = { 
+					free_building_slots = {
+						building = air_base
+						size > 1
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}							
+			}			
+		}
+	}
+
+
+	focus = {
+		id = GER_ww1_infrastructure_effort_3
+		prerequisite = { focus=GER_ww1_construction_effort_2 focus=GER_ww1_production_effort_2 focus=GER_ww1_dockyard_effort_1 }
+		icon = GFX_goal_generic_construct_infrastructure
+		bypass = { custom_trigger_tooltip={ tooltip=infrastructure_effort_tt all_owned_state={			 free_building_slots={ building=infrastructure size < 1 } } } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } } random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } } }
+		complete_tooltip = { add_building_construction={ type=infrastructure level=1 instant_build=yes } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 33
+		y = 5
+	}
+
+	focus = {
+		id = GER_ww1_construction_effort_3
+		prerequisite = { focus=GER_ww1_infrastructure_effort_3 }
+		prerequisite = { focus=GER_ww1_construction_effort_2 }
+		icon = GFX_goal_generic_construct_civ_factory
+		bypass = { custom_trigger_tooltip={ tooltip=construction_effort_tt all_owned_state={ free_building_slots={ building=industrial_complex size < 2 include_locked=yes } } } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=industrial_complex size > 1 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=industrial_complex size > 1 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } } }
+		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 32
+		y = 6
+	}
+
+	focus = {
+		id = GER_ww1_production_effort_3
+		prerequisite = { focus=GER_ww1_infrastructure_effort_3 }
+		prerequisite = { focus=GER_ww1_production_effort_2 }
+		icon = GFX_goal_generic_construct_mil_factory
+		bypass = { custom_trigger_tooltip={ tooltip=production_effort_tt all_owned_state={ free_building_slots={ building=arms_factory size < 1 include_locked=yes }					 } } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } } }
+		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 34
+		y = 6
+	}
+
+
+	focus = {
+		id = GER_ww1_dockyard_effort_3
+		prerequisite = { focus=GER_ww1_infrastructure_effort_3 }
+		prerequisite = { focus=GER_ww1_dockyard_effort_2 }
+		icon = GFX_goal_generic_construct_naval_dockyard
+		ai_will_do = { factor = 10 }
+		x = 36
+		y = 6
+		cost = 5
+		ai_will_do = { factor = 0.1 }
+		bypass = {
+			custom_trigger_tooltip = {
+
+				NOT = {
+					any_owned_state = {
+						is_in_home_area = yes
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+
+			random_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+
+	focus = {
+		id = GER_ww1_airfield_expansion_3
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus=GER_ww1_infrastructure_effort_3 }
+		prerequisite = { focus=GER_ww1_airfield_expansion_2 }
+		x = 30
+		y = 6
+		cost = 5
+		ai_will_do = { factor = 10 }
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = air_focus_bypass_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = air_base
+						size < 2
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+
+				random_owned_state = {
+					limit = { 
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}							
+				}
+				random_owned_state = {
+					limit = { 
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}							
+				}
+				random_owned_state = {
+					limit = { 
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+					}							
+				}			
+		}
+	}
+
+	focus = {
+		id = GER_ww1_extra_tech_slot
+		prerequisite = { focus=GER_ww1_airfield_expansion_3 focus=GER_ww1_construction_effort_3 focus=GER_ww1_production_effort_3 focus=GER_ww1_dockyard_effort_3}
+		icon = GFX_focus_research
+		completion_reward = { add_research_slot=1 }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 33
+		y = 7
+	}
+
+
+	focus = {
+		id = GER_ww1_infrastructure_effort_4
+		prerequisite = { focus=GER_ww1_extra_tech_slot }
+		icon = GFX_goal_generic_construct_infrastructure
+		bypass = { custom_trigger_tooltip={ tooltip=infrastructure_effort_tt all_owned_state={			 free_building_slots={ building=infrastructure size < 1 } } } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } } random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } } }
+		complete_tooltip = { add_building_construction={ type=infrastructure level=1 instant_build=yes } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 33
+		y = 8
+	}
+
+	focus = {
+		id = GER_ww1_extra_tech_slot_2
+		prerequisite = { focus=GER_ww1_infrastructure_effort_4 }
+		icon = GFX_focus_research
+		available = { num_of_factories > 50 }
+		available = { date > 1916.1.1 }
+		completion_reward = { add_research_slot=1 }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 33
+		y = 9
+		cancel_if_invalid =no
+	}
+
+	###########################################################################################################################
+	
+		focus = {
+		id = GER_reinforcethekaiserlichemarine
+		icon = GFX_focus_generic_navy_battleship2
+		x = 43
+		y = 0
+		cost = 10
+		mutually_exclusive = { focus = GER_endthenavalarmsracewiththeunitedkingdom }
+		completion_reward = {random_owned_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				}
+			
+			random_owned_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_in_home_area = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			}
+		}
+    
+		
+		focus = {
+		id = GER_surfaceraidingdesigner
+		icon = GFX_goal_generic_secret_weapon
+		x = 41
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_continuethefocusondreadnoughts }
+		mutually_exclusive = { 
+			focus = GER_coastaldefensedesigner 
+		}
+		mutually_exclusive = { 
+			focus = GER_continuetheresearchonnewdesigns 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {custom_effect_tooltip = available_designer
+          show_ideas_tooltip = blohm_und_voss}
+		}
+	
+	   #Focus for Experimental Sea Tender Ships
+	focus = {
+		id = GER_experimentalseatenderships
+		icon = GFX_goal_generic_navy_carrier
+		x = 43
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_continuetheresearchonnewdesigns }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = { bonus = 1.0 uses = 1 category = cv_tech }
+		}
+	}
+
+	#Focus for Amphibious Assault
+	focus = {
+		id = GER_amphibiousassault
+		icon = GFX_goal_generic_amphibious_assault
+		x = 42
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_surfaceraiders }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {	
+        add_tech_bonus = { bonus = 0.5 uses = 2 category = tp_tech }
+		}
+	}
+	#Focus for End the Naval Arms Race With the United Kingdom
+	focus = {
+		id = GER_endthenavalarmsracewiththeunitedkingdom
+		icon = GFX_focus_ger_accept_british_naval_dominance
+		x = 45
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = GER_reinforcethekaiserlichemarine }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_timed_idea = { days = 365 idea= GER_slowed_naval_production }
+		}
+	}
+
+	#Focus for Increase Army Spending
+	focus = {
+		id = GER_increasearmyspending
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 47
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_endthenavalarmsracewiththeunitedkingdom }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state = { limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 3 add_building_construction = { type = arms_factory level = 3 instant_build = yes }
+		}
+	  }
+    }
+	
+	focus = {
+	    id = GER_improvementstoourexistingships
+		icon = GFX_goal_continuous_naval_production
+		x = 41
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = GER_coastaldefensedesigner 
+			focus = GER_surfaceraidingdesigner 
+		}
+		mutually_exclusive = { focus = GER_continuetheresearchonnewdesigns }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = { bonus = 1.0 uses = 2 technology = improved_light_battery technology = advanced_light_battery 
+			                                        technology = improved_medium_battery technology = advanced_medium_battery 
+													technology = improved_heavy_battery technology = advanced_heavy_battery }
+		}
+	}
+	
+	focus = {
+		id = GER_investmentintraining
+		icon = GFX_goal_continuous_reduce_training_time
+		x = 40
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_improvementstoourexistingships }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {uses = 3
+      bonus = 1.0
+     category = naval_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = GER_coastaldefensedesigner
+		icon = GFX_goal_generic_navy_battleship
+		x = 43
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_continuethefocusondreadnoughts }
+		mutually_exclusive = { 
+			focus = GER_surfaceraidingdesigner 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { custom_effect_tooltip = available_designer
+           show_ideas_tooltip = AG_Vulcan_yard
+		}
+		}
+
+	
+	focus = {
+		id = GER_battlecruiserfocus
+		icon = GFX_goal_generic_navy_battleship
+		x = 45
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_continuetheresearchonnewdesigns }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = { bonus = 1.0 uses = 1 category = bc_tech }
+		}
+	}
+	
+	focus = {
+		id = GER_focusonlighthulls
+		icon = GFX_goal_generic_navy_cruiser
+		x = 45
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_endthenavalarmsracewiththeunitedkingdom }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = { bonus = 1.0 uses = 2 category = ss_tech }
+		}
+	}
+	
+	focus = {
+		id = GER_continuethefocusondreadnoughts
+		icon = GFX_goal_generic_navy_battleship
+		x = 43
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_reinforcethekaiserlichemarine }
+		completion_reward = {
+			add_tech_bonus = { bonus = 1.0 uses = 2 category = bb_tech }
+		}
+	}
+	
+	focus = {
+		id = GER_continuetheresearchonnewdesigns
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 43
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = GER_surfaceraidingdesigner 
+			focus = GER_coastaldefensedesigner 
+		}
+		mutually_exclusive = { focus = GER_improvementstoourexistingships }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = { bonus = 1.0 uses = 2 category = naval_equipment }
+		}
+	}
+	
+	focus = {
+		id = GER_surfaceraiders
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 42
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = GER_continuetheresearchonnewdesigns 
+			focus = GER_improvementstoourexistingships 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = { bonus = 1.0 uses = 2 category = dd_tech }
+		}
+	}
+}
+	
+
+	
+	
+
+	   
+
+
+

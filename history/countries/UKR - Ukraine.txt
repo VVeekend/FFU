@@ -1,0 +1,110 @@
+﻿capital = 331
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_fuel_ratio = 0.20
+set_research_slots = 3
+set_stability = 0.50
+set_convoys = 10
+
+#-------------------------------------------------------
+#					POLITICS & ARMY
+#-------------------------------------------------------
+create_country_leader={ name="Mykhaïlo Hrouchevsky" desc=UKR_mykhailo_hrushevskyi_DESC picture="gfx/leaders/UKR_mykhailo_hrushevskyi.dds" expire="1935.1.1" ideology=despotism traits={  } }
+create_corps_commander={  name = "Konovalets" id=91008 portrait_path="gfx/generals/UKR_konovalets.tga" traits={   } skill=5 }
+create_corps_commander={  name = "Osetskyi" id=91009 portrait_path="gfx/generals/UKR_osetskyi.tga" traits={   } skill=3 }
+create_corps_commander={  name = "Stefaniv" id=91013 portrait_path="gfx/generals/UKR_stefaniv.tga" traits={   } skill=5 }
+create_corps_commander={  name = "Omelianovych-Pavlenko" id=91015 portrait_path="gfx/generals/UKR_omelianovych_pavlenko.tga" traits={  trickster } skill=4 }
+create_corps_commander={  name = "Kossak" id=91016 portrait_path="gfx/generals/UKR_kossak.tga" traits={   } skill=2 }
+create_corps_commander={  name = "Oskilko" id=91017 portrait_path="gfx/generals/UKR_oskilko.tga" traits={   } skill=1 }
+create_corps_commander={  name = "Schamanek" id=91025 portrait_path="gfx/generals/UKR_schamanek.tga" traits={   } skill=2 }
+create_corps_commander={  name = "Grekov" id=91027 portrait_path="gfx/generals/UKR_grekov.tga" traits={   } skill=2 }
+create_corps_commander={  name = "Delwig" id=91028 portrait_path="gfx/generals/UKR_delwig.tga" traits={   } skill=2 }
+create_corps_commander={  name = "Hryhoryiev" id=91030 portrait_path="gfx/generals/UKR_hryhoryiev.tga" traits={  trickster } skill=2 }
+create_corps_commander={  name = "Tiutiunnik" id=91031 portrait_path="gfx/generals/UKR_tiutiunnik.tga" traits={   } skill=2 }
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1919.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+set_popularities = {
+    democratic = 20
+    fascism = 18
+    communism = 2
+    neutrality = 60
+}
+
+1910.1.1 = {
+	oob = "UKR_1910"
+
+	#-------------------------------------------------------
+	#							NF
+	#-------------------------------------------------------
+
+	#-------------------------------------------------------
+
+	set_technology = {
+
+		# Infantry
+		infantry_weapons = 1
+		ww1infantry_weapons1 = 1
+		support_weapons = 1
+		infantry_binoculars = 1
+		infantry_grenade = 1
+		motorised_infantry = 1
+		ww1_ambulance1 = 1
+
+		# Support
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		tech_military_police = 1
+		tech_maintenance_company = 1
+		tech_field_hospital = 1
+		tech_logistics_company = 1
+		
+		# Armor
+		gwtank=1 # 1910 Armored Car
+
+		# Artillery
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+
+		# Air
+
+		# Engineering
+		electronic_mechanical_engineering = 1
+		chemical_research = 1
+
+		# Industry
+		ww1_fortification1 = 1
+		
+		# Navy
+		transport = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_heavy_armor_scheme = 1
+		basic_ship_hull_cruiser = 1
+		mtg_transport = 1
+		ship_hull_super_heavy 
+		basic_heavy_battery
+	}
+
+	add_ideas = {
+
+	}	
+}
+

@@ -11,8 +11,8 @@ state={
 	}	
 	state_category = city
 	history={
-		owner = LAT
-		add_core_of = LAT
+		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1

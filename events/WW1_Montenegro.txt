@@ -1,0 +1,3 @@
+﻿add_namespace = ww1_montenegro
+
+# Prince Nicholas of Montenegro proclaimed the Kingdom of Montenegro in Cetinje on 28 August 1910, elevating the country from the rank of Principality.

@@ -1,0 +1,199 @@
+﻿capital = 111
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_fuel_ratio = 0.20
+set_research_slots = 3
+set_stability = 0.75
+set_war_support = 0.65
+set_convoys = 10
+
+#-------------------------------------------------------
+#					POLITICS & ARMY
+#-------------------------------------------------------
+create_country_leader={ name = "Ferdinand I" desc=ROM_ferdinand_i_DESC picture="gfx/leaders/ROM_ferdinand_i.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+create_country_leader={ name = "Christian Rakovsky" desc=ROM_christian_rakovsky_DESC picture="gfx/leaders/ROM_christian_rakovsky.dds" expire="1935.1.1" ideology=stalinism traits={  } }
+create_country_leader={ name = "Carol I" desc=ROM_carol_i_DESC picture="gfx/leaders/ROM_carol_i.dds" expire="1935.1.1" ideology=conservatism traits={  } }
+
+#create_corps_commander={  name = "Barozzi" id=75040 portrait_path="gfx/generals/ROM_barozzi.tga" traits={ old_guard  } skill=2 }
+#create_corps_commander={  name = "Berindei" id=75044 portrait_path="gfx/generals/ROM_berindei.tga" traits={ old_guard  } skill=1 }
+#create_corps_commander={  name = "Lahovary" id=75045 portrait_path="gfx/generals/ROM_lahovary.tga" traits={ old_guard  } skill=2 }
+#create_corps_commander={  name = "Argetoianu" id=75046 portrait_path="gfx/generals/ROM_argetoianu.tga" traits={ old_guard  } skill=2 }
+#create_corps_commander={  name = "Anghelescu" id=75047 portrait_path="gfx/generals/ROM_anghelescu.tga" traits={ old_guard  } skill=2 }
+#create_corps_commander={  name = "Carol I" id=75049 portrait_path="gfx/generals/ROM_carol_i.tga" traits={ old_guard  } skill=3 }
+#create_corps_commander={  name = "Angelescu G." id=75050 portrait_path="gfx/generals/ROM_angelescu_g.tga" traits={ old_guard  } skill=2 }
+#create_corps_commander={  name = "Vladescu" id=75051 portrait_path="gfx/generals/ROM_vladescu.tga" traits={ old_guard  } skill=1 }
+#create_corps_commander={  name = "Manu" id=75054 portrait_path="gfx/generals/ROM_manu.tga" traits={ old_guard  } skill=2 }
+#create_corps_commander={  name = "Pencovici" id=75055 portrait_path="gfx/generals/ROM_pencovici.tga" traits={ old_guard  } skill=1 }
+
+#create_field_marshal={  name = "Falcoianu" id=75048 portrait_path="gfx/fieldmarshal/ROM_falcoianu.tga" traits={ old_guard  } skill=3 }
+
+create_field_marshal={  name = "Kliment Boyadzhiev" id=75048 portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Kliment_Boyadzhiev.dds" traits={ fast_planner  } skill=3 }
+
+#-# The Great War 0.5.1 (2018) #----------------------------------------------------------------------------------------------------------#
+
+create_field_marshal={
+	name = "Constantin Prezan" id=92101
+	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Constantin_Prezan.dds"
+	traits={ offensive_doctrine old_guard }
+	skill=6
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal={
+	name = "Alexandru Averescu" id=92102
+	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Alexandru_Averescu.dds"
+	traits={ offensive_doctrine }
+	skill=3
+}
+
+create_field_marshal={
+	name = "Grigore Crăiniceanu" id=92103
+	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Grigore_Crainiceanu.dds"
+	traits={ defensive_doctrine }
+	skill=2
+}
+
+create_field_marshal={
+	name = "Ioan_Culcer" id=92104
+	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Ioan_Culcer.dds"
+	traits={ defensive_doctrine old_guard }
+	skill=2
+}
+
+
+create_corps_commander={
+	name = "Artur Văitoianu" id=92105
+	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Artur_Vaitoianu.dds"
+	traits={ }
+	skill=3
+}
+
+create_corps_commander={
+	name = "Eremia Grigorescu" id=92106
+	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Eremia_Grigorescu.dds"
+	traits={ infantry_leader unyielding_defender }
+	skill=6
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander={
+	name = "Ion Dragalina" id=92107
+	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Ion_Dragalina.dds"
+	traits={ }
+	skill=2
+}
+
+create_corps_commander={
+	name = "Constantin Coandă" id=92108
+	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Constantin_Coanda.dds"
+	traits={ }
+	skill=2
+}
+
+#----------------------------------------------------------------------------------------------------------#
+
+
+create_navy_leader={  name = "Nigrescu" id=75021 portrait_path="gfx/admiral/ROM_nigrescu.tga" traits={   } skill=3 }
+create_navy_leader={  name = "Georgescu I." id=75033 portrait_path="gfx/admiral/ROM_georgescu_i.tga" traits={   } skill=3 }
+create_navy_leader={  name = "Sebestian" id=75034 portrait_path="gfx/admiral/ROM_sebestian.tga" traits={   } skill=3 }
+#create_navy_leader={  name = "Negru" id=75037 portrait_path="gfx/admiral/ROM_negru.tga" traits={   } skill=1 }
+create_navy_leader={  name = "Balescu" id=75038 portrait_path="gfx/admiral/ROM_balescu.tga" traits={   } skill=3 }
+create_navy_leader={  name = "Niculescu-Rizea" id=75039 portrait_path="gfx/admiral/ROM_niculescu_rizea.tga" traits={   } skill=2 }
+#create_navy_leader={  name = "Scodrea" id=75057 portrait_path="gfx/admiral/ROM_scodrea.tga" traits={   } skill=1 }
+
+set_technology = {
+	# Navy
+	transport = 1 # Naval Transport
+}
+
+1910.1.1 = {
+	oob = "ROM_1910"
+
+	#-------------------------------------------------------
+	#							NF
+	#-------------------------------------------------------
+
+	#-------------------------------------------------------
+
+	set_technology = {
+
+		# Infantry
+		infantry_weapons = 1
+		support_weapons = 1
+		infantry_binoculars = 1
+		motorised_infantry = 1
+		ww1_ambulance1 = 1
+
+
+		# Support
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		#tech_military_police = 1
+		#tech_maintenance_company = 1
+		#tech_field_hospital = 1
+		#tech_logistics_company = 1
+
+		# Armor
+
+		# Artillery
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+		
+		# Navy
+		transport = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_heavy_armor_scheme = 1
+		basic_ship_hull_cruiser = 1
+		mtg_transport = 1
+		ship_hull_super_heavy 
+		basic_heavy_battery
+
+
+		# Air
+
+		# Engineering
+		electronic_mechanical_engineering = 1
+
+		# Industry		
+		ww1_fortification1 = 1
+	}
+
+	set_politics = {
+	    ruling_party = democratic
+	    last_election = "1907.1.1"
+	    election_frequency = 48
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 85
+	    fascism = 3
+	    communism = 2
+	    neutrality = 10
+	}
+
+	add_ideas = {
+		extensive_conscription
+		militarism_focus
+		RUS_ww1_orthodox_church
+	}	
+}

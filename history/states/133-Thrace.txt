@@ -12,7 +12,8 @@ state={
 		chromium=5
 		}
 	history={
-		owner = GRE
+		owner = TUR
+		add_core_of = BUL
 		add_core_of=GRE
 		buildings={
 			infrastructure=2

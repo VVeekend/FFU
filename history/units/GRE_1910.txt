@@ -1,0 +1,188 @@
+﻿
+###################################################################
+
+division_template = {
+	name = "Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }	
+		
+	}
+}
+
+###################################################################
+
+units = {
+	division= { 
+		name = "I Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.15
+	}
+	
+	
+	division= { 
+		name = "II Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.15
+	}
+	
+	
+	division= { 
+		name = "XIII Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.1
+	}
+	
+	
+	division= { 
+		name = "III Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.1
+	}
+	
+	
+	division= { 
+		name = "IV Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.15
+	}
+	
+	
+	division= { 
+		name = "XIV Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.1
+	}
+	
+	
+	division= { 
+		name = "X Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.1
+	}
+	
+	
+	division= { 
+		name = "XI Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.1
+	}
+	
+	
+	division= { 
+		name = "XII Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.1
+	}
+	
+	
+	division= { 
+		name = "V Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.2
+	}
+	
+	
+	division= { 
+		name = "VI Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.2
+	}
+	
+	
+	division= { 
+		name = "VII Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.05
+	}
+	
+	
+	division= { 
+		name = "VIII Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.05
+	}
+	
+	
+	division= { 
+		name = "IX Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.05
+	}
+
+	division= { 
+		name = "X Merarchia"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.05
+	}
+	
+	
+	division= { 
+		name = "Thessaloniki Frourio"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.05
+	}
+	
+	
+	division= { 
+		name = "Ioannina Frourio"
+		location = 16491 # Athens
+		division_template="Infantry Division"
+		start_experience_factor=0.05
+	}
+	navy = {
+		name = "Greek Fleet"
+		location = 16491 # Athens
+		base =  16491 # Athens
+	     ship = { name = "Caïman" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GRE version_name = "Pre-Dreadnoughts" } } }
+             ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GRE version_name = "Pre-Dreadnoughts" } } }
+	   ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Armored Cruisers" } } }
+	   ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Armored Cruisers" } } }
+	     ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
+	     ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }	
+	     ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
+	     ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
+  	     ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
+	     ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
+	     ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
+	     ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
+	     ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
+	     ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }	
+	     ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
+	     ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
+  	     ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
+	     ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
+	     ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
+	     ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }		 
+	}
+}
+air_wings = { 
+	}
+instant_effect = {
+	add_equipment_production = { equipment = { type = infantry_equipment_0 creator = "GRE" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = support_equipment_1 creator = "GRE" } requested_factories = 1 progress = 0.1 efficiency = 50}
+}

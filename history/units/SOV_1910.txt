@@ -1,0 +1,1553 @@
+﻿
+###################################################################
+
+division_template = {
+	name = "Pekhotnaya Diviziya"	# Infantry
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		#artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Gvardeyskaya Pekhotnaya Diviziya"		# Elite
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Sibirskaya Strelkovaya Diviziya"		# Special
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Diviziya Opolcheniya"	# Militia
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Kavaleriyskaya Diviziya"		# Cavalry
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+#division_template = {
+#    name = "Armored Recon"
+#
+#    regiments = {
+#        armored_car = { x = 0 y = 0 }
+#        armored_car = { x = 0 y = 1 }
+#        infantry = { x = 1 y = 0 }
+#        infantry = { x = 1 y = 1 }
+#    }
+#    support = {
+#        recon = { x = 0 y = 0 }
+#        engineer = { x = 0 y = 1 }
+#    }
+#}
+###################################################################
+
+units = {
+	division= {
+			name = "1-ya Diviziya Opolcheniya"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "2-ya Diviziya Opolcheniya"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "3-ya Diviziya Opolcheniya"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "4-ya Diviziya Opolcheniya"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "5-ya Diviziya Opolcheniya"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "9-ya Diviziya Opolcheniya"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "10-ya Diviziya Opolcheniya"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+	division= {
+			name = "14-ya Diviziya Opolcheniya"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "1-ya Gvardeyskaya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Gvardeyskaya Pekhotnaya Diviziya"
+			start_experience_factor=0.2
+			}
+
+
+	division= {
+			name = "2-ya Gvardeyskaya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Gvardeyskaya Pekhotnaya Diviziya"
+			start_experience_factor=0.2
+			}
+
+
+	division= {
+			name = "2-ya Gvardeyskaya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.2
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "Gvardeyskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Gvardeyskaya Pekhotnaya Diviziya"
+			start_experience_factor=0.2
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "1-ya Gvardeyskaya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.2
+			}
+
+
+	division= {
+			name = "22-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "24-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "23-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "37-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "50-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "1-ya Finlyandskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "2-ya Finlandskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "3-ya Finlandskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "20-y Dragunsky Finlyandsky"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "53-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "54-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "55-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "56-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "57-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "St Petersburg Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "26-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "43-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "2-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "25-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "27-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	#division= {
+	#		name = "3-ya Kavaleriyskaya Diviziya"
+	#		location=1920 # Moskva
+	#		division_template="Kavaleriyskaya Diviziya"
+	#		start_experience_factor=0.1
+	#		}
+
+
+	#division= {
+	#		name = "5-ya Strelkovaya Brigada"
+	#		location=1920 # Moskva
+	#		division_template="Pekhotnaya Diviziya"
+	#		start_experience_factor=0.1
+	#		}
+
+
+	division= {
+			name = "30-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "40-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "28-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "29-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "58-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "59-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "60-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "61-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Riga Garrison"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "62-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "63-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "64-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	#division= {
+	#		name = "65-ya Pekhotnaya Diviziya"
+	#		location=1920 # Moskva
+	#		division_template="Sibirskaya Strelkovaya Diviziya"
+	#		start_experience_factor=0.05
+	#		start_equipment_factor = 0.3
+	#		start_manpower_factor = 0.3
+	#		}
+
+
+	division= {
+			name = "4-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "16-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "4-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "18-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "1-ya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "2-ya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "13-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "14-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	#division= {
+	#		name = "6-ya Pekhotnaya Diviziya"
+	#		location=1920 # Moskva
+	#		division_template="Pekhotnaya Diviziya"
+	#		start_experience_factor=0.1
+	#		}
+
+
+	#division= {
+	#		name = "8-ya Pekhotnaya Diviziya"
+	#		location=1920 # Moskva
+	#		division_template="Pekhotnaya Diviziya"
+	#		start_experience_factor=0.1
+	#		}
+
+
+	division= {
+			name = "6-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "15-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "17-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "38-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "7-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "3-ya Gvardeyskaya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Gvardeyskaya Pekhotnaya Diviziya"
+			start_experience_factor=0.2
+			}
+
+
+	division= {
+			name = "2-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "Otdel'naya Gvardeyskaya Kavaleriyskaya Brigada"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.2
+			}
+
+
+	division= {
+			name = "66-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "67-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "68-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Kiev Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Kharkov Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Poltava Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "5-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "42-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "9-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "9-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "31-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "10-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "11-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "32-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "11-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "12-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "19-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "12-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "2-ya Kazach'ya Svodnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "3-ya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "33-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "44-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "13-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "34-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "Crimean Kavaleriyskaya Brigada"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "14-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "15-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "8-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "4-ya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "69-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Sevastopol Garrison"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Moscow Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Jaraslavl Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Smolensk Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "1-ya Grenaderskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.2
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "2-ya Grenaderskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.2
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "1-ya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "7-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "10-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "3-ya Otdel'naya Kavaleriyskaya Brigada"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "1-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "36-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "2-ya Otdel'naya Kavaleriyskaya Brigada"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "3-ya Grenaderskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.2
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "76-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Kazan Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Orenburg Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Saratov Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Ural Region Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "20-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "39-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "1-ya Kavkazskaya Kazach'ya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "1-ya Kavkazskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "Kavkazskaya Grenaderskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.2
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "51-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "2-ya Kavkazskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "Kavkazskaya Kavaleriyskaya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "2 Kavkazskaya Kazach'ya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "21-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "52-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "3 Kavkazskaya Kazach'ya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "80-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "81-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "82-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "83-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "84-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Tiflis Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Vladikavkaz Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "1-ya Turkestanskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "2-ya Turkestanskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "3-ya Turkestanskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "1 Turkestanskaya Kazach'ya Diviziya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "4-ya Turkestanskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "5-ya Turkestanskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "85-ya Pekhotnaya Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "6-ya Turkestanskaya Strelkovaya Brigada"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Sibirskaya Kazach'ya Brigada"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "Tashkent Garrison"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "11-ya Sibirskaya Strelkovaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "3-ya Sibirskaya Kazach'ya"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Omsk Sibirskaya Reserve Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Omsk Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+	division= {
+			name = "5-ya Sibirskaya Strelkovaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			}
+
+
+	division= {
+			name = "Trans-Baikal Kazach'ya Brigada"
+			location=1920 # Moskva
+			division_template="Kavaleriyskaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "7-ya Sibirskaya Strelkovaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+	division= {
+			name = "Irkutsk Local Brigada"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "13-ya Sibirskaya Reserve Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "1-ya Sibirskaya Strelkovaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "2-ya Sibirskaya Strelkovaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "3-ya Sibirskaya Strelkovaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "9-ya Sibirskaya Strelkovaya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "6-ya Sibirskaya Strelkovaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "10-ya Sibirskaya Strelkovaya Diviziya"
+			location=1920 # Moskva
+			division_template="Pekhotnaya Diviziya"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.3
+			}
+
+
+	division= {
+			name = "14-ya Sibirskaya Reserve Diviziya"
+			location=1920 # Moskva
+			division_template="Sibirskaya Strelkovaya Diviziya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Vladivostok Garrison"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+
+
+	division= {
+			name = "Khabarovsk Garrison"
+			location=1920 # Moskva
+			division_template="Diviziya Opolcheniya"
+			start_experience_factor=0.05
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.3
+			}
+	}
+air_wings = {
+	}
+
+#Tuned in dev03
+instant_effect = {
+	add_equipment_production = { equipment = { type = support_equipment_1 creator = "RUS" } requested_factories = 4 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "RUS" } requested_factories = 5 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "RUS" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "RUS" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	}

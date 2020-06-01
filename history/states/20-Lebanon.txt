@@ -10,7 +10,8 @@ state={
 	state_category = town
 
 	history={
-		owner = FRA
+		owner = TUR
+		add_core_of = TUR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

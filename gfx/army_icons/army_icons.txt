@@ -1,0 +1,960 @@
+﻿army = {
+	gfx = GFX_theatre_army_shield
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+}
+army_group = {
+	gfx = GFX_theatre_army_group_shield
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+}
+
+fleet = {
+	gfx = GFX_theatre_task_force_shield
+
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+}
+
+task_force = {
+	gfx = GFX_theatre_task_force_shield
+	
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+	icon = {	}
+}
+
+naval_equipment_role = {
+	gfx = GFX_naval_equipment_role_icons
+
+	icon = {	color_override = no 	name = "Gun"			}
+	icon = {	color_override = no 	name = "Armour"			}
+	icon = {	color_override = no 	name = "Scout"			}
+	icon = {	color_override = no 	name = "Mine Laying"	}
+	icon = {	color_override = no 	name = "Mine Sweeping"	}
+	icon = {	color_override = yes 	name = "Raiding"		}
+	icon = {	color_override = no 	name = "Aircraft Carrier"	}
+	icon = {	color_override = no 	name = "Anti Submarine"	}
+
+	icon = {	color_override = no 	name = "Downgrade"	}
+	icon = {	color_override = no 	name = "Gun"			}
+	icon = {	color_override = no 	name = "Armour"			}
+	icon = {	color_override = no 	name = "Scout"			}
+	icon = {	color_override = no 	name = "Mine Laying"	}
+	icon = {	color_override = no 	name = "Mine Sweeping"	}
+	icon = {	color_override = yes 	name = "Raiding"		}
+	icon = {	color_override = no 	name = "Aircraft Carrier"	}
+	icon = {	color_override = no 	name = "Anti Submarine"	}
+
+	icon = {	color_override = no 	name = "Maintenance"	}
+	icon = {	color_override = no 	name = "Fleet Ship"	}
+	icon = {	color_override = no 	name = "Fleet Ship"	}
+	icon = {	color_override = no 	name = "Destroyer"	}
+	icon = {	color_override = yes 	name = "Destroyer"	}
+	icon = {	color_override = no 	name = "Light Cruiser"	}
+	icon = {	color_override = no 	name = "Light Cruiser"	}
+	icon = {	color_override = no 	name = "Carrier"	}
+	icon = {	color_override = yes 	name = "Carrier"	}
+
+	icon = {	color_override = no 	name = "Upgrade"	}
+	icon = {	color_override = no 	name = "Escort Ship"	}
+	icon = {	color_override = yes 	name = "Escort Ship"	}
+	icon = {	color_override = yes 	name = "Destroyer Escort"	}
+	icon = {	color_override = yes 	name = "Destroyer Escort"	}
+	icon = {	color_override = no 	name = "Destroyer Leader / Flotilla Leader"	}
+	icon = {	color_override = no 	name = "Destroyer Leader / Flotilla Leader"	}
+	icon = {	color_override = no 	name = "Escort Carrier"	}
+	icon = {	color_override = no 	name = "Escort Carrier"	}
+
+	icon = {	color_override = no 	name = "Mk.I"	}
+	icon = {	color_override = no 	name = "Scout Ship"	}
+	icon = {	color_override = no 	name = "Scout Ship"	}
+	icon = {	color_override = no 	name = "Radar Picket Destroyer"	}
+	icon = {	color_override = no 	name = "Radar Picket Destroyer"	}
+	icon = {	color_override = no 	name = "Scout Cruiser"	}
+	icon = {	color_override = no 	name = "Scout Cruiser"	}
+	icon = {	color_override = no 	name = "Light Carrier"	}
+	icon = {	color_override = no 	name = "Light Carrier"	}
+
+	icon = {	color_override = no 	name = "Mk.II"	}
+	icon = {	color_override = no 	name = "Mine Laying Ship"	}
+	icon = {	color_override = no 	name = "Mine Laying Ship"	}
+	icon = {	color_override = no 	name = "Destroyer Mine Layer"	}
+	icon = {	color_override = no 	name = "Destroyer Mine Layer"	}
+	icon = {	color_override = no 	name = "Cruiser Mine Layer"	}
+	icon = {	color_override = no 	name = "Cruiser Mine Layer"	}
+	icon = {	color_override = no 	name = "Attack Carrier"	}
+	icon = {	color_override = no 	name = "Attack Carrier"	}
+
+	icon = {	color_override = no 	name = "Mk.III"	}
+	icon = {	color_override = no 	name = "Mine Sweeping Ship"	}
+	icon = {	color_override = no 	name = "Mine Sweeping Ship"	}
+	icon = {	color_override = no 	name = "Destroyer Mine Sweeper"	}
+	icon = {	color_override = no 	name = "Destroyer Mine Sweeper"	}
+	icon = {	color_override = no 	name = "Cruiser Mine Sweeper"	}
+	icon = {	color_override = no 	name = "Cruiser Mine Sweeper"	}
+	icon = {	color_override = no 	name = "Heavy Cruiser"	}
+	icon = {	color_override = no 	name = "Heavy Cruiser"	}
+
+	icon = {	color_override = no 	name = "Mk.IV"	}
+	icon = {	color_override = no 	name = "Convoy Raiding Ship"	}
+	icon = {	color_override = no 	name = "Convoy Raiding Ship"	}
+	icon = {	color_override = no 	name = "Torpedo Destroyer"	}
+	icon = {	color_override = no 	name = "Torpedo Destroyer"	}
+	icon = {	color_override = no 	name = "Torpedo Cruiser"	}
+	icon = {	color_override = no 	name = "Torpedo Cruiser"	}
+	icon = {	color_override = no 	name = "Battlecruiser"	}
+	icon = {	color_override = no 	name = "Battlecruiser"	}
+
+	icon = {	color_override = no 	name = "Mk.V"	}
+	icon = {	color_override = no 	name = "Anti Aircraft Ship"	}
+	icon = {	color_override = no 	name = "Anti Aircraft Ship"	}
+	icon = {	color_override = no 	name = "Anti Aircraft Destroyer"	}
+	icon = {	color_override = no 	name = "Anti Aircraft Destroyer"	}
+	icon = {	color_override = no 	name = "Anti Aircraft Cruiser"	}
+	icon = {	color_override = no 	name = "Anti Aircraft Cruiser"	}
+	icon = {	color_override = no 	name = "Battleship"	}
+	icon = {	color_override = no 	name = "Battleship"	}
+
+	icon = {	color_override = no 	name = "Type A"	}
+	icon = {	color_override = no 	name = "Anti Submarine Warfare Ship"	}
+	icon = {	color_override = no 	name = "Anti Submarine Warfare Ship"	}
+	icon = {	color_override = no 	name = "Destroyer Hunter-Killer (ASW)"	}
+	icon = {	color_override = no 	name = "Destroyer Hunter-Killer (ASW)"	}
+	icon = {	color_override = no 	name = "Cruiser Hunter-Killer (ASW)"	}
+	icon = {	color_override = no 	name = "Cruiser Hunter-Killer (ASW)"	}
+	icon = {	color_override = no 	name = "Super Heavy Battleship"	}
+	icon = {	color_override = no 	name = "Super Heavy Battleship"	}
+
+	icon = {	color_override = no 	name = "Type B"	}
+	icon = {	color_override = no 	name = "Fleet Submarine"	}
+	icon = {	color_override = no 	name = "Fleet Submarine"	}
+	icon = {	color_override = no 	name = "Submarine"	}
+	icon = {	color_override = no 	name = "Submarine"	}
+	icon = {	color_override = no 	name = "Cruiser Submarine"	}
+	icon = {	color_override = no 	name = "Cruiser Submarine"	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+
+	icon = {	color_override = no 	name = "Type C"	}
+	icon = {	color_override = no 	name = "Scout Submarine"	}
+	icon = {	color_override = no 	name = "Scout Submarine"	}
+	icon = {	color_override = no 	name = "Radar Picket Submarine"	}
+	icon = {	color_override = no 	name = "Radar Picket Submarine"	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+
+	icon = {	color_override = no 	name = "Type D"	}
+	icon = {	color_override = no 	name = "Mine Laying Submarine"	}
+	icon = {	color_override = no 	name = "Mine Laying Submarine"	}
+	icon = {	color_override = no 	name = "Submarine Mine Layer"	}
+	icon = {	color_override = no 	name = "Submarine Mine Layer"	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+
+	icon = {	color_override = no 	name = "Type E"	}
+	icon = {	color_override = no 	name = "Convoy Raiding Submarine"	}
+	icon = {	color_override = no 	name = "Convoy Raiding Submarine"	}
+	icon = {	color_override = no 	name = "Coastal Submarine"	}
+	icon = {	color_override = no 	name = "Coastal Submarine"	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	icon = {	color_override = no 	name = ""	}
+	
+}

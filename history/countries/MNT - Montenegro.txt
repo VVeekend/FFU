@@ -1,0 +1,104 @@
+﻿capital = 150
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_fuel_ratio = 0.20
+set_research_slots = 3
+set_stability = 0.60
+set_war_support = 0.70
+set_convoys = 10
+
+#-------------------------------------------------------
+#					POLITICS & ARMY
+#-------------------------------------------------------
+create_country_leader={ name = "Nikola I" desc=MTN_nikola_i_DESC picture="gfx/leaders/MTN_nikola_i.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+
+#create_corps_commander={  name = "Martinovic M." id=58002 portrait_path="gfx/generals/MTN_martinovic_m.tga" traits={   } skill=3 }
+#create_corps_commander={  name = "Gojnic" id=58004 portrait_path="gfx/generals/MTN_gojnic.tga" traits={   } skill=1 }
+#create_corps_commander={  name = "Vesovic" id=58005 portrait_path="gfx/generals/MTN_vesovic.tga" traits={ trickster  } skill=2 }
+#create_corps_commander={  name = "Nikolic" id=58006 portrait_path="gfx/generals/MTN_nikolic.tga" traits={   } skill=1 }
+#create_corps_commander={  name = "Vucinic" id=58007 portrait_path="gfx/generals/MTN_vucinic.tga" traits={   } skill=1 }
+#create_corps_commander={  name = "Becir" id=58009 portrait_path="gfx/generals/MTN_becir.tga" traits={   } skill=2 }
+
+create_field_marshal={ name = "Janko Vukotić" id=58003 portrait_path="gfx/hoi4tgw_portraits/MTN/army_generals/MTN_Janko_Vukotic.dds" traits={ offensive_doctrine } skill=3 
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander={ name = "Crown Prince Danilo" id=58008 portrait_path="gfx/hoi4tgw_portraits/MTN/army_generals/MTN_CrownPrince_Danilo.dds" traits={ old_guard  } skill=1 
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+set_technology = {
+	# Navy
+	
+	transport = 1 # Naval Transport
+}
+
+1910.1.1 = {
+	oob = "MNT_1910"
+
+	#-------------------------------------------------------
+	#							NF
+	#-------------------------------------------------------
+
+	#-------------------------------------------------------
+
+	set_technology = {
+
+		# Infantry
+		infantry_weapons = 1
+		support_weapons = 1
+		infantry_binoculars = 1
+		motorised_infantry = 1
+		ww1_ambulance1 = 1
+
+
+		# Support
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		#tech_military_police = 1
+		#tech_maintenance_company = 1
+		#tech_field_hospital = 1
+		#tech_logistics_company = 1
+
+		# Armor
+
+		# Artillery
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+
+		# Air
+
+		# Engineering
+		electronic_mechanical_engineering = 1
+
+		# Industry
+		ww1_fortification1 = 1
+	}
+
+	set_politics = {
+	    ruling_party = neutrality
+	    last_election = "1907.10.31"
+	    election_frequency = 48
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 5
+	    fascism = 2
+	    communism = 1
+	    neutrality = 92
+	}
+
+	add_ideas = {
+	extensive_conscription
+
+	}	
+}

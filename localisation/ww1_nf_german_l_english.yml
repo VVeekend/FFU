@@ -1,0 +1,502 @@
+﻿l_english:
+
+#--------------------------------------------------------------
+# [GERMAN EMPIRE] Army Effort
+#=========================================================================
+GER_ww1_army_effort_1:0 "Army Effort"
+GER_ww1_army_effort_1_desc:0 "" #KAISER_ANONY
+
+GER_ww1_army_effort_2:0 "Army Effort II"
+GER_ww1_army_effort_2_desc:0 "" #KAISER_ANONY
+
+GER_ww1_army_effort_3:0 "Army Effort III"
+GER_ww1_army_effort_3_desc:0 "" #KAISER_ANONY
+
+GER_ww1_army_effort_4:0 "Army Effort IV"
+GER_ww1_army_effort_4_desc:0 "" #KAISER_ANONY
+
+GER_ww1_army_effort_5:0 "Army Effort V"
+GER_ww1_army_effort_5_desc:0 "" #Frenchie
+
+GER_ww1_equipment_effort_1:0 "Equipment Effort"
+GER_ww1_equipment_effort_1_desc:0 "" #KAISER_ANONY
+
+GER_ww1_equipment_effort_2:0 "Equipment Effort II"
+GER_ww1_equipment_effort_2_desc:0 "" #KAISER_ANONY
+
+GER_ww1_equipment_effort_3:0 "Equipment Effort III"
+GER_ww1_equipment_effort_3_desc:0 "" #KAISER_ANONY
+
+GER_ww1_equipment_effort_4:0 "Equipment Effort IV"
+GER_ww1_equipment_effort_4_desc:0 "" #KAISER_ANONY
+
+GER_ww1_equipment_effort_5:0 "Equipment Effort V"
+GER_ww1_equipment_effort_5_desc:0 "" #Frenchie
+
+GER_ww1_artillery_effort_1:0 "Artillery Effort"
+GER_ww1_artillery_effort_1_desc:0 "" #KAISER_ANONY
+
+GER_ww1_artillery_effort_2:0 "Artillery Effort II"
+GER_ww1_artillery_effort_2_desc:0 "" #KAISER_ANONY
+
+GER_ww1_artillery_effort_3:0 "Artillery Effort III"
+GER_ww1_artillery_effort_3_desc:0 "" #KAISER_ANONY
+
+GER_ww1_artillery_effort_4:0 "Artillery Effort IV"
+GER_ww1_artillery_effort_4_desc:0 "" #KAISER_ANONY
+
+GER_ww1_artillery_effort_5:0 "Artillery Effort V"
+GER_ww1_artillery_effort_5_desc:0 "" #Frenchie
+
+GER_ww1_aircraftprod_1:0 "Aircraft Production"
+GER_ww1_aircraftprod_1_desc:0 "" #KAISER_ANONY
+
+GER_ww1_aircraftprod_2:0 "Aircraft Production II"
+GER_ww1_aircraftprod_2_desc:0 "" #KAISER_ANONY
+
+GER_ww1_aircraftprod_3:0 "Aircraft Production III"
+GER_ww1_aircraftprod_3_desc:0 "" #KAISER_ANONY
+
+GER_ww1_aircraftprod_4:0 "Aircraft Production IV"
+GER_ww1_aircraftprod_4_desc:0 "" #KAISER_ANONY
+
+GER_ww1_aircraftprod_5:0 "Aircraft Production V"
+GER_ww1_aircraftprod_5_desc:0 "" #Frenchie
+
+GER_ww1_large_navy_1:0 "Naval Aviation"
+GER_ww1_large_navy_1_desc:0 "" #KAISER_ANONY
+
+GER_ww1_large_navy_2:0 "Naval and Aviation Reform II"
+GER_ww1_large_navy_2_desc:0 "" #KAISER_ANONY
+
+GER_ww1_large_navy_3:0 "Naval and Aviation Reform III"
+GER_ww1_large_navy_3_desc:0 "" #KAISER_ANONY
+
+GER_ww1_large_navy_4:0 "Naval and Aviation Reform IV"
+GER_ww1_large_navy_4_desc:0 "" #KAISER_ANONY
+
+GER_ww1_large_navy_5:0 "Naval and Aviation Reform V"
+GER_ww1_large_navy_5_desc:0 "" #Frenchie
+
+GER_ww1_special_forces:0 "Special Forces Focus"
+GER_ww1_special_forces_desc:0 "" #KAISER_ANONY
+
+GER_ww1_army_motorization_focus:0 "Motorization Focus"
+GER_ww1_army_motorization_focus_desc:0 "" #KAISER_ANONY
+
+GER_ww1_doctrine_effort:0 "Doctrine Effort"
+GER_ww1_doctrine_effort_desc:0 "" #KAISER_ANONY
+
+GER_ww1_doctrine_effort_2:0 "Doctrine Effort II"
+GER_ww1_doctrine_effort_2_desc:0 "" #KAISER_ANONY
+
+GER_ww1_doctrine_effort_3:0 "Doctrine Effort III"
+GER_ww1_doctrine_effort_3_desc:0 "" #KAISER_ANONY
+
+GER_ww1_armor_effort_1:0 "Armor Effort"
+GER_ww1_armor_effort_1_desc:0 "" #KAISER_ANONY
+
+GER_ww1_armor_effort_2:0 "Panzer Effort II"
+GER_ww1_armor_effort_2_desc:0 "Our experiments with armor have been a rousing success! However, we cannot be complacent with our current designs. Engineers have been proposing interesting concepts like rotating gun turrets, specific engine compartments, and a hatch for use by a commander, which cannot be ignored. If we are to be the first to make these ideas a reality, perhaps we could become unstoppable!"
+
+GER_ww1_gasmask_focus:0 "Chemical Warfare Focus"
+GER_ww1_gasmask_focus_desc:0 "Some of our chemists have proposed the use of a new, incredibly deadly agent- poisonous gas, delivered by our artillery and trench mortars. Though chemical warfare has been frowned on for roughly a century, what choice do we have if we are to win the war? Beyond investing in these, it's also likely for the best to develop countermeasures quickly- it would be unfortunate for such an advancement to turn on us!"
+#--------------------------------------------------------------
+
+# [GERMAN EMPIRE] Industrial Effort
+#=========================================================================
+GER_ww1_industrial_effort:0 "Industrial Effort"
+GER_ww1_industrial_effort_desc:0 "" 
+
+GER_ww1_construction_effort:0 "Construction Effort"
+GER_ww1_construction_effort_desc:0 "" 
+
+GER_ww1_construction_effort_2:0 "Construction Effort II"
+GER_ww1_construction_effort_2_desc:0 "" 
+
+GER_ww1_construction_effort_3:0 "Construction Effort III"
+GER_ww1_construction_effort_3_desc:0 "" 
+
+GER_ww1_production_effort:0 "Armament Effort"
+GER_ww1_production_effort_desc:0 "" 
+
+GER_ww1_production_effort_2:0 "Armament Effort II"
+GER_ww1_production_effort_2_desc:0 "" 
+
+GER_ww1_production_effort_3:0 "Armament Effort III"
+GER_ww1_production_effort_3_desc:0 "" 
+
+GER_ww1_dockyard_effort_1:0 "Dockyard Expansion"
+GER_ww1_dockyard_effort_1_desc:0 "" 
+
+GER_ww1_dockyard_effort_2:0 "Dockyard Expansion II"
+GER_ww1_dockyard_effort_2_desc:0 "" 
+
+GER_ww1_dockyard_effort_3:0 "Dockyard Expansion III"
+GER_ww1_dockyard_effort_3_desc:0 "" 
+
+GER_ww1_airfield_expansion_1:0 "Airfield Expansion"
+GER_ww1_airfield_expansion_1_desc:0 "" 
+
+GER_ww1_airfield_expansion_2:0 "Airfield Expansion II"
+GER_ww1_airfield_expansion_2_desc:0 "" 
+
+GER_ww1_airfield_expansion_3:0 "Airfield Expansion III"
+GER_ww1_airfield_expansion_3_desc:0 "" 
+
+GER_ww1_infrastructure_effort:0 "Infrastructure Effort"
+GER_ww1_infrastructure_effort_desc:0 "" 
+
+GER_ww1_infrastructure_effort_2:0 "Infrastructure Effort II"
+GER_ww1_infrastructure_effort_2_desc:0 "" 
+
+GER_ww1_infrastructure_effort_3:0 "Infrastructure Effort III"
+GER_ww1_infrastructure_effort_3_desc:0 "" 
+
+GER_ww1_infrastructure_effort_4:0 "Infrastructure Effort IV"
+GER_ww1_infrastructure_effort_4_desc:0 "" 
+
+GER_ww1_extra_tech_slot:0 "Extra Research Slot"
+GER_ww1_extra_tech_slot_desc:0 "" 
+
+GER_ww1_extra_tech_slot_2:0 "Extra Research Slot II"
+GER_ww1_extra_tech_slot_2_desc:0 "" 
+
+#--------------------------------------------------------------
+
+
+# [GERMAN EMPIRE] Naval Effort
+#=========================================================================
+GER_ww1_naval_effort:0 "Build Up the Kaiserliche Marine"
+GER_ww1_naval_effort_desc:0 "As we already have the premier Army in Europe, our Navy must be attended to as well, to attempt to keep pace with the Royal Navy and ensure Germany can defend herself and her territory in any way she chooses. If we focus on continually building up in our arms race against the United Kingdom, we will be well on our way to naval dominance."
+
+GER_ww1_newnavalcanons_1:0 "Naval Gun Effort"
+GER_ww1_newnavalcanons_1_desc:0 "" 
+
+GER_ww1_newnavalcanons_2:0 "Naval Gun Effort II"
+GER_ww1_newnavalcanons_2_desc:0 "" 
+
+GER_ww1_newnavalcanons_3:0 "Naval Gun Effort III"
+GER_ww1_newnavalcanons_3_desc:0 "" 
+
+GER_ww1_dreadnought_effort:0 "Dreadnought Effort"
+GER_ww1_dreadnought_effort_desc:0 "" 
+
+GER_ww1_flexible_navy:0 "Flexible Navy"
+GER_ww1_flexible_navy_desc:0 "" 
+
+GER_ww1_large_navy:0 "Large Navy"
+GER_ww1_large_navy_desc:0 "" 
+
+GER_ww1_navyreform:0 "Navy Deployment"
+GER_ww1_navyreform_desc:0 "" 
+
+GER_ww1_submarine_effort:0 "Unterseeboot Effort"
+GER_ww1_submarine_effort_desc:0 "" 
+
+GER_ww1_cruiser_effort:0 "Cruiser Effort"
+GER_ww1_cruiser_effort_desc:0 "" 
+
+GER_ww1_destroyer_effort:0 "Destroyer Effort"
+GER_ww1_destroyer_effort_desc:0 "" 
+
+GER_ww1_capital_ships_effort:0 "Capital Ship Effort"
+GER_ww1_capital_ships_effort_desc:0 "" 
+
+GER_ww1_carrier_focus:0 "Carrier Effort"
+GER_ww1_carrier_focus_desc:0 "" 
+
+GER_ww1_antisubmarine:0 "Anti-Submarine Warfare"
+GER_ww1_antisubmarine_desc:0 "" 
+
+#--------------------------------------------------------------
+
+
+# [GERMAN EMPIRE] Political Effort
+#=========================================================================
+GER_ww1_political_effort:0 "Political Effort"
+GER_ww1_political_effort_desc:0 "" 
+
+GER_ww1_sovereignist_ethos:0 "Centralization"
+GER_ww1_sovereignist_ethos_desc:0 "" 
+
+GER_ww1_support_kaiser:0 "Reinforce Kaiser's Authority"
+GER_ww1_support_kaiser_desc:0 "Seine Majestät the Kaiser might be a very politically powerful man, but he still has several old constitutional checks in place, most stemming from the old days of Prussia. If we eliminate some of these loopholes and keep building our Kaiser's imperial powers, he will be able to exercize control more directly over the German empire."
+
+GER_ww1_contest_kaiser:0 "Contest Kaiser's Authority"
+GER_ww1_contest_kaiser_desc:0 "Wilhelm II is a shadow of his predecessors, and completely unfit to play any role in the German government. Luckily, the higher-ups have already begun to draft plans to potentially depose him entirely if it means changing the system. This will lead to some instability short term, but significant change long term."
+
+GER_ww1_internationalism_focus:0 "Internationalism Focus"
+GER_ww1_internationalism_focus_desc:0 "" 
+
+GER_ww1_militarism:0 "Militarism"
+GER_ww1_militarism_desc:0 "" 
+
+GER_ww1_indoctrination_focus:0 "Indoctrination"
+GER_ww1_indoctrination_focus_desc:0 "" 
+
+GER_ww1_political_commissars:0 "Political Commissars"
+GER_ww1_political_commissars_desc:0 "" 
+
+GER_ww1_paramilitarism:0 "Paramilitarism"
+GER_ww1_paramilitarism_desc:0 "" 
+
+GER_ww1_political_correctness:0 "Political Correctness"
+GER_ww1_political_correctness_desc:0 "" 
+
+GER_ww1_military_youth:0 "Military Youth"
+GER_ww1_military_youth_desc:0 "" 
+
+GER_ww1_student_movement_focus:0 "Student Movement"
+GER_ww1_student_movement_focus_desc:0 "" 
+
+GER_ww1_monarchy:0 "Authoritarianism Focus"
+GER_ww1_monarchy_desc:0 "" 
+
+GER_ww1_democracy:0 "Democratism Focus"
+GER_ww1_democracy_desc:0 "" 
+
+GER_ww1_centralizedpower:0 "Bureaucracy"
+GER_ww1_centralizedpower_desc:0 "" 
+
+GER_ww1_freespeech:0 "Free Speech"
+GER_ww1_freespeech_desc:0 "" 
+
+GER_ww1_reorganization_act:0 "Reorganization Act"
+GER_ww1_reorganization_act_desc:0 "" 
+
+GER_ww1_limited_rearmament:0 "Limited Rearmament"
+GER_ww1_limited_rearmament_desc:0 "" 
+
+GER_ww1_full_rearmament:0 "Full Rearmament"
+GER_ww1_full_rearmament_desc:0 "" 
+
+GER_ww1_unitedpeople:0 "Patriotic Fervor"
+GER_ww1_unitedpeople_desc:0 "" 
+
+GER_ww1_massive_effort:0 "Massive Effort"
+GER_ww1_massive_effort_desc:0 "" 
+
+GER_ww1_fortify_city:0 "Civil Fortifications"
+GER_ww1_fortify_city_desc:0 "" 
+
+GER_ww1_fortify_coast:0 "Coastal Defense"
+GER_ww1_fortify_coast_desc:0 "" 
+
+GER_ww1_leave_central_power:0 "Leave Central Powers"
+GER_ww1_leave_central_power_desc:0 "The Central Powers was the alliance of the old Germany. Now with the new direction our great country is taking, we stick out in our own alliance. One of our old members can frontline instead, and Germany will seek out a new course entirely." 
+
+GER_ww1_install_communism:0 "Proletarian Revolution"
+GER_ww1_install_communism_desc:0 "A fire that sparked in the south has begun to spread all over Germany. Workers are rising against their bosses, and the locals against the local aristocracy in charge. Germany shall become a communist republic, and bring terror to the burgoise of Europe!" 
+
+GER_ww1_install_democracy:0 "Free Elections"
+GER_ww1_install_democracy_desc:0 "The old Emperor and monarchy simply must go. For Germany to remain stable and peaceful, she must adopt a democracy patterned after that of her contemporaries. The ghost of 1848 will live once again!"
+
+GER_ww1_fascist_coup:0 "Fascist Coup"
+GER_ww1_fascist_coup_desc:0 "Elements of our military have begun proposing the idea of an ultranationalistic state, with one of their own members taking autocratic power from the Kaiser. If they can pull this putsch off and seize everything for themselves, it could change the destiny of Europe as a whole, let alone the course of Germany."
+
+GER_ww1_oppression_minorities:0 "Oppress Minorities"
+GER_ww1_oppression_minorities_desc:0 "The best way to ensure loyalty from minority groups is to make them avoid identifying with each other. By making publications in other languages illegal, punishing citizens who fail to confirm to our culture, and enforcing local inferiority, we can fool some into thinking they are one of us, and keep the others from speaking out against us."
+
+GER_ww1_france_friend:0 "Franco-German Friendship"
+GER_ww1_france_friend_desc:0 "France has been a rival to Germany since the end of Charlemagne's empire. However, with our new government and our termination of the Central Powers, perhaps we can make amends? There are definitely awkward topics remaining, but a Franco-German Alliance may very well be possible in our day."
+
+#--------------------------------------------------------------
+
+
+# [GERMAN EMPIRE] Diplomatic Effort
+#=========================================================================
+
+GER_ww1_diplomatic_effort:0 "Diplomatic Effort"
+GER_ww1_diplomatic_effort_desc:0 "" 
+
+GER_ww1_free_BAV:0 "Bavarian Nationalism"
+GER_ww1_free_BAV_desc:0 "Bavarian nationalism is a point of view that asserts that Bavarians are a nation and promotes the cultural unity of Bavarians. It has been a strong phenomenon since the incorporation of Bavaria into the state of Germany in 1871."
+
+GER_ww1_takeposition:0 "Take Position"
+GER_ww1_takeposition_desc:0 "" 
+
+GER_ww1_supportgermany:0 "Support Germany"
+GER_ww1_supportgermany_desc:0 "" 
+
+GER_ww1_supportfrance:0 "Support France"
+GER_ww1_supportfrance_desc:0 "" 
+
+GER_ww1_supportaustria:0 "Support Austria-Hungary"
+GER_ww1_supportaustria_desc:0 "" 
+
+GER_ww1_supportrussia:0 "Support Russia"
+GER_ww1_supportrussia_desc:0 "" 
+
+GER_ww1_military_reserve:0 "Military Reserve"
+GER_ww1_military_reserve_desc:0 "" 
+
+GER_ww1_embargo_germany:0 "Sanction Germany"
+GER_ww1_embargo_germany_desc:0 "" 
+
+GER_ww1_embargo_france:0 "Sanction France"
+GER_ww1_embargo_france_desc:0 "" 
+
+GER_ww1_sellweapons:0 "Sell Weapons"
+GER_ww1_sellweapons_desc:0 "" 
+
+GER_ww1_appeasement:0 "Appeasement"
+GER_ww1_appeasement_desc:0 "" 
+
+GER_ww1_aggressive_foreign_policy:0 "Aggressive Foreign Policy"
+GER_ww1_aggressive_foreign_policy_desc:0 "" 
+
+GER_ww1_joingermany:0 "Join Central Powers"
+GER_ww1_joingermany_desc:0 "" 
+
+GER_ww1_joinfrance:0 "Join Entente"
+GER_ww1_joinfrance_desc:0 "" 
+
+GER_ww1_war_effort:0 "War Effort"
+GER_ww1_war_effort_desc:0 "" 
+
+GER_ww1_triple_alliance:0 "Renew Triple Alliance"
+GER_ww1_triple_alliance_desc:0 "Our old alliance with Austria-Hungary and Italy needs to be renewed again, and considering the climate of Europe, it's a hard case to argue not at least trying to do so. Italy in particular seems to be less and less dedicated to this alliance as time goes on, and special attention must be given to the area to ensure they don't betray us."
+
+GER_ww1_secret_alliance_rom:0 "Secret Alliance with Romania"
+GER_ww1_secret_alliance_rom_desc:0 "Romania is ruled by a German, and a distant relative of the Royal Family no less. Due to this alone, if nothing else, they are in a position to have a stake in the Triple Alliance, even if not much, due to their claims on Austria. Still, placating them for a while may be strategically to our advantage, if a war with Russia breaks out."
+
+GER_ww1_italy_ally:0 "Support Italy"
+GER_ww1_italy_ally_desc:0 "Beginning a diplomatic push to further ties with Italy will weaken our position with Austria-Hungary, though this may be a price worth paying to keep them at least slightly more loyal." 
+
+GER_ww1_back_austria:0 "Support Austria-Hungary"
+GER_ww1_back_austria_desc:0 "Beginning a diplomatic push to further ties with Austria-Hungary will alienate Italy to a degree, but perhaps they can learn from Austria-Hungary's level of loyalty in this case?"
+
+GER_ww1_send_advisor:0 "Send German Advisors"
+GER_ww1_send_advisor_desc:0 "German advisors, particularly in the military, will be warmly recieved by both Italy and Austria-Hungary, and further our relations with both nations, while costing Germany little but finding men worthy of the task and putting them on a train out."
+
+GER_ww1_turkey_friend:0 "Befriend Ottomans"
+GER_ww1_turkey_friend_desc:0 "The Ottoman Empire is in desperate need of more friends, and as it just so happens, so are we. Though their military has been rocked by some recent sound defeats, our neighbor France has already recovered from a far worse trouncing, so what's stopping them?"
+
+GER_ww1_zimmermann_telegram:0 "Send the Zimmermann Telegram"
+GER_ww1_zimmermann_telegram_desc:0 "Mexico, as unstable as it is, could be the key to keeping the US out of the war. If we form a defensive alliance with Mexico, the US will be forced to think twice about declaring war on us, with a neighbor next door to contend with. Of course, we would look incredibly bad if the telegram was intercepted, particularly if it was mistranslated and exaggerated."
+
+GER_ww1_baghdad:0 "Berlin-Baghdad Railway"
+GER_ww1_baghdad_desc:0 "The planned Berlin-Baghdad railway is an ambitious rail project seeking to connect the German capital to the Ottoman heartlands, where a good chunk of the Ottoman oil lies. "
+
+GER_asienkorps:0 "Asienkorps"
+GER_asienkorps_desc:0 ""
+
+GER_ww1_assert_position_west:0 "Assert German Position in the West"
+GER_ww1_assert_position_west_desc:0 "The Western front is a gloomy place for the Central Powers. France and the UK have bonded against us and our interests, which hurts the German future in Africa. Worse yet, Belgium doesn't seem quite so willing anymore to let German troops through to crush the French, who they no longer see as a threat. We must make the most of a bad situation if we are to stay afloat as a great power." 
+
+GER_ww1_anti_fr:0 "Anti-French Policy"
+GER_ww1_anti_fr_desc:0 "Since time immemorial, the Germans and the French have been enemies. If we act around this reality, it opens up new and interesting options to deal with them in the future."
+
+GER_ww1_anti_uk:0 "Anti-British Policy"
+GER_ww1_anti_uk_desc:0 "While the Anglo-German friendship was nice while it lasted, Germany and the United Kingdom have come to bear with each other in recent years, and it seems like this won't be reversed any time soon. Acknowledging our rivalry outright will open up some options to circumvent them diplomatically."
+
+GER_ww1_support_boer:0 "Reinforce Deutsch-Südwestafrika"
+GER_ww1_support_boer_desc:0 "DSWA, also known as Namibia, is one of Germany's most important colonies. Ensuring that it's defensible in an attack could serve to help out our nation's war efforts if it came down to it, and this would only take minor investment."
+
+GER_ww1_support_boer_war:0 "Boer Revolt"
+GER_ww1_support_boer_war_desc:0 "The Boers of South Africa are still only recently conquered, and not adjusted to British rule quite yet. If we supply and train some of the Boers who seek independence from the UK, they may be able to rise up against South African officials, giving us a rare advantage in a mostly Entente-controlled region of the world."
+
+GER_ww1_agadir_crisis:0 "Agadir Crisis"
+GER_ww1_agadir_crisis_desc:0 "With rebels organizing in Morocco, and just enough German interest in the region to proclaim them relevant, we can support their insurrection against the French goverment to try and seize Morocco for ourselves. While that goal in itself is unlikely, we can, if nothing else, shake down France for more reasonable territory if we grill them enough, though this may draw the UK even closer to them."
+
+GER_ww1_assert_position_east:0 "Assert German Position in the East"
+GER_ww1_assert_position_east_desc:0 "The position of the Central Powers in the East is the same- weaken Russia, and build hegemony in the region. As war with Russia in particular seems to be nearly inevitable, due to the Balkan situation, this is an effective course of action to take, though will drive France and Russia closer, which could prove to be an issue."
+
+GER_ww1_anti_ru:0 "Anti-Russian Policy"
+GER_ww1_anti_ru_desc:0 "Russia is no friend of ours, and perhaps never will be again, due to their extravagant claims on not only friendly territory but our own Polish land. Accepting this truth could lead to some new ways to deal with them down the line." 
+
+GER_ww1_anti_serb:0 "Anti-Serbian Policy"
+GER_ww1_anti_serb_desc:0 "The Serbians are rats, who would sell their own mother if it meant getting just a province out of Austrian Bosnia. If we face them as they truly are- an opposing state to us- we can prepare to stand against them in the future."
+
+GER_ww1_bulgaria_puppet:0 "Puppet Bulgaria"
+GER_ww1_bulgaria_puppet_desc:0 "Bulgaria proved with its lackluster performances in the Balkan wars that it is of no true use as an ally. Enforcing a puppet state over them may alienate some outsiders, but what does it matter? It's simply another impoverished Balkan hellhole, just like all the others." 
+
+GER_ww1_bulgaria_friend:0 "Befriend Bulgaria"
+GER_ww1_bulgaria_friend_desc:0 "Bulgaria has much to gain in a war against Serbia, and another two of our potential enemies in Greece and Romania. If we promise them claims on Macedonia and Thrace, which Austria-Hungary doesn't even have any desire to contest them for, they could join us, opening up a second front to relieve our overstretched forces, and give us another source of much-needed manpower."
+
+GER_ww1_ready_country:0 "Prepare for War"
+GER_ww1_ready_country_desc:0 "The Generals are anxious for a fight. They're starting to believe that the Entente forces are planning something horrible against us. We must prepare for combat, and we must be ready to make a preemptive strike, or else we may not survive a coming conflict."
+
+GER_ww1_strengthen_kaiser:0 "Strengthen the Kaiser"
+GER_ww1_strengthen_kaiser_desc:0 "His majesty's rule over Germany must be unquestioned. Even in turbulent times, he is the best man to fall back on, and can support our empire through thick and thin. Therefore, any measure we can take, from constitutional amendments to new laws in the Reichstag, must be taken to keep Wilhelm powerful."
+
+GER_ww1_weaken_kaiser:0 "Weaken the Kaiser"
+GER_ww1_weaken_kaiser_desc:0 "Wilhelm II has proven himself an...interesting leader, to say the least. Perhaps to ensure he does no further damage to the German Empire, it would be best to limit his control over the realm, and delegate more power to more capable hands." 
+
+GER_ww1_restructure_ostafrika:0 "Restructure Deutsch-Ostafrika"
+GER_ww1_restructure_ostafrika_desc:0 "East Africa is our foremost colony, but that doesn't mean we can't do more in the area. By expanding the role and administrative powers of the colonial government, they can effectively build up the region further for us."
+
+GER_ww1_train_ostafrika:0 "Schutztruppe Deployment"
+GER_ww1_train_ostafrika_desc:0 "Our colonial administrators have reported a large amount of local East African men who are unemployed fighters, looking to serve in the German army. If we can find some volunteers to train and lead this group, we could, if nothing else, hold out against British forces in the area as long as possible."
+
+GER_ww1_war_with_france:0 "1915 Schlieffen Plan"
+GER_ww1_war_with_france_desc:0 "It's finally time! France will be attacked through Belgium, and we will enter Paris while they're none the wiser! Our defenses in the east will be lackluster, but who cares? The troops from the west can be pulled in to help them! It must work! It WILL work, as the Kaiser wills it!"
+
+GER_ww1_polnische_wehrmacht:0 "Polnische Wehrmacht"
+GER_ww1_polnische_wehrmacht_desc:0 "If we promise the Poles their own nationstate after the war, perhaps the residents of our part of Poland will be more willing to join in on the action. Whether we cede the territory or not is, of course, a matter to be decided yet, but for now, we can enjoy the influx of able-bodied men without thinking of the consequences."
+
+GER_ww1_hol_militaryaccess:0 "Ask The Netherlands for Military Access"
+GER_ww1_hol_militaryaccess_desc:0 "Obviously, a war in Belgium will be more favorable for us if we can pass through the Netherlands, which would also give us an easy place to retreat to in case a battle went bad. Negotiations should prove successful, so long as we don't accidentally refer to their country as just ''Holland''. They hate that." 
+
+GER_ww1_den_militaryaccess:0 "Force Denmark to take Position"
+GER_ww1_den_militaryaccess_desc:0 "More than 10,000 Danish-speaking German citizens from Northern Schleswig fought in the German Army because of Denmark’s defeat and the annexation of Schleswig-Holstein by Prussia in the Second War of Schleswig in 1864." 
+
+
+GER_ww1_friend_sweden:0 "Invite Sweden to the Central Powers"
+GER_ww1_friend_sweden_desc:0 "While it's a long shot, Sweden may be persuaded to join with the Central Powers if we promise to restore their hold on Finland. Though it's not terribly likely for them to accept such a proposition, we need all the friends we can get, and we lose nothing by at the very least asking, right?"
+
+GER_ww1_finnish_civil_war:0 "Support Whites in Finnish Civil War"
+GER_ww1_finnish_civil_war_desc:0 "A Civil War between the Reds, led by the Social Democratic Party and the Whites, conducted by the non-socialist, conservative-led senate has started in Finland. The Red Guards control the cities and industrial centers of southern Finland. The White Guards control rural central and northern Finland."
+
+#---------------------------Frenchie Mod-----------------------------------
+GER_continuethefocusondreadnoughts:0 "Continue the Focus on Dreadnoughts"
+GER_continuethefocusondreadnoughts_desc:0 "With the launch of a single ship, Dreadnought, the scales of naval power were tipped overnight. We must continue the launch of these ships if we hope to beat the British!"
+GER_focusonlighthulls:0 "Focus on Light Hulls"
+GER_focusonlighthulls_desc:0 "The Dreadnought Arms Race with Britain put a strangle on our economy, with a smaller budget now we can no longer focus on large ships, we can still however focus on our much cheaper and smaller hulls."
+GER_surfaceraiders:0 "Surface Raiders"
+GER_surfaceraiders_desc:0 "Prior to World War I, prevailing naval opinion considered the submarine an ineffective weapon for blockading an enemy country. Submarines, filled with exposed piping and crammed with machinery, had no space to take prisoners aboard. Additionally, the submarine could never carry enough sailors to provide crews to man captured ships. Therefore, the submarine was considered a useless weapon against civilian shipping."
+GER_continuetheresearchonnewdesigns:0 "Continue the Research On New Designs"
+GER_continuetheresearchonnewdesigns_desc:0 "We must not let the British first release another revolutionary design like the dreadnought again. Our fleet must be a modern one!"
+GER_endthenavalarmsracewiththeunitedkingdom:0 "End the Naval Arms Race"
+GER_endthenavalarmsracewiththeunitedkingdom_desc:0 "In 1912, German Chancellor Theobald von Bethmann-Hollweg ended the naval arms race. His aim was to secure an understanding with the British to end the increasingly isolated position of Germany. Russian military expansion compelled the Germans to prioritize spending on their army and therefore less on the navy. The initiative led to the Haldane Mission in which Germany offered to accept British naval superiority in exchange for British neutrality in a war in which Germany could not be said to be the aggressor. The proposal was rejected, as Britain felt that it had nothing to gain by such a treaty since its naval superiority was insecure, but the British Foreign Secretary Sir Edward Grey favoured a more assertive policy against Germany.["
+GER_increasearmyspending:0 "Increase Army Spending"
+GER_increasearmyspending_desc:0 "The threat is not from the Sea but from the Bear to the East, we must spend more on our Army than our Navy if we want to defeat Russia and its allies!"
+GER_battlecruiserfocus:0 "Battlecruiser Focus"
+GER_battlecruiserfocus_desc:0 "The battlecruiser, or battle cruiser, was a type of capital ship of the first half of the 20th century. They were similar in displacement, armament and cost to battleships, but differed slightly in form and balance of attributes. Battlecruisers typically had slightly thinner armour and a lighter main gun battery than contemporary battleships, installed on a longer hull with much higher engine power in order to attain greater speeds."
+GER_coastaldefensedesigner:0 "Coastal Defense Designer"
+GER_coastaldefensedesigner_desc:0 ""
+GER_investmentintraining:0 "Investment In Training"
+GER_investmentintraining_desc:0 "Our new navy requires better trained and more numerous crews, we should allocate the budget to naval training and naval maneuvers."
+GER_experimentalseatenderships:0 "Experimental Sea Tender Ships"
+GER_experimentalseatenderships_desc:0 "A seaplane tender is a boat or ship that supports the operation of seaplanes. Some of these vessels, the seaplane carriers, could not only carry seaplanes but also provided all the facilities needed for their operation; these ships are regarded by some as the first aircraft carriers and appeared just before the First World War."
+GER_amphibiousassault:0 "Amphibious Assault"
+GER_amphibiousassault_desc:0 "Strengthening our Marine Infantry will allows us to capture islands, coast, and ports easier."
+GER_surfaceraidingdesigner:0 "Surface Raiding Designer"
+GER_surfaceraidingdesigner_desc:0 "Victory will come from the Atlantic, starve the British Isles!"
+GER_reinforcethekaiserlichemarine:0 "Reinforce the Kaiserliche Marine"
+GER_reinforcethekaiserlichemarine_desc:0 "Arms race between Great Britain and Germany that occurred from the last decade of the nineteenth century until the advent of World War I in 1914 was one of the intertwined causes of that conflict. While based in a bilateral relationship that had worsened over many decades, the arms race began with a plan by German Admiral Alfred von Tirpitz in 1897 to create a fleet in being to force Britain to make diplomatic concessions; Tirpitz did not expect the Imperial German Navy to defeat the Royal Navy. Maintaining Europe's largest army and second-largest navy took an enormous toll on Germany's finances. Theobald von Bethmann-Hollweg, German Chancellor from 1909, undertook a policy of détente with Britain to alleviate the fiscal strain and focus on the rivalry with France. Under Bethmann-Hollweg, and particularly from 1912 onwards, Germany abandoned the dreadnought arms race and focused on a commerce raiding naval strategy to be conducted with submarines. One of the ironies of the arms race and subsequent conflict was that while the German battle fleet fought only one major surface engagement, at the Battle of Jutland, and never seriously threatened British naval supremacy, the commerce raiding strategy that had been the historic focus of German naval doctrine would consistently endanger British merchant shipping and imports throughout the war."
+GER_improvementstoourexistingships:0 "Improvements to Our Existing ships"
+GER_improvementstoourexistingships_desc:0 "Our ships become more obsolete as the day passes. Instead of building new ships, we could refit and improve the systems in our existing fleet still making the fleet deadly."
+GER_East:0 "Gorlice–Tarnów Offensive"
+GER_East_desc:0 "The Gorlice–Tarnów Offensive during World War I was initially conceived as a minor German offensive to relieve Russian pressure on the Austro-Hungarians to their south on the Eastern Front, but resulted in the Central Powers' chief offensive effort of 1915, causing the total collapse of the Russian lines and their retreat far into Russia. The continued series of actions lasted the majority of the campaigning season for 1915, starting in early May and only ending due to bad weather in October."       
+                            
+
+############################################################################################
+
+##### DON'T MODIFY THAT - UNSORTED VARIABLES ###########
+
+authoritarianism:0 "Authoritarianism"
+
+kis_venizelists_flag:0 "National Schism in Greece"
+kis_alternativehistory_5:0 "Russian Reaction"
+
+ air_equipment:0 "Aircraft"
+ ger_auh_alliance_focus:0 "German-Austrian Alliance Focus"
+ ger_bul_alliance_focus:0 "German-Bulgarian Alliance Focus"
+
+usa_zimmermann_telegram:0 "The Zimmerman Telegram"
+
+SUPER_GLOBAL_Adios_Francisco_Madero_1913:0 "Military Coup in Mexico"
+
+############################################################################################

@@ -1,0 +1,173 @@
+﻿capital = 147
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_fuel_ratio = 0.20
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.70
+set_convoys = 5
+
+#-------------------------------------------------------
+#					POLITICS & ARMY
+#-------------------------------------------------------
+create_country_leader={ name = "Aleksandar Stamboliyski" desc=BUL_aleksandar_stamboliyski_DESC picture="gfx/leaders/BUL_aleksandar_stamboliyski.dds" expire="1935.1.1" ideology=marxism traits={  } }
+create_country_leader={ name = "Dimitar Blagoev" desc=BUL_dimitar_blagoev_DESC picture="gfx/leaders/BUL_dimitar_blagoev.dds" expire="1935.1.1" ideology=stalinism traits={  } }
+create_country_leader={ name = "Ferdinand I" desc=BUL_ferdinand_i_DESC picture="gfx/leaders/BUL/BUL_ferdinand_i.dds" expire="1935.1.1" ideology=despotism  traits={  } }
+
+#create_corps_commander={  name = "Dimitriev I." id=12014 portrait_path="gfx/generals/BUL_dimitriev_i.tga" traits={   } skill=1 }
+#create_corps_commander={  name = "Genev" id=12019 portrait_path="gfx/generals/BUL_genev.tga" traits={ winter_specialist commando } skill=2 }
+#create_corps_commander={  name = "Geshov" id=12020 portrait_path="gfx/generals/BUL_geshov.tga" traits={   } skill=1 }
+#create_corps_commander={  name = "Ivanov G." id=12022 portrait_path="gfx/generals/BUL_ivanov_g.tga" traits={ trait_engineer  } skill=1 }
+#create_corps_commander={  name = "Ivanov N." id=12023 portrait_path="gfx/generals/BUL_ivanov_n.tga" traits={ fortress_buster old_guard } skill=1 }
+#create_corps_commander={  name = "Kantardjiev" id=12024 portrait_path="gfx/generals/BUL_kantardjiev.tga" traits={   } skill=3 }
+#create_corps_commander={  name = "Kisjov" id=12027 portrait_path="gfx/generals/BUL_kisjov.tga" traits={   } skill=3 }
+#create_corps_commander={  name = "Kovachev" id=12029 portrait_path="gfx/generals/BUL_kovachev.tga" traits={  old_guard } skill=2 }
+#create_corps_commander={  name = "Lolov" id=12031 portrait_path="gfx/generals/BUL_lolov.tga" traits={ trait_engineer  } skill=1 }
+#create_corps_commander={  name = "Nazlymov" id=12038 portrait_path="gfx/generals/BUL_nazlymov.tga" traits={   } skill=1 }
+#create_corps_commander={  name = "Nerezov" id=12040 portrait_path="gfx/generals/BUL_nerezov.tga" traits={   } skill=2 }
+#create_corps_commander={  name = "Papadopov" id=12042 portrait_path="gfx/generals/BUL_papadopov.tga" traits={   } skill=2 }
+#create_corps_commander={  name = "Protogerov" id=12050 portrait_path="gfx/generals/BUL_protogerov.tga" traits={ commando  } skill=3 }
+#create_corps_commander={  name = "Ribarov" id=12052 portrait_path="gfx/generals/BUL_ribarov.tga" traits={   } skill=2 }
+#create_corps_commander={  name = "Sapunarov" id=12054 portrait_path="gfx/generals/BUL_sapunarov.tga" traits={ commando  } skill=2 }
+#create_corps_commander={  name = "Savov M." id=12056 portrait_path="gfx/generals/BUL_savov_m.tga" traits={  trickster } skill=2 }
+#create_corps_commander={  name = "Slavtchev" id=12060 portrait_path="gfx/generals/BUL_slavtchev.tga" traits={ fortress_buster  } skill=2 }
+#create_corps_commander={  name = "Tanev" id=12063 portrait_path="gfx/generals/BUL_tanev.tga" traits={   } skill=2 }
+#create_corps_commander={  name = "Tenev" id=12066 portrait_path="gfx/generals/BUL_tenev.tga" traits={   } skill=3 }
+#create_corps_commander={  name = "Tsyklev" id=12068 portrait_path="gfx/generals/BUL_tsyklev.tga" traits={  trait_engineer } skill=1 }
+#create_corps_commander={  name = "Tzenov" id=12069 portrait_path="gfx/generals/BUL_tzenov.tga" traits={ fortress_buster  } skill=1 }
+#create_corps_commander={  name = "Vazov G." id=12071 portrait_path="gfx/generals/BUL_vazov_g.tga" traits={ fortress_buster  } skill=2 }
+
+create_corps_commander={  name = "Vladimir Vazov" id=75049 portrait_path="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_Vladimir_Vazov.dds" traits={ commando unyielding_defender infantry_leader } skill=3 
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander={  name = "Lukov H." id=12032 portrait_path="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_Ivan_Lukov.dds" traits={   } skill=1 
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander={  name = "Zhekov" id=12077 portrait_path="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_Nikola_Zhekov.dds" traits={   } skill=3 
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander={  name = "Ivan Kolev Stoyanov" id=12028 portrait_path="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_Ivan_Kolev.tga" traits={ cavalry_leader cavalry_expert skirmisher ranger inspirational_leader } skill=4 
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 3
+}
+
+#create_corps_commander={  name = "Yankov" id=12074 portrait_path="gfx/generals/BUL_yankov.tga" traits={ trait_engineer  } skill=1 }
+#create_corps_commander={  name = "Zagorski" id=12076 portrait_path="gfx/generals/BUL_zagorski.tga" traits={ trait_engineer  } skill=1 }
+#create_corps_commander={  name = "Zhostov" id=12078 portrait_path="gfx/generals/BUL_zhostov.tga" traits={   } skill=2 }
+
+create_field_marshal={  name = "Fichev" id=12018 portrait_path="gfx/fieldmarshal/BUL_fichev.tga" traits={ offensive_doctrine } skill=3 
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_navy_leader={  name = "Dobrev" id=12080 portrait_path="gfx/admiral/BUL_dobrev.tga" traits={   } skill=2 }
+create_navy_leader={  name = "Serafimov" id=12081 portrait_path="gfx/admiral/BUL_serafimov.tga" traits={   } skill=1 }
+
+set_technology = {
+	# Navy
+
+	transport = 1 # Naval Transport
+}
+
+1910.1.1 = {
+	oob = "BUL_1910"
+
+	#-------------------------------------------------------
+	#							NF
+	#-------------------------------------------------------
+
+	#-------------------------------------------------------
+
+	set_technology = {
+
+		# Infantry
+		infantry_weapons = 1
+		ww1infantry_weapons1 = 1
+		support_weapons = 1
+		infantry_binoculars = 1
+		infantry_grenade = 1
+		motorised_infantry = 1
+		ww1_ambulance1 = 1
+
+		# Support
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		#tech_military_police = 1
+		#tech_maintenance_company = 1
+		#tech_field_hospital = 1
+		#tech_logistics_company = 1
+		
+		# Navy
+		transport = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_heavy_armor_scheme = 1
+		basic_ship_hull_cruiser = 1
+		mtg_transport = 1
+		ship_hull_super_heavy 
+		basic_heavy_battery
+
+		# Armor
+		#gwtank=1 # 1910 Armored Car
+
+		# Artillery
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+
+		# Air
+
+
+		# Engineering
+		electronic_mechanical_engineering = 1
+		chemical_research = 1
+
+		# Industry
+		ww1_fortification1 = 1
+	}
+
+	set_politics = {
+	    ruling_party = neutrality
+	    last_election = "1907.12.22"
+	    election_frequency = 48
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 5
+	    fascism = 14
+	    communism = 1
+	    neutrality = 80
+	}
+
+	add_ideas = {
+		limited_conscription
+		partial_economic_mobilisation 
+		militarism_focus
+		RUS_ww1_orthodox_church
+	}
+}

@@ -18,6 +18,9 @@ state={
 			dockyard = 2
 			fuel_silo = 1
 			air_base = 3
+			2632 = {
+				naval_base = 10
+			}
 		}
 		victory_points = {
 		10234 10

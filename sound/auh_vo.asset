@@ -1,0 +1,611 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	AUS_infantry_idle
+	AUS_infantry_neutral_combat
+	AUS_infantry_positive_combat
+	AUS_infantry_retreat
+	AUS_infantry_move_out
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+########## AUS
+
+soundeffect = 
+{
+    name = "AUS_infantry_idle"
+    sounds = {
+		sound = auh_Idle_001
+        sound = auh_Idle_002
+        sound = auh_Idle_003
+        sound = auh_Idle_004
+        sound = auh_Idle_005
+		sound = auh_Idle_006
+        sound = auh_Idle_010
+		sound = auh_Idle_011
+        sound = auh_Idle_012
+		sound = auh_Idle_016
+        sound = auh_Idle_017
+        sound = auh_Idle_018
+        sound = auh_Idle_019
+        sound = auh_Idle_020
+		sound = auh_Idle_021
+        sound = auh_Idle_022
+        sound = auh_Idle_023
+        sound = auh_Idle_024
+        sound = auh_Idle_025
+		sound = auh_Idle_026
+        sound = auh_Idle_027
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "AUS_infantry_neutral_combat"
+    sounds = {
+        sound = auh_Neutral_001
+        sound = auh_Neutral_002
+        sound = auh_Neutral_003
+        sound = auh_Neutral_004
+        sound = auh_Neutral_005
+        sound = auh_Neutral_006
+        sound = auh_Neutral_007
+        sound = auh_Neutral_008
+        sound = auh_Neutral_009
+        sound = auh_Neutral_010
+        sound = auh_Neutral_011
+        sound = auh_Neutral_012
+        sound = auh_Neutral_013
+        sound = auh_Neutral_014
+        sound = auh_Neutral_015
+        sound = auh_Neutral_016
+        sound = auh_Neutral_017
+        sound = auh_Neutral_018
+        sound = auh_Neutral_019
+        sound = auh_Neutral_020
+		sound = auh_Neutral_021
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "AUS_infantry_positive_combat"
+    sounds = {
+        sound = auh_Positive_001
+        sound = auh_Positive_002
+        sound = auh_Positive_003
+        sound = auh_Positive_007
+        sound = auh_Positive_008
+        sound = auh_Positive_009
+        sound = auh_Positive_010
+        sound = auh_Positive_011
+        sound = auh_Positive_012
+        sound = auh_Positive_013
+        sound = auh_Positive_014
+        sound = auh_Positive_015
+        sound = auh_Positive_016
+        sound = auh_Positive_017
+        sound = auh_Positive_018
+        sound = auh_Positive_019
+        sound = auh_Positive_020
+		sound = auh_Positive_021
+		sound = auh_Positive_022
+		sound = auh_Positive_023
+		sound = auh_Positive_024
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "AUS_infantry_retreat"
+    sounds = {
+        sound = auh_Retreat_001
+        sound = auh_Retreat_002
+        sound = auh_Retreat_003
+        sound = auh_Retreat_004
+        sound = auh_Retreat_005
+        sound = auh_Retreat_006
+        sound = auh_Retreat_007
+        sound = auh_Retreat_008
+        sound = auh_Retreat_009
+        sound = auh_Retreat_010
+        sound = auh_Retreat_011
+        sound = auh_Retreat_012
+        sound = auh_Retreat_013
+        sound = auh_Retreat_014
+        sound = auh_Retreat_015
+        sound = auh_Retreat_016
+        sound = auh_Retreat_016_alt
+        sound = auh_Retreat_017
+        sound = auh_Retreat_017_alt
+        sound = auh_Retreat_018
+		sound = auh_Retreat_018_alt
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "AUS_infantry_move_out"
+    sounds = {
+        sound = auh_Positive_010
+        sound = auh_Positive_011
+        sound = auh_Positive_012
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+############## AUDIO ASSETS
+
+############## AUS
+sound = 
+{
+	name = "auh_Idle_001"
+	file = "auh/auh_Idle_001.wav"
+}
+sound = 
+{
+	name = "auh_Idle_002"
+	file = "auh/auh_Idle_002.wav"
+}
+sound = 
+{
+	name = "auh_Idle_003"
+	file = "auh/auh_Idle_003.wav"
+}
+
+sound = 
+{
+	name = "auh_Idle_004"
+	file = "auh/auh_Idle_004.wav"
+}
+
+sound = 
+{
+	name = "auh_Idle_005"
+	file = "auh/auh_Idle_005.wav"
+}
+
+sound = 
+{
+	name = "auh_Idle_006"
+	file = "auh/auh_Idle_006.wav"
+}
+
+sound = 
+{
+	name = "auh_Idle_010"
+	file = "auh/auh_Idle_010.wav"
+}
+sound = 
+{
+	name = "auh_Idle_011"
+	file = "auh/auh_Idle_011.wav"
+}
+
+sound = 
+{
+	name = "auh_Idle_012"
+	file = "auh/auh_Idle_012.wav"
+}
+sound = 
+{
+	name = "auh_Idle_016"
+	file = "auh/auh_Idle_016.wav"
+}
+sound = 
+{
+	name = "auh_Idle_017"
+	file = "auh/auh_Idle_017.wav"
+}
+sound = 
+{
+	name = "auh_Idle_018"
+	file = "auh/auh_Idle_018.wav"
+}
+sound = 
+{
+	name = "auh_Idle_019"
+	file = "auh/auh_Idle_019.wav"
+}
+sound = 
+{
+	name = "auh_Idle_020"
+	file = "auh/auh_Idle_020.wav"
+}
+sound = 
+{
+	name = "auh_Idle_021"
+	file = "auh/auh_Idle_021.wav"
+}
+sound = 
+{
+	name = "auh_Idle_022"
+	file = "auh/auh_Idle_022.wav"
+}
+sound = 
+{
+	name = "auh_Idle_023"
+	file = "auh/auh_Idle_023.wav"
+}
+sound = 
+{
+	name = "auh_Idle_024"
+	file = "auh/auh_Idle_024.wav"
+}
+sound = 
+{
+	name = "auh_Idle_025"
+	file = "auh/auh_Idle_025.wav"
+}
+sound = 
+{
+	name = "auh_Idle_026"
+	file = "auh/auh_Idle_026.wav"
+}
+sound = 
+{
+	name = "auh_Idle_027"
+	file = "auh/auh_Idle_027.wav"
+}
+sound = 
+{
+	name = "auh_Neutral_001"
+	file = "auh/auh_Neutral_001.wav"
+}
+sound = 
+{
+	name = "auh_Neutral_002"
+	file = "auh/auh_Neutral_002.wav"
+}
+sound = 
+{
+	name = "auh_Neutral_003"
+	file = "auh/auh_Neutral_003.wav"
+}
+sound = 
+{
+	name = "auh_Neutral_004"
+	file = "auh/auh_Neutral_004.wav"
+}
+sound = 
+{
+	name = "auh_Neutral_005"
+	file = "auh/auh_Neutral_005.wav"
+}
+sound = 
+{
+	name = "auh_Neutral_006"
+	file = "auh/auh_Neutral_006.wav"
+}
+sound = 
+{
+	name = "auh_Neutral_007"
+	file = "auh/auh_Neutral_007.wav"
+}
+sound = 
+{
+	name = "auh_Neutral_008"
+	file = "auh/auh_Neutral_008.wav"
+}
+sound = 
+{
+	name = "auh_Neutral_009"
+	file = "auh/auh_Neutral_009.wav"
+}
+sound = 
+{
+	name = "auh_Neutral_010"
+	file = "auh/auh_Neutral_010.wav"
+}
+
+sound = 
+{
+	name = "auh_Neutral_011"
+	file = "auh/auh_Neutral_011.wav"
+}
+
+sound = 
+{
+	name = "auh_Neutral_012"
+	file = "auh/auh_Neutral_012.wav"
+}
+
+sound = 
+{
+	name = "auh_Neutral_013"
+	file = "auh/auh_Neutral_013.wav"
+}
+
+sound = 
+{
+	name = "auh_Neutral_014"
+	file = "auh/auh_Neutral_014.wav"
+}
+
+sound = 
+{
+	name = "auh_Neutral_015"
+	file = "auh/auh_Neutral_015.wav"
+}
+
+sound = 
+{
+	name = "auh_Neutral_016"
+	file = "auh/auh_Neutral_016.wav"
+}
+
+sound = 
+{
+	name = "auh_Neutral_017"
+	file = "auh/auh_Neutral_017.wav"
+}
+
+sound = 
+{
+	name = "auh_Neutral_018"
+	file = "auh/auh_Neutral_018.wav"
+}
+
+sound = 
+{
+	name = "auh_Neutral_019"
+	file = "auh/auh_Neutral_019.wav"
+}
+sound = 
+{
+	name = "auh_Neutral_020"
+	file = "auh/auh_Neutral_020.wav"
+}
+
+sound = 
+{
+	name = "auh_Neutral_021"
+	file = "auh/auh_Neutral_021.wav"
+}
+sound = 
+{
+	name = "auh_Positive_001"
+	file = "auh/auh_Positive_001.wav"
+}
+sound = 
+{
+	name = "auh_Positive_002"
+	file = "auh/auh_Positive_002.wav"
+}
+sound = 
+{
+	name = "auh_Positive_003"
+	file = "auh/auh_Positive_003.wav"
+}
+sound = 
+{
+	name = "auh_Positive_007"
+	file = "auh/auh_Positive_007.wav"
+}
+sound = 
+{
+	name = "auh_Positive_008"
+	file = "auh/auh_Positive_008.wav"
+}
+sound = 
+{
+	name = "auh_Positive_009"
+	file = "auh/auh_Positive_009.wav"
+}
+sound = 
+{
+	name = "auh_Positive_010"
+	file = "auh/auh_Positive_010.wav"
+}
+sound = 
+{
+	name = "auh_Positive_011"
+	file = "auh/auh_Positive_011.wav"
+}
+sound = 
+{
+	name = "auh_Positive_012"
+	file = "auh/auh_Positive_012.wav"
+}
+sound = 
+{
+	name = "auh_Positive_013"
+	file = "auh/auh_Positive_013.wav"
+}
+sound = 
+{
+	name = "auh_Positive_014"
+	file = "auh/auh_Positive_014.wav"
+}
+sound = 
+{
+	name = "auh_Positive_015"
+	file = "auh/auh_Positive_015.wav"
+}
+sound = 
+{
+	name = "auh_Positive_016"
+	file = "auh/auh_Positive_016.wav"
+}
+sound = 
+{
+	name = "auh_Positive_017"
+	file = "auh/auh_Positive_017.wav"
+}
+sound = 
+{
+	name = "auh_Positive_018"
+	file = "auh/auh_Positive_018.wav"
+}
+sound = 
+{
+	name = "auh_Positive_019"
+	file = "auh/auh_Positive_019.wav"
+}
+sound = 
+{
+	name = "auh_Positive_020"
+	file = "auh/auh_Positive_020.wav"
+}
+sound = 
+{
+	name = "auh_Positive_021"
+	file = "auh/auh_Positive_021.wav"
+}
+sound = 
+{
+	name = "auh_Positive_022"
+	file = "auh/auh_Positive_022.wav"
+}
+
+sound = 
+{
+	name = "auh_Positive_023"
+	file = "auh/auh_Positive_023.wav"
+}
+
+sound = 
+{
+	name = "auh_Positive_024"
+	file = "auh/auh_Positive_024.wav"
+}
+
+sound = 
+{
+	name = "auh_Retreat_001"
+	file = "auh/auh_Retreat_001.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_002"
+	file = "auh/auh_Retreat_002.wav"
+}
+
+sound = 
+{
+	name = "auh_Retreat_003"
+	file = "auh/auh_Retreat_003.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_004"
+	file = "auh/auh_Retreat_004.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_005"
+	file = "auh/auh_Retreat_005.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_006"
+	file = "auh/auh_Retreat_006.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_007"
+	file = "auh/auh_Retreat_007.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_008"
+	file = "auh/auh_Retreat_008.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_009"
+	file = "auh/auh_Retreat_009.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_010"
+	file = "auh/auh_Retreat_010.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_011"
+	file = "auh/auh_Retreat_011.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_012"
+	file = "auh/auh_Retreat_012.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_013"
+	file = "auh/auh_Retreat_013.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_014"
+	file = "auh/auh_Retreat_014.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_015"
+	file = "auh/auh_Retreat_015.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_016"
+	file = "auh/auh_Retreat_016.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_016_alt"
+	file = "auh/auh_Retreat_016_alt.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_017"
+	file = "auh/auh_Retreat_017.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_017_alt"
+	file = "auh/auh_Retreat_017_alt.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_018"
+	file = "auh/auh_Retreat_018.wav"
+}
+sound = 
+{
+	name = "auh_Retreat_018_alt"
+	file = "auh/auh_Retreat_018_alt.wav"
+}

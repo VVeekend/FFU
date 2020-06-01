@@ -12,8 +12,8 @@ state={
 		steel=5 # was: 8
 	}
 	history={
-		owner = CZE
-		add_core_of = CZE
+		owner = AUS
+		add_core_of = AUS
 		buildings = {
 			infrastructure = 7
 			arms_factory = 6

@@ -1,0 +1,123 @@
+add_namespace = language
+
+country_event = {
+	id = language.1
+	title = language.1.t
+	desc = language.1.d
+	picture = GFX_report_event_language
+	
+	fire_only_once = yes
+	trigger = { date > 1935.12.12 }
+	
+	option = {
+	name = language.1.a
+			ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+	name = language.1.b
+	country_event = language.2
+			ai_chance = {
+			base = 0
+		}
+	}
+	option = {
+	name = language.1.c
+	country_event = language.3
+			ai_chance = {
+			base = 0
+		}
+	}	
+	option = {
+	name = language.1.e
+	country_event = language.4
+			ai_chance = {
+			base = 0
+		}
+	}		
+	
+}
+
+country_event = {
+	id = language.2
+	title = language.2.t
+	desc = language.2.d
+	picture = GFX_report_event_language_english
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+	name = language.2.a
+	
+	set_province_name = { id=14823 name="Munich" }
+	set_province_name = { id=8315 name="Cologne" }
+	set_province_name = { id=6361 name="Brussels" }
+	set_province_name = { id=19405 name="Vienna" }
+	set_province_name = { id=11129 name="Prague" }
+	set_province_name = { id=3016 name="Warsaw" }
+	set_province_name = { id=2667 name="Adrianople" }
+	set_province_name = { id=15975 name="Gallipoli" }
+	set_province_name = { id=3718 name="Imroz" }
+	set_province_name = { id=17341 name="Tenedos" }
+	set_province_name = { id=327 name="Smyrna" }
+	set_province_name = { id=3902 name="Phenicia" }
+	set_province_name = { id=3902 name="Phenicia" }
+	set_province_name = { id=8047 name="Sofia" }
+	set_province_name = { id=3195 name="Constantinople" }
+	
+	
+	
+	
+	}
+	
+}
+
+country_event = {
+	id = language.3
+	title = language.3.t
+	desc = language.3.d
+	picture = GFX_report_event_language_german
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+	name = language.3.a
+	
+	set_province_name = { id=6361 name="Brüssel" }
+	set_province_name = { id=11129 name="Prag" }
+	set_province_name = { id=3016 name="Warschau" }
+	set_province_name = { id=421 name="Krakau" }
+	
+	
+	
+	
+	}
+	
+}
+
+country_event = {
+	id = language.4
+	title = language.4.t
+	desc = language.4.d
+	picture = GFX_report_event_language_turkish
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+	name = language.4.a
+	
+	set_province_name = { id=6361 name="Brüksel" }
+	set_province_name = { id=11129 name="Prag" }
+	set_province_name = { id=3016 name="Varşova" }
+	set_province_name = { id=421 name="Krakov" }
+	
+	
+	
+	
+	}
+	
+}

@@ -1,0 +1,36 @@
+﻿add_namespace = ww1_england
+
+# Sinking of the Titanic
+#____________________________________________________________
+news_event = {
+	id=ww1_england.102
+	title=ww1_england.102.t
+	desc = ww1_england.102.d
+
+	picture=EVENT_hoi4tgw_titanic
+	
+	major = yes
+	
+	trigger = {
+		date > 1912.4.15
+		NOT = { has_global_flag = kis_titanic_sinked }
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_global_flag = kis_titanic_sinked
+		hidden_effect = {
+
+		}
+	}
+	
+	option = {
+		name = ww1_england.102.a
+		ai_chance = {
+			factor = 100
+		}		
+	}
+}
+#____________________________________________________________

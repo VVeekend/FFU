@@ -1,0 +1,152 @@
+ideas={
+	political_advisor={
+	        AUH_Daemon={ allowed={ tag=AUS } traits={ captain_of_industry } ai_will_do={ factor=1 } }
+			AUH_alois_lexa_von_aehrenthal={ allowed={ tag=AUS } traits={ prince_of_terror } ai_will_do={ factor=1 } }
+			AUH_gyula_andrassy={ allowed={ tag=AUS } traits={ smooth_talking_charmer } ai_will_do={ factor=1 } }
+			AUH_ottokar_czernin={ allowed={ tag=AUS } traits={ ideological_crusader } ai_will_do={ factor=1 } }
+			AUH_agenor_goluchowski={ allowed={ tag=AUS } traits={ silent_workhorse } ai_will_do={ factor=1 } }
+			AUH_eugen_hordliczka={ allowed={ tag=AUS } traits={ war_industrialist } ai_will_do={ factor=1 } }
+
+			AUH_oskar_von_hranilovic_czvetassin={ allowed={ tag=AUS } traits={ quartermaster_general } ai_will_do={ factor=1 } }
+			AUH_leon_von_bilinski={ allowed={ tag=AUS } traits={ armaments_organizer } ai_will_do={ factor=1 } }
+			AUH_gabor_ugron={ allowed={ tag=AUS } traits={ popular_figurehead } ai_will_do={ factor=1 } }
+			GER_ET={ allowed={ tag=AUS } traits={ war_industrialist } ai_will_do={ factor=1 } }
+		}
+
+	theorist={
+			AUH_august_urbanski={ allowed={ tag=AUS } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
+	}
+
+	air_chief={
+			AUH_emil_uzelac={ allowed={ tag=AUS } traits={ air_air_superiority_1 } ai_will_do={ factor=1 } }
+	}
+
+	army_chief={
+			AUH_franz_conrad_von_hotzendorf={ allowed={ tag=AUS } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
+			AUH_artur_arz_von_straussenberg={ allowed={ tag=AUS } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+	}
+
+	navy_chief={
+			AUH_franz_von_holub={ allowed={ tag=AUS } traits={ navy_chief_decisive_battle_1 } ai_will_do={ factor=1 } }
+			AUH_hermann_von_spaun={ allowed={ tag=AUS } traits={ navy_chief_reform_1 } ai_will_do={ factor=1 } }
+	}
+
+	high_command={
+			AUH_blasius_schemua={ allowed={ tag=AUS } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			AUH_Senor_Frenchie={ allowed={ tag=AUS } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			AUH_friedrich_von_beck_rzikowsky={ allowed={ tag=AUS } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
+			AUH_rudolf_montecuccoli={ allowed={ tag=AUS } traits={ navy_screen_1 } ai_will_do={ factor=1 } }
+			AUH_anton_haus={ allowed={ tag=AUS } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }
+			AUH_karl_kailer_von_kagenfels={ allowed={ tag=AUS } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
+			AUH_maximilian_njegovan={ allowed={ tag=AUS } traits={ navy_fleet_logistics_1 } ai_will_do={ factor=1 } }
+			AUH_maximilian_daublebsky_von_sterneck={ allowed={ tag=AUS } traits={ navy_amphibious_assault_1 } ai_will_do={ factor=1 } }
+	}
+
+	naval_manufacturer={
+			designer = yes
+			stabilimento_tecnico_triestino={ allowed={ tag=AUS } research_bonus={ naval_equipment=0.10 } traits={ coastal_defence_naval_manufacturer } picture=generic_naval_manufacturer_2 }
+			ganz_and_co={ allowed={ tag=AUS } research_bonus={ naval_equipment=0.10 } traits={ raiding_fleet_naval_manufacturer } picture=generic_naval_manufacturer_3 }
+			}
+	aircraft_manufacturer={
+			designer = yes
+			osterreichische_aviatik={ allowed={ tag=AUS } research_bonus={ air_equipment=0.10 } traits={ light_aircraft_manufacturer } picture=generic_air_manufacturer_2 }
+			#kuk_militar_aeronautischen_anstalt={ allowed={ tag=AUS } research_bonus={ air_equipment=0.10 } traits={ CAS_manufacturer } picture=generic_air_manufacturer_3 }
+			kuk_fliegerarsenal_fischamend={ allowed={ tag=AUS } research_bonus={ air_equipment=0.10 } traits={ medium_aircraft_manufacturer } picture=generic_air_manufacturer_1 }
+			}
+	materiel_manufacturer={
+			designer = yes
+			osterreichische_waffenfabriksgesellschaft={ allowed={ tag=AUS } research_bonus={ infantry_weapons=0.10 } traits={ infantry_equipment_manufacturer } picture=generic_infantry_equipment_manufacturer_3 }
+			kuk_munitionsfabrik_wollersdorf={ allowed={ tag=AUS } research_bonus={ artillery=0.10 } traits={ artillery_manufacturer } picture=generic_artillery_manufacturer_1 }
+			}
+	tank_manufacturer={
+			designer = yes
+			steyr_daimler_puch={ allowed={ tag=AUS } research_bonus={ armor=0.10 } traits={ tank_manufacturer } }
+			}
+
+	country={
+		AUH_ww1_Multinational_State = {
+
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier={ stability_factor=-0.10 }
+		}
+
+
+		AUH_ww1_House_Habsburg_Lorraine = {
+
+			allowed = {
+				original_tag = AUS
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier={ political_power_gain = 0.05 }
+		}
+
+		Austrian_staff = {
+					allowed = {
+					always = no
+					original_tag = AUS
+					}
+					allowed_civil_war = { always = yes }
+
+					removal_cost = -1
+
+					picture=GFX_idea_Austrian_staff
+
+					modifier = {
+						planning_speed = 0.10
+						army_speed_factor = 0.10
+						max_planning = 0.05
+					}
+				}
+
+		AUH_ww1_Trialism = {
+
+			allowed = {
+				original_tag = AUS
+				original_tag = HUN
+				original_tag = CRO
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			research_bonus = {
+				land_doctrine = 0.10
+				naval_doctrine = 0.10
+				air_doctrine = 0.10
+			}
+
+			modifier={
+				stability_factor= 0.05
+				army_org_factor = 0.25
+			}
+		}
+	    	hidden_ideas = {#country
+	}
+
+
+
+
+
+
+
+	}
+}

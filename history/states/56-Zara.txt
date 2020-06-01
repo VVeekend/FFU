@@ -8,9 +8,13 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = enclave
 	history={
-		owner = ITA
+		owner = AUS
+		add_core_of = AUS
 		buildings = {
 			infrastructure = 5
+			7018 = {
+				naval_base = 8
+			}
 		}
 	} 
 }
