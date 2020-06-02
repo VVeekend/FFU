@@ -114,10 +114,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power=50
-			add_opinion_modifier = { 
-			target = SAU
-			modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
-			}
 		}
 
 		ai_will_do = { factor = 0 }
@@ -630,7 +626,7 @@ focus_tree = {
 
 			SER = { exists = yes is_in_faction_with=BUL }
 			BUL = { exists = yes is_in_faction_with=SER }
-			MTN = { exists = yes is_in_faction_with=SER }
+			MNT = { exists = yes is_in_faction_with=SER }
 			GRE = { exists = yes is_in_faction_with=SER }
 
 		}
@@ -642,7 +638,7 @@ focus_tree = {
 				modifier =  HOI4TGW_Opinion_hostile_diplomatic_relations
 			}
 			add_opinion_modifier = {
-				target = MTN 
+				target = MNT 
 				modifier =  HOI4TGW_Opinion_hostile_diplomatic_relations
 			}
 			add_opinion_modifier = {
@@ -933,160 +929,6 @@ focus = {
 		x = 15
 		y = 2
 	}
-
-	focus = {
-		id = TUR_ww1_support_libya
-		prerequisite = { focus= TUR_ww1_develop_arab}
-		icon = GFX_hoi4tgw_islam
-
-		available = {
-
-			NOT={ country_exists=LBA }
-
-			has_war_with=ITA
-
-			ITA = { 
-				controls_state = 450 
-				controls_state = 448
-			}
-		}
-		completion_reward = {
-
-			LBA = {
-				transfer_state = 273
-			}
-			LBA={
-				declare_war_on={
-						target=ITA
-						type = take_state
-						generator = {661 662 663 448 449 450 451}
-				}
-
-			}
-
-		}
-
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 16
-		y = 3
-	}
-
-	focus = {
-		id = TUR_ww1_support_oman
-		prerequisite = { focus=TUR_ww1_develop_arab }
-		icon = GFX_goal_generic_demand_territory
-		available = {
-
-			has_war_with=ENG
-
-		}
-		completion_reward = {
-
-			ENG={end_puppet = OMA}
-
-
-			ENG={
-				declare_war_on={
-						target=OMA
-						type = take_state
-						generator = {294}
-				}
-			}
-		}
-
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 14
-		y = 3
-	}
-
-	#focus = {
-	#	id = TUR_ww1_support_egypt
-	#	prerequisite = { focus= TUR_ww1_support_oman  focus= TUR_ww1_support_libya }
-	#	icon = GFX_hoi4tgw_islam
-
-	#	available = {
-
-	#		NOT={ country_exists=EGY }
-
-	#		has_war_with=ENG
-
-	#		ENG = { 
-	#			controls_state = 551 
-	#		}
-	#	}
-	#	completion_reward = {
-
-	#		EGY = {
-	#			transfer_state = 551
-	#		}
-	#		EGY={
-	#			declare_war_on={
-	#					target=ENG
-	#					type = take_state
-	#					generator = {551 456 457 552 453 446 447 452}
-	#			}
-	#		}
-	#	}
-
-	#	ai_will_do = { factor = 0 }
-	#	cost = 10
-	#	x = 15
-	#	y = 8
-	#}
-
-	#-----------------------------------------------------------------------
-
-	focus = {
-		id = TUR_ww1_friend_jabal
-		prerequisite = { focus=TUR_ww1_assert_position_east }
-		icon = GFX_goal_tripartite_pact
-
-		available = {
-
-			country_exists=JBS
-
-		}
-
-		completion_reward = {
-			add_political_power=10
-
-			add_opinion_modifier = { 
-			target = JBS
-			modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
-			}
-		}
-
-		ai_will_do = { factor = 10 }
-		cost = 10
-		x = 18
-		y = 2
-	}
-
-	focus = {
-		id = TUR_ww1_annex_jabal
-		prerequisite = { focus=TUR_ww1_friend_jabal }
-		icon = GFX_goal_generic_forceful_treaty
-
-		available = {
-			country_exists=JBS
-
-		}
-		completion_reward = {
-			TUR = {
-				annex_country = {
-					target = JBS
-					transfer_troops = yes
-				}
-			}
-		}
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 18
-		y = 3
-	}
-
 
 
 	#===============================

@@ -181,7 +181,7 @@ focus_tree = {
 			}
 			ENG = { 
 				add_opinion_modifier = { 
-					target = AUH modifier=HOI4TGW_Opinion_diplomats_bonus
+					target = AUS modifier=HOI4TGW_Opinion_diplomats_bonus
 				} 
 			} 
 		}
@@ -399,23 +399,7 @@ focus_tree = {
 	    	ENG = {
 					puppet = HJZ
 					add_to_faction = HJZ
-					puppet = ASR
-					add_to_faction = ASR
-					puppet = SAU
-					add_to_faction = SAU
-					puppet = YEM
-					add_to_faction = YEM
 				}
-			YEM = {
-				transfer_state = 293
-			}
-			YEM={
-				declare_war_on={
-						target=TUR
-						type = take_state
-						generator = {293}
-				}
-			}
 		}
 		ai_will_do = { factor = 0 }
 		cost = 5
@@ -439,9 +423,6 @@ focus_tree = {
 				   PER={
 					    has_war_with=ENG
 					    }
-				   }
-			  RAJ={
-				   controls_state=444
 				   }
 			   country_exists=PER
 			  }
@@ -489,7 +470,7 @@ focus_tree = {
 		id = ENG_ww1_anti_ah
 		prerequisite = { focus = ENG_ww1_anti_ger }
 		icon = GFX_goal_generic_political_pressure
-		completion_reward = { ENG={ add_opinion_modifier={ target=AUH modifier=HOI4TGW_Opinion_anti_ah_policy_malus } } }
+		completion_reward = { ENG={ add_opinion_modifier={ target=AUS modifier=HOI4TGW_Opinion_anti_ah_policy_malus } } }
 		ai_will_do = { factor = 20 }
 		cost = 10
 		x = 9
@@ -666,7 +647,7 @@ focus_tree = {
 		prerequisite = { focus=ENG_ww1_assert_position_east }
 		icon = GFX_goal_generic_political_pressure
 		bypass = { NOT={ country_exists=YUG country_exists=GRE country_exists=ROM country_exists=BUL country_exists=HUN country_exists=TUR } }
-		completion_reward = { SER={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_good } } GRE={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_good } } ROM={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_good } } BUL={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } GER={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } AUH={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } TUR={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } }
+		completion_reward = { SER={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_good } } GRE={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_good } } ROM={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_good } } BUL={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } GER={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } AUS={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } TUR={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } }
 		ai_will_do = { factor = 20 }
 		cost = 10
 		x = 12
@@ -2052,19 +2033,6 @@ focus = {
 					idea = ENG_Gallipoli
 			}
 			
-			AST = {
-				add_timed_idea = {
-					days = 70
-					idea = ENG_Gallipoli
-			}
-			}
-			
-			NZL = {
-				add_timed_idea = {
-					days = 70
-					idea = ENG_Gallipoli
-			  }
-			}
 		}
 		}
 		x = 18

@@ -29,7 +29,6 @@ bookmarks = {
 			}
 			focuses = {
 				TUR_ww1_BalkanLeagueMenace
-				TUR_ww1_support_libya
 			}
 		}
 		 ENG ={
@@ -75,7 +74,6 @@ bookmarks = {
 				AUH_ww1_Multinational_State
 			}
 			focuses = {
-				AUH_ww1_military_advisors
 			}
 		}
 		 SOV ={
@@ -87,7 +85,6 @@ bookmarks = {
 			RUS_ww1_mixed_railways
 			}
 			focuses = {
-				RUS_ww1_pro_fra
 				RUS_ww1_naval_effort
 			}
 		}

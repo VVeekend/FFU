@@ -107,7 +107,7 @@ set_technology = {
 create_equipment_variant = {
 		name = "Pre-1905 Destroyer"
 		type = ship_hull_light_1
-		name_group = USA_DD_HISTORICAL
+		name_group = GRE_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -124,7 +124,7 @@ create_equipment_variant = {
 create_equipment_variant = {
 		name = "1905 Destroyer"
 		type = ship_hull_light_1
-		name_group = USA_DD_HISTORICAL
+		name_group = GRE_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -141,7 +141,7 @@ create_equipment_variant = {
 create_equipment_variant = {
 		name = "Light Cruisers"			
 		type = ship_hull_cruiser_1
-		name_group = USA_CL_HISTORICAL
+		name_group = GRE_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -156,14 +156,13 @@ create_equipment_variant = {
 		}
 	}
 
-	        
 	create_equipment_variant = {
-		name = "Armored Cruiser"
+		name = "Protected Cruiser"
 		type = ship_hull_cruiser_1
-		name_group = ENG_CA_HISTORICAL
+		name_group = GRE_CA_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_battery_slot = ship_medium_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
@@ -172,6 +171,25 @@ create_equipment_variant = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			mid_1_custom_slot = ship_airplane_launcher_1
 			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_medium_battery_1
+		}
+	}
+	        
+	create_equipment_variant = {
+		name = "Armored Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = GRE_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_torpedo_1
 			rear_1_custom_slot = ship_medium_battery_2
 		}
 	}
@@ -179,7 +197,7 @@ create_equipment_variant = {
 create_equipment_variant = {
 		name = "Battlecrusiers"		
 		type = ship_hull_heavy_2
-		name_group = USA_BC_HISTORICAL
+		name_group = GRE_BC_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1

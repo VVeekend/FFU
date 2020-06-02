@@ -308,64 +308,6 @@ focus_tree = {
 		y = 0
 	}
 
-	# HOI4TGW 0.1.9
-
-	focus = {
-		id = GER_ww1_free_BAV
-		prerequisite = { focus = GER_ww1_diplomatic_effort }
-		icon = GFX_goal_generic_propaganda
-
-		available = {
-			NOT = {country_exists=BAV }
-			controls_state = 52
-			controls_state = 53
-			controls_state = 54
-		}
-
-		completion_reward = {
-
-			add_stability = 0.10
-			add_manpower = 15000
-
-			BAV = {
-				transfer_state = 52
-				transfer_state = 53
-				transfer_state = 54
-			}
-
-			puppet = BAV
-
-	        # SPECIAL_DLC Together for Victory
-	        if = { limit = { has_dlc = "Together for Victory" }
-
-	            #IF-----------------------------------------
-	            set_autonomy = {
-	                target = BAV
-	                autonomous_state = autonomy_integrated_puppet
-	            }
-	            #-------------------------------------------
-
-	            #ELSE---------------------------------------
-	            else = {
-	                # WORK IN PROGRESS # Temporary Solution for Open Beta 0.1.9
-	            }
-	            #-------------------------------------------
-	        }
-
-	        hidden_effect {
-
-	        	BAV = { load_oob = "BAV_1910" }
-	        }
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		cost = 9
-		x = 7
-		y = 1
-	}
 
 
 	#----------------------------------------------------------------------- 
@@ -376,7 +318,7 @@ focus_tree = {
 		id = GER_ww1_triple_alliance
 		prerequisite = { focus=GER_ww1_diplomatic_effort }
 		icon = GFX_goal_generic_demand_territory
-		completion_reward = { AUH={ add_opinion_modifier={ target=GER modifier=triple_alliance_opinion } } ITA={ add_opinion_modifier={ target=GER modifier=triple_alliance_opinion } } }
+		completion_reward = { AUS={ add_opinion_modifier={ target=GER modifier=triple_alliance_opinion } } ITA={ add_opinion_modifier={ target=GER modifier=triple_alliance_opinion } } }
 		
 		available = {
 			NOT = { has_global_flag = kis_treaty_of_versailles }
@@ -404,14 +346,14 @@ focus_tree = {
 					target = ITA modifier=HOI4TGW_Opinion_ger_ita_advisor_bonus 
 				} 
 			} 
-			AUH = { 
+			AUS = { 
 				add_opinion_modifier = { 
 					target = GER modifier=HOI4TGW_Opinion_ger_auh_advisor_bonus
 				} 
 			} 
 			GER = { 
 				add_opinion_modifier = { 
-					target = AUH modifier=HOI4TGW_Opinion_ger_auh_advisor_bonus
+					target = AUS modifier=HOI4TGW_Opinion_ger_auh_advisor_bonus
 				} 
 			} 
 		}
@@ -541,61 +483,6 @@ focus_tree = {
 		cost = 10
 		x = 13
 		y = 3
-	}
-
-	focus = {
-		id = GER_ww1_support_boer
-		prerequisite = { focus = GER_ww1_anti_uk }
-		icon = GFX_goal_molotov_ribbentrop_pact		
-		available = { 
-			SAF = {
-	 			exists = yes
-	 		}
-	 		NOT = { has_global_flag = kis_treaty_of_versailles }
-		}
-		completion_reward = { 
-			541 = {
-				add_building_construction = {
-					type = air_base
-					level = 1
-					#province = 5189
-					instant_build = yes
-				}
-			}
-			541 = {
-				add_building_construction = {
-					type = bunker
-					level = 1
-					#province = 5189
-					instant_build = yes
-				}
-			}			
-		}
-		ai_will_do = { factor = 10 }
-		cost = 10
-		x = 12
-		y = 4
-	}
-
-	focus = {
-		id = GER_ww1_support_boer_war
-		prerequisite = { focus = GER_ww1_support_boer }
-		icon = GFX_goal_generic_small_arms
-		completion_reward = { country_event=ww1_germany.20 }
-		available = { 
-	 		ENG = {
-	 			exists = yes
-	 		}
-			has_war_with=ENG
-			SAF = {
-	 			exists = yes
-	 		}
-			has_war_with=SAF 
-		}
-		ai_will_do = { factor = 10 }
-		cost = 10
-		x = 12
-		y = 5
 	}
 
 	focus = {

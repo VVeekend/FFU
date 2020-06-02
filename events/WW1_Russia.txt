@@ -376,11 +376,11 @@ news_event = {
 					active = yes
 				}
 				diplomatic_relation = {
-					country = AUH
+					country = AUS
 					relation = non_aggression_pact
 				}
 				diplomatic_relation = {
-					country = AUH
+					country = AUS
 					relation = military_access
 					active = yes
 				}
@@ -728,7 +728,6 @@ news_event = {
 
 				transfer_state = 147
 
-				puppet = MON
 
 				transfer_state = 726
 				transfer_state = 718
@@ -754,64 +753,6 @@ news_event = {
 }
 #____________________________________________________________
 
-#  Peace treaty between Entente and Soviets
-#____________________________________________________________
 
-country_event = {
-	title=ww1_russia.21.t#Peace treaty between Entente and Soviets
-	desc=ww1_russia.21.d#Ends eternal war between Soviets and Entente (irl: Soviet–Japanese Basic Convention)
-	id=ww1_russia.21
-	picture=GFX_report_event_generic_read_write
-	fire_only_once=yes
-	
-	trigger = {
-	    tag = SOV
-		date > 1925.1.19
-		SOV = { has_war_with = JAP has_war_with = FRA }
-	}
-	
-	mean_time_to_happen = { days = 1 }
-	
-	option={
-		name=ww1_russia.21.a#"It's time to stop"
-		ai_chance={
-			factor=100
-		}
-		trigger = {
-		    tag = SOV
-		}
-		if = { limit = { JAP = { is_in_faction_with = FRA } }
-		every_country = {
-		    limit = {
-			    OR = {
-			        tag = JAP
-		            is_in_faction_with = JAP
-			    }
-			}
-			white_peace = SOV
-		}
-		else = {
-		every_country = {
-		    limit = {
-			    OR = {
-			        tag = FRA
-		            is_in_faction_with = FRA
-			    }
-			}
-			white_peace = SOV
-		}
-		JAP = { white_peace = SOV }
-		}
-	    }
-	}
-	option={
-		name=ww1_russia.21.b#"Never"
-		trigger = {
-		    tag = SOV
-		}
-		ai_chance={
-			factor=0
-		}
-	}
-}
+
 #____________________________________________________________

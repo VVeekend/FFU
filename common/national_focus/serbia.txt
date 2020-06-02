@@ -53,7 +53,7 @@ focus_tree = {
 
 		ai_will_do = { factor = 0 }
 		completion_reward = {
-			add_ideas = student_mobilization_idea
+			add_stability = 0.15
 		}
 		mutually_exclusive = { focus=SER_ww1_LimitDemocracy }
 	}
@@ -541,7 +541,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_opinion_modifier = { 
-				target = AUH
+				target = AUS
 				modifier =  HOI4TGW_Opinion_anti_ah_policy_malus
 			}
 		}
@@ -677,7 +677,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_opinion_modifier = { target = AUH modifier = minor_sanctions }
+			add_opinion_modifier = { target = AUS modifier = minor_sanctions }
 		}
 
 		ai_will_do = { factor = 0 }

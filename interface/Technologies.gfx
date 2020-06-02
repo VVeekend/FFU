@@ -2673,7 +2673,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/advanced_conversion.dds"
 	}	
 	
-	 NAVAL TECH 
+	 ####NAVAL TECH####
 
 	SpriteType = {
 		name = "GFX_convoy_medium"

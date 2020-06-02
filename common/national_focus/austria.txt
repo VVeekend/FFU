@@ -156,10 +156,6 @@ focus_tree = {
 			if = { limit = { has_dlc = "Together for Victory" }
 
 				#IF-----------------------------------------
-				annex_country = {
-					target = HUN
-					transfer_troops = yes
-				}
 				#-------------------------------------------
 
 				#ELSE---------------------------------------
@@ -1099,66 +1095,6 @@ focus_tree = {
 		cost = 3
 		x = 18
 		y = 1
-	}
-
-
-	focus = {
-		id = AUS_ww1_annex_BOS
-		prerequisite = { focus = AUS_ww1_balkans_policy }
-		icon = GFX_goal_generic_forceful_treaty
-
-		available = {
-
-			country_exists=BOS
-
-			BOS = {
-				# has_government=neutrality
-				is_puppet = yes 
-			}
-		}
-
-		completion_reward = {
-
-			add_stability = -0.10
-
-			annex_country = {
-				target = BOS
-				transfer_troops = yes
-			}
-
-		}
-
-		ai_will_do = {
-			factor = 800
-			modifier = {
-				factor = 0
-				BOS = {	is_ai = no	}
-			}
-		}
-
-		cost = 2
-		x = 17
-		y = 2
-	}
-
-	focus = {
-		id = AUS_ww1_Schutzkorps
-		prerequisite = { focus = AUS_ww1_annex_BOS }
-		icon = GFX_goal_generic_wolf_pack
-
-		available = {
-			NOT = {country_exists=BOS}
-		}
-
-		completion_reward = {
-			add_stability = -0.05
-			add_manpower = 10000
-		}
-
-		ai_will_do = { factor = 1 }
-		cost = 7
-		x = 17
-		y = 4
 	}
 
 

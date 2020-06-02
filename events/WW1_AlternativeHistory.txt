@@ -7,10 +7,10 @@
 # This Alternative History 1 triggers if
 #	Assassination of Franz Ferdinand didn't happen
 #	There is still a Balkan War (First ou Second)
-#	AUH not in war with SER
-#	AUH not in war with FRA, ENG, RUS
+#	AUS not in war with SER
+#	AUS not in war with FRA, ENG, RUS
 
-# AUH is tired of the Balkan Instability
+# AUS is tired of the Balkan Instability
 #____________________________________________________________
 news_event = {
 	id = ww1_alternativehistory.1
@@ -32,7 +32,7 @@ news_event = {
 			has_global_flag = kis_franzferdinand_murdered
 			has_global_flag = kis_alternativehistory_1
 		}
-		AUH = {
+		AUS = {
 			exists = yes
 			is_puppet = no
 			NOT = {
@@ -60,16 +60,16 @@ news_event = {
 		set_global_flag = kis_alternativehistory_1
 	}
 
-	# AUH Reaction
+	# AUS Reaction
 	option = {
 		name = ww1_alternativehistory.1.a
 		ai_chance = { factor = 100 }
 		trigger = {
-			TAG = AUH
+			TAG = AUS
 		}
 
 		set_global_flag = kis_alternativehistory_1
-		AUH = {
+		AUS = {
 			SER = {
 				country_event = { days = 1 id =ww1_alternativehistory.2 }
 			}
@@ -91,7 +91,7 @@ news_event = {
 		ai_chance = { factor = 100 }
 		trigger = {
 			NOT = {
-				TAG = AUH
+				TAG = AUS
 				TAG = SER
 			}
 		}
@@ -99,7 +99,7 @@ news_event = {
 }
 #____________________________________________________________
 
-# AUH is tired of the Balkan Instability
+# AUS is tired of the Balkan Instability
 #____________________________________________________________
 country_event = {
 	id = ww1_alternativehistory.2
@@ -130,7 +130,7 @@ country_event = {
 				}
 				SER = {
 					white_peace = TUR
-					remove_from_faction = MTN
+					remove_from_faction = MNT
 					remove_from_faction = GRE
 					remove_from_faction = BUL
 					remove_from_faction = SER
@@ -150,7 +150,7 @@ country_event = {
 				}
 				SER = {
 					white_peace = BUL					
-					remove_from_faction = MTN
+					remove_from_faction = MNT
 					remove_from_faction = GRE
 					remove_from_faction = ROM
 					remove_from_faction = TUR
@@ -181,7 +181,7 @@ country_event = {
 					relation = non_aggression_pact
 				}
 				diplomatic_relation = {
-					country = MTN
+					country = MNT
 					relation = non_aggression_pact
 				}
 				diplomatic_relation = {
@@ -191,7 +191,7 @@ country_event = {
 			}
 			TUR = {
 				diplomatic_relation = {
-					country = MTN
+					country = MNT
 					relation = non_aggression_pact
 				}
 				diplomatic_relation = {
@@ -200,7 +200,7 @@ country_event = {
 				}
 			}
 		}
-		AUH = {
+		AUS = {
 			declare_war_on = {
 			    type = annex_everything 
 			    target = SER
@@ -229,7 +229,7 @@ country_event = {
 				}
 				SER = {
 					white_peace = TUR
-					remove_from_faction = MTN
+					remove_from_faction = MNT
 					remove_from_faction = GRE
 					remove_from_faction = BUL
 					remove_from_faction = SER
@@ -249,7 +249,7 @@ country_event = {
 				}
 				SER = {
 					white_peace = BUL					
-					remove_from_faction = MTN
+					remove_from_faction = MNT
 					remove_from_faction = GRE
 					remove_from_faction = ROM
 					remove_from_faction = TUR
@@ -280,7 +280,7 @@ country_event = {
 					relation = non_aggression_pact
 				}
 				diplomatic_relation = {
-					country = MTN
+					country = MNT
 					relation = non_aggression_pact
 				}
 				diplomatic_relation = {
@@ -290,7 +290,7 @@ country_event = {
 			}
 			TUR = {
 				diplomatic_relation = {
-					country = MTN
+					country = MNT
 					relation = non_aggression_pact
 				}
 				diplomatic_relation = {
@@ -299,7 +299,7 @@ country_event = {
 				}
 			}
 		}
-		AUH = {
+		AUS = {
 			puppet = SER
 		}
 		SER = {
@@ -348,7 +348,7 @@ news_event = {
 }
 #____________________________________________________________
 
-# If SER is puppet of AUH - RUS needs to react
+# If SER is puppet of AUS - RUS needs to react
 #____________________________________________________________
 country_event = {
 	id = ww1_alternativehistory.5
@@ -384,13 +384,13 @@ country_event = {
 			RUS = {
 				add_to_war = {
 		            targeted_alliance = SER 
-		            enemy = AUH
+		            enemy = AUS
 		        }
 			}
 		}
 		GER = {
 			add_to_war = {
-				targeted_alliance = AUH
+				targeted_alliance = AUS
 				enemy = SER
 			}
 		}
@@ -412,7 +412,7 @@ country_event = {
 }
 #____________________________________________________________
 
-# If SER is at war with AUH - RUS needs to react
+# If SER is at war with AUS - RUS needs to react
 #____________________________________________________________
 country_event = {
 	id = ww1_alternativehistory.6
@@ -448,13 +448,13 @@ country_event = {
 			RUS = {
 				add_to_war = {
 		            targeted_alliance = SER 
-		            enemy = AUH
+		            enemy = AUS
 		        }
 			}
 		}
 		GER = {
 			add_to_war = {
-				targeted_alliance = AUH
+				targeted_alliance = AUS
 				enemy = SER
 			}
 		}
@@ -495,7 +495,7 @@ news_event = {
 }
 #____________________________________________________________
 
-# If SER is at war with AUH - RUS didn't react - FRA reacts
+# If SER is at war with AUS - RUS didn't react - FRA reacts
 #____________________________________________________________
 country_event = {
 	id = ww1_alternativehistory.8
@@ -531,13 +531,13 @@ country_event = {
 			FRA = {
 				add_to_war = {
 		            targeted_alliance = SER 
-		            enemy = AUH
+		            enemy = AUS
 		        }
 			}
 		}
 		GER = {
 			add_to_war = {
-				targeted_alliance = AUH
+				targeted_alliance = AUS
 				enemy = SER
 			}
 		}

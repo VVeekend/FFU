@@ -10,51 +10,6 @@ set_war_support = 0.70
 set_convoys = 800
 
 # DIPLOMACY
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	else = {
-		puppet = RAJ
-		puppet = CAN
-		puppet = AST
-		puppet = NZL
-		puppet = SAF
-	}
-}
-
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
-	add_to_tech_sharing_group = commonwealth_research
-}
 
 
 give_guarantee = BEL # United Kingdom guaranteed the independence of Belgium - Treaty of London (1839)
@@ -391,41 +346,44 @@ create_equipment_variant = {
 		}
 	}
 
-create_equipment_variant = {
-		name = "Protected Cruisers"			
+	create_equipment_variant = {
+		name = "Protected Cruisers"
 		type = ship_hull_cruiser_1
-		name_group = ENG_CL_HISTORICAL
+		name_group = ENG_CA_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
-			fixed_ship_anti_air_slot = empty
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
-			mid_1_custom_slot = ship_light_battery_1
-			mid_2_custom_slot = ship_light_battery_1
-			rear_1_custom_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_medium_battery_1
 		}
 	}
 	
-create_equipment_variant = {
-		name = "Armored Crusiers" # represents Armored Crusiers 
-		type = ship_hull_cruiser_2
-		name_group = ENG_CL_HISTORICAL
+	create_equipment_variant = {
+		name = "Armored Cruisers"
+		type = ship_hull_cruiser_1
+		name_group = ENG_CA_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_battery_slot = ship_medium_battery_2
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
-			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_light_medium_battery_1
-			rear_1_custom_slot = ship_light_medium_battery_1
 			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_medium_battery_2
 		}
 	}
+
 create_equipment_variant = {
 		name = "Battlecrusiers"		
 		type = ship_hull_heavy_2
@@ -446,16 +404,20 @@ create_equipment_variant = {
 		}
 	}
 	
-create_equipment_variant={ name="Pre-Dreadnoughts" name_group = ENG_BB_HISTORICAL type=ship_hull_heavy_1 parent_version = 0 obsolete=yes 
+create_equipment_variant={ name="Pre-Dreadnoughts" 
+                           name_group = ENG_BB_HISTORICAL 
+                           type=ship_hull_heavy_1 
+                           parent_version = 0 
+                           obsolete=yes 
         modules = {
 		    fixed_ship_battery_slot = ship_heavy_battery_1 
-            fixed_ship_fire_control_system_slot = ship_fire_control_system_0 
-            fixed_ship_radar_slot = empty fixed_ship_engine_slot = heavy_ship_engine_1
-            fixed_ship_secondaries_slot = ship_secondaries_1 
-            fixed_ship_armor_slot = ship_armor_bb_1 
-            front_1_custom_slot = ship_heavy_battery_1  
-            mid_1_custom_slot = ship_secondaries_1 
-            rear_1_custom_slot = empty } }
+                    fixed_ship_fire_control_system_slot = ship_fire_control_system_0 
+                    fixed_ship_radar_slot = empty fixed_ship_engine_slot = heavy_ship_engine_1
+                    fixed_ship_secondaries_slot = ship_secondaries_1 
+                    fixed_ship_armor_slot = ship_armor_bb_1 
+                    front_1_custom_slot = ship_heavy_battery_1  
+                    mid_1_custom_slot = ship_secondaries_1 
+                    rear_1_custom_slot = empty } }
 
 create_equipment_variant={ name="Semi-Dreadnoughts" name_group = ENG_BB_HISTORICAL type=ship_hull_heavy_2 parent_version = 0 		
         modules = {
@@ -471,16 +433,22 @@ create_equipment_variant={ name="Semi-Dreadnoughts" name_group = ENG_BB_HISTORIC
 			rear_1_custom_slot = empty } }
 		
 		
-create_equipment_variant={ name="Dreadnoughts" name_group = ENG_BB_HISTORICAL type= ship_hull_super_heavy_1 parent_version = 0  
-        modules = {fixed_ship_battery_slot = ship_super_heavy_battery_1
+create_equipment_variant = {
+          name = "Dreadnoughts"  
+          type= ship_hull_super_heavy_1 
+          name_group = ENG_BB_HISTORICAL
+          parent_version = 0  
+          modules = {
+          fixed_ship_battery_slot = ship_super_heavy_battery_1
+	  fixed_ship_anti_air_slot = ship_anti_air_1
           fixed_ship_fire_control_system_slot = ship_fire_control_system_0 
           fixed_ship_radar_slot = empty 
           fixed_ship_engine_slot = heavy_ship_engine_2 
           fixed_ship_secondaries_slot = ship_secondaries_1 
           fixed_ship_armor_slot = ship_armor_shbb
           front_1_custom_slot = ship_super_heavy_battery_1 
-          mid_1_custom_slot = ship_secondaries_1 
-		  mid_2_custom_slot = ship_secondaries_1
+          mid_1_custom_slot = ship_secondaries_1
+          mid_2_custom_slot = ship_secondaries_1
           rear_1_custom_slot = ship_super_heavy_battery_1 } }
 }
 

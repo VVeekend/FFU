@@ -525,6 +525,7 @@ democratic_on_the_rise = {
 			factor = 0
 		}
 	}
+ }
 	
 	expand_civil_democratic_support = {
 
