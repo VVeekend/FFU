@@ -1,77 +1,81 @@
+
 state={
 	id=26
 	name="STATE_26"
-	provinces={
-		1459 2104 2515 3325 3344 3905 4900 5324 6348 6351 7158 7340 7446 7488 7561 7633 7959 9140 10260 10504 10523 10541 10570 10907 11207 11481 11611 12989 13058 13076 13103 13132 13133 13177 13195 13208 13224 13237 13242 13250 13278 13320 13323 13342 13345 17279 17281 17284 17286 17288 
-	}
-	manpower=1672235
-	buildings_max_level_factor=1.000
-	state_category = town
 	resources={
-		aluminium=6 # was: 10
+		aluminium=6.000
 	}
-	history=
-	     {
+
+	history={
 		owner = DEN
 		add_core_of = DEN
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 3
 			air_base = 2
+
 		}
-	victory_points = {
-	2104 15
+		victory_points = {
+			2104 15 
+		}
+		victory_points = {
+			10570 5 
+		}
+		victory_points = {
+			7959 1 
+		}
+		victory_points = {
+			12989 5 
+		}
+		victory_points = {
+			3905 2 
+		}
+		victory_points = {
+			9140 3 
+		}
+		victory_points = {
+			13103 10 
+		}
+		victory_points = {
+			13177 20 
+		}
+		victory_points = {
+			11611 5 
+		}
+		victory_points = {
+			13132 3 
+		}
+		victory_points = {
+			10260 3 
+		}
+		victory_points = {
+			10907 2 
+		}
+		victory_points = {
+			11481 3 
+		}
+		victory_points = {
+			1459 2 
+		}
+		victory_points = {
+			6348 3 
+		}
+		victory_points = {
+			7633 2 
+		}
+		victory_points = {
+			13224 2 
+		}
+		victory_points = {
+			13208 2 
+		}
+
 	}
-	victory_points = {
-	10570 5
+
+	provinces={
+		1459 2104 2515 3325 3344 3905 5324 6348 6351 7158 7340 7488 7561 7633 7959 9140 10260 10504 10541 10570 10907 11207 11481 11611 12989 13058 13076 13103 13132 13133 13177 13195 13208 13224 13237 13242 13250 13278 17279 17281 17284 
 	}
-	victory_points = {
-	7959 1
-	}
-	victory_points = {
-	12989 5
-	}
-	victory_points = {
-	3905 2
-	}
-	victory_points = {
-	9140 3
-	}
-	victory_points = {
-	13103 10
-	  }
-	victory_points = {
-	13177 20
-	}
-	victory_points = {
-	11611 5
-	}
-	victory_points = {
-	13132 3
-	}
-	victory_points = {
-	10260 3
-	}
-	victory_points = {
-	10907 2
-	}
-	victory_points = {
-	11481 3
-	}
-	victory_points = {
-	1459 2
-	}
-	victory_points = {
-	6348 3
-	}
-	victory_points = {
-	7633 2
-	}
-	victory_points = {
-	13224 2
-	}
-	victory_points = {
-	13208 2
-	}
-    }
+	manpower=1672235
+	buildings_max_level_factor=1.000
+	state_category=town
 }

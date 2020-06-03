@@ -3,7 +3,7 @@ NDefines = {
 NGame = {
 	START_DATE = "1911.1.1.12",
 	END_DATE = "1949.1.1.1",
-	MAP_SCALE_PIXEL_TO_KM = 7.114,					-- Yes, we did the math
+	MAP_SCALE_PIXEL_TO_KM = 2,					-- Yes, we did the math
 	SAVE_VERSION = 7,								-- 1.8.0
 	CHECKSUM_SALT = "zwOdv5d9wm9uDSOT",				-- Data to modify generated checksum when game binaries have changed but not any content files.
 	LAG_DAYS_FOR_LOWER_SPEED = 240,					-- Days of client lag for decrease of gamespeed
@@ -196,8 +196,8 @@ NCountry = {
 	INDUSTRY_SCORE_MULTIPLIER = 0,				-- Based on number of factories.
 	PROVINCE_SCORE_MULTIPLIER = 0.1,				-- Based on number of controlled provinces.
 	NUCLEAR_PRODUCTION_SCALE = 365,					-- +1 nuclear_production gives 1 nuke per year
-	NUCLEAR_BOMB_DROP_WAR_SUPPORT_EFFECT_MAX_INFRA = 0.2, -- Reduce enemy national war support on nuking a province, the value scales with infrastructure up to this number
-	NUCLEAR_BOMB_DROP_WAR_SUPPORT_EFFECT_MAX_VP = 3,-- War support will be scaled down if there's less VP than this in the province
+	NUCLEAR_BOMB_DROP_WAR_SUPPORT_EFFECT_MAX_INFRA = 0.0, -- Reduce enemy national war support on nuking a province, the value scales with infrastructure up to this number
+	NUCLEAR_BOMB_DROP_WAR_SUPPORT_EFFECT_MAX_VP = 0,-- War support will be scaled down if there's less VP than this in the province
 	WEEKLY_STABILITY_GAIN = 0.0,
 	WEEKLY_WAR_SUPPORT_GAIN = 0.0,
 	SUPPLY_CONVOY_FACTOR = 0.25,					-- How many convoys each supply needs
@@ -795,9 +795,9 @@ NMilitary = {
 	
 	FLANKED_PROVINCES_COUNT = 3,					-- Attacker has to attack from that many provinces for the attack to be considered as flanking
 	NUKE_MIN_DAMAGE_PERCENT = 0.1,					-- Minimum damage from nukes as a percentage of current strength/organisation
-	NUKE_MAX_DAMAGE_PERCENT = 0.9,					-- Minimum damage from nukes as a percentage of current strength/organisation
+	NUKE_MAX_DAMAGE_PERCENT = 0.3,					-- Minimum damage from nukes as a percentage of current strength/organisation
 	EQUIPMENT_REPLACEMENT_RATIO = 0.1,				-- Equipment min ratio after blocking the equipment type
-	NUKE_DELAY_HOURS = 12,							-- How many hours does it take for the nuclear drop to happen
+	NUKE_DELAY_HOURS = 6,							-- How many hours does it take for the nuclear drop to happen
 	PARADROP_PENALTY = -0.3, 						-- Combat penalty when recently paradropped
 	PARADROP_HOURS = 48,							-- time paratroopers suffer penalties in combat
 	COMBAT_SUPPLY_LACK_IMPACT = -0.33,				-- combat penalty if out of supply
@@ -1003,7 +1003,7 @@ NAir = {
 	BASE_STRATEGIC_BOMBING_HIT_SHIP_DAMAGE_FACTOR = 50,
 	BASE_STRATEGIC_BOMBING_HIT_PLANE_CHANCE = 0.5,		-- Chance to hit a plane in airbase when it is bombed.
 	BASE_STRATEGIC_BOMBING_HIT_PLANE_DAMAGE_FACTOR = 0.2,
-	STRATEGIC_BOMBER_NUKE_AIR_SUPERIORITY = 0.75,		-- How much air superiority is needed for a tactical bomber to be able to nuke a province
+	STRATEGIC_BOMBER_NUKE_AIR_SUPERIORITY = 0.,		-- How much air superiority is needed for a tactical bomber to be able to nuke a province
 	AGGRESSION_THRESHOLD = { 0.0, 0.25, 0.5 },			-- Threshold levels for mission aggressivity for air
 	
 	ACE_WING_SIZE =	100,								-- size of wing ace bonuses are set up for. if lower more bonus, if higher less bonus
@@ -1095,7 +1095,7 @@ NAir = {
 		0.2, -- INTERCEPTION	
 		1.0, -- STRATEGIC_BOMBER
 		1.0, -- NAVAL_BOMBER	
-		1.0, -- DROP_NUKE		
+		0.0, -- DROP_NUKE		
 		1.0, -- PARADROP		
 		0.75, -- NAVAL_KAMIKAZE	
 		1.2, -- PORT_STRIKE		

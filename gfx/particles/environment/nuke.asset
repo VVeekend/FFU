@@ -1,0 +1,202 @@
+particle={
+	name="nuke_file"
+	subsystem={
+		name="ground_smoke"
+		max_amount=200
+		slave_particles=0
+		emitter_type="sphere"
+		sphere_emitter_radius={ 12 3 }
+		sphere_emitter_yaw={ 0 180 }
+		sphere_emitter_pitch={ 0 20 }
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/cloud_4.dds"
+			x=1
+			y=1
+			shader="ParticleAlphaBlend"
+		}
+		color={
+			x=125
+			y=187
+			z=125
+			alpha=150,fade_smoke
+		}
+		position={
+			x=0
+			y=1
+			z=0
+		}
+		start=0
+		duration=13
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 90 10 }
+		velocity_yaw={ 0 180 }
+		velocity={ 0 0 }
+		life={ 6 1 }
+		emission=30
+		size={ 10 5 }
+		particle_yaw={ 0 0 }
+		particle_pitch={ 90 0 }
+		rotation={ 0,0,rotate 0,30 }
+		force=point_base_inwards
+	}
+	subsystem={
+		name="ending_smoke"
+		max_amount=1030
+		slave_particles=0
+		emitter_type="sphere"
+		sphere_emitter_radius={ 10 9 }
+		sphere_emitter_yaw={ 0 180 }
+		sphere_emitter_pitch={ 0 20 }
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/cloud_2.dds"
+			x=1
+			y=1
+			shader="ParticleAlphaBlend"
+		}
+		color={
+			x=125
+			y=187
+			z=125
+			alpha=50,fade_smoke
+		}
+		position={
+			x=0
+			y=0.500
+			z=0
+		}
+		start=12
+		duration=16
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 90 0 }
+		velocity_yaw={ 0 0 }
+		velocity={ 0.500 0.300 }
+		life={ 2 1 }
+		emission=500
+		size={ 5 1 }
+		rotation={ 0 180 }
+		rotation_speed={ 20 0 }
+	}
+	subsystem={
+		name="ending_fire"
+		max_amount=250
+		slave_particles=0
+		emitter_type="sphere"
+		sphere_emitter_radius={ 8 7 }
+		sphere_emitter_yaw={ 0 180 }
+		sphere_emitter_pitch={ 0 20 }
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/fire_08.dds"
+			x=2
+			y=2
+			shader="ParticleAdditive"
+		}
+		color={
+			x=255
+			y=255
+			z=255
+			alpha=25,fade_smoke
+		}
+		position={
+			x=0
+			y=0.500
+			z=0
+		}
+		start=3
+		duration=25
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 90 0 }
+		velocity_yaw={ 0 0 }
+		velocity={ 0.500 0.300 }
+		life={ 4 2 }
+		emission=50
+		size={ 2 1 }
+		rotation={ 0 180 }
+		rotation_speed={ 10 0 }
+	}
+
+	animation={
+		name="fade_smoke"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0.100 0.100 1 0.600 1 1 0 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="rotate"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=3
+		curve={
+			0 0 0.350 0.500 1 1 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="middle_fire_alpha"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 1 0.665 1 1 0 
+		}
+		op="MUL"
+		time="life"
+	}
+	force={
+		type="point"
+		name="point_base_inwards"
+		position={
+			0 2 0 
+		}
+		direction={
+			0 1 0 
+		}
+		local_force=yes
+		yaw=0
+		division=16
+		amount=-0.450
+	}
+	force={
+		type="point"
+		name="point_base_upwards"
+		position={
+			0 15 0 
+		}
+		direction={
+			0 1 0 
+		}
+		local_force=yes
+		yaw=0
+		division=16
+		amount=-0.200
+	}
+}
