@@ -250,15 +250,12 @@ country_event = {
 		TUR = {
 			has_war_with = SER
 			TUR = {
-				surrender_progress > 0.02
+				surrender_progress > 0.05
 			}
 			NOT = {
-				controls_state = 25
-				controls_state = 1246
-				controls_state = 24
-				controls_state = 406
-				controls_state = 462
-				controls_state = 433
+				controls_state = 156
+				controls_state = 151
+				controls_state = 155
 			}
 		}
 	}
@@ -302,13 +299,8 @@ country_event = {
 		MNT = { white_peace = TUR }
 
 		SER = {
-			transfer_state = 1246
-			transfer_state = 24
-			transfer_state = 191
-			transfer_state = 25
-			transfer_state = 435
-			transfer_state = 430
-			transfer_state = 431
+			transfer_state = 156
+			transfer_state = 155
              
 
 			diplomatic_relation = {

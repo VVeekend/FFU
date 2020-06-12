@@ -1,4 +1,4 @@
-﻿#Adjacency rules are special rules for adjacencies
+#Adjacency rules are special rules for adjacencies
 #If smbd who is at war fights over canal/strait it is considered closed
 #Enemy status is considered if any of sides controlling the chanel is at war with country
 #Friend status is considered non of sides controlling the chanel is at war with country and one of controllers is ally of giving military access
