@@ -110,11 +110,7 @@ ideas={
 			allowed = {
 				original_tag = GER
 			}
-			available = {
-				has_completed_focus = GER_coastaldefensedesigner
-			}
-
-			
+		
 			research_bonus = {
 				naval_equipment = 0.15
 			}
@@ -127,9 +123,6 @@ ideas={
 			picture = generic_industrial_concern_1
 			allowed = {
 				original_tag = GER
-			}
-			available = {
-				has_completed_focus = GER_surfaceraidingdesigner
 			}
 
 			
@@ -226,6 +219,26 @@ ideas={
 			
 		}
 		
+		GER_Investment = {
+		
+			allowed = {
+				always = no #event or decision
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = German_staff_ww1
+			
+			modifier = { production_speed_industrial_complex_factor = 0.10
+
+			}
+			
+		}
+		
 		GER_East_attack = {
 		
 			allowed = {
@@ -246,7 +259,7 @@ ideas={
 				army_speed_factor = 0.25	
 			}	
 			targeted_modifier = {
-				tag = RUS
+				tag = SOV
 				attack_bonus_against = 0.25
 			}
 						
@@ -295,22 +308,6 @@ ideas={
 			}
 			
 			targeted_modifier = {
-				tag = RAJ
-				attack_bonus_against = 0.25
-			}
-			targeted_modifier = {
-				tag = CAN
-				attack_bonus_against = 0.25
-			}
-			targeted_modifier = {
-				tag = AST
-				attack_bonus_against = 0.25
-			}
-			targeted_modifier = {
-				tag = NZL
-				attack_bonus_against = 0.25
-			}
-			targeted_modifier = {
 				tag = POR
 				attack_bonus_against = 0.25
 			}
@@ -355,31 +352,11 @@ ideas={
 			}
 			
 			targeted_modifier = {
-				tag = RAJ
-				attack_bonus_against = 0.25
-			}
-			targeted_modifier = {
-				tag = CAN
-				attack_bonus_against = 0.25
-			}
-			targeted_modifier = {
-				tag = AST
-				attack_bonus_against = 0.25
-			}
-			targeted_modifier = {
-				tag = NZL
-				attack_bonus_against = 0.25
-			}
-			targeted_modifier = {
 				tag = BEL
 				attack_bonus_against = 0.25
 			}
 			targeted_modifier = {
-				tag = RUS
-				attack_bonus_against = 0.25
-			}
-			targeted_modifier = {
-				tag = JAP
+				tag = SOV
 				attack_bonus_against = 0.25
 			}
 			targeted_modifier = {

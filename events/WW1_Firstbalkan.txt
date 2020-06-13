@@ -314,54 +314,34 @@ country_event = {
 			remove_from_faction = BUL
 		}
 		GRE = {
-			transfer_state = 312
-			transfer_state = 311
-			transfer_state = 324
+			transfer_state = 135
+			transfer_state = 134
+			transfer_state = 132
 			diplomatic_relation = {
 				country = TUR
 				relation = non_aggression_pact
 			}
 		}
 		BUL = {
-			transfer_state = 455
-			transfer_state = 327
-			transfer_state = 328
-			transfer_state = 326
-			transfer_state = 309
-			transfer_state = 310			
-			transfer_state = 443
-			transfer_state = 445
-			transfer_state = 439
-			transfer_state = 313
-			transfer_state = 439
-			transfer_state = 433
-			transfer_state = 432
+			transfer_state = 360
+			transfer_state = 361
+			transfer_state = 154
+			transfer_state = 133
+            transfer_state = 160
 			diplomatic_relation = {
 				country = TUR
 				relation = non_aggression_pact
 			}
 		}
 		MNT = {
-			transfer_state = 406
+			transfer_state = 151
 			diplomatic_relation = {
 				country = TUR
 				relation = non_aggression_pact
 			}
 		}
 		ALB = {
-			transfer_state = 459
-			transfer_state = 468
-			transfer_state = 458
-			transfer_state = 461
-			transfer_state = 460
-			transfer_state = 467
-			transfer_state = 465
-			transfer_state = 23
-			transfer_state = 464
-			transfer_state = 465
-			transfer_state = 463
-			transfer_state = 462
-			transfer_state = 466
+			transfer_state = 129
 			diplomatic_relation = {
 				country = TUR
 				relation = non_aggression_pact

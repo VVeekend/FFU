@@ -64,14 +64,14 @@ country_event = {
 			        target = SER
 			        type = take_claimed_state
 			        generator = {
-			            434 192
+			            134
 			        }
 			    }
 			    create_wargoal = {
 			        target = GRE
 			        type = take_claimed_state
 			        generator = {
-			            731
+			            134
 			        }
 			    }
 			}
@@ -103,7 +103,7 @@ country_event = {
 	            type = take_state_focus 
 	            target = BUL 
 	            generator = {
-	                77
+	                110
 	            }
 	        }
 	        add_to_war = {
@@ -163,8 +163,7 @@ country_event = {
 				}
 				SER = { 
 					white_peace = BUL
-					transfer_state = 433
-					transfer_state = 432
+					transfer_state = 154
 					diplomatic_relation = {
 						country = BUL
 						relation = non_aggression_pact
@@ -201,9 +200,8 @@ country_event = {
 				}
 				GRE = { 
 					white_peace = BUL
-					transfer_state = 313
-					transfer_state = 310
-					transfer_state = 309
+					transfer_state = 133
+					transfer_state = 361
 					diplomatic_relation = {
 						country = BUL
 						relation = non_aggression_pact
@@ -222,7 +220,7 @@ country_event = {
 				}
 				ROM = { 
 					white_peace = BUL
-					transfer_state = 92
+					transfer_state = 110
 					diplomatic_relation = {
 						country = BUL
 						relation = non_aggression_pact
@@ -237,9 +235,7 @@ country_event = {
 				}
 				TUR = { 
 					white_peace = BUL
-					transfer_state = 328
-					transfer_state = 327
-					transfer_state = 326
+					transfer_state = 160
 					diplomatic_relation = {
 						country = BUL
 						relation = non_aggression_pact
@@ -294,15 +290,14 @@ country_event = {
 				}
 				SER = { 
 					white_peace = BUL
-					transfer_state = 433
-					transfer_state = 432
+					transfer_state = 154
 					diplomatic_relation = {
 						country = BUL
 						relation = non_aggression_pact
 					}
 				}
 			}
-			if = {
+			if = { 
 				limit = {
 					MNT = {
 						has_war_with = BUL
@@ -324,9 +319,8 @@ country_event = {
 				}
 				GRE = { 
 					white_peace = BUL
-					transfer_state = 313
-					transfer_state = 310
-					transfer_state = 309
+					transfer_state = 133
+					transfer_state = 361
 					diplomatic_relation = {
 						country = BUL
 						relation = non_aggression_pact
@@ -341,7 +335,7 @@ country_event = {
 				}
 				ROM = { 
 					white_peace = BUL
-					transfer_state = 92
+					transfer_state = 110
 					diplomatic_relation = {
 						country = BUL
 						relation = non_aggression_pact
@@ -356,9 +350,7 @@ country_event = {
 				}
 				TUR = { 
 					white_peace = BUL
-					transfer_state = 328
-					transfer_state = 327
-					transfer_state = 326
+					transfer_state = 160
 					diplomatic_relation = {
 						country = BUL
 						relation = non_aggression_pact
@@ -376,7 +368,7 @@ country_event = {
 					
 				}
 				TUR = {
-					transfer_state = 756
+					transfer_state = 160
 					diplomatic_relation = {
 						country = BUL
 						relation = non_aggression_pact

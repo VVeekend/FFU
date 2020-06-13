@@ -480,7 +480,30 @@ GER_improvementstoourexistingships:0 "Improvements to Our Existing ships"
 GER_improvementstoourexistingships_desc:0 "Our ships become more obsolete as the day passes. Instead of building new ships, we could refit and improve the systems in our existing fleet still making the fleet deadly."
 GER_East:0 "Gorlice–Tarnów Offensive"
 GER_East_desc:0 "The Gorlice–Tarnów Offensive during World War I was initially conceived as a minor German offensive to relieve Russian pressure on the Austro-Hungarians to their south on the Eastern Front, but resulted in the Central Powers' chief offensive effort of 1915, causing the total collapse of the Russian lines and their retreat far into Russia. The continued series of actions lasted the majority of the campaigning season for 1915, starting in early May and only ending due to bad weather in October."       
-                            
+ 
+GER_send_german_advisors:0 "Send German Advisors"
+GER_send_german_advisors_desc:0 "Sending our most able and experienced military leaders would allow our allies to gain much needed experience to improve their military."
+GER_investment_agreements_with_the_ottomans:0 "Investment Agreements with the Ottomans"
+GER_investment_agreements_with_the_ottomans_desc:0 "A Alliance with the Ottomans would stub the English in the Middle East, throwing them off balance in the West."
+GER_berlin_baghdad_railway:0 "Berlin Baghdad Railway"
+GER_berlin_baghdad_railway_desc:0 "Funding for the railway must continue, technical difficulties must be overcome."
+GER_german_reinforcements_to_the_east:0 "German Reinforcements to the East"
+GER_german_reinforcements_to_the_east_desc:0 "German reinforcements to the Middle East could push the Ottomans into North Africa and deal terrible damage to the war effort."
+GER_continued_support_for_austria_hungary:0 "Continued Support For Austria Hungary"
+GER_continued_support_for_austria_hungary_desc:0 "Continued Support for our Greatest ally."
+GER_investment_in_the_adriatic:0 "Investment in the Adriatic"
+GER_investment_in_the_adriatic_desc:0 ""
+GER_diplomatic_help_with_minorities:0 "Diplomatic help with Minorities"
+GER_diplomatic_help_with_minorities_desc:0 "Assisting the Austrians with dealing with Hungarian and Czech Interfering in the Military effort."
+GER_support_for_the_united_baltic_duchy:0 "Support for the United Baltic Ducky"
+GER_support_for_the_united_baltic_duchy_desc:0 ""
+GER_lithuania_to_united_baltic_duchy:0 "Lithuania to United Baltic Duchy"
+GER_lithuania_to_united_baltic_duchy_desc:0 "Ceding Lithuania will reduce the garrisons needed for the East and move divisions toward the West."
+GER_support_for_the_polish_kingdom:0 "Support for the Polish Kingdom"
+GER_support_for_the_polish_kingdom_desc:0 ""
+GER_polish_legions_return:0 "Polish Legions Return"
+GER_polish_legions_return_desc:0 ""
+ 
 
 ############################################################################################
 

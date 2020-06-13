@@ -92,7 +92,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "resources"
-					position = { x = 70 y = 16 }
+					position = { x = 32 y = 15 }
 					size = { width = 100% height = 60 }
 						
 					buttonType = {
@@ -118,7 +118,7 @@ guiTypes = {
 					
 					buttonType = {
 						name = "rubber_icon"
-						position = { x=70 y=2 }
+						position = { x=60 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 3
 						#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
@@ -126,7 +126,7 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "rubber_value"
-						position = { x = 101 y = 5 }
+						position = { x = 91 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
@@ -139,15 +139,15 @@ guiTypes = {
 					
 					buttonType = {
 						name = "steel_icon"
-						position = { x=140 y=2 }
+						position = { x=120 y=2 }
 						spriteType = "GFX_resources_strip"
-						frame = 5
+						frame = 3
 						#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
 					}
 					
 					instantTextboxType = {
 						name = "steel_value"
-						position = { x = 171 y = 5 }
+						position = { x = 151 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
@@ -160,7 +160,7 @@ guiTypes = {
 					
 					buttonType = {
 						name = "aluminium_icon"
-						position = { x=210 y=2 }
+						position = { x=180 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 2
 						#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
@@ -168,7 +168,7 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "aluminium_value"
-						position = { x = 241 y = 5 }
+						position = { x = 211 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
@@ -181,7 +181,7 @@ guiTypes = {
 					
 					buttonType = {
 						name = "tungsten_icon"
-						position = { x=280 y=2 }
+						position = { x=240 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 4
 						#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
@@ -189,7 +189,7 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "tungsten_value"
-						position = { x = 309 y = 5 }
+						position = { x = 269 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
@@ -202,7 +202,7 @@ guiTypes = {
 				
 					buttonType = {
 						name = "chromium_icon"
-						position = { x=350 y=2 }
+						position = { x=300 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 6
 						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
@@ -210,7 +210,7 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "chromium_value"
-						position = { x = 381 y = 5 }
+						position = { x = 331 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
 						borderSize = {x = 0 y = 0}
@@ -219,6 +219,46 @@ guiTypes = {
 						maxHeight = 20
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+
+					buttonType = {
+						name = "coal_icon"
+						position = { x=360 y=2 }
+						spriteType = "GFX_resources_strip"
+						frame = 6
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+					instantTextboxType = {
+						name = "coal_value"
+						position = { x = 391 y = 5 }
+						textureFile = ""
+						font = "hoi_18mbs"
+						borderSize = {x = 0 y = 0}
+						text = "999"
+						maxWidth = 50
+						maxHeight = 20
+						format = left
+						#pdx_tooltip = "PRODUCTION_MATERIALS_COAL"
+					}
+
+					buttonType = {
+						name = "wood_icon"
+						position = { x=420 y=2 }
+						spriteType = "GFX_resources_strip"
+						frame = 6
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+					instantTextboxType = {
+						name = "wood_value"
+						position = { x = 451 y = 5 }
+						textureFile = ""
+						font = "hoi_18mbs"
+						borderSize = {x = 0 y = 0}
+						text = "999"
+						maxWidth = 50
+						maxHeight = 20
+						format = left
+						#pdx_tooltip = "PRODUCTION_MATERIALS_WOOD"
 					}
 				}				
 				#################################
@@ -1295,6 +1335,36 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				clicksound = click_checkbox
 			}
+			iconType = {
+				name = "coal_icon"
+				position = { x=345 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 7
+				#pdx_tooltip = "PRODUCTION_MATERIALS_COAL"
+			}			
+			buttonType = {
+				name = "coal_checkbox"
+				position = { x = 369 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+
+			iconType = {
+				name = "wood_icon"
+				position = { x=403 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 8
+				#pdx_tooltip = "PRODUCTION_MATERIALS_WOOD"
+			}			
+			buttonType = {
+				name = "wood_checkbox"
+				position = { x = 427 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+			
 		}
 		
 		buttonType = {
