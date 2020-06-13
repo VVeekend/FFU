@@ -29,8 +29,8 @@ focus_tree = {
 
 		completion_reward = {
 
-			add_political_power=-150 
-			add_stability = -0.2
+			add_political_power=-50 
+			add_stability = -0.1
  
 		}
 
@@ -47,7 +47,7 @@ focus_tree = {
 		prerequisite = { focus=TUR_ww1_ContestYoungTurksReforms }
 		icon = GFX_goal_generic_political_pressure
 		available = { has_government=neutrality }
-		completion_reward = { add_ideas=militarism_focus army_experience=20 set_rule={ can_send_volunteers=yes } add_stability = -0.05}
+		completion_reward = { add_ideas=militarism_focus army_experience=20 set_rule={ can_send_volunteers=yes } add_stability = -0.025}
 		ai_will_do = { factor = 0 }
 		cost = 10
 		x = 0
@@ -60,7 +60,7 @@ focus_tree = {
 		id = TUR_ww1_military_youth
 		prerequisite = { focus=TUR_ww1_AbolishConstitution }
 		icon = GFX_goal_generic_more_territorial_claims
-		completion_reward = { add_ideas=military_youth_focus if={ limit={ has_government=fascism }  } if={ limit={ has_government=communism } add_popularity={ ideology=communism popularity=0.2 } } add_stability = -0.05}
+		completion_reward = { add_ideas=paramilitarism_focus  add_ideas=military_youth_focus if={ limit={ has_government=fascism }  } if={ limit={ has_government=communism } add_popularity={ ideology=communism popularity=0.2 } } add_stability = -0.025}
 		ai_will_do = { factor = 0 }
 		cost = 10
 		x = 0
@@ -68,44 +68,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = TUR_ww1_paramilitarism
-		prerequisite = { focus=TUR_ww1_military_youth }
-		icon = GFX_goal_generic_military_sphere
-		completion_reward = { add_ideas=paramilitarism_focus }
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 0
-		y = 4
-	}
-
-	focus = {
-		id = TUR_ww1_oppression_minorities
-		prerequisite = { focus=TUR_ww1_limited_rearmament  focus=TUR_ww1_paramilitarism }
-		icon = GFX_goal_generic_secret_weapon
-
-		available = { has_government=fascism }
-
-		completion_reward = {
-			add_political_power=-150
-			add_timed_idea = {
-				idea = idea_oppression_minorities
-				days = 360
-			}
-			add_timed_idea = {
-				idea = ideological_fanaticism_focus
-				days = 420
-			}
-		}
-		ai_will_do = { factor = 0.1 }
-		cost = 10
-		x = 1
-		y = 5
-
-	}
-
-	focus = {
 		id = TUR_ww1_PanIslamism
-		prerequisite = { focus=TUR_ww1_paramilitarism }
+		prerequisite = { focus=TUR_ww1_military_youth }
 		icon = GFX_hoi4tgw_islam
 
 	 	available = {
@@ -113,13 +77,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power=50
+			add_political_power=150
 		}
 
 		ai_will_do = { factor = 0 }
 		cost = 10
 		x = 0
-		y = 6
+		y = 4
 
 	}
 
@@ -134,14 +98,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		add_political_power= 150
 		add_stability = 0.1
+			add_ideas = {
+				idea = ideological_fanaticism_focus
+			}
 		}
 
 		ai_will_do = { factor = 0 }
 		cost = 10
 		x = 0
-		y = 7
+		y = 5
 	}
 
 	#----------------------------------------------------------------------- 
@@ -160,13 +126,6 @@ focus_tree = {
 
 			add_political_power=100 
 			add_stability = 0.1
-
-			TUR={
-				add_popularity = {
-					ideology = neutrality
-					popularity = 0.05
-				}
-			} 
 		}
 
 		ai_will_do = { factor = 100 }
@@ -240,7 +199,7 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 2
-		y = 6
+		y = 5
 
 	}
 
@@ -251,96 +210,31 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power=50
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=land_doctrine }
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=naval_doctrine }
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=air_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1 uses=1 category=land_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1 uses=1 category=naval_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1 uses=1 category=air_doctrine }
 		}
 
 		ai_will_do = {	factor = 10	}
 		cost = 10
 		x = 2
-		y = 7
+		y = 6
 	}
 
 
 	#---------- Republic
 
 	focus = {
-		id = TUR_ww1_liberty_ethos_focus
+		id = TUR_ww1_freespeech
 		prerequisite = { focus=TUR_ww1_reorganization_act }
-		icon = GFX_goal_support_democracy
+		icon = GFX_goal_generic_propaganda
 
-		available = { OR={ has_government=democratic has_government=neutrality } }
-
-		completion_reward = { add_ideas=liberty_ethos_focus }
+		completion_reward = { add_tech_bonus={ name=industrial_bonus bonus=1 uses=1 category=industry } add_political_power=50 add_ideas=liberty_ethos_focus }
 
 		ai_will_do = { factor = 0 }
 		cost = 10
 		x = 4
 		y = 3
-	}
-
-	focus = {
-		id = TUR_ww1_freespeech
-		prerequisite = { focus=TUR_ww1_liberty_ethos_focus }
-		icon = GFX_goal_generic_propaganda
-
-		completion_reward = { add_tech_bonus={ name=industrial_bonus bonus=0.15 uses=1 category=industry } add_political_power=50 }
-
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 4
-		y = 4
-	}
-
-	focus = {
-		id = TUR_ww1_abandon_claims
-		prerequisite = { focus=TUR_ww1_freespeech focus=TUR_ww1_ReleaseAlbania }
-
-		icon = GFX_goal_generic_forceful_treaty
-
-		completion_reward = {
-			add_political_power=-120
-			remove_state_claim = 183
-			remove_state_claim = 656
-			remove_state_claim = 756
-		}
-
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 5
-		y = 5
-	}
-
-	focus = {
-		id = TUR_ww1_install_democracy
-		prerequisite = { focus= TUR_ww1_abandon_claims }
-		prerequisite = { focus=TUR_ww1_freespeech }
-		icon = GFX_goal_support_democracy
-
-	 	available = {
-	 		is_puppet = no
-			is_in_faction = no
-		}
-
-		completion_reward = {
-
-			TUR={
-				set_politics = {
-					ruling_party = democratic
-					elections_allowed = yes
-				}
-				add_popularity = {
-					ideology = democratic
-					popularity = 0.25
-				}
-			} 
-		}
-
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 4
-		y = 6
 	}
 
 
@@ -349,92 +243,38 @@ focus_tree = {
 
 	focus = {
 		id = TUR_ww1_massive_effort
-		prerequisite = { focus=TUR_ww1_unitedpeople focus=TUR_ww1_WorldwideCaliphate }
+		prerequisite = {focus=TUR_ww1_WorldwideCaliphate }
 		icon = GFX_goal_generic_construction
 
 		completion_reward = {
 
 
-			random_owned_state={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
+			161={ limit={ free_building_slots={ building=infrastructure size > 0 } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=infrastructure size > 0 } is_in_home_area=yes } } } } } add_building_construction={ type=infrastructure level=3 instant_build=yes } }
 
 			army_experience=20
 			add_political_power=30 
-
-			random_owned_state = {
-				limit = { 
-					free_building_slots = {
-						building = air_base
-						size > 1
-					}
-				}
+			161 = {
 				add_building_construction = {
-					type = air_base
-					level = 1
+					type = dockyard
+					level = 3
 					instant_build = yes
-				}							
+				}
 			}
-
-		}
-
-		ai_will_do = { factor = 10 }
-		cost = 10
-		x = 1
-		y = 8
-	}
-
-	focus = {
-		id = TUR_ww1_fortify_city
-		prerequisite = { focus = TUR_ww1_massive_effort }
-		icon = GFX_goal_generic_fortify_city
-
-		completion_reward = { 
-			random_owned_state = {
+			161 = {
 				add_building_construction = {
-					type = bunker
+					type = arms_factory
 					level = 3
 					province = 12299
 					instant_build = yes
 				}
 			}
 		}
+
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 0
-		y = 9
-		mutually_exclusive = { focus=TUR_ww1_fortify_coast }
+		y = 6
 	}
-
-	focus = {
-		id = TUR_ww1_fortify_coast
-		prerequisite = { focus = TUR_ww1_massive_effort }
-		icon = GFX_goal_generic_construct_military
-
-		completion_reward = { 
-			random_owned_state = {
-				limit = {
-					#is_in_home_area = yes
-					free_building_slots = {
-						building = dockyard
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					level = 3
-					instant_build = yes
-				}
-			}
-		}
-		ai_will_do = { factor = 0 }
-		x = 2
-		y = 9
-		cost = 10
-		mutually_exclusive = { focus=TUR_ww1_fortify_city }
-	}
-
-
-
 
 	###########################################################################################################################
 	# DIPLOMATIC
@@ -447,7 +287,7 @@ focus_tree = {
 
 		ai_will_do = { factor = 50000	}
 		cost = 10
-		x = 13
+		x = 9
 		y = 0
 	}
 
@@ -465,245 +305,6 @@ focus_tree = {
 		cost = 10
 		x = 7
 		y = 1
-	}
-
-	#Peace in Balkans Focus
-	focus = {
-		id = TUR_ww1_ApeasementBalkans
-		prerequisite = { focus= TUR_ww1_BalkansPolitics }
-
-
-		icon = GFX_goal_generic_national_unity
-
-		available = { NOT={ has_war=yes } }
-
-		completion_reward = {
-			add_political_power=-80
-			add_opinion_modifier = { 
-			target = SER
-			modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
-			}
-			add_opinion_modifier = { 
-			target = BUL
-			modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
-			}
-		}
-		
-		ai_will_do = { factor = 0	}
-		cost = 10
-		x = 6
-		y = 2
-		mutually_exclusive = { focus=TUR_ww1_anti_serb }
-	}
-
-	focus = {
-		id = TUR_ww1_RecognizeAlbania
-
-		prerequisite = { focus=TUR_ww1_reorganization_act }
-		prerequisite = { focus=TUR_ww1_ApeasementBalkans }
-		icon = GFX_goal_generic_position_armies
-
-
-		available = {
-
-			TUR = { controls_state = 44 }
-			NOT={ country_exists=ALB }
-
-		}
-
-		completion_reward = { 
-			add_stability=-0.05
-			ALB = {
-				transfer_state = 44
-			}
-			puppet = ALB
-		}
-		
-		ai_will_do = { factor = 0	}
-		cost = 10
-		x = 6
-		y = 3
-	}
-
-	focus = {
-		id = TUR_ww1_ReleaseAlbania
-
-		prerequisite = { focus= TUR_ww1_liberty_ethos_focus }
-		prerequisite = { focus=TUR_ww1_RecognizeAlbania }
-		icon = GFX_goal_generic_forceful_treaty
-
-		available = {
-
-	        ALB = {
-				exists = yes
-	        	is_puppet = yes
-	        }
-
-			ALB = { controls_state = 44 }
-
-		}
-
-		completion_reward = { 
-			end_puppet = ALB
-		}
-		
-		ai_will_do = { factor = 0	}
-		cost = 10
-		x = 6
-		y = 4
-	}
-
-	focus = {
-		id = TUR_ww1_GreeceFriend
-		prerequisite = { focus=TUR_ww1_ReleaseAlbania }
-		prerequisite = { focus=TUR_ww1_abandon_claims }
-
-		icon = GFX_goal_tripartite_pact
-
-		available = { NOT={ has_war_with=GRE } }
-
-		completion_reward = { 
-
-			add_opinion_modifier = { 
-				target = GRE
-				modifier =  HOI4TGW_Opinion_improved_diplomatic_relations
-			}
-
-		}
-		
-		ai_will_do = { factor = 0	}
-		cost = 10
-		x = 6
-		y = 6
-	}
-
-	#War in Balkans Focus
-	focus = {
-		id = TUR_ww1_anti_serb
-		prerequisite = { focus=TUR_ww1_BalkansPolitics }
-		icon = GFX_goal_generic_attack_allies
-
-		completion_reward = { TUR={ add_opinion_modifier={ target=SER modifier=HOI4TGW_Opinion_anti_serb_policy_malus } } }
-
-		ai_will_do = { factor = 200 }
-		cost = 10
-		x = 8
-		y = 2
-	}
-
-	focus = {
-		id = TUR_ww1_AntiBulgaria
-		prerequisite = { focus=TUR_ww1_anti_serb }
-		icon = GFX_goal_generic_political_pressure
-
-	 	available = {
-
-			BUL = {exists = yes}
-		}
-
-			completion_reward = {
-
-					add_opinion_modifier = {
-						target = BUL 
-						modifier =  HOI4TGW_Opinion_hostile_diplomatic_relations
-					}
-			}
-		
-		ai_will_do = { factor = 200	}
-		cost = 10
-		x = 8
-		y = 3
-	}
-
-	focus = {
-		id = TUR_ww1_BalkanLeagueMenace
-		prerequisite = { focus=TUR_ww1_AntiBulgaria }
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-
-	 	available = {
-
-	 		date>1912.1.1
-
-			SER = { exists = yes is_in_faction_with=BUL }
-			BUL = { exists = yes is_in_faction_with=SER }
-			MNT = { exists = yes is_in_faction_with=SER }
-			GRE = { exists = yes is_in_faction_with=SER }
-
-		}
-
-		completion_reward = {
-
-			add_opinion_modifier = {
-				target = SER 
-				modifier =  HOI4TGW_Opinion_hostile_diplomatic_relations
-			}
-			add_opinion_modifier = {
-				target = MNT 
-				modifier =  HOI4TGW_Opinion_hostile_diplomatic_relations
-			}
-			add_opinion_modifier = {
-				target = GRE 
-				modifier =  HOI4TGW_Opinion_hostile_diplomatic_relations
-			}
-
-		}
-		
-		ai_will_do = { factor = 200	}
-		cost = 10
-		x = 8
-		y = 4
-	}
-
-	focus = {
-		id = TUR_ww1_SecondBalkanWarOpportunity
-		prerequisite = { focus=TUR_ww1_BalkanLeagueMenace }
-		icon = GFX_goal_generic_military_deal
-
-	 	available = {
-
-			BUL = {exists = yes}
-
- 			NOT={
-				BUL = {
-					has_war_with = TUR
-					has_country_flag = kis_secondbalkanwar_start
- 				}
-			}
-			has_global_flag = kis_firstbalkanwar_victory
-			BUL = {
-				has_war_with = SER
- 			}
-		}
-
-		bypass = {
-			has_global_flag = kis_secondbalkanwar_victory
-		} 
-
-		completion_reward = {
-
-			army_experience = 10
-			create_wargoal = {
-	            type = take_state_focus 
-	            target = BUL 
-	            generator = {
-	                756
-	            }
-	        }
-	        hidden_effect = {
-		        SER = {
-					add_to_faction = TUR
-				}
-		        add_to_war = {
-		            targeted_alliance = SER enemy = BUL
-		        }
-	        	news_event = { days = 1 id = ww1_secondbalkan.103 }
-	        }
-		}
-		
-		ai_will_do = { factor = 200	}
-		cost = 2
-		x = 8
-		y = 5
 	}
 
 	#----------------------------------------------------------------------- 
@@ -740,32 +341,6 @@ focus_tree = {
 		y = 2
 	}
 
-	focus = {
-		id = TUR_ww1_anti_uk #Open Beta 0.2 | now it's anti_FRA because FRA is Entente Leader
-
-		prerequisite = { focus=TUR_ww1_anti_serb }
-		prerequisite = { focus = TUR_ww1_anti_ita }
-		icon = GFX_goal_generic_political_pressure
-
-		completion_reward = { TUR={ add_opinion_modifier={ target=FRA modifier=HOI4TGW_Opinion_anti_uk_policy_malus } } }
-
-		ai_will_do = { factor = 300 }
-		cost = 10
-		x = 10
-		y = 3
-	}
-
-	focus = {
-		id = TUR_ww1_anti_ru
-		prerequisite = { focus = TUR_ww1_anti_uk }
-		icon = GFX_goal_generic_political_pressure
-		completion_reward = { TUR={ add_opinion_modifier={ target=RUS modifier=HOI4TGW_Opinion_anti_ru_policy_malus } } }
-		ai_will_do = { factor = 200 }
-		cost = 10
-		x = 10
-		y = 4
-	}
-
 
 
 
@@ -781,85 +356,29 @@ focus_tree = {
 
 		icon = GFX_goal_demand_sudetenland   
 		completion_reward = {
-			add_manpower = 30000
-			army_experience=5 navy_experience=5 air_experience=5
+			army_experience=50 navy_experience=50 air_experience=50
 		}    
 		ai_will_do = { factor = 2000 }
 		cost = 10
-		x = 11
-		y = 5
+		x = 9
+		y = 1
 	}
-
-
-	#-----------------------------------------
-	#-----------------------------------------
-
-
-
-
-	focus = {
-		id = TUR_ww1_join_centralpowers
-
-		prerequisite = { focus =  TUR_ww1_anti_ru }
-
-		icon = GFX_goal_generic_major_alliance 
-
-		bypass = {
-			is_in_faction_with = GER
-		}
-
-	 	available = {
- 			date > 1914.5.1 
-	 		GER = {
-	 			has_war_with = FRA
-	 		}
-	 		is_puppet = no
-	 		NOT = { has_war_with = GER }
-			is_in_faction = no
-	 		
-	 		GER = {
-	 			exists = yes
- 				is_faction_leader = yes
-	 		}
-	 		NOT = { has_global_flag = kis_treaty_of_versailles }
-		}
-		completion_reward = {
-
-				GER={
-					add_to_faction=ROOT
-				}
-		}
-
-
- 
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 10
-		y = 6
-	}
-
-
-
-
-
 
 
 focus = {
 	id = TUR_russian_ports
 
-		prerequisite = { focus = TUR_ww1_join_centralpowers }
+		prerequisite = { focus = TUR_ww1_ready_country }
 
 	icon = GFX_goal_generic_occupy_start_war
-	available = { is_in_faction_with=GER GER={ has_war_with=RUS } }
+	available = {  }
 	bypass = { has_war_with=RUS }
-	completion_reward = {  add_to_war = {
-			   targeted_alliance = GER
-			   enemy = RUS
-			  }}
+	completion_reward = {  navy_experience= 150
+			  }
 	ai_will_do = { factor=1500 }
 	cost = 10
-		x = 10
-	y = 7
+	x = 9
+	y = 2
 	}
 
 
@@ -871,12 +390,12 @@ focus = {
 		icon = GFX_goal_generic_scientific_exchange
 
 		available = { has_war=yes is_in_faction=yes }
-		completion_reward = { if={ limit={ original_research_slots < 3 } add_research_slot=1 } if={ limit={ original_research_slots > 2 } add_tech_bonus={ name=electronics_bonus bonus=0.5 uses=1 category=electronics } add_tech_bonus={ name=industrial_bonus bonus=0.15 uses=1 category=industry }	 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=infantry_weapons category=artillery }				 }			 }
+		completion_reward = { if={ limit={ original_research_slots < 3 } add_research_slot=1 } if={ limit={ original_research_slots > 2 } add_tech_bonus={ name=electronics_bonus bonus=1 uses=1 category=electronics } add_tech_bonus={ name=industrial_bonus bonus=1 uses=1 category=industry }	 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=infantry_weapons category=artillery }				 }			 }
 
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 11
-		y = 8
+		x = 9
+		y = 3
 	}
 
 
@@ -892,7 +411,7 @@ focus = {
 		completion_reward = { add_political_power=75 }
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 17
+		x = 13
 		y = 1
 	}
 
@@ -902,31 +421,37 @@ focus = {
 		icon = GFX_goal_generic_construct_infrastructure
 		available = {
 			TUR = { 
-				controls_state = 677 
-				controls_state = 49
-				controls_state = 676
+				controls_state = 139
+				controls_state = 146
+				controls_state = 20
+                controls_state = 345
 			}
 		}
 		completion_reward = {
-		    677 = {
+		    139 = {
 		        add_building_construction = {
-		            type = infrastructure level = 1 instant_build = yes
+		            type = infrastructure level = 2 instant_build = yes
 		        }
 		    }
-		    49 = {
+		    146 = {
 		        add_building_construction = {
-		            type = infrastructure level = 1 instant_build = yes 
+		            type = infrastructure level = 2 instant_build = yes 
 		        }
 	       	}
-		    676 = {
+		    20 = {
 		        add_building_construction = {
-		            type = infrastructure level = 1 instant_build = yes 
+		            type = infrastructure level = 2 instant_build = yes 
+		        }
+	       	}
+		    345 = {
+		        add_building_construction = {
+		            type = infrastructure level = 2 instant_build = yes 
 		        }
 	       	}
 		}
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 15
+		x = 13
 		y = 2
 	}
 

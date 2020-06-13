@@ -335,105 +335,6 @@ focus_tree = {
 		y = 7
 	}	
 
-	focus = {
-		id = ENG_ww1_military_training_act
-		prerequisite = { focus=ENG_ww1_crypto_bomb_focus }
-		icon = GFX_goal_generic_allies_build_infantry
-		available = {
-			has_war_with = GER
-		}
-		completion_reward = { set_rule={ can_send_volunteers=yes } }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 4
-		y = 8
-	}
-	
-	focus = {
-		id = uk_lawrence_focus
-		prerequisite = { focus=ENG_ww1_crypto_bomb_focus }
-		icon = GFX_goal_generic_cavalry
-		available = {
-		  	TUR={
-			   	has_war_with=ENG
-		   	}
-		  	not={
-			   	HJZ={
-			    	has_war_with=ENG
-			    }
-		   	}
-
-		   	# Open Beta 0.3.1
-
-		  	date>1917.1.1
-	   		date<1925.12.30
-	  	}
-		completion_reward = {
-			HJZ = {
-		   		# country_event = ww1_hejaz.8
-		   	}
-	  		set_global_flag = te_lawrence
-		}
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 6
-		y = 8
-	}
-
-	focus = {
-		id = uk_arab_focus
-		prerequisite = { focus=ENG_ww1_crypto_bomb_focus }
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		available = {
-		  	TUR={
-			   	has_war_with=ENG
-				 
-		   	}		    	
-		  	date>1915.6.1
-		  	
-	  	}
-		completion_reward = {
-			HJZ = {
-				   # country_event = ww1_hejaz.7
-			   }
-	    	ENG = {
-					puppet = HJZ
-					add_to_faction = HJZ
-				}
-		}
-		ai_will_do = { factor = 0 }
-		cost = 5
-		x = 8
-		y = 8
-	  
-	}
-
-	focus = {
-		id = uk_iran_focus
-		prerequisite = { focus=ENG_ww1_military_training_act focus=uk_lawrence_focus focus=uk_arab_focus }
-		icon = GFX_goal_generic_forceful_treaty
-		available = {
-			  GER={
-				   has_war_with=ENG
-				   }
-			  TUR={
-				   has_war_with=ENG
-				   }
-			  not={
-				   PER={
-					    has_war_with=ENG
-					    }
-				   }
-			   country_exists=PER
-			  }
-		bypass = { PER={ exists=no } }
-		completion_reward = { give_guarantee = PER }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 6
-		y = 9
-	}
-
 	#----------------------------------------------------------------------- 
 	# Bloc 2
 	#-----------------------------------------------------------------------
@@ -2035,8 +1936,8 @@ focus = {
 			
 		}
 		}
-		x = 18
-		y = 8
+		x = 17
+		y = 1
 		cost = 2
 
 

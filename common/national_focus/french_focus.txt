@@ -32,35 +32,21 @@ focus_tree = {
 
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 1
+		x = 2
 		y = 1
 	}
 
 	focus = {
-		id = FRA_ww1_democracy
-		prerequisite = { focus=FRA_ww1_support_republic }
-		icon = GFX_goal_support_democracy
-
-		available = { OR={ has_government=democratic has_government=neutrality } }
-
-		completion_reward = { add_ideas=liberty_ethos_focus }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 1
-		y = 2
-	}
-
-	focus = {
 		id = FRA_ww1_freespeech
-		prerequisite = { focus=FRA_ww1_democracy }
+		prerequisite = { focus=FRA_ww1_support_republic }
 		icon = GFX_goal_generic_propaganda
 
-		completion_reward = { add_tech_bonus={ name=industrial_bonus bonus=0.15 uses=1 category=industry } add_political_power=50 }
+		completion_reward = { add_tech_bonus={ name=industrial_bonus bonus=1 uses=1 category=industry } add_political_power=50 }
 
 		ai_will_do = { factor = 30 }
 		cost = 10
-		x = 1
-		y = 3
+		x = 2
+		y = 2
 	}
 
 	focus = {
@@ -70,8 +56,8 @@ focus_tree = {
 		completion_reward = { add_political_power = 100 remove_ideas = FRA_disjointed_government add_ideas=FRA_joseph_gallieni }
 		ai_will_do = { factor = 30 }
 		cost = 10
-		x = 1
-		y = 4
+		x = 2
+		y = 3
 	}
 
 	focus = {
@@ -108,8 +94,8 @@ focus_tree = {
 		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes }		 }
 		ai_will_do = { factor = 30 }
 		cost = 10
-		x = 1
-		y = 5
+		x = 2
+		y = 4
 	}
 
 	focus = {
@@ -119,15 +105,15 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas=militarism_focus
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=land_doctrine }
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=naval_doctrine }
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=air_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1 uses=1 category=land_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1 uses=1 category=naval_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1 uses=1 category=air_doctrine }
 		}
 
 		ai_will_do = { factor = 30 }
 		cost = 10
-		x = 1
-		y = 6
+		x = 2
+		y = 5
 
 
 	}
@@ -147,51 +133,37 @@ focus_tree = {
 		completion_reward = { add_political_power=150 }
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 11
+		x = 8
 		y = 0
 	}
 
 	#----------------------------------------------------------------------- 
 	# Bloc 1
 	#-----------------------------------------------------------------------
-	focus = {
-		id = FRA_ww1_triple_alliance
-		prerequisite = { focus=FRA_ww1_diplomatic_effort }
-		available = { NOT = { has_country_flag = leaved_triple_entente } }
-		icon = GFX_goal_generic_demand_territory
-		completion_reward = {
-			RUS={ add_opinion_modifier={ target=FRA modifier=triple_alliance_opinion } }
-			set_country_flag = in_triple_entente
-		}
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 6
-		y = 1
-	}
 
 	focus = {
 		id = FRA_ww1_back_uk
-		prerequisite = { focus=FRA_ww1_triple_alliance }
+		prerequisite = { focus=FRA_ww1_diplomatic_effort }
 		icon = GFX_hoi4tgw_britania
 		available = { NOT={ has_war_with=ENG } NOT = { has_country_flag = leaved_triple_entente } }
-		completion_reward = { ENG={ add_opinion_modifier={ target=FRA modifier=HOI4TGW_Opinion_diplomats_bonus } } RUS={ add_opinion_modifier={ target=FRA modifier=HOI4TGW_Opinion_ger_auh_alliance_focus_malus } } }
+		completion_reward = { ENG={ add_stability= 0.05  add_political_power=50 } }
 		ai_will_do = { factor = 200 }
 		cost = 10
-		x = 5
-		y = 2
+		x = 4
+		y = 1
 		mutually_exclusive = { focus=FRA_ww1_back_russia }
 	}
 
 	focus = {
 		id = FRA_ww1_back_russia
-		prerequisite = { focus=FRA_ww1_triple_alliance }
+		prerequisite = { focus=FRA_ww1_diplomatic_effort}
 		icon = GFX_hoi4tgw_russianempire
 		available = { NOT={ has_war_with=RUS } NOT = { has_country_flag = leaved_triple_entente } }
-		completion_reward = { RUS={ add_opinion_modifier={ target=FRA modifier=HOI4TGW_Opinion_diplomats_bonus } } ENG={ add_opinion_modifier={ target=FRA modifier=HOI4TGW_Opinion_ger_ita_alliance_focus_malus } } }
+		completion_reward = {  SOV={ add_stability= 0.05 add_political_power=50 } } 
 		ai_will_do = { factor = 0 }
 		cost = 10
-		x = 7
-		y = 2
+		x = 6
+		y = 1
 		mutually_exclusive = { focus=FRA_ww1_back_uk }
 	}
 
@@ -199,215 +171,41 @@ focus_tree = {
 		id = FRA_ww1_send_diplomats
 		prerequisite = { focus=FRA_ww1_back_uk focus=FRA_ww1_back_russia }
 		icon = GFX_goal_generic_territory_or_war
-		available = { NOT = { has_country_flag = leaved_triple_entente } }
+		available = {  }
 		ai_will_do = { factor = 2000 }
 		completion_reward = { 
-			ENG = { 
-				add_opinion_modifier = { 
-					target = FRA modifier=HOI4TGW_Opinion_fra_diplomats_bonus 
-				} 
-			}
-			FRA = { 
-				add_opinion_modifier = { 
-					target = ENG modifier=HOI4TGW_Opinion_fra_diplomats_bonus 
-				} 
-			} 
-			RUS = { 
-				add_opinion_modifier = { 
-					target = FRA modifier=HOI4TGW_Opinion_fra_diplomats_bonus
-				} 
-			} 
-			FRA = { 
-				add_opinion_modifier = { 
-					target = RUS modifier=HOI4TGW_Opinion_fra_diplomats_bonus
-				} 
-			}
+        add_political_power= 150
 		}
 		cost = 10
-		x = 6
-		y = 3
-	}
-
-	#Open Beta 0.2
-	focus = {
-		id = FRA_ww1_inviteUK #Open Beta 0.2
-		prerequisite = { focus=FRA_ww1_send_diplomats focus=FRA_ww1_back_uk }
-		icon = GFX_goal_generic_national_unity
-		available = {
-			ENG = { has_war_with = GER }
-			FRA = { has_war_with = GER }
-			NOT = { has_war_with = ENG }
-
-	        FRA = {
-	            is_faction_leader = yes
-	        }
-		}
-
-		bypass = {
-			ENG = { is_in_faction_with = FRA }
-		}
-
-		completion_reward = { 
-            FRA = {
-                add_to_faction = ENG
-            }
-		}
-
-
-		ai_will_do = {
-			factor = 800
-			modifier = {
-				factor = 0
-				ENG = {	is_ai = no	}
-			}
-		}
-
-
-		cost = 1
 		x = 5
-		y = 4
-	}
-
-	focus = {
-		id = FRA_ww1_armeeorient
-		prerequisite = { focus=FRA_ww1_send_diplomats }
-		icon = GFX_goal_generic_allies_build_infantry
-		available = {
-
-			date > 1915.9.1
-
-			FRA = { has_war_with = GER }
-			NOT = { has_war_with = GRE }
-			NOT = { has_country_flag = leaved_triple_entente }
-		}
-
-		completion_reward = { 
-			FRA = { 
-				country_event = { 
-					id = ww1_france.15 
-					days = 1 
-				} 
-			} 
-			GRE = { 
-				country_event = { 
-					id = ww1_greece.5 
-					days = 1 
-				} 
-			} 
-		}
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 6
-		y = 5
+		y = 2
 	}
 
 	focus = {
 		id = FRA_ww1_greece_friend
-		prerequisite = { focus=FRA_ww1_armeeorient }
+		prerequisite = { focus=FRA_ww1_send_diplomats }
 		icon = GFX_goal_generic_improve_relations
 
 		available = {
-
-			date > 1917.5.1
-
 			has_war_with = GER
-
-		    is_puppet = no 
-
-		    NOT = {
-		        has_war_with = GRE
-		    }
-
-		    GRE = {
-		        exists = yes 
-		        is_puppet = no
-				NOT = { has_war_with = GER }
-		    }
-
-		    GRE = {
-		        custom_trigger_tooltip = {
-		            tooltip = FRA_ww1_alone_or_peace_faction_tt 
-		            is_alone_or_in_faction_at_peace_with_FRA = yes
-		        }
-		    }
-		    NOT = { has_country_flag = leaved_triple_entente }
 		}
 		bypass = {
 			is_in_faction_with = GRE
 			is_alone_or_in_faction_at_peace_with_FRA = no
 		}
-		completion_reward = {
 
-		    GRE = {
-
-		        add_opinion_modifier = {
-		            target = FRA modifier = HOI4TGW_Opinion_influence_faction
-		        }
-
-				set_global_flag = kis_venizelists_flag
-
-				set_politics = {
-					ruling_party = democratic
-					elections_allowed = yes
-				}
-				add_popularity = {
-					ideology = democratic
-					popularity = 0.60
-				}
-
-		        if = {
-		            limit = {
-		                GRE = {
-		                    is_ai = yes NOT = {
-		                        is_in_faction = yes
-		                    }
-		                    NOT = {
-		                        is_puppet = yes
-		                    }
-		                }
-		                #FRA = {
-		                #    is_faction_leader = yes
-		                #}
-		            }
-		            FRA = {
-		                add_to_faction = GRE
-		            }
-		        }
-		        if = {
-		            limit = {
-		                FRA = {
-		                    has_government = fascism
-		                }
-		            }
-		            add_ideas = fascist_influence
-		        }
-		        if = {
-		            limit = {
-		                FRA = {
-		                    has_government = communism
-		                }
-		            }
-		            add_ideas = communist_influence
-		        }
-		        if = {
-		            limit = {
-		                FRA = {
-		                    has_government = democratic
-		                }
-		            }
-		            add_ideas = democratic_influence
-		        }
-		        country_event = {
-		            id = generic.1
-		        }
-		    }
+		completion_reward = { 
+			GRE = {
+             add_war_support= .05
+               add_stability = 0.05 			 
+			} 
 		}
 
 		ai_will_do = { factor = 20 }
 
 		cost = 10
-		x = 6
-		y = 6
+		x = 5
+		y = 3
 		#mutually_exclusive = { focus = FRA_ww1_greece_puppet }
 	}
 
@@ -415,35 +213,49 @@ focus_tree = {
 		id = FRA_ww1_allied_bases
 		prerequisite = { focus=FRA_ww1_greece_friend }
 		available = {
-			OR = {
 				is_in_faction_with = GRE
-				GRE = { is_puppet_of = FRA }
-			}
-			has_war_with = GER
-			FRA = { has_war_with = GER }
-			NOT = { has_country_flag = leaved_triple_entente }
 		}
 		icon = GFX_goal_generic_construction2
 		completion_reward = {
-			185 = {
+		
+			130 = {
+               add_building_construction={
+			   type=infrastructure level=2 
+			   instant_build=yes }
+			}		
+			131 = {
+               add_building_construction={
+			   type=infrastructure level=2 
+			   instant_build=yes }
+			}
+			
+			134 = {
 			    add_building_construction = {
 		        	type = naval_base 
-		        	level = 1 
-		        	#province = 12001
+		        	level = 4
+		        	province = 1852
 		        	instant_build = yes
 		        }
-		        add_building_construction = {
-		        	type = air_base 
-		        	level = 1 
-		        	#province = 12001
+               add_building_construction={
+			   type=infrastructure level=2 
+			   instant_build=yes }
+			}
+			135 = {
+			    add_building_construction = {
+		        	type = naval_base 
+		        	level = 4
+		        	province = 8872
 		        	instant_build = yes
 		        }
+               add_building_construction={
+			   type=infrastructure level=2 
+			   instant_build=yes }
 			}
 		}
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 6
-		y = 7
+		x = 5
+		y = 4
 	}
 
 	#----------------------------------------------------------------------- 
@@ -454,189 +266,32 @@ focus_tree = {
 		prerequisite = { focus=FRA_ww1_diplomatic_effort }
 		icon = GFX_goal_generic_improve_relations
 		available = {
-			BEL = { has_war_with = GER }
-			FRA = { has_war_with = GER }
-			NOT = { has_war_with = BEL }
-
-	        FRA = {
-	            is_faction_leader = yes
-	        }
 		}
 
 		completion_reward = { 
-            FRA = {
-                add_to_faction = BEL
+            BEL = {
+            add_offsite_building= { type = arms_factory level = 4 } 
             }
 		}
 		ai_will_do = { factor = 12 }
-		cost = 1
-		x = 10
-		y = 1
-	}
-
-	focus = {
-		id = FRA_ww1_assert_position_west
-		prerequisite = { focus = FRA_ww1_diplomatic_effort }
-		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { add_political_power=75 }
-		ai_will_do = { factor = 20 }
-		cost = 9
-		x = 8
-		y = 1
-	}
-
-	focus = {
-		id = FRA_ww1_anti_ger
-		prerequisite = { focus = FRA_ww1_assert_position_west }
-		bypass = {
-			has_war_with = GER
-			NOT = { country_exists = GER }
-		}
-
-		icon = GFX_goal_generic_cavalry
-		completion_reward = { FRA={ add_opinion_modifier={ target=GER modifier=HOI4TGW_Opinion_anti_ger_policy_malus } } }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 9
-		y = 2
-	}
-
-	focus = {
-		id = FRA_ww1_anti_ah
-		prerequisite = { focus = FRA_ww1_anti_ger }
-		icon = GFX_goal_generic_political_pressure
-		completion_reward = { FRA={ add_opinion_modifier={ target=AUH modifier=HOI4TGW_Opinion_anti_ah_policy_malus } } }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 9
-		y = 3
-	}
-
-	focus = {
-		id = FRA_ww1_italy_deny
-		prerequisite = { focus = FRA_ww1_anti_ah }
-		icon = GFX_goal_generic_forceful_treaty
-		available = {
-			ITA = {
-				controls_state = 273
-				controls_state = 448
-				controls_state = 449
-				controls_state = 450
-				controls_state = 451			
-				controls_state = 661
-				controls_state = 662
-				controls_state = 663							
-			}
-		}
-
-		completion_reward = { 
-			add_state_claim = 273
-			add_state_claim = 448
-			add_state_claim = 449
-			add_state_claim = 450
-			add_state_claim = 451
-			add_state_claim = 661
-			add_state_claim = 662
-			add_state_claim = 663
-		}
-
-		cost = 10
-		x = 8
-		y = 4
-		ai_will_do = { factor = 0 }
-		mutually_exclusive = { focus = FRA_ww1_italy_support }
-	}
-
-	focus = {
-		id = FRA_ww1_italy_support
-		prerequisite = { focus = FRA_ww1_anti_ah }
-		icon = GFX_hoi4tgw_italy
-		completion_reward = {
-		    ITA = {
-		        add_opinion_modifier = {
-		            target = FRA modifier = HOI4TGW_Opinion_influence_faction
-		        }
-		        if = {
-		            limit = {
-		                ITA = {
-		                    is_ai = yes NOT = {
-		                        is_in_faction = yes
-		                    }
-		                    NOT = {
-		                        is_puppet = yes
-		                    }
-		                }
-		            }
-		        }
-		        if = {
-		            limit = {
-		                FRA = {
-		                    has_government = fascism
-		                }
-		            }
-		            add_ideas = fascist_influence
-		        }
-		        if = {
-		            limit = {
-		                FRA = {
-		                    has_government = communism
-		                }
-		            }
-		            add_ideas = communist_influence
-		        }
-		        if = {
-		            limit = {
-		                FRA = {
-		                    has_government = democratic
-		                }
-		            }
-		            add_ideas = democratic_influence
-		        }
-		        country_event = {
-		            id = generic.1
-		        }
-		    }
-		}
-		ai_will_do = { factor = 0 }
 		cost = 10
 		x = 10
-		y = 4
-		mutually_exclusive = { focus = FRA_ww1_italy_deny }
+		y = 1
 	}
 
 	#------------------------
-	focus = {
-		id = FRA_ww1_agadir_crisis
-		prerequisite = { focus=FRA_ww1_italy_deny focus=FRA_ww1_italy_support focus=FRA_ww1_help_serbia}
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		bypass = { GER = { has_completed_focus = GER_ww1_agadir_crisis } }
-		available = {
-			  country_exists=FRA
-			  country_exists=MOR
-			  country_exists=ENG
-			  country_exists=GER
-			  has_war=no
-			  date > 1911.6.1
-			  NOT = { has_global_flag = kis_treaty_of_versailles }
-			  }
-		completion_reward = { country_event=ww1_morocco.1 }
-		ai_will_do = { factor = 1000 }
-		cost = 5
-		x = 10
-		y = 5
-	}
 
 	focus = {
 		id = FRA_ww1_ready_country
-		prerequisite = { focus = FRA_ww1_agadir_crisis }
+		prerequisite = { focus = FRA_ww1_diplomatic_effort }
 		icon = GFX_goal_demand_sudetenland    
 		completion_reward = {
 			add_manpower = 100000 
 		}   
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 10
-		y = 6
+		x = 8
+		y = 1
 	}	
 
 	focus = {
@@ -644,77 +299,57 @@ focus_tree = {
 		prerequisite = { focus=FRA_ww1_ready_country }
 		icon = GFX_goal_generic_fortify_city
 		completion_reward = { 
-			17 = {
+			61 = {
 				add_building_construction = {
-					type = bunker
+					type = trench
 					level = 1
-					province = 521
+					province = 10359
 					instant_build = yes
 				}
 				add_building_construction = {
-					type = bunker
+					type = trench
 					level = 1
-					province = 11516
+					province = 14720
 					instant_build = yes
 				}
 				add_building_construction = {
-					type = bunker
+					type = trench
 					level = 1
-					province = 698
+					province = 4850
 					instant_build = yes
 				}
 				add_building_construction = {
-					type = bunker
+					type = trench
 					level = 1
-					province = 3666
+					province = 14822
 					instant_build = yes
 				}
 				add_building_construction = {
-					type = bunker
+					type = trench
 					level = 1
-					province = 3646
+					province = 2931
 					instant_build = yes
 				}
 			}
-			18 = {
+			60 = {
 				add_building_construction = {
-					type = bunker
+					type = trench
 					level = 1
-					province = 3560
+					province = 19665
 					instant_build = yes
 				}
 				add_building_construction = {
-					type = bunker
+					type = trench
 					level = 1
-					province = 5291
+					province = 3492
 					instant_build = yes
 				}
 			}
 		}
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 12
-		y = 7
-	}
-
-	focus = {
-		id = FRA_ww1_fortify_city
-		prerequisite = { focus = FRA_ww1_ready_country }
-		icon = GFX_goal_generic_fortify_city
-		completion_reward = { 
-			random_owned_state = {
-				add_building_construction = {
-					type = bunker
-					level = 3
-					#province = 12299
-					instant_build = yes
-				}
-			}
-		}
-		ai_will_do = { factor = 10 }
-		x = 8
-		y = 7
-		cost = 10		
+		x = 9
+		y = 2
 	}
 
 	focus = {
@@ -722,107 +357,18 @@ focus_tree = {
 		prerequisite = { focus = FRA_ww1_ready_country }
 		icon = GFX_hoi4tgw_marianne
 		available = {
-			date > 1915.1.22
-			#date < 1915.6.1
-			NOT = {
-				has_global_flag = kis_franzferdinand_murdered
-				has_global_flag = kis_alternativehistory_5
-				#has_global_flag = kis_alternativehistory_6
-				has_war_with = GER
-				has_global_flag = kis_treaty_of_versailles
-			}
 		}
 		completion_reward = { 
-			add_stability = 0.2
-			news_event = { days = 1 id = ww1_alternativehistory.2 }
+			add_stability = 0.1
 		}
 		ai_will_do = { 
 			factor = 500
 		}
-		x = 10
-		y = 7
+		x = 7
+		y = 2
 		cost = 5		
 	}
-
-	focus = {
-		id = FRA_ww1_alsaceloreaine_war
-		prerequisite = { focus = FRA_ww1_alsaceloreaine_propaganda }
-		available = {
-			NOT = {
-				has_war_with = GER
-				has_global_flag = kis_treaty_of_versailles
-			}
-		}
-		icon = GFX_goal_generic_major_war
-		completion_reward = { 
-			set_global_flag = kis_fra_war_ger
-			add_named_threat = { threat = 25 name = "France wants Alsace-Lorraine" }
-			FRA = {
-				declare_war_on = {
-					target = GER
-					type = take_state
-					generator = { 28 }
-				}
-			}
-
-		}
-
-		ai_will_do = { factor = 2000 }
-
-		x = 10
-		y = 8
-		cost = 2		
-	}
-	#-----------------------------------------------------------------------
-
-	#-----------------------------------------------------------------------
-	# Bloc 4 - France Position in the East
-	#-----------------------------------------------------------------------
-	focus = {
-		id = FRA_ww1_assert_position_east
-		prerequisite = { focus = FRA_ww1_diplomatic_effort }
-		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { add_political_power=75 }
-		ai_will_do = { factor = 1000 }
-		cost = 10
-		x = 12
-		y = 1
-	}
-
-	focus = {
-		id = FRA_ww1_anti_ottoman
-		prerequisite = { focus = FRA_ww1_assert_position_east }
-		icon = GFX_goal_generic_political_pressure
-		ai_will_do = { factor=1 }
-		completion_reward = { FRA={ add_opinion_modifier={ target=TUR modifier=HOI4TGW_Opinion_anti_ottoman_policy_malus } } }
-		ai_will_do = { factor = 1000 }
-		cost = 10
-		x = 12
-		y = 2
-	}
-
-	focus = {
-		id = FRA_ww1_support_romania
-		prerequisite = { focus = FRA_ww1_anti_ottoman }
-		icon = GFX_goal_generic_intelligence_exchange
-		ai_will_do = { factor=1 }
-		completion_reward = { FRA={ add_opinion_modifier={ target=ROM modifier=HOI4TGW_Opinion_diplomats_bonus } } }
-		ai_will_do = { factor = 1000 }
-		cost = 10
-		x = 12
-		y = 3
-	}
-
-	focus = {
-		id = FRA_ww1_help_serbia
-		prerequisite = { focus = FRA_ww1_support_romania }
-		icon = GFX_goal_generic_military_deal
-		completion_reward = { FRA={ add_opinion_modifier={ target=SER modifier=HOI4TGW_Opinion_diplomats_bonus } } }
-		ai_will_do = { factor = 1000 }
-		cost = 10
-		x = 12
-		y = 4
-	}
+	
 	#-----------------------------------------------------------------------
 
 	#-----------------------------------------------------------------------
@@ -837,7 +383,7 @@ focus_tree = {
 		completion_reward = { add_political_power = 100 }
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 15
+		x = 12
 		y = 1
 	}
 
@@ -849,14 +395,14 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = { 
-			64 = {
+			124 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
 				}
 			}
-			1114 = {
+			137 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -866,7 +412,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 14
+		x = 12
 		y = 2
 	}
 
@@ -877,14 +423,14 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = { 
-			64 = {
+			124 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
 			}
-			1114 = {
+			137 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -894,7 +440,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 14
+		x = 12
 		y = 3
 	}
 
@@ -905,7 +451,7 @@ focus_tree = {
 		available = {
 		}
 		completion_reward = { 
-			64 = {
+			124 = {
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -917,7 +463,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			1114 = {
+			137 = {
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -927,98 +473,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 14
-		y = 4
-	}
-
-	#----- Indochina
-
-	focus = {
-		id = FRA_ww1_french_indochina_infra
-		prerequisite = { focus = FRA_ww1_bureau_colonies }
-		icon = GFX_goal_generic_construct_infrastructure
-		available = {
-		}
-		completion_reward = { 
-			1148 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			1151 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}				
-		}
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 16
-		y = 2
-	}
-
-	focus = {
-		id = FRA_ww1_french_indochina_civ
-		prerequisite = { focus = FRA_ww1_french_indochina_infra }
-		icon = GFX_goal_generic_construct_civilian
-		available = {
-		}
-		completion_reward = { 
-			1148 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			1151 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}				
-		}
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 16
-		y = 3
-	}
-
-	focus = {
-		id = FRA_ww1_french_indochina_mil
-		prerequisite = { focus = FRA_ww1_french_indochina_civ }
-		icon = GFX_goal_generic_construct_mil_factory
-		available = {
-		}
-		completion_reward = { 
-			1148 = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = air_base
-					level = 1
-					instant_build = yes
-				}
-			}
-			1151 = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}				
-		}
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 16
+		x = 12
 		y = 4
 	}
              #################################################
@@ -2214,8 +1669,8 @@ focus = {
 			}
 			}
 		}
-		x = 15
-		y = 8
+		x = 14
+		y = 1
 		cost = 1
 
 
@@ -2252,8 +1707,8 @@ focus = {
 		}
 	}
 	        
-		x = 15
-		y = 9
+		x = 14
+		y = 2
 		cost = 2
 
 

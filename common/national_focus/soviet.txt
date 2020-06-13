@@ -32,8 +32,8 @@ focus_tree = {
 			}
 			
 		}
-		x = 15
-		y = 8
+		x = 11
+		y = 1
 		cost = 2
 
 
@@ -55,8 +55,8 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 2000 }
 		cost = 2
-		x = 15
-		y = 9
+		x = 11
+		y = 2
 	}
 
 	focus = {
@@ -368,7 +368,7 @@ focus_tree = {
 
 		ai_will_do = { factor = 300 }
 		cost = 10
-		x = 14
+		x = 13
 		y = 2
 	}
 
@@ -386,99 +386,6 @@ focus_tree = {
 		}
 	}
 
-
-	focus = {
-		id = SOV_ww1_scandinavia_focus
-		icon = GFX_goal_generic_position_armies
-		prerequisite = { focus = SOV_ww1_diplomatic_effort }
-		available = {}
-		x = 15
-		y = 1
-		cost = 10
-		ai_will_do = {factor = 10}
-		completion_reward = {
-			add_political_power = 100
-            510 = {
-                add_extra_state_shared_building_slots = 2
-                add_building_construction = {
-                    type = arms_factory
-                    level = 2
-                    instant_build = yes
-                }
-            }
-		}
-	}
-
-	focus = {
-		id = SOV_asian_focus
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = { focus = SOV_ww1_diplomatic_effort }
-		available = {}
-		x = 17
-		y = 1
-		cost = 10
-		ai_will_do = {factor = 100}
-		completion_reward = {
-			add_political_power = 100
-		}
-	}
-
-    focus = {
-        id = SOV_around_manchuria
-        icon = GFX_goal_generic_construct_infrastructure
-        available = {}
-		prerequisite = { focus = SOV_asian_focus }
-
-		x = 17
-        y = 2
-        cost = 10
-        completion_reward = {
-            408 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            564 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            563 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 2
-                    instant_build = yes
-                }
-            }
-            561 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 2
-                    instant_build = yes
-                }
-            }
-            657 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 2
-                    instant_build = yes
-                }
-            }
-            409 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 2
-                    instant_build = yes
-                }
-            }
-        }
-        ai_will_do = {factor = 100}
-    }
-
     focus = {
         id = SOV_ww1_invest_west
         icon = GFX_goal_generic_construction
@@ -486,92 +393,29 @@ focus_tree = {
 
 		prerequisite = { focus= SOV_ww1_pro_fra }
 
-		x = 13
+		x = 12
         y = 3
         cost = 5
         completion_reward = {
             add_resource = {
                 type = steel
-                amount = 542
-                state = 90
+                amount = 42
+                state = 109
             }
             add_resource = {
                 type = coal
                 amount = 60
-                state = 561
+                state = 289
             }
             add_resource = {
                 type = steel
                 amount = 44
-                state = 636
+                state = 279
             }
             add_resource = {
                 type = coal
                 amount = 34
-                state = 650
-            }
-            45 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            46 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            713 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            714 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            96 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            197 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            699 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            650 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
-            }
-            694 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
-                }
+                state = 172
             }
         }
         ai_will_do = { factor = 20	}
@@ -588,49 +432,9 @@ focus_tree = {
 
         available = {}
 		x = 14
-        y = 4
+        y = 3
         cost = 5
         completion_reward = {
-            470 = {
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 840
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 8176
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 11621
-                    instant_build = yes
-                }
-            }
-            473 = {
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 6694
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 13196
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = trench
-                    level = 2
-                    province = 13209
-                    instant_build = yes
-                }
-            }
         }
         ai_will_do = { factor = 20	}
     }
@@ -648,7 +452,7 @@ focus_tree = {
 
         }
 		x = 14
-        y = 5
+        y = 4
         cost = 10
         completion_reward = {
             give_guarantee = FRA
@@ -657,32 +461,6 @@ focus_tree = {
             give_guarantee = HOL
         }
         ai_will_do = { factor = 0	}
-    }
-
-
-    focus = {
-        id = SOV_ww1_polish_corps
-        icon = GFX_hoi4tgw_poland
-        available = {
-        	has_global_flag = kis_brestlitovsk
-        }
-        prerequisite = {
-            focus = SOV_ww1_defy_germany
-
-        }
-        available = {}
-		x = 14
-        y = 6
-        cost = 10
-        completion_reward = {
-			add_manpower = 100000
-			87 = { add_core_of = POL }
-			98 = { add_core_of = POL }
-			10 = { add_core_of = POL }
-			90 = { add_core_of = POL }
-			88 = { add_core_of = POL }
-			92 = { add_core_of = POL }
-        }
     }
 
 

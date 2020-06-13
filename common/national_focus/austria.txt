@@ -371,7 +371,7 @@ focus_tree = {
 		
 		ai_will_do = { factor = 40 }
 		cost = 10
-		x = 10
+		x = 11
 		y = 1
 	}
 
@@ -406,99 +406,7 @@ focus_tree = {
 	}
 	
 
-	focus = {
-		id = AUS_ww1_back_italy
-		prerequisite = { focus=AUS_ww1_triple_alliance }
-		icon = GFX_hoi4tgw_italy
-		available = { NOT={ has_war_with = ITA } }
-		completion_reward = { 
-			ITA={ add_opinion_modifier={ target=AUS modifier=ger_auh_alliance_focus } } GER={ add_opinion_modifier={ target=AUS modifier=HOI4TGW_Opinion_ger_ita_alliance_focus_malus } }
-		}
-		ai_will_do = { factor = 0	}
-		cost = 10
-		x = 9
-		y = 2
-		mutually_exclusive = { focus=AUS_ww1_back_ger }
-	}
-	focus = {
-		id = AUS_ww1_give_italy_territories
-		prerequisite = { focus=AUS_ww1_back_italy }
-		icon = GFX_goal_generic_forceful_treaty
-		available = { 
-			NOT = { 
-				has_war_with = ITA 
-			} 
-			AUS = {
-				controls_state = 39
-				controls_state = 736
-			}
-			ITA = {
-				has_country_flag = ITA_Lib_War_End_Victory
-			}
-		}
-		completion_reward = { 
-			ITA = {
-				country_event = { id = ww1_italy.5 }
-			}
-		}
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 9
-		y = 3
-	}
 
-	focus = {
-		id = AUS_ww1_italy_honnor_pact
-		prerequisite = { focus=AUS_ww1_give_italy_territories}
-		icon = GFX_goal_generic_dangerous_deal
-		available = { 
-			ITA = {
-				has_country_flag = ITA_Lib_War_End_Victory
-				has_country_flag = kis_italy_accept_auh_offer
-				NOT = { 
-					has_country_flag = join_entente 
-					has_war_with = AUS
-					is_in_faction_with = FRA
-				}
-			}
-			AUS = {
-				has_war_with = ENG
-				has_war_with = FRA
-				has_war_with = RUS
-			}
-		}
-		completion_reward = { 
-			ITA = {
-				country_event = { id = ww1_italy.6 }				
-			}
-			hidden_effect = {
-				AUS = { 
-					add_opinion_modifier = { 
-						target = ITA modifier = HOI4TGW_Opinion_alliance_bonus_boost 
-					}
-				}
-				GER = { 
-					add_opinion_modifier = { 
-						target = ITA modifier = HOI4TGW_Opinion_alliance_bonus_boost 
-					}
-				}
-				ITA = { 
-					add_opinion_modifier = { 
-						target = AUS modifier = HOI4TGW_Opinion_alliance_bonus_boost 
-					}
-				}
-				ITA = { 
-					add_opinion_modifier = { 
-						target = GER modifier = HOI4TGW_Opinion_alliance_bonus_boost 
-					}
-				}
-			}
-		}
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 9
-		y = 4
-	}
 
 	#-----------------------------------------------------------------------
 
@@ -550,112 +458,6 @@ focus_tree = {
 		cost = 10
 		x = 13
 		y = 3
-	}
-
-	focus = {
-		id = AUS_ww1_rom
-		prerequisite = { focus=AUS_ww1_assert_position_east }
-		icon = GFX_goal_generic_military_deal
-		available = { 
-			country_exists = ROM
-			country_exists = AUS
-			AUS = {
-				NOT={ has_war_with = ROM }
-			}
-		}
-		completion_reward = { 
-			ROM = { 
-				add_opinion_modifier = { 
-					target = AUS modifier=HOI4TGW_Opinion_ger_ita_advisor_bonus 
-				} 
-			}
-			AUS = { 
-				add_opinion_modifier = { 
-					target = ROM modifier=HOI4TGW_Opinion_ger_ita_advisor_bonus 
-				} 
-			}
-
-		}
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 15
-		y = 2
-	}
-	focus = {
-		id = AUS_ww1_rom_give_bucovina
-		prerequisite = { focus=AUS_ww1_rom }
-		icon = GFX_goal_generic_improve_relations
-		available = { 
-			country_exists = ROM
-			country_exists = AUS
-			AUS = {
-				NOT={ has_war_with = ROM } 
-				controls_state = 80
-			}
-			ROM = {
-				NOT = { is_in_faction_with = FRA }
-			}
-		}
-		completion_reward = { 
-			ROM = {
-				country_event = { id = ww1_romania.5 }
-			}
-		}
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 15
-		y = 3
-	}
-	focus = {
-		id = AUS_ww1_rom_honnor_pact
-		prerequisite = { focus=AUS_ww1_rom_give_bucovina }
-		icon = GFX_goal_molotov_ribbentrop_pact
-		available = { 
-			country_exists = ROM
-			country_exists = AUS
-			AUS = {
-				NOT={ has_war_with = ROM }
-				has_war_with = ENG
-				has_war_with = FRA
-				has_war_with = RUS
-			}
-			ROM = { 
-				is_in_faction = no
-				NOT = { is_in_faction_with = FRA }
-				has_country_flag = kis_romania_accept_auh_offer
-			}
-		}
-		completion_reward = {
-			ROM = {
-				country_event = { days = 1 id = ww1_romania.6 }
-			}
-			hidden_effect = {
-				AUS = { 
-					add_opinion_modifier = { 
-						target = ROM modifier = HOI4TGW_Opinion_alliance_bonus_boost 
-					}
-				}
-				GER = { 
-					add_opinion_modifier = { 
-						target = ROM modifier = HOI4TGW_Opinion_alliance_bonus_boost 
-					}
-				}
-				ROM = { 
-					add_opinion_modifier = { 
-						target = AUS modifier = HOI4TGW_Opinion_alliance_bonus_boost 
-					}
-				}
-				ROM = { 
-					add_opinion_modifier = { 
-						target = GER modifier = HOI4TGW_Opinion_alliance_bonus_boost 
-					}
-				}
-			}
-		}
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 15
-		y = 4
 	}
 
 	#-----------------------------------------------------------------------
@@ -1093,7 +895,7 @@ focus_tree = {
 
 		ai_will_do = { factor = 800 }
 		cost = 3
-		x = 18
+		x = 16
 		y = 1
 	}
 
@@ -1111,7 +913,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 80 }
 		cost = 7
-		x = 19
+		x = 16
 		y = 2
 	}
 	focus = {
@@ -1136,7 +938,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 80 }
 		cost = 6
-		x = 18
+		x = 15
 		y = 3
 	}
 	
@@ -1172,7 +974,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 400 }
 		cost = 6
-		x = 20
+		x = 17
 		y = 3
 	}
 
@@ -1194,7 +996,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 20 }
 		cost = 4
-		x = 19
+		x = 16
 		y = 4
 	}
 	

@@ -11,8 +11,6 @@ state={
 		oil=10 # was: 12
 	}
 	history={
-		owner = PER
-		add_core_of = PER
 		buildings = {
 			infrastructure = 2
 			}
