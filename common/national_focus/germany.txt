@@ -256,13 +256,13 @@ focus_tree = {
 		}
 		complete_tooltip = {
 			AUS = { army_experience= 50 }
-TUR = { army_experience= 50 }
-BUL = { army_experience= 50 }
-		}
+            TUR = { army_experience= 50 }
+            BUL = { army_experience= 50 }
+		  }
 		completion_reward = {
-			AUS = { army_experience= 50 }
-TUR = { army_experience= 50 }
-BUL = { army_experience= 50 }
+		AUS = { army_experience= 50 }
+        TUR = { army_experience= 50 }
+        BUL = { army_experience= 50 }
 		}
 	}
 
@@ -284,21 +284,21 @@ is_in_faction_with= GER }
 		}
 		complete_tooltip = {
 			TUR = {
-add_timed_idea= { 
-idea = GER_Investment
-days = 365 
-}
+            add_timed_idea= { 
+            idea = GER_Investment
+            days = 365 
+             }
+		 }
 		}
 		completion_reward = {
 			TUR = {
-add_timed_idea= { 
-idea = GER_Investment
-days = 365 
-}
-add_stability
-= 0.05 }
+            add_timed_idea= { 
+            idea = GER_Investment
+            days = 365 
+         }
+        add_stability = 0.05 }
 		}
-	}
+
 } #This may not be in the right place. If your focus tree is having issues, check the above focus, as this closing brace was added to close the focus.
 
 	#Focus for Berlin Baghdad Railway
@@ -314,12 +314,23 @@ add_stability
 			factor = 1
 		}
 		completion_reward = {
-			161={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 249={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 254={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
-258={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
-256={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
-345={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
-344={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
-145={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
+			161={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 
+			249={ add_building_construction={ type=infrastructure level=2 instant_build=yes } } 
+			254={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
+            258={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
+            256={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
+            345={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
+            344={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
+            145={ add_building_construction={ type=infrastructure level=2 instant_build=yes } }
+			145 = {
+				add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+				}			
+
+	          }
 		}
 	}
 
@@ -337,17 +348,17 @@ add_stability
 		}
 		complete_tooltip = {
 			TUR = {
-add_manpower= 250000 }
+        add_manpower= 250000 }
 
-GER = {
-add_manpower= -250000 }
+        GER = {
+        add_manpower= -250000 }
 		}
 		completion_reward = {
 			TUR = {
-add_manpower= 250000 }
+         add_manpower= 250000 }
 
-GER = {
-add_manpower= -250000 }
+        GER = {
+        add_manpower= -250000 }
 		}
 	}
 
@@ -365,21 +376,22 @@ add_manpower= -250000 }
 		}
 		complete_tooltip = {
 			AUS = {
-           add_timed_idea= { 
-           idea = GER_Investment
-           days = 365 
-           }
-		}
+            add_timed_idea= { 
+            idea = GER_Investment
+            days = 365 
+         }
+        add_stability = 0.05 } }
 		completion_reward = {
 			AUS = {
-           add_timed_idea= { 
-           idea = GER_Investment
-           days = 365 
-                   }
+            add_timed_idea= { 
+            idea = GER_Investment
+            days = 365 
+         }
+        add_stability = 0.05 }
 		     }
-          }
-      }
-  }
+         }
+      
+  
 	#Focus for Investment in the Adriatic
 	focus = {
 		id = GER_investment_in_the_adriatic
@@ -394,7 +406,7 @@ add_manpower= -250000 }
 		}
 		complete_tooltip = {
 
-			random_state = {
+			100 = {
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
@@ -402,17 +414,19 @@ add_manpower= -250000 }
 					instant_build = yes
 				}
 			}
+			38 = {
+				add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+				}			
+
+	  }
 		}
 		completion_reward = {
-			random_owned_state = {
-				limit = {
-					is_in_home_area = yes
-					free_building_slots = {
-						building = dockyard
-						size > 1
-						include_locked = yes
-					}
-				}
+
+			100 = {
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
@@ -420,9 +434,18 @@ add_manpower= -250000 }
 					instant_build = yes
 				}
 			}
-		}
-	}
+	        
+			38 = {
+				add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+				}			
 
+	  }
+	}
+ }
 	#Focus for Diplomatic help with Minorities
 	focus = {
 		id = GER_diplomatic_help_with_minorities
@@ -437,13 +460,13 @@ add_manpower= -250000 }
 		}
 		complete_tooltip = {
 			AUS = {
-add_stability= 0.10 
-add_war_support = 5 }
+        add_stability= 0.10 
+        add_war_support = 0.05 }
 		}
 		completion_reward = {
 			AUS = {
-add_stability= 0.10 
-add_war_support = 5}
+        add_stability= 0.10 
+        add_war_support = 0.05}
 		}
 	}
 

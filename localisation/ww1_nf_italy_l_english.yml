@@ -476,6 +476,12 @@ ITA_ww1_carrier_focus_desc:0 "" #KAISER_ANONY
  italian_libya_war:0 "Start of the Italo-Turkish War"
  ITA_Lib_War_End_Victory:0 "End of the Italo-Turkish War"
  
+ITA_agrarian_reform:0 "Agrarian Reform"
+ITA_agrarian_reform_desc:0 ""
+ITA_resource_mining:0 "Resource Mining"
+ITA_resource_mining_desc:0 ""
+
+ 
  #--------------------------------------------------------------
 
 

@@ -1,4 +1,4 @@
-version="1.9.*"
+
 tags={
 	"Balance"
 	"Fixes"
@@ -24,4 +24,4 @@ replace_path="common/decisions/categories"
 replace_path="common/national_focus"
 replace_path="events"
 name="FFU"
-supported_version="1.9.2"
+supported_version="1.9.3"

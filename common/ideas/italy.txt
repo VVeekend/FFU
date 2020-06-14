@@ -98,7 +98,27 @@ ideas={
 			
 			modifier={ stability_factor =0.05 }
 		}
+		
+		ITA_Agrarian_Reform  = {
+		
+			allowed = {
+				always = no #event or decision
+			}
 
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = RUS_mixed_railways
+			
+			modifier = { consumer_goods_factor = -0.05
+
+			}
+			
+		}
+		
         victor_emmanuel={ 
 		allowed={ original_tag="ITA" } 
 		allowed_civil_war={ NOT={ has_government=communism } 

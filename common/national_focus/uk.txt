@@ -12,7 +12,7 @@ focus_tree = {
 		completion_reward = { add_political_power=120 }
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 2
+		x = 1
 		y = 0
 		}
 
@@ -29,7 +29,7 @@ focus_tree = {
 
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 2
+		x = 1
 		y = 1
 	}
 
@@ -37,36 +37,23 @@ focus_tree = {
 		id = ENG_ww1_democracy
 		prerequisite = { focus=ENG_ww1_support_republic }
 		icon = GFX_goal_support_democracy
-		completion_reward = { add_ideas=liberty_ethos_focus }
+		completion_reward = { add_ideas=liberty_ethos_focus add_tech_bonus={ name=industrial_bonus bonus=1 uses=1 category=industry } add_political_power=50 }
 
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 2
+		x = 1
 		y = 2
 	}
 
 	focus = {
-		id = ENG_ww1_freespeech
-		prerequisite = { focus=ENG_ww1_democracy }
-		icon = GFX_goal_generic_propaganda
-
-		completion_reward = { add_tech_bonus={ name=industrial_bonus bonus=0.15 uses=1 category=industry } add_political_power=50 }
-
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 2
-		y = 3
-	}
-
-	focus = {
 		id = ENG_ww1_conscription_focus
-		prerequisite = { focus=ENG_ww1_freespeech }
+		prerequisite = { focus=ENG_ww1_democracy }
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { add_manpower = 23000}
+		completion_reward = { add_ideas= military_youth_focus }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 2
-		y = 4
+		x = 1
+		y = 3
 	}	
 
 	focus = {
@@ -104,8 +91,8 @@ focus_tree = {
 
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 2
-		y = 5
+		x = 1
+		y = 4
 	}
 
 	focus = {
@@ -114,15 +101,15 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		completion_reward = {
 			add_political_power=50
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=land_doctrine }
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=naval_doctrine }
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=air_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1 uses=1 category=land_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1 uses=1 category=naval_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1 uses=1 category=air_doctrine }
 		}
 
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 2
-		y = 6
+		x = 1
+		y = 5
 
 
 	}
@@ -199,11 +186,11 @@ focus_tree = {
 		available = { NOT={ has_war_with=FRA } }
 
 		completion_reward = {
-			ENG={ add_opinion_modifier={ target=FRA modifier=HOI4TGW_Opinion_alliance_bonus } }
+			FRA={ add_stability= 0.05  add_political_power=50  }
 		}
 
 		ai_will_do = { factor = 70 }
-		cost = 9
+		cost = 5
 		x = 5
 		y = 2
 	}
@@ -215,11 +202,11 @@ focus_tree = {
 		available = { NOT={ has_war_with=RUS } }
 
 		completion_reward = {
-			ENG={ add_opinion_modifier={ target=RUS modifier=HOI4TGW_Opinion_alliance_bonus } }
+			SOV={ add_stability= 0.05  add_political_power=50 }
 		}
 
 		ai_will_do = { factor = 70 }
-		cost = 9
+		cost = 5
 		x = 7
 		y = 2
 	}
@@ -267,29 +254,16 @@ focus_tree = {
 
 	focus = {
 		id = ENG_ww1_portugal_friend
-		prerequisite = { focus=ENG_ww1_triple_alliance focus=ENG_ww1_ready_country }
+		prerequisite = { focus=ENG_ww1_send_diplomats }
 		icon = GFX_goal_generic_improve_relations
 		available = {
-			has_war_with = GER
-		    is_puppet = no NOT = {
-		        has_war_with = POR
-		    }
 		    POR = {
 		        exists = yes 
 		        is_puppet = no
 		    }
-		    POR = {
-		        custom_trigger_tooltip = {
-		            tooltip = ENG_ww1_alone_or_peace_faction_tt 
-		            is_alone_or_in_faction_at_peace_with_ENG = yes
-		        }
-		    }
-		}
-		bypass = {
-			is_in_faction_with = POR
-			is_alone_or_in_faction_at_peace_with_ENG = no
 		}
 		completion_reward = {
+		POR={ add_stability= 0.05  add_political_power=50 }
 			POR = {
 				country_event = ww1_portugal.1
 			}
@@ -301,127 +275,162 @@ focus_tree = {
 				date < 1914.5.5
 			}
 		}
-		cost = 10
-		x = 5
-		y = 5
+		cost = 5
+		x = 3
+		y = 2
+	}
+	#Focus for British Advisors
+	focus = {
+		id = ENG_british_advisors
+		icon = GFX_focus_chi_army_reform
+		x = 8
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_ww1_back_russia}
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			SOV = {
+        army_experience= 50
+        add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		}
+		completion_reward = {
+			SOV = {
+        army_experience= 50
+        add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		}
 	}
 
+	#Focus for Support Greece
+	focus = {
+		id = ENG_support_greece
+		icon = GFX_goal_generic_improve_relations
+		x = 11
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus=ENG_ww1_send_diplomats }
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			GRE={ add_stability= 0.05  add_political_power=50 }
+		}
+		completion_reward = {
+			GRE={ add_stability= 0.05  add_political_power=50 }
+		}
+	}
+
+	#Focus for Belgium Relief
+	focus = {
+		id = ENG_belgium_relief
+		icon = GFX_focus_mex_privatisation
+		x = 10
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_support_belgium }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			BEL = { has capitulated = yes }
+		}
+		complete_tooltip = {
+			BEL = {
+        add_offsite_building= { type = industrial_complex level = 6 } add_manpower = 150000 }
+		}
+		completion_reward = {
+			BEL = {
+        add_offsite_building= { type = industrial_complex level = 6 } add_manpower = 150000 }
+		}
+	  }
+	#Focus for Support Belgium
+	focus = {
+		id = ENG_support_belgium
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus=ENG_ww1_send_diplomats }
+		x = 9
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			BEL = {add_stability= 0.05  add_political_power=50  }
+		}
+		completion_reward = {
+			BEL = {add_stability= 0.05  add_political_power=50 }
+		}
+	}
+
+	#Focus for Anglo Portuguese Mineral Resource Cooperation
+	focus = {
+		id = ENG_anglo_portuguese_mineral_resource_cooperation
+		prerequisite = { focus = ENG_ww1_portugal_friend}
+		icon = GFX_focus_por_the_kingdom_reunited
+		x = 3
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			POR = {
+         add_resource= { 
+         type = steel 
+         amount = 40
+         state = 165 
+           }
+         add_resource= { 
+         type = wood 
+         amount = 40
+         state = 166 
+         }
+         add_resource= { 
+         type = aluminium 
+         amount = 20
+         state = 164 
+         }
+        }
+		}
+		completion_reward = {
+			POR = {
+       add_resource= { 
+       type = steel 
+       amount = 40
+       state = 165 
+       }
+       add_resource= { 
+       type = wood 
+       amount = 40
+       state = 166 
+       }
+       add_resource= { 
+       type = aluminium 
+        amount = 20
+        state = 164 
+        }
+       }
+		}
+	}
 	focus = {
 		id = ENG_ww1_small_arms_focus
-		#prerequisite = { focus=ENG_ww1_portugal_puppet focus=ENG_ww1_portugal_friend}
-		prerequisite = { focus=ENG_ww1_portugal_friend}
+		prerequisite = { focus= ENG_ww1_Professional_All_Volunteer_Army focus= ENG_ww1_Organize_the_arms_factories}
 		icon = GFX_goal_generic_production2
 		available = {
-			has_war_with = GER
 		}
 		completion_reward = { add_ideas=british_arms_discount }
 		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 5
-		y = 6
-	}	
-
-	focus = {
-		id = ENG_ww1_crypto_bomb_focus
-		prerequisite = { focus=ENG_ww1_small_arms_focus }
-		icon = GFX_hoi4tgw_britania
-		available = {
-			has_war_with = GER
-		}
-		completion_reward = { add_tech_bonus={ name=codebreaking_bonus bonus=0.5 uses=3 category=decryption_tech category=computing_tech } }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 5
-		y = 7
-	}	
-
-	#----------------------------------------------------------------------- 
-	# Bloc 2
-	#-----------------------------------------------------------------------
-	focus = {
-		id = ENG_ww1_assert_position_west
-		prerequisite = { focus = ENG_ww1_diplomatic_effort }
-		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { add_political_power=75 }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 9
-		y = 1
-	}
-
-	# Open Beta 0.2
-
-	focus = {
-		id = ENG_ww1_anti_ger
-		prerequisite = { focus = ENG_ww1_assert_position_west }
-		bypass = {
-			has_war_with = GER
-			NOT = { country_exists = GER }
-		}
-
-		icon = GFX_goal_generic_cavalry
-		completion_reward = { ENG={ add_opinion_modifier={ target=GER modifier=HOI4TGW_Opinion_anti_ger_policy_malus } } }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 9
-		y = 2
-	}
-
-	focus = {
-		id = ENG_ww1_anti_ah
-		prerequisite = { focus = ENG_ww1_anti_ger }
-		icon = GFX_goal_generic_political_pressure
-		completion_reward = { ENG={ add_opinion_modifier={ target=AUS modifier=HOI4TGW_Opinion_anti_ah_policy_malus } } }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 9
-		y = 3
-	}
-
-	focus = {
-		id = ENG_ww1_ireland_release
-		prerequisite = { focus = ENG_ww1_anti_ah }
-		icon = GFX_goal_generic_forceful_treaty
-		available = {
-		  	NOT={
-		   		country_exists=IRE
-		   	}
-	  		has_war=no
-	  		date>1914.5.25
-	  	}
-		completion_reward = {
-			release = IRE
-		  	add_manpower = 20000
-		  	add_political_power = 30
-	  	}
-		ai_will_do = { factor = 0 }
-		cost = 10
-		x = 8
+		cost = 5
+		x = 14
 		y = 4
-		mutually_exclusive = { focus = ENG_ww1_ireland_crush }
-	}
-
-	focus = {
-		id = ENG_ww1_ireland_crush
-		prerequisite = { focus = ENG_ww1_anti_ah }
-		icon = GFX_goal_generic_improve_relations
-		available = {
-		  	NOT={
-			   	country_exists=IRE
-		   	}
-	  		has_war=no
-	  		date>1914.5.25
-	  	}
-		completion_reward = {
-			add_manpower = 50000
-			add_political_power = -100
-		}
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 10
-		y = 4
-		mutually_exclusive = { focus = ENG_ww1_ireland_release }
-	}
+	}	
+	
 	#------------------------
 
 	focus = {
@@ -437,168 +446,7 @@ focus_tree = {
 		y = 4
 	}	
 
-	focus = {
-		id = ENG_ww1_defense_border
-		prerequisite = { focus=ENG_ww1_ready_country }
-		icon = GFX_goal_generic_fortify_city
-		completion_reward = { 
-			126 = { # London
-				add_building_construction = {
-					type = coastal_bunker
-					level = 1
-					province = 11374
-					instant_build = yes
-				}
-			}
-			125 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 1
-					instant_build = yes
-				}
-			}
-			130 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 1
-					instant_build = yes
-				}
-			}
-			127 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 1
-					instant_build = yes
-				}
-			}
-			130 = {
-				add_building_construction = {
-					type = coastal_bunker
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 14
-		y = 6
-	}
 
-	focus = {
-		id = ENG_ww1_fortify_city
-		prerequisite = { focus = ENG_ww1_ready_country }
-		icon = GFX_goal_generic_fortify_city
-		completion_reward = { 
-			random_owned_state = {
-				add_building_construction = {
-					type = bunker
-					level = 3
-					#province = 12299
-					instant_build = yes
-				}
-			}
-		}
-		ai_will_do = { factor = 20 }
-		x = 12
-		y = 6
-		cost = 10		
-	}
-
-	focus = {
-		id = ENG_ww1_service_focus
-		prerequisite = { focus=ENG_ww1_ready_country }
-		icon = GFX_goal_generic_position_armies
-		available = { }
-		completion_reward = { army_experience=25 navy_experience=25 air_experience=25 }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 13
-		y = 7
-	}
-
-
-	#-----------------------------------------------------------------------
-
-
-
-
-
-
-
-
-	#-----------------------------------------------------------------------
-
-	#-----------------------------------------------------------------------
-	# Bloc 4 - UK Position in the East
-	#-----------------------------------------------------------------------
-	focus = {
-		id = ENG_ww1_assert_position_east
-		prerequisite = { focus = ENG_ww1_diplomatic_effort }
-		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { add_political_power=75 }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 12
-		y = 1
-	}
-
-	focus = {
-		id = ENG_ww1_balkan_strategy
-		prerequisite = { focus=ENG_ww1_assert_position_east }
-		icon = GFX_goal_generic_political_pressure
-		bypass = { NOT={ country_exists=YUG country_exists=GRE country_exists=ROM country_exists=BUL country_exists=HUN country_exists=TUR } }
-		completion_reward = { SER={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_good } } GRE={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_good } } ROM={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_good } } BUL={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } GER={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } AUS={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } TUR={ add_opinion_modifier={ target=ENG modifier=balkan_strategy_bad } } }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 12
-		y = 2
-	}
-
-	focus = {
-		id = ENG_ww1_support_romania
-		prerequisite = { focus = ENG_ww1_balkan_strategy }
-		icon = GFX_goal_generic_intelligence_exchange
-		available = { ROM={ exists=yes has_war=no NOT={ is_in_faction_with = ENG } } }
-		completion_reward = { ROM={ add_opinion_modifier={ target=ENG modifier=democratic_leanings_good } add_ideas=democratic_influence country_event={ id=generic.1 } } every_country={ limit={ NOT={ has_government=democratic } num_of_factories > 30 } add_opinion_modifier={ target=ROM modifier=democratic_leanings_bad } } }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 12
-		y = 3
-	}
-
-	focus = {
-		id = ENG_ww1_nordic_countries
-		prerequisite = { focus = ENG_ww1_support_romania }
-		icon = GFX_goal_generic_military_deal
-		completion_reward = { 
-			NOR = { 
-				add_opinion_modifier = { 
-					target = GER 
-					#modifier = HOI4TGW_Opinion_anti_ger_policy_malus 
-					modifier = embargo 
-				} 
-			}
-			SWE = { 
-				add_opinion_modifier = { 
-					target = GER 
-					#modifier = HOI4TGW_Opinion_anti_ger_policy_malus 
-					modifier = embargo 
-				} 
-			} 
-			GER = { 
-				add_opinion_modifier = { 
-					target = ENG 
-					modifier = HOI4TGW_Opinion_diplomats_malus 
-				} 
-			} 
-		}
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 12
-		y = 4
-	}
-	#-----------------------------------------------------------------------
 
 	#-----------------------------------------------------------------------
 	# Bloc 4 - Army Reform
@@ -612,7 +460,7 @@ focus_tree = {
 		completion_reward = { add_political_power = 100 }
 		ai_will_do = { factor = 20 }
 		cost = 5
-		x = 15
+		x = 14
 		y = 1
 	}
 
@@ -629,7 +477,7 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 14
+		x = 13
 		y = 2
 	}
 
@@ -643,7 +491,7 @@ focus_tree = {
 		                    
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 14
+		x = 13
 		y = 3
 	}
 
@@ -658,7 +506,7 @@ focus_tree = {
 		completion_reward = { add_manpower = 100000  }
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 16
+		x = 15
 		y = 2
 	}
 
@@ -671,21 +519,20 @@ focus_tree = {
             add_tech_bonus={ name=infantry_artillery_bonus bonus=1.0 uses=2 category=infantry_weapons } }
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 16
+		x = 15
 		y = 3
 	}
 
 	focus = {
 		id = ENG_ww1_The_First_Tank
-		prerequisite = { focus=ENG_ww1_Organize_the_arms_factories
-		 focus=ENG_ww1_Professional_All_Volunteer_Army }
+		prerequisite = { focus=ENG_ww1_small_arms_focus }
 		icon = GFX_goal_generic_military_sphere
 		available = {		}
 		completion_reward = {add_tech_bonus={ name=armor_bonus bonus=1.0 uses=2 category=armor } }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 15
-		y = 4
+		x = 14
+		y = 5
 	}
 	#-----------------------------------------
 
@@ -704,10 +551,6 @@ focus_tree = {
 	focus = {
 		id = ENG_imperial_conference
 		prerequisite = { focus = ENG_ww1_commonwealth_focus }
-
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
 
 		available = {
 		}
@@ -742,7 +585,115 @@ focus_tree = {
 		}
 	  }
 	}
+	#Focus for Canadian Stormtroopers
+	focus = {
+		id = ENG_canadian_stormtroopers
+		prerequisite = { focus=ENG_imperial_conference }
+		icon = GFX_focus_focus_fra_maquis
+		x = 20
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			add_tech_bonus = {
+				bonus = 2.00
+				uses = 2
+				category = stormtrooper_tech
 
+			}
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2
+				uses = 2
+				category = stormtrooper_tech
+
+			}
+		}
+	}
+
+	#Focus for Gorkha regiments
+	focus = {
+		id = ENG_gorkha_regiments
+		prerequisite = { focus=ENG_imperial_conference }
+		icon = GFX_focus_generic_air_defense
+		x = 21
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			add_tech_bonus = {
+				bonus = 2
+				uses = 2
+				category = mountaineers_tech
+			}
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2
+				uses = 2
+				category = mountaineers_tech
+			}
+		}
+	}
+
+	#Focus for ANZAC Marines
+	focus = {
+		id = ENG_anzac_marines
+		prerequisite = { focus=ENG_imperial_conference }
+		icon = GFX_focus_eng_special_air_service
+		x = 17
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			add_tech_bonus = {
+				bonus = 2
+				uses = 2
+				category = marine_tech
+
+			}
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2
+				uses = 2
+				category = marine_tech
+
+			}
+		}
+	}
+	
+	focus = {
+		id = ENG_ww1_service_focus
+		prerequisite = { focus=ENG_imperial_conference }
+		icon = GFX_goal_generic_position_armies
+		available = { }
+		completion_reward = { army_experience=50 navy_experience=50 air_experience=50 }
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 19
+		y = 3
+	}
+	focus = {
+		id = ENG_ww1_crypto_bomb_focus
+		prerequisite = { focus= ENG_ww1_commonwealth_focus }
+		icon = GFX_hoi4tgw_britania
+		completion_reward = { add_tech_bonus={ name=codebreaking_bonus bonus=1 uses=3 category=decryption_tech category=computing_tech } }
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 21
+		y = 2
+	}
              #################################################
 focus = {
 		id = ENG_ww1_army_effort_1

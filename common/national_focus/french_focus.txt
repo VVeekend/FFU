@@ -151,7 +151,6 @@ focus_tree = {
 		cost = 10
 		x = 4
 		y = 1
-		mutually_exclusive = { focus=FRA_ww1_back_russia }
 	}
 
 	focus = {
@@ -164,7 +163,6 @@ focus_tree = {
 		cost = 10
 		x = 6
 		y = 1
-		mutually_exclusive = { focus=FRA_ww1_back_uk }
 	}
 
 	focus = {
@@ -270,7 +268,7 @@ focus_tree = {
 
 		completion_reward = { 
             BEL = {
-            add_offsite_building= { type = arms_factory level = 4 } 
+            add_offsite_building= { type = arms_factory level = 6 } 
             }
 		}
 		ai_will_do = { factor = 12 }
@@ -286,10 +284,17 @@ focus_tree = {
 		prerequisite = { focus = FRA_ww1_diplomatic_effort }
 		icon = GFX_goal_demand_sudetenland    
 		completion_reward = {
-			add_manpower = 100000 
+       52 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+		}
 		}   
 		ai_will_do = { factor = 20 }
-		cost = 10
+		cost = 5
 		x = 8
 		y = 1
 	}	
@@ -411,7 +416,7 @@ focus_tree = {
 			}				
 		}
 		ai_will_do = { factor = 20 }
-		cost = 10
+		cost = 5
 		x = 12
 		y = 2
 	}

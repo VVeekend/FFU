@@ -82,11 +82,11 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.0
+				bonus = 2.0
 				uses = 1
 				category = land_doctrine
 			}
-		  add_political_power = -100
+		  add_political_power = 100
 		}
 		ai_will_do = { factor = 0 }
 				
@@ -103,7 +103,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		completion_reward = {
-		    add_political_power = 100
+		    add_stability = -0.10 
 			army_experience = 100
 		}
 		ai_will_do = { factor = 30 }
@@ -244,7 +244,33 @@ focus_tree = {
 		x = 13
 		y = 0
 	}
-
+	
+	#Focus for Army Purge and Reform
+	focus = {
+		id = SOV_army_purge_and_reform
+		prerequisite = { focus=SOV_ww1_diplomatic_effort }
+		icon = GFX_goal_generic_cavalry
+		x = 15
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_army_experience> 350
+		}
+		complete_tooltip = {
+			remove_ideas= RUS_ww1_tsushima_humiliation
+                add_stability = -0.15
+                army_experience = -350
+		}
+		completion_reward = {
+			remove_ideas= RUS_ww1_tsushima_humiliation
+                add_stability = -0.15
+                army_experience = -350
+		}
+	}
 
 	focus = {
 		id = SOV_ww1_BalkansPolitics
@@ -282,7 +308,36 @@ focus_tree = {
 		y = 2
 		mutually_exclusive = { focus=SOV_ww1_ApeasementBalkans }
 	}
-   
+   	focus = {
+		id = SOV_support_greece
+        prerequisite = { focus = SOV_ww1_support_serbia }
+		icon = GFX_goal_generic_military_sphere
+		x = 10
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			GRE = {
+        add_equipment_to_stockpile= {
+        type = infantry_equipment_0 
+        amount = 15000 
+        producer = GRE 
+            }
+         }
+		}
+		completion_reward = {
+			GRE = {
+         add_equipment_to_stockpile= {
+         type = infantry_equipment_0 
+         amount = 15000 
+         producer = GRE 
+            }
+        }
+		}
+	}
    	focus = {
 		id = SOV_ww1_friend_with_romania
 
@@ -294,7 +349,7 @@ focus_tree = {
 
 		completion_reward = {	
 
-        289 = {
+        365 = {
                 add_extra_state_shared_building_slots = 2
                 add_building_construction = {
                     type = industrial_complex
@@ -303,7 +358,7 @@ focus_tree = {
                 }
 		}
 			
-        285 = {
+        236 = {
                 add_extra_state_shared_building_slots = 2
                 add_building_construction = {
                     type = industrial_complex
@@ -339,11 +394,13 @@ focus_tree = {
 
 		icon = GFX_goal_generic_attack_allies
 		completion_reward = {
-            send_equipment = {
-                target = SER
-                type = infantry_equipment_1
-                amount = 10000
+        SER = {
+        add_equipment_to_stockpile= {
+        type = infantry_equipment_0
+        amount = 15000 
+        producer = SER 
             }
+         }
 		}
 		x = 8
 		y = 4
@@ -352,6 +409,7 @@ focus_tree = {
 			factor = 1
 		}	
 	}
+	
 	focus = {
 		id = SOV_ww1_pro_fra
 
@@ -420,51 +478,85 @@ focus_tree = {
         }
         ai_will_do = { factor = 20	}
     }
+	focus = {
+		id = SOV_western_factories
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus= SOV_ww1_invest_west }
+		x = 12
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+			278 = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } }
+            289 = { add_extra_state_shared_building_slots=4 add_building_construction={ type=arms_factory level=4 instant_build=yes } }
+		}
+		completion_reward = {
+			278 = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } }
+            289 = { add_extra_state_shared_building_slots=4 add_building_construction={ type=arms_factory level=4 instant_build=yes } }
+		}
+	}
 	#-----------------------------------------
-
-    focus = {
-        id = SOV_ww1_reinforce_western_forts
-        icon = GFX_goal_generic_fortify_city
-
-        prerequisite = {
-            focus = SOV_ww1_pro_fra
-        }
-
-        available = {}
+	#Focus for Invest in the East
+	focus = {
+		id = SOV_invest_in_the_east
+		icon = GFX_goal_generic_production
+		prerequisite = { focus= SOV_ww1_pro_fra }
 		x = 14
-        y = 3
-        cost = 5
-        completion_reward = {
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_tooltip = {
+            add_resource = {
+                type = tungsten
+                amount = 42
+                state = 267
+            }
+            add_resource = {
+                type = coal
+                amount = 24
+                state = 341
+            }
+            add_resource = {
+                type = steel
+                amount = 44
+                state = 224
+            }
+            add_resource = {
+                type = coal
+                amount = 34
+                state = 316
+            }
         }
-        ai_will_do = { factor = 20	}
-    }
-
-
-
-    focus = {
-        id = SOV_ww1_defy_germany
-
-        prerequisite = { focus = SOV_ww1_reinforce_western_forts }
-
-        icon = GFX_hoi4tgw_wggrus
-
-        available = {
-
+		completion_reward = {
+            add_resource = {
+                type = tungsten
+                amount = 42
+                state = 267
+            }
+            add_resource = {
+                type = coal
+                amount = 24
+                state = 341
+            }
+            add_resource = {
+                type = steel
+                amount = 44
+                state = 224
+            }
+            add_resource = {
+                type = coal
+                amount = 34
+                state = 316
+            }
         }
-		x = 14
-        y = 4
-        cost = 10
-        completion_reward = {
-            give_guarantee = FRA
-            give_guarantee = BEL
-            give_guarantee = LUX
-            give_guarantee = HOL
-        }
-        ai_will_do = { factor = 0	}
-    }
-
-
-	#-----------------------------------------
+	}
+	
 	#-----------------------------------------
 
 

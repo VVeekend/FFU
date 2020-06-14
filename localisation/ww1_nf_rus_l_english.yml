@@ -506,7 +506,14 @@ SOV_ww1_gasmask_focus_desc:0 "" #KAISER_ANONY
  SOV_ww1_polish_corps:0 "Korpus Polski w Rosji"
  SOV_ww1_polish_corps_desc:0 "" #KAISER_ANONY
 
-
+SOV_support_greece:0 "Support Greece"
+SOV_support_greece_desc:0 ""
+SOV_army_purge_and_reform:0 "Army Purge and Reform"
+SOV_army_purge_and_reform_desc:0 ""
+SOV_western_factories:0 "Western Factories"
+SOV_western_factories_desc:0 ""
+SOV_invest_in_the_east:0 "Invest in the East"
+SOV_invest_in_the_east_desc:0 ""
 
 
 

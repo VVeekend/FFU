@@ -402,7 +402,22 @@ ENG_ww1_Professional_All_Volunteer_Army_desc:0 "The British Army was different f
 ENG_Gallipoli_campaign:0 "Gallipoli Campaign"
 ENG_Gallipoli_campaign_desc:0 "The Gallipoli campaign, also known as the Dardanelles campaign, the Battle of Gallipoli or the Battle of Çanakkale, was a campaign of the First World War that took place on the Gallipoli peninsula (Gelibolu in modern Turkey), from 17 February 1915 to 9 January 1916. The Entente powers, Britain, France and the Russian Empire, sought to weaken the Ottoman Empire, one of the Central Powers, by taking control of the straits that provided a supply route to Russia."
 
-
+ENG_british_advisors:0 "British Advisors"
+ENG_british_advisors_desc:0 ""
+ENG_support_greece:0 "Support Greece"
+ENG_support_greece_desc:0 ""
+ENG_belgium_relief:0 "Belgium Relief"
+ENG_belgium_relief_desc:0 ""
+ENG_support_belgium:0 "Support Belgium"
+ENG_support_belgium_desc:0 ""
+ENG_anglo_portuguese_mineral_resource_cooperation:0 "Anglo Portuguese Mineral Resource Cooperation"
+ENG_anglo_portuguese_mineral_resource_cooperation_desc:0 ""
+ENG_canadian_stormtroopers:0 "Canadian Stormtroopers"
+ENG_canadian_stormtroopers_desc:0 ""
+ENG_gorkha_regiments:0 "Gorkha regiments"
+ENG_gorkha_regiments_desc:0 ""
+ENG_anzac_marines:0 "ANZAC Marines"
+ENG_anzac_marines_desc:0 ""
  # [FRANCE] Diplomatic Effort
  #=========================================================================
  ENG_ww1_algerie_france_desc:0 "Europe are facing dangerous times. We should focus on improving our lands to the south and ensure we can always support the mainland."
