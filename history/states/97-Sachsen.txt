@@ -9,6 +9,7 @@ state={
 	state_category = metropolis
 	resources={
 		steel=53 # was: 90
+                wood=22
 	}
 	history={
 		owner = GER

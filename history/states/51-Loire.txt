@@ -12,9 +12,8 @@ state={
 		add_core_of = FRA
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 1
+			industrial_complex = 4
 			dockyard = 1
-			air_base = 2
 		}
 		victory_points = {
 			19549 20

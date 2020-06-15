@@ -11,10 +11,13 @@ set_convoys = 800
 
 # DIPLOMACY
 
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = entente_research
+}
 
 give_guarantee = BEL # United Kingdom guaranteed the independence of Belgium - Treaty of London (1839)
-
-give_military_access = RAJ
 
 #-------------------------------------------------------
 #					POLITICS & ARMY
@@ -58,6 +61,14 @@ create_field_marshal={  name = "Kitchener H.H." id=28258 portrait_path="gfx/fiel
 	planning_skill = 2
 	logistics_skill = 2
 }
+
+create_field_marshal={  name = "John Monash" id=5006 portrait_path="gfx/hoi4tgw_portraits/AST/army_generals/AST_john_monash.dds" traits={ commando naval_invader trickster hill_fighter expert_improviser infantry_leader organisational_leader thorough_planner } skill=6 	
+    attack_skill = 8
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 3
+	}
+	
 #create_field_marshal={  name = "Lyttelton" id=28259 portrait_path="gfx/fieldmarshal/ENG_lyttelton.tga" traits={   } skill=2 }
 
 #create_corps_commander={  name = "Aston" id=28005 portrait_path="gfx/generals/ENG_aston.tga" traits={ commando  } skill=2}

@@ -12,7 +12,6 @@ state={
 		add_core_of = TUR
 		buildings = {
 			infrastructure = 3
-			air_base = 1
 		}
 		victory_points = {
 		9919 15

@@ -7,6 +7,10 @@ state={
 	manpower=2352700
 	buildings_max_level_factor=1.000
 	state_category = town
+	resources={
+		coal=39.000
+                wood=17
+	}
 	history={
 		owner = AUS
 		add_core_of = AUS

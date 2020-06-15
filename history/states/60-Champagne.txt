@@ -8,13 +8,15 @@ state={
 	manpower=1370800
 	buildings_max_level_factor=1.000
 	state_category = city
+	resources={
+		coal=44.000
+	}
 	history={
 		owner = FRA
 		add_core_of = FRA
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 1
-			air_base = 10
+			industrial_complex = 3
 		}
 		victory_points = {
 			7677 1

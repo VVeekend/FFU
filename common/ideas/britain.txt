@@ -144,10 +144,29 @@ ideas={
 				}
 			}
 			
+		ENG_Investment = {
+		
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture =GFX_idea_Eng_staff
+			
+			modifier = { production_speed_arms_factory_factor = 0.20 
+			             consumer_goods_factor = -0.05 }
+
+			}
+			
 		   ENG_Gallipoli = {
 		
 			allowed = {
-				always = no #event or decision
+				always = no
 			}
 
 			allowed_civil_war = {

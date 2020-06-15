@@ -10,6 +10,7 @@ state={
         state_category = city
 	resources={
 		aluminium=60 # was: 120
+                wood=8
 	}
 
 	history={
@@ -20,7 +21,6 @@ state={
 			dockyard = 3
 			arms_factory = 1
 			fuel_silo = 1
-			air_base = 10
 			20005 = {
 				naval_base = 10
 			}

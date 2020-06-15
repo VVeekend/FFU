@@ -13,6 +13,7 @@ state={
 		buildings = {
 			infrastructure = 6
 			fuel_silo = 1
+			industrial_complex = 2
 		}
 		victory_points = {
 		11502 3

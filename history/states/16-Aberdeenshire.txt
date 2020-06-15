@@ -11,6 +11,7 @@ state={
 	resources={
 		tungsten=4 # was: 6
 		aluminium=3 # was: 4
+                wood=40
 	}
 	history={
 		add_core_of = ENG

@@ -7,16 +7,16 @@ state={
 	manpower=9824296
 	buildings_max_level_factor=1.000
 	state_category = megalopolis
+	resources={
+		coal=60.000
+	}
 	history={
 		owner = ENG
 		add_core_of = ENG
 		buildings = {
 			infrastructure = 9
 			arms_factory = 3
-			industrial_complex = 3
-			anti_air_building = 5
-			radar_station = 1
-			air_base = 10
+			industrial_complex = 9
 		}
 		victory_points = {
 		19436 50

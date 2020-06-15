@@ -9,6 +9,7 @@ state={
 	state_category = large_city
 	resources={
 		oil=2 # was: 4
+                wood=12
 	}
 	history={
 		owner = GER
@@ -17,7 +18,7 @@ state={
 			infrastructure = 7
 			arms_factory = 2
 			industrial_complex = 1
-			dockyard = 2
+			dockyard = 4
 			}
 		victory_points = {
 		5824 3

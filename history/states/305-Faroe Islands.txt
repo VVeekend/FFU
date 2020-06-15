@@ -9,8 +9,6 @@ state={
 	state_category = enclave
 	history=
 	{
-		owner = DEN
-		add_core_of = DEN
 		buildings = {
 			infrastructure = 4
 			}

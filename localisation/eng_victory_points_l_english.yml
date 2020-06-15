@@ -123,11 +123,11 @@
   VICTORY_POINTS_9777:0 "Aviemore"
   
   ###Egypt####
-  VICTORY_POINTS_16890:0 "Alexandria"
+  VICTORY_POINTS_20328:0 "Alexandria"
   VICTORY_POINTS_7391:0 "Rasheed"
   VICTORY_POINTS_3968:0 "Damietta"
   VICTORY_POINTS_4285:0 "Tanta"
-  VICTORY_POINTS_3214:0 "El Alamein"
+  VICTORY_POINTS_20330:0 "El Alamein"
   VICTORY_POINTS_11529:0 "Cairo"
   VICTORY_POINTS_2265:0 "Beni Suef"
   VICTORY_POINTS_2595:0 "Suez"
@@ -138,7 +138,7 @@
   VICTORY_POINTS_2614:0 "Hasna"
   
   ####Palestine####
-  VICTORY_POINTS_7990:0 "Jerusalem"
+  VICTORY_POINTS_20325:0 "Jerusalem"
   VICTORY_POINTS_2904:0 "Tel Aviv Yafo"
   VICTORY_POINTS_2369:0 "Gaza"
   VICTORY_POINTS_16846:0 "Eilat"
@@ -149,7 +149,7 @@
   ####Jordan####
   VICTORY_POINTS_11512:0 "Maan"
   VICTORY_POINTS_16714:0 "Irbid"
-  VICTORY_POINTS_10009:0 "Amman"
+  VICTORY_POINTS_20326:0 "Amman"
   VICTORY_POINTS_2726:0 "At Tafilah"
   
   ####Lebanon####

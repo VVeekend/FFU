@@ -10,6 +10,7 @@ state={
 	state_category = city
 	resources={
 		aluminium=11 # was: 18
+                wood=10
 	}
 	history={
 		owner = FRA
@@ -17,7 +18,7 @@ state={
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
-			air_base = 2
+                        arms_factory = 2
 		}
         }
 }

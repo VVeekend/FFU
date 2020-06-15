@@ -169,7 +169,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_ww1_massive_effort
-		prerequisite = { focus=AUS_ww1_same_language focus=AUS_ww1_autrichian_lead focus=AUS_ww1_oppression_minorities}
+		prerequisite = { focus=AUS_ww1_same_language focus=AUS_ww1_autrichian_lead }
 		icon = GFX_goal_generic_construction
 
 		completion_reward = {
@@ -249,7 +249,7 @@ focus_tree = {
 	#-----------------------------------------------------------------------
 	focus = {
 		id = AUS_ww1_oirganization_realm
-		prerequisite = { focus=AUS_ww1_give_italy_territories focus=AUS_ww1_military_advisors focus=AUS_ww1_rom_give_bucovina focus=AUS_ww1_anti_ru_limit_trade}
+		prerequisite = { focus=AUS_ww1_military_advisors }
 		icon = GFX_goal_anschluss
 		available = { }
 		completion_reward = { 
@@ -373,7 +373,6 @@ focus_tree = {
 		prerequisite = { 
 			focus=AUS_ww1_polnische_wehrmacht
 			focus=AUS_ww1_fortify_coast_dalmatia
-			focus=AUS_ww1_airport_russian_borders
 		}
 		icon = GFX_goal_generic_special_forces
 		available = { }

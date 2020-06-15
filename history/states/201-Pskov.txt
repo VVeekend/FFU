@@ -2,11 +2,14 @@ state={
 	state_category = town
 	id=201
 	name="STATE_201"
+	resources={
+		wood=33
+	}
 	history={
 		owner = SOV
 		add_core_of = SOV
 		buildings = {
-			infrastructure = 6 
+	   infrastructure = 6 
             industrial_complex = 2 
             arms_factory = 1 }
 		victory_points = {

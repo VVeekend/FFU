@@ -9,6 +9,7 @@ state={
 	state_category=rural
 	resources={
 		chromium=35 # was: 46.000
+                coal=12
 	}
 	history={
 		owner = SOV

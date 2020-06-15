@@ -1,32 +1,30 @@
 
  technology_sharing_group = {
 
-	id = commonwealth_research
-	name = commonwealth_research_name
-	desc = commonwealth_research_desc
+	id = entente_research
+	name = entente_research_name
+	desc = entente_research_desc
 	picture = GFX_commonwealth_research
     
 	research_sharing_per_country_bonus = 0.1
 
     available = {
         is_in_faction_with = ENG
-        compare_autonomy_state > autonomy_puppet
     }
 
 }
 
-technology_sharing_group = {
+ technology_sharing_group = {
 
-	id = continuous_tech_share
-	name = continuous_tech_share_group_name
-	desc = continuous_tech_share_group_desc
-	picture = GFX_technology_sharing_default
+	id = central_powers_research
+	name = central_powers_research_name
+	desc = central_powers_research_desc
+	picture = GFX_commonwealth_research
     
 	research_sharing_per_country_bonus = 0.1
-	is_faction_sharing = yes
 
     available = {
-        is_in_faction = yes
+        is_in_faction_with = GER
     }
 
 }

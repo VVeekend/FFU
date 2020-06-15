@@ -9,6 +9,7 @@ state={
 	buildings_max_level_factor=1.000
 	resources={
 		chromium=18 # was: 24
+                wood=52
 	}
 	history={
 		owner = SOV

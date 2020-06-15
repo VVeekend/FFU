@@ -12,7 +12,6 @@ state={
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 5
-			air_base = 3
 		}
 		victory_points = {
 			5659 3

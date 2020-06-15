@@ -8,13 +8,17 @@ state={
 	manpower=1864700
 	buildings_max_level_factor=1.000
 	state_category=large_city
+	resources={
+		wood=15
+                coal=8
+                steel=12
+	}
 	history={
 		owner = SER
 		add_core_of = SER
 			buildings = {
 				infrastructure = 6
 				industrial_complex = 4
-				air_base = 5
 				arms_factory = 3
 			}
 	victory_points = {

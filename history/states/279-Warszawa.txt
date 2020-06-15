@@ -2,16 +2,17 @@
 state={
 	id=279
 	name="STATE_279"
-
+	resources={
+		coal=30
+                wood=8
+	}
 	history={
 		owner = SOV
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 7
-			arms_factory = 6
+			arms_factory = 2
 			industrial_complex = 2
-			anti_air_building = 2
-			air_base = 5
 
 		}
 		victory_points = {

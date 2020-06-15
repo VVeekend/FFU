@@ -5,6 +5,7 @@ state={
 	resources={
 		steel=20.000
 		aluminium=11.000
+                coal=32
 	}
 
 	history={
@@ -15,7 +16,6 @@ state={
 			arms_factory = 2
 			industrial_complex = 4
 			dockyard = 1
-			air_base = 3
 
 		}
 		victory_points = {

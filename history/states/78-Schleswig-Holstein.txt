@@ -7,6 +7,9 @@ state={
 	manpower=3248150
 	buildings_max_level_factor=1.000
 	state_category = large_city
+	resources={
+		coal=37
+	}
 	history= {
 		owner = GER
                 add_core_of = GER
@@ -14,7 +17,6 @@ state={
 			infrastructure = 6
 			arms_factory = 2
 			dockyard = 6
-			air_base = 5
                       }
 		victory_points = {
 		318 3

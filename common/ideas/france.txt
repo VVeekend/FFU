@@ -322,7 +322,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = GFX_focus_france
+			picture =generic_victors_of_ww1
 			
 			targeted_modifier = {
 				tag = GER
@@ -357,7 +357,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = GFX_focus_france
+			picture =generic_victors_of_ww1
 			
 			targeted_modifier = {
 				tag = GER
@@ -376,21 +376,35 @@ ideas = {
 			
 		}
 	
-
-    Franch_Staff = {
+    FRA_Supreme = {
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 
 			removal_cost = -1
 
-       picture = GFX_idea_French_staff
+       picture =generic_victors_of_ww1
 
-			modifier = {
-				experience_gain_air = 0.02
-        land_reinforce_rate = 0.05
-    		minimum_training_level = -0.1
-        supply_consumption_factor = -0.05
+		modifier = {
+		planning_speed = 0.10
+        land_reinforce_rate = 0.02
+    	minimum_training_level = -0.1
+        supply_consumption_factor = -0.15
 			}
+		}
+		
+    French_Staff = {
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+        picture = MEX_revolutionary_army
+		modifier = {
+        land_reinforce_rate = -0.02
+    	minimum_training_level =  0.1
+        supply_consumption_factor = 0.05
+			}
+		research_bonus = { 	land_doctrine = -0.10
+		  }
 		}
 
         FRA_ww1_Revanchism = {

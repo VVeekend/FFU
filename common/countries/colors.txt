@@ -5,7 +5,7 @@ GER = {
 	color_ui = rgb { 147 130 110 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
+	color = rgb { 207 20 43 }
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
@@ -17,7 +17,7 @@ SWE = {
 	color_ui = rgb { 84 133 186 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
+	color = rgb { 0 85 164 }
 	color_ui = rgb { 74 147 255 }
 }
 LUX = {
@@ -102,13 +102,13 @@ FIN = {
 }
 
 MNT = {
-	color = rgb { 72  73  126 }
-	color_ui = rgb { 72  73  126 }
+	color = rgb { 121 141 224 }
+	color_ui = rgb { 133 155 246 }
 }
 
 SER = {
 	color = rgb { 72  73  126 }
-	color_ui = rgb { 72  73  126 }
+	color_ui = rgb { 133 155 246 }
 }
 
 PER = {

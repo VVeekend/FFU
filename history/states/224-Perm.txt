@@ -4,6 +4,7 @@ state={
 	name="STATE_224"
 	resources={
 		aluminium=6 # was: 10
+                tungsten=22
 	}
 	history={
 		owner = SOV

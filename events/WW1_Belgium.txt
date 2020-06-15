@@ -14,13 +14,8 @@ country_event = {
 		GER={
 			has_war_with=BEL
 			}
-		NOT={
-			GER={
-				has_country_flag=Atrocities
-				}
-			}
 		or={
-			2={
+			48={
 				controller={
 					is_in_faction_with=GER
 					}
@@ -43,45 +38,4 @@ country_event = {
 			}
 		}
 	}
-	
-	country_event = {
-	    id = ww1_belgium.4
-		title = ww1_belgium.4.t
-		desc = ww1_belgium.4.d
-		
-		is_triggered_only = yes
-		
-		option = {
-		    ai_chance = { factor = 50 modifier = { factor = 85 BEL = { is_in_faction_with = ROOT } } modifier = { factor = 0 BEL = { is_in_faction_with = FRA } } }
-		    name = ww1_belgium.4.a
-			BEL = { transfer_state = 768 }
-		}
-		option = {
-		    ai_chance = { factor = 50 modifier = { factor = 15 BEL = { is_in_faction_with = ROOT } } modifier = { factor = 100 BEL = { is_in_faction_with = FRA } } }
-		    name = ww1_belgium.4.b
-		}
-	}
-	
-	country_event = {
-	    id = ww1_belgium.5
-		title = ww1_belgium.5.t
-		desc = ww1_belgium.5.d
-		
-		is_triggered_only = yes
-		
-		immediate = { hidden_effect = { set_cosmetic_tag = GBL } }
-		
-		option = {
-		    ai_chance = { factor = 100 }
-			trigger = { OR = { country_exists = HOL country_exists = LUX } }
-		    name = ww1_belgium.5.a
-			if = { limit = { country_exists = HOL } HOL = { country_event = { id = ww1_belgium.3 } } }
-			if = { limit = { country_exists = LUX } LUX = { country_event = { id = ww1_belgium.3 } } }
-		}
-		option = {
-		    ai_chance = { factor = 100 }
-			trigger = { NOT = { country_exists = HOL country_exists = LUX } }
-			every_state = { limit = { is_controlled_by = ROOT is_on_continent = europe } add_core_of = ROOT }
-		    name = ww1_belgium.5.b
-		}
-	}
+

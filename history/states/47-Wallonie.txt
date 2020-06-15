@@ -2,7 +2,9 @@
 state={
 	id=47
 	name="STATE_47"
-
+	resources={
+		wood=40.000
+	}
 	history={
 		owner = BEL
 		add_core_of = BEL
@@ -10,7 +12,6 @@ state={
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 4
-			air_base = 1
 
 		}
 		victory_points = {
@@ -26,7 +27,7 @@ state={
 			19473 1 
 		}
 		victory_points = {
-			14239 5 
+			8299 5 
 		}
 		victory_points = {
 			7011 5 

@@ -10,6 +10,7 @@ state={
 	state_category = city
 	resources={
 		aluminium=18 # was: 30
+                coal=21
 	}
 	history={
 		owner = GER
@@ -17,8 +18,7 @@ state={
 		buildings = {
 			infrastructure = 7
 			arms_factory = 2
-			industrial_complex = 1
-			air_base = 6
+			industrial_complex = 3
 		}
 		victory_points = {	
 		14930 1

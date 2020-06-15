@@ -91,7 +91,7 @@
   VICTORY_POINTS_985:0 "Serpukhov"
   
   ####Leningrad####
-  VICTORY_POINTS_12534:0 "Leningrad"
+  VICTORY_POINTS_12534:0 "Petrograd"
   VICTORY_POINTS_12506:0 "Sestroretsk"
   VICTORY_POINTS_4266:0 "Petergof"
   VICTORY_POINTS_20059:0 "Smolyachkovo"
@@ -581,3 +581,5 @@
   VICTORY_POINTS_11218:0 "Ninotsminda"
   VICTORY_POINTS_3217:0 "Akhaltsikhe"
   VICTORY_POINTS_10309:0 "Bakuriani"
+  
+  VICTORY_POINTS_20320:0 "Kiev"

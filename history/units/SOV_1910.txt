@@ -1540,14 +1540,65 @@ units = {
 			start_equipment_factor = 0.3
 			start_manpower_factor = 0.3
 			}
+navy = {
+		name = "Baltiysky Flot"
+		location = 8493 # Sevastopol
+		base =  8493 # Sevastopol
+     ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } } 
+	 ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+	 ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+	 ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+	 ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+	 ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Protected Cruisers" } } }
+	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Protected Cruisers" } } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pre-1905 Destroyer"} } }
+	  }
+         }
 	}
 air_wings = {
 	}
 
 #Tuned in dev03
 instant_effect = {
-	add_equipment_production = { equipment = { type = support_equipment_1 creator = "RUS" } requested_factories = 4 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "RUS" } requested_factories = 5 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "RUS" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "RUS" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = support_equipment_1 creator = "SOV" } requested_factories = 4 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "SOV" } requested_factories = 5 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "SOV" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "SOV" } requested_factories = 1 progress = 0.1 efficiency = 50}
 	}

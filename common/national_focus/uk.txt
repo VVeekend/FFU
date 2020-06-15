@@ -173,7 +173,7 @@ focus_tree = {
 			} 
 		}
 		ai_will_do = { factor = 120 }
-		cost = 10
+		cost = 5
 		x = 7
 		y = 1
 	}
@@ -194,7 +194,35 @@ focus_tree = {
 		x = 5
 		y = 2
 	}
+	
+	 focus = {
+        id = ENG_Investment
+		prerequisite = { focus=ENG_ww1_back_france }
+		icon = GFX_hoi4tgw_marianne
+		available = { }
+		
 
+		completion_reward = {
+
+			FRA = {
+				add_timed_idea = {
+					days = 365
+					idea = ENG_Investment
+			}
+			
+		}
+		}
+		x = 4
+		y = 4
+		cost = 2
+
+
+		ai_will_do = { 
+			factor = 500
+		}
+	     
+	}
+	
 	focus = {
 		id = ENG_ww1_back_russia
 		prerequisite = { focus=ENG_ww1_send_diplomats }
@@ -215,29 +243,36 @@ focus_tree = {
 	focus = {
 		id = ENG_ww1_triple_alliance
 		prerequisite = { focus=ENG_ww1_back_france focus=ENG_ww1_back_russia }
-
-
 		icon = GFX_goal_generic_demand_territory
 
-		bypass = {
-			is_in_faction_with = FRA
-		}
-
-		available = {
-			NOT = { has_war_with = FRA }
-			NOT = { has_war_with = RUS }
-
-	        FRA = {
-	            is_faction_leader = yes
-	        }
-		}
-
 		completion_reward = { 
-            FRA = {
-                add_to_faction = ENG
-            }
-		}
-
+		ENG = {
+ 			add_to_tech_sharing_group = entente_research }
+			
+		FRA = {
+ 			add_to_tech_sharing_group = entente_research }
+		
+		SOV = {
+ 			add_to_tech_sharing_group = entente_research }
+	
+		POR = {
+ 			add_to_tech_sharing_group = entente_research }
+	
+		ITA = {
+ 			add_to_tech_sharing_group = entente_research }
+	
+		BEL = {
+ 			add_to_tech_sharing_group = entente_research }
+	
+		GRE = {
+ 			add_to_tech_sharing_group = entente_research }
+			
+		SER = {
+ 			add_to_tech_sharing_group = entente_research }
+           
+		ROM = {
+ 			add_to_tech_sharing_group = entente_research }
+           	}	   
 		ai_will_do = {
 			factor = 800
 			modifier = {
@@ -334,9 +369,6 @@ focus_tree = {
 		prerequisite = { focus = ENG_support_belgium }
 		ai_will_do = {
 			factor = 1
-		}
-		available = {
-			BEL = { has capitulated = yes }
 		}
 		complete_tooltip = {
 			BEL = {
@@ -668,7 +700,7 @@ focus_tree = {
 				bonus = 2
 				uses = 2
 				category = marine_tech
-
+				
 			}
 		}
 	}
@@ -1532,7 +1564,7 @@ focus = {
 		prerequisite = { focus=ENG_ww1_production_effort_2 }
 		icon = GFX_goal_generic_construct_mil_factory
 		bypass = { custom_trigger_tooltip={ tooltip=production_effort_tt all_owned_state={ free_building_slots={ building=arms_factory size < 1 include_locked=yes }					 } } }
-		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } } }
 		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 10
@@ -1873,15 +1905,14 @@ focus = {
         id = ENG_Gallipoli_campaign
 		prerequisite = {}
 		icon = GFX_gallipolicampaign
-		available = {
-
-		}
+		available = {  has_war_with = TUR }
+		
 
 		completion_reward = {
 
 			ENG = {
 				add_timed_idea = {
-					days = 70
+					days = 100
 					idea = ENG_Gallipoli
 			}
 			

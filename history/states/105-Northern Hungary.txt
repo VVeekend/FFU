@@ -3,7 +3,7 @@ state={
 	id=105
 	name="STATE_105"
 	resources={
-		steel=3.000
+		steel=30.000
 		aluminium=100.000
 	}
 
@@ -14,7 +14,6 @@ state={
 			infrastructure = 6
 			arms_factory = 4
 			industrial_complex = 4
-			air_base = 4
 
 		}
 		victory_points = {

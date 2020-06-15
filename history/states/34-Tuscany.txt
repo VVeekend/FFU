@@ -8,7 +8,9 @@ state={
 	manpower=3084933
 	buildings_max_level_factor=1.000
         state_category = large_city
-
+	resources={
+		wood=12
+	}
 	history={
 		owner = ITA
                 add_core_of = ITA
@@ -17,7 +19,6 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 			dockyard = 3
-			air_base = 2
 		}
 		victory_points = {
 		10911 5 

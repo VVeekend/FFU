@@ -7,6 +7,9 @@ state={
 	manpower=726000
 	buildings_max_level_factor=1.000
 	state_category = rural
+	resources={
+		wood=12
+	}
 	history={
 		owner = SOV
 		add_core_of = SOV

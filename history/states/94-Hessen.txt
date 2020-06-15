@@ -7,6 +7,9 @@ state={
 	manpower=3798235
 	buildings_max_level_factor=1.000
 	state_category = large_city
+	resources={
+		wood=27
+	}
 	history={
 		owner = GER
 		add_core_of = GER

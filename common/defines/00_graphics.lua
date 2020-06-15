@@ -532,12 +532,12 @@ NAirGfx = {
 	SCOUT_PLANE_DIVISION_FACTOR = 60,				-- Number of missiles shown in a strategic region will be divided by this factor.
 	TRANSPORT_DIVISION_FACTOR = 40,
 	MAX_MISSILE_BOMBING_SCENARIOS = 15,				-- Max number of missile bombing scenarios in a strategic region.
-	MAX_PATROL_SCENARIOS = 6,						-- Max number of patrol scenarios in a strategic region.
-	MAX_BOMBING_SCENARIOS = 6,						-- Max number of bombings scenarios in a strategic region.
-	MAX_DOGFIGHTS_SCENARIOS = 6,					-- Max number of dogfight scenarios in a strategic region.
-	MAX_TRANSPORT_SCENARIOS = 6,					-- Max number of transport scenarios in a strategic region
-	MAX_TRAINING_SCENARIOS = 6,						-- Max number of training scenarios in a strategic region
-	MAX_SCOUT_SCENARIOS = 6,
+	MAX_PATROL_SCENARIOS = 25,						-- Max number of patrol scenarios in a strategic region.
+	MAX_BOMBING_SCENARIOS = 25,						-- Max number of bombings scenarios in a strategic region.
+	MAX_DOGFIGHTS_SCENARIOS = 25,					-- Max number of dogfight scenarios in a strategic region.
+	MAX_TRANSPORT_SCENARIOS = 25,					-- Max number of transport scenarios in a strategic region
+	MAX_TRAINING_SCENARIOS = 25,						-- Max number of training scenarios in a strategic region
+	MAX_SCOUT_SCENARIOS = 25,
 },
 
 NGraphics = {

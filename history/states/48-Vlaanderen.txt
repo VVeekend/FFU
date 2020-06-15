@@ -4,6 +4,7 @@ state={
 	name="STATE_48"
 	resources={
 		steel=25.000
+                coal=20
 	}
 
 	history={
@@ -29,7 +30,7 @@ state={
 			4910 20 
 		}
 		victory_points = {
-			6361 40 
+			20071 40 
 		}
 		victory_points = {
 			14158 10 
@@ -38,7 +39,7 @@ state={
 			14146 5 
 		}
 		victory_points = {
-			14106 20 
+			5331 20 
 		}
 		add_extra_state_shared_building_slots = 4
 

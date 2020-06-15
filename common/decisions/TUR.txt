@@ -1,0 +1,44 @@
+foreign_politics = {
+TUR_annex_BUL = {
+		icon = generic_operation
+
+			allowed = {
+				tag = TUR
+			}
+
+			available = {
+				BUL = { is_ai = yes }
+				date > 1914.6.1 
+			}
+			
+			fire_only_once = yes
+
+			cost = 0
+
+			visible = {
+			country_exists = BUL
+				}
+				
+			complete_effect = {
+				TUR = { 
+					annex_country = {
+						target = BUL
+						transfer_troops = yes 
+					}
+			}
+			BUL = { 
+			   every_unit_leader = {
+				    set_nationality = TUR
+			    }
+				transfer_navy = {
+					target = TUR
+				}
+			
+			}
+			hidden_effect = {
+			BUL = { remove_state_core = 147   remove_state_core = 148 remove_state_core = 149 } 
+			}
+		}
+
+}
+}

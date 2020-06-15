@@ -12,9 +12,8 @@ state={
 		add_core_of = ENG
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 1
+			industrial_complex = 3
 			dockyard = 1
-			air_base = 3
 		}
 		victory_points = {
 		11055 1
