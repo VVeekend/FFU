@@ -9,7 +9,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = town
 	resources={
-		aluminium=14 # was: 22
+		aluminium=25 # was: 22
 		tungsten=60.000
 	}
 	history={

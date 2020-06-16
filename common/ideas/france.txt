@@ -400,8 +400,8 @@ ideas = {
         picture = MEX_revolutionary_army
 		modifier = {
         land_reinforce_rate = -0.02
-    	minimum_training_level =  0.1
-        supply_consumption_factor = 0.05
+    	minimum_training_level =  0.2
+        supply_consumption_factor = 0.15
 			}
 		research_bonus = { 	land_doctrine = -0.10
 		  }

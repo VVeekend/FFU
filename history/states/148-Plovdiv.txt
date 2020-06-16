@@ -3,6 +3,9 @@ state={
 	id=148
 	name="STATE_148"
 
+	resources={
+		wood=24 
+	}
 	history={
 		owner = BUL
 		add_core_of = BUL

@@ -1057,7 +1057,7 @@ focus_tree = {
 focus = {
 		id = USA_ww1_army_effort_1
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_1 }
 		mutually_exclusive = { focus = USA_ww1_artillery_effort_1 }
@@ -1071,7 +1071,7 @@ focus = {
 		id = USA_ww1_equipment_effort_1
 		prerequisite = {  }
 		icon = GFX_goal_generic_small_arms
-		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=infantry_weapons} }
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=infantry_weapons} }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_1 }
 		mutually_exclusive = { focus = USA_ww1_artillery_effort_1 }
@@ -1085,7 +1085,7 @@ focus = {
 		id = USA_ww1_artillery_effort_1
 		prerequisite = { }
 		icon = GFX_goal_generic_army_artillery2
-		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=artillery } }
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=artillery } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_1 }
 		mutually_exclusive = { focus = USA_ww1_aircraftprod_1 }
@@ -1099,7 +1099,7 @@ focus = {
 		id = USA_ww1_aircraftprod_1
 		prerequisite = {  }
 		icon = GFX_goal_generic_air_production
-		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=0.5 uses=1 category=air_equipment } }
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1 uses=1 category=air_equipment } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_1 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_1 }
@@ -1113,7 +1113,7 @@ focus = {
 		id = USA_ww1_large_navy_1
 		prerequisite = {  }
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=0.5 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=0.5 uses=1 category=air_doctrine }}
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=1 uses=1 category=air_doctrine }}
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		mutually_exclusive = { focus = USA_ww1_army_effort_1 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_1 }
@@ -1135,7 +1135,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_1
 		 focus=USA_ww1_large_navy_1}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_2 }
 		mutually_exclusive = { focus = USA_ww1_artillery_effort_2 }
@@ -1153,7 +1153,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_1
 		 focus=USA_ww1_large_navy_1}
 		icon = GFX_goal_generic_small_arms
-		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=infantry_weapons} }
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=infantry_weapons} }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_2 }
 		mutually_exclusive = { focus = USA_ww1_artillery_effort_2 }
@@ -1171,7 +1171,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_1
 		 focus=USA_ww1_large_navy_1}
 		icon = GFX_goal_generic_army_artillery2
-		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=artillery } }
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=artillery } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_2 }
 		mutually_exclusive = { focus = USA_ww1_aircraftprod_2 }
@@ -1189,7 +1189,7 @@ focus = {
 		focus=USA_ww1_aircraftprod_1
 		focus=USA_ww1_large_navy_1}
 		icon = GFX_goal_generic_air_production
-		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=0.5 uses=1 category=air_equipment } }
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1 uses=1 category=air_equipment } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_2 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_2 }
@@ -1207,7 +1207,7 @@ focus = {
 		focus=USA_ww1_aircraftprod_1
 		focus=USA_ww1_large_navy_1}
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=0.5 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=0.5 uses=1 category=air_doctrine }}
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=1 uses=1 category=air_doctrine }}
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		mutually_exclusive = { focus = USA_ww1_army_effort_2 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_2 }
@@ -1227,7 +1227,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_2
 		 focus=USA_ww1_large_navy_2}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_3 }
 		mutually_exclusive = { focus = USA_ww1_artillery_effort_3 }
@@ -1245,7 +1245,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_2
 		 focus=USA_ww1_large_navy_2}
 		icon = GFX_goal_generic_small_arms
-		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=infantry_weapons} }
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=infantry_weapons} }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_3 }
 		mutually_exclusive = { focus = USA_ww1_artillery_effort_3 }
@@ -1263,7 +1263,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_2
 		 focus=USA_ww1_large_navy_2}
 		icon = GFX_goal_generic_army_artillery2
-		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=artillery } }
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=artillery } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_3 }
 		mutually_exclusive = { focus = USA_ww1_aircraftprod_3 }
@@ -1281,7 +1281,7 @@ focus = {
 		focus=USA_ww1_aircraftprod_2
 		focus=USA_ww1_large_navy_2}
 		icon = GFX_goal_generic_air_production
-		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=0.5 uses=1 category=air_equipment } }
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1 uses=1 category=air_equipment } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_3 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_3 }
@@ -1299,7 +1299,7 @@ focus = {
 		focus=USA_ww1_aircraftprod_2
 		focus=USA_ww1_large_navy_2 }
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=0.5 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=0.5 uses=1 category=air_doctrine }}
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=1 uses=1 category=air_doctrine }}
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		mutually_exclusive = { focus = USA_ww1_army_effort_3 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_3 }
@@ -1319,7 +1319,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_3
 		 focus=USA_ww1_large_navy_3}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_4 }
 		mutually_exclusive = { focus = USA_ww1_artillery_effort_4 }
@@ -1337,7 +1337,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_3
 		 focus=USA_ww1_large_navy_3}
 		icon = GFX_goal_generic_small_arms
-		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=infantry_weapons} }
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=infantry_weapons} }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_4 }
 		mutually_exclusive = { focus = USA_ww1_artillery_effort_4 }
@@ -1355,7 +1355,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_3
 		 focus=USA_ww1_large_navy_3 }
 		icon = GFX_goal_generic_army_artillery2
-		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=artillery } }
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=artillery } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_4 }
 		mutually_exclusive = { focus = USA_ww1_aircraftprod_4 }
@@ -1373,7 +1373,7 @@ focus = {
 		focus=USA_ww1_aircraftprod_3
 		focus=USA_ww1_large_navy_3}
 		icon = GFX_goal_generic_air_production
-		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=0.5 uses=1 category=air_equipment } }
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1 uses=1 category=air_equipment } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_4 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_4 }
@@ -1391,7 +1391,7 @@ focus = {
 		focus=USA_ww1_aircraftprod_3
 		focus=USA_ww1_large_navy_3 }
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=0.5 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=0.5 uses=1 category=air_doctrine }}
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=1 uses=1 category=air_doctrine }}
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		mutually_exclusive = { focus = USA_ww1_army_effort_4 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_4 }
@@ -1413,7 +1413,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_4
 		 focus=USA_ww1_large_navy_4}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=0.5 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_5 }
 		mutually_exclusive = { focus = USA_ww1_artillery_effort_5 }
@@ -1431,7 +1431,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_4
 		 focus=USA_ww1_large_navy_4}
 		icon = GFX_goal_generic_small_arms
-		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=infantry_weapons} }
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=infantry_weapons} }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_5 }
 		mutually_exclusive = { focus = USA_ww1_artillery_effort_5 }
@@ -1449,7 +1449,7 @@ focus = {
 		 focus=USA_ww1_aircraftprod_4
 		 focus=USA_ww1_large_navy_4 }
 		icon = GFX_goal_generic_army_artillery2
-		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=0.5 uses=1 category=artillery } }
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=artillery } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_5 }
 		mutually_exclusive = { focus = USA_ww1_aircraftprod_5 }
@@ -1467,7 +1467,7 @@ focus = {
 		focus=USA_ww1_aircraftprod_4
 		focus=USA_ww1_large_navy_4}
 		icon = GFX_goal_generic_air_production
-		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=0.5 uses=1 category=air_equipment } }
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1 uses=1 category=air_equipment } }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = USA_ww1_army_effort_5 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_5 }
@@ -1485,7 +1485,7 @@ focus = {
 		focus=USA_ww1_aircraftprod_4
 		focus=USA_ww1_large_navy_4 }
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=0.5 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=0.5 uses=1 category=air_doctrine }}
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=1 uses=1 category=air_doctrine }}
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
 		mutually_exclusive = { focus = USA_ww1_army_effort_5 }
 		mutually_exclusive = { focus = USA_ww1_equipment_effort_5 }
@@ -1505,7 +1505,7 @@ focus = {
 		focus=USA_ww1_aircraftprod_5
 		focus=USA_ww1_large_navy_5 }
 		icon = GFX_hoi4tgw_renaultft
-		completion_reward = { army_experience=50 add_tech_bonus={ name=armor_bonus bonus=0.5 uses=2 category=armor } }
+		completion_reward = { army_experience=50 add_tech_bonus={ name=armor_bonus bonus=1 uses=2 category=armor } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 24

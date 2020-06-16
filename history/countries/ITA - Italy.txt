@@ -20,35 +20,35 @@ create_country_leader={ name = "Vittorio Emanuele III" desc=ITA_vittorio_emanuel
 
 #ARMY
 create_field_marshal={  name = "Luigi Cadorna" id=46028 portrait_path="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Luigi_Cadorna.dds" traits={  old_guard } skill=2 
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
-create_field_marshal={  name = "Armando Diaz" id=46025 portrait_path="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Armando_Diaz.dds" traits={   } skill=4 
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
+create_field_marshal={  name = "Armando Diaz" id=46025 portrait_path="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Armando_Diaz.dds" traits={ trait_mountaineer infantry_leader } skill=4 
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
 	logistics_skill = 3
 }
 
 create_corps_commander={  name = "Pecori Giraldi" id=46071 portrait_path="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Pecori_Giraldi.dds" traits={   } skill=2 
-	attack_skill = 1
+	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander={  name = "Carlo Caneva" id=46009 portrait_path="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Carlo_Caneva.dds" traits={   } skill=3 
-	attack_skill = 1
-	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
+}
+create_corps_commander={  name = "Carlo Caneva" id=46009 portrait_path="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Carlo_Caneva.dds" traits={ desert_fox } skill=3 
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 create_corps_commander={  name = "Emanuele Filiberto" id=46070 portrait_path="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Emanuele_Filiberto.dds" traits={   } skill=3 
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 #NAVY

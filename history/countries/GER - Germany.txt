@@ -55,7 +55,7 @@ create_corps_commander = {
 	}
 	skill = 3
 	attack_skill = 2
-	defense_skill = 1
+	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
 }
@@ -67,10 +67,10 @@ create_corps_commander = {
 
 	}
 	skill = 3
-	attack_skill = 1
-	defense_skill = 2
+	attack_skill = 2
+	defense_skill = 4
 	planning_skill = 2
-	logistics_skill = 1
+	logistics_skill = 4
 }
 create_corps_commander = {
 	name = "von Preußen W." 
@@ -102,14 +102,14 @@ create_corps_commander = {
 	name = "von Falkenhayn Erich" 
 	id = 34040
 	portrait_path = "gfx/generals/GER_von_falkenhayn_erich.dds"
-	traits = {
+	traits = { trickster
 
 	}
 	skill = 3
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 6
 }
 create_corps_commander = {
 	name = "von Einem" 
@@ -132,8 +132,8 @@ create_corps_commander = {
 	skill = 4
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_field_marshal = {
 	name = "Erich Ludendorff" 
@@ -197,10 +197,10 @@ create_corps_commander = {
 
 	}
 	skill = 4
-	attack_skill = 1
-	defense_skill = 1
+	attack_skill = 3
+	defense_skill = 3
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "von Gündell" 
@@ -233,13 +233,13 @@ create_corps_commander = {
 	id = 34117
 	portrait_path = "gfx/generals/GER_krafft_von_dellmensingen.dds"
 	traits = {
-		commando  
+		commando trait_mountaineer 
 	}
 	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Sixt von Armin" 
@@ -249,10 +249,10 @@ create_corps_commander = {
 		fortress_buster  
 	}
 	skill = 3
-	attack_skill = 1
+	attack_skill = 2
 	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "von Schlieffen" 
@@ -262,8 +262,8 @@ create_corps_commander = {
 
 	}
 	skill = 3
-	attack_skill = 1
-	defense_skill = 1
+	attack_skill = 3
+	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
 }

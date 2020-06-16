@@ -9,7 +9,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = large_city
 	resources={
-		steel=5 # was: 8
+		steel=32 # was: 8
                 wood=19
 	}
 	history={
