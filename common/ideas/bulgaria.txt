@@ -29,7 +29,7 @@ ideas={
 
 
 	theorist={
-			BUL_nikola_zhekov={ allowed={ tag=BUL } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
+			BUL_nikola_zhekov={ ledger = army allowed={ tag=BUL } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			}
 
 	air_chief={
@@ -38,14 +38,14 @@ ideas={
 
 
 	high_command={
-			BUL_radul_milkov={ allowed={ tag=BUL } traits={ air_close_air_support_1 } ai_will_do={ factor=1 } }
-			BUL_hristo_burmov={ allowed={ tag=BUL } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
-			BUL_nikola_topaldzhikov={ allowed={ tag=BUL } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			BUL_mihail_savov={ allowed={ tag=BUL } traits={ army_infantry_2 } ai_will_do={ factor=1 } }
-			BUL_pravoslav_tenev={ allowed={ tag=BUL } traits={ army_commando_1 } ai_will_do={ factor=1 } }
-			BUL_lazar_draganov={ allowed={ tag=BUL } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
-			BUL_ivan_fichev={ allowed={ tag=BUL } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
-			BUL_stepan_paprikov={ allowed={ tag=BUL } traits={ army_concealment_1 } ai_will_do={ factor=1 } }
+			BUL_radul_milkov={ ledger = air allowed={ tag=BUL } traits={ air_close_air_support_1 } ai_will_do={ factor=1 } }
+			BUL_hristo_burmov={ ledger = army allowed={ tag=BUL } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+			BUL_nikola_topaldzhikov={ ledger = army allowed={ tag=BUL } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			BUL_mihail_savov={ ledger = army allowed={ tag=BUL } traits={ army_infantry_2 } ai_will_do={ factor=1 } }
+			BUL_pravoslav_tenev={ ledger = army allowed={ tag=BUL } traits={ army_commando_1 } ai_will_do={ factor=1 } }
+			BUL_lazar_draganov={ ledger = army allowed={ tag=BUL } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
+			BUL_ivan_fichev={ ledger = army allowed={ tag=BUL } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
+			BUL_stepan_paprikov={ ledger = army allowed={ tag=BUL } traits={ army_concealment_1 } ai_will_do={ factor=1 } }
 			}
 	aircraft_manufacturer={
 			designer = yes 

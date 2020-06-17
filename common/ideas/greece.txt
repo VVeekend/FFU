@@ -13,15 +13,16 @@ ideas={
 			#GRE_eksadaktilos_athanasios={ allowed={ tag=GRE } traits={ quartermaster_general } ai_will_do={ factor=1 } }
 			GRE_eleftherios_venizelos={ allowed={ tag=GRE } traits={ ideological_crusader } ai_will_do={ factor=1 } }
 			}
+	theorist={
+	        GRE_constantin_moschopoulos={ ledger = army allowed={ tag=GRE } traits={ military_theorist } ai_will_do={ factor=1 } } }
 	army_chief={
-			GRE_panagiotis_danglis={ allowed={ tag=GRE } traits={ army_chief_reform_1 } ai_will_do={ factor=1 } }
+			GRE_panagiotis_danglis={ allowed={ tag=GRE } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
 			}
 	navy_chief={
 			GRE_paulos_kountouriotis={ allowed={ tag=GRE } traits={ navy_chief_decisive_battle_1 } ai_will_do={ factor=1 } }
 			}
 	high_command={
-			#GRE_constantin_moschopoulos={ allowed={ tag=GRE } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
-			GRE_mark_kerr={ allowed={ tag=GRE } traits={ navy_screen_1 } ai_will_do={ factor=1 } }
+			GRE_mark_kerr={ ledger = navy allowed={ tag=GRE } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
 			designer = yes 

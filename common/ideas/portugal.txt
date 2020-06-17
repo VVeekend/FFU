@@ -9,7 +9,7 @@ ideas={
 			POR_antonio_teixeira_de_sousa={ allowed={ tag=POR } traits={ compassionate_gentleman } ai_will_do={ factor=1 } }
 			}
 	theorist={
-			POR_jose_norton_de_matos={ allowed={ tag=POR } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
+			POR_jose_norton_de_matos={ ledger = army allowed={ tag=POR } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			}
 	army_chief={
 			POR_joao_jose_sinel_de_cordes={ allowed={ tag=POR } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
@@ -20,10 +20,10 @@ ideas={
 			POR_jose_carlos_de_maia={ allowed={ tag=POR } traits={ navy_chief_decisive_battle_1 } ai_will_do={ factor=1 } }
 			}
 	high_command={
-			POR_joao_martins_de_carvalho={ allowed={ tag=POR } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
-			POR_antonio_rodrigues_ribeiro={ allowed={ tag=POR } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
-			POR_vitor_hugo_de_azevedo_coutinho={ allowed={ tag=POR } traits={ navy_screen_1 } ai_will_do={ factor=1 } }
-			POR_joao_do_canto_e_castro={ allowed={ tag=POR } traits={ navy_fleet_logistics_1 } ai_will_do={ factor=1 } }
+			POR_joao_martins_de_carvalho={ ledger = army allowed={ tag=POR } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			POR_antonio_rodrigues_ribeiro={ ledger = army allowed={ tag=POR } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
+			POR_vitor_hugo_de_azevedo_coutinho={ ledger = navy allowed={ tag=POR } traits={ navy_screen_1 } ai_will_do={ factor=1 } }
+			POR_joao_do_canto_e_castro={ ledger = navy allowed={ tag=POR } traits={ navy_fleet_logistics_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
 			designer = yes 

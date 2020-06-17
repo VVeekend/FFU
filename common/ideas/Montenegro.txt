@@ -14,13 +14,13 @@ ideas={
 			}
 
 	theorist={
-			MTN_radomir_vesovic={ allowed={ tag=MTN } traits={ military_theorist } ai_will_do={ factor=1 } }
+			MTN_radomir_vesovic={ ledger = army allowed={ tag=MTN } traits={ military_theorist } ai_will_do={ factor=1 } }
 			}
 
 	high_command={
-			MTN_bozidar_jankovic={ allowed={ tag=MTN } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			MTN_janko_vukotic={ allowed={ tag=MTN } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
-			MTN_djuro_dragov_soc={ allowed={ tag=MTN } traits={ army_commando_1 } ai_will_do={ factor=1 } }
+			MTN_bozidar_jankovic={ ledger = army allowed={ tag=MTN } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			MTN_janko_vukotic={ ledger = army allowed={ tag=MTN } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+			MTN_djuro_dragov_soc={ ledger = army allowed={ tag=MTN } traits={ army_commando_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
 			designer = yes 

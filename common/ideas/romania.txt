@@ -19,13 +19,13 @@ ideas={
 			ROM_nicolae_negru={ allowed={ tag=ROM } traits={ navy_chief_decisive_battle_1 } ai_will_do={ factor=1 } }
 			}
 	theorist={
-			ROM_Monkey_Man={ allowed={ tag=ROM } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
+			ROM_Monkey_Man={ ledger = army allowed={ tag=ROM } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			}
 	high_command={
-			ROM_constantin_prezan={ allowed={ tag=ROM } traits={ army_infantry_2 } ai_will_do={ factor=1 } }
-			ROM_alexandru_averescu={ allowed={ tag=ROM } traits={ army_concealment_1 } ai_will_do={ factor=1 } }
-			ROM_constantin_balescu={ allowed={ tag=ROM } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
-			ROM_constantin_niculescu_rizea={ allowed={ tag=ROM } traits={ navy_fleet_logistics_1 } ai_will_do={ factor=1 } }
+			ROM_constantin_prezan={ ledger = army allowed={ tag=ROM } traits={ army_infantry_2 } ai_will_do={ factor=1 } }
+			ROM_alexandru_averescu={ ledger = army allowed={ tag=ROM } traits={ army_concealment_1 } ai_will_do={ factor=1 } }
+			ROM_constantin_balescu={ ledger = navy allowed={ tag=ROM } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
+			ROM_constantin_niculescu_rizea={ ledger = navy allowed={ tag=ROM } traits={ navy_fleet_logistics_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
 			designer = yes 

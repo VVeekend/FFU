@@ -18,7 +18,7 @@ ideas={
 			}
 
 	theorist={
-			HOL_nicolaas_bosboom={ allowed={ tag=HOL } traits={ military_theorist } ai_will_do={ factor=1 } }
+			HOL_nicolaas_bosboom={ ledger = army allowed={ tag=HOL } traits={ military_theorist } ai_will_do={ factor=1 } }
 			}
 
 	navy_chief={
@@ -30,10 +30,10 @@ ideas={
 			HOL_ludolph_van_oyen={ allowed={ tag=HOL } traits={ air_chief_all_weather_1 } ai_will_do={ factor=1 } }
 			}
 	high_command={
-			HOL_cornelis_snijders={ allowed={ tag=HOL } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
-			HOL_p_forbes_wels={ allowed={ tag=HOL } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			HOL_jean_rambonnet={ allowed={ tag=HOL } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
-			HOL_tan_malaka={ allowed={ tag=HOL } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
+			HOL_cornelis_snijders={ ledger = army  allowed={ tag=HOL } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+			HOL_p_forbes_wels={ ledger = army  allowed={ tag=HOL } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			HOL_jean_rambonnet={ ledger = navy  allowed={ tag=HOL } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
+			HOL_tan_malaka={ ledger = army allowed={ tag=HOL } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
 			designer = yes 

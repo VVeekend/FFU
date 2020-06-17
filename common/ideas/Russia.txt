@@ -164,8 +164,8 @@ ideas={
 			RUS_konstantin_v_rodzaevsky={ allowed={ tag=SOV } available = {has_completed_focus = RUS_ww1_condemn_marxist_ideas} traits={ fascist_demagogue } ai_will_do={ factor=1 } }
 			}
 	theorist={
-			RUS_alexei_polivanov={ allowed={ tag=SOV } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
-			RUS_michael_alexandrovich={ allowed={ tag=SOV } traits={ air_warfare_theorist } research_bonus = { air_doctrine = 0.10 } ai_will_do={ factor=1 } }
+			RUS_alexei_polivanov={ ledger = army allowed={ tag=SOV } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
+			RUS_michael_alexandrovich={ ledger = air allowed={ tag=SOV } traits={ air_warfare_theorist } research_bonus = { air_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			}
 	army_chief={
 			RUS_alexei_brusilov={ allowed={ tag=SOV } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
@@ -182,13 +182,13 @@ ideas={
 			}
 
 	high_command={
-			RUS_vladimir_sukhomlinov={ allowed={ tag=SOV } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
-			RUS_mikhail_alexeev={ allowed={ tag=SOV } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
-			RUS_stepan_voevodsky={ allowed={ tag=SOV } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }
-			RUS_aleksandr_rusin={ allowed={ tag=SOV } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
-			RUS_aleksandr_lukomsky={ allowed={ tag=SOV } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
-			RUS_pyotr_krasnov={ allowed={ tag=SOV } traits={ army_commando_1 } ai_will_do={ factor=1 } }
-			RUS_andrei_shkuro={ allowed={ tag=SOV } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
+			RUS_vladimir_sukhomlinov={ ledger = army allowed={ tag=SOV } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
+			RUS_mikhail_alexeev={ ledger = army  allowed={ tag=SOV } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+			RUS_stepan_voevodsky={ ledger = navy allowed={ tag=SOV } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }
+			RUS_aleksandr_rusin={ ledger = navy allowed={ tag=SOV } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
+			RUS_aleksandr_lukomsky={ ledger = army allowed={ tag=SOV } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			RUS_pyotr_krasnov={ ledger = army allowed={ tag=SOV } traits={ army_commando_1 } ai_will_do={ factor=1 } }
+			RUS_andrei_shkuro={ ledger = army allowed={ tag=SOV } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
 			designer = yes 

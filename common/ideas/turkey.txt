@@ -25,7 +25,7 @@ ideas={
 			}
 
 	theorist={
-			TUR_ethem_nejat={ allowed={ tag=TUR } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
+			TUR_ethem_nejat={ ledger = army  allowed={ tag=TUR } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
 			}
 
 	army_chief={
@@ -43,9 +43,9 @@ ideas={
 
 
 	high_command={
-			TUR_huseyin_hilmi={ allowed={ tag=TUR } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			TUR_ahmed_izzet={ allowed={ tag=TUR } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
-			TUR_mustafa_ismet={ allowed={ tag=TUR } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
+			TUR_huseyin_hilmi={ ledger = army allowed={ tag=TUR } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			TUR_ahmed_izzet={ ledger = army  allowed={ tag=TUR } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+			TUR_mustafa_ismet={ ledger = army  allowed={ tag=TUR } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
 			designer = yes 

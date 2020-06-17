@@ -13,9 +13,9 @@ ideas={
 			ITA_guido_buffarini_guidi={ allowed={ tag=ITA } traits={ backroom_backstabber } ai_will_do={ factor=1 } }
 			}
 	theorist={
-			ITA_felice_napoleone_canevaro={ allowed={ tag=ITA } traits={ naval_theorist }  research_bonus = { naval_doctrine = 0.10	} ai_will_do={ factor=1 } }
-			#ITA_alberto_de_stefani={ allowed={ tag=ITA } traits={ military_theorist } ai_will_do={ factor=1 } }
-			ITA_paolo_spingardi={ allowed={ tag=ITA } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
+			ITA_felice_napoleone_canevaro={ ledger = navy allowed={ tag=ITA } traits={ naval_theorist }  research_bonus = { naval_doctrine = 0.10	} ai_will_do={ factor=1 } }
+			#ITA_alberto_de_stefani={ ledger = army allowed={ tag=ITA } traits={ military_theorist } ai_will_do={ factor=1 } }
+			ITA_paolo_spingardi={ ledger = army allowed={ tag=ITA } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
 			}
 	army_chief={
 			ITA_enrico_caviglia={ allowed={ tag=ITA } traits={ army_chief_maneuver_1 } ai_will_do={ factor=1 } }
@@ -39,16 +39,16 @@ ideas={
 			ITA_duca_degli_abruzzi={ allowed={ tag=ITA } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }
 			}
 	high_command={
-			ITA_mario_calderara={ allowed={ tag=ITA } traits={ air_naval_strike_1 } ai_will_do={ factor=1 } }
-			ITA_giulio_douhet={ allowed={ tag=ITA } traits={ air_strategic_bombing_1 } ai_will_do={ factor=1 } }
-			ITA_luigi_cadorna={ allowed={ tag=ITA } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
-			ITA_armando_diaz={ allowed={ tag=ITA } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
-			ITA_alberto_pollio={ allowed={ tag=ITA } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			ITA_giuseppe_vaccari={ allowed={ tag=ITA } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
-			ITA_vittorio_alfieri={ allowed={ tag=ITA } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
-			ITA_leone_viale={ allowed={ tag=ITA } traits={ navy_fleet_logistics_1 } ai_will_do={ factor=1 } }
-			ITA_carlo_porro={ allowed={ tag=ITA } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			ITA_pier_angelo_brandimarte={ allowed={ tag=ITA } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
+			ITA_mario_calderara={ ledger = air allowed={ tag=ITA } traits={ air_naval_strike_1 } ai_will_do={ factor=1 } }
+			ITA_giulio_douhet={ ledger = air allowed={ tag=ITA } traits={ air_strategic_bombing_1 } ai_will_do={ factor=1 } }
+			ITA_luigi_cadorna={ ledger = army allowed={ tag=ITA } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
+			ITA_armando_diaz={ ledger = army  allowed={ tag=ITA } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+			ITA_alberto_pollio={ ledger = army allowed={ tag=ITA } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			ITA_giuseppe_vaccari={ ledger = army allowed={ tag=ITA } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			ITA_vittorio_alfieri={ ledger = army allowed={ tag=ITA } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			ITA_leone_viale={ ledger = navy allowed={ tag=ITA } traits={ navy_fleet_logistics_1 } ai_will_do={ factor=1 } }
+			ITA_carlo_porro={ ledger = army allowed={ tag=ITA } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			ITA_pier_angelo_brandimarte={ ledger = navy allowed={ tag=ITA } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
 			designer = yes 

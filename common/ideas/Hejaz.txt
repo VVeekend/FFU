@@ -6,7 +6,7 @@ ideas={
 			HJZ_thomas_edward_lawrence={ allowed={ tag=HJZ } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
 			}
 	high_command={
-			HJZ_faisal_bin_hussein_bin_ali={ allowed={ tag=HJZ } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+			HJZ_faisal_bin_hussein_bin_ali={ ledger = army  allowed={ tag=HJZ } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
 			}
 	industrial_concern={
 			designer = yes 

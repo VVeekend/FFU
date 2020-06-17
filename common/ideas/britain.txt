@@ -13,11 +13,11 @@ ideas={
 			ENG_herbert_mullaly={ allowed={ tag=ENG } traits={ war_industrialist } ai_will_do={ factor=1 } }
 			}
 	theorist={
-			ENG_st_john_brodrick={ allowed={ tag=ENG } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
-			ENG_richard_haldane={ allowed={ tag=ENG } traits={ mobile_warfare_expert }  research_bonus = { land_doctrine = 0.10	}  ai_will_do={ factor=1 } }
-			ENG_john_edward_bernard_seely={ allowed={ tag=ENG } traits={ naval_theorist }  research_bonus = { naval_doctrine = 0.10	} ai_will_do={ factor=1 } }
-			ENG_edward_stanley={ allowed={ tag=ENG } traits={ air_warfare_theorist }  research_bonus = { air_doctrine = 0.10 } ai_will_do={ factor=1 } }
-			ENG_garrett_o_moore_creagh={ allowed={ tag=ENG } traits={ grand_battle_plan_expert }  research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
+			ENG_st_john_brodrick={ ledger = army allowed={ tag=ENG } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
+			ENG_richard_haldane={ ledger = army allowed={ tag=ENG } traits={ mobile_warfare_expert }  research_bonus = { land_doctrine = 0.10	}  ai_will_do={ factor=1 } }
+			ENG_john_edward_bernard_seely={ ledger = navy allowed={ tag=ENG } traits={ naval_theorist }  research_bonus = { naval_doctrine = 0.10	} ai_will_do={ factor=1 } }
+			ENG_edward_stanley={ ledger = air allowed={ tag=ENG } traits={ air_warfare_theorist }  research_bonus = { air_doctrine = 0.10 } ai_will_do={ factor=1 } }
+			ENG_garrett_o_moore_creagh={ ledger = army allowed={ tag=ENG } traits={ grand_battle_plan_expert }  research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
 			#ENG_edmund_george_barrow={ allowed={ tag=ENG } traits={ military_theorist }  research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
 			#ENG_herbert_cox={ allowed={ tag=ENG } traits={ air_warfare_theorist }  research_bonus = { air_doctrine = 0.10	} ai_will_do={ factor=1 } }
 			#ENG_alexander_cobbe={ allowed={ tag=ENG } traits={ mobile_warfare_expert }  research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
@@ -47,25 +47,25 @@ ideas={
 			}
 	high_command={
 			#ENG_murray_sueter={ allowed={ tag=ENG } traits={ air_naval_strike_1 } ai_will_do={ factor=1 } }
-			ENG_hugh_trenchard={ allowed={ tag=ENG } traits={ air_air_superiority_1 } ai_will_do={ factor=1 } }
-			ENG_frederick_sykes={ allowed={ tag=ENG } traits={ air_close_air_support_1 } ai_will_do={ factor=1 } }
+			ENG_hugh_trenchard={ ledger = air allowed={ tag=ENG } traits={ air_air_superiority_1 } ai_will_do={ factor=1 } }
+			ENG_frederick_sykes={ ledger = air  allowed={ tag=ENG } traits={ air_close_air_support_1 } ai_will_do={ factor=1 } }
 			#ENG_william_nicholson={ allowed={ tag=ENG } traits={ army_concealment_1 } ai_will_do={ factor=1 } }
 			#ENG_charles_douglas={ allowed={ tag=ENG } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
-			ENG_john_french={ allowed={ tag=ENG } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			ENG_john_french={ ledger = army allowed={ tag=ENG } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
 			#ENG_william_robertson={ allowed={ tag=ENG } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
-			ENG_frederick_lambart={ allowed={ tag=ENG } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+			ENG_frederick_lambart={ ledger = army allowed={ tag=ENG } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
 			#ENG_john_fisher={ allowed={ tag=ENG } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }
-			ENG_arthur_wilson={ allowed={ tag=ENG } traits={ navy_naval_air_defense_1 } ai_will_do={ factor=1 } }
-			ENG_louis_alexander_mountbatten={ allowed={ tag=ENG } traits={ navy_screen_1 } ai_will_do={ factor=1 } }
+			ENG_arthur_wilson={ ledger = navy allowed={ tag=ENG } traits={ navy_naval_air_defense_1 } ai_will_do={ factor=1 } }
+			ENG_louis_alexander_mountbatten={ ledger = navy allowed={ tag=ENG } traits={ navy_screen_1 } ai_will_do={ factor=1 } }
 			#ENG_henry_jackson={ allowed={ tag=ENG } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
 			#ENG_rosslyn_wemyss={ allowed={ tag=ENG } traits={ navy_amphibious_assault_1 } ai_will_do={ factor=1 } }
 			#ENG_andrew_skeen={ allowed={ tag=ENG } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
-			ENG_herbert_kitchener={ allowed={ tag=ENG } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			ENG_herbert_kitchener={ ledger = army allowed={ tag=ENG } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
 			#ENG_charles_monro={ allowed={ tag=ENG } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
 			#ENG_g_s_howett={ allowed={ tag=ENG } traits={ navy_fleet_logistics_1 } ai_will_do={ factor=1 } }
 			#ENG_b_h_jones={ allowed={ tag=ENG } traits={ navy_carrier_1 } ai_will_do={ factor=1 } }
 			#ENG_john_bennett={ allowed={ tag=ENG } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
-			ENG_percy_zachariah_cox={ allowed={ tag=ENG } traits={ army_commando_1 } ai_will_do={ factor=1 } }
+			ENG_percy_zachariah_cox={ ledger = army allowed={ tag=ENG } traits={ army_commando_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
 			designer = yes

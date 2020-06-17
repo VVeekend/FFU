@@ -28,7 +28,6 @@ bookmarks = {
 				ww1_Faith_Allah
 			}
 			focuses = {
-				TUR_ww1_BalkanLeagueMenace
 			}
 		}
 		 ENG ={
@@ -51,7 +50,6 @@ bookmarks = {
 			}
 			focuses = {
 				GER_ww1_support_kaiser
-				GER_ww1_agadir_crisis
 			}
 		}
 		 ITA ={
@@ -62,7 +60,6 @@ bookmarks = {
 				ww1_Scramble_for_Africa
 			}
 			focuses = {
-				ITA_ww1_libyan_claims
 				ITA_ww1_back_france
 			}
 		}
@@ -103,7 +100,6 @@ bookmarks = {
 
 			}
 			focuses = {
-				USA_ww1_MexicanRevolution
 			}
 		}
 
@@ -127,7 +123,6 @@ bookmarks = {
 
 			}
 			focuses = {
-				BUL_ww1_balkan_league
 			}
 		}
 

@@ -783,7 +783,11 @@ spriteTypes = {
 		name = "GFX_Stormtroopers_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/stormtroopers.dds"
 	}
-
+	
+	SpriteType = {
+		name = "GFX_Stormtroopers2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/stormtroopers.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_marines5_medium"

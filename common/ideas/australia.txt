@@ -18,12 +18,12 @@ ideas={
 			AST_wr_creswell={ allowed={ tag=AST } traits={ navy_chief_decisive_battle_1 } ai_will_do={ factor=1 } }
 			}
 	high_command={
-			AST_joseph_gordon={ allowed={ tag=AST } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
-			AST_godfrey_irving={ allowed={ tag=AST } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			AST_henry_petre={ allowed={ tag=AST } traits={ air_air_superiority_1 } ai_will_do={ factor=1 } }
+			AST_joseph_gordon={ ledger = army  allowed={ tag=AST } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
+			AST_godfrey_irving={ ledger = army  allowed={ tag=AST } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			AST_henry_petre={ ledger = air allowed={ tag=AST } traits={ air_air_superiority_1 } ai_will_do={ factor=1 } }
 			}
 	theorist={
-			AST_John_Monash={ allowed={ tag=AST } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
+			AST_John_Monash={ ledger = army allowed={ tag=AST } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
 			designer = yes 

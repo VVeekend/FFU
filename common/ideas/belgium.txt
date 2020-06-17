@@ -16,7 +16,7 @@ ideas={
 			}
 
 	theorist={
-			BEL_joseph_hellebaut={ allowed={ tag=BEL } traits={ military_theorist } traits={ military_theorist } ai_will_do={ factor=1 } }
+			BEL_joseph_hellebaut={ ledger = army allowed={ tag=BEL } traits={ military_theorist } traits={ military_theorist } ai_will_do={ factor=1 } }
 			}
 
 
@@ -25,10 +25,10 @@ ideas={
 			BEL_marcel_de_crombrugghe={ allowed={ tag=BEL } traits={ air_chief_reform_1 } ai_will_do={ factor=1 } }
 			}
 	high_command={
-			#BEL_baron_mathieu={ allowed={ tag=BEL } traits={ air_air_superiority_1 } ai_will_do={ factor=1 } }
-			BEL_baron_wahis={ allowed={ tag=BEL } traits={ air_close_air_support_1 } ai_will_do={ factor=1 } }
-			BEL_felix_wielemans={ allowed={ tag=BEL } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
-			BEL_henry_h_maglinse={ allowed={ tag=BEL } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			#BEL_baron_mathieu={ ledger = air allowed={ tag=BEL } traits={ air_air_superiority_1 } ai_will_do={ factor=1 } }
+			BEL_baron_wahis={ ledger = air allowed={ tag=BEL } traits={ air_close_air_support_1 } ai_will_do={ factor=1 } }
+			BEL_felix_wielemans={ ledger = army allowed={ tag=BEL } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
+			BEL_henry_h_maglinse={ ledger = army allowed={ tag=BEL } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
 			designer = yes 

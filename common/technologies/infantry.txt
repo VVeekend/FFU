@@ -909,7 +909,11 @@ technologies = {
 		enable_subunits = {
 			Stormtrooper
 		}
-
+		
+		path = {
+			leads_to_tech = Stormtroopers2
+			research_cost_coeff = 1
+		}
 		on_research_complete = {
 			limit = {
 				NOT = {
@@ -923,10 +927,33 @@ technologies = {
 		}
 
 		research_cost = 2
+		start_year = 1914
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1910 }
+		}
+
+		categories = {
+			infantry_tech
+			stormtrooper_tech
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+		Stormtroopers2 = {
+		
+		    Stormtrooper = {
+			max_organisation = 3
+			soft_attack = 0.05
+	 	   }
+		research_cost = 2
 		start_year = 1916
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1916 }
+			position = { x = 0 y = @1914 }
 		}
 
 		categories = {
@@ -1072,7 +1099,7 @@ technologies = {
 
 		marine = {
 			max_organisation = 3
-			soft_attack = 0.02
+			soft_attack = 0.05
 		}
 		path = {
 			leads_to_tech = marines3
