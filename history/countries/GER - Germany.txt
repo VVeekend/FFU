@@ -29,8 +29,17 @@ create_country_leader={ name = "Wilhelm II" desc=GER_wilhelm_ii_DESC picture="gf
 # create_field_marshal={  name = "Bock" id=34013 portrait_path="gfx/fieldmarshal/GER_bock.dds" traits={   } skill=2 }
 create_field_marshal={  name = "von Gallwitz" id=34038 portrait_path="gfx/fieldmarshal/GER_von_gallwitz.dds" traits={ thorough_planner  } skill=3 }
 create_field_marshal={  name = "Duke Albrecht of Wurttemberg" id=34337 portrait_path="gfx/fieldmarshal/GER_duke_albrecht_of_wurttemberg.dds" traits={ thorough_planner  } skill=3 }
-create_field_marshal={  name = "Crown Prince Rupprecht of Bavaria" id=34547 portrait_path="gfx/fieldmarshal/GER_crown_prince_rupprecht_of_bavaria.dds" traits={   } skill=3 }
-create_field_marshal={  name = "Crown Prince Wilhelm of Prussia" id=34548 portrait_path="gfx/fieldmarshal/GER_crown_prince_wilhelm_of_prussia.dds" traits={   } skill=2 }
+create_field_marshal={  name = "Crown Prince Rupprecht of Bavaria" id=34547 portrait_path="gfx/fieldmarshal/GER_crown_prince_rupprecht_of_bavaria.dds" traits={   } 	
+     attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 5 skill=3 }
+create_field_marshal={  name = "Crown Prince Wilhelm of Prussia" id=34548 portrait_path="gfx/fieldmarshal/GER_crown_prince_wilhelm_of_prussia.dds" traits = { old_guard }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3  } 
 
 # create_corps_commander={  name = "Blaskowitz" id=34012 portrait_path="gfx/generals/GER_blaskowitz.dds" traits={   } skill=3 }
 create_corps_commander = {

@@ -26,47 +26,6 @@ country_event = {
 	}
 }
 
-news_event = {
-	title=ww1_soviet.2.t#Caucasus Uprisings
-	desc=ww1_soviet.2.d
-	id=ww1_soviet.2
-	fire_only_once=yes
-	major = yes
-	is_triggered_only = yes
-	immediate = { hidden_effect = { if = { limit = { NOT = { has_completed_focus = SOV_ww1_restore_order } } release = ARM } }
-	}
-	
-	option={
-		name=ww1_soviet.2.uprising
-		ai_chance = {
-			factor = 100
-		}
-		trigger = { 
-			TAG = SOV
-			SOV = {
-				NOT = { 
-					has_completed_focus = SOV_ww1_restore_order 
-				}
-			}
-		}
-	}
-	option={
-		name=ww1_soviet.2.notsov
-		trigger = { NOT = { tag = SOV } }
-		ai_chance={
-			factor=100
-		}
-	}
-	
-	option={
-		name=ww1_soviet.2.anothersov
-		trigger = { tag = SOV has_completed_focus = SOV_ww1_restore_order }
-		ai_chance={
-			factor=100
-		}
-	}
-}
-
 country_event = {
 	title=ww1_soviet.999.t #oob for sov
 	desc=ww1_soviet.999.d

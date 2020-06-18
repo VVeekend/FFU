@@ -597,7 +597,7 @@ focus = {
 		mutually_exclusive = { focus = ww1_army_effort_1 }
 		mutually_exclusive = { focus = ww1_artillery_effort_1 }
 		mutually_exclusive = { focus = ww1_aircraftprod_1 }
-		mutually_exclusive = { focus = ww1_large_navy }
+		mutually_exclusive = { focus = ww1_large_navy_1 }
 		cost = 10
 		x = 18
 		y = 1

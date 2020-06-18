@@ -8,9 +8,20 @@ state={
 		add_core_of = ITA
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
+			industrial_complex = 2
 			dockyard = 1
-
+			29 = {
+				naval_base = 3
+			}
+			10239 = {
+				naval_base = 6
+			}
+			2961 = {
+				naval_base = 2
+			}
+			16626 = {
+				naval_base = 3
+			}			
 		}
 		victory_points = {
 			10239 30 

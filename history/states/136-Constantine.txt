@@ -13,6 +13,9 @@ state={
 		add_core_of = ALG
 		buildings = {
 			infrastructure = 4
+			2488 = {
+				naval_base = 4
+			   }
 			}
 		}
 }

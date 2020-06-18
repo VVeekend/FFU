@@ -473,7 +473,7 @@ focus = {
 		mutually_exclusive = { focus = AUS_ww1_army_effort_1 }
 		mutually_exclusive = { focus = AUS_ww1_artillery_effort_1 }
 		mutually_exclusive = { focus = AUS_ww1_aircraftprod_1 }
-		mutually_exclusive = { focus = AUS_ww1_large_navy }
+		mutually_exclusive = { focus = AUS_ww1_large_navy_1 }
 		cost = 10
 		x = 23
 		y = 1

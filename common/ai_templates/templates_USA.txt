@@ -1081,7 +1081,7 @@ marines_USA = {
 
 			modifier = {
 				factor = 2
-				has_war_with = JAP
+				has_war_with = GER
 			}
 		}
 		
@@ -1156,7 +1156,7 @@ marines_USA = {
 
 			modifier = {
 				factor = 2
-				has_war_with = JAP
+				has_war_with = GER
 			}
 		}
 		

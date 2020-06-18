@@ -1,4 +1,4 @@
-on_actions = {
+      on_actions = {
 	# Ace pilots
 	# country, FROM = ace
 	on_ace_promoted = {
@@ -208,13 +208,6 @@ on_actions = {
 					has_civil_war = yes
 					original_tag = SPR
 
-				}
-				random_country = {
-					limit = {
-						original_tag = FRA
-						has_completed_focus = FRA_support_the_right
-					}
-					country_event = { id = france.32 }
 				}
 			}
 	    }

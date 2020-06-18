@@ -11,12 +11,14 @@ state={
 		chromium=3 # was: 4
 	}
 	history=
-	{
-		owner = ENG
+	{	owner = ENG
 		buildings = {
 			infrastructure = 4
 			air_base = 1
+			16588 = {
+				naval_base = 3
 			}
+		}
 		victory_points = {
 		16569 1
 		}

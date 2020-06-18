@@ -17,15 +17,7 @@ ideas={
 
 			GER_wolfgang_kapp={
 					allowed={ tag=GER }
-
-					available = {
-						OR = {
-							has_completed_focus = GER_ww1_fascist_coup
-							has_completed_focus = GER_interwar_beer_hall_putsch
-						}
-					}
-
-					traits={ fascist_demagogue }
+					traits={ technocrat }
 					ai_will_do={ factor=1 }
 				}
 			}
@@ -78,7 +70,7 @@ ideas={
 			GER_helmuth_von_moltke={ ledger = army allowed={ tag=GER } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
 			GER_colmar_von_der_goltz={ ledger = army allowed={ tag=GER } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
 			#GER_hermann_von_eichhorn={ ledger = army allowed={ tag=GER } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			GER_karl_von_bulow={ ledger = army allowed={ ledger = army tag=GER } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
+			GER_karl_von_bulow={ ledger = army allowed={ tag=GER } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
 			GER_august_von_heeringen={ ledger = army allowed={ tag=GER } traits={ navy_amphibious_assault_1 } ai_will_do={ factor=1 } }
 			GER_henning_von_holtzendorff={ ledger = navy allowed={ tag=GER } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
 
@@ -267,10 +259,6 @@ ideas={
 						
 			targeted_modifier = {
 				tag = ROM
-				attack_bonus_against = 0.25
-			}
-			targeted_modifier = {
-				tag = JAP
 				attack_bonus_against = 0.25
 			}
 			

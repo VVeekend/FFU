@@ -71,7 +71,7 @@ country_event = {
 			        target = GRE
 			        type = take_claimed_state
 			        generator = {
-			            134
+			            133
 			        }
 			    }
 			}
@@ -135,7 +135,7 @@ country_event = {
 	trigger = {
 		tag = BUL
 		has_war_with = SER
-		surrender_progress > 0.20
+		surrender_progress > 0.10 
 		NOT = {
 			has_global_flag = kis_secondbalkanwar_victory
 			is_in_faction_with = GER 
@@ -173,6 +173,19 @@ country_event = {
 						modifier = HOI4TGW_Opinion_hostile_relations_post_balkan_war 
 					}
 				}
+				GRE =  { 
+					white_peace = BUL
+					transfer_state = 133
+					transfer_state = 361
+					diplomatic_relation = {
+						country = BUL
+						relation = non_aggression_pact
+					}
+					remove_opinion_modifier = { 
+						target = TUR 
+						modifier = HOI4TGW_Opinion_hostile_relations_post_balkan_war 
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -198,7 +211,7 @@ country_event = {
 						has_war_with = BUL
 					}
 				}
-				GRE = { 
+				GRE =  { 
 					white_peace = BUL
 					transfer_state = 133
 					transfer_state = 361

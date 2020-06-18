@@ -17,8 +17,6 @@ focus_tree = {
 		y = 0
 	}
 	
-
-
 	#----------------------------------------------------------------------- 
 	# Bloc 1 - Support the Republic
 	#-----------------------------------------------------------------------
@@ -84,8 +82,8 @@ focus_tree = {
 		                }
 		            }
 		        }
-		        add_extra_state_shared_building_slots = 1 add_building_construction = {
-		            type = industrial_complex level = 1 instant_build = yes
+		        add_extra_state_shared_building_slots = 2 add_building_construction = {
+		            type = industrial_complex level = 2 instant_build = yes
 		        }
 		    }
 		    add_political_power = 30
@@ -263,8 +261,13 @@ focus_tree = {
 		id = FRA_ww1_inviteBELGIUM #Open Beta 0.2
 		prerequisite = { focus=FRA_ww1_diplomatic_effort }
 		icon = GFX_goal_generic_improve_relations
-		available = {
-		}
+		available = { 
+			BEL = { 		
+			      NOT = {
+			        	controls_state = 48
+			    }
+			}
+	      }
 
 		completion_reward = { 
             BEL = {
@@ -371,7 +374,7 @@ focus_tree = {
 			has_army_experience> 200
 		}
 		complete_tooltip = {
-        add_tech_bonus={ name=land_doc_bonus bonus=2 uses=3 category=land_doctrine }
+        add_tech_bonus={ name=land_doc_bonus bonus=1 uses=2 category=land_doctrine }
         remove_unit_leader= 32007      
         remove_ideas= French_Staff
                 add_stability = -0.15
@@ -379,7 +382,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {   
-        add_tech_bonus={ name=land_doc_bonus bonus=1 uses=3 category=land_doctrine }
+        add_tech_bonus={ name=land_doc_bonus bonus=1 uses=2 category=land_doctrine }
         remove_unit_leader= 32007
         remove_ideas= French_Staff
         army_experience = -200
@@ -410,16 +413,14 @@ focus_tree = {
         random_unit_leader = { limit = { has_id	= 32006 } 
 			add_unit_leader_trait = organizer
 			add_unit_leader_trait = infantry_leader
-			add_unit_leader_trait 
 			add_skill_level = 1
-                        add_defense = 1
-                        add_planning = 1 }
+            add_defense = 1
+            add_planning = 1 }
          random_unit_leader = { limit = { has_id	= 32031 } 
 			add_unit_leader_trait = hill_fighter
 			add_unit_leader_trait = aggressive_assaulter
-			add_unit_leader_trait 
 			add_skill_level = 1
-                        add_attack = 2 }
+            add_attack = 2 }
 		}
 		completion_reward = {
 			random_unit_leader = { limit = { has_id	= 32009 } 
@@ -465,10 +466,10 @@ focus_tree = {
 			random_unit_leader = { limit = { has_id	= 32006 } 
 			add_unit_leader_trait = trait_engineer
 			add_unit_leader_trait = ranger
-			add_unit_leader_trait 
-			add_skill_level = 2
-                        add_attack = 4
-                        add_planning = 2 }
+			add_skill_level = 1
+            add_attack = 1
+            add_planning = 1
+            add_logistics = 1	}
 
 		}
 		completion_reward = {
@@ -476,14 +477,15 @@ focus_tree = {
 			ITA = { add_ideas = FRA_Supreme }
 			BEL = { add_ideas = FRA_Supreme }
 			POR = { add_ideas = FRA_Supreme }
+			USA = { add_ideas = FRA_Supreme }			
             add_ideas = FRA_Supreme
 			random_unit_leader = { limit = { has_id	= 32006 } 
 			add_unit_leader_trait = trait_engineer
 			add_unit_leader_trait = ranger
 			add_skill_level = 1
-                        add_attack = 1
-                        add_planning = 1 
-						add_logistics = 1 }
+            add_attack = 1
+            add_planning = 1 
+			add_logistics = 1 }
 		}
 	}
 
@@ -518,7 +520,7 @@ focus_tree = {
 		available = {}
 		completion_reward = { add_political_power = 100 }
 		ai_will_do = { factor = 20 }
-		cost = 10
+		cost = 5
 		x = 12
 		y = 1
 	}
@@ -630,7 +632,7 @@ focus = {
 		mutually_exclusive = { focus = FRA_ww1_army_effort_1 }
 		mutually_exclusive = { focus = FRA_ww1_artillery_effort_1 }
 		mutually_exclusive = { focus = FRA_ww1_aircraftprod_1 }
-		mutually_exclusive = { focus = FRA_ww1_large_navy }
+		mutually_exclusive = { focus = FRA_ww1_large_navy_1 }
 		cost = 10
 		x = 22
 		y = 1

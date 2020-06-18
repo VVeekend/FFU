@@ -2,17 +2,19 @@
 state={
 	id=164
 	name="STATE_164"
-
-	history={
-		owner = POR
-		add_core_of = POR
 	resources={
 		wood=30
 	}
+	history={
+		owner = POR
+		add_core_of = POR
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 			dockyard = 1
+			15795= {
+				naval_base = 4
+			}
 		}
 		victory_points = {
 		15795 20

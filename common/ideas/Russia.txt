@@ -161,7 +161,7 @@ ideas={
 			RUS_nikolai_golitsyn={ allowed={ tag=SOV } traits={ compassionate_gentleman } ai_will_do={ factor=1 } }
 			RUS_pavel_ryabushinsky={ allowed={ tag=SOV } traits={ armaments_organizer } ai_will_do={ factor=1 } }
 			RUS_vasily_shulgin={ allowed={ tag=SOV } traits={ captain_of_industry } ai_will_do={ factor=1 } }
-			RUS_konstantin_v_rodzaevsky={ allowed={ tag=SOV } available = {has_completed_focus = RUS_ww1_condemn_marxist_ideas} traits={ fascist_demagogue } ai_will_do={ factor=1 } }
+			RUS_konstantin_v_rodzaevsky={ allowed={ tag=SOV }  traits={ connected_citizen } ai_will_do={ factor=1 } }
 			}
 	theorist={
 			RUS_alexei_polivanov={ ledger = army allowed={ tag=SOV } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }

@@ -465,7 +465,6 @@ focus_tree = {
 		cost = 10
 		x = 15
 		y = 2
-		mutually_exclusive = { focus=ITA_ww1_fortification_effort_alliance }
 	}
 
 	#----------
@@ -628,7 +627,7 @@ focus = {
 		mutually_exclusive = { focus = ITA_ww1_army_effort_1 }
 		mutually_exclusive = { focus = ITA_ww1_artillery_effort_1 }
 		mutually_exclusive = { focus = ITA_ww1_aircraftprod_1 }
-		mutually_exclusive = { focus = ITA_ww1_large_navy }
+		mutually_exclusive = { focus = ITA_ww1_large_navy_1 }
 		cost = 10
 		x = 22
 		y = 1

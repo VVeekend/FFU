@@ -1,0 +1,442 @@
+﻿###################################################################
+
+division_template = {
+	name = "Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "National Guard"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Cavalry Division"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+###################################################################
+
+
+	
+units = {
+	division= { 
+			name = "1st Infantry Division"
+			location=10095 # New York
+			division_template="Infantry Division"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Puerto Rico Garrison"
+			location = 10095 # Puerto Rico
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "2nd Infantry Brigade"
+			location = 10095 # Rocksprings
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "8th Infantry Brigade"
+			location = 10095 # El Paso
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "The Cavalry Division"
+			location = 10095 # Rocksprings
+			division_template="Cavalry Division"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "2nd Infantry Division"
+			location=10095 # Houston
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "3rd Infantry Division"
+			location=10095 # San Francisco
+			division_template="Infantry Division"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Alabama National Guard"
+			location = 10095 # Dothan
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "National Guard of the District of Columbia"
+			location = 10095 # Newburg
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "National Guard of Colorado"
+			location=10095 # Denver
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Connecticut National Guard"
+			location = 10095 # Trenton
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Illinois National Guard"
+			location=10095 # Chicago
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Indiana National Guard"
+			location=10095 # Indianapolis
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Iowa National Guard"
+			location=10095 # Des Moines
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Kentucky State Guard"
+			location = 10095 # Corbin
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Maryland National Guard"
+			location = 10095 # Baltimore
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Massachusetts Volunteer Militia"
+			location=10095 # Boston
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Minnesota National Guard"
+			location=10095 # Minneapolis
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "National Guard of California"
+			location=10095 # Sacramento
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "National Guard of Georgia"
+			location=10095 # Atlanta
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "National Guard of Missouri"
+			location = 10095 # St. Louis
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "National Guard of New Jersey"
+			location = 10095 # Newark
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "National Guard of New York"
+			location = 10095 # Albany
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "National Guard of Pennsylvania"
+			location = 10095 # Harrisburg
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "National Guard of South Carolina"
+			location = 10095 # Columbia
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Nebraska National Guard"
+			location = 10095 # Grand Island
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "North Carolina National Guard"
+			location = 10095 # Raleigh
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Ohio National Guard"
+			location=10095 # Columbus
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Texas National Guard"
+			location = 10095 # Austin
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Virginia Volunteers"
+			location = 10095 # Richmond
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "1st Hawaiian Brigade"
+			location=10095 # Honolulu
+			division_template="Infantry Division"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Philippine Brigades"
+			location=10095 # Manila
+			division_template="Infantry Division"
+			start_experience_factor=0.1
+			}
+	
+	
+	division= { 
+			name = "Philippine Scouts"
+			location=10095 # Manila
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	
+	
+	division= { 
+			name = "Canal Zone Garrison"
+			location = 10095 # Colón
+			division_template="National Guard"
+			start_experience_factor=0.05
+			}
+	 navy = {
+		name = "Atlantic Fleet"
+		location=7768 # Norfolk
+		base=7768 # Norfolk
+       ship = { name = "Terrible" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Dreadnoughts" } } }
+       ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Dreadnoughts" } } }
+       ship = { name = "Caïman" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Dreadnoughts" } } }
+       ship = { name = "Requin" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Dreadnoughts" } } }
+	   ship = { name = "Terrible" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Dreadnoughts" } } }
+       ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Dreadnoughts" } } }
+       ship = { name = "Caïman" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Dreadnoughts" } } }
+       ship = { name = "Terrible" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Dreadnoughts" } } }
+       ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Dreadnoughts" } } }
+       ship = { name = "Caïman" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = USA version_name = "Dreadnoughts" } } }
+       ship = { name = "Cocyte" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Styx" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Jemmapes" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Valmy" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Bouvines" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Amiral Tréhouart" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Dévastation" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Terrible" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Caïman" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } } 
+	   ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+	   ship = { name = "Furieux" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Achéron" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Cocyte" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Styx" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Jemmapes" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Valmy" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Bouvines" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Amiral Tréhouart" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Dévastation" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Terrible" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+       ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pre-Dreadnoughts" } } }
+	   ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+	   ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+       ship = { name = "Tourville" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+	   ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+	   ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+	   ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+	   ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+	   ship = { name = "Tourville" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+	   ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+       ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+	   ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+	   ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Armored Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Protected Cruisers" } } }
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }	
+	 ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+     ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+     ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+	 ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Pre-1905 Destroyer"} } }
+
+		}
+	}
+air_wings = { 
+	}
+instant_effect = {
+	add_equipment_production = { equipment = { type = infantry_equipment_0 creator = "USA" } requested_factories = 1 progress = 0.1 efficiency = 50}
+	add_equipment_production = { equipment = { type = support_equipment_1 creator = "USA" } requested_factories = 1 progress = 0.1 efficiency = 50}
+
+}

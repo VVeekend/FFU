@@ -536,8 +536,7 @@ democratic_on_the_rise = {
 				has_country_flag = preparation_for_democratic_civil_war
 				has_country_flag = open_up_political_discourse_democratic
 			}
-			has_idea_with_trait = democratic_reformer
-			 = yes
+			has_idea_with_trait = democratic_reformer		
 			NOT = { has_government = democratic }
 		}
 
@@ -571,7 +570,6 @@ democratic_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
 			has_idea_with_trait = democratic_reformer
-			 = yes
 			NOT = { has_government = democratic }
 		}
 
@@ -631,7 +629,6 @@ democratic_on_the_rise = {
 				is_field_marshal = no
 				NOT = { has_trait = hidden_sympathies }
 			}
-			 = yes
 			NOT = { has_government = democratic }
 		}
 	
@@ -663,7 +660,6 @@ democratic_on_the_rise = {
 			any_army_leader = {
 				NOT = { has_trait = hidden_sympathies }
 			}
-			 = yes
 			NOT = { has_government = democratic }
 			any_army_leader = {
 				is_field_marshal = yes
@@ -698,7 +694,6 @@ democratic_on_the_rise = {
 			has_country_flag = preparation_for_democratic_civil_war
 			has_country_flag = military_support_for_democratic_civil_war
 			has_idea_with_trait = democratic_reformer
-			 = yes
 			NOT = { has_government = democratic }
 		}
 	
@@ -732,7 +727,6 @@ democratic_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
 			has_idea_with_trait = democratic_reformer
-			 = yes
 			NOT = { has_government = democratic }
 		}
 	
@@ -762,7 +756,6 @@ democratic_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_democratic_civil_war
 			has_idea_with_trait = democratic_reformer
-			 = yes
 			NOT = { has_government = democratic }
 		}
 	
@@ -874,7 +867,6 @@ democratic_on_the_rise = {
 
 		visible = {
 			has_idea_with_trait = democratic_reformer
-			 = yes
 			NOT = { has_government = democratic }
 		}
 		
@@ -909,7 +901,6 @@ democratic_on_the_rise = {
 
 		visible = {
 			has_country_flag = open_up_political_discourse_democratic
-			 = yes
 			NOT = { has_government = democratic }
 		}
 		
@@ -967,7 +958,6 @@ democratic_on_the_rise = {
 
 		visible = {
 			NOT = { has_government = democratic }
-			 = yes
 			OR = {
 				democratic > 0.6
 				has_country_flag = open_up_political_discourse_democratic
@@ -1008,7 +998,6 @@ communism_on_the_rise = {
 		visible = {
 			NOT = { has_country_flag = preparation_for_communism_civil_war }
 			has_idea_with_trait = communist_revolutionary
-			 = yes
 			NOT = { has_government = communism }
 		}
 		
@@ -1035,7 +1024,6 @@ communism_on_the_rise = {
 				has_country_flag = open_up_political_discourse_communism
 			}
 			has_idea_with_trait = communist_revolutionary
-			 = yes
 			NOT = { has_government = communism }
 		}
 
@@ -1069,7 +1057,6 @@ communism_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_communist_civil_war
 			has_idea_with_trait = communist_revolutionary
-			 = yes
 			NOT = { has_government = communism }
 		}
 
@@ -1129,7 +1116,6 @@ communism_on_the_rise = {
 				is_field_marshal = no
 				NOT = { has_trait = hidden_sympathies }
 			}
-			 = yes
 			NOT = { has_government = communism }
 		}
 	
@@ -1161,7 +1147,6 @@ communism_on_the_rise = {
 			any_army_leader = {
 				NOT = { has_trait = hidden_sympathies }
 			}
-			 = yes
 			NOT = { has_government = communism }
 			any_army_leader = {
 				is_field_marshal = yes
@@ -1196,7 +1181,6 @@ communism_on_the_rise = {
 			has_country_flag = preparation_for_communist_civil_war
 			has_country_flag = military_support_for_communist_civil_war
 			has_idea_with_trait = communist_revolutionary
-			 = yes
 			NOT = { has_government = communism }
 		}
 	
@@ -1230,7 +1214,6 @@ communism_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_communist_civil_war
 			has_idea_with_trait = communist_revolutionary
-			 = yes
 			NOT = { has_government = communism }
 		}
 	
@@ -1260,7 +1243,6 @@ communism_on_the_rise = {
 		visible = {
 			has_country_flag = preparation_for_communist_civil_war
 			has_idea_with_trait = communist_revolutionary
-			 = yes
 			NOT = { has_government = communism }
 		}
 	
@@ -1372,7 +1354,6 @@ communism_on_the_rise = {
 
 		visible = {
 			has_idea_with_trait = communist_revolutionary
-			 = yes
 			NOT = { has_government = communism }
 		}
 		
@@ -1407,7 +1388,6 @@ communism_on_the_rise = {
 
 		visible = {
 			has_country_flag = open_up_political_discourse_communist
-			 = yes
 			NOT = { has_government = communism }
 		}
 		
@@ -1465,7 +1445,6 @@ communism_on_the_rise = {
 
 		visible = {
 			NOT = { has_government = communism }
-			 = yes
 			OR = {
 				communism > 0.6
 				has_country_flag = open_up_political_discourse_communist

@@ -12,10 +12,12 @@ state={
 	}
 	history={
 		owner = FRA
-		add_core_of = MOR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+			4293 = {
+				naval_base = 6
+			  }
 			}
 		}
 }

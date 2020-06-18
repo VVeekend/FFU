@@ -16,6 +16,9 @@ state={
 		add_core_of = LBA
 		buildings = {
 			infrastructure = 3
+			16911 = {
+				naval_base = 2
+			   }
 			}
 		}
 }

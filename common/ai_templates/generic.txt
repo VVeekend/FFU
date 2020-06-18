@@ -2,7 +2,7 @@ armor_generic = {
 
 	blocked_for = {
 		GER
-		JAP
+		
 		ENG
 		USA
 		ITA
@@ -493,7 +493,7 @@ garrison_generic = {
 
 	blocked_for = {
 		GER
-		JAP
+		
 		ENG
 		USA
 		ITA
@@ -619,10 +619,6 @@ suppression_generic = {
 				factor = 50
 				tag = GER
 				OR = {
-					AND = {
-						has_completed_focus = GER_anschluss
-						NOT = { ai_has_role_template = garrison }
-					}
 					
 					AND = {
 						any_country = {
@@ -700,20 +696,11 @@ infantry_generic = {
 
 	blocked_for = {
 		GER
-		JAP
+		
 		ENG
 		USA
 		ITA
 		SOV
-		CHI
-		PRC 
-		GXC
-		YUN
-		SHX
-		XSM
-		SIK
-		MEN
-		MAN
 	}
 
 	roles = {
@@ -817,21 +804,11 @@ infantry_generic = {
 infantry_big_generic = {
 
 	blocked_for = {
-		GER
-		JAP
+		GER	
 		ENG
 		USA
 		ITA
 		SOV
-		CHI
-		PRC 
-		GXC
-		YUN
-		SHX
-		XSM
-		SIK
-		MEN
-		MAN
 	}
 
 	roles = {
@@ -953,7 +930,7 @@ mountaineers_generic = {
 
 	blocked_for = {
 		GER
-		JAP
+		
 		ENG
 		USA
 		ITA
@@ -1061,8 +1038,7 @@ mountaineers_generic = {
 marines_generic = {
 
 	blocked_for = {
-		GER
-		JAP
+		GER		
 		ENG
 		USA
 		ITA
@@ -1251,8 +1227,7 @@ marines_generic = {
 paratrooper_generic = {
 
 	blocked_for = {
-		GER
-		JAP
+		GER	
 		ENG
 		USA
 		ITA

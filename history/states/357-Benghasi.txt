@@ -8,7 +8,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = enclave
 	resources={
-		rubber=24
+		rubber=44
                 oil=12
 	}
 	history={
@@ -16,6 +16,9 @@ state={
 		add_core_of = LBA
 		buildings = {
 			infrastructure = 3
+			3782 = {
+				naval_base = 5
+			   }
 			}
 		}
 }

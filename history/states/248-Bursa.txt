@@ -9,7 +9,7 @@ state={
 	state_category = town
 	resources={
 		chromium=39 # was: 54
-                wood=20
+        wood=40
 	}
 	history={
 		owner = TUR
@@ -17,6 +17,12 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 4
+			9750 = {
+				naval_base = 6
+			}
+			3718 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
 		9750 1

@@ -80,14 +80,14 @@ focus_tree = {
 		                }
 		            }
 		        }
-		        add_extra_state_shared_building_slots = 1 add_building_construction = {
-		            type = industrial_complex level = 1 instant_build = yes
+		        add_extra_state_shared_building_slots = 2 add_building_construction = {
+		            type = industrial_complex level = 2 instant_build = yes
 		        }
 		    }
 		    add_political_power = 30
 		}
 
-		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes } }
+		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } }
 
 		ai_will_do = { factor = 10 }
 		cost = 10
@@ -251,28 +251,17 @@ focus_tree = {
 			
 		FRA = {
  			add_to_tech_sharing_group = entente_research }
-		
-		SOV = {
- 			add_to_tech_sharing_group = entente_research }
 	
 		POR = {
  			add_to_tech_sharing_group = entente_research }
 	
 		ITA = {
  			add_to_tech_sharing_group = entente_research }
-	
-		BEL = {
- 			add_to_tech_sharing_group = entente_research }
-	
-		GRE = {
+			
+	    BEL = {
  			add_to_tech_sharing_group = entente_research }
 			
-		SER = {
- 			add_to_tech_sharing_group = entente_research }
-           
-		ROM = {
- 			add_to_tech_sharing_group = entente_research }
-           	}	   
+			}
 		ai_will_do = {
 			factor = 800
 			modifier = {
@@ -367,6 +356,13 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_support_belgium }
+		available = { 
+			BEL = { 		
+			      NOT = {
+			        	controls_state = 48
+			    }
+			}
+	      }
 		ai_will_do = {
 			factor = 1
 		}
@@ -377,8 +373,9 @@ focus_tree = {
 		completion_reward = {
 			BEL = {
         add_offsite_building= { type = industrial_complex level = 10 } add_manpower = 500000 }
-		}
+		  }
 	  }
+	  
 	#Focus for Support Belgium
 	focus = {
 		id = ENG_support_belgium
@@ -593,7 +590,6 @@ focus_tree = {
 
 		x = 19
 		y = 2
-		relative_position_id = uk_new_zealand_focus
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -749,7 +745,7 @@ focus = {
 		mutually_exclusive = { focus = ENG_ww1_army_effort_1 }
 		mutually_exclusive = { focus = ENG_ww1_artillery_effort_1 }
 		mutually_exclusive = { focus = ENG_ww1_aircraftprod_1 }
-		mutually_exclusive = { focus = ENG_ww1_large_navy }
+		mutually_exclusive = { focus = ENG_ww1_large_navy_1 }
 		cost = 10
 		x = 26
 		y = 1

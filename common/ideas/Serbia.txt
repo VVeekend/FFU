@@ -27,7 +27,7 @@ ideas={
 			}
 	high_command={
 			SER_zivojin_misic={ ledger = army allowed={ tag=SER } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
-			SER_mihailo_rasic={ ledger = army allowed={ tag=SER } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
+			SER_mihailo_rasic={ ledger = army allowed={ tag=SER } traits={ army_infantry_3 } ai_will_do={ factor=1 } }
 			SER_milos_vasic={ ledger = army allowed={ tag=SER } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
 			SER_petar_pesic={ ledger = army allowed={ tag=SER } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
 			#SER_alexander_karadordevic={ ledger = army allowed={ tag=SER } traits={ army_logistics_1 } ai_will_do={ factor=1 } }

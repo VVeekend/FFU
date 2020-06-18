@@ -39,7 +39,7 @@ ideas={
 			LAT_konstantins_cakste={ ledger = navy allowed={ tag=LAT } traits={ navy_fleet_logistics_1 } ai_will_do={ factor=1 } }
 			LAT_arturs_m_silgailis={ ledger = army allowed={ tag=LAT } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
 			LAT_janis_berzins={ ledger = army allowed={ tag=LAT } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
-			LAT_izglitibas_tautas={ ledger = airallowed={ tag=LAT } traits={ air_naval_strike_1 } ai_will_do={ factor=1 } }
+			LAT_izglitibas_tautas={ ledger = air allowed={ tag=LAT } traits={ air_naval_strike_1 } ai_will_do={ factor=1 } }
 			LAT_arturs_sprogis={ ledger = army allowed={ tag=LAT } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
 			LAT_jucums_vacietis={ ledger = air allowed={ tag=LAT } traits={ air_air_superiority_1 } ai_will_do={ factor=1 } }
 			}

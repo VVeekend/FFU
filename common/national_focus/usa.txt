@@ -11,7 +11,7 @@ focus_tree = {
 		id = USA_ww1_political_effort
 		icon = GFX_goal_generic_demand_territory
 		completion_reward = { add_political_power=120
-            add_offsite_building= { type = arms_factory level = 5 } add_offsite_building= { type = industrial_complex level = 80 }  }
+            add_offsite_building= { type = arms_factory level = 5 } add_offsite_building= { type = industrial_complex level = 80 } add_offsite_building= { type = dockyard level = 10 }  }
 
 		ai_will_do = { factor = 2000 }
 
@@ -409,9 +409,11 @@ focus_tree = {
 
 		completion_reward = {
             add_offsite_building= { type = arms_factory level = 80 }
+			add_offsite_building= { type = industrial_complex level = 80 }
+			add_offsite_building= { type = dockyard level = 10 }
 			add_ideas=volunteer_corps_focus
 			set_rule = { can_send_volunteers = yes }
-			remove_idea = neutrality_idea
+			remove_ideas = neutrality_idea
 
 		}
 		ai_will_do = { factor = 2000 }
@@ -456,6 +458,8 @@ focus_tree = {
 		available = {}
 
 		completion_reward = {
+		USA= {
+ 			add_to_tech_sharing_group = entente_research }
 			5 = {
 				add_building_construction = {
 					type = dockyard
@@ -638,7 +642,7 @@ focus = {
 		mutually_exclusive = { focus = USA_ww1_army_effort_1 }
 		mutually_exclusive = { focus = USA_ww1_artillery_effort_1 }
 		mutually_exclusive = { focus = USA_ww1_aircraftprod_1 }
-		mutually_exclusive = { focus = USA_ww1_large_navy }
+		mutually_exclusive = { focus = USA_ww1_large_navy_1 }
 		cost = 10
 		x = 21
 		y = 1

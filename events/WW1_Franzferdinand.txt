@@ -69,6 +69,8 @@ news_event = {
 				}
 				ENG = { add_to_faction = SER }
 				ENG = { add_to_faction = MNT }
+				ENG = { add_to_faction = LUX }
+				ENG = { add_to_faction = BEL }
 			}
 
 		}

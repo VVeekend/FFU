@@ -54,7 +54,7 @@ ideas={
 			SPR_julian_ruiz={ ledger = army  allowed={ tag=SPR } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
 			SPR_enrique_castro={ ledger = army allowed={ tag=SPR } traits={ army_commando_1 } ai_will_do={ factor=1 } }
 			SPR_lucas_puente={ ledger = army  allowed={ tag=SPR } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			SPR_agustin_de_luque={ allowed={ tag=SPR } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			SPR_agustin_de_luque={ ledger = army allowed={ tag=SPR } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
 			SPR_manuel_de_florez={ ledger = navy  allowed={ tag=SPR } traits={ navy_amphibious_assault_1 } ai_will_do={ factor=1 } }
 			SPR_amalio_gimeno={ ledger = navy  allowed={ tag=SPR } traits={ navy_carrier_1 } ai_will_do={ factor=1 } }
 			SPR_jose_pidal={ ledger = navy  allowed={ tag=SPR } traits={ navy_naval_air_defense_1 } ai_will_do={ factor=1 } }

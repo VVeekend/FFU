@@ -1991,7 +1991,6 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00	
 		xor = {	sacred_war }		
-		partisan_effect = 0.25
 		attrition = -0.1
 		conscription = 0.05
 		infantry = { combat_width = -0.4 }

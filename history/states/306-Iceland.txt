@@ -8,23 +8,29 @@ state={
 	manpower=122920000
 	buildings_max_level_factor=1.000
 	state_category = metropolis
-		victory_points = {
-			10095 25
-		}
 	resources={
+		aluminium=60
 		oil=200
                 wood=400
 		coal=200
-                steel=200
-                tungsten=50          
+        steel=200
+        tungsten=50          
 	}
-	history=
-	{
+	history= {
 	add_extra_state_shared_building_slots = 15
 	owner = USA
 	add_core_of = USA
 		buildings = {
 			infrastructure = 2
+			7768 = {
+				naval_base = 10
 			}
+			12032 = {
+				naval_base = 6
+			   }
+			}
+		victory_points = {
+			10095 25
+		    }
 		}
   }
