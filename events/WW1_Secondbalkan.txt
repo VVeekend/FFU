@@ -176,7 +176,6 @@ country_event = {
 				GRE =  { 
 					white_peace = BUL
 					transfer_state = 133
-					transfer_state = 361
 					diplomatic_relation = {
 						country = BUL
 						relation = non_aggression_pact
@@ -214,7 +213,6 @@ country_event = {
 				GRE =  { 
 					white_peace = BUL
 					transfer_state = 133
-					transfer_state = 361
 					diplomatic_relation = {
 						country = BUL
 						relation = non_aggression_pact
@@ -272,8 +270,7 @@ country_event = {
 				}
 			}
 
-			SER = {
-				dismantle_faction = yes
+			SER = {				dismantle_faction = yes
 			}
 			MNT = {
 				dismantle_faction = yes

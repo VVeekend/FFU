@@ -19610,7 +19610,7 @@
 19609;89;236;115;land;false;urban;1
 19610;128;221;75;land;false;plains;1
 19611;48;146;208;land;false;urban;1
-19612;52;188;134;land;false;urban;1
+19612;52;188;134;land;true;urban;1
 19613;41;72;174;land;true;urban;1
 19614;151;100;0;land;false;hills;1
 19615;100;106;0;land;false;plains;1
@@ -20326,6 +20326,6 @@
 20325;254;147;14;land;false;urban;1
 20326;232;184;188;land;false;urban;1
 20327;98;30;19;land;false;urban;1
-20328;182;148;198;land;false;urban;1
+20328;182;148;198;land;true;urban;1
 20329;93;23;161;land;false;urban;1
 20330;135;2;86;land;false;urban;1

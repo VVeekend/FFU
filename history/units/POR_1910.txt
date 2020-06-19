@@ -48,6 +48,17 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.1
 			}
+navy = {
+name = "Home Fleet"
+location = 10957 # SE
+base =  10957 # SE
+	   ship = { name = "Pluton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "Protected Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "Light Cruisers" } } }
+	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "Light Cruisers" } } }
+	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Pre-1905 Destroyer"} } }
+}
 }
 air_wings = { 
 	}
