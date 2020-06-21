@@ -10,11 +10,6 @@ state={
 	state_category = small_island
 	history=
 	{
-		owner = NOR
-		add_core_of = NOR
-		buildings = {
-			infrastructure = 3
-			}
 		}
 
 }

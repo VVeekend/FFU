@@ -2,12 +2,6 @@
 state={
 	id=84
 	name="STATE_84"
-	provinces={
-		1213 1235 2583 2604 2632 3121 6764 7167 7250 7497 8644 9778 10234 10384 10705 10810 10841 11150 13618 13662 13705 13756 13766 13786 13814 13829 13843 13878 
-	}
-	manpower=2058467
-	buildings_max_level_factor=1.000
-	state_category = city
 
 	history={
 		owner = GER
@@ -19,37 +13,47 @@ state={
 			fuel_silo = 1
 			2632 = {
 				naval_base = 10
+
 			}
+
 		}
 		victory_points = {
-		10234 10
+			10234 10 
 		}
 		victory_points = {
-		2632 5
+			2632 5 
 		}
 		victory_points = {
-		19462 20
+			19462 20 
 		}
 		victory_points = {
-		8644 5
+			8644 5 
 		}
 		victory_points = {
-		6764 15
+			6764 15 
 		}
 		victory_points = {
-		2604 5
+			2604 5 
 		}
 		victory_points = {
-		9778 3
+			9778 3 
 		}
 		victory_points = {
-		3121 1
+			3121 1 
 		}
 		victory_points = {
-		10705 3
+			10705 3 
 		}
 		victory_points = {
-		13705 3
+			13705 3 
 		}
-         }
+
+	}
+
+	provinces={
+		1213 1235 2583 2604 2632 3121 6278 6764 7167 7250 7497 8644 9778 10234 10384 10705 10810 10841 11150 13618 13662 13705 13756 13766 13776 13786 13814 13829 13843 13878 
+	}
+	manpower=2058467
+	buildings_max_level_factor=1.000
+	state_category=city
 }

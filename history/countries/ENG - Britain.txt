@@ -63,7 +63,7 @@ create_field_marshal={  name = "Kitchener H.H." id=28258 portrait_path="gfx/fiel
 }
 
 create_field_marshal={  name = "John Monash" id=5006 portrait_path="gfx/hoi4tgw_portraits/AST/army_generals/AST_john_monash.dds" traits={ commando naval_invader trickster hill_fighter expert_improviser infantry_leader organisational_leader thorough_planner } skill=6 	
-    attack_skill = 8
+    attack_skill = 6
 	defense_skill = 5
 	planning_skill = 5
 	logistics_skill = 3

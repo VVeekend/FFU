@@ -1,7 +1,5 @@
 ﻿add_namespace = ww1_firstbalkan
 
-add_namespace = ww1_firstbalkan
-
 # BUL propose SER to form the Balkan League
 #____________________________________________________________
 country_event = {
@@ -414,6 +412,98 @@ country_event = {
 }
 #____________________________________________________________
 
+ Ottomans win Balkan War
+country_event = {
+	id = ww1_firstbalkan.200
+	title = ww1_firstbalkan.200.t
+	desc = ww1_firstbalkan.200.d
+	#picture = ww1_firstbalkan_5
+
+	fire_only_once = yes
+
+	trigger = {
+		date < 1914.6.1
+
+		tag = SER
+
+		NOT = {
+			has_global_flag = kis_war
+			has_global_flag = hoi4tgw_SchlieffenSecurity
+			has_global_flag = kis_firstbalkanwar_victory
+		}
+		SER = {
+			has_war_with = TUR
+			NOT = {
+				controls_state = 153
+			}
+		}
+	}
+	
+	# ROOT Yes
+	option = {
+		name = ww1_firstbalkan.5.a
+		ai_chance = { factor = 100 }
+		
+		TUR = ( remove_ideas = TUR_SICK_MAN )
+		TUR = { white_peace = SER }		
+		SER = { white_peace = TUR }
+		BUL = { white_peace = TUR }
+		GRE = { white_peace = TUR }
+		MNT = { white_peace = TUR }
+		
+		161 = { add_extra_state_shared_building_slots=4 
+		add_building_construction={ type=arms_factory level=4 
+		instant_build=yes } }
+		254 = { add_extra_state_shared_building_slots=4 
+		add_building_construction={ type=industrial_complex level=4 
+		instant_build=yes } }
+		250 = { add_extra_state_shared_building_slots=4 
+		add_building_construction={ type=industrial_complex level=4 
+		instant_build=yes } }
+		
+	SER = {
+			remove_from_faction = ITA
+			remove_from_faction = GRE
+			remove_from_faction = MNT
+			remove_from_faction = BUL
+		}
+		hidden_effect = {
+			SER = {
+				country_event = { days = 1 id = ww1_firstbalkan.50 }
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = ww1_firstbalkan.50
+	title = ww1_firstbalkan.50.g
+	desc = ww1_firstbalkan.50.h
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# TUR Yes
+	option = {
+		name = ww1_firstbalkan.5.a
+		ai_chance = { factor = 100 }
+
+		SER = { white_peace = TUR }
+		BUL = { white_peace = TUR }
+		GRE = { white_peace = TUR }
+		MNT = { white_peace = TUR }
+
+		SER = {
+			remove_from_faction = ITA
+			remove_from_faction = GRE
+			remove_from_faction = MNT
+			remove_from_faction = BUL
+		}
+		
+	}
+}
+
 # First Balkan War Starts
 #____________________________________________________________
 news_event = {
@@ -429,11 +519,11 @@ news_event = {
 		name = ww1_firstbalkan.100.a
 	}
 }
-#____________________________________________________________
 
 # First Balkan War Victory
 #____________________________________________________________
 news_event = {
+
 	id = ww1_firstbalkan.101
 	title = ww1_firstbalkan.101.t
 	desc = ww1_firstbalkan.101.d
