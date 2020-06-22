@@ -91,6 +91,23 @@ country = {
 			}
 			
 		}
+    SER_heroism = {
+		  allowed = {
+			}
+
+			removal_cost = -1
+			
+			picture = YUG_serbian_general_staff
+			
+			modifier = {
+				army_morale_factor = 0.25
+				attrition = -0.1
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+			}		
+		
+			
+		}
 	}
 }
 

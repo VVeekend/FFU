@@ -150,6 +150,7 @@ create_corps_commander={
 	}
 
 	add_ideas = {
+	    SER_heroism
 		extensive_conscription
 		partial_economic_mobilisation
 		militarism_focus

@@ -150,9 +150,9 @@ NDiplomacy = {
 	WARGOAL_COST_DOCKING_RIGHTS = -0.2,             -- cost modifier to wargoaljustification for dockign rights
  	WARGOAL_COST_VOLUNTEERS = -0.5,                 -- cost modifier to wargoaljustification for volunteers
 
-	ASSUME_FACTION_LEADERSHIP_PP_COST = 200,				-- Political power cost to assume faction leadership
-	ASSUME_FACTION_LEADERSHIP_MIN_MANPOWER_RATIO = 2,		-- The minimum ratio of manpower that a country must have compared to the current leader in order to assume leadership.
-	ASSUME_FACTION_LEADERSHIP_MIN_FACTORY_RATIO = 1.5,		-- The minimum ratio of factories that a country must have compared to the current leader in order to assume leadership.
+	ASSUME_FACTION_LEADERSHIP_PP_COST = 1000,				-- Political power cost to assume faction leadership
+	ASSUME_FACTION_LEADERSHIP_MIN_MANPOWER_RATIO = 50,		-- The minimum ratio of manpower that a country must have compared to the current leader in order to assume leadership.
+	ASSUME_FACTION_LEADERSHIP_MIN_FACTORY_RATIO = 50,		-- The minimum ratio of factories that a country must have compared to the current leader in order to assume leadership.
 	ASSUME_FACTION_LEADERSHIP_COOLDOWN_DAYS = 180,			-- Number of days after formation of faction or change in leadership before another country is allowed to assume leadership.
 	ASSUME_FACTION_SPYMASTER_COOLDOWN_DAYS = 180,			-- Number of days after change of Spy Master before another country is allowed to become Spy Master.
 	FACTION_LEADERSHIP_CHANGE_ALERT_THRESHOLD = 0.8,		-- Threshold for showing an alert when a faction member is close to being able to assume leadership of the faction that a player currently leads.

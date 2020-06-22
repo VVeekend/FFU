@@ -29,7 +29,6 @@ create_country_leader={ name = "Carol I" desc=ROM_carol_i_DESC picture="gfx/lead
 
 #create_field_marshal={  name = "Falcoianu" id=75048 portrait_path="gfx/fieldmarshal/ROM_falcoianu.tga" traits={ old_guard  } skill=3 }
 
-create_field_marshal={  name = "Kliment Boyadzhiev" id=75048 portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Kliment_Boyadzhiev.dds" traits={ fast_planner  } skill=3 }
 
 #-# The Great War 0.5.1 (2018) #----------------------------------------------------------------------------------------------------------#
 

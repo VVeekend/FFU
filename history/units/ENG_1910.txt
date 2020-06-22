@@ -588,225 +588,225 @@ base =  10130 # SE
 	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Light Cruisers" } } }
 	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Light Cruisers" } } }
 	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Light Cruisers" } } }
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
-	   ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
-	   ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }	
+	   ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
+	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Pre-1905 Destroyer"} } }
 
 			 
    }
