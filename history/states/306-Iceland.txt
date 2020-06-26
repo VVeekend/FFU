@@ -9,10 +9,11 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = metropolis
 	resources={
-		aluminium=60
-		oil=200
-                wood=400
-		coal=200
+        rubber=50
+	aluminium=60
+        oil=200
+        wood=400
+	coal=200
         steel=200
         tungsten=50          
 	}

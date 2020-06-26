@@ -6,6 +6,7 @@ state={
 		steel=100.000
 		coal=24.000
 		aluminium=34.000
+                wood=50
 	}
 
 	history={
