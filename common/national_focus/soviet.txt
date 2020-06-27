@@ -265,12 +265,12 @@ focus_tree = {
 		complete_tooltip = {
 			remove_ideas= RUS_ww1_tsushima_humiliation
                 add_stability = -0.15
-                army_experience = -499
+                army_experience = -350
 		}
 		completion_reward = {
 			remove_ideas= RUS_ww1_tsushima_humiliation
                 add_stability = -0.15
-                army_experience = -499
+                army_experience = -400
 		}
 	}
 

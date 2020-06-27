@@ -25,6 +25,7 @@ heavy_artillery_brigade = {
 	amphibious = { attack=-0.4 }
 	hills = { movement=-0.05 }
 	mountain = { movement=-0.2 }
+	fort = { attack=0.1 }
 	soft_attack = 0.25
 	maximum_speed = 0
 	}

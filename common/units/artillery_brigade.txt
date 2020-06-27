@@ -25,6 +25,7 @@ sub_units = {
 		amphibious = { attack=-0.4 }
 		hills = { movement=-0.05 }
 		mountain = { movement=-0.2 }
+		fort = { attack=0.1 }
 		soft_attack = 0.25
 		}
 
@@ -84,6 +85,10 @@ sub_units = {
 		marsh = {
 			attack = -0.2
 			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
 		}
 
 		river = {

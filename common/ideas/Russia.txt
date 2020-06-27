@@ -187,7 +187,7 @@ ideas={
 			RUS_stepan_voevodsky={ ledger = navy allowed={ tag=SOV } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }
 			RUS_aleksandr_rusin={ ledger = navy allowed={ tag=SOV } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
 			RUS_aleksandr_lukomsky={ ledger = army allowed={ tag=SOV } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
-			RUS_pyotr_krasnov={ ledger = army allowed={ tag=SOV } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
+			RUS_pyotr_krasnov={ ledger = army allowed={ tag=SOV } traits={ army_commando_1 } ai_will_do={ factor=1 } }
 			RUS_andrei_shkuro={ ledger = army allowed={ tag=SOV } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={

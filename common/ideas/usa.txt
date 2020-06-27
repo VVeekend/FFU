@@ -58,7 +58,7 @@ ideas={
 	materiel_manufacturer={
 			designer = yes 
 			springfield_armory={ allowed={ TAG=USA } research_bonus={ infantry_weapons=0.10 } traits={ infantry_equipment_manufacturer } }
-			winchester_repeating_arms_co={ allowed={ TAG=USA } research_bonus={ artillery=0.10 } traits={ artillery_manufacturer } picture=generic_infantry_equipment_manufacturer_1 }
+			winchester_repeating_arms_co={ allowed={ TAG=USA } research_bonus={ infantry_weapons=0.10 } traits={ infantry_equipment_manufacturer } picture=generic_infantry_equipment_manufacturer_1 }
 			}
 	industrial_concern={
 			designer = yes 

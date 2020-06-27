@@ -10,7 +10,6 @@ state={
 	resources={
 		aluminium=0 # was: 2
 		steel=2 # was: 3
-                wood=20
 	}
 	history={
 		owner = ENG
