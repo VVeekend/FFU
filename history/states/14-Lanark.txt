@@ -9,6 +9,7 @@ state={
 	state_category = city
 	resources={
 		steel=21 # was: 36
+                wood=20
 	}
 	history={
 		add_core_of = ENG

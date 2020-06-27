@@ -59,6 +59,7 @@ news_event = {
 				FRA = { add_to_faction = MNT }
 				FRA = { add_to_faction = LUX }
 				FRA = { add_to_faction = BEL }
+				FRA = { add_to_faction = POR }
 			}
 
 			if = {
@@ -71,6 +72,7 @@ news_event = {
 				ENG = { add_to_faction = MNT }
 				ENG = { add_to_faction = LUX }
 				ENG = { add_to_faction = BEL }
+				ENG = { add_to_faction = POR }
 			}
 
 		}
