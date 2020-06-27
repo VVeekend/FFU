@@ -8,15 +8,9 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = town
 	resources={
-		steel=40 # was: 62
 	}
 	history={
-		owner = SWE
-		add_core_of = SWE
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			air_base = 3
 			}
 		}
 }

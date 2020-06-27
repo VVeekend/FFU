@@ -9,7 +9,7 @@ state={
 	state_category = enclave
 	resources={
 		rubber=44
-                oil=12
+                oil=45
 	}
 	history={
 		owner = ITA

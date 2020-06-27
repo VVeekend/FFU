@@ -9,6 +9,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=rural
 	resources={
+		steel=40 # was: 62
 		tungsten=10.000
 	}
 	history={

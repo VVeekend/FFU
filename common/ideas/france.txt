@@ -123,7 +123,7 @@ ideas = {
                 tag = FRA
             }
             traits = {
-                army_logistics_1
+                army_infantry_1
             }
             ai_will_do = {
                 factor = 1

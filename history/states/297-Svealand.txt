@@ -8,21 +8,10 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = city
 	resources={
-		steel=24 # was: 40
-		aluminium=2 # was: 4
 	}
 
 	history={
-		owner = SWE
-		add_core_of = SWE
 		buildings = {
-			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 3
-			dockyard = 1
-			12736 = {
-				naval_base = 8
-			   }
 			}
 
 		}

@@ -139,7 +139,6 @@ ideas={
 					experience_gain_navy = 0.02
 					land_reinforce_rate = 0.05
 					minimum_training_level = -0.1
-					conscription_factor = -0.50
 					max_planning = 0.1
 				}
 			}

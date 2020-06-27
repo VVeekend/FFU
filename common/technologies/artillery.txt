@@ -161,7 +161,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = 4 }
+			position = { x = 6 y = 6 }
 		}
 		
 		categories = {
@@ -193,7 +193,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = 6 }
+			position = { x = 6 y = 8 }
 		}
 		
 		categories = {
@@ -218,13 +218,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1917
+		start_year = 1918
 		
 		research_cost = 1.5
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = 8 }
+			position = { x = 6 y = 10 }
 		}
 		
 		categories = {
@@ -257,11 +257,11 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1918
+		start_year = 1920
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = 10 }
+			position = { x = 6 y = 12 }
 		}
 		
 		categories = {
@@ -474,7 +474,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1930
+		start_year = 1918
 		
 		folder = {
 			name = artillery_folder
@@ -489,204 +489,6 @@ technologies = {
 			factor = 50
 		}
 	}
-
-
-	
-	interwar_artillery = {
-
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		
-		path = {
-			leads_to_tech = artillery1
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-
-		start_year = 1936
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 12 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	artillery1 = {
-	
-		enable_equipments = {
-			artillery_equipment_2
-		}
-
-		#artillery = {
-		#	soft_attack = 0.1
-		#}
-		#artillery_brigade = {
-		#	soft_attack = 0.1
-		#}
-		
-		path = {
-			leads_to_tech = artillery2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1939
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 14 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	artillery2 = {
-
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		
-		path = {
-			leads_to_tech = artillery3
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1940
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 16 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	artillery3 = {
-
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		
-		path = {
-			leads_to_tech = artillery4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1941
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 18 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	artillery4 = {
-	
-		enable_equipments = {
-			artillery_equipment_3
-		}
-
-		#artillery = { 
-		#	soft_attack = 0.1
-		#}
-		#artillery_brigade = {
-		#	soft_attack = 0.1
-		#}
-		
-		path = {
-			leads_to_tech = artillery5
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1942
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 20 }
-		}
-		
-		categories = {
-			artillery
-		}
-	}
-	
-	artillery5 = {
-
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		
-		research_cost = 1
-
-		start_year = 1943
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 22 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	
 	rocket_artillery = {
 
@@ -768,7 +570,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1913
+		start_year = 1914
 		
 		folder = {
 			name = artillery_folder
@@ -799,7 +601,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1914
+		start_year = 1915
 		
 		folder = {
 			name = artillery_folder
@@ -837,7 +639,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -4 y = 2 }
+			position = { x = -4 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -865,11 +667,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1913
+		start_year = 1914
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -4 y = 4 }
+			position = { x = -4 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -901,11 +703,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1914
+		start_year = 1916
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -4 y = 6 }
+			position = { x = -4 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -933,39 +735,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1915
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-		}
-	}
-	
-	antiair4 = {
-
-		anti_air = {
-			air_attack = 0.1
-		}
-		anti_air_brigade = {
-			air_attack = 0.1
-		}
-		
-		path = {
-			leads_to_tech = antiair5
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1916
+		start_year = 1918
 		
 		folder = {
 			name = artillery_folder
@@ -981,243 +751,5 @@ technologies = {
 		}
 	}
 	
-	antiair5 = {
-
-		enable_equipments = {
-			anti_air_equipment_3
-		}
-		
-		#anti_air = {
-		#	air_attack = 0.1
-		#}
-		#anti_air_brigade = {
-		#	air_attack = 0.1
-		#}
-		
-		research_cost = 1
-
-		start_year = 1917
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-		}
-	}
-	
-	interwar_antitank = {
-
-		enable_equipments = {
-			anti_tank_equipment_1
-		}
-		
-		path = {
-			leads_to_tech = antitank1
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-
-		start_year = 1936
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
-	
-	antitank1 = {
-
-		anti_tank = {
-			hard_attack = 0.1
-			ap_attack = 0.2
-		}
-		anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.2
-		}
-		
-		path = {
-			leads_to_tech = antitank2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1939
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 14 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
-	
-	antitank2 = {
-		
-		enable_equipments = {
-			anti_tank_equipment_2
-		}
-		
-		#anti_tank = {
-		#	hard_attack = 0.1
-		#	ap_attack = 0.05
-		#}
-		#anti_tank_brigade = {
-		#	hard_attack = 0.1
-		#	ap_attack = 0.05
-		#}
-		
-		path = {
-			leads_to_tech = antitank3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1940
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 16 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
-	
-	antitank3 = {
-
-		anti_tank = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
-		anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
-		
-		path = {
-			leads_to_tech = antitank4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1941
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 18 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
-	
-	antitank4 = {
-
-		anti_tank = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
-		anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
-	
-		path = {
-			leads_to_tech = antitank5
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1942
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 20 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
-	
-	antitank5 = {
-			
-		enable_equipments = {
-			anti_tank_equipment_3
-		}	
-			
-		#anti_tank = {
-		#	hard_attack = 0.1
-		#	ap_attack = 0.05
-		#}
-		#anti_tank_brigade = {
-		#	hard_attack = 0.1
-		#	ap_attack = 0.05
-		#}
-		
-		research_cost = 1
-
-		start_year = 1943
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 22 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
 	
 }

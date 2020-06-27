@@ -8,7 +8,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=rural
 	resources={
-		wood=12.000
+		wood=32.000
 	}
 	history={
 		owner = TUR
