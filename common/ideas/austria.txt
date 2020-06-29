@@ -22,7 +22,7 @@ ideas={
 	}
 
 	army_chief={
-			AUH_franz_conrad_von_hotzendorf={ allowed={ tag=AUS } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
+			AUH_franz_conrad_von_hotzendorf={ allowed={ tag=AUS } traits={ army_chief_offensive_1 } ai_will_do={ factor=1 } }
 			AUH_artur_arz_von_straussenberg={ allowed={ tag=AUS } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
 	}
 

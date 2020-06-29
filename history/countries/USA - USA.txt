@@ -78,7 +78,7 @@ create_corps_commander={  name = "Frank Parker" id=93296 portrait_path="gfx/hoi4
 	planning_skill = 2
 	logistics_skill = 2
 }
-create_corps_commander={  name = "Douglas MacArthur" id=93020 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Douglas_MacArthur.dds" traits={ trait_engineer infantry_leader fortress_buster } skill=6
+create_corps_commander={  name = "Douglas MacArthur" id=93020 portrait_path="gfx/hoi4tgw_portraits/USA/army_generals/USA_Douglas_MacArthur.dds" traits={ trickster trait_engineer infantry_leader fortress_buster } skill=6
 	attack_skill = 5
 	defense_skill = 6
 	planning_skill = 3

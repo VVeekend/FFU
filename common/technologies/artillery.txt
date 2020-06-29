@@ -179,7 +179,7 @@ technologies = {
 	bonus_bertha2 = {
 
 		heavy_artillery_brigade = {
-			hard_attack = 0.1
+			soft_attack = 0.1
 		}
 		
 		path = {

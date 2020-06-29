@@ -36,8 +36,11 @@ country_event = {
 	#picture = ww1_firstbalkan_2
 
 	fire_only_once = yes
-	is_triggered_only = yes
 	
+	trigger = {
+		date > 1912.8.1
+		date < 1912.8.30 }
+		
 	# SER Yes
 	option = {
 		name = ww1_firstbalkan.2.a
@@ -47,11 +50,6 @@ country_event = {
 	            can_create_factions = yes
 	        }
 	        create_faction = "balkan_league"
-
-	        # Bulgaria
-            BUL = {
-                country_event = ww1_firstbalkan.3
-            }
 
 	        # Greece
             GRE = {
@@ -119,8 +117,11 @@ country_event = {
 	desc = ww1_firstbalkan.4.d
 	#picture = ww1_firstbalkan_4
 
-	is_triggered_only = yes
-	
+     fire_only_once = yes
+	trigger = {
+		date > 1912.9.1
+		date < 1912.10.1 }
+		
 	# SER Yes
 	option = {
 		name = ww1_firstbalkan.4.a
@@ -217,7 +218,7 @@ country_event = {
 		}
 
 	}
-}
+} 
 #____________________________________________________________
 
 # Ottoman Offer Peace to Serbia
@@ -390,6 +391,10 @@ country_event = {
 				}
 			}
 			TUR = {
+			
+			    add_ideas = FRA_ww1_Revanchism
+				add_ideas = war_economy
+				
 				add_opinion_modifier = { 
 					target = SER 
 					modifier = HOI4TGW_Opinion_hostile_relations_post_balkan_war 
@@ -412,7 +417,7 @@ country_event = {
 }
 #____________________________________________________________
 
- Ottomans win Balkan War
+# Ottomans win Balkan War
 country_event = {
 	id = ww1_firstbalkan.200
 	title = ww1_firstbalkan.200.t
@@ -431,16 +436,13 @@ country_event = {
 			has_global_flag = hoi4tgw_SchlieffenSecurity
 			has_global_flag = kis_firstbalkanwar_victory
 		}
-		SER = {
-			has_war_with = TUR
-			NOT = {
-				controls_state = 153
+			SER = {
+				surrender_progress > 0.50
 			}
-		}
 	}
 	
 	# ROOT Yes
-	option = {
+	option = { 
 		name = ww1_firstbalkan.5.a
 		ai_chance = { factor = 100 }
 		
@@ -454,18 +456,17 @@ country_event = {
 		161 = { add_extra_state_shared_building_slots=4 
 		add_building_construction={ type=arms_factory level=4 
 		instant_build=yes } }
-		254 = { add_extra_state_shared_building_slots=4 
-		add_building_construction={ type=industrial_complex level=4 
+		254 = { add_extra_state_shared_building_slots=5 
+		add_building_construction={ type=industrial_complex level=5
 		instant_build=yes } }
-		250 = { add_extra_state_shared_building_slots=4 
-		add_building_construction={ type=industrial_complex level=4 
+		250 = { add_extra_state_shared_building_slots=5 
+		add_building_construction={ type=industrial_complex level=5 
 		instant_build=yes } }
 		
 	SER = {
 			remove_from_faction = ITA
 			remove_from_faction = GRE
 			remove_from_faction = MNT
-			remove_from_faction = BUL
 		}
 		hidden_effect = {
 			SER = {
@@ -504,6 +505,39 @@ country_event = {
 	}
 }
 
+# White Peace
+country_event = {
+	id = ww1_firstbalkan.40
+	title = ww1_firstbalkan.40.t
+	desc = ww1_firstbalkan.40.d
+	#picture = ww1_firstbalkan_2
+
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = SER
+		date > 1913.5.1
+		date < 1913.5.30 
+		has_offensive_war_with = TUR
+		}
+		
+	# SER Yes
+	option = {
+		name = ww1_firstbalkan.2.a
+		ai_chance = { factor = 100 }
+		
+		SER = { white_peace = TUR }
+		GRE = { white_peace = TUR }
+		MNT = { white_peace = TUR }
+
+		SER = {
+			remove_from_faction = ITA
+			remove_from_faction = GRE
+			remove_from_faction = MNT
+			remove_from_faction = BUL
+		}
+	}
+}
 # First Balkan War Starts
 #____________________________________________________________
 news_event = {

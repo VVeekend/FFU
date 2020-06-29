@@ -797,7 +797,7 @@ technologies = {
 	tanktrack1 = {
 	
 		category_all_armor = {
-			breakthrough = 0.02
+			breakthrough = 0.05
 		}
 				
 		research_cost = 1.0
@@ -912,7 +912,7 @@ technologies = {
 	tanktrack2 = {
 	
 		category_all_armor = {
-			breakthrough = 0.02
+			breakthrough = 0.05
 		}
 				
 		research_cost = 1.0

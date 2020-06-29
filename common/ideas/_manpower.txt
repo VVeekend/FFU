@@ -68,7 +68,6 @@ ideas = {
 			
 			available = {
 				#has_manpower_for_recruit_change_to = { 1 = 0.05 group = mobilization_laws }
-				threat > 0.4
 				has_war = yes
 				enemies_strength_ratio > 0.3
                 NOT = { has_idea = ENG_Staff }				

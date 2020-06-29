@@ -451,4 +451,5 @@ TUR_ww1_join_centralpowers_desc:0 "" #KAISER_ANONY
 
 #--------------------------------------------------------------
 
-
+TUR_berlin_baghdad_railway:0 "Berlin Baghdad Railway"
+TUR_berlin_baghdad_railway_desc:0 "Funding for the railway must continue, technical difficulties must be overcome."

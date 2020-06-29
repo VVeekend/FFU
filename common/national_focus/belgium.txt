@@ -23,6 +23,8 @@ focus_tree = {
 		}
 
 	completion_reward = {
+			BEL = {
+			transfer_state = 35 }
 		add_manpower= 100000
 			random_unit_leader = { limit = { has_id	= 9009 } 
 			add_unit_leader_trait = exiled_leader

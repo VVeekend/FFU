@@ -184,13 +184,15 @@ focus_tree = {
 
 		available = {
 			has_war_with = GER
+			date > 1915.6.1 
 		}
 		bypass = {
 			is_in_faction_with = GRE
 			is_alone_or_in_faction_at_peace_with_FRA = no
 		}
 
-		completion_reward = { 
+		completion_reward = {
+			FRA = { add_to_faction = GRE }		
 			GRE = {
              add_war_support= .05
                add_stability = 0.05 			 
@@ -199,7 +201,7 @@ focus_tree = {
 
 		ai_will_do = { factor = 20 }
 
-		cost = 10
+		cost = 1
 		x = 5
 		y = 3
 		#mutually_exclusive = { focus = FRA_ww1_greece_puppet }

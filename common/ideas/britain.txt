@@ -23,7 +23,7 @@ ideas={
 			#ENG_alexander_cobbe={ allowed={ tag=ENG } traits={ mobile_warfare_expert }  research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
 			}
 	army_chief={
-			ENG_frederick_roberts={ allowed={ tag=ENG } traits={ army_chief_drill_1 } ai_will_do={ factor=1 } }
+			ENG_frederick_roberts={ allowed={ tag=ENG } traits={ army_chief_defensive_2 } ai_will_do={ factor=1 } }
 			ENG_neville_lyttleton={ allowed={ tag=ENG } traits={ army_chief_organizational_1 } ai_will_do={ factor=1 } }
 			#ENG_james_wolfe_murray={ allowed={ tag=ENG } traits={ army_chief_drill_1 } ai_will_do={ factor=1 } }
 			ENG_archibald_murray={ allowed={ tag=ENG } traits={ army_chief_reform_1 } ai_will_do={ factor=1 } }
@@ -38,7 +38,7 @@ ideas={
 	navy_chief={
 			#ENG_walter_kerr={ allowed={ tag=ENG } traits={ navy_chief_reform_1 } ai_will_do={ factor=1 } }
 			ENG_david_beatty={ allowed={ tag=ENG } traits={ navy_chief_maneuver_1 } ai_will_do={ factor=1 } }
-			ENG_john_jellicoe={ allowed={ tag=ENG } traits={ navy_chief_decisive_battle_1 } ai_will_do={ factor=1 } }
+			ENG_john_jellicoe={ allowed={ tag=ENG } traits={ navy_chief_decisive_battle_2 } ai_will_do={ factor=1 } }
 			ENG_edward_james_headlam={ allowed={ tag=ENG } traits={ navy_chief_commerce_raiding_1 } ai_will_do={ factor=1 } }
 			}
 	air_chief={

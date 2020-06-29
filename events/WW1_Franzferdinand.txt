@@ -35,6 +35,8 @@ news_event = {
 	immediate = {
 		set_global_flag = kis_franzferdinand_murdered
 		hidden_effect = {
+		GER = { add_to_faction = BUL }
+		GER = { add_to_faction = TUR }
 			AUS = {
 				set_country_flag=murder_of_franz_ferdinand
 			}
@@ -43,7 +45,7 @@ news_event = {
 				add_political_power=-5
 				add_manpower=5000
 				add_named_threat={
-					threat=15
+					threat=25
 					name=ww1_franzferdinand.1.t
 				}
 				#remove_unit_leader=6048
@@ -145,6 +147,22 @@ country_event = {
 			country_event=ww1_franzferdinand.4
 		}
 		AUS={
+	        declare_war_on={
+				type=annex_everything
+				target=POR
+			}
+		    declare_war_on={
+				type=annex_everything
+				target=LUX
+			}
+			declare_war_on={
+				type=annex_everything
+				target=BEL
+			}
+		    declare_war_on={
+				type=annex_everything
+				target=FRA
+			}
 			declare_war_on={
 				type=annex_everything
 				target=SER
@@ -156,6 +174,114 @@ country_event = {
 			declare_war_on={
 				type=annex_everything
 				target=ENG
+			}
+			declare_war_on={
+				type=annex_everything
+				target=MNT
+			}
+		}
+		GER={
+	        declare_war_on={
+				type=annex_everything
+				target=POR
+			}
+		    declare_war_on={
+				type=annex_everything
+				target=LUX
+			}
+			declare_war_on={
+				type=annex_everything
+				target=BEL
+			}
+		    declare_war_on={
+				type=annex_everything
+				target=FRA
+			}
+			declare_war_on={
+				type=annex_everything
+				target=SER
+			}
+			declare_war_on={
+				type=annex_everything
+				target=SOV
+			}
+			declare_war_on={
+				type=annex_everything
+				target=ENG
+			}
+			declare_war_on={
+				type=annex_everything
+				target=MNT
+			}
+		}
+		
+		BUL={
+	        declare_war_on={
+				type=annex_everything
+				target=POR
+			}
+		    declare_war_on={
+				type=annex_everything
+				target=LUX
+			}
+			declare_war_on={
+				type=annex_everything
+				target=BEL
+			}
+		    declare_war_on={
+				type=annex_everything
+				target=FRA
+			}
+			declare_war_on={
+				type=annex_everything
+				target=SER
+			}
+			declare_war_on={
+				type=annex_everything
+				target=SOV
+			}
+			declare_war_on={
+				type=annex_everything
+				target=ENG
+			}
+			declare_war_on={
+				type=annex_everything
+				target=MNT
+			}
+		}
+		
+		TUR={
+	        declare_war_on={
+				type=annex_everything
+				target=POR
+			}
+		    declare_war_on={
+				type=annex_everything
+				target=LUX
+			}
+			declare_war_on={
+				type=annex_everything
+				target=BEL
+			}
+		    declare_war_on={
+				type=annex_everything
+				target=FRA
+			}
+			declare_war_on={
+				type=annex_everything
+				target=SER
+			}
+			declare_war_on={
+				type=annex_everything
+				target=SOV
+			}
+			declare_war_on={
+				type=annex_everything
+				target=ENG
+			}
+			declare_war_on={
+				type=annex_everything
+				target=MNT
 			}
 		}
 
@@ -183,7 +309,7 @@ country_event = {
 		remove_ideas=neutrality_idea
 		add_political_power=100
 		add_named_threat={
-			threat=2
+			threat=25
 			name=ww1_franzferdinand.4.t
 		}
 		GER={

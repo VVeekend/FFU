@@ -207,7 +207,7 @@ units = {
 	
 	division= { 
 			name = "27a Divisione di Fanteria"
-			location = 955 # Salerno
+			location = 8587 # Salerno
 			division_template="Fanteria Divisione"
 			start_experience_factor=0.05
 			}

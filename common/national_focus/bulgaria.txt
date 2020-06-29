@@ -290,80 +290,6 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 		y = 1
 	}
 
-	focus = {
-		id = BUL_ww1_italo_turkish_opportunity
-		prerequisite = { focus=BUL_ww1_BalkansPolitics }
-	    icon = GFX_goal_generic_occupy_states_ongoing_war
-		completion_reward = {
-
-
-			army_experience=5
-			add_manpower = 20000
-			add_stability = 0.01
-
-		}
-
-		ai_will_do = { factor = 2000 }
-		cost = 10
-		x = 8
-		y = 2
-	}
-
-	focus = {
-		id = BUL_ww1_balkan_war_propaganda
-		prerequisite = { focus=BUL_ww1_italo_turkish_opportunity }
-
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-
-		available = {
-			has_global_flag = kis_firstbalkanwar_victory
-		}
-
-		completion_reward = {
-			army_experience = 15
-			add_stability = 0.1
-			add_manpower = 10000
-		}
-		
-		ai_will_do = { factor = 2000 }
-		cost = 2
-		x = 8
-		y = 3
-	}
-
-	focus = {
-		id = BUL_second_balkan
-		prerequisite = { focus=BUL_ww1_balkan_war_propaganda }
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		available = { 
-			date < 1914.3.1
-			country_exists = SER 
-			BUL = { 
-				has_war = no 
-			}
-			SER = { 
-				NOT = {
-					has_war_with = AUS
-				}
-			}
-			has_global_flag = kis_firstbalkanwar_victory 
-			NOT = {
-				has_global_flag = kis_franzferdinand_murdered 
-			}
-		}
-
-		completion_reward = {
-			BUL = {
-				country_event = ww1_secondbalkan.1
-	    	} 
-		}
-
-		ai_will_do = { factor = 2000 }
-		cost = 2
-		x = 8
-		y = 4
-	}
-
 
 
 	#----------------------------------------------------------------------- 
@@ -476,7 +402,7 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 
 		completion_reward = { add_political_power=75 }
 		ai_will_do = { factor = 20 }
-		cost = 10
+		cost = 5
 		x = 14
 		y = 1
 	}
@@ -495,7 +421,7 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 		complete_tooltip = { add_building_construction={ type=infrastructure level=1 instant_build=yes } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
 
 		ai_will_do = { factor = 10 }
-		cost = 10
+		cost = 5
 		x = 14
 		y = 2
 	}
@@ -507,7 +433,7 @@ add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_fa
 		completion_reward = { add_manpower = 8000 add_political_power=150 	add_stability = -0.01 }
 
 		ai_will_do = { factor = 10 }
-		cost = 10
+		cost = 5
 		x = 14
 		y = 3
 	}

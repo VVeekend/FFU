@@ -9,6 +9,7 @@ state={
 	state_category = large_city
 	resources={
 		coal=37
+                wood=30
 	}
 	history= {
 		owner = GER
