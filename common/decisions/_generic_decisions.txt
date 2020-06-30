@@ -80,7 +80,6 @@ political_actions = {
 			}
 		}
 	}
-}
 
 propaganda_efforts = {
 
@@ -524,4 +523,4 @@ economy_decisions = {
 		}
     }
 }
-
+}

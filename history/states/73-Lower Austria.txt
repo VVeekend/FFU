@@ -11,6 +11,7 @@ state={
 	resources={
 		oil=1 # was: 2
                 coal=60
+                steel=40
 	}
 	history={
 		owner = AUS

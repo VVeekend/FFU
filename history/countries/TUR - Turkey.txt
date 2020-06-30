@@ -63,9 +63,9 @@ create_corps_commander={  name = "Mehmed Esad Paşa" id=90008 portrait_path="gfx
 	logistics_skill = 1
 }
 create_corps_commander={  name = "Hasan Tahsin Paşa" id=90138 portrait_path="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Hasan_Tahsin.dds" traits={ old_guard desert_fox } skill=3 
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
 	logistics_skill = 2
 }
 

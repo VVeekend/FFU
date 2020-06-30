@@ -45,12 +45,13 @@ country_event = {
 	option = {
 		name = ww1_firstbalkan.2.a
 		ai_chance = { factor = 100 }
+		
 		SER = {
 			set_rule = {
 	            can_create_factions = yes
 	        }
 	        create_faction = "balkan_league"
-
+				
 	        # Greece
             GRE = {
                 country_event = ww1_firstbalkan.3
@@ -63,6 +64,8 @@ country_event = {
 		}
 		hidden_effect = {
 			news_event = { days = 1 id = kis_news.108 }
+		BUL = {
+				add_ideas = war_economy }
 		}
 	}
 }

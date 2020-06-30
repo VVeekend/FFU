@@ -41,12 +41,12 @@ focus_tree = {
             }
        add_equipment_to_stockpile= {
         type = heavy_field_gun_equipment_1 
-        amount = 1000 
+        amount = 2000 
         producer = BEL 
             }
        add_equipment_to_stockpile = {			
        type = support_equipment_1 
-        amount = 1000 
+        amount = 2000 
         producer = BEL 
                   }
 		    }			

@@ -9,6 +9,7 @@ state={
 	state_category=rural
 	resources={
 		wood=32.000
+		tungsten=60.000
 	}
 	history={
 		owner = TUR

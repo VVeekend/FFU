@@ -568,7 +568,7 @@ NBuildings = {
 	OWNER_CHANGE_EXTRA_SHARED_SLOTS_FACTOR = 0.5, --Scale factor of extra shared slots when state owner change.
 	DESTRUCTION_COOLDOWN_IN_WAR = 30,	-- Number of days cooldown between removal of buildings in war times
 	
-	INFRASTRUCTURE_RESOURCE_BONUS = 0.1, -- multiplactive resource bonus for each level of (non damaged) infrastructure
+	INFRASTRUCTURE_RESOURCE_BONUS = 0.15, -- multiplactive resource bonus for each level of (non damaged) infrastructure
 },
 
 NDeployment = {
@@ -648,7 +648,7 @@ NMilitary = {
 	AMPHIBIOUS_INVADE_MOVEMENT_COST = 24.0,        -- total progress cost of movement while amphibious invading
 	LAND_SPEED_MODIFIER = 0.05,                    -- basic speed control
 	RIVER_CROSSING_PENALTY = -0.3,                 -- small river crossing
-	RIVER_CROSSING_PENALTY_LARGE = -0.6,           -- large river crossing
+	RIVER_CROSSING_PENALTY_LARGE = -0.45,           -- large river crossing
 	RIVER_CROSSING_SPEED_PENALTY = -0.25,           -- small river crossing
 	RIVER_CROSSING_SPEED_PENALTY_LARGE = -0.5,     -- large river crossing
 	RIVER_SMALL_START_INDEX = 0,                   -- color indices for rivers

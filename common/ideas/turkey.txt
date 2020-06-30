@@ -30,7 +30,7 @@ ideas={
 
 	army_chief={
 			TUR_ahmed_cemal={ allowed={ tag=TUR } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
-			TUR_mehmet_nazim={ allowed={ tag=TUR } traits={ army_chief_offensive_1 } ai_will_do={ factor=1 } }
+			TUR_mehmet_nazim={ allowed={ tag=TUR } traits={ army_chief_offensive_2 } ai_will_do={ factor=1 } }
 			}
 
 	navy_chief={
