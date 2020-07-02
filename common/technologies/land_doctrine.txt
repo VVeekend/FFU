@@ -85,6 +85,7 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
+		max_planning = 0.05
 		category_light_infantry = {
 			defense = 0.1
 		}	
@@ -227,7 +228,7 @@ technologies = {
 		xp_research_bonus = 1.00
         
 		category_all_armor = {
-		    soft_attack = 0.1
+		    soft_attack = 0.15
 			breakthrough = 0.1
 			}
 		cavalry = {
@@ -699,6 +700,7 @@ technologies = {
 			leads_to_tech = hidden_positions
 			research_cost_coeff = 1
 		}
+		land_reinforce_rate = 0.02
 		category_line_artillery = {
 			soft_attack = 0.05
 		}
@@ -1387,6 +1389,7 @@ technologies = {
 		category_light_infantry = {
 			defense = 0.15
 		}
+		land_reinforce_rate = 0.04
 		max_dig_in = 7.5
 		path = {
 			leads_to_tech = front_patrol
@@ -2215,6 +2218,7 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
+		land_reinforce_rate = 0.04
 		category_army = {
 			default_morale = 0.15
 		}
@@ -2347,7 +2351,8 @@ technologies = {
 	psychic_attack = {	
 		xp_research_type = army
 		xp_research_cost = 100
-		xp_research_bonus = 1.00		
+		xp_research_bonus = 1.00	
+		land_reinforce_rate = 0.06
 		category_light_infantry = {
 			max_organisation = 5
 			soft_attack = 0.1
