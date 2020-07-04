@@ -17,8 +17,8 @@ focus_tree = {
 		icon = GFX_hoi4tgw_ironcross
 		available = {
 			date > 1915.1.1
-			OR = {
-             has_war_with = GER
+		     NOT = {
+             has_idea= RUS_Kerensky
 			}
 		}
 
@@ -46,7 +46,10 @@ focus_tree = {
 		id = SOV_Kerensky
 		prerequisite = { focus = SOV_Brusilov }
 		icon = GFX_hoi4tgw_ironcross
-		available = { date > 1916.1.1 }
+		available = { date > 1916.1.1 
+		 NOT = {
+             has_idea= RUS_brusilov
+			}   }
 		completion_reward = { 
 			add_timed_idea = {
 					days = 100

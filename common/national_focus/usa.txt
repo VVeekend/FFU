@@ -387,7 +387,7 @@ focus_tree = {
 					available = {
 				date > 1914.6.1 
 			}
-		completion_reward = { add_war_support = 0.15 add_political_power=150  add_offsite_building= { type = arms_factory level = 30 } add_offsite_building= { type = industrial_complex level = 60 } }
+		completion_reward = { add_war_support = 0.15 add_political_power=150  add_offsite_building= { type = arms_factory level = 10 } add_offsite_building= { type = industrial_complex level = 60 } }
 		ai_will_do = { factor = 2050 }
 		cost = 5
 		x = 10
@@ -408,7 +408,7 @@ focus_tree = {
 			}
 
 		completion_reward = {
-            add_offsite_building= { type = arms_factory level = 80 }
+            add_offsite_building= { type = arms_factory level = 20 }
 			add_offsite_building= { type = industrial_complex level = 90 }
 			add_offsite_building= { type = dockyard level = 10 }
 			add_ideas=volunteer_corps_focus
@@ -435,7 +435,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	       add_offsite_building= { type = arms_factory level = 40 }
+	       add_offsite_building= { type = arms_factory level = 20 }
 			if = {
 				limit = { has_idea = neutrality_idea }
 				remove_ideas = neutrality_idea

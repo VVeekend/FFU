@@ -93,7 +93,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"		
-			spriteType ="GFX_division_designer_popup_bg"
+			spriteType ="GFX_ssc_division_designer_popup_bg"
 		}
 		
 		iconType = {
@@ -105,7 +105,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "border_container"
 			position = { x=29 y=101 }
-			size = { width = 96 height = 90 }
+			size = { width = 96 height = 48 }
 			
 			background = {
 				name ="bg_tech_button"
@@ -158,7 +158,7 @@ guiTypes = {
 				name = "support_grid"
 				position = { x = 23 y = 57 }
 				size = { width = 85 height = 100%% }
-				slotsize = { width = 82 height = 51 }
+				slotsize = { width = 82 height = 42 }
 				format = "UPPER_LEFT"
 			}
 			
@@ -292,7 +292,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "adjuster_stats"
-				position = { x = 0 y = 343 }	#MPU
+				position = { x = 15 y = 343 }	
 				size = { width = 515 height = 50 }
 				clipping = no
 				
@@ -300,8 +300,8 @@ guiTypes = {
 					name = "stats_grid"
 					position = { x = 0 y = 0 }
 					size = { width = 100%% height = 100%% }
-					slotsize = { width = 75 height = 62 }	#MPU
-					max_slots_horizontal = 7	#MPU
+					slotsize = { width = 103 height = 62 }
+					max_slots_horizontal = 5
 					max_slots_vertical = 2
 					format = "UPPER_LEFT"
 				}
@@ -414,14 +414,13 @@ guiTypes = {
 		iconType = {
 			name ="division_icon_bg"
 			spriteType = "GFX_division_icon_bg"	
-			position = { x=37 y=52 }	#MPU
+			position = { x=29 y=56 }
 		}		
 
 		ButtonType = {
 			name ="div_templ_symbol_button"
 			spriteType = "GFX_unit_super_heavy_armor_icon_medium"	
-			position = { x=39 y=53 }	#MPU
-			size = { x=76 y=44 }		#MPU
+			position = { x=37 y=57 }
 			clicksound = click_default
 		}	
 
@@ -539,7 +538,7 @@ guiTypes = {
 				animation_time = 300
 				size = { width=230 height=260 }	
 				verticalScrollbar = "right_vertical_slider"
-				#MPU margin = { top = 7 bottom = 7 right = 6 }
+				margin = { top = 7 bottom = 7 right = 6 }
 				#clipping = no
 				
 				background = {
@@ -550,9 +549,9 @@ guiTypes = {
 				
 				gridBoxType = {
 					name = "names_grid"
-					position = { x = 8 y = 4 }	#MPU
+					position = { x = 8 y = 0 }
 					size = { width = 199 height = 100%% }
-					slotsize = { width = 186 height = 23 }	#MPU
+					slotsize = { width = 186 height = 30 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -621,7 +620,7 @@ guiTypes = {
 					name = "divisions_grid"
 					position = { x = 8 y = 0 }
 					size = { width = 199 height = 100%% }
-					slotsize = { width = 220 height = 43 }	#MPU
+					slotsize = { width = 220 height = 50 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -641,7 +640,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "designerregimentswindow"
-			position = { x=-10 y=40}	
+			position = { x=0 y=40}	
 			size = { width=549 height=459 }
 			margin = { top = 14 bottom = 11 }
 			verticalScrollbar = "right_vertical_slider"
@@ -676,7 +675,7 @@ guiTypes = {
 				name = "designer_regiments_grid"
 				position = { x = 20 y = 40 }
 				size = { width = 520 height = 453 }
-				slotsize = { width = 253 height = 61 }	#MPU
+				slotsize = { width = 253 height = 69 }
 				max_slots_horizontal = 2
 				format = "UPPER_LEFT"
 			}
@@ -799,13 +798,12 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "div_templ_custom_icon_view"
-			position = { x=12 y=42 }	#MPU
-			size = { width=542 height=452 }	#MPU
+			position = { x=13 y=47 }
+			size = { width=532 height=447 }
 			moveable = no
 			fade_time = 500
 			fade_type = linear
 			show_sound = pop_up
-			scroll_wheel_factor = 50		#MPU faster scrolling
 			verticalScrollbar = "right_vertical_slider"
 
 			background = {
@@ -835,8 +833,8 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "symbols_grid"
-				position = { x=2%% y=50 }		#MPU
-				size = { width=96%% height=100%% } #MPU change to relative size
+				position = { x=4 y=44 }
+				size = { width=504 height=400 }
 				slotsize = { width=84 height=50 }
 				max_slots_horizontal = 6
 				format = "UPPER_LEFT"
@@ -847,6 +845,7 @@ guiTypes = {
 			name = "div_template_select_model"
 			position = { x=538 y=40 }
 			size = { width=567 height=460 }
+			show_sound = pop_up
 			
 			
 			background = {
@@ -958,7 +957,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "unit_icon"
-			position = { x = 0 y = 10 }	#MPU
+			position = { x = 1 y = 10 }
 			spriteType = "GFX_locked_icon"
 			Orientation = CENTER_LOWER
 			clicksound = click_default
@@ -966,23 +965,22 @@ guiTypes = {
 
 		buttonType = {
 			name = "invisible_icon"
-			position = { x = 0 y = 12 } #MPU
+			position = { x = 1 y = 12 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
 			clicksound = click_default
 		}	
-		
 	}
 
 	containerWindowType = {
 		name = "designer_division_support_slot_entry"
 		position = { x=0 y=0}	
-		size = { width=64 height=53 }
+		size = { width=64 height=44 }
 		clipping = no
 
 		background = {
 			name = "Background"		
-			spriteType = "GFX_div_unit_item_bg"	#MPU  "GFX_div_subunit_item_bg"
+			spriteType ="GFX_ssc_div_subunit_item_bg"
 		}
 		
 		instantTextboxType = {
@@ -1000,25 +998,25 @@ guiTypes = {
 		buttonType = {
 			name = "unit_icon"
 			spriteType = "GFX_locked_icon"
-			position = {x = 0 y=10}	#MPU
+			position = {x=2 y=11}
 			Orientation = CENTER_LOWER
-			#MPU scale = 0.8
+			scale = 0.8
 			clicksound = click_default
 		}	
 
 		buttonType = {
 			name = "invisible_icon"
-			position = { x = 0 y = 12 }	#MPU
+			position = { x = 2 y = 12 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
-			#scale = 0.8	#MPU
+			scale = 0.8
 			clicksound = click_default
 		}
 	}
 	
 	containerWindowType = {
 		name = "designer_subunit_category_entry"
-		size = { width = 250 height = 57  }	#MPU
+		size = { width = 250 height = 66  }
 		clipping = no
 
 		background = {
@@ -1030,34 +1028,32 @@ guiTypes = {
 		iconType = {
 			name ="subunit_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=4 y=7 }	#MPU
+			position = { x=9 y=17 }
 			alwaystransparent = yes
 		}
 	
 		instantTextboxType = {
 			name = "name"
-			position = { x = 80 y = 10 }	#MPU
+			position = { x = 85 y = 25 }
 			textureFile = ""
-			font = "hoi_16mbs"	#MPU
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
-			maxWidth = 155	#MPU
-			maxHeight = 10	#MPU
-			fixedsize = yes	#MPU
+			maxWidth = 160
+			maxHeight = 20
 			format = left
 			alwaystransparent = yes
 		}
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 80 y = 29 }	#MPU
+			position = { x = 85 y = 41 }
 			textureFile = ""
-			font = "hoi_16mbs"	#MPU
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
-			maxWidth = 155	#MPU
-			maxHeight = 10	#MPU
-			fixedsize = yes	#MPU
+			maxWidth = 160
+			maxHeight = 20
 			format = left
 			alwaystransparent = yes
 		}
@@ -1065,7 +1061,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "designer_subunit_entry"
-		size = { width = 250 height = 57  }	#MPU
+		size = { width = 250 height = 66  }
 		clipping = no
 
 		background = {
@@ -1077,33 +1073,32 @@ guiTypes = {
 		iconType = {
 			name ="subunit_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=4 y=7 }	#MPU
+			position = { x=9 y=17 }
 			alwaystransparent = yes
 		}
 	
 		instantTextboxType = {
 			name = "name"
-			position = { x = 80 y = 10 }	#MPU
+			position = { x = 85 y = 5 }
 			textureFile = ""
-			font = "hoi_16mbs"	#MPU
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
-			maxWidth = 155	#MPU
-			maxHeight = 10	#MPU
-			fixedsize = yes	#MPU
+			maxWidth = 160
+			maxHeight = 20
 			format = left
 			alwaystransparent = yes
 		}
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 80 y = 29 }	#MPU
+			position = { x = 85 y = 41 }
 			textureFile = ""
-			font = "hoi_16mbs"	#MPU
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
-			maxWidth = 155	#MPU
-			maxHeight = 10	#MPU
+			maxWidth = 160
+			maxHeight = 20
 			format = left
 			alwaystransparent = yes
 		}
@@ -1111,13 +1106,13 @@ guiTypes = {
 		iconType = {
 			name = "special_forces_icon"
 			spriteType = "GFX_special_forces_icon"
-			position = { x = 219 y = 6 }	#MPU
+			position = { x = 216 y = 5 }
 		}
 		
 		iconType = {
 			name = "can_paradrop_icon"
 			spriteType = "GFX_can_paradrop_icon_small"
-			position = { x = 219 y = 29 }	#MPU
+			position = { x = 216 y = 30 }
 			frame = 2
 		}
 	}
@@ -1136,27 +1131,27 @@ guiTypes = {
 		iconType = {
 			name ="division"
 			spriteType = "GFX_technology_medium"
-			position = { x=2 y=2 }	#MPU
+			position = { x=-6 y=3 }
 			alwaystransparent = yes
 		}
 	
 		instantTextboxType = {
 			name = "name"
-			position = { x = 75 y = 16 }	#MPU center text in the list item
+			position = { x = 58 y = 5 }
 			textureFile = ""
-			font = "hoi_16mbs"	#MPU
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "DESIGNER_CREATE_NEW_DIVISION"
-			maxWidth = 135	#MPU
-			maxHeight = 10	#MPU
-			fixedsize = yes	#MPU
+			maxWidth = 138
+			maxHeight = 40
+			fixedsize = yes
 			format = left
 		}
 	}
 	
 	containerWindowType = {
 		name = "designer_div_name_group_entry"
-		size = { width = 196 height = 26}	#MPU
+		size = { width = 196 height = 30 }
 		clipping = no
 		
 		background = {
@@ -1167,9 +1162,9 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "name"
-			position = { x = 10 y = 5 }	#MPU
+			position = { x = 5 y = 5 }
 			textureFile = ""
-			font = "hoi_16mbs"	#MPU
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
 			maxWidth = 170
