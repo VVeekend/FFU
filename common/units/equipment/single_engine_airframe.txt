@@ -401,9 +401,9 @@ equipments = {
 		parent = ww1_fighter_equipment_1
 		priority = 10
 		
-		air_range = 625
+		air_range = 800
 		maximum_speed = 240
-		air_agility = 34
+		air_agility = 30
 		air_attack = 6
 		air_defence = 3
 
@@ -424,13 +424,13 @@ equipments = {
 		parent = ww1_fighter_equipment_1
 		priority = 10
 		
-		air_range = 625
+		air_range = 600
 		maximum_speed = 220
-		air_agility = 35
+		air_agility = 36
 		air_attack = 5
 		air_defence = 4	
 
-		build_cost_ic = 36
+		build_cost_ic = 34
 		resources = {
 			wood = 3
 			#oil = 1
@@ -469,7 +469,7 @@ equipments = {
 		
 		air_range = 675
 		maximum_speed = 300
-		air_agility = 42
+		air_agility = 44
 		air_attack = 8
 		air_defence = 5		
 

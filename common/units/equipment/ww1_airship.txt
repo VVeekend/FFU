@@ -73,7 +73,7 @@ equipments = {
 		air_agility = 4
 		air_attack = 30
 		air_defence = 25
-		air_bombing = 30
+		air_bombing = 28
 		
 		build_cost_ic = 140
 		resources = {

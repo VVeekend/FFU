@@ -1,0 +1,68 @@
+foreign_politics = {
+GER_annex_POL = {
+		icon = generic_operation
+
+			allowed = {
+				tag = GER
+			}
+
+			available = {
+				POL = { is_ai = yes }
+				date > 1914.6.1 
+			}
+			
+			fire_only_once = yes
+
+			cost = 0
+
+			visible = {
+			country_exists = POL
+				}
+				
+			complete_effect = {
+				GER = { 
+					annex_country = {
+						target = POL
+						transfer_troops = yes 
+					}
+			}
+			hidden_effect = {
+			POL = { remove_state_core = 271 remove_state_core = 241 remove_state_core = 279 remove_state_core = 278 remove_state_core = 286 remove_state_core = 287 } 
+			}
+		}
+
+}
+GER_annex_EST = {
+		icon = generic_operation
+
+			allowed = {
+				tag = GER
+			}
+
+			available = {
+				EST = { is_ai = yes }
+				date > 1914.6.1 
+			}
+			
+			fire_only_once = yes
+
+			cost = 0
+
+			visible = {
+			country_exists = EST
+				}
+				
+			complete_effect = {
+				GER = { 
+					annex_country = {
+						target = EST
+						transfer_troops = yes 
+					}
+			}
+			hidden_effect = {
+			EST = { remove_state_core = 108 remove_state_core = 115 remove_state_core = 109 remove_state_core = 118 remove_state_core = 117 remove_state_core = 116 } 
+			}
+		}
+
+}
+}

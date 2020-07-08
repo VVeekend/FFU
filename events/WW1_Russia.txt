@@ -353,9 +353,11 @@ news_event = {
 		hidden_effect = {
 			set_global_flag = kis_brestlitovsk
 			RUS = {
+			                set_rule={ can_send_volunteers=no }
 				country_event = { days = 20 id = ww1_russia.7 }
 				country_event = { days = 2 id = ww1_russia.8 }
 				SOV = {
+							set_rule={ can_send_volunteers=no }
 					every_state = {
 						limit = {
 							# SOV will get the same core as RUS
@@ -546,6 +548,8 @@ country_event = {
 				transfer_state = 173
 				transfer_state = 176
 				transfer_state = 188
+				transfer_state = 183
+				transfer_state = 189
 				transfer_state = 174
 				transfer_state = 175
 				transfer_state = 177
