@@ -285,7 +285,7 @@ focus_tree = {
 
 		ai_will_do = { factor = 50000	}
 		cost = 10
-		x = 9
+		x = 6
 		y = 0
 	}
 
@@ -296,55 +296,23 @@ focus_tree = {
 		id = TUR_ww1_BalkansPolitics
 		prerequisite = { focus=TUR_ww1_diplomatic_effort }
 		icon = GFX_goal_generic_territory_or_war
-
+relative_position_id = TUR_ww1_diplomatic_effort
 		completion_reward = { add_stability=0.05 add_political_power=100 }
 		
 		ai_will_do = { factor = 50000	}
 		cost = 5
-		x = 7
+		x = -2
 		y = 1
 	}
 
 	#----------------------------------------------------------------------- 
 	# Bloc 2
 	#-----------------------------------------------------------------------
-	focus = {
-		id = TUR_ww1_assert_position_west
-		prerequisite = { focus = TUR_ww1_diplomatic_effort }
-		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { add_political_power=75 }
-		ai_will_do = { factor = 200 }
-		cost = 5
-		x = 11
-		y = 1
-	}
-
-	focus = {
-		id = TUR_ww1_anti_ita
-
-		prerequisite = { focus = TUR_ww1_assert_position_west }
-		icon = GFX_goal_generic_political_pressure
-
-		completion_reward = {
-
-						add_opinion_modifier = { 
-							target = ITA
-							modifier =  HOI4TGW_Opinion_hostile_diplomatic_relations
-						}
-		}
-
-		ai_will_do = { factor = 300 }
-		cost = 10
-		x = 11
-		y = 2
-	}
-
-
-
 
 	focus = {
 		id = TUR_ww1_ready_country
-
+		prerequisite = { focus = TUR_ww1_diplomatic_effort }
+		relative_position_id = TUR_ww1_diplomatic_effort
 	 	available = {
 		}
 		icon = GFX_goal_demand_sudetenland   
@@ -353,7 +321,7 @@ focus_tree = {
 		}    
 		ai_will_do = { factor = 2000 }
 		cost = 5
-		x = 9
+		x = 0
 		y = 1
 	}
 
@@ -362,6 +330,7 @@ focus = {
 	id = TUR_russian_ports
 
 		prerequisite = { focus = TUR_ww1_ready_country }
+		relative_position_id = TUR_ww1_ready_country
 
 	icon = GFX_goal_generic_occupy_start_war
 	available = {  }
@@ -370,8 +339,8 @@ focus = {
 			  }
 	ai_will_do = { factor=1500 }
 	cost = 5
-	x = 9
-	y = 2
+	x = 0
+	y = 1
 	}
 
 
@@ -379,6 +348,7 @@ focus = {
 		id = TUR_ww1_technology_sharing
 
 		prerequisite = { focus = TUR_russian_ports }
+		relative_position_id = TUR_russian_ports
 
 		icon = GFX_goal_generic_scientific_exchange
 
@@ -387,8 +357,8 @@ focus = {
 
 		ai_will_do = { factor = 20 }
 		cost = 5
-		x = 9
-		y = 3
+		x = 0
+		y = 1
 	}
 
 	#-----------------------------------------------------------------------
@@ -399,17 +369,20 @@ focus = {
 	focus = {
 		id = TUR_ww1_assert_position_east
 		prerequisite = { focus = TUR_ww1_diplomatic_effort }
+		relative_position_id = TUR_ww1_diplomatic_effort
 		icon = GFX_goal_generic_army_doctrines
 		completion_reward = { add_political_power=75 }
 		ai_will_do = { factor = 20 }
 		cost = 5
-		x = 13
+		x = 2
 		y = 1
 	}
 
 	focus = {
 		id = TUR_ww1_develop_arab
 		prerequisite = { focus=TUR_ww1_assert_position_east }
+				relative_position_id = TUR_ww1_assert_position_east
+
 		icon = GFX_goal_generic_construct_infrastructure
 		available = {
 			TUR = { 
@@ -443,19 +416,20 @@ focus = {
 		}
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 13
-		y = 2
+		x = 0
+		y = 1
 	}
 
 	#Focus for Berlin Baghdad Railway
 	focus = {
 		id = TUR_berlin_baghdad_railway
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 13
-		y = 3
+		x = 0
+		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = TUR_ww1_develop_arab }
+		relative_position_id = TUR_ww1_develop_arab
 		ai_will_do = {
 			factor = 1
 		}

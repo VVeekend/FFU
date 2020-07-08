@@ -2,6 +2,7 @@ focus_tree = {
 	id = german_focus
 	default = no
 	country = { factor=0 modifier = { add = 10 tag = GER } }	
+	continuous_focus_position = { x = 450 y = 600 }
 
 	###########################################################################################################################
 	# POLITICAL
@@ -59,7 +60,7 @@ focus_tree = {
 
 		 random_owned_state={ limit={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=industrial_complex size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes }} 
 
-			add_political_power=30
+			add_political_power=25
 		}
 
 		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes }		 }
@@ -215,7 +216,7 @@ focus_tree = {
 
 		ai_will_do = { factor = 20	}
 		cost = 10
-		x = 13
+		x = 9
 		y = 0
 	}
 
@@ -227,8 +228,9 @@ focus_tree = {
 	focus = {
 		id = GER_send_german_advisors
 		prerequisite = { focus=GER_ww1_diplomatic_effort }
+		relative_position_id GER_ww1_diplomatic_effort
 		icon = GFX_goal_generic_territory_or_war
-		x = 7
+		x = -3
 		y = 1
 		cost = 5
 		available_if_capitulated = yes
@@ -250,6 +252,7 @@ focus_tree = {
 		id = GER_ww1_triple_alliance
 		prerequisite = { focus=GER_send_german_advisors }
 		icon = GFX_goal_generic_demand_territory
+		relative_position_id = GER_send_german_advisors
 		completion_reward = { 
 		GER = {
  			add_to_tech_sharing_group = central_powers_research }
@@ -268,29 +271,23 @@ focus_tree = {
 		EST = {
  			add_to_tech_sharing_group = central_powers_research }
 			}
-			
-		ai_will_do = {
-			factor = 800
-			modifier = {
-				factor = 0
-				FRA = {	is_ai = no	}
-			}
-		}
 
 		cost = 5
-		x = 7
-		y = 3
+		x = 0
+		y = 1
 	}
 
 	#Focus for Investment Agreements with the Ottomans
 	focus = {
 		id = GER_investment_agreements_with_the_ottomans
 		icon = GFX_goal_tripartite_pact
-		x = 9
-		y = 2
+		x = 2
+		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_send_german_advisors }
+		relative_position_id GER_send_german_advisors
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -298,7 +295,7 @@ focus_tree = {
 			TUR = {
             add_timed_idea= { 
             idea = GER_Investment
-            days = 365 
+            days = 315 
              }
 		 }
 		}
@@ -306,7 +303,7 @@ focus_tree = {
 			TUR = {
             add_timed_idea= { 
             idea = GER_Investment
-            days = 365 
+            days = 315 
          }
         add_stability = 0.05 }
 		}
@@ -317,11 +314,12 @@ focus_tree = {
 	focus = {
 		id = GER_german_reinforcements_to_the_east
 		icon = GFX_goal_rhineland
-		x = 9
-		y = 3
+		x = 0
+		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_investment_agreements_with_the_ottomans }
+				relative_position_id = GER_investment_agreements_with_the_ottomans
 		ai_will_do = {
 			factor = 1
 		}
@@ -345,11 +343,12 @@ focus_tree = {
 	focus = {
 		id = GER_continued_support_for_austria_hungary
 		icon = GFX_goal_anschluss
-		x = 5
-		y = 2
+		x = -2
+		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_send_german_advisors }
+		relative_position_id = GER_send_german_advisors
 		ai_will_do = {
 			factor = 1
 		}
@@ -357,14 +356,14 @@ focus_tree = {
 			AUS = {
             add_timed_idea= { 
             idea = GER_Investment
-            days = 365 
+            days = 315 
          }
         add_stability = 0.05 } }
 		completion_reward = {
 			AUS = {
             add_timed_idea= { 
             idea = GER_Investment
-            days = 365 
+            days = 315 
          }
         add_stability = 0.05 }
 		     }
@@ -375,11 +374,12 @@ focus_tree = {
 	focus = {
 		id = GER_investment_in_the_adriatic
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 5
-		y = 3
+		x = 1
+		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_continued_support_for_austria_hungary }
+		relative_position_id = GER_continued_support_for_austria_hungary
 		ai_will_do = {
 			factor = 1
 		}
@@ -429,11 +429,12 @@ focus_tree = {
 	focus = {
 		id = GER_diplomatic_help_with_minorities
 		icon = GFX_goal_molotov_ribbentrop_pact
-		x = 3
-		y = 3
+		x = -1
+		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_continued_support_for_austria_hungary }
+		relative_position_id = GER_continued_support_for_austria_hungary
 		ai_will_do = {
 			factor = 1
 		}
@@ -448,156 +449,19 @@ focus_tree = {
         add_war_support = 0.05}
 		}
 	}
-
-	#Focus for Support for the United Baltic Duchy
-	focus = {
-		id = GER_support_for_the_united_baltic_duchy
-		icon = GFX_goal_molotov_ribbentrop_pact
-		x = 6
-		y = 4
-		cost = 5
-		available_if_capitulated = yes
-		prerequisite = { focus = GER_send_german_advisors }
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			EST = { exists = yes}
-		}
-		complete_tooltip = {
-			EST = {
-            add_stability= 0.10
-            add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
-		}
-		completion_reward = {
-			EST = { add_stability= 0.10
-            add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
-		}
-	}
-
-	#Focus for Lithuania to United Baltic Duchy
-	focus = {
-		id = GER_lithuania_to_united_baltic_duchy
-		icon = GFX_goal_molotov_ribbentrop_pact
-		x = 4
-		y = 5
-		cost = 5
-		available_if_capitulated = yes
-		prerequisite = { focus = GER_support_for_the_united_baltic_duchy }
-		ai_will_do = {
-			factor = 1
-		}
-		complete_tooltip = { 
-		EST = {
-		transfer_state= 108 
-		transfer_state= 109 
-		add_state_core= 108
-		add_state_core= 109 } }
-		
-		completion_reward = {
-		EST = {
-		transfer_state= 108 
-		transfer_state= 109 
-		add_state_core= 108
-		add_state_core= 109  }
-		}
-     }
-	#Focus for Support for the Polish Kingdom
-	focus = {
-		id = GER_support_for_the_polish_kingdom
-		icon = GFX_focus_NZL_bob_semple_tank
-		x = 8
-		y = 4
-		cost = 5
-		available_if_capitulated = yes
-		prerequisite = { focus = GER_send_german_advisors }
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			country_exists= POL
-		}
-		complete_tooltip = {
-			POL = { add_stability= 0.10 }
-		}
-		completion_reward = {
-			POL = { add_stability= 0.10
-            random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } } }
-		}
-	}
-
-	#Focus for Polish Legions Return
-	focus = {
-		id = GER_polish_legions_return
-		icon = GFX_goal_molotov_ribbentrop_pact
-		x = 10
-		y = 5
-		cost = 5
-		available_if_capitulated = yes
-		prerequisite = { focus = GER_support_for_the_polish_kingdom }
-		ai_will_do = {
-			factor = 1
-		}
-		complete_tooltip = {
-			POL = {
-            army_experience= 150 
-            add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine }}
-		}
-		completion_reward = {
-			POL = {
-            army_experience= 150 
-            add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine }}
-		}
-	}
-
-	focus = {
-		id = GER_ww1_polnische_wehrmacht
-		prerequisite = { focus = GER_support_for_the_polish_kingdom }
-		icon = GFX_hoi4tgw_poland  
-		completion_reward = {
-		POL = {
-			add_manpower = 100000
-			286 = { add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } }  } }   
-		ai_will_do = { factor = 20 }
-		cost = 5
-		x = 8
-		y = 5
-	
-	}
 	#----------------------------------------------------------------------- 
 	# Bloc 2
 	#-----------------------------------------------------------------------
 	focus = {
 		id = GER_ww1_assert_position_west
 		prerequisite = { focus = GER_ww1_diplomatic_effort }
+		relative_position_id = GER_ww1_diplomatic_effort
 		icon = GFX_goal_generic_army_doctrines
 		completion_reward = { add_political_power=75 }
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 13
+		x = -1
 		y = 1
-	}
-
-	focus = {
-		id = GER_ww1_anti_fr
-		prerequisite = { focus = GER_ww1_assert_position_west }
-		icon = GFX_goal_generic_cavalry
-		completion_reward = { GER={ add_opinion_modifier={ target=FRA modifier=HOI4TGW_Opinion_anti_fr_policy_malus } } }
-		ai_will_do = { factor = 30 }
-		cost = 10
-		x = 13
-		y = 2
-	}
-
-	focus = {
-		id = GER_ww1_anti_uk
-		prerequisite = { focus = GER_ww1_anti_fr }
-		icon = GFX_goal_generic_political_pressure
-		completion_reward = { GER={ add_opinion_modifier={ target=ENG modifier=HOI4TGW_Opinion_anti_uk_policy_malus } } }
-		ai_will_do = { factor = 30 }
-		cost = 10
-		x = 13
-		y = 3
 	}
 
 	#-----------------------------------------------------------------------
@@ -610,67 +474,15 @@ focus_tree = {
 	focus = {
 		id = GER_ww1_assert_position_east
 		prerequisite = { focus = GER_ww1_diplomatic_effort }
+				relative_position_id = GER_ww1_diplomatic_effort
+
 		icon = GFX_goal_generic_army_doctrines
 		completion_reward = { add_political_power=75 }
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 17
+		x = 1
 		y = 1
 	}
-
-	focus = {
-		id = GER_ww1_anti_ru
-		prerequisite = { focus = GER_ww1_assert_position_east }
-		icon = GFX_goal_generic_political_pressure
-		completion_reward = { GER={ add_opinion_modifier={ target=RUS modifier=HOI4TGW_Opinion_anti_ru_policy_malus } } }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 17
-		y = 2
-	}
-
-	focus = {
-		id = GER_ww1_anti_serb
-		prerequisite = { focus = GER_ww1_anti_ru }
-		icon = GFX_goal_generic_attack_allies
-		completion_reward = { GER={ add_opinion_modifier={ target=SER modifier=HOI4TGW_Opinion_anti_serb_policy_malus } } }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 17
-		y = 3
-	}
-
-	focus = {
-		id = GER_ww1_bulgaria_friend
-		prerequisite = { focus = GER_ww1_anti_serb }
-		icon = GFX_goal_generic_military_deal
-		available = {
-
-			NOT = { 
-				has_global_flag = kis_treaty_of_versailles 
-			}
-
-			date > 1915.6.1 
-			is_puppet = no 
-			NOT= {  
-				has_war_with = BUL 
-			} 
-			BUL = { 
-				exists = yes 
-				is_puppet = no
-			}
-		}
-		completion_reward = { 
-			BUL = { 
-				country_event = ww1_bulgaria.1 
-			}
-		}
-		ai_will_do = { factor = 800 }
-		cost = 10
-		x = 17
-		y = 4
-	}
-	
 	#-----------------------------------------------------------------------
 
 	focus = {
@@ -682,13 +494,15 @@ focus_tree = {
 			army_experience=20 navy_experience=40 air_experience=10
 		}    
 		ai_will_do = { factor = 20 }
+		relative_position_id = GER_ww1_diplomatic_effort
 		cost = 5
-		x = 11
+		x = 3
 		y = 1
 	}
 	focus = {
 		id = GER_strat_bombing
 		prerequisite = { focus = GER_ww1_ready_country }
+		relative_position_id = GER_ww1_ready_country
 		icon = GFX_hoi4tgw_zeppelin
 		completion_reward = { 
 	        GER = {
@@ -704,17 +518,18 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 80 }
 		cost = 5
-		x = 11
-		y = 2
+		x = -1
+		y = 1
 	}
 	
 		#Focus for Sturmtruppen Priority
 	focus = {
 		id = GER_sturmtruppen_priority
 		icon = GFX_goal_generic_axis_build_infantry
+				relative_position_id = GER_ww1_ready_country
 		prerequisite = { focus = GER_ww1_ready_country }
-		x = 12
-		y = 4
+		x = 1
+		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -762,8 +577,8 @@ focus_tree = {
 			}
 			}
 		}
-		x = 15
-		y = 1
+		x = 3
+		y = 0
 		cost = 2
 
 
@@ -785,8 +600,8 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 2000 }
 		cost = 2
-		x = 15
-		y = 3
+		x = 4
+		y = 1
 	}
 	
 	focus = {
@@ -821,8 +636,8 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 2000 }
 		cost = 2
-		x = 15
-		y = 2
+		x = 5
+		y = 0
 	}
 
              #################################################
@@ -836,7 +651,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_1 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_1 }
 		cost = 10
-		x = 20
+		x = 15
 		y = 1
 		}
 focus = {
@@ -850,7 +665,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_1 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_1 }
 		cost = 10
-		x = 22
+		x = 17
 		y = 1
 	}
 focus = {
@@ -864,7 +679,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_equipment_effort_1 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_1 }
 		cost = 10
-		x = 24
+		x = 19
 		y = 1
 	}
 focus = {
@@ -878,7 +693,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_1 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_1 }
 		cost = 10
-		x = 26
+		x = 21
 		y = 1
 	}
 focus = {
@@ -892,7 +707,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_1 }
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_1 }
 		cost = 5
-		x = 28
+		x = 23
 		y = 1
 		
 		}
@@ -914,7 +729,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_2 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_2 }
 		cost = 10
-		x = 20
+		x = 15
 		y = 2
 		}
 focus = {
@@ -932,7 +747,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_2 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_2}
 		cost = 10
-		x = 22
+		x = 17
 		y = 2
 	}
 focus = {
@@ -950,7 +765,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_equipment_effort_2 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_2 }
 		cost = 10
-		x = 24
+		x = 19
 		y = 2
 	}
 focus = {
@@ -968,7 +783,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_2 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_2 }
 		cost = 10
-		x = 26
+		x = 21
 		y = 2
 	}
 focus = {
@@ -986,7 +801,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_2 }
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_2 }
 		cost = 5
-		x = 28
+		x = 23
 		y = 2
 	}
 	################################################################
@@ -1006,7 +821,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_3 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_3 }
 		cost = 10
-		x = 20
+		x = 15
 		y = 3
 		}
 focus = {
@@ -1024,7 +839,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_3 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_3}
 		cost = 10
-		x = 22
+		x = 17
 		y = 3
 	}
 focus = {
@@ -1042,7 +857,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_equipment_effort_3 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_3 }
 		cost = 10
-		x = 24
+		x = 19
 		y = 3
 	}
 focus = {
@@ -1060,7 +875,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_3 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_3 }
 		cost = 10
-		x = 26
+		x = 21
 		y = 3
 	}
 focus = {
@@ -1078,7 +893,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_3 }
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_3 }
 		cost = 5
-		x = 28
+		x = 23
 		y = 3
 	}
 	################################################################
@@ -1098,7 +913,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_4 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_4 }
 		cost = 10
-		x = 20
+		x = 15
 		y = 4
 		}
 focus = {
@@ -1116,7 +931,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_4 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_4 }
 		cost = 10
-		x = 22
+		x = 17
 		y = 4
 	}
 focus = {
@@ -1134,7 +949,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_equipment_effort_4 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_4 }
 		cost = 10
-		x = 24
+		x = 19
 		y = 4
 	}
 focus = {
@@ -1152,7 +967,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_4 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_4 }
 		cost = 10
-		x = 26
+		x = 21
 		y = 4
 	}
 focus = {
@@ -1170,7 +985,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_4 }
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_4 }
 		cost = 5
-		x = 28
+		x = 23
 		y = 4
 	}
 
@@ -1192,7 +1007,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_5 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_5 }
 		cost = 10
-		x = 20
+		x = 15
 		y = 5
 		}
 focus = {
@@ -1210,7 +1025,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_5 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_5 }
 		cost = 10
-		x = 22
+		x = 17
 		y = 5
 	}
 focus = {
@@ -1228,7 +1043,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_equipment_effort_5 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_5 }
 		cost = 10
-		x = 24
+		x = 19
 		y = 5
 	}
 focus = {
@@ -1246,7 +1061,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_5 }
 		mutually_exclusive = { focus = GER_ww1_large_navy_5 }
 		cost = 10
-		x = 26
+		x = 21
 		y = 5
 	}
 focus = {
@@ -1264,7 +1079,7 @@ focus = {
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_5 }
 		mutually_exclusive = { focus = GER_ww1_aircraftprod_5 }
 		cost = 5
-		x = 28
+		x = 23
 		y = 5
 	}
 
@@ -1280,7 +1095,7 @@ focus = {
 		completion_reward = { army_experience=50 add_tech_bonus={ name=armor_bonus bonus=1 uses=2 category=armor } }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 24
+		x = 19
 		y = 6
 	}
 ######################################################################################
@@ -1291,7 +1106,7 @@ focus = {
 		completion_reward = { add_tech_bonus={ name=industrial_bonus bonus=1.0 uses=1 category=industry } }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 33
+		x = 28
 		y = 0
 	}
 
@@ -1311,7 +1126,7 @@ focus = {
 		complete_tooltip = { add_building_construction={ type=infrastructure level=1 instant_build=yes } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 33
+		x = 28
 		y = 1
 	}
 
@@ -1324,7 +1139,7 @@ focus = {
 		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes }			 }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 32
+		x = 27
 		y = 2
 	}
 
@@ -1337,7 +1152,7 @@ focus = {
 		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 34
+		x = 29
 		y = 2
 	}
 
@@ -1346,7 +1161,7 @@ focus = {
 		id = GER_ww1_dockyard_effort_1
 		prerequisite = { focus=GER_ww1_infrastructure_effort }
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 36
+		x = 31
 		y = 2
 		cost = 5
 		ai_will_do = { factor = 10 }
@@ -1403,7 +1218,7 @@ focus = {
 		id = GER_ww1_airfield_expansion_1
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus=GER_ww1_infrastructure_effort }
-		x = 30
+		x = 25
 		y = 2
 		cost = 5
 		ai_will_do = { factor = 10 }
@@ -1473,7 +1288,7 @@ focus = {
 		complete_tooltip = { add_building_construction={ type=infrastructure level=1 instant_build=yes } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 33
+		x = 28
 		y = 3
 	}
 
@@ -1487,7 +1302,7 @@ focus = {
 		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=industrial_complex level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 32
+		x = 27
 		y = 4
 	}
 
@@ -1501,7 +1316,7 @@ focus = {
 		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 34
+		x = 29
 		y = 4
 	}
 
@@ -1511,7 +1326,7 @@ focus = {
 		prerequisite = { focus=GER_ww1_infrastructure_effort_2 }
 		prerequisite = { focus=GER_ww1_dockyard_effort_1 }
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 36
+		x = 31
 		y = 4
 		cost = 5
 		ai_will_do = { factor = 10 }
@@ -1567,7 +1382,7 @@ focus = {
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus=GER_ww1_infrastructure_effort_2 }
 		prerequisite = { focus=GER_ww1_airfield_expansion_1 }
-		x = 30
+		x = 25
 		y = 4
 		cost = 5
 		ai_will_do = { factor = 10 }
@@ -1638,7 +1453,7 @@ focus = {
 		complete_tooltip = { add_building_construction={ type=infrastructure level=1 instant_build=yes } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 33
+		x = 28
 		y = 5
 	}
 
@@ -1652,7 +1467,7 @@ focus = {
 		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 32
+		x = 27
 		y = 6
 	}
 
@@ -1666,7 +1481,7 @@ focus = {
 		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 34
+		x = 29
 		y = 6
 	}
 
@@ -1677,7 +1492,7 @@ focus = {
 		prerequisite = { focus=GER_ww1_dockyard_effort_2 }
 		icon = GFX_goal_generic_construct_naval_dockyard
 		ai_will_do = { factor = 10 }
-		x = 36
+		x = 31
 		y = 6
 		cost = 5
 		ai_will_do = { factor = 0.1 }
@@ -1734,7 +1549,7 @@ focus = {
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus=GER_ww1_infrastructure_effort_3 }
 		prerequisite = { focus=GER_ww1_airfield_expansion_2 }
-		x = 30
+		x = 25
 		y = 6
 		cost = 5
 		ai_will_do = { factor = 10 }
@@ -1802,7 +1617,7 @@ focus = {
 		completion_reward = { add_research_slot=1 }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 33
+		x = 28
 		y = 7
 	}
 
@@ -1816,7 +1631,7 @@ focus = {
 		complete_tooltip = { add_building_construction={ type=infrastructure level=1 instant_build=yes } add_building_construction={ type=infrastructure level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 33
+		x = 28
 		y = 8
 	}
 
@@ -1829,7 +1644,7 @@ focus = {
 		completion_reward = { add_research_slot=1 }
 		ai_will_do = { factor = 10 }
 		cost = 10
-		x = 33
+		x = 28
 		y = 9
 		cancel_if_invalid =no
 	}
@@ -1839,7 +1654,7 @@ focus = {
 		focus = {
 		id = GER_reinforcethekaiserlichemarine
 		icon = GFX_focus_generic_navy_battleship2
-		x = 42
+		x = 35
 		y = 0
 		cost = 10
 		completion_reward = {
@@ -1884,7 +1699,7 @@ focus = {
 	focus = {
 		id = GER_experimentalseatenderships
 		icon = GFX_goal_generic_navy_carrier
-		x = 43
+		x = 36
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
@@ -1901,7 +1716,7 @@ focus = {
 	focus = {
 		id = GER_amphibiousassault
 		icon = GFX_goal_generic_amphibious_assault
-		x = 42
+		x = 35
 		y = 6
 		cost = 5
 		available_if_capitulated = yes
@@ -1917,7 +1732,7 @@ focus = {
 	focus = {
 		id = GER_endthenavalarmsracewiththeunitedkingdom
 		icon = GFX_focus_ger_accept_british_naval_dominance
-		x = 45
+		x = 32
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
@@ -1925,7 +1740,7 @@ focus = {
 			factor = 1
 		}
 		completion_reward = {
-			add_timed_idea = { days = 365 idea= GER_slowed_naval_production }
+			add_timed_idea = { days = 315 idea= GER_slowed_naval_production }
 		}
 	}
 
@@ -1933,10 +1748,11 @@ focus = {
 	focus = {
 		id = GER_increasearmyspending
 		icon = GFX_goal_generic_axis_build_infantry
-		x = 47
-		y = 2
+		x = 1
+		y = 1
 		cost = 10
 		available_if_capitulated = yes
+		relative_position_id = GER_endthenavalarmsracewiththeunitedkingdom
 		prerequisite = { focus = GER_endthenavalarmsracewiththeunitedkingdom }
 		ai_will_do = {
 			factor = 1
@@ -1950,7 +1766,7 @@ focus = {
 	focus = {
 	    id = GER_improvementstoourexistingships
 		icon = GFX_goal_continuous_naval_production
-		x = 41
+		x = 34
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
@@ -1971,7 +1787,7 @@ focus = {
 	focus = {
 		id = GER_investmentintraining
 		icon = GFX_goal_continuous_reduce_training_time
-		x = 40
+		x = 33
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
@@ -1991,7 +1807,7 @@ focus = {
 	focus = {
 		id = GER_battlecruiserfocus
 		icon = GFX_goal_generic_navy_battleship
-		x = 45
+		x = 38
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
@@ -2007,10 +1823,11 @@ focus = {
 	focus = {
 		id = GER_focusonlighthulls
 		icon = GFX_goal_generic_navy_cruiser
-		x = 45
-		y = 2
+		x = -1
+		y = 1
 		cost = 5
 		available_if_capitulated = yes
+		relative_position_id = GER_endthenavalarmsracewiththeunitedkingdom
 		prerequisite = { focus = GER_endthenavalarmsracewiththeunitedkingdom }
 		ai_will_do = {
 			factor = 1
@@ -2023,7 +1840,7 @@ focus = {
 	focus = {
 		id = GER_continuethefocusondreadnoughts
 		icon = GFX_goal_generic_navy_battleship
-		x = 42
+		x = 35
 		y = 1
 		cost = 5
 		available_if_capitulated = yes
@@ -2036,7 +1853,7 @@ focus = {
 	focus = {
 		id = GER_continuetheresearchonnewdesigns
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = 43
+		x = 36
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
@@ -2055,7 +1872,7 @@ focus = {
 	focus = {
 		id = GER_surfaceraiders
 		icon = GFX_focus_generic_cryptologic_bomb
-		x = 42
+		x = 35
 		y = 5
 		cost = 5
 		available_if_capitulated = yes
