@@ -153,6 +153,7 @@ create_corps_commander={
 	    SER_heroism
 		extensive_conscription
 		partial_economic_mobilisation
+		RUS_ww1_orthodox_church
 		militarism_focus
 	}
 

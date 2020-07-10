@@ -10,8 +10,7 @@ NDefines.NDiplomacy.BASE_BOOST_PARTY_POPULARITY_DAILY_PP = 0	-- Daily pp cost fo
 NDefines.NDiplomacy.BASE_BOOST_PARTY_POPULARITY_DAILY_DRIFT = 0 	-- Daily amount of popularity that will be added by the activity.
 NDefines.NDiplomacy.BASE_STAGE_COUP_DAILY_PP = 1000				-- Daily pp cost for staging a coup
 NDefines.NDiplomacy.BASE_STAGE_COUP_TOTAL_COST = 1000				-- Equipment consume factor for stage coup.
-NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.50			-- Each province owned by the target country contributes this amount of volunteers to the limit.
-NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 1.50			-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
+NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 1			     	-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
 NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 0				-- days to transfer a unit to another nation
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 0
 NDefines.NDiplomacy.TENSION_TIME_SCALE_START_DATE = "1931.1.1.12"
@@ -57,7 +56,11 @@ NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 0.0
 NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 0.0
 NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 0.0
 
+NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 20
+
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.15
+
+NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 50
 
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 96
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 96
@@ -73,7 +76,7 @@ NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.06
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.45
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.10
 NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0.0
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.25
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.35
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.15
 NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0
 NDefines.NMilitary.SLOWEST_SPEED = 2
@@ -82,11 +85,18 @@ NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0
 NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT = 0.3
 NDefines.NMilitary.NUKE_DELAY_HOURS = 6
 NDefines.NMilitary.UNIT_LEADER_INITIAL_TRAIT_SLOT = { 3, 3, 1, 0 }
+NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.03
+NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0003
+NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.6
+NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.50
+NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 2.0
+NDefines.NAir.CAS_NIGHT_ATTACK_FACTOR = 0.5
 
 NDefines.NAir.AIR_REGION_SUPERIORITY_PIXEL_SCALE = 0.03	
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 5
 NDefines.NAir.STRATEGIC_BOMBER_NUKE_AIR_SUPERIORITY = 0
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 0
+NDefines.NAir.AIR_WING_FLIGHT_SPEED_MULT = 0.2
 NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_GAIN_DAILY = 4.5
 NDefines.NAir.CARRIER_PLANES_AMOUNT_FOR_POSITIONING = 50
 

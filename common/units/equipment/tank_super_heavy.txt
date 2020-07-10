@@ -51,7 +51,7 @@ equipments = {
 
 		#Misc Abilities
 		maximum_speed = 1.5
-		reliability = 0.1
+		reliability = 0.5
 
 		#Offensive Abilities
 		soft_attack = 55
@@ -61,7 +61,7 @@ equipments = {
 
 		visual_level = 0
 
-		build_cost_ic = 72
+		build_cost_ic = 180
 		resources = {
 			#oil = 2
 			steel = 2

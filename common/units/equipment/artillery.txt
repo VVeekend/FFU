@@ -138,7 +138,7 @@ equipments = {
 		ap_attack = 2
 		air_attack = 0
 		
-		build_cost_ic = 2
+		build_cost_ic = 1.75
 		resources = {
 			tungsten = 2
 			steel = 1
@@ -300,7 +300,7 @@ equipments = {
 		hard_attack = 1
 		ap_attack = 3
 	    maximum_speed = 4
-		build_cost_ic = 2.5
+		build_cost_ic = 7.5
 		resources = {
 			steel = 1
 		}

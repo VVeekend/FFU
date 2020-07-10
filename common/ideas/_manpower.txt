@@ -32,7 +32,6 @@ ideas = {
 				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
-				threat > 0.05
 			}
 
 			modifier = {
@@ -68,8 +67,6 @@ ideas = {
 			
 			available = {
 				#has_manpower_for_recruit_change_to = { 1 = 0.05 group = mobilization_laws }
-				has_war = yes
-				enemies_strength_ratio > 0.3
                 NOT = { has_idea = ENG_Staff }				
 				}
 			
