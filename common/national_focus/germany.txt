@@ -491,7 +491,7 @@ focus_tree = {
 		icon = GFX_goal_demand_sudetenland   
 		completion_reward = {
 			add_manpower = 100000
-			army_experience=20 navy_experience=40 air_experience=10
+			army_experience=50 navy_experience=50 air_experience=50
 		}    
 		ai_will_do = { factor = 20 }
 		relative_position_id = GER_ww1_diplomatic_effort
@@ -1740,7 +1740,7 @@ focus = {
 			factor = 1
 		}
 		completion_reward = {
-			add_timed_idea = { days = 315 idea= GER_slowed_naval_production }
+			add_timed_idea = { days = 365 idea= GER_slowed_naval_production }
 		}
 	}
 
@@ -1750,7 +1750,7 @@ focus = {
 		icon = GFX_goal_generic_axis_build_infantry
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		relative_position_id = GER_endthenavalarmsracewiththeunitedkingdom
 		prerequisite = { focus = GER_endthenavalarmsracewiththeunitedkingdom }

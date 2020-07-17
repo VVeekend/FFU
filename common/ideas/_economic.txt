@@ -201,6 +201,7 @@ ideas = {
 			
 			
 			available = {
+				date > 1916.1.1
 				has_war = yes
 				has_war_support > 0.8
 				any_enemy_country = {
