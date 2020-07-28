@@ -1,0 +1,75 @@
+﻿
+###################################################################
+
+division_template = {
+	name = "Infantry Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }	
+		
+	}
+}
+
+###################################################################
+
+units = {
+	division= { 
+		name = "1st Infantry Brigade"
+		location = 11529
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division= { 
+		name = "2nd Infantry Brigade"
+		location = 11529
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division= { 
+		name = "3rd Infantry Brigade"
+		location = 11529
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division= { 
+		name = "4th Infantry Brigade"
+		location = 11529
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division= { 
+		name = "5th Infantry Brigade"
+		location = 11529
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division= { 
+		name = "6th Infantry Brigade"
+		location = 11529
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division= { 
+		name = "7th Infantry Brigade"
+		location = 11529
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division= { 
+		name = "8th Infantry Brigade"
+		location = 11529
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+}
+instant_effect = {
+	add_equipment_production = { equipment = { type = infantry_equipment_0 creator = "EGY" } requested_factories = 3 progress = 0.1 efficiency = 50}
+}	

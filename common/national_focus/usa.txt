@@ -540,7 +540,7 @@ focus_tree = {
 				date > 1916.1.1 
 			}
 		completion_reward = {
-        add_offsite_building= { type = arms_factory level = 60 }
+        add_offsite_building= { type = arms_factory level = 30 }
 
 		}
 
@@ -561,7 +561,6 @@ focus_tree = {
 	 		is_puppet = no
 	 		NOT = { has_war_with = FRA }
 	 		NOT = { has_war_with = RUS }
-			is_in_faction = no
 	 		
 	 		FRA = {
 	 			exists = yes
@@ -569,7 +568,7 @@ focus_tree = {
 	 		}
 		}
 		completion_reward = {
-                add_offsite_building= { type = arms_factory level = 60 }
+                add_offsite_building= { type = arms_factory level = 80 }
 				FRA={
 					add_to_faction=ROOT
 				}

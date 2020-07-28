@@ -4,6 +4,7 @@ state={
 	name="STATE_33"
 	resources={
 		wood=8
+		chromium=12 # was: 22
 	}
 	history={
 		owner = ITA

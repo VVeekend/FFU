@@ -422,7 +422,7 @@ focus_tree = {
 			add_unit_leader_trait = hill_fighter
 			add_unit_leader_trait = aggressive_assaulter
 			add_skill_level = 1
-            add_attack = 2 }
+            add_attack = 1 }
 		}
 		completion_reward = {
 			random_unit_leader = { limit = { has_id	= 32009 } 

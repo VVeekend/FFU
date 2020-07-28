@@ -261,6 +261,9 @@ focus_tree = {
 	    BEL = {
  			add_to_tech_sharing_group = entente_research }
 			
+	    EGY = {
+ 			add_to_tech_sharing_group = entente_research }
+			
 			}
 		ai_will_do = {
 			factor = 800

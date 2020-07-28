@@ -12,6 +12,22 @@ set_convoys = 800
 # DIPLOMACY
 
 if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = EGY
+		autonomous_state = autonomy_colony
+		freedom_level = 0.75
+	}
+		else = {
+		puppet = EGY
+	}
+}
+if = {
 	limit = { has_dlc = "Together for Victory" }
 
 	add_to_tech_sharing_group = entente_research
@@ -145,7 +161,7 @@ create_corps_commander={  name = "Maxse, Sir I." id=28065 portrait_path="gfx/gen
 	logistics_skill = 13
 }
 #create_corps_commander={  name = "Paris" id=28072 portrait_path="gfx/generals/ENG_paris.tga" traits={ commando  } skill=2}
-create_corps_commander={  name = "Plumer, H." id=28073 portrait_path="gfx/generals/ENG_plumer__h.tga" traits={ infantry_leader  } skill=6
+create_corps_commander={  name = "Plumer, H." id=28073 portrait_path="gfx/generals/ENG_plumer__h.tga" traits={ infantry_leader } skill=6
 	attack_skill = 3
 	defense_skill = 5
 	planning_skill = 3

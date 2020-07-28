@@ -52,9 +52,9 @@ create_corps_commander={  name = "Mustafa Kemal Paşa" id=90013 portrait_path="g
 }
 create_corps_commander={  name = "İsmail Enver Paşa" id=90007 portrait_path="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Enver.dds" traits={   } skill=2 
 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 create_corps_commander={  name = "Mehmed Esad Paşa" id=90008 portrait_path="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Esad.dds" traits={   } skill=3 
 	attack_skill = 3
