@@ -89,6 +89,8 @@ NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.03
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0003
 NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2.0
 NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0  
+NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP =0 --Division experience drop if unit has different battalion when switching templates(vanilla 0.5 but can be circumvented with template editing)
+
 NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.6
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.50
 NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 2.0
@@ -118,6 +120,7 @@ NDefines.NNavy.MISSION_FUEL_COSTS = {
 		0.0, -- RESERVE_FLEET (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 		0.5, -- NAVAL_INVASION_SUPPORT (does not cost fuel at base, only costs while doing bombardment and escorting units)
 	}
+NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 20                       -- WAS 6 | Increased so moving troops around the world is faster and theaters dont seem so disconnected (particularly aimed at improving USA gameplay experience)
 NDefines.NNavy.HOLD_MISSION_MOVEMENT_COST = 0.5								
 NDefines.NNavy.IN_COMBAT_FUEL_COST = 1.0
 NDefines.NNavy.MISSION_SUPREMACY_RATIOS = { 
@@ -138,6 +141,7 @@ NDefines.NNavy.MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO = 0.5
 NDefines.NNavy.MAX_POSITIONING_PENALTY_FOR_NEWLY_JOINED_SHIPS = 0.0
 NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.8	
 NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.8
+NDefines.NNavy.SUPPLY_NEED_FACTOR = 0										-- Changed from vanilla becausee of a weird bug where using too much supply while docked leads to the fleet having no range or fuel
 
 NDefines.NAI.DIPLOMACY_ACCEPT_VOLUNTEERS_BASE = 10	
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_BASE = 0	
