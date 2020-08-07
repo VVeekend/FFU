@@ -1,0 +1,30 @@
+foreign_politics = {
+ENG_annex_EGY = {
+		icon = generic_operation
+
+			allowed = {
+				tag = ENG
+			}
+
+			available = {
+				EGY = { is_ai = yes }
+			}
+			
+			fire_only_once = yes
+
+			cost = 0
+
+			visible = {
+			country_exists = EGY
+				}
+				
+			complete_effect = {
+				ENG = { 
+					annex_country = {
+						target = EGY
+						transfer_troops = yes 
+					}
+			}
+		}
+    }
+}

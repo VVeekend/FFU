@@ -2,7 +2,6 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "operative_leader_window"
-		# Center at the bottom of the screen
 		position = { x=0 y=0 }
 		Orientation = center_down
 		# No clipping, size does not matter
@@ -15,6 +14,13 @@ guiTypes = {
 		#	spriteType = "GFX_tiled_window"
 		#}
 
+		#buttonType = {
+		#	name = "portrait_btn"
+		#	position = { x = 0 y = -100 }
+		#	spriteType = "GFX_LG_select_group_btn"
+		#	clicksound = click_default
+		#}
+
 		containerWindowType = {
 			name = "centering_box"
 			# center horizontaly within the parent window
@@ -25,33 +31,35 @@ guiTypes = {
 			clipping = no
 
 			# for debug purpose
-			#			background = {
-			#				name = "bg_centering_box"
-			#				#spriteType = "GFX_tiled_bg"
-			#				spriteType = "GFX_tiled_window_transparent"
-			##				alwaystransparent = yes
-			#			}
+#			background = {
+#				name = "bg_centering_box"
+#				spriteType = "GFX_tiled_bg"
+##				spriteType = "GFX_tiled_window_transparent"
+##				alwaystransparent = yes
+#			}
 
+			@scroll_button_y = 40
 			buttonType = {
 				name = "btn_scroll_left"
-				position = { x = -36 y = 0 }
+				position = { x = -36 y = @scroll_button_y }
 				spriteType = "GFX_floating_arrows"
 				frame = 1
 			}
 
 			gridBoxType = {
 				# Portraits entered here in code
+				# operative_leader_portrait_window
 				name = "operatives_box"
 				position = { x=0 y=0 }
 				Orientation = upper_left
 				format = UPPER_LEFT
-				slotsize = { width = 80 height = 115 }
+				slotsize = { width = 80 height = 150 }
 			}
 
 			# moved in code
 			buttonType = {
 				name = "btn_scroll_right"
-				position = { x = 0 y = 0 }
+				position = { x = 0 y = @scroll_button_y }
 				spriteType = "GFX_floating_arrows"
 				frame = 2
 			}
@@ -71,34 +79,35 @@ guiTypes = {
 	# should have the same height as operative_leader_portrait_window
 	containerWindowType = {
 		name = "operative_empty_slot_window"
-		size = { width = 80 height = 115 }
+		# stays at the bottom if the parent window height increase
+		position = { x = 0 y = 0 }
+		size = { width = 84 height = 150 }
 
 		buttonType = {
 			name = "portrait_btn"
-			position = { x = 11 y = 47 }
+			position = { x = 9 y = 47 }
 			spriteType = "GFX_group_add_operative_bg"
-			#scale = 0.4
-			alwaystransparent = no
+			oversound = Spy_Map_Mode_Pointer_Over_Agent
+			no_clicksound = yes
 		}
 
 		iconType = {
 			name = "portrait_btn_anim"
-			position = { x = 11 y = 47 }
+			position = { x=9 y=47 }
 			spriteType = "GFX_group_add_operative_anim"
-			#scale = 0.4
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "portrait_frame"
 			position = { x = 0 y = 40 }
-			spriteType = "GFX_mpu_operative_frame"
+			spriteType = "GFX_leader_group_frame_unselected"
 			alwaystransparent = no
 		}
 
 		instantTextboxType = {
 			name = "total_operative_text"
-			position = { x=11 y=132 }
+			position = { x=9 y=132 }
 			font = "hoi_16mbs"
 			maxWidth = 60
 			maxHeight = 20
@@ -163,7 +172,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "portrait_btn"
-			position = { x = 7 y = 47 }
+			position = { x = 9 y = 47 }
 			spriteType = "GFX_operative_unknown"
 			scale = 0.4
 			alwaystransparent = no
@@ -187,36 +196,36 @@ guiTypes = {
 		iconType = {
 			name = "portrait_frame"
 			position = { x = -3 y = 40 }
-			spriteType = "GFX_mpu_operative_frame"
-			alwaystransparent = yes
+			spriteType = "GFX_operative_frame"
+			alwaystransparent = no
 			frame = 1
 		}
 
 		iconType = {
 			name = "portrait_frame_hightlight"
 			position = { x = -3	y = 40 }
-			spriteType = "GFX_mpu_operative_glow"
+			spriteType = "GFX_operative_frame"
 			alwaystransparent = yes
-			frame = 1
+			frame = 2
 		}
 
-		#iconType = {
-		#	name = "group_marker"
-		#	position = {x=3 y=76}
-		#	quadTextureSprite ="GFX_group_marker2"
-		#	alwaystransparent = yes
-		#}
+		iconType = {
+			name = "group_marker"
+			position = {x=3 y=76}
+			quadTextureSprite ="GFX_group_marker2"
+			alwaystransparent = yes
+		}
 
-		#ButtonType = {
-		#	name ="btn_disband"
-		#	spriteType = "GFX_LG_disband_group_btn"	
-		#	position = {x=63 y=44}
-		#	clicksound = disband
-		#}
+		ButtonType = {
+			name ="dismiss_btn"
+			spriteType = "GFX_LG_disband_group_btn"	
+			position = {x=61 y=44}
+			clicksound = disband
+		}
 
 		instantTextboxType = {
 			name = "operative_skill_level"
-			position = { x=8 y=130 }
+			position = { x=6 y=130 }
 			font = "hoi_16mbs"
 			maxWidth = 70
 			maxHeight = 23
@@ -238,6 +247,13 @@ guiTypes = {
 			alwaystransparent = no
 			scale = 0.33
 			clicksound = click_default
+		}
+
+		buttonType = {
+			name = "portrait_dismiss_btn"
+			position = {x=2 y=53}
+			spriteType = "GFX_NV_btn_delete"
+			scale = 0.85
 		}
 
 		iconType = {
@@ -291,6 +307,13 @@ guiTypes = {
 			position = {x=36 y=48}
 			quadTextureSprite ="GFX_leader_en_route"
 			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "portrait_dismiss_btn"
+			position = {x=2 y=53}
+			spriteType = "GFX_NV_btn_delete"
+			scale = 0.85
 		}
 	}
 
