@@ -967,7 +967,7 @@ technologies = {
 			no_mans_land
 		}
 		category_line_artillery = {
-			soft_attack = 0.075
+			soft_attack = 0.1
 		}	
 		planning_speed = 0.05
 		doctrine = yes	
@@ -1011,7 +1011,7 @@ technologies = {
 		xp_research_bonus = 1.00	
 		category_army = {
 			defense = 0.05
-			soft_attack = 0.075
+			soft_attack = 0.1
 
 		}
 		
@@ -2039,7 +2039,6 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		xor = {	sacred_war }
 		supply_consumption_factor = -0.20
 		land_reinforce_rate = 0.04
 		enable_tactic = tactic_breakthrough

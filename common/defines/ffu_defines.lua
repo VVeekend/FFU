@@ -37,7 +37,7 @@ NDefines.NCountry.PROPAGANDA_WAR_SUPPORT_DAILY_DECAY = 0
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.00					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 1000	
 NDefines.NCountry.BASE_FUEL_CAPACITY = 100000
-
+NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0
 NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = -0.1
 NDefines.NResistance.RESISTANCE_TARGET_BASE = 0.0
 NDefines.NResistance.RESISTANCE_DECAY_BASE = 1.0
@@ -159,3 +159,4 @@ NDefines.NOperatives.PROPAGANDA_SUB_NETWORK_STRENGTH_FACTOR = 0
 NDefines.NOperatives.PROPAGANDA_OPERATIVE_STACKING_FACTOR = 0		
 NDefines.NOperatives.PROPAGANDA_COUNTRY_STACKING_FACTOR = 0				
 NDefines.NOperatives.PROPAGANDA_DAILY_XP_GAIN = 0
+NDefines.NOperatives.BECOME_SPYMASTER_MIN_UPGRADES = 0

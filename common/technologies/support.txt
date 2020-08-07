@@ -142,6 +142,9 @@ technologies = {
 				defence = 0.10
 				attack = 0.05
 			}
+			river = {
+				attack = 0.1
+			}
 		}
 		
 		

@@ -15,7 +15,8 @@ state={
         wood=400
 	coal=200
         steel=200
-        tungsten=50          
+        tungsten=50 
+	chromium=14        
 	}
 	history= {
 	add_extra_state_shared_building_slots = 15

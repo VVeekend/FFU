@@ -11,6 +11,7 @@ state={
 	resources={
 		steel=21 # was: 36
                 wood=23
+		chromium=12 # was: 22
 	}
 	history={
 		owner = FRA

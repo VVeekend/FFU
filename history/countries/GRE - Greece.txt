@@ -120,6 +120,7 @@ set_technology = {
 		extensive_conscription
 		militarism_focus
 		RUS_ww1_orthodox_church
+		free_trade
 	}	
 create_equipment_variant = {
 		name = "Pre-1905 Destroyer"

@@ -111,7 +111,6 @@ bookmarks = {
 
 			}
 			focuses = {
-				SER_first_balkan
 			}
 		}
 

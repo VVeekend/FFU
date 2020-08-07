@@ -44,7 +44,7 @@ ideas={
 			BUL_mihail_savov={ ledger = army allowed={ tag=BUL } traits={ army_infantry_2 } ai_will_do={ factor=1 } }
 			BUL_pravoslav_tenev={ ledger = army allowed={ tag=BUL } traits={ army_commando_1 } ai_will_do={ factor=1 } }
 			BUL_lazar_draganov={ ledger = army allowed={ tag=BUL } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
-			BUL_ivan_fichev={ ledger = army allowed={ tag=BUL } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
+			BUL_ivan_fichev={ ledger = army allowed={ tag=BUL } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
 			BUL_stepan_paprikov={ ledger = army allowed={ tag=BUL } traits={ army_concealment_1 } ai_will_do={ factor=1 } }
 			}
 	aircraft_manufacturer={

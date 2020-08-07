@@ -492,6 +492,7 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = 100000
 			army_experience=50 navy_experience=50 air_experience=50
+            add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine }
 		}    
 		ai_will_do = { factor = 20 }
 		relative_position_id = GER_ww1_diplomatic_effort

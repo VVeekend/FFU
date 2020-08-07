@@ -449,7 +449,6 @@ country_event = {
 		name = ww1_firstbalkan.5.a
 		ai_chance = { factor = 100 }
 		
-		TUR = ( remove_ideas = TUR_SICK_MAN )
 		TUR = { white_peace = SER }		
 		SER = { white_peace = TUR }
 		BUL = { white_peace = TUR }

@@ -612,6 +612,16 @@ focus_tree = {
 					days = 240
 					idea = ENG_imperial_conference_defense_dominion }
 			}
+			EGY = {
+				add_timed_idea = {
+					days = 240
+					idea = ENG_imperial_conference_economy_dominion }
+			} 
+			EGY = {
+				add_timed_idea = {
+					days = 240
+					idea = ENG_imperial_conference_defense_dominion }
+			}
             hidden_effect = { news_event = { id = mtg_news.13 days = 1 }			
 		}
 	  }

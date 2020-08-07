@@ -369,7 +369,7 @@ ideas = {
 			}
 						
 			targeted_modifier = {
-				tag = AUH
+				tag = AUS
 				attack_bonus_against = 0.25
 			}
 			
