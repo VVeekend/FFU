@@ -240,14 +240,6 @@ ideas = {
 				modifier = {
 					factor = 0
 
-					tag = GER
-					NOT = { has_tech = volkssturm }
-					has_war = yes
-					date < 1944.01.01
-				}
-				modifier = {
-					factor = 0
-
 					tag = SOV
 					has_war = yes
 					OR = {

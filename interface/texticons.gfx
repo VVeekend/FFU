@@ -989,7 +989,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_unit_armored_car_icon_small"
-		texturefile = "gfx/texticons/unit_super_heavy_armor_icon_small.dds"
+		texturefile = "gfx/texticons/unit_armoredcar_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}
@@ -1035,6 +1035,59 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_submarine_icon_small"
 		texturefile = "gfx/texticons/ship_longrange_submarine_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_infantry2_icon_small"
+		texturefile = "gfx/texticons/unit_infantry2_icon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_text_contact_resistance_token"
+		texturefile = "gfx/texticons/text_contact_resistance_token.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_text_infiltrate_air_token"
+		texturefile = "gfx/texticons/text_infiltrate_air_token.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_text_infiltrate_army_token"
+		texturefile = "gfx/texticons/text_infiltrate_army_token.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_text_infiltrate_civilian_token"
+		texturefile = "gfx/texticons/text_infiltrate_civilian_token.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_text_infiltrate_navy_token"
+		texturefile = "gfx/texticons/text_infiltrate_navy_token.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_resources_to_market_icon"
+		texturefile = "gfx/texticons/resources_to_market.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_crypto_defense"
+		texturefile = "gfx/texticons/crypto_defense.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_counter_intelligence"
+		texturefile = "gfx/texticons/counter_intelligence.dds"
 		legacy_lazy_load = no
 	}
 }

@@ -366,7 +366,6 @@ focus_tree = {
 		cost = 5
 		x = 9
 		y = 4
-		mutually_exclusive = { focus=neutrality_focus }
 	}
 
 	focus = {
@@ -1742,4 +1741,5 @@ focus = {
 		cost = 5
 		x = 37
 		y = 9
+	}
 	}

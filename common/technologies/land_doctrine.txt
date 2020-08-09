@@ -13,8 +13,8 @@ technologies = {
 		}
 		planning_speed = 0.15
 		enable_tactic = tactic_unexpected_thrust
-		artillery_brigade = ( maximum_speed = 0.50 }
-		artillery = ( maximum_speed = 0.50 }
+		artillery_brigade = { maximum_speed = 0.50 }
+		artillery = { maximum_speed = 0.50 }
         heavy_artillery_brigade = { maximum_speed = 1.00 }
 		doctrine = yes	
 		research_cost = 2.25
@@ -154,14 +154,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
 
 			modifier = {
 				tag = GER
@@ -208,14 +201,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
 		}	
 		ai_research_weights = {
 			armor = 2.0
@@ -261,14 +247,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
 		}
 		ai_research_weights = {
 			armor = 16.0
@@ -310,14 +289,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
 		}	
 		ai_research_weights = {
 			armor = 20.0
@@ -356,14 +328,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
 		}		
 		ai_research_weights = {
 			armor = 2.5
@@ -408,14 +373,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.15
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
 			modifier = {
 				tag = GER
 				factor = 5
@@ -456,14 +414,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.25
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.55
-			}
+
 		}		
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -500,14 +451,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.15
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
 		}
 		
 		ai_research_weights = {
@@ -545,14 +489,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
 		}	
 		ai_research_weights = {
 			armor = 15.0
@@ -593,14 +530,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.15
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
 		}	
 		ai_research_weights = {
 			armor = 15.0
@@ -763,14 +693,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
 			factor = 20
 		}	
 		ai_research_weights = {
@@ -809,14 +732,7 @@ technologies = {
 				factor = 0.8
 			}
 			factor = 20
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
 		}		
 		ai_research_weights = {
 			artillery = 1.0
@@ -853,14 +769,7 @@ technologies = {
 				factor = 0.8
 			}
 			factor = 20
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
 		}	
 		ai_research_weights = {
 			artillery = 1.0
@@ -898,14 +807,7 @@ technologies = {
 				factor = 0.8
 			}
 			factor = 20
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
 		}		
 		ai_research_weights = {
 			artillery = 1.0
@@ -946,14 +848,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.25
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
 		}		
 		ai_research_weights = {
 			artillery = 1.0
@@ -992,14 +887,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.25
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
 		}		
 		ai_research_weights = {
 			artillery = 1.0
@@ -1040,14 +928,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.15
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
 		}		
 		ai_research_weights = {
 			artillery = 1.0
@@ -1079,14 +960,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.15
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
 		}		
 		ai_research_weights = {
 			artillery = 1.0
@@ -1126,14 +1000,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.25
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
 		}
 		
 		ai_research_weights = {
@@ -1168,14 +1035,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.15
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
 		}	
 		ai_research_weights = {
 			artillery = 1.0
@@ -1209,14 +1069,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.15
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
+
 		}		
 		ai_research_weights = {
 			artillery = 1.0
@@ -1368,14 +1222,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
+
 		}		
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1413,14 +1261,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
+
 		}		
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1460,14 +1302,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.3
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.6
-			}
+
 		}		
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1503,14 +1338,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.3
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.6
-			}
+
 		}		
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1547,14 +1375,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
+
 		}
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1587,14 +1409,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.15
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.45
-			}
+
+
 		}	
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1632,14 +1448,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
+
 		}		
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1677,14 +1487,7 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.3
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.6
-			}
+
 		}	
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1766,14 +1569,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.25
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.55
-			}
+
+
 		}		
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1810,14 +1607,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.25
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.55
-			}
+
+
 		}		
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1897,14 +1688,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
+
 		}
 		ai_research_weights = {
 			armor = 16.0
@@ -2021,14 +1806,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
+
 		}	
 		ai_research_weights = {
 			industry = 2.0
@@ -2069,14 +1848,8 @@ technologies = {
 				tag = SOV
 				factor = 2
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
+
 		}		
 		ai_research_weights = {
 			industry = 2.0
@@ -2157,14 +1930,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
+
 		}		
 		ai_research_weights = {
 			industry = 2.0
@@ -2198,14 +1965,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
+
 		}		
 		ai_research_weights = {
 			industry = 2.0
@@ -2243,14 +2004,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
+
 			modifier = {
 				factor = 2
 				tag = RUS
@@ -2290,14 +2045,8 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+
+
 		}		
 		ai_research_weights = {
 			industry = 2.0
@@ -2334,14 +2083,6 @@ technologies = {
 				}
 				factor = 0.8
 			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.35
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.65
-			}
 		}
 		ai_research_weights = {
 			industry = 2.0
@@ -2371,26 +2112,6 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 14 }
 		}	
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.35
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.65
-			}
-		}
-		ai_research_weights = {
-			industry = 2.0
-		}
 	}
 	mass_tank_operations = {
 		category_tanks = {
@@ -2414,26 +2135,5 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 16 }
 		}		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.15
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.5
-			}
+
 		}		
-		ai_research_weights = {
-			industry = 2.0
-			cat_mechanized_equipment = 3.0
-		}
-	}
-}

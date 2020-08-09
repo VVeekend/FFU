@@ -426,7 +426,7 @@ focus_tree = {
     prerequisite = { focus = HOL_ww1_aviation_effort_5 }
     available = { date > 1917.1.1 }
     icon = GFX_goal_generic_air_fighter2
-    completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=0.2 uses=1 technology=ww1_fighter3 technology=ww1_fighter4 technology=early_fighter } }
+    completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=0.2 uses=1 technology=ww1_fighter3 technology=ww1_fighter4 } }
     ai_will_do = { factor=1 }
     cost = 10
     x = 28

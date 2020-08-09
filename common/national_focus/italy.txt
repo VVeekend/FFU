@@ -162,9 +162,6 @@ focus_tree = {
 			factor = 2000
 			modifier = {
 				factor = 0
-				AUS = {
-					has_completed_focus = AUS_ww1_give_italy_territories
-				}
 			} 
 		}
 		cost = 10

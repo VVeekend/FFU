@@ -380,7 +380,7 @@ focus_tree = {
 		id = RUS_ww1_revanshism
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = RUS_ww1_respect_treaty focus = RUS_ww1_break_treaty }
-		completion_reward = { hidden_effect = { if = { limit = { RUS = { has_completed_focus = RUS_asian_focus } } complete_national_focus = RUS_ww1_asian_claims } } }
+		completion_reward = { }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 6
@@ -391,7 +391,7 @@ focus_tree = {
 		id = RUS_ww1_asian_claims
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = { focus = RUS_ww1_revanshism }
-		completion_reward = { add_political_power = 50 hidden_effect = { if = { limit = { RUS = { has_completed_focus = RUS_reinforce_vladivostok } } complete_national_focus = RUS_ww1_eastern_defenses } } }
+		completion_reward = {  }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 4
@@ -1002,7 +1002,7 @@ focus_tree = {
 		prerequisite = { focus=RUS_ww1_aviation_effort_5 }
 		available = { date > 1917.1.1 }
 		icon = GFX_goal_generic_air_fighter2
-		completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=1 uses=1 technology=ww1_fighter3 technology=ww1_fighter4 technology=early_fighter } }
+		completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=1 uses=1 technology=ww1_fighter3 technology=ww1_fighter4 } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 23

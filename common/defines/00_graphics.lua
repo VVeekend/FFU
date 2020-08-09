@@ -649,8 +649,8 @@ NGraphics = {
 	DRAW_REFRACTIONS_CUTOFF = 250,
 	DRAW_SHADOWS_CUTOFF = 400,
 	DRAW_SHADOWS_FADE_LENGTH = 50,
-	DRAW_FOW_CUTOFF = 400,
-	DRAW_FOW_FADE_LENGTH = 350,
+	DRAW_FOW_CUTOFF = 0,
+	DRAW_FOW_FADE_LENGTH = 0,
 	GRADIENT_BORDERS_FIELD_COUNTRY_REFRESH = 10, -- When country changes it's size by X provinces, then it refresh it's thickness and rebuilds all provinces
 	GRADIENT_BORDERS_FIELD_COUNTRY_LOW = 300.0, -- country area in sum of pixels ...
 	GRADIENT_BORDERS_FIELD_COUNTRY_HIGH = 9000.0, -- ... the value is squared, so fe. country of size 100x100pix = 10000

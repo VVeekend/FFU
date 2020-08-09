@@ -361,7 +361,7 @@ equipments = {
 		naval_strike_targetting = 1
 		air_agility = 30
 		air_attack = 2
-		air_defence = 1
+		air_defence = 2
 
 		build_cost_ic = 28
 		resources = {

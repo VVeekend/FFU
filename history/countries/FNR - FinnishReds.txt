@@ -40,7 +40,6 @@ set_convoys = 10
 1914.1.1 = { oob="FNR_1914" }
 1914.1.1 = { set_technology={ 
 		#KiS #Scout1=1
-		naval_bomber1=1
 		#KiS #airship1=1
 		light_field_gun1=1
 		light_field_gun2=1
@@ -55,15 +54,10 @@ set_convoys = 10
 		electronic_mechanical_engineering=1
 		#KiS #radio=1
 		mechanical_computing=1
-		computing_machine=1
-		basic_encryption=1
-		basic_decryption=1
 		basic_machine_tools=1
 		improved_machine_tools=1
 		concentrated_industry=1
 		concentrated_industry2=1
-		synth_oil_experiments=1
-		oil_plant=1
 		construction1=1
 		excavation1=1
 		construction2=1
