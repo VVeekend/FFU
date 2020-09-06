@@ -5,8 +5,8 @@
 #-------------------------------------------------------
 set_fuel_ratio = 0.33
 set_research_slots = 4
-set_stability = 0.40
-set_war_support = 0.40
+set_stability = 0.30
+set_war_support = 0.30
 set_convoys = 100
 #-------------------------------------------------------
 #					POLITICS & ARMY
@@ -201,6 +201,12 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 		RUS_ww1_orthodox_church
 		RUS_ww1_tsushima_humiliation
 		RUS_ww1_mixed_railways
+		SOV_war_credit
+		SOV_war_industries_committees
+        SOV_capital_ship_build_up
+        SOV_light_hull_primacy
+		SOV_incompetent_russian_general_staff
+		SOV_weak_central_government
 	}
 	
 create_equipment_variant = {

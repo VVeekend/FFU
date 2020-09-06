@@ -4805,4 +4805,11 @@ spriteType = { name = "GFX_idea_GRE_eleftherios_venizelos" texturefile = "gfx/in
 		name = "GFX_idea_YUG_local_militias"
 		texturefile = "gfx/interface/ideas/idea_yug_local_militias.dds"
 	}
+  
+    ### FFU ideas
+
+	SpriteType = { 
+		name = "SOV_weak_central_government-45134"
+		texturefile = "gfx/interface/ideas/SOV_weak_central_government-45134.dds"
+	}
 }
