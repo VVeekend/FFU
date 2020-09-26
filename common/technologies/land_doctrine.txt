@@ -17,7 +17,7 @@ technologies = {
 		artillery = { maximum_speed = 0.50 }
         heavy_artillery_brigade = { maximum_speed = 1.00 }
 		doctrine = yes	
-		research_cost = 2.25
+		research_cost = 0
 		path = {
 			leads_to_tech = trench_warfare
 			research_cost_coeff = 1
@@ -550,7 +550,7 @@ technologies = {
 		planning_speed = 0.15
 		
 		doctrine = yes	
-		research_cost = 2.25
+		research_cost = 0
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
@@ -1092,7 +1092,7 @@ technologies = {
 		}
 
 		doctrine = yes	
-		research_cost = 2.25
+		research_cost = 0
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
@@ -1628,7 +1628,7 @@ technologies = {
 		org_loss_when_moving = -0.1
 		enable_tactic = tactic_infantry_charge
 		doctrine = yes	
-		research_cost = 2.25
+		research_cost = 0
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }

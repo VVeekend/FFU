@@ -61,5 +61,22 @@ ideas={
 			}
 			research_bonus = { industry = 0.05}
 		}
+		
+		arms_factory_expansion = {
+			ledger = army
+			picture = man_five_year_plan_tank
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+
+		industrialization_effort = {
+			ledger = army
+			picture = generic_build_infrastructure
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+                production_speed_infrastructure_factor = 0.05
+			}
+		}
 	}
 }

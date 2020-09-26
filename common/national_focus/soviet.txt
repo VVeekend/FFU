@@ -76,6 +76,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+	    completion_reward = { add_ideas = SOV_cossack_hosts }
 	}
 
 	#Focus for Support Serbia
@@ -90,6 +91,20 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		SER = {
+         add_equipment_to_stockpile= {
+         type = infantry_equipment_0
+         amount = 20000 
+         producer = SER 
+            }
+		add_equipment_to_stockpile= {
+         type = support_equipment
+         amount = 1000 
+         producer = SER 
+            }
+        }
+		}
 	}
 
 	#Focus for Orthodox Brotherhood
@@ -98,11 +113,20 @@ focus_tree = {
 		icon = GFX_SOV_orthodox_brotherhood-45155
 		x = 24
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = { 	
+        add_opinion_modifier= { 
+        target = GRE 
+        modifier = HOI4TGW_Opinion_give_weapons }
+        add_opinion_modifier= { 
+        target = SER 
+        modifier = HOI4TGW_Opinion_give_weapons }
+		add_political_power = 50
+                      }
 	}
 
 	#Focus for Address Economic Stagnation
@@ -117,6 +141,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		add_ideas= industrialization_effort }
 	}
 
 	#Focus for Emergency War Credit
@@ -127,12 +153,17 @@ focus_tree = {
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
+		available = { date > 1914.7.1 }
+		
 		prerequisite = { 
 			focus = SOV_protsar_duma 
 			focus = SOV_concessions_to_radicals 
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas= SOV_war_credit
 		}
 	}
 
@@ -172,12 +203,14 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 9
 		y = 3
-		cost = 5
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_modernization__developement_of_rail }
 		ai_will_do = {
 			factor = 1
 		}
+		available = {  }
+		completion_reward = { remove_ideas =RUS_ww1_mixed_railways }
 	}
 
 	#Focus for Increased Research Development
@@ -230,25 +263,6 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Military Rail Improvements
-	focus = {
-		id = SOV_military_rail_improvements
-		icon = GFX_goal_generic_construct_infrastructure
-		x = 11
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = SOV_increased_rail_efficiency__planning 
-		}
-		prerequisite = { 
-			focus = SOV_military_inspection_services 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	#Focus for St. Petersburg Industrial Project
 	focus = {
 		id = SOV_st_petersburg_industrial_project
@@ -279,9 +293,9 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Investigations into Grigori Rasputin
+	#Focus for Investigations into Royal Corruption
 	focus = {
-		id = SOV_investigations_into_grigori_rasputin
+		id = SOV_investigations_into_royal_corruption
 		icon = GFX_SOV_investigations_into_grigori_rasputin-45142
 		x = 31
 		y = 4
@@ -292,11 +306,12 @@ focus_tree = {
 			factor = 1
 		}
 		complete_tooltip = {
-			remove_ideas= ENG_king_edward
-		}
-		completion_reward = {
-			remove_ideas= ENG_king_edward
-		}
+           add_stability= 0.1		
+		} 
+			
+		completion_reward = {  
+            add_stability= 0.1 		
+             }
 	}
 
 	#Focus for Abolish Obshchina System
@@ -311,6 +326,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+	completion_reward={ add_political_power= 150 }
 	}
 
 	#Focus for Stolypin's Land Reform
@@ -428,27 +444,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_war_support= .10
-		}
-	}
-
-	#Focus for Dissolve the Duma
-	focus = {
-		id = SOV_dissolve_the_duma
-		icon = GFX_SOV_dissolve_the_duma-45146
-		x = 24
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = SOV_protsar_duma }
-		ai_will_do = {
-			factor = 1
-		}
-		complete_tooltip = {
-			add_political_power= 150  add_war_support= .05
-		}
-		completion_reward = {
-			add_political_power= 150  add_war_support= .05
+		    add_war_support= .10
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = SOV_alexander_izvolsky
 		}
 	}
 
@@ -465,10 +463,22 @@ focus_tree = {
 			factor = 1
 		}
 		complete_tooltip = {
-			add_ideas= ENG_king_edward
+			random_unit_leader = { limit = { has_id	= 70484 } 
+			add_unit_leader_trait = infantry_leader
+			add_unit_leader_trait = trait_engineer
+			add_skill_level = 5
+            add_attack = 4
+			add_defense = 4
+            add_planning = 4 }
 		}
 		completion_reward = {
-			add_ideas= ENG_king_edward
+			random_unit_leader = { limit = { has_id	= 70484 } 
+			add_unit_leader_trait = infantry_leader
+			add_unit_leader_trait = trait_engineer
+			add_skill_level = 5
+            add_attack = 4
+			add_defense = 4
+            add_planning = 4 }
 		}
 	}
 
@@ -477,10 +487,11 @@ focus_tree = {
 		id = SOV_degtyaryov_plant
 		icon = GFX_SOV_degtyaryov_plant-45144
 		x = 11
-		y = 5
+		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = SOV_military_rail_improvements }
+		prerequisite = { focus = SOV_increased_rail_efficiency__planning }
+        prerequisite = { focus = SOV_military_inspection_services }
 		ai_will_do = {
 			factor = 1
 		}
@@ -527,7 +538,7 @@ focus_tree = {
 		icon = GFX_SOV_baltic_fleet_priority-45124
 		x = 22
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_tsushima_humiliation_lessons }
 		mutually_exclusive = { focus = SOV_dominant_black_sea_fleet }
@@ -542,27 +553,13 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Free Political Prisoners
-	focus = {
-		id = SOV_free_political_prisoners
-		icon = GFX_SOV_free_political_prisoners-45148
-		x = 33
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = SOV_concessions_to_radicals }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	#Focus for Tsar Supremacy
 	focus = {
 		id = SOV_tsar_supremacy
 		icon = GFX_SOV_tsar_supremacy-45134
 		x = 26
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_reformation_of_the_empire }
 		mutually_exclusive = { focus = SOV_strengthen_third_state_duma }
@@ -571,6 +568,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas= SOV_tsar
+			add_country_leader_trait= royalist_bulldog
 		}
 	}
 
@@ -589,9 +587,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_timed_idea= { 
-idea = FRA_strengthen_government_support_focus
-days = 365
-}
+            idea = FRA_strengthen_government_support_focus
+            days = 365 }
 		}
 	}
 
@@ -603,9 +600,15 @@ days = 365
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = SOV_tsar_supremacy }
+		prerequisite = { focus = SOV_protsar_duma }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = SOV_vladimir_dzhunkovsky
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = SOV_roman_malinovsky
 		}
 	}
 
@@ -621,6 +624,13 @@ days = 365
 		ai_will_do = {
 			factor = 1
 		}
+		available = { date > 1912.9.1 }
+		complete_tooltip = {
+		unlock_decision_category_tooltip= fourth_duma_assembly
+		}
+		completion_reward = {
+        unlock_decision_category_tooltip= fourth_duma_assembly
+		}
 	}
 
 	#Focus for Limit Tsar Influence
@@ -634,6 +644,9 @@ days = 365
 		prerequisite = { focus = SOV_strengthen_third_state_duma }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+        remove_country_leader_trait= unpopular_monarch
 		}
 	}
 
@@ -649,6 +662,26 @@ days = 365
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			320 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = arms_factory level = 2 instant_build = yes
+		           }
+			}
+			322 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = arms_factory level = 2 instant_build = yes
+		           }
+			}
+			342 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = arms_factory level = 2 instant_build = yes
+		           }
+			}
+		}
 	}
 
 	#Focus for Izhevsk Machine-Building Plant
@@ -656,7 +689,7 @@ days = 365
 		id = SOV_izhevsk_machinebuilding_plant
 		icon = GFX_SOV_izhevsk_machinebuilding_plant-45144
 		x = 11
-		y = 6
+		y = 5
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_degtyaryov_plant }
@@ -709,12 +742,13 @@ days = 365
 		icon = GFX_focus_generic_africa_naval
 		x = 21
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_increased_military_budget }
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = { add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1 uses=2 category=naval_doctrine } }
 	}
 
 	#Focus for Dominant Black Sea Fleet
@@ -750,6 +784,18 @@ days = 365
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = { add_tech_bonus={ name=armor_bonus bonus=1 uses=2           
+       		technology = early_ship_hull_light
+            technology = basic_ship_hull_light
+            technology = improved_ship_hull_light
+            technology = advanced_ship_hull_light
+			technology = early_ship_hull_cruiser
+			technology = basic_ship_hull_cruiser
+            technology = improved_ship_hull_cruiser
+            technology = advanced_ship_hull_cruiser
+            technology = basic_cruiser_armor_scheme
+            technology = improved_cruiser_armor_scheme		
+            technology = advanced_cruiser_armor_scheme			}}
 	}
 
 	#Focus for Statute on Land Organization
@@ -764,6 +810,7 @@ days = 365
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward={ add_stability= 0.1 }
 	}
 
 	#Focus for Increased Military Budget
@@ -772,12 +819,14 @@ days = 365
 		icon = GFX_SOV_increased_military_budget-45119
 		x = 16
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_reformation_of_the_empire }
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		add_ideas= arms_factory_expansion }
 	}
 
 	#Focus for Military Inspection Services
@@ -786,9 +835,10 @@ days = 365
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 13
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_main_directorate_of_the_general_staff }
+		completion_reward = { add_tech_bonus={ name=land_doc_bonus bonus=2 uses=1 category=land_doctrine } }
 		ai_will_do = {
 			factor = 1
 		}
@@ -808,17 +858,17 @@ days = 365
 		}
 		complete_tooltip = {
 			206 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
-		            type = arms_factory level = 2 instant_build = yes
+		            type = arms_factory level = 4 instant_build = yes
 		        }
 			}
 		}
 		completion_reward = {
 			206 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
-		            type = arms_factory level = 2 instant_build = yes
+		            type = arms_factory level = 4 instant_build = yes
 		        }
 			}
 		}
@@ -839,11 +889,12 @@ days = 365
 		complete_tooltip = {
 			country_event= {
          days = 1 
-         id = finland.1 } }
+         id = ww1_russia.30 } }
+		 
 		completion_reward = {
 			country_event= {
         days = 1 
-        id = finland.1  }
+        id = ww1_russia.30  }
 		}
 	}
 
@@ -859,6 +910,7 @@ days = 365
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward={ add_stability= 0.1 }
 	}
 
 	#Focus for Expand Industrialization
@@ -891,15 +943,15 @@ days = 365
 			factor = 1
 		}
 		complete_tooltip = {
-			unlock_decision_category_tooltip= CHI_integrate_the_warlords
+			unlock_decision_category_tooltip= infrastructure_modernization
 		}
 		completion_reward = {
-			unlock_decision_category_tooltip= CHI_integrate_the_warlords
+			unlock_decision_category_tooltip= infrastructure_modernization
 		}
 	}
 
 	#Focus for Main Directorate of the General Staff
-	focus = {
+	focus = { 
 	    prerequisite = { focus = SOV_increased_military_budget }
 		id = SOV_main_directorate_of_the_general_staff
 		icon = GFX_SOV_main_directorate_of_the_general_staff-45127
@@ -910,20 +962,46 @@ days = 365
 		ai_will_do = {
 			factor = 1
 		}
+         completion_reward = { add_ideas= SOV_russian_staff}
 	}
-
+	
+	#Focus for Tsar Tank
+	focus = {
+		id = SOV_tsar_tank
+		icon = GFX_SOV_tsar_tank-45305
+		x = 13
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_military_inspection_services }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = { add_tech_bonus={ name=armor_bonus bonus=1 uses=1 category=armor }
+	} }
+	
 	#Focus for Dreadnought & Battleship Development
 	focus = {
 		id = SOV_dreadnought__battleship_development
 		icon = GFX_focus_generic_cruiser2
 		x = 22
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_baltic_fleet_priority }
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = { add_tech_bonus={ name=armor_bonus bonus=1 uses=2           
+       		technology = basic_ship_hull_heavy
+            technology = ship_hull_super_heavy
+            technology = improved_ship_hull_heavy
+            technology = advanced_ship_hull_heavy 
+			technology = basic_heavy_armor_scheme
+			technology = improved_heavy_armor_scheme
+            technology = basic_heavy_battery
+            technology = improved_heavy_battery
+            technology = advanced_heavy_battery			}}
 	}
 
 	#Focus for Integration of the Cossacks
@@ -941,18 +1019,18 @@ days = 365
 		}
 		complete_tooltip = {
 			add_tech_bonus= {
-bonus = 2
-uses = 1 
-technology = tech_recon
-technology = tech_recon2
-technology = tech_recon3
-technology = tech_recon4
-}
+            bonus = 2
+            uses = 2 
+            technology = tech_recon
+            technology = tech_recon2
+            technology = tech_recon3
+            technology = tech_recon4
+               }
 		}
 		completion_reward = {
 			add_tech_bonus= {
 bonus = 2
-uses = 1 
+uses = 2 
 technology = tech_recon
 technology = tech_recon2
 technology = tech_recon3
@@ -967,12 +1045,15 @@ technology = tech_recon4
 		icon = GFX_SOV_army_reform-45143
 		x = 15
 		y = 3
-		cost = 10
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_main_directorate_of_the_general_staff }
 		ai_will_do = {
 			factor = 1
 		}
+		available = {has_army_experience> 400}
+		completion_reward = { remove_ideas= SOV_incompetent_russian_general_staff army_experience = -400 }
+	
 	}
 
 	#Focus for Concessions to Radicals
@@ -995,7 +1076,7 @@ technology = tech_recon4
            add_popularity = { 
            ideology = communism
            popularity = 0.1   }
-           add_political_power= 100
+           add_political_power= 150
 		}
 		completion_reward = {
 			add_popularity= { 
@@ -1041,6 +1122,29 @@ technology = tech_recon4
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			random_unit_leader = { limit = { has_id	= 76187 } 
+			add_unit_leader_trait = infantry_leader
+			add_unit_leader_trait = trait_engineer
+			add_unit_leader_trait = swamp_fox
+			add_skill_level = 1
+            add_attack = 1
+			add_defense = 1
+            add_planning = 2 }
+			
+			random_unit_leader = { limit = { has_id	= 76837 } 
+			add_unit_leader_trait = infantry_leader
+			add_unit_leader_trait = trickster
+			add_skill_level = 3
+            add_attack = 1
+            add_planning = 2 }
+			
+			random_unit_leader = { limit = { has_id	= 76546 } 
+			add_unit_leader_trait = hill_fighter
+			add_skill_level = 2
+            add_defense = 3
+            add_planning = 1 }
+						}
 	}
 
 	#Focus for Support Greece
@@ -1054,6 +1158,20 @@ technology = tech_recon4
 		prerequisite = { focus = SOV_orthodox_brotherhood }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		GRE = {
+         add_equipment_to_stockpile= {
+         type = infantry_equipment_0
+         amount = 20000 
+         producer = GRE 
+            }
+		add_equipment_to_stockpile= {
+         type = support_equipment
+         amount = 1000 
+         producer = GRE 
+            }
+        }
 		}
 	}
 

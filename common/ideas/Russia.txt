@@ -31,8 +31,6 @@ ideas={
 					build_cost_ic = 0.05 instant = yes
 				}
 			}
-			research_bonus = { 	land_doctrine = -0.15
-			}
 		}
 		
 		RUS_ww1_mixed_railways = {
@@ -142,14 +140,14 @@ ideas={
 			allowed = {
 				original_tag = SOV
 			}
-			picture = spr_seize_the_gold_reserves
+			picture = SPR_seize_the_gold_reserves
 			modifier = {
 				consumer_goods_factor = -0.05
 			}
 		}
 
 		SOV_incompetent_russian_general_staff = {
-			picture = spr_international_brigades
+			picture = SPR_international_brigades
 			allowed = {
 				original_tag = SOV
 			}
@@ -160,6 +158,8 @@ ideas={
             army_attack_factor = -0.05
             army_defence_factor = -0.05
 			}
+			research_bonus = { 	land_doctrine = -0.15
+			}
 		}
 
 		SOV_weak_central_government = {
@@ -168,7 +168,7 @@ ideas={
 				original_tag = SOV
 			}
 			modifier = {
-				political_power_cost = 0.8
+				political_power_factor = -0.1 
 			}
 		}
 
@@ -191,7 +191,7 @@ ideas={
 				infantry_equipment = {					
 				build_cost_ic = -0.1 instant = yes
 				}
-                support_equipment_1 = {					
+                support_equipment = {					
                 build_cost_ic = -0.1 instant = yes
 				}
 			  }
@@ -204,7 +204,7 @@ ideas={
 			picture = generic_sea_focused_navy
 				equipment_bonus = {
 					capital_ship = {
-					build_cost_ic = -0.15 instant = yes
+					build_cost_ic = -0.25 instant = yes
 				}
 			}
 		}
@@ -226,7 +226,34 @@ ideas={
 				}
 			}		
       	}
-}
+		
+		SOV_cossack_hosts = {
+			picture = SOV_cossack_hosts-45275
+			modifier = {
+				cavalry_attack_factor = 0.05
+                cavalry_defence_factor = 0.05
+			}
+		}
+		
+		SOV_russian_staff = {
+			picture = YUG_yugoslavian_general_staff
+			modifier = {
+				planning_speed = 0.10
+                experience_gain_army = 0.03
+			}
+		}
+		
+		SOV_regulation_on_the_preparatory = {
+			picture = SOV_regulation_on_the_preparatory-45391
+			allowed = {
+				TAG=SOV
+			}
+			modifier = {
+				conscription = 0.05
+			}
+		}
+	}
+
 	political_advisor={
 		RUS_boris_sturmer={
 			allowed={
@@ -246,7 +273,53 @@ ideas={
 			traits = {
 				disdain_for_politicians_2
 			}
-			picture = heinrich_himmler
+			picture = rudolf_hess
+			cost=50
+		}
+		SOV_alexander_izvolsky = {
+		
+          available = { SOV = { has_completed_focus = SOV_protsar_duma }}
+			traits = {
+				dealbroker
+			}
+			allowed={
+				tag=SOV
+			}
+			cost = 25
+			picture = rudolf_hess
+			allowed = {
+				tag=SOV
+			}
+		}
+
+		SOV_roman_malinovsky = {
+		available = { SOV = { has_completed_focus = SOV_expanded_okhrana }}
+			traits = {
+				editor
+			}
+			allowed={
+				tag=SOV
+			}
+			cost=25
+			picture = rudolf_hess
+			visible = {
+				tag=SOV
+			}
+		}
+
+		SOV_vladimir_dzhunkovsky = {
+		available = { SOV = { has_completed_focus = SOV_expanded_okhrana }}
+			traits = {
+				anti_communist_crusader
+			}
+			allowed={
+				tag=SOV
+			}
+			cost=25
+			picture = rudolf_hess
+			allowed = {
+				TAG=SOV
+			}
 		}
 			RUS_vladimir_kokovtsov={ allowed={ tag=SOV } traits={ quartermaster_general } ai_will_do={ factor=1 } }
 			RUS_nikolai_golitsyn={ allowed={ tag=SOV } traits={ compassionate_gentleman } ai_will_do={ factor=1 } }
@@ -256,7 +329,7 @@ ideas={
 			}
 	theorist={
 			RUS_alexei_polivanov={ ledger = army allowed={ tag=SOV } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
-			RUS_michael_alexandrovich={ ledger = air allowed={ tag=SOV } traits={ air_warfare_theorist } research_bonus = { air_doctrine = 0.10 } ai_will_do={ factor=1 } }
+			RUS_michael_alexandrovich={ ledger = army allowed={ tag=SOV } traits={ mass_assault_expert } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			}
 	army_chief={
 			RUS_alexei_brusilov={ allowed={ tag=SOV } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }

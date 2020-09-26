@@ -83,6 +83,9 @@ technology_categories = {
 	naval_minesweeping
 	naval_minelaying
         stormtrooper_tech
+	sniper_tech
+	flamethrower_tech
+	wardog_tech
 }
 
 technology_folders = {

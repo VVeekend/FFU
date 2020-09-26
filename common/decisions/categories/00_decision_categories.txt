@@ -171,6 +171,18 @@ category_test_decisions = {
 	}
 }
 
+infrastructure_modernization = {
+         icon = decision_generic_construction
+         visible = {
+                 TAG = SOV }
+}
+
+fourth_duma_assembly = {
+         icon = decision_generic_construction
+         visible = {
+                 TAG = SOV }
+}
+
 lar_local_recruitment = {
 	allowed = { has_dlc = "La Resistance" }
 

@@ -6093,4 +6093,65 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/airsweep_mines.dds"
 	}
 
+#mod_start
+	SpriteType = {
+		name = "GFX_tech_sniper4_medium"
+		texturefile = "gfx/interface/technologies/sniper4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_sniper3_medium"
+		texturefile = "gfx/interface/technologies/sniper3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_sniper2_medium"
+		texturefile = "gfx/interface/technologies/sniper2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_sniper_medium"
+		texturefile = "gfx/interface/technologies/sniper.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_tech_flamethrower4_medium"
+		texturefile = "gfx/interface/technologies/flamethrower4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_flamethrower3_medium"
+		texturefile = "gfx/interface/technologies/flamethrower3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_flamethrower2_medium"
+		texturefile = "gfx/interface/technologies/flamethrower2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_flamethrower_medium"
+		texturefile = "gfx/interface/technologies/flamethrower.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_tech_wardog4_medium"
+		texturefile = "gfx/interface/technologies/wardog4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_wardog3_medium"
+		texturefile = "gfx/interface/technologies/wardog3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_wardog2_medium"
+		texturefile = "gfx/interface/technologies/wardog2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_wardog_medium"
+		texturefile = "gfx/interface/technologies/wardog.dds"
+	}	
+
  }

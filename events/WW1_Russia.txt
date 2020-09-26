@@ -66,9 +66,10 @@ country_event = {
 			factor = 100
 		}
 		add_political_power = -50
-		add_stability = -0.02
+		add_stability = -0.1
 	}
 }
+
 #____________________________________________________________
 
 # Tsar Nicholas Abdicates! + Soviet Revolution
@@ -440,27 +441,25 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			FIN = {
-				transfer_state = 292
-				transfer_state = 294
-				transfer_state = 293
-				transfer_state = 295
-				transfer_state = 122
-				transfer_state = 113
-				transfer_state = 120
-				transfer_state = 375
-				transfer_state = 376				
-			}
-			EST = {
+			GER = {
+				transfer_state = 109
+				transfer_state = 108
+				transfer_state = 271
+				transfer_state = 241
+				transfer_state = 286
+				transfer_state = 287
+				transfer_state = 278
+				transfer_state = 279
 				transfer_state = 118
 				transfer_state = 116
 				transfer_state = 117
 				transfer_state = 115
+			}
+			EST = {
 				add_state_core = 118
 				add_state_core = 116
 				add_state_core = 117
-				add_state_core = 115
-				
+				add_state_core = 115				
 				set_cosmetic_tag = UBD
 				create_country_leader = {
 				    name = "Adolf Friedrich, Duke of Mecklenburg-Schwerin"
@@ -471,7 +470,6 @@ country_event = {
 				}
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 			}
-			GER = { puppet = EST }
 			SOV = {
 				country_event = { days = 2 id = ww1_russia.9 }
 			}
@@ -498,25 +496,14 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			GER = {
-				transfer_state = 109
-				transfer_state = 108
-			}
 			POL = {
-				transfer_state = 271
-				transfer_state = 241
-				transfer_state = 286
-				transfer_state = 287
-				transfer_state = 278
-				transfer_state = 279
 				add_state_core = 271
 				add_state_core = 241
 				add_state_core = 286
 				add_state_core = 287
 				add_state_core = 278	
 				add_state_core = 279				
-			}
-			GER = { puppet = POL }			
+			}			
 			SOV = {
 				country_event = { days = 2 id = ww1_russia.10 }
 			}
@@ -607,5 +594,300 @@ country_event = {
 }
 #____________________________________________________________
 
-
+##Event: Sukhomlinov's Reforms & Regulation on the Preparatory Period
+country_event = {
+	id = ww1_russia.30
+	title = ww1_russia.30.title
+	desc = ww1_russia.30.desc
+	picture = GFX_report_event_spr_carlists
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = ww1_russia.30.a
+		ai_chance = { factor = 100}
+		add_ideas= SOV_Regulation_on_the_Preparatory
+		show_ideas_tooltip = SOV_Regulation_on_the_Preparatory
+	}
+	option = {
+		name = ww1_russia.30.b
+		ai_chance = { factor = 1}
+		add_political_power= 150
+	}
+}
 #____________________________________________________________
+
+##Event: Fourth State Duma Elections
+country_event = {
+	id = ww1_russia.31
+	title = ww1_russia.31.title
+	desc = ww1_russia.31.desc
+	picture = GFX_report_event_generic_read_write
+	fire_only_once = yes
+	trigger = {
+	   TAG = SOV
+		date > 1912.9.1 
+        date < 1912.10.1
+	}
+	mean_time_to_happen={
+		days=0
+	}
+	option = {
+		name = ww1_russia.31.a
+		ai_chance = { factor = 25}
+		add_political_power= 150  
+        add_stability = -0.1
+	}
+	option = {
+		name = ww1_russia.31.b
+		ai_chance = { factor = 1}
+		add_stability= 0.10  
+     add_popularity= { 
+     ideology =communism  
+     popularity = 0.1 
+      }
+	}
+	option = {
+		name = ww1_russia.31.c
+		ai_chance = { factor = 1}
+	add_popularity= { 
+      ideology = democratic 
+      popularity = 0.1  }
+     add_political_power= 20  
+     add_stability= 0.05
+	}
+	option = {
+		name = ww1_russia.31.d
+		ai_chance = { factor = 1}
+		army_experience= 50
+        add_stability= 0.02
+	}
+} 
+
+##Country Event: Fall of Poland
+country_event = {  
+	id = ww1_russia.322
+	title = ww1_russia.322.title
+	desc = ww1_russia.322.desc
+	picture = GFX_report_event_yugoslavian_cavalry
+	fire_only_once=yes
+	trigger = {
+		date > 1914.6.1  
+      SOV = {
+      has_war_with = GER
+      NOT = {				
+      controls_state = 279 } }
+	}
+	option = {
+		name = ww1_russia.32.a
+		ai_chance = { factor = 1}
+	}
+	immediate = {
+		hidden_effect = {
+			SOV = {
+				country_event = { days = 0 id = ww1_russia.33 }
+			}
+			news_event=ww1_russia.32
+		}
+	}
+} 
+##News Event: Fall of Poland
+news_event = {  
+	id = ww1_russia.32
+	title = ww1_russia.32.title
+	desc = ww1_russia.32.desc
+	picture = GFX_report_event_yugoslavian_cavalry
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = ww1_russia.32.a
+		ai_chance = { factor = 1}
+	}
+}
+##Event: Anti-War Demonstrations
+country_event = {
+	id = ww1_russia.33
+	title = ww1_russia.33.title
+	desc = ww1_russia.33.desc
+	picture = GFX_report_event_spr_anarchist_success	
+	tag = SOV
+	is_triggered_only = yes
+	option = {
+		name = ww1_russia.33.a
+		ai_chance = { factor = 1}
+		add_stability= -0.1
+	}
+	option = {
+		name = ww1_russia.33.b
+		ai_chance = { factor = 1}
+		add_stability= -0.1
+	}
+	option = {
+		name = ww1_russia.33.c
+		ai_chance = { factor = 1}
+		add_stability= -0.1
+	}
+}
+##Country Event: Fall of Odessa
+country_event = {
+	id = ww1_russia.344
+	title = ww1_russia.344.title
+	desc = ww1_russia.344.desc
+	picture = GFX_report_event_riot_police_poland
+	fire_only_once = yes
+	trigger = {
+		date > 1914.7.1  
+    SOV = {
+    has_war_with = GER
+    NOT = {				
+    controls_state = 172 } }
+	}
+	option = {
+		name = ww1_russia.34.a
+		ai_chance = { factor = 1}
+	}
+	immediate = {
+		hidden_effect = {
+			SOV = {
+				country_event = { days = 2 id = ww1_russia.33 }
+			}
+			news_event=ww1_russia.34
+		}
+	}
+}
+##News Event: Fall of Odessa
+news_event = {
+	id = ww1_russia.34
+	title = ww1_russia.34.title
+	desc = ww1_russia.34.desc
+	picture = GFX_report_event_riot_police_poland
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = ww1_russia.34.a
+		ai_chance = { factor = 1}
+	}
+}
+##Country Event: Fall of Kiev
+country_event = {
+	id = ww1_russia.355
+	title = ww1_russia.355.title
+	desc = ww1_russia.35.desc
+	picture = GFX_report_event_spr_solidify_the_frontlines
+	fire_only_once = yes
+	trigger = {
+		date > 1914.7.1  
+    SOV = {
+     has_war_with = GER
+     NOT = {				
+     controls_state = 331 } }
+	}
+	option = {
+		name = ww1_russia.35.a
+		ai_chance = { factor = 1}
+	}
+	immediate = {
+		hidden_effect = {
+			SOV = {
+				country_event = { days = 2 id = ww1_russia.33 }
+			}
+			news_event=ww1_russia.35
+		}
+	}
+}
+##News Event: Fall of Kiev
+news_event = {
+	id = ww1_russia.35
+	title = ww1_russia.35.title
+	desc = ww1_russia.35.desc
+	picture = GFX_report_event_spr_solidify_the_frontlines
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = ww1_russia.35.a
+		ai_chance = { factor = 1}
+	}
+}
+##Country Event: Fall of Minsk
+country_event = {
+	id = ww1_russia.366
+	title = ww1_russia.366.title
+	desc = ww1_russia.366.desc
+	picture = GFX_report_event_spr_civil_war_equipment
+	fire_only_once = yes
+	trigger = {
+		date > 1914.7.1  
+    SOV = {
+    has_war_with = GER
+    NOT = {				
+    controls_state = 323 } }
+	}
+	option = {
+		name = ww1_russia.36.a
+		ai_chance = { factor = 1}
+	}
+	immediate = {
+		hidden_effect = {
+			SOV = {
+				country_event = { days = 2 id = ww1_russia.33 }
+			}
+			news_event=ww1_russia.36
+		}
+	}
+}
+
+##News Event: Fall of Minsk
+news_event = {
+	id = ww1_russia.36
+	title = ww1_russia.36.title
+	desc = ww1_russia.36.desc
+	picture = GFX_report_event_spr_civil_war_equipment
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = ww1_russia.36.a
+		ai_chance = { factor = 1}
+	}
+}
+
+##Country Event: Fall of Riga
+country_event = {
+	id = ww1_russia.377
+	title = ww1_russia.377.title
+	desc = ww1_russia.377.desc
+	picture = GFX_report_event_panay_incident
+	fire_only_once = yes
+	trigger = {
+		date > 1914.7.1  
+    SOV = {
+    has_war_with = GER
+    NOT = {				
+    controls_state = 115 } }
+	}
+	option = {
+		name = ww1_russia.37.a
+		ai_chance = { factor = 1}
+	}
+	immediate = {
+		hidden_effect = {
+			SOV = {
+				country_event = { days = 2 id = ww1_russia.33 }
+			}
+			news_event=ww1_russia.37
+		}
+	}
+}
+
+##News Event: Fall of Riga
+news_event = {
+	id = ww1_russia.37
+	title = ww1_russia.37.title
+	desc = ww1_russia.37.desc
+	picture = GFX_report_event_panay_incident
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = ww1_russia.37.a
+		ai_chance = { factor = 1}
+	}
+}
