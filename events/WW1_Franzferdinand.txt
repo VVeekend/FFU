@@ -33,7 +33,6 @@ news_event = {
 	}
 
 	immediate = {
-		set_global_flag = kis_franzferdinand_murdered
 		hidden_effect = {
 		GER = { add_to_faction = BUL }
 		GER = { add_to_faction = TUR }
@@ -286,6 +285,7 @@ country_event = {
 		}
 
 		set_global_flag = kis_war
+		set_global_flag = kis_franzferdinand_murdered
 	}
 }
 #____________________________________________________________
@@ -402,9 +402,6 @@ country_event = {
 		add_to_war={
 			targeted_alliance=SER
 			enemy=AUS
-		}
-		GER = {
-			country_event=ww1_franzferdinand.8
 		}
 	}
 	#option={

@@ -1,0 +1,5 @@
+sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
+	name = "ffu_war_begins_sound" #name you're using for the sound
+	file = "ffu_custom/ffu_war_begins.wav" ## location of the sound file
+	always_load = no
+}

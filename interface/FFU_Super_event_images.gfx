@@ -1,0 +1,13 @@
+spriteTypes = {	
+	frameAnimatedSpriteType = {
+     name = "FFU_ww1_start"
+     texturefile = "gfx/animated/FFU_ww1_start.dds"
+     noOfFrames = 23
+     loadType = "INGAME"
+     alwaystransparent = no
+     animation_rate_fps = 10
+	 looping = yes
+     play_on_show = yes
+     pause_on_loop = 0.0
+   }	 
+}

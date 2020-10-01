@@ -121,16 +121,16 @@ technologies = {
 		start_year = 1910
 
 		heavy_artillery_brigade = {
-			maximum_speed = 0.05
+			maximum_speed = 1.00
 		}
 		
 		research_cost = 1.5
 
-		start_year = 1910
+		start_year = 1914
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 8 y = 2 }
+			position = { x = 8 y = 6 }
 		}
 		
 		categories = {
