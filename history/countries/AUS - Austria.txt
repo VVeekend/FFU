@@ -5,8 +5,8 @@
 #-------------------------------------------------------
 set_fuel_ratio = 0.60
 set_research_slots = 5
-set_stability = 0.70
-set_war_support = 0.70
+set_stability = 0.50
+set_war_support = 0.40
 set_convoys = 200
 
 #-------------------------------------------------------
@@ -168,7 +168,11 @@ create_navy_leader={  name = "Miklós Horthy" id=6394 portrait_path="gfx/hoi4tgw
 		AUH_ww1_Multinational_State
 		limited_conscription
 		partial_economic_mobilisation
-		Austrian_staff
+		AUS_ruthenian_opposition
+		AUS_czech_autonomy_demands
+		AUS_romanian_dissidents
+		AUS_serbian_aspirations
+		AUS_austrian_military_staff
 	}
 
 create_equipment_variant = {

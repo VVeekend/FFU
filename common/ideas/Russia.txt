@@ -10,28 +10,6 @@ ideas={
 			}
 		}
 		
-		RUS_ww1_tsushima_humiliation = {
-			allowed = {original_tag = SOV} 
-			allowed_civil_war = {always = yes} 
-			removal_cost = -1 
-			modifier = {
-				production_speed_coastal_bunker_factor = 0.2
-			}
-			equipment_bonus = {
-				capital_ship = {
-					build_cost_ic = 0.10 instant = yes
-				}				
-				screen_ship = {
-					build_cost_ic = 0.05 instant = yes
-				}
-				submarine = {
-					build_cost_ic = 0.05 instant = yes
-				}
-				destroyer = {
-					build_cost_ic = 0.05 instant = yes
-				}
-			}
-		}
 		
 		RUS_ww1_mixed_railways = {
 			allowed = {original_tag = SOV}
@@ -111,7 +89,7 @@ ideas={
 			}
 		}
 		
-		RUS_ww1_tsushima_humiliation_counter = {
+		RUS_ww1_tsushima_humiliation = {
 			allowed = {original_tag = SOV} 
 			allowed_civil_war = {always = yes} 
 			removal_cost = -1 
@@ -189,10 +167,10 @@ ideas={
 			picture = man_five_year_plan_industry
 				equipment_bonus = {
 				infantry_equipment = {					
-				build_cost_ic = -0.1 instant = yes
+				build_cost_ic = -0.15 instant = yes
 				}
                 support_equipment = {					
-                build_cost_ic = -0.1 instant = yes
+                build_cost_ic = -0.15 instant = yes
 				}
 			  }
 		}

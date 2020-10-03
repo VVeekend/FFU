@@ -6856,5 +6856,75 @@ spriteType = { name = "GFX_idea_GRE_eleftherios_venizelos" texturefile = "gfx/in
 		name = "GFX_idea_SOV_weak_central_government-45134"
 		texturefile = "gfx/interface/ideas/SOV_weak_central_government-45134.dds"
 	}
-	
+
+	SpriteType = { 
+		name = "GFX_idea_AUS_aFHUqXGY-50788"
+		texturefile = "gfx/interface/ideas/AUS_aFHUqXGY-50788.dds"
+	}
+
+	##Icon For: Ruthenian Opposition
+	SpriteType = { 
+		name = "GFX_idea_AUS_ruthenian_opposition-50789"
+		texturefile = "gfx/interface/ideas/AUS_ruthenian_opposition-50789.dds"
+	}
+
+	##Icon For: Czech Autonomy Demands
+	SpriteType = { 
+		name = "GFX_idea_AUS_czech_autonomy_demands-50791"
+		texturefile = "gfx/interface/ideas/AUS_czech_autonomy_demands-50791.dds"
+	}
+
+	##Icon For: Ruthenian Support
+	SpriteType = { 
+		name = "GFX_idea_AUS_ruthenian_support-50792"
+		texturefile = "gfx/interface/ideas/AUS_ruthenian_support-50792.dds"
+	}
+
+	##Icon For: Czech Parliament
+	SpriteType = { 
+		name = "GFX_idea_AUS_czech_parliament-50793"
+		texturefile = "gfx/interface/ideas/AUS_czech_parliament-50793.dds"
+	}
+
+	##Icon For: Romanian Dissidents
+	SpriteType = { 
+		name = "GFX_idea_AUS_romanian_dissidents-50794"
+		texturefile = "gfx/interface/ideas/AUS_romanian_dissidents-50794.dds"
+	}
+
+	##Icon For: Romanian Support
+	SpriteType = { 
+		name = "GFX_idea_AUS_romanian_support-50795"
+		texturefile = "gfx/interface/ideas/AUS_romanian_support-50795.dds"
+	}
+
+	##Icon For: Serbian Aspirations
+	SpriteType = { 
+		name = "GFX_idea_AUS_serbian_aspirations-50796"
+		texturefile = "gfx/interface/ideas/AUS_serbian_aspirations-50796.dds"
+	}
+
+	##Icon For: 1912 & 1913 Acts Of Protection
+	SpriteType = { 
+		name = "GFX_idea_AUS_1912__1913_acts_of_protection-46517"
+		texturefile = "gfx/interface/ideas/AUS_1912__1913_acts_of_protection-46517.dds"
+	}
+
+	##Icon For: Austrian Political Dominance
+	SpriteType = { 
+		name = "GFX_idea_AUS_austrian_political_dominance-46468"
+		texturefile = "gfx/interface/ideas/AUS_austrian_political_dominance-46468.dds"
+	}
+
+	##Icon For: Trialism
+	SpriteType = { 
+		name = "GFX_idea_AUS_trialism-51416"
+		texturefile = "gfx/interface/ideas/AUS_trialism-51416.dds"
+	}
+
+	##Icon For: Austrian Military Staff
+	SpriteType = { 
+		name = "GFX_idea_AUS_austrian_military_staff-51417"
+		texturefile = "gfx/interface/ideas/AUS_austrian_military_staff-51417.dds"
+	}
 }

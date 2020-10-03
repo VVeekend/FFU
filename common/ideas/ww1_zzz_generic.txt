@@ -59,7 +59,7 @@ ideas={
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.1
 			}
-			research_bonus = { industry = 0.05}
+			research_bonus = { industry = 0.1 }
 		}
 		
 		arms_factory_expansion = {

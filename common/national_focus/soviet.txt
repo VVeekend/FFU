@@ -1094,11 +1094,14 @@ technology = tech_recon4
 	focus = {
 		id = SOV_war_industries_committees
 		icon = GFX_SOV_war_industries_committees-45150
-		x = 28
+		x = 29
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = SOV_emergency_war_credit }
+		prerequisite = { 
+			focus = SOV_protsar_duma 
+			focus = SOV_concessions_to_radicals 
+		}
 		ai_will_do = {
 			factor = 1
 		}
