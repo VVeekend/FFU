@@ -14,7 +14,7 @@ focus_tree = {
 		icon = GFX_AUS_adriatic_coastal_defense-45123
 		x = 5
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = AUS_archduke_franz_ferdinand_naval_affairs }
 		ai_will_do = {
@@ -97,7 +97,7 @@ focus_tree = {
 		icon = GFX_AUS_contest_the_adriatic-45123
 		x = 7
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = AUS_archduke_franz_ferdinand_naval_affairs }
 		ai_will_do = {
@@ -112,7 +112,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 3
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = AUS_archduke_franz_ferdinand_naval_affairs }
 		ai_will_do = {
@@ -189,7 +189,7 @@ focus_tree = {
 		icon = GFX_AUS_1912_acts_of_protection-46517
 		x = 11
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = AUS_1912_military_program }
 		ai_will_do = {
@@ -220,11 +220,17 @@ focus_tree = {
 		icon = GFX_AUS_dual_monarchy-46468
 		x = 27
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = AUS_1911_cisleithanian_legislative_election }
 		ai_will_do = {
 			factor = 1
+		}
+		complete_tooltip = {
+		unlock_decision_category_tooltip= austria_hungary_political_dominance
+		}
+		completion_reward = {
+        unlock_decision_category_tooltip= austria_hungary_political_dominance
 		}
 	}
 
@@ -261,6 +267,9 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.1
 		}
 	}
 
@@ -360,11 +369,11 @@ remove_ideas = AUS_czech_autonomy_demands
 		}
 		complete_tooltip = {
 			add_stability= 0.05  
-add_war_support = 0.05
+            add_war_support = 0.05
 		}
 		completion_reward = {
 			add_stability= 0.05  
-add_war_support = 0.05
+            add_war_support = 0.05
 		}
 	}
 
@@ -374,7 +383,7 @@ add_war_support = 0.05
 		icon = GFX_AUS_economic_boom-46494
 		x = 15
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = AUS_1911_cisleithanian_legislative_election }
 		ai_will_do = {
@@ -420,6 +429,10 @@ add_war_support = 0.05
 		ai_will_do = {
 			factor = 1
 		}
+	    completion_reward = {
+         remove_unit_leader = 6137
+		 remove_ideas = AUS_austrian_military_staff
+		 }
 	}
 
 	#Focus for German Empire Shock Trooper Tactiics
@@ -513,7 +526,7 @@ add_war_support = 0.05
 		icon = GFX_AUS_1912_military_program-45144
 		x = 14
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -654,7 +667,7 @@ add_war_support = 0.05
 		icon = GFX_AUS_archduke_franz_ferdinand_naval_affairs-46468
 		x = 6
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = AUS_economic_boom }
 		ai_will_do = {

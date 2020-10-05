@@ -752,7 +752,36 @@ spriteTypes = {
 		name = "GFX_night_vision_medium"
 		texturefile = "gfx/interface/technologies/night_vision.dds"
 	}	
+	
+	SpriteType = {
+		name = "GFX_tech_special_forces_medium"
+		texturefile = "gfx/interface/technologies/tech_special_forces.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_special_forces_medium"
+		texturefile = "gfx/interface/technologies/tech_advanced_special_forces_training.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improved_special_forces_medium"
+		texturefile = "gfx/interface/technologies/tech_improved_special_forces.dds"
+	}
 
+	SpriteType = {
+		name = "GFX_survival_training_medium"
+		texturefile = "gfx/interface/technologies/tech_survival_training.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_elite_forces_medium"
+		texturefile = "gfx/interface/technologies/tech_elite_forces.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_extreme_environment_training_medium"
+		texturefile = "gfx/interface/technologies/tech_extreme_environment_training.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_tech_mountaineers5_medium"
@@ -788,7 +817,11 @@ spriteTypes = {
 		name = "GFX_Stormtroopers2_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/stormtroopers.dds"
 	}
-
+	
+	SpriteType = {
+		name = "GFX_Stormtroopers3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/stormtroopers.dds"
+	}
 	SpriteType = {
 		name = "GFX_marines5_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/marines5.dds"

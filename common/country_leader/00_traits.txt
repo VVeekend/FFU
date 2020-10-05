@@ -2988,7 +2988,7 @@ leader_traits = {
 	
 	army_regrouping_1 = { # Org regenerates 4% faster
 		sprite = 5
-		army_morale_factor = 0.04
+		army_morale_factor = 0.1
 		
 		ai_will_do = {
 			factor = 1
@@ -2997,7 +2997,7 @@ leader_traits = {
 	
 	army_regrouping_2 = { # Org regenerates 8% faster
 		sprite = 5
-		army_morale_factor = 0.08
+		army_morale_factor = 0.15
 		
 		ai_will_do = {
 			factor = 2
@@ -3006,7 +3006,7 @@ leader_traits = {
 	
 	army_regrouping_3 = { # Org regenerates 12% faster
 		sprite = 5
-		army_morale_factor = 0.12
+		army_morale_factor = 0.2
 		
 		ai_will_do = {
 			factor = 3
@@ -3044,7 +3044,7 @@ leader_traits = {
 	
 	army_logistics_1 = {  # Ground units suffer 4% less attrition
 		sprite = 6
-		attrition = -0.04
+		attrition = -0.1
 		
 		ai_will_do = {
 			factor = 2
@@ -3053,7 +3053,7 @@ leader_traits = {
 	
 	army_logistics_2 = {  # Ground units suffer 8% less attrition
 		sprite = 6
-		attrition = -0.08
+		attrition = -0.15
 		
 		ai_will_do = {
 			factor = 4
@@ -3062,7 +3062,7 @@ leader_traits = {
 	
 	army_logistics_3 = {  # Ground units suffer 12% less attrition
 		sprite = 6
-		attrition = -0.12
+		attrition = -0.2
 		
 		ai_will_do = {
 			factor = 6

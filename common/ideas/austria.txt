@@ -1,6 +1,5 @@
 ideas={
 	political_advisor={
-	        AUH_Daemon={ allowed={ tag=AUS } traits={ captain_of_industry } ai_will_do={ factor=1 } }
 			AUH_alois_lexa_von_aehrenthal={ allowed={ tag=AUS } traits={ prince_of_terror } ai_will_do={ factor=1 } }
 			AUH_gyula_andrassy={ allowed={ tag=AUS } traits={ smooth_talking_charmer } ai_will_do={ factor=1 } }
 			AUH_ottokar_czernin={ allowed={ tag=AUS } traits={ ideological_crusader } ai_will_do={ factor=1 } }
@@ -8,7 +7,7 @@ ideas={
 			AUH_eugen_hordliczka={ allowed={ tag=AUS } traits={ war_industrialist } ai_will_do={ factor=1 } }
 
 			AUH_oskar_von_hranilovic_czvetassin={ allowed={ tag=AUS } traits={ quartermaster_general } ai_will_do={ factor=1 } }
-			AUH_leon_von_bilinski={ allowed={ tag=AUS } traits={ armaments_organizer } ai_will_do={ factor=1 } }
+			AUH_leon_von_bilinski={ allowed={ tag=AUS } traits={ captain_of_industry } ai_will_do={ factor=1 } }
 			AUH_gabor_ugron={ allowed={ tag=AUS } traits={ popular_figurehead } ai_will_do={ factor=1 } }
 			
 			AUS_istvan_tisza = {
@@ -19,9 +18,7 @@ ideas={
 			allowed = {
 				TAG = AUS
 			}
-			available = {
-				AUS = { has_completed_focus = AUS_prime_minister_istvn_tisza }
-			}
+ 
 		}
 
 		AUS_charles_i = {
@@ -38,6 +35,9 @@ ideas={
 		AUS_archduke_franz_ferdinand = {
 			traits = {
 				archduke
+			}
+			available = {
+				AUS = { has_completed_focus = AUS_archduke_franz_ferdinand_naval_affairs }
 			}
 			cost = 25
 			picture = rudolf_hess
@@ -66,8 +66,7 @@ ideas={
 	}
 
 	high_command={
-			AUH_blasius_schemua={ ledger = army allowed={ tag=AUS } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			AUH_Senor_Frenchie={ ledger = army allowed={ tag=AUS } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			AUH_blasius_schemua={ ledger = army allowed={ tag=AUS } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
 			AUH_friedrich_von_beck_rzikowsky={ ledger = army allowed={ tag=AUS } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
 			AUH_rudolf_montecuccoli={ ledger = navy allowed={ tag=AUS } traits={ navy_screen_1 } ai_will_do={ factor=1 } }
 			AUH_anton_haus={ ledger = navy allowed={ tag=AUS } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }

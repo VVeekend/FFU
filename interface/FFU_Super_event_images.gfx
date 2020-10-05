@@ -9,5 +9,16 @@ spriteTypes = {
 	 looping = yes
      play_on_show = yes
      pause_on_loop = 0.0
-   }	 
+   }
+	frameAnimatedSpriteType = {
+     name = "FFU_balkan_war"
+     texturefile = "gfx/animated/FFU_balkan_war.dds"
+     noOfFrames = 23
+     loadType = "INGAME"
+     alwaystransparent = no
+     animation_rate_fps = 3
+	 looping = yes
+     play_on_show = yes
+     pause_on_loop = 0.0
+   }   
 }

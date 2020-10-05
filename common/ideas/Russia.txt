@@ -288,7 +288,7 @@ ideas={
 		SOV_vladimir_dzhunkovsky = {
 		available = { SOV = { has_completed_focus = SOV_expanded_okhrana }}
 			traits = {
-				anti_communist_crusader
+				head_of_intelligence
 			}
 			allowed={
 				tag=SOV

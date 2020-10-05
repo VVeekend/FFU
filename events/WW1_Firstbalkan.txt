@@ -147,6 +147,7 @@ country_event = {
 					name = "War in the Balkans"
 				}
 			}
+			set_global_flag = ffu_first_balkan_super
 			set_global_flag = kis_firstbalkan_war
 			news_event = { days = 1 id = ww1_firstbalkan.100 }
 

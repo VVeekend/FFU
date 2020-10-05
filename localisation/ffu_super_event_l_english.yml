@@ -1,4 +1,7 @@
 ﻿l_english:
-  FFU_WAR_BEGIN_T:0 "THE GREAT WAR BEGINS"
+  FFU_WAR_BEGIN_T:0 "THE GREAT WAR"
   FFU_WAR_BEGIN_D:0 "Paris for lunch, dinner in St. Petersburg. \n- Kaiser Wilhelm II"
   FFU_WAR_BEGIN_A:0 "Europe is burning."
+  FFU_FIRST_BALKAN_WAR_BEGINS_T:0 "FIRST BALKAN WAR"
+  FFU_FIRST_BALKAN_WAR_BEGINS_D:0 "The Turkish governments showed no interest in their duties towards their citizens and turned a deaf ear to all complaints and suggestions. Things got so far out of hand that no one was satisfied with the situation in Turkey in Europe. It became unbearable for the Serbs, the Greeks and for the Albanians, too. \n- King Peter I of Serbia"
+  FFU_FIRST_BALKAN_WAR_BEGINS_A:0 "Powderkerg waiting to explode."

@@ -171,6 +171,11 @@ category_test_decisions = {
 	}
 }
 
+austria_hungary_political_dominance = {
+         icon = decision_generic_construction
+         visible = { TAG = AUS }
+}
+
 infrastructure_modernization = {
          icon = decision_generic_construction
          visible = {

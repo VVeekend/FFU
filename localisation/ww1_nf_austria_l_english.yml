@@ -247,9 +247,15 @@ AUS_pacify_romanians:0 "Pacify Romanians"
 AUS_pacify_romanians_desc:0 ""
 AUS_encourage_romanian_bureaucrats:0 "Encourage Romanian Bureaucrats"
 AUS_encourage_romanian_bureaucrats_desc:0 ""
-
+                   ####Decisions####
+austria_hungary_political_dominance:0 "Austria Hungary Political Dominance"
+embracetrialism:0 "Embrace Trialism"
+embracetrialism_desc:0 ""
+hungarianpoliticaldominance:0 "Hungarian Political Dominance"
+hungarianpoliticaldominance_desc:0 ""
+austrianpoliticaldominance:0 "Austrian Political Dominance"
+austrianpoliticaldominance_desc:0 ""
 #--------------------------------------------------------------
-
 ############################ NOT NF BUT DON'T MOVE CHANGE/THAT
 kis_italy_accept_auh_offer:0 "Accepted the Austria-Hungaria Offer"
 kis_romania_accept_auh_offer:0 "Accepted the Austria-Hungaria Offer"
