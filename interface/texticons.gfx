@@ -202,6 +202,19 @@ spriteTypes = {
 	#### unit texticons
 	
 	spriteType = {
+		name = "GFX_nato_unit_jaeger_icon_small"
+		texturefile = "gfx/texticons/unit_infantry3_icon.dds"
+		legacy_lazy_load = no
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_jaeger_icon_small"
+		texturefile = "gfx/texticons/unit_infantry3_icon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 1
+	}	
+	
+	spriteType = {
 		name = "GFX_nato_unit_stormtrooper_icon_small"
 		texturefile = "gfx/texticons/nato_unit_stormtrooper_icon_small.dds"
 		legacy_lazy_load = no

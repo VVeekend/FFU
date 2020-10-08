@@ -60,6 +60,10 @@ country_event = {
 		}
 	}
 	major = yes
+	
+	immediate = { 
+			remove_ideas = SOV_grigori_rasputin
+	}
 	option = {
 		name = ww1_russia.3.a
 		ai_chance = {
@@ -79,18 +83,12 @@ news_event = {
 	title = ww1_russia.4.t
 	desc = ww1_russia.4.d
 	picture = EVENT_hoi4tgw_october_revolution
-
 	major = yes
-
 	mean_time_to_happen = {
 		days = 0
 	}
 
 	trigger = {
-
-		NOT = {
-			has_global_flag = kis_ask_ger_surrend # Can't happened if Germany loosed the WW1
-		}
 		
 		SOV = {
 			OR = {
@@ -107,7 +105,8 @@ news_event = {
 	}
 
 	immediate = {
-		hidden_effect = {	
+		hidden_effect = {  
+            set_global_flag = russian_civil_war    	
 			ENG = {
 				remove_from_faction = SOV
 				add_opinion_modifier = { 
@@ -158,19 +157,11 @@ news_event = {
 				transfer_state = 219
 				transfer_state = 214
 				transfer_state = 215
-				transfer_state = 211
-				transfer_state = 208
-				transfer_state = 210
                 transfer_state = 205
                 transfer_state = 201
                 transfer_state = 222
                 transfer_state = 198
-                transfer_state = 207
-                transfer_state = 194
-                transfer_state = 193	
-                transfer_state = 212
-                transfer_state = 197
-                transfer_state = 209				
+                transfer_state = 194				
 				
 				country_event = { days = 1 id = ww1_soviet.999 }
 			}
@@ -557,9 +548,6 @@ country_event = {
 						exists = yes
 					}
 				}
-				ROM = {
-					transfer_state = 112
-				}
 			}
 
 		}
@@ -710,7 +698,6 @@ country_event = {
 	title = ww1_russia.33.title
 	desc = ww1_russia.33.desc
 	picture = GFX_report_event_spr_anarchist_success	
-	tag = SOV
 	is_triggered_only = yes
 	option = {
 		name = ww1_russia.33.a

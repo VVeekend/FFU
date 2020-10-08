@@ -296,7 +296,7 @@ technologies = {
 
 		enable_building = {
 			building = trench
-			level = 10
+			level = 5
 		}
 
 		path = {

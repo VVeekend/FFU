@@ -47,5 +47,30 @@ scripted_gui = {
 			}
 		}
 	}
+	
+	FFU_russian_civil_war = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "FFU_russian_civil_war"
+
+		visible = {
+			has_global_flag = russian_civil_war ### this country flag triggers the #superevent
+		}
+	}
+
+	FFU_russian_civil_war_frame = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "FFU_russian_civil_war_frame"
+
+		visible = {
+			has_global_flag = russian_civil_war
+		}
+
+		effects = {
+			Option_click = {
+				clr_global_flag = russian_civil_war ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+
 }
 #set_global_flag kis_franzferdinand_murdered ## quick command for testing

@@ -59,6 +59,8 @@ NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 0.0
 NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 20
 
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.15
+NDefines.NBuildings.BASE_FACTORY_REPAIR = 0.4			-- Default repair rate before factories are taken into account
+NDefines.NBuildings.BASE_FACTORY_REPAIR_FACTOR = 3.0	-- Factory speed modifier when repairing.
 
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 50
 
@@ -82,8 +84,9 @@ NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0
 NDefines.NMilitary.SLOWEST_SPEED = 2
 NDefines.NMilitary.TRAINING_ATTRITION = 0.0
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0
-NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT = 0.3
-NDefines.NMilitary.NUKE_DELAY_HOURS = 6
+NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT = 0.3					-- Minimum damage from nukes as a percentage of current strength/organisation
+NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT = 0.4
+NDefines.NMilitary.NUKE_DELAY_HOURS = 0
 NDefines.NMilitary.UNIT_LEADER_INITIAL_TRAIT_SLOT = { 3, 3, 1, 0 }
 NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.03
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0003

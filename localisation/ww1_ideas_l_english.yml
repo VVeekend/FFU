@@ -525,6 +525,8 @@
  bootleggers_desc:0 "The prohibition of alcohol in the USA has had a major unforseen and highly negative side effect: the growth of criminal syndicates that meet the public's insastiable demand for liqour. The incredible levels of violence assocaited with these gangsters is hurting this country, and the vast sums of money involved are corrupting America's conciousness and politics, perhaps forever."
   
   #Frenchie
+RUS_Kerensky:0 "Kerensky Offensive"
+SOV_Kerensky_desc:0 " "
 GER_slowed_naval_production:0 "Anglo-German Arms Race Ends"
 GER_slowed_naval_production_desc:0 "In 1912, German Chancellor Theobald von Bethmann-Hollweg ended the naval arms race. His aim was to secure an understanding with the British to end the increasingly isolated position of Germany. Russian military expansion compelled the Germans to prioritise spending on their army and therefore less on the navy. The initiative led to the Haldane Mission in which Germany offered to accept British naval superiority in exchange for British neutrality in a war in which Germany could not be said to be the aggressor."
 FRA_AMIENS: "First Battle of Amiens"
@@ -556,6 +558,7 @@ industrialization_effort:0 "Industrialization Effort"
 SOV_cossack_hosts:0 "Cossack Hosts"
 SOV_russian_staff:0 "Main Directorate of the General Staff"
 SOV_regulation_on_the_preparatory:0 "Regulation on the Preparatory"
+SOV_vladimir_marushevsky:0 "Vladimir Marushevsky"
 market_dynamism:0 "Market Dynamism"
 AUS_ruthenian_opposition:0 "Ruthenian Opposition"
 AUS_czech_autonomy_demands:0 "Czech Autonomy Demands"

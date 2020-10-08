@@ -199,11 +199,9 @@ ideas={
 			modifier = {
 				planning_speed = 0.20										
 				max_planning = -0.05
-                land_doctrine = -0.10
 				max_dig_in = -10
 			}
-			research_bonus = { 	land_doctrine = -0.1
-			}
+			research_bonus = { 	land_doctrine = -0.1 }
 		}
 		
 		AUH_ww1_Multinational_State = {
