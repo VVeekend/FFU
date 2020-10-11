@@ -19,6 +19,30 @@ state={
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 4
+		5968 = {
+				bunker = 5
+			}
+		19662 = {
+				bunker = 5
+			}
+		19979 = {
+				bunker = 5
+			}
+		14898 = {
+				trench= 2
+			}
+		14857 = {
+				trench= 2
+			}
+		19687 = {
+				trench= 2
+			}
+		10063 = {
+				trench= 2
+			}
+		2742 = {
+				trench= 2
+			}
 		}
 		victory_points = {
 			5968 5

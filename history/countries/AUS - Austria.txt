@@ -15,8 +15,8 @@ set_convoys = 200
 #LEADERS
 create_country_leader={ name = "Viktor Adler" desc=AUH_viktor_adler_DESC picture="gfx/hoi4tgw_portraits/AUH/country_leaders/AUH_viktor_adler.dds" expire="1935.1.1" ideology=marxism traits={  } }
 create_country_leader={ name = "Franz Ferdinand" desc=AUH_franz_ferdinand_DESC picture="gfx/hoi4tgw_portraits/AUH/country_leaders/AUH_franz_ferdinand.dds" expire="1935.1.1" ideology=despotism  traits={  } }
-#create_country_leader={ name = "Karl I" desc=AUH_karl_i_DESC picture="gfx/hoi4tgw_portraits/AUH/country_leaders/AUH_karl_i.dds" expire="1935.1.1" ideology=autocracy  traits={  } }
-create_country_leader={ name = "Franz Joseph I" desc=AUH_franz_joseph_i_DESC picture="gfx/hoi4tgw_portraits/AUH/country_leaders/AUH_franz_joseph_i.dds" expire="1935.1.1" ideology=autocracy traits={  } }
+#create_country_leader={ name = "Karl I" desc=AUH_karl_i_DESC picture="gfx/hoi4tgw_portraits/AUH/country_leaders/AUH_karl_i.dds" expire="1935.1.1" ideology=autocracy  traits={ inexperienced_imperialist inexperienced_monarch } }
+create_country_leader={ name = "Franz Joseph I" desc=AUH_franz_joseph_i_DESC picture="gfx/hoi4tgw_portraits/AUH/country_leaders/AUH_franz_joseph_i.dds" expire="1935.1.1" ideology=autocracy traits={ autocratic_imperialist } }
 
 #ARMY
 create_field_marshal={  name = "Conrad von Hötzendorf" id=6137 portrait_path="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Hotzendorf.dds" traits={ offensive_doctrine  } skill=3 

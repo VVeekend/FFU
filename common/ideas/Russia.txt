@@ -43,6 +43,10 @@ ideas={
 			picture= RUS_staff
 			
 			targeted_modifier = {
+				tag = BUL
+				attack_bonus_against = 0.25
+			}			
+			targeted_modifier = {
 				tag = AUS
 				attack_bonus_against = 0.25
 				defense_bonus_against = 0.25
@@ -53,6 +57,10 @@ ideas={
 				attack_bonus_against = 0.25
 				defense_bonus_against = 0.25
 
+			}
+			targeted_modifier = {
+				tag = TUR
+				attack_bonus_against = 0.25
 			}
 		}
 		
@@ -75,6 +83,11 @@ ideas={
 			picture= RUS_staff
 			
 			targeted_modifier = {
+				tag = BUL
+				attack_bonus_against = 0.25
+			}
+			
+			targeted_modifier = {
 				tag = AUS
 				attack_bonus_against = 0.25
 			}
@@ -87,6 +100,31 @@ ideas={
 				tag = TUR
 				attack_bonus_against = 0.25
 			}
+		}
+		
+		RUS_Galicia = {
+			allowed = {
+				original_tag = SOV
+				always = no #event or decision
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture= RUS_staff
+			
+			targeted_modifier = {
+				tag = BUL
+				attack_bonus_against = 0.25
+			}			
+			targeted_modifier = {
+				tag = AUS
+				attack_bonus_against = 0.25
+			}
+			
 		}
 		
 		RUS_ww1_tsushima_humiliation = {
@@ -322,6 +360,7 @@ ideas={
 
 	high_command={
 			SOV_vladimir_marushevsky = {
+			ledger = army
 			allowed={
 				tag=SOV
 			}

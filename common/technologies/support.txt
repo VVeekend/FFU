@@ -106,7 +106,7 @@ technologies = {
 	tech_engineers2 = {
 
 		engineer = {
-			entrenchment  = 1
+			entrenchment  = 2
 			
 			fort = {
 				defence = 0.10
@@ -150,7 +150,7 @@ technologies = {
 	tech_engineers3 = {
 
 		engineer = {
-			entrenchment  = 1
+			entrenchment  = 2
 			
 			fort = {
 				defence = 0.10
@@ -198,7 +198,7 @@ technologies = {
 	tech_engineers4 = {
 
 		engineer = {
-			entrenchment  = 1
+			entrenchment  = 2
 			
 			fort = {
 				defence = 0.10
@@ -254,7 +254,7 @@ technologies = {
 	tech_recon2 = {
 
 		recon = {
-			recon = 1
+			recon = 2
 		}
 		
 		path = {
@@ -293,7 +293,7 @@ technologies = {
 	tech_recon3 = {
 
 		recon = {
-			recon = 1
+			recon = 2
 		}
 		
 		path = {
@@ -331,7 +331,7 @@ technologies = {
 	tech_recon4 = {
 
 		recon = {
-			recon = 1.5
+			recon = 2
 		}
 
 
@@ -510,7 +510,8 @@ technologies = {
 	tech_maintenance_company2 = {
 
 		maintenance_company = {
-			reliability_factor = 0.04
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.02
 		}
 		
 		
@@ -550,7 +551,8 @@ technologies = {
 	tech_maintenance_company3 = {
 
 		maintenance_company = {
-			reliability_factor = 0.04
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.02
 		}
 		
 		
@@ -590,7 +592,8 @@ technologies = {
 	tech_maintenance_company4 = {
 
 		maintenance_company = {
-			reliability_factor = 0.04
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.02
 		}
 		
 

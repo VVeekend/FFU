@@ -16,7 +16,15 @@ state={
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
-			anti_air_building = 5
+		19675 = {
+				bunker = 5
+			}
+		19671 = {
+				bunker = 5
+			}
+		19654 = {
+				bunker = 5
+			}
 
 		}
 		victory_points = {
@@ -67,7 +75,6 @@ state={
 		victory_points = {
 			19655 1 
 		}
-
 	}
 
 	provinces={

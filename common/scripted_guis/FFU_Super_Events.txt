@@ -62,12 +62,36 @@ scripted_gui = {
 		window_name = "FFU_russian_civil_war_frame"
 
 		visible = {
-			has_global_flag = russian_civil_war
+			has_global_flag = franz_joseph_dead
 		}
 
 		effects = {
 			Option_click = {
 				clr_global_flag = russian_civil_war ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+
+	FFU_franz_joseph_dead = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "FFU_franz_joseph_dead"
+
+		visible = {
+			has_global_flag = franz_joseph_dead ### this country flag triggers the #superevent
+		}
+	}
+
+	FFU_franz_joseph_dead_frame = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "FFU_franz_joseph_dead_frame"
+
+		visible = {
+			has_global_flag = franz_joseph_dead
+		}
+
+		effects = {
+			Option_click = {
+				clr_global_flag = franz_joseph_dead ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}

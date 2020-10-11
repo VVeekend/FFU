@@ -3074,7 +3074,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1915"
+					text = "1914"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -3264,14 +3264,6 @@ guiTypes = {
 				hide = yes
 				alwaystransparent = yes
 			}			
-			
-			gridboxtype = {
-				name = "experimental_rockets_tree"
-				position = { x=950 y=412 }
-				size = { width = 480 height = 650 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-			}
 
 			#KiS - Chemical
 			gridboxtype = {

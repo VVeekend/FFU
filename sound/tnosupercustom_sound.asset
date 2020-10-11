@@ -8,3 +8,8 @@ sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
 	file = "ffu_custom/FFU_russian_civil_war.wav" ## location of the sound file
 	always_load = no
 }
+sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
+	name = "FFU_franz_joseph_dead_sound" #name you're using for the sound
+	file = "ffu_custom/FFU_franz_joseph_dead.wav" ## location of the sound file
+	always_load = no
+}

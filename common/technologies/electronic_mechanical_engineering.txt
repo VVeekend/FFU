@@ -66,7 +66,7 @@ technologies = {
 		research_speed_factor = 0.01
 		
 		path = {
-			leads_to_tech = chemical_research2
+			leads_to_tech = nukes
 			research_cost_coeff = 1
 		}
 		
@@ -87,12 +87,13 @@ technologies = {
 		}
 	}
 	
-	chemical_research2 = {
+	nukes = {
 	
-			enable_building = {
+		enable_building = {
 			building = nuclear_reactor
 			level = 1
 		}
+		
 		nuclear_production = 1
 
 		category_army = {
@@ -100,7 +101,7 @@ technologies = {
 			soft_attack = 0.06
 		}
 		
-		start_year = 1915
+		start_year = 1914
 		research_cost = 1
 		
 		folder = {

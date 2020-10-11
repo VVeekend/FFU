@@ -28,3 +28,18 @@ category = { ### THIS USES SOUND EFFECTS, NOT SOUND
 		releasetime = 1.2
  	}
 }
+category = { ### THIS USES SOUND EFFECTS, NOT SOUND
+ 	name = "FFU_franz_joseph_dead"
+	soundeffects = {
+		FFU_franz_joseph_dead
+	}
+ 	compressor = {
+		enabled = yes
+		pregain = 3.0
+		postgain = 0.0
+		ratio = 10.0
+		threshold = -15.0
+		attacktime = 0.030
+		releasetime = 1.2
+ 	}
+}

@@ -327,10 +327,10 @@ remove_ideas = AUS_czech_autonomy_demands
 		}
 	}
 
-	#Focus for Supreme Polish National Committee
+	#Focus for Polish Legions
 	focus = {
-		id = AUS_supreme_polish_national_committee
-		icon = GFX_focus_generic_polish_deal
+		id = AUS_polish_legions
+		icon = GFX_AUS_polish_legions-46471
 		x = 38
 		y = 3
 		cost = 10
@@ -339,20 +339,7 @@ remove_ideas = AUS_czech_autonomy_demands
 		ai_will_do = {
 			factor = 1
 		}
-	}
-
-	#Focus for Polish Legions
-	focus = {
-		id = AUS_polish_legions
-		icon = GFX_AUS_polish_legions-46471
-		x = 38
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = AUS_supreme_polish_national_committee }
-		ai_will_do = {
-			factor = 1
-		}
+		completion_reward = {add_manpower= 250000}
 	}
 
 	#Focus for Address Empire Minorities
@@ -939,7 +926,6 @@ remove_ideas= AUS_ruthenian_opposition
 		prerequisite = { focus = AUS_address_empire_minorities }
 		mutually_exclusive = { 
 			focus = AUS_pacify_romanians 
-			focus = AUS_ 
 		}
 		ai_will_do = {
 			factor = 1

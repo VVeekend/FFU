@@ -21,6 +21,7 @@ news_event = {
         }
     }
     immediate = {
+	set_global_flag = franz_joseph_dead  
         hidden_effect = {
             AUS = {
                 kill_country_leader = yes

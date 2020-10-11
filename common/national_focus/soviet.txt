@@ -17,8 +17,9 @@ focus_tree = {
 
 		icon = GFX_hoi4tgw_ironcross
 		available = {
-			date > 1915.1.1
+		    date > 1915.1.1
 		     NOT = {
+			 has_idea= RUS_Galicia
              has_idea= RUS_Kerensky
 			}
 		}
@@ -33,8 +34,8 @@ focus_tree = {
 			}
 			
 		}
-		x = 15
-		y = 6
+		x = 14
+		y = 7
 		cost = 2
 
 
@@ -45,12 +46,14 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Kerensky
-		prerequisite = { focus = SOV_Brusilov }
 		icon = GFX_hoi4tgw_ironcross
-		available = { date > 1916.1.1 
+		available = {
+		date > 1916.1.1
 		 NOT = {
+		     has_idea= RUS_Galicia
              has_idea= RUS_brusilov
 			}   }
+			
 		completion_reward = { 
 			add_timed_idea = {
 					days = 100
@@ -59,10 +62,32 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 2000 }
 		cost = 2
-		x = 15
+		x = 16
 		y = 7
 	}
 
+	focus = {
+		id = SOV_Galicia
+		icon = GFX_hoi4tgw_ironcross
+		available = {
+		date > 1914.7.1
+		 NOT = {
+             has_idea= RUS_brusilov
+			 has_idea= RUS_Kerensky
+			}   }
+			
+		completion_reward = { 
+			add_timed_idea = {
+					days = 100
+					idea = RUS_Galicia
+			}
+		}
+		ai_will_do = { factor = 2000 }
+		cost = 2
+		x = 15
+		y = 6
+	}
+	
 	#Focus for Seperate Cossack Regiments
 	focus = {
 		id = SOV_seperate_cossack_regiments
@@ -175,7 +200,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = SOV_expand_industrialization }
+		prerequisite = { focus = SOV_address_economic_stagnation }
 		ai_will_do = {
 			factor = 1
 		}
@@ -218,7 +243,7 @@ focus_tree = {
 		id = SOV_increased_research_development
 		icon = GFX_goal_tfv_generic_tech_sharing
 		x = 6
-		y = 6
+		y = 4
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_st_petersburg_industrial_project }
@@ -241,7 +266,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = SOV_expand_industrialization }
+		prerequisite = { focus = SOV_address_economic_stagnation }
 		ai_will_do = {
 			factor = 1
 		}
@@ -268,10 +293,10 @@ focus_tree = {
 		id = SOV_st_petersburg_industrial_project
 		icon = GFX_SOV_st_petersburg_industrial_project-45110
 		x = 6
-		y = 4
+		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = SOV_expand_industrialization }
+		prerequisite = { focus = SOV_address_economic_stagnation }
 		ai_will_do = {
 			factor = 1
 		}
@@ -492,9 +517,9 @@ focus_tree = {
 			add_unit_leader_trait = infantry_leader
 			add_unit_leader_trait = trait_engineer
 			add_skill_level = 5
-            add_attack = 4
-			add_defense = 4
-            add_planning = 4 }
+            add_attack = 1
+			add_defense = 1
+            add_planning = 1 }
 		}
 	}
 
@@ -513,17 +538,17 @@ focus_tree = {
 		}
 		complete_tooltip = {
 			214 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
-		            type = arms_factory level = 2 instant_build = yes
+		            type = arms_factory level = 4 instant_build = yes
 		        }
 			}
 		}
 		completion_reward = {
 			214 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
-		            type = arms_factory level = 2 instant_build = yes
+		            type = arms_factory level = 4 instant_build = yes
 		        }
 			}
 		}
@@ -541,9 +566,11 @@ focus_tree = {
 			factor = 1
 		}
 		complete_tooltip = {
+		    set_rule = { can_send_volunteers = yes }
 			add_political_power= 150
 		}
 		completion_reward = {
+		    set_rule = { can_send_volunteers = yes }
 			add_political_power= 150
 		}
 	}
@@ -715,17 +742,17 @@ focus_tree = {
 		}
 		complete_tooltip = {
 			321 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
-		            type = arms_factory level = 2 instant_build = yes
+		            type = arms_factory level = 4 instant_build = yes
 		        }
 			}
 		}
 		completion_reward = {
 			321 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
-		            type = arms_factory level = 2 instant_build = yes
+		            type = arms_factory level = 4 instant_build = yes
 		        }
 			}
 		}
@@ -930,23 +957,6 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward={ add_stability= 0.1 }
-	}
-
-	#Focus for Expand Industrialization
-	focus = {
-		id = SOV_expand_industrialization
-		icon = GFX_SOV_expand_industrialization-45111
-		x = 6
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = SOV_address_economic_stagnation }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_ideas= ENG_king_edward
-		}
 	}
 
 	#Focus for Modernization & Developement of Rail

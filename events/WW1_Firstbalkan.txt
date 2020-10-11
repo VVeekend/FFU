@@ -52,6 +52,10 @@ country_event = {
 	        }
 	        create_faction = "balkan_league"
 				
+			# Bulgaria
+            BUL = {
+                country_event = ww1_firstbalkan.3
+            }
 	        # Greece
             GRE = {
                 country_event = ww1_firstbalkan.3
