@@ -6,5 +6,5 @@
 entity = {
 	name = "building_trench"
 	pdxmesh = "building_trench"
-	scale = 0.14
+	scale = 0.2
 }

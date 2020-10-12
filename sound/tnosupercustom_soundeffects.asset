@@ -31,3 +31,14 @@ soundeffect = { # SOUND EFFECTS, THE GUI USES THIS AND THIS USES SOUNDS, DO NOT 
 	max_audible_behaviour = fail #same as above
 	volume = 2
 }
+soundeffect = { # SOUND EFFECTS, THE GUI USES THIS AND THIS USES SOUNDS, DO NOT MISTAKE ONE FOR THE # OTHER
+	name = FFU_first_balkan_war_begins
+	loop = no
+	sounds = {
+		sound = FFU_first_balkan_war_begins_sound
+		}
+	is3d = no # do not use this shit, it caused me to only hear on the left ear
+	max_audible = 1 #no idea what this is, but keep it as is so you dont have problems
+	max_audible_behaviour = fail #same as above
+	volume = 2
+}

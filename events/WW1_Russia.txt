@@ -89,7 +89,7 @@ news_event = {
 	}
 
 	trigger = {
-		
+		NOT = { has_global_flag = soviets_civil_war }
 		SOV = {
 			OR = {
 				has_war_with = GER
@@ -106,7 +106,8 @@ news_event = {
 
 	immediate = {
 		hidden_effect = {  
-            set_global_flag = russian_civil_war    	
+            set_global_flag = russian_civil_war 
+            set_global_flag = soviets_civil_war			
 			ENG = {
 				remove_from_faction = SOV
 				add_opinion_modifier = { 
@@ -432,6 +433,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
+			ROM = { transfer_state = 112 }
 			GER = {
 				transfer_state = 109
 				transfer_state = 108

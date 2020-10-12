@@ -34,6 +34,7 @@ news_event = {
 
 	immediate = {
 		hidden_effect = {
+		set_global_flag=kis_franzferdinand_murdered
 		GER = { add_to_faction = BUL }
 		GER = { add_to_faction = TUR }
 			AUS = {
@@ -137,6 +138,7 @@ country_event = {
 		ai_chance={
 			factor=100
 		}
+		set_global_flag=FFU_war_begins
 		set_country_flag=serbian_ultamatium
 		add_named_threat={
 			threat=4
@@ -214,80 +216,11 @@ country_event = {
 			}
 		}
 		
-		BUL={
-	        declare_war_on={
-				type=annex_everything
-				target=POR
-			}
-		    declare_war_on={
-				type=annex_everything
-				target=LUX
-			}
-			declare_war_on={
-				type=annex_everything
-				target=BEL
-			}
-		    declare_war_on={
-				type=annex_everything
-				target=FRA
-			}
-			declare_war_on={
-				type=annex_everything
-				target=SER
-			}
-			declare_war_on={
-				type=annex_everything
-				target=SOV
-			}
-			declare_war_on={
-				type=annex_everything
-				target=ENG
-			}
-			declare_war_on={
-				type=annex_everything
-				target=MNT
-			}
-		}
-		
-		TUR={
-	        declare_war_on={
-				type=annex_everything
-				target=POR
-			}
-		    declare_war_on={
-				type=annex_everything
-				target=LUX
-			}
-			declare_war_on={
-				type=annex_everything
-				target=BEL
-			}
-		    declare_war_on={
-				type=annex_everything
-				target=FRA
-			}
-			declare_war_on={
-				type=annex_everything
-				target=SER
-			}
-			declare_war_on={
-				type=annex_everything
-				target=SOV
-			}
-			declare_war_on={
-				type=annex_everything
-				target=ENG
-			}
-			declare_war_on={
-				type=annex_everything
-				target=MNT
-			}
 		}
 
 		set_global_flag = kis_war
 		set_global_flag = kis_franzferdinand_murdered
 	}
-}
 #____________________________________________________________
 
 # Mobilize against Austria Hungary

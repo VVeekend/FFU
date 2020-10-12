@@ -18,7 +18,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 20 }
-			font = "aldrich_18_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "FFU_WAR_BEGIN_T" ###### HERE GOES THE TITLE ########
 			maxWidth = 220
@@ -55,7 +55,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			shortcut = "ESCAPE"
 			position = { x = -110 y = 183 }
 			quadTextureSprite ="GFX_button_221x34"
-			buttonFont = "Bomb_24"
+			buttonFont = "hoi_18mbs"
 			Orientation = center
 		}
 
@@ -70,7 +70,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		instantTextBoxType = {
 			name = "text"
 			position = {  x= 120 y = -195 }
-			font = "Bomb_24"
+			font = "hoi_18mbs"
 			text = "FFU_WAR_BEGIN_D" ######## HERE GOES THE DESCRIPTION ###########
 			maxWidth = 455
 			maxHeight = 173
@@ -97,7 +97,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 20 }
-			font = "aldrich_18_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "FFU_FIRST_BALKAN_WAR_BEGINS_T" ###### HERE GOES THE TITLE ########
 			maxWidth = 220
@@ -134,7 +134,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			shortcut = "ESCAPE"
 			position = { x = -110 y = 183 }
 			quadTextureSprite ="GFX_button_221x34"
-			buttonFont = "Bomb_24"
+			buttonFont = "hoi_18mbs"
 			Orientation = center
 		}
 
@@ -149,7 +149,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		instantTextBoxType = {
 			name = "text"
 			position = {  x= 120 y = -195 }
-			font = "Bomb_24"
+			font = "hoi_18mbs"
 			text = "FFU_FIRST_BALKAN_WAR_BEGINS_D" ######## HERE GOES THE DESCRIPTION ###########
 			maxWidth = 455
 			maxHeight = 173
@@ -176,7 +176,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 20 }
-			font = "aldrich_18_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "FFU_RUSSIAN_CIVIL_WAR_T" ###### HERE GOES THE TITLE ########
 			maxWidth = 220
@@ -213,7 +213,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			shortcut = "ESCAPE"
 			position = { x = -110 y = 183 }
 			quadTextureSprite ="GFX_button_221x34"
-			buttonFont = "Bomb_24"
+			buttonFont = "hoi_18mbs"
 			Orientation = center
 		}
 
@@ -228,7 +228,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		instantTextBoxType = {
 			name = "text"
 			position = {  x= 120 y = -195 }
-			font = "Bomb_24"
+			font = "hoi_18mbs"
 			text = "FFU_RUSSIAN_CIVIL_WAR_D" ######## HERE GOES THE DESCRIPTION ###########
 			maxWidth = 455
 			maxHeight = 173
@@ -255,7 +255,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 20 }
-			font = "aldrich_18_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "FFU_FRANZ_JOSEPH_DEAD_T" ###### HERE GOES THE TITLE ########
 			maxWidth = 220
@@ -292,7 +292,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			shortcut = "ESCAPE"
 			position = { x = -110 y = 183 }
 			quadTextureSprite ="GFX_button_221x34"
-			buttonFont = "Bomb_24"
+			buttonFont = "hoi_18mbs"
 			Orientation = center
 		}
 
@@ -307,7 +307,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		instantTextBoxType = {
 			name = "text"
 			position = {  x= 120 y = -195 }
-			font = "Bomb_24"
+			font = "hoi_18mbs"
 			text = "FFU_FRANZ_JOSEPH_DEAD_D" ######## HERE GOES THE DESCRIPTION ###########
 			maxWidth = 455
 			maxHeight = 173

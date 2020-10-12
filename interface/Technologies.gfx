@@ -6186,5 +6186,16 @@ spriteTypes = {
 		name = "GFX_tech_wardog_medium"
 		texturefile = "gfx/interface/technologies/wardog.dds"
 	}	
-
+	SpriteType = {
+		name = "GFX_jaegers_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/jaegers.dds"
+	}
+	SpriteType = {
+		name = "GFX_jaegers2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/jaegers.dds"
+	}
+	SpriteType = {
+		name = "GFX_jaegers3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/jaegers.dds"
+	}
  }

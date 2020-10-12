@@ -5,7 +5,7 @@ scripted_gui = {
 		window_name = "FFU_war_begins"
 
 		visible = {
-			has_global_flag = kis_franzferdinand_murdered ### this country flag triggers the #superevent
+			has_global_flag = FFU_war_begins ### this country flag triggers the #superevent
 		}
 	}
 
@@ -14,12 +14,12 @@ scripted_gui = {
 		window_name = "FFU_war_begins_frame"
 
 		visible = {
-			has_global_flag = kis_franzferdinand_murdered
+			has_global_flag = FFU_war_begins
 		}
 
 		effects = {
 			Option_click = {
-				clr_global_flag = kis_franzferdinand_murdered ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_global_flag = FFU_war_begins ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
@@ -62,7 +62,7 @@ scripted_gui = {
 		window_name = "FFU_russian_civil_war_frame"
 
 		visible = {
-			has_global_flag = franz_joseph_dead
+			has_global_flag = russian_civil_war
 		}
 
 		effects = {
