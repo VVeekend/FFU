@@ -378,10 +378,10 @@ remove_ideas = AUS_czech_autonomy_demands
 		}
 		complete_tooltip = {
 			add_tech_bonus={ name=industrial_bonus bonus=1.0 uses=1 category=industry }
-			add_ideas = AUS_booming
+			add_timed_idea = { idea =AUS_booming days = 365 }
 		}
 		completion_reward = {
-		    add_ideas = AUS_booming
+		    add_timed_idea = { idea =AUS_booming days = 365 }
 			add_tech_bonus={ name=industrial_bonus bonus=1.0 uses=1 category=industry }
 		}
 	}

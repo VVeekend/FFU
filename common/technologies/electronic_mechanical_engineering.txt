@@ -88,13 +88,6 @@ technologies = {
 	}
 	
 	nukes = {
-	
-		enable_building = {
-			building = nuclear_reactor
-			level = 1
-		}
-		
-		nuclear_production = 1
 
 		category_army = {
 			breakthrough = 0.12

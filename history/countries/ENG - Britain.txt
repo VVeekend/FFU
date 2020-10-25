@@ -267,6 +267,7 @@ create_navy_leader={  name = "Tyrwhitt" id=28485 portrait_path="gfx/admiral/ENG_
 		# Artillery
 		light_field_gun1 = 1
 		heavy_field_gun1 = 1
+		interwar_antiair=1
 
 		# Navy
 		transport = 1

@@ -74,6 +74,7 @@ create_corps_commander={  name = "Wildbolz" id=81029 portrait_path="gfx/generals
 		# Artillery
 		light_field_gun1 = 1
 		heavy_field_gun1 = 1
+		interwar_antiair=1
 
 		# Navy
 		transport = 1

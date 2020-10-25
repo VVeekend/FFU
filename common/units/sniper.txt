@@ -36,7 +36,7 @@ sub_units = {
 		weight = 0.1
 		supply_consumption = 0.03
 		recon = 1
-		entrenchment = 2
+		entrenchment = 1
 		can_be_parachuted = yes
 		
 		# Support nerfs to combat abilities
@@ -54,15 +54,11 @@ sub_units = {
 		}
 
 		urban = {
-			attack = 0.5
-			defence = 0.5
+			attack = 0.05
+			defence = 0.05
 		}
 		marsh = {
-			attack = 0.1
-		}
-		desert = {
-			attack = 0.1
-			defence = 0.2
+			attack = 0.05
 		}
 	}
 }

@@ -72,6 +72,7 @@ set_popularities = {
 		# Artillery
 		light_field_gun1 = 1
 		heavy_field_gun1 = 1
+		interwar_antiair=1
 
 		# Air
 

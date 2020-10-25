@@ -175,6 +175,7 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 		# Artillery
 		light_field_gun1 = 1
 		heavy_field_gun1 = 1
+		interwar_antiair=1
 
 		# Navy
 		transport = 1

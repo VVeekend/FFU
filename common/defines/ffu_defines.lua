@@ -91,13 +91,13 @@ NDefines.NMilitary.NUKE_DELAY_HOURS = 0
 NDefines.NMilitary.UNIT_LEADER_INITIAL_TRAIT_SLOT = { 3, 3, 1, 0 }
 NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.03
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0003
-NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2.0
+NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2
 NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0  
 NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP =0 --Division experience drop if unit has different battalion when switching templates(vanilla 0.5 but can be circumvented with template editing)
 
 NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.6
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.50
-NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 2.0
+NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.5
 NDefines.NAir.CAS_NIGHT_ATTACK_FACTOR = 0.5
 
 

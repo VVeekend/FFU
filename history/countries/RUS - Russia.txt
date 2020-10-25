@@ -82,6 +82,7 @@ create_navy_leader={  name = "Kireev" id=85075 portrait_path="gfx/admiral/SOV_ki
 		# Artillery
 		light_field_gun1 = 1
 		heavy_field_gun1 = 1
+		interwar_antiair=1
 
 		# Navy
 		transport = 1

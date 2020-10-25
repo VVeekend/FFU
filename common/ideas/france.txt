@@ -404,7 +404,6 @@ ideas = {
         picture = MEX_revolutionary_army
 		modifier = {
 		max_planning = -0.10
-        land_reinforce_rate = -0.02
     	minimum_training_level =  0.2
         supply_consumption_factor = 0.15
 			}
