@@ -2734,5 +2734,1325 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+ 	SpriteType = { 
+		name = "GFX_FRA_concessions_to_sfio-50794"
+		texturefile = "gfx/interface/goals/GFX_FRA_concessions_to_sfio-50794.dds"
+	}
+
+	##Icon Shine For: Concessions to SFIO
+	SpriteType = { 
+		name = "GFX_FRA_concessions_to_sfio-50794_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_concessions_to_sfio-50794.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_concessions_to_sfio-50794.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_concessions_to_sfio-50794.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Manufacture d'Armes de Chatellerault
+	SpriteType = { 
+		name = "GFX_FRA_manufacture_darmes_de_chatellerault-73683"
+		texturefile = "gfx/interface/goals/GFX_FRA_manufacture_darmes_de_chatellerault-73683.dds"
+	}
+
+	##Icon Shine For: Manufacture d'Armes de Chatellerault
+	SpriteType = { 
+		name = "GFX_FRA_manufacture_darmes_de_chatellerault-73683_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_manufacture_darmes_de_chatellerault-73683.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_manufacture_darmes_de_chatellerault-73683.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_manufacture_darmes_de_chatellerault-73683.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Renault FT
+	SpriteType = { 
+		name = "GFX_FRA_renault_ft-45157"
+		texturefile = "gfx/interface/goals/GFX_FRA_renault_ft-45157.dds"
+	}
+
+	##Icon Shine For: Renault FT
+	SpriteType = { 
+		name = "GFX_FRA_renault_ft-45157_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_renault_ft-45157.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_renault_ft-45157.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_renault_ft-45157.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Attaque à outrance
+	SpriteType = { 
+		name = "GFX_FRA_attaque__outrance-69190"
+		texturefile = "gfx/interface/goals/GFX_FRA_attaque__outrance-69190.dds"
+	}
+
+	##Icon Shine For: Attaque à outrance
+	SpriteType = { 
+		name = "GFX_FRA_attaque__outrance-69190_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_attaque__outrance-69190.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_attaque__outrance-69190.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_attaque__outrance-69190.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Agadir Crisis
+	SpriteType = { 
+		name = "GFX_FRA_agadir_crisis-69194"
+		texturefile = "gfx/interface/goals/GFX_FRA_agadir_crisis-69194.dds"
+	}
+
+	##Icon Shine For: Agadir Crisis
+	SpriteType = { 
+		name = "GFX_FRA_agadir_crisis-69194_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_agadir_crisis-69194.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_agadir_crisis-69194.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_agadir_crisis-69194.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Aéronautique Militaire
+	SpriteType = { 
+		name = "GFX_FRA_aronautique_militaire-69196"
+		texturefile = "gfx/interface/goals/GFX_FRA_aronautique_militaire-69196.dds"
+	}
+
+	##Icon Shine For: Aéronautique Militaire
+	SpriteType = { 
+		name = "GFX_FRA_aronautique_militaire-69196_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_aronautique_militaire-69196.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_aronautique_militaire-69196.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_aronautique_militaire-69196.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Three-Year Law
+	SpriteType = { 
+		name = "GFX_FRA_threeyear_law-69197"
+		texturefile = "gfx/interface/goals/GFX_FRA_threeyear_law-69197.dds"
+	}
+
+	##Icon Shine For: Three-Year Law
+	SpriteType = { 
+		name = "GFX_FRA_threeyear_law-69197_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_threeyear_law-69197.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_threeyear_law-69197.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_threeyear_law-69197.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 1914 Fiscal Reforms
+	SpriteType = { 
+		name = "GFX_FRA_1914_fiscal_reforms-50772"
+		texturefile = "gfx/interface/goals/GFX_FRA_1914_fiscal_reforms-50772.dds"
+	}
+
+	##Icon Shine For: 1914 Fiscal Reforms
+	SpriteType = { 
+		name = "GFX_FRA_1914_fiscal_reforms-50772_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_1914_fiscal_reforms-50772.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_1914_fiscal_reforms-50772.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_1914_fiscal_reforms-50772.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Ministere des Colonies
+	SpriteType = { 
+		name = "GFX_FRA_ministere_des_colonies-46518"
+		texturefile = "gfx/interface/goals/GFX_FRA_ministere_des_colonies-46518.dds"
+	}
+
+	##Icon Shine For: Ministere des Colonies
+	SpriteType = { 
+		name = "GFX_FRA_ministere_des_colonies-46518_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_ministere_des_colonies-46518.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_ministere_des_colonies-46518.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_ministere_des_colonies-46518.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Protectorat francais de Tunisie
+	SpriteType = { 
+		name = "GFX_FRA_protectorat_francais_de_tunisie-73665"
+		texturefile = "gfx/interface/goals/GFX_FRA_protectorat_francais_de_tunisie-73665.dds"
+	}
+
+	##Icon Shine For: Protectorat francais de Tunisie
+	SpriteType = { 
+		name = "GFX_FRA_protectorat_francais_de_tunisie-73665_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_protectorat_francais_de_tunisie-73665.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_protectorat_francais_de_tunisie-73665.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_protectorat_francais_de_tunisie-73665.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Protectorat français au Maroc
+	SpriteType = { 
+		name = "GFX_FRA_protectorat_franais_au_maroc-73665"
+		texturefile = "gfx/interface/goals/GFX_FRA_protectorat_franais_au_maroc-73665.dds"
+	}
+
+	##Icon Shine For: Protectorat français au Maroc
+	SpriteType = { 
+		name = "GFX_FRA_protectorat_franais_au_maroc-73665_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_protectorat_franais_au_maroc-73665.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_protectorat_franais_au_maroc-73665.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_protectorat_franais_au_maroc-73665.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Armée coloniale
+	SpriteType = { 
+		name = "GFX_FRA_arme_coloniale-69211"
+		texturefile = "gfx/interface/goals/GFX_FRA_arme_coloniale-69211.dds"
+	}
+
+	##Icon Shine For: Armée coloniale
+	SpriteType = { 
+		name = "GFX_FRA_arme_coloniale-69211_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_arme_coloniale-69211.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_arme_coloniale-69211.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_arme_coloniale-69211.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Army Reform
+	SpriteType = { 
+		name = "GFX_FRA_army_reform-46517"
+		texturefile = "gfx/interface/goals/GFX_FRA_army_reform-46517.dds"
+	}
+
+	##Icon Shine For: Army Reform
+	SpriteType = { 
+		name = "GFX_FRA_army_reform-46517_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_army_reform-46517.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_army_reform-46517.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_army_reform-46517.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Crédit Lyonnais
+	SpriteType = { 
+		name = "GFX_FRA_crdit_lyonnais-45149"
+		texturefile = "gfx/interface/goals/GFX_FRA_crdit_lyonnais-45149.dds"
+	}
+
+	##Icon Shine For: Crédit Lyonnais
+	SpriteType = { 
+		name = "GFX_FRA_crdit_lyonnais-45149_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_crdit_lyonnais-45149.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_crdit_lyonnais-45149.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_crdit_lyonnais-45149.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Investment in Russia
+	SpriteType = { 
+		name = "GFX_FRA_investment_in_russia-45149"
+		texturefile = "gfx/interface/goals/GFX_FRA_investment_in_russia-45149.dds"
+	}
+
+	##Icon Shine For: Investment in Russia
+	SpriteType = { 
+		name = "GFX_FRA_investment_in_russia-45149_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_investment_in_russia-45149.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_investment_in_russia-45149.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_investment_in_russia-45149.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Armée de Terre
+	SpriteType = { 
+		name = "GFX_FRA_arme_de_terre-73655"
+		texturefile = "gfx/interface/goals/GFX_FRA_arme_de_terre-73655.dds"
+	}
+
+	##Icon Shine For: Armée de Terre
+	SpriteType = { 
+		name = "GFX_FRA_arme_de_terre-73655_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_arme_de_terre-73655.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_arme_de_terre-73655.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_arme_de_terre-73655.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Mobilize Urban Population
+	SpriteType = { 
+		name = "GFX_FRA_mobilize_urban_population-73665"
+		texturefile = "gfx/interface/goals/GFX_FRA_mobilize_urban_population-73665.dds"
+	}
+
+	##Icon Shine For: Mobilize Urban Population
+	SpriteType = { 
+		name = "GFX_FRA_mobilize_urban_population-73665_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_mobilize_urban_population-73665.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_mobilize_urban_population-73665.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_mobilize_urban_population-73665.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Entente Cordiale
+	SpriteType = { 
+		name = "GFX_FRA_entente_cordiale-45115"
+		texturefile = "gfx/interface/goals/GFX_FRA_entente_cordiale-45115.dds"
+	}
+
+	##Icon Shine For: Entente Cordiale
+	SpriteType = { 
+		name = "GFX_FRA_entente_cordiale-45115_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_entente_cordiale-45115.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_entente_cordiale-45115.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_entente_cordiale-45115.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Supreme Allied Command
+	SpriteType = { 
+		name = "GFX_FRA_supreme_allied_command-46517"
+		texturefile = "gfx/interface/goals/GFX_FRA_supreme_allied_command-46517.dds"
+	}
+
+	##Icon Shine For: Supreme Allied Command
+	SpriteType = { 
+		name = "GFX_FRA_supreme_allied_command-46517_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_supreme_allied_command-46517.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_supreme_allied_command-46517.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_supreme_allied_command-46517.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Union Sacrée
+	SpriteType = { 
+		name = "GFX_FRA_union_sacre-73662"
+		texturefile = "gfx/interface/goals/GFX_FRA_union_sacre-73662.dds"
+	}
+
+	##Icon Shine For: Union Sacrée
+	SpriteType = { 
+		name = "GFX_FRA_union_sacre-73662_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_union_sacre-73662.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_union_sacre-73662.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_union_sacre-73662.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Technological Revolution
+	SpriteType = { 
+		name = "GFX_FRA_technological_revolution-73674"
+		texturefile = "gfx/interface/goals/GFX_FRA_technological_revolution-73674.dds"
+	}
+
+	##Icon Shine For: Technological Revolution
+	SpriteType = { 
+		name = "GFX_FRA_technological_revolution-73674_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_technological_revolution-73674.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_technological_revolution-73674.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_technological_revolution-73674.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Second Industrial Revolution
+	SpriteType = { 
+		name = "GFX_FRA_second_industrial_revolution-73678"
+		texturefile = "gfx/interface/goals/GFX_FRA_second_industrial_revolution-73678.dds"
+	}
+
+	##Icon Shine For: Second Industrial Revolution
+	SpriteType = { 
+		name = "GFX_FRA_second_industrial_revolution-73678_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_second_industrial_revolution-73678.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_second_industrial_revolution-73678.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_second_industrial_revolution-73678.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Establish Commission for Relief in Belgium
+	SpriteType = { 
+		name = "GFX_FRA_establish_commission_for_relief_in_belgium-73799"
+		texturefile = "gfx/interface/goals/GFX_FRA_establish_commission_for_relief_in_belgium-73799.dds"
+	}
+
+	##Icon Shine For: Establish Commission for Relief in Belgium
+	SpriteType = { 
+		name = "GFX_FRA_establish_commission_for_relief_in_belgium-73799_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_establish_commission_for_relief_in_belgium-73799.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_establish_commission_for_relief_in_belgium-73799.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_establish_commission_for_relief_in_belgium-73799.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: The Belle Epoque
+	SpriteType = { 
+		name = "GFX_FRA_the_belle_epoque-69189"
+		texturefile = "gfx/interface/goals/GFX_FRA_the_belle_epoque-69189.dds"
+	}
+
+	##Icon Shine For: The Belle Epoque
+	SpriteType = { 
+		name = "GFX_FRA_the_belle_epoque-69189_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_the_belle_epoque-69189.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_the_belle_epoque-69189.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_the_belle_epoque-69189.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Elecltrify Factories
+	SpriteType = { 
+		name = "GFX_FRA_elecltrify_factories-77934"
+		texturefile = "gfx/interface/goals/GFX_FRA_elecltrify_factories-77934.dds"
+	}
+
+	##Icon Shine For: Elecltrify Factories
+	SpriteType = { 
+		name = "GFX_FRA_elecltrify_factories-77934_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_elecltrify_factories-77934.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_elecltrify_factories-77934.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_elecltrify_factories-77934.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Further Defund the Navy
+	SpriteType = { 
+		name = "GFX_FRA_further_defund_the_navy-75816"
+		texturefile = "gfx/interface/goals/GFX_FRA_further_defund_the_navy-75816.dds"
+	}
+
+	##Icon Shine For: Further Defund the Navy
+	SpriteType = { 
+		name = "GFX_FRA_further_defund_the_navy-75816_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_further_defund_the_navy-75816.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_further_defund_the_navy-75816.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_further_defund_the_navy-75816.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Georges Clemenceau, Le Tigre
+	SpriteType = { 
+		name = "GFX_FRA_georges_clemenceau_le_tigre-46505"
+		texturefile = "gfx/interface/goals/GFX_FRA_georges_clemenceau_le_tigre-46505.dds"
+	}
+
+	##Icon Shine For: Georges Clemenceau, Le Tigre
+	SpriteType = { 
+		name = "GFX_FRA_georges_clemenceau_le_tigre-46505_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_georges_clemenceau_le_tigre-46505.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_georges_clemenceau_le_tigre-46505.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_georges_clemenceau_le_tigre-46505.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Military Board of Allied Supply
+	SpriteType = { 
+		name = "GFX_FRA_military_board_of_allied_supply-73687"
+		texturefile = "gfx/interface/goals/GFX_FRA_military_board_of_allied_supply-73687.dds"
+	}
+
+	##Icon Shine For: Military Board of Allied Supply
+	SpriteType = { 
+		name = "GFX_FRA_military_board_of_allied_supply-73687_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_military_board_of_allied_supply-73687.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_military_board_of_allied_supply-73687.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_military_board_of_allied_supply-73687.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Chasseurs Alpins
+	SpriteType = { 
+		name = "GFX_FRA_chasseurs_alpins-46859"
+		texturefile = "gfx/interface/goals/GFX_FRA_chasseurs_alpins-46859.dds"
+	}
+
+	##Icon Shine For: Chasseurs Alpins
+	SpriteType = { 
+		name = "GFX_FRA_chasseurs_alpins-46859_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_chasseurs_alpins-46859.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_chasseurs_alpins-46859.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_chasseurs_alpins-46859.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Horizon Blue Uniforms
+	SpriteType = { 
+		name = "GFX_FRA_horizon_blue_uniforms-69197"
+		texturefile = "gfx/interface/goals/GFX_FRA_horizon_blue_uniforms-69197.dds"
+	}
+
+	##Icon Shine For: Horizon Blue Uniforms
+	SpriteType = { 
+		name = "GFX_FRA_horizon_blue_uniforms-69197_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_horizon_blue_uniforms-69197.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_horizon_blue_uniforms-69197.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_horizon_blue_uniforms-69197.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	#### KiS National Focus GFX
+	
+
+    SpriteType = { 
+    name = "GFX_gallipolicampaign" 
+    texturefile = "gfx/interface/goals/GFX_gallipolicampaign.tga" 
+    } 
  
+	SpriteType = {
+	name = "GFX_hoi4tgw_knifeintheback"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_knifeintheback.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_islam"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_islam.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_allah"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_allah.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_canada"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_canada.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_gasmask"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_gasmask.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_renaultft"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_renaultft.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_focus_france"
+	texturefile = "gfx/interface/goals/hoi4tgw/Focus_France.png"
+	}
+	
+	SpriteType = {
+	name = "GFX_hoi4tgw_ironcross"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_ironcross.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_germanempire"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_germanempire.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_italy"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_italy.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_britania"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_britania.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_zeppelin"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_zeppelin.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_marianne"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_marianne.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_poland"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_poland.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_russianempire"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_russianempire.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_austriahungary"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_austriahungary.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_wggrus"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_wggrus.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_orthodoxy_triumphant"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_orthodoxy_triumphant.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_rusacademy"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_rusacademy.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_greattsar"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_greatest_romanov.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_modernization"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_modernization.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_navalcanons"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_asiarus.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_baltikfocus"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_baltikrus.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_blackfocus"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_nationalfocus_blackrus.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_mex_support_the_republic"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_mex_support_the_republic.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_mex_restore_first_republic"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_mex_restore_first_republic.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_mex_Support_pancho_villa"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_mex_Support_pancho_villa.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_mex_Support_Zapata"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_mex_Support_Zapata.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_mex_mexican_usa_war"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_mex_mexican_usa_war.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_mex_demand_belice"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_mex_demand_belice.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_mex_upca_conquer"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_mex_upca_conquer.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_mex_save_madero"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_mex_save_madero.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_hoi4tgw_mex_support_diaz"
+	texturefile = "gfx/interface/goals/hoi4tgw/ww1_mex_support_diaz.dds"
+	}
+	
+	SpriteType = {
+	    name = "GFX_focus_french_monarchy2"
+		texturefile = "gfx/interface/goals/french_monarchy2.dds"
+	}
+	
+	SpriteType = {
+	    name = "GFX_focus_french_monarchy"
+		texturefile = "gfx/interface/goals/french_monarchy1.dds"
+	}
  }

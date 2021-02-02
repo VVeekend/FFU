@@ -40,7 +40,7 @@ ideas={
 				mobilization_speed = 0.2
 			}
 			
-			picture= RUS_staff
+			picture= SOV_weak_central_government-45134
 			
 			targeted_modifier = {
 				tag = BUL
@@ -80,7 +80,7 @@ ideas={
 				winter_attrition_factor = -0.2
 			}
 			
-			picture= RUS_staff
+			picture= SOV_weak_central_government-45134
 			
 			targeted_modifier = {
 				tag = BUL
@@ -114,7 +114,7 @@ ideas={
 
 			removal_cost = -1
 			
-			picture= RUS_staff
+			picture= SOV_weak_central_government-45134
 			
 			targeted_modifier = {
 				tag = BUL
