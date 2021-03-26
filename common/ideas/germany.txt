@@ -1,7 +1,7 @@
 ideas={
 
 	political_advisor={
-	        GER_Hellcat={ allowed={ tag=GER } traits={ captain_of_industry } ai_will_do={ factor=1 } }
+	        GER_Emil={ allowed={ tag=GER } traits={ captain_of_industry } ai_will_do={ factor=1 } }
 			GER_bernhard_von_bulow={ allowed={ tag=GER } traits={ prince_of_terror } ai_will_do={ factor=1 } }
 			GER_theobald_von_bethmann_hollweg={ allowed={ tag=GER } traits={ compassionate_gentleman } ai_will_do={ factor=1 } }
 			#GER_georg_von_hertling={ allowed={ tag=GER } traits={ backroom_backstabber } ai_will_do={ factor=1 } }

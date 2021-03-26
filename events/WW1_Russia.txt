@@ -880,3 +880,41 @@ news_event = {
 		ai_chance = { factor = 1}
 	}
 }
+
+##Event: Tsar Desperate Mass Conscription
+country_event = {
+	id =  ww1_russia.80
+	title =  ww1_russia.80.title
+	desc =  ww1_russia.80.desc
+	picture = GFX_report_event_chinese_soldiers
+	fire_only_once = yes
+	  trigger = {
+		SOV = {
+			OR = {
+				has_war_with = GER
+				has_war_with = AUS
+			}
+			NOT = {
+				has_country_flag = dual_power
+			}
+			OR = {
+			   NOT = {	controls_state = 331 controls_state =  172}
+			   NOT = {	controls_state = 323 controls_state =  172}
+			   NOT = {	controls_state = 331 controls_state = 323}
+			}
+		} }
+		
+		immediate = { 			
+           SOV = {		
+		    load_oob = "SOV_North"
+			load_oob = "SOV_South"
+} }
+	option = {
+		name = ww1_russia.4.a
+		trigger = { tag = RUS NOT = { tag = SOV } }
+		ai_chance = { factor = 100 }
+				declare_war_on = {
+		            type = annex_everything
+		            target = SOV
+		        }
+	} }

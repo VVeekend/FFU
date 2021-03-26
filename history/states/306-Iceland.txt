@@ -19,17 +19,8 @@ state={
 	chromium=14        
 	}
 	history= {
-	add_extra_state_shared_building_slots = 15
-	owner = USA
-	add_core_of = USA
 		buildings = {
-			infrastructure = 2
-			7768 = {
-				naval_base = 10
-			}
-			12032 = {
-				naval_base = 6
-			   }
+			infrastructure = 0
 			}
 		victory_points = {
 			10095 25
