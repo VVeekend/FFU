@@ -445,22 +445,6 @@ default_garrison_production = {
 	# }
 }
 
-default_mountaineers_production = {
-	enable = {
-		NOT = { original_tag = GER }
-		ai_wants_divisions > 11 #Decreasing the amount of mountaineers the AI wants
-	}
-	abort = {
-		ai_wants_divisions < 12 #Decreasing the amount of mountaineers the AI wants
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = mountaineers
-		value = 3
-	}
-}
-
 default_marines_production = {
 	enable = {
 		NOT = { original_tag = GER }
@@ -742,10 +726,10 @@ dont_build_capitals_if_on_treaty = {
 
 DEFAULT_template_design = {
 	enable = {	
-		date < 1940.1.1				
+		date < 1915.1.1				
 	}
 	abort = { 
-		date > 1940.1.1
+		date > 1915.1.1
 	}
 
 	ai_strategy = {
@@ -768,8 +752,8 @@ DEFAULT_template_design = {
 
 	ai_strategy = {
 		type = template_prio
-		id = medium_armor
-		value = -10
+		id = mountaineers
+		value = 10
 	}
 
 	ai_strategy = {
@@ -793,7 +777,7 @@ DEFAULT_template_design = {
 
 DEFAULT_template_design = {
 	enable = {
-		date > 1940.1.1				
+		date > 1915.1.1				
 	}
 
 	ai_strategy = {
@@ -816,7 +800,7 @@ DEFAULT_template_design = {
 
 	ai_strategy = {
 		type = template_prio
-		id = medium_armor
+		id = mountaineers
 		value = 20
 	}
 	

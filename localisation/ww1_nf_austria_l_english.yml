@@ -255,6 +255,7 @@ hungarianpoliticaldominance:0 "Hungarian Political Dominance"
 hungarianpoliticaldominance_desc:0 ""
 austrianpoliticaldominance:0 "Austrian Political Dominance"
 austrianpoliticaldominance_desc:0 ""
+AUS_dual_monarchy_tt:0 "§CThese decisions will allow you to switch between Civilian construction speed, Military Construction speed, and Recruitable pop / Core defenese & attack ideas.§!"
 #--------------------------------------------------------------
 ############################ NOT NF BUT DON'T MOVE CHANGE/THAT
 kis_italy_accept_auh_offer:0 "Accepted the Austria-Hungaria Offer"

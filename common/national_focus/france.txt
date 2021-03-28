@@ -13,7 +13,7 @@ focus_tree = {
 		icon = GFX_FRA_concessions_to_sfio-50794
 		x = 17
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_second_industrial_revolution }
 		ai_will_do = {
@@ -81,26 +81,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus={ name=land_doc_bonus bonus=2 uses=2 category=land_doctrine }
-		}
-	}
-
-	#Focus for Agadir Crisis
-	focus = {
-		id = FRA_agadir_crisis
-		icon = GFX_FRA_agadir_crisis-69194
-		x = 17
-		y = 1
-		cost = 5
-		available_if_capitulated = yes
-		prerequisite = { focus = FRA_the_belle_epoque }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			country_event= {
-days = 1 
-id = finland.1 
-}
 		}
 	}
 
@@ -221,7 +201,7 @@ add_extra_state_shared_building_slots=2 add_building_construction={ type=dockyar
 		cost = 5
 		available_if_capitulated = yes
 		available = { date > 1914.6.1 }
-		prerequisite = { focus = FRA_agadir_crisis }
+		prerequisite = { focus = FRA_the_belle_epoque }
 		ai_will_do = {
 			factor = 1
 		}
@@ -237,7 +217,7 @@ add_political_power= -100
 		icon = GFX_FRA_protectorat_francais_de_tunisie-73665
 		x = 5
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_ministere_des_colonies }
 		ai_will_do = {
@@ -259,7 +239,7 @@ add_political_power= -100
 		icon = GFX_FRA_protectorat_franais_au_maroc-73665
 		x = 7
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_ministere_des_colonies }
 		ai_will_do = {
@@ -324,7 +304,7 @@ add_political_power= -100
             add_attack = 1
             add_planning = 1 
 			add_logistics = 1 }
-			remove_ideas= French_Staff	
+			remove_ideas= FRA_elan	
 		}
 	}
 
@@ -410,7 +390,13 @@ add_political_power= -100
 			factor = 1
 		}
 		completion_reward = {
-			unlock_decision_tooltip= { some_decision_here some_other_decision_here }
+			add_tech_bonus={ bonus=1 uses=3           
+       	    technology = ww1_fortification2
+            technology = ww1_fortification3
+            technology = ww1_fortification3b
+			technology = ww1_fortification4
+			technology = ww1_fortification5
+			technology = ww1_fortification6 }
 		}
 	}
 
@@ -430,7 +416,7 @@ add_political_power= -100
 		completion_reward = {
 			add_ideas= FRA_reinventated_navy
 63 = {
-         add_extra_state_shared_building_slots=2 add_building_construction={ type=dockyard level=2 instant_build=yes }
+         add_extra_state_shared_building_slots=6 add_building_construction={ type=dockyard level=6 instant_build=yes }
 		}
 	}
 } #This may not be in the right place. If your focus tree is having issues, check the above focus, as this closing brace was added to close the focus.
@@ -443,7 +429,7 @@ add_political_power= -100
 		y = 2
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = FRA_agadir_crisis }
+		prerequisite = { focus = FRA_the_belle_epoque }
 		ai_will_do = {
 			factor = 1
 		}
@@ -494,11 +480,30 @@ add_political_power= -100
 		y = 2
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = FRA_agadir_crisis }
+		prerequisite = { focus = FRA_the_belle_epoque }
 		ai_will_do = {
 			factor = 1
 		}
-	}
+		completion_reward = { 
+		ENG = {
+					10 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = industrial_complex level = 2 instant_build = yes
+		           } } }
+	    SOV = {
+					202 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = industrial_complex level = 2 instant_build = yes
+		           } } }
+		ITA = {
+					33 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = industrial_complex level = 2 instant_build = yes
+		           } } }
+	} }
 
 	#Focus for Entente Supreme War Council
 	focus = {
@@ -621,7 +626,7 @@ add_political_power = 100
 		y = 2
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = FRA_agadir_crisis }
+		prerequisite = { focus = FRA_the_belle_epoque }
 		ai_will_do = {
 			factor = 1
 		}
@@ -666,6 +671,17 @@ add_offsite_building= { type = industrial_complex level = 10 }  add_manpower = 2
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {	ITA = {
+					33 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = industrial_complex level = 2 instant_build = yes
+		           } }
+					33 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = dockyard level = 2 instant_build = yes
+		           } }				   } }
 	}
 
 	#Focus for The Belle Epoque
@@ -673,14 +689,14 @@ add_offsite_building= { type = industrial_complex level = 10 }  add_manpower = 2
 		id = FRA_the_belle_epoque
 		icon = GFX_FRA_the_belle_epoque-69189
 		x = 17
-		y = 0
+		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_political_power= 200  add_stability= 0.10
+			add_political_power= 100  add_stability= 0.10
 		}
 	}
 
@@ -715,6 +731,11 @@ add_offsite_building= { type = industrial_complex level = 10 }  add_manpower = 2
 		}
 		completion_reward = {
 			add_tech_bonus={ name=industry_bonus bonus=2 uses=1 category=industry }
+			55 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = industrial_complex level = 2 instant_build = yes
+		           } }
 		}
 	}
 
@@ -732,10 +753,10 @@ add_offsite_building= { type = industrial_complex level = 10 }  add_manpower = 2
 		}
 		completion_reward = {
 			63 = {
-         add_extra_state_shared_building_slots=2 add_building_construction={ type=dockyard level=2 instant_build=yes }
+         add_extra_state_shared_building_slots=4 add_building_construction={ type=dockyard level=4 instant_build=yes }
 			}
 			65 = {
-         add_extra_state_shared_building_slots=2 add_building_construction={ type=dockyard level=2 instant_build=yes }
+         add_extra_state_shared_building_slots=4 add_building_construction={ type=dockyard level=4 instant_build=yes }
 			}
 		}
 	}
@@ -755,20 +776,26 @@ add_offsite_building= { type = industrial_complex level = 10 }  add_manpower = 2
 		}
 		completion_reward = {
 			add_ideas= FRA_defunded_and_disregarded_navy 
-		}
-	}
-
-	#Focus for Georges Clemenceau, Le Tigre
-	focus = {
-		id = FRA_georges_clemenceau_le_tigre
-		icon = GFX_FRA_georges_clemenceau_le_tigre-46505
-		x = 17
-		y = 6
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = FRA_union_sacre }
-		ai_will_do = {
-			factor = 1
+				55 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = industrial_complex level = 2 instant_build = yes
+		           } }
+				65 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = industrial_complex level = 2 instant_build = yes
+		           } }
+				 51 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = industrial_complex level = 2 instant_build = yes
+		           } }
+				57 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+		            type = industrial_complex level = 2 instant_build = yes
+		           } }
 		}
 	}
 
@@ -809,8 +836,9 @@ add_offsite_building= { type = industrial_complex level = 10 }  add_manpower = 2
 		completion_reward = {
 			add_tech_bonus={ bonus=2 uses=2           
        		technology = tech_mountaineers1
-technology = tech_mountaineers2
-technology = tech_mountaineers3 }
+            technology = tech_mountaineers2
+            technology = tech_mountaineers3 
+            ahead_reduction = 1 }
 		}
 	}
 
@@ -827,7 +855,7 @@ technology = tech_mountaineers3 }
 			factor = 1
 		}
 		completion_reward = {
-			add_tech_bonus={ name=land_doc_bonus bonus=1 uses=2 category=infantry_weapons }
+			add_tech_bonus={ name=land_doc_bonus bonus=2 uses=2 category=infantry_weapons ahead_reduction = 2 }
 		}
 	}
 	
@@ -1296,7 +1324,7 @@ focus = {
 		prerequisite = {}
 		icon = GFX_focus_france
 		available = {
-		 FRA = { surrender_progress > 0.10 }
+		 FRA = { surrender_progress > 0.05 }
 
 		}
 

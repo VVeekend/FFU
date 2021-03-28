@@ -674,10 +674,11 @@ focus_tree = {
 		}
 		completion_reward = {
         unlock_decision_category_tooltip= fourth_duma_assembly
+		custom_effect_tooltip = SOV_fourth_duma_assembly_tt
 		}
 	}
 
-	#Focus for Limit Tsar Influence
+	#Focus for Limit Tsar Influence 
 	focus = {
 		id = SOV_limit_tsar_influence
 		icon = GFX_SOV_limit_tsar_influence-45140
@@ -992,13 +993,13 @@ focus_tree = {
 			factor = 1
 		}
          completion_reward = { add_ideas= SOV_russian_staff}
-	}
-	
+	} 
+	    
 	#Focus for Tsar Tank
 	focus = {
 		id = SOV_tsar_tank
 		icon = GFX_SOV_tsar_tank-45305
-		x = 13
+		x = 13 
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -1007,7 +1008,13 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = { add_tech_bonus={ name=armor_bonus bonus=1 uses=1 category=armor }
-	} }
+		                		add_equipment_to_stockpile= {
+                                  type = heavy_tank_equipment
+                                  amount = 600 
+                                  producer = SOV }
+								  custom_effect_tooltip = SOV_tsar_tank_tt
+                            hidden_effect = {  load_oob = "SOV_Tsar"   }
+		                       } }  
 	
 	#Focus for Dreadnought & Battleship Development
 	focus = {
@@ -1081,7 +1088,9 @@ technology = tech_recon4
 			factor = 1
 		}
 		available = {has_army_experience> 400}
-		completion_reward = { remove_ideas= SOV_incompetent_russian_general_staff army_experience = -400 }
+		completion_reward = { remove_ideas= SOV_incompetent_russian_general_staff army_experience = -400 
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = SOV_yuri_danilov  }
 	
 	}
 

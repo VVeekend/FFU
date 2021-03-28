@@ -32,6 +32,7 @@ instant_build = yes  } }
 	focus = {
 		id = GER_new_industry_developments
 		icon = GFX_GER_new_industry_developments-45150
+		prerequisite = {focus = GER_weltpolitik }
 		x = 17
 		y = 2
 		cost = 10
@@ -85,8 +86,8 @@ instant_build = yes  } }
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas= ENG_king_edward
-add_stability = -0.1
+			add_timed_idea = { idea=GER_extreme_military_spending days = 365 }
+            add_stability = -0.1
 		}
 	}
 
@@ -102,23 +103,7 @@ add_stability = -0.1
 		ai_will_do = {
 			factor = 1
 		}
-	}
-
-	#Focus for Accept British Naval Dominance
-	focus = {
-		id = GER_accept_british_naval_dominance
-		icon = GFX_focus_ger_accept_british_naval_dominance
-		x = 32
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = GER_weltpolitik }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_ideas= ENG_king_edward
-		}
+		completion_reward = { add_ideas = GER_industrialized_warfare }
 	}
 
 	#Focus for Poison Gas Development
@@ -144,20 +129,6 @@ add_stability = -0.1
 	    ahead_reduction = 1
 		} } }
  #This may not be in the right place. If your focus tree is having issues, check the above focus, as this closing brace was added to close the focus.
-
-	#Focus for Military DIctatorship
-	focus = {
-		id = GER_military_dictatorship
-		icon = GFX_GER_military_dictatorship-86217
-		x = 13
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = GER_auxiliary_service_law }
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	#Focus for Sturmtruppen
 	focus = {
@@ -185,11 +156,11 @@ category = stormtrooper_tech }
 		icon = GFX_goal_generic_navy_submarine
 		x = 31
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = GER_naval_design_advancement 
-			focus = GER_accept_british_naval_dominance 
+			focus = GER_redirected_funding
 		}
 		ai_will_do = {
 			factor = 1
@@ -208,9 +179,10 @@ category = stormtrooper_tech }
 		icon = GFX_focus_generic_navy_battleship2
 		x = 30
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_weltpolitik }
+		mutually_exclusive = { focus = GER_redirected_funding }
 		ai_will_do = {
 			factor = 1
 		}
@@ -230,7 +202,7 @@ category = stormtrooper_tech }
 		icon = GFX_focus_ger_oppose_hitler
 		x = 23
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_weltpolitik }
 		ai_will_do = {
@@ -264,10 +236,28 @@ category = support_tech
 		ai_will_do = {
 			factor = 1
 		}
+				
 		completion_reward = {
-			army_experience=100 add_tech_bonus={ name=infantry_weapons_bonus bonus=2 uses=2 category=infantry_weapons}
+		    army_experience=50 
+			add_tech_bonus={ bonus=1 uses=3           
+       	    technology = support_weapons2
+            technology = ww1_infantry2_equip
+            technology = support_weapons3 
+			technology = support_weapons4 
+			technology = support_weapons5 
+			technology = infantry_grenade
+            technology = infantry_ww1_machinegun1
+            technology = infantry_ww1_machinegun2 
+            technology = infantry_ww1_machinegun3
+            technology = infantry_ww1_machinegun4
+            technology = infantry_gasmask
+            technology = infantry_ww1_mortar1
+            technology = infantry_flamethrower1 
+            technology = infantry_ww1_mortar2	
+            technology = infantry_flamethrower2	
+            technology = infantry_ww1_mortar3  }
+		   }
 		}
-	}
 
 	#Focus for Research Funding
 	focus = {
@@ -295,7 +285,7 @@ category = support_tech
 		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
 		x = 3
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_consolidate_central_powers }
 		ai_will_do = {
@@ -317,7 +307,7 @@ category = support_tech
 		icon = GFX_focus_generic_befriend_turkey
 		x = 7
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_consolidate_central_powers }
 		ai_will_do = {
@@ -339,7 +329,7 @@ category = support_tech
 		icon = GFX_GER_consolidate_central_powers-86219
 		x = 5
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_weltpolitik }
 		ai_will_do = {
@@ -372,6 +362,10 @@ category = support_tech
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		TUR = { add_ideas=GER_korsettstangen }
+		AUS = { add_ideas=GER_korsettstangen } 
+		BUL = { add_ideas=GER_korsettstangen } }
 	}
 
 	#Focus for German War Economy
@@ -412,7 +406,7 @@ category = support_tech
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		x = 28
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_our_place_in_the_sun }
 		ai_will_do = {
@@ -429,7 +423,7 @@ category = support_tech
 		icon = GFX_GER_naval_design_advancement-75816
 		x = 30
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_our_place_in_the_sun }
 		ai_will_do = {
@@ -510,7 +504,16 @@ air_experience
 		ai_will_do = {
 			factor = 1
 		}
-	}
+		completion_reward = {
+			282 = {				add_extra_state_shared_building_slots = 2				add_building_construction = {
+		            type = arms_factory level = 2 instant_build = yes
+		        }
+			}
+            81 = {				add_extra_state_shared_building_slots = 2				add_building_construction = {
+		            type = arms_factory level = 2 instant_build = yes
+		        }
+			}
+	} }
 
 	#Focus for Specialist Units
 	focus = {
@@ -595,7 +598,7 @@ category = mountaineers_tech }
 		icon = GFX_GER_weltpolitik-86382
 		x = 19
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -617,6 +620,8 @@ category = mountaineers_tech }
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		TUR = { add_ideas=GER_asienkorps} }
 	}
 
 	#Focus for Electronic Industry Development
@@ -627,6 +632,7 @@ category = mountaineers_tech }
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
+		prerequisite = {focus = GER_new_industry_developments }
 		ai_will_do = {
 			factor = 1
 		}
@@ -665,32 +671,29 @@ instant_build = yes  } }
 		id = GER_redirected_funding
 		icon = GFX_GER_redirected_funding-73683
 		x = 32
-		y = 3
+		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = GER_accept_british_naval_dominance }
+		mutually_exclusive = { focus = GER_our_place_in_the_sun  }
 		ai_will_do = {
 			factor = 1
 		}
+		prerequisite = { focus = GER_weltpolitik }
 		completion_reward = {
-			96 = {				add_extra_state_shared_building_slots = 2				add_building_construction = {
-		            type = arms_factory level = 2 instant_build = yes
+			96 = {				add_extra_state_shared_building_slots = 3				
+			add_building_construction = {
+		            type = arms_factory level = 3 instant_build = yes
 		        }
 			}
-280 = {				add_extra_state_shared_building_slots = 2				add_building_construction = {
-		            type = arms_factory level = 2 instant_build = yes
+280 = {				add_extra_state_shared_building_slots = 3				
+            add_building_construction = {
+		            type = arms_factory level = 3 instant_build = yes
 		        }
-			}
-96 = {				add_extra_state_shared_building_slots = 2				add_building_construction = {
-		            type = arms_factory level = 2 instant_build = yes
+			}	
+97 = {				add_extra_state_shared_building_slots = 3				add_building_construction = {
+		            type = arms_factory level = 3 instant_build = yes
 		        }
-			}
-97 = {				add_extra_state_shared_building_slots = 2				add_building_construction = {
-		            type = arms_factory level = 2 instant_build = yes
-		        }
-			}
-		}
-	}
+			} } }
 
 	#Focus for Auxiliary Service Law
 	focus = {
@@ -705,8 +708,8 @@ instant_build = yes  } }
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas= ENG_king_edward
-add_stability = -0.15
+			add_ideas= GER_auxiliary_service_law
+            add_stability = -0.10
 		}
 	}
 
@@ -722,6 +725,8 @@ add_stability = -0.15
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		army_experience=100 add_tech_bonus={ name=infantry_weapons_bonus bonus=2 uses=2 category=infantry_weapons} }
 	}
 
 	#Focus for Hydroplane Develoipment
@@ -730,7 +735,7 @@ add_stability = -0.15
 		icon = GFX_goal_generic_navy_carrier
 		x = 29
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = GER_luftstreitkrafte 
@@ -755,7 +760,15 @@ add_stability = -0.15
 		prerequisite = { focus = GER_deutsches_heer }
 		ai_will_do = {
 			factor = 1
-		}
+		} completion_reward = {
+		92 = {				add_extra_state_shared_building_slots = 2				add_building_construction = {
+		            type = arms_factory level = 2 instant_build = yes
+		        }
+			}
+        93 = {				add_extra_state_shared_building_slots = 2				add_building_construction = {
+		            type = arms_factory level = 2 instant_build = yes
+		        }
+			} }
 	}
 
 	#Focus for Hindenburg Line
@@ -770,6 +783,57 @@ add_stability = -0.15
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+				59 = {
+			    add_building_construction = {
+		            type = infrastructure level = 2 instant_build = yes
+		        }
+		        add_building_construction = {
+		            type = trench level = 3 province = 19626 instant_build = yes
+		        }
+		        add_building_construction = {
+		            type = trench level = 3 province = 9582 instant_build = yes
+		        }
+		        add_building_construction = {
+		            type = trench level = 3 province = 9720 instant_build = yes
+		        }
+		        add_building_construction = {
+		            type = trench level = 3 province = 14681 instant_build = yes
+		        }
+		        add_building_construction = {
+		            type = trench level = 3 province = 6419 instant_build = yes
+		        }
+		        add_building_construction = {
+		            type = trench level = 3 province = 19666 instant_build = yes
+		        }
+		        add_building_construction = {
+		            type = trench level = 3 province = 6808 instant_build = yes
+		        }
+			    add_building_construction = {
+		            type = trench level = 3 province = 19670 instant_build = yes
+		        }
+		        add_building_construction = {
+		            type = trench level = 3 province = 14481 instant_build = yes
+		        }
+		        add_building_construction = {
+		            type = trench level = 3 province = 11111 instant_build = yes
+		        }
+		        add_building_construction = {
+		            type = trench level = 3 province = 19641 instant_build = yes
+		        }
+		        add_building_construction = {
+		            type = bunker level = 3 province = 19635 instant_build = yes
+		        }
+				add_building_construction = {
+		            type = bunker level = 3 province = 19654 instant_build = yes
+		        }
+				add_building_construction = {
+		            type = bunker level = 3 province = 19671 instant_build = yes
+		        }
+				add_building_construction = {
+		            type = bunker level = 3 province = 19675 instant_build = yes
+		        }
+		    } }
 	}
 
 	#Focus for Auftragstaktik
@@ -800,7 +864,7 @@ add_stability = -0.15
 		icon = GFX_goal_generic_secret_weapon
 		x = 31
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_submarine_expansion }
 		ai_will_do = {

@@ -309,11 +309,11 @@ technologies = {
 		}
 	
 		research_cost = 2
-		start_year = 1914
+		start_year = 1912
 
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 6 }
+			position = { x = 1 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -338,11 +338,11 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1914
+		start_year = 1912
 
 		folder = {
 			name = industry_folder
-			position = { x = 3 y = 6 }
+			position = { x = 3 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -362,11 +362,11 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1915
+		start_year = 1914
 
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 7 }
+			position = { x = 1 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -392,11 +392,11 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1916
+		start_year = 1914
 
 		folder = {
 			name = industry_folder
-			position = { x = 3 y = 8 }
+			position = { x = 3 y = 6 }
 		}
 		
 		ai_will_do = {

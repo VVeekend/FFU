@@ -231,6 +231,7 @@ focus_tree = {
 		}
 		completion_reward = {
         unlock_decision_category_tooltip= austria_hungary_political_dominance
+		custom_effect_tooltip = AUS_dual_monarchy_tt
 		}
 	}
 

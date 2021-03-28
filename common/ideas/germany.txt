@@ -61,7 +61,7 @@ ideas={
 			}
 
 	high_command={
-			GER_erich_von_falkenhayn={ ledger = army allowed={ tag=GER } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
+			GER_erich_von_falkenhayn={ ledger = army allowed={ tag=GER } traits={ army_infantry_2 } ai_will_do={ factor=1 } }
 			GER_alfred_von_tirpitz={ ledger = navy allowed={ tag=GER } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }
 
 			#GER_ernst_karl_august_klemens_von_mann={ allowed={ tag=GER } traits={ navy_naval_air_defense_1 } ai_will_do={ factor=1 } }
@@ -186,29 +186,69 @@ ideas={
 
 		#KiS ======================================================
 		
-		GER_slowed_naval_production = {
-		
+		GER_industrialized_warfare = {
+			ledger = army
+			picture = ger_rebuild_the_nation
+			equipment_bonus = {
+				infantry_equipment = {					
+                build_cost_ic = -0.04 instant = yes
+				}
+                support_equipment = {					
+                 build_cost_ic = -0.04 instant = yes
+				}
+                fighter_equipment = {					
+                 build_cost_ic = -0.04 instant = yes
+				}
+			}
+		}
+			GER_extreme_military_spending = {
+			picture = yug_local_militias
 			allowed = {
-				original_tag = GER
-				always = no #event or decision
+				TAG=GER
 			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			picture = German_staff_ww1
-			
-			modifier = { production_speed_dockyard_factor = -0.50
+			modifier = {
+				production_speed_dockyard_factor = -0.50
 			             production_speed_arms_factory_factor = 0.20
 						 production_speed_industrial_complex_factor = 0.10
 			             industrial_capacity_dockyard = -0.50
 						 consumer_goods_factor = -0.10
-
 			}
-			
+		}
+
+		GER_auxiliary_service_law = {
+			picture = GER_auxiliary_service_law-87477
+			modifier = {
+				stability_weekly = -0.0015	production_factory_efficiency_gain_factor = 0.05              
+				production_factory_start_efficiency_factor = 0.05
+                production_speed_arms_factory_factor = 0.05
+			}
+		}
+
+		GER_asienkorps = {
+			ledger = army
+			picture = GER_asienkorps-86387
+			modifier = {
+				planning_speed = 0.1										
+                max_planning = 0.05
+                max_dig_in = 1
+                conscription = 0.01
+			}
+		}
+
+		GER_korsettstangen = {
+			ledger = army
+			picture = yug_all_yugoslavian_regiments
+			modifier = {
+				conscription = 0.01
+			}
+		}
+
+		GER_1916_blockade = {
+			picture = chi_hyper_inflation3
+			research_bonus = {
+		    consumer_goods_factor = 0.5
+            stability_weekly = -0.2
+			}
 		}
 		
 		GER_Investment = {

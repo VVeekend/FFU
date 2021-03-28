@@ -50,6 +50,23 @@ ideas = {
                 factor = 0
             }
         }
+		
+		FRA_jacques_schneider = {
+			traits = {
+				war_industrialist
+			}
+			picture = rudolf_hess
+			allowed = {
+				TAG = FRA
+			}
+		}
+
+		FRA_alexandre_millerand = {
+			traits = {
+				captain_of_industry
+			}
+			picture = rudolf_hess
+		}
     }
     theorist = {
         FRA_joseph_gallieni = {
@@ -477,8 +494,14 @@ ideas = {
 			ledger = army
 			cost = 150
 			picture = FRA_undividable
-			modifier = {
+			
+		modifier = {
+		    max_planning = -0.10
+    	    minimum_training_level =  0.2
+            supply_consumption_factor = 0.15
 			}
+		research_bonus = { 	land_doctrine = -0.15
+		  }
 		}
 		
 	FRA_AMIENS = {
@@ -561,21 +584,6 @@ ideas = {
     	minimum_training_level = -0.1
         supply_consumption_factor = -0.15
 			}
-		}
-		
-    French_Staff = {
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-
-        picture = MEX_revolutionary_army
-		modifier = {
-		max_planning = -0.10
-    	minimum_training_level =  0.2
-        supply_consumption_factor = 0.15
-			}
-		research_bonus = { 	land_doctrine = -0.15
-		  }
 		}
 
         FRA_ww1_Revanchism = {

@@ -8039,5 +8039,16 @@ spriteType = { name = "GFX_idea_GRE_eleftherios_venizelos" texturefile = "gfx/in
 		name = "GFX_idea_FRA_arme_coloniale-69211"
 		texturefile = "gfx/interface/ideas/FRA_arme_coloniale-69211.dds"
 	}
+	##Icon For: Auxiliary Service Law
+	SpriteType = { 
+		name = "GFX_idea_GER_auxiliary_service_law-87477"
+		texturefile = "gfx/interface/ideas/GER_auxiliary_service_law-87477.dds"
+	}
+
+	##Icon For: Asienkorps
+	SpriteType = { 
+		name = "GFX_idea_GER_asienkorps-86387"
+		texturefile = "gfx/interface/ideas/GER_asienkorps-86387.dds"
+	}
 
 }

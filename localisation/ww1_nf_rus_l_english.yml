@@ -227,5 +227,7 @@ arrestantiwardissidents_desc:0 ""
 concedeprivilegestopeasants:0 "Concede Privileges To Peasants"
 concedeprivilegestopeasants_desc:0 ""
 
+SOV_tsar_tank_tt:0 "§CYou will recieve 600 Heavy tanks and a free division if Heavy tanks are ALREADY researched.§!"
+SOV_fourth_duma_assembly_tt:0 "§CThese decisions will allow you to trade 5% stability for 5% war support and vice versa.§!"
  kis_brestlitovsk:0 "Treaty of Brest-Litovsk"
  kis_tsarnicholasabdicated:0 "Tsar Abdicated"
