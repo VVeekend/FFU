@@ -1,5 +1,5 @@
 technologies = {
-
+	
 	continuous_offensive = {	#беспрерывное наступление до заданных позиций
 		xp_research_type = army
 		xp_research_cost = 100

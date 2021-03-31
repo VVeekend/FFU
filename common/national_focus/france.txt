@@ -166,7 +166,7 @@ add_ideas=FRA_three_year_law_of_1913
 			factor = 1
 		}
 		available = {
-			date > 1914.6.1
+			date > 1914.1.1
 		}
 		completion_reward = {
 			add_ideas= FRA_1914_fiscal_reforms
@@ -295,6 +295,7 @@ add_political_power= -100
 		}
 		available = {
 			date > 1914.6.1
+			has_army_experience> 300
 		}
 		completion_reward = {
 			random_unit_leader = { limit = { has_id	= 32006 } 
