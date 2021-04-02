@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Brusilov
 
-		icon = GFX_hoi4tgw_ironcross
+		icon = GFX_SOV_tsar_supremacy-45134
 		available = {
 		    date > 1915.1.1
 		     NOT = {
@@ -46,7 +46,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Kerensky
-		icon = GFX_hoi4tgw_ironcross
+		icon = GFX_SOV_tsar_supremacy-45134
 		available = {
 		date > 1916.1.1
 		 NOT = {
@@ -68,7 +68,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Galicia
-		icon = GFX_hoi4tgw_ironcross
+		icon = GFX_SOV_tsar_supremacy-45134
 		available = {
 		date > 1914.7.1
 		 NOT = {

@@ -1323,7 +1323,7 @@ focus = {
      focus = {
         id = FRA_BATTLE_OF_AMIENS
 		prerequisite = {}
-		icon = GFX_focus_france
+		icon = GFX_FRA_nivelle_offensive-91858
 		available = {
 		 FRA = { surrender_progress > 0.05 }
 
@@ -1350,7 +1350,7 @@ focus = {
 	
       focus = {
         id = FRA_Nivelle_Offensive
-		icon = GFX_focus_france
+		icon = GFX_FRA_nivelle_offensive-91858
 		available = {
 		 OR ={ 
 		 GER = { has_completed_focus = GER_ww1_Kaiserschlacht } 

@@ -8050,5 +8050,28 @@ spriteType = { name = "GFX_idea_GRE_eleftherios_venizelos" texturefile = "gfx/in
 		name = "GFX_idea_GER_asienkorps-86387"
 		texturefile = "gfx/interface/ideas/GER_asienkorps-86387.dds"
 	}
+	##Icon For: B.E.F
+	SpriteType = { 
+		name = "GFX_idea_ENG_bef-91854"
+		texturefile = "gfx/interface/ideas/ENG_bef-91854.dds"
+	}
+
+	##Icon For: 1915 Ministry of Munitions
+	SpriteType = { 
+		name = "GFX_idea_ENG_1915_ministry_of_munitions-91355"
+		texturefile = "gfx/interface/ideas/ENG_1915_ministry_of_munitions-91355.dds"
+	}
+
+	##Icon For: War Propaganda Bureau
+	SpriteType = { 
+		name = "GFX_idea_ENG_war_propaganda_bureau-91348"
+		texturefile = "gfx/interface/ideas/ENG_war_propaganda_bureau-91348.dds"
+	}
+	
+	##Icon For: Gallipoli campaign
+	SpriteType = { 
+		name = "GFX_idea_ENG_gallipoli_campaign-91344"
+		texturefile = "gfx/interface/ideas/ENG_gallipoli_campaign-91344.dds"
+	}	
 
 }

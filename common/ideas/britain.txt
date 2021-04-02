@@ -127,62 +127,106 @@ ideas={
 			indian_independence_promised_idea={ allowed={ always=no } allowed_civil_war={ has_government=democratic } picture=generic_morale_bonus removal_cost=-1 modifier={ stability_factor=-0.1 } }
 			ENG_continuation_of_politics={ allowed={ always=no } allowed_civil_war={ always=yes } rule={ can_boost_other_ideologies=yes } picture=FRA_scw_intervention_republicans_focus removal_cost=-1			 }
 
-			ENG_Staff = {
-				allowed = { always = no }
-				allowed_civil_war = { always = yes }
-
-				removal_cost = -1
-
-				 picture=GFX_idea_Eng_staff
-
-				modifier = {
+		ENG_bef = {
+			ledger = army
+			picture = ENG_bef-91854
+			allowed = {
+				TAG = ENG
+			}
+			modifier = {
 					experience_gain_navy = 0.02
 					land_reinforce_rate = 0.05
 					minimum_training_level = -0.1
 					max_planning = 0.1
-				}
 			}
-			
-		ENG_Investment = {
-		
+		}
+
+		ENG_treasury_agreement_of_1915 = {
+			picture = tur_balkan_central_bank_wealthy_greece
 			allowed = {
-				always = no 
+				TAG = ENG
 			}
-
-			allowed_civil_war = {
-				always = no
+			modifier = {
+				consumer_goods_factor = -0.05
 			}
+		}
 
-			removal_cost = -1
-			
-			picture =GFX_idea_Eng_staff
-			
-			modifier = { production_speed_arms_factory_factor = 0.20 
-			             consumer_goods_factor = -0.05 }
-
-			}
-			
-		   ENG_Gallipoli = {
-		
+		ENG_1915_ministry_of_munitions = {
+			picture = ENG_1915_ministry_of_munitions-91355
 			allowed = {
-				always = no
+				TAG = ENG
 			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1
 
-			allowed_civil_war = {
-				always = no
+production_factory_efficiency_gain_factor = 0.1
 			}
+		}
 
-			removal_cost = -1
-			
-			picture =GFX_gallipolicampaign
-			
-			targeted_modifier = {
-				tag = TUR
-				attack_bonus_against = 0.25
-			}			
-			
-	     }
-		 
+		ENG_defence_of_the_realm_act = {
+			ledger = army
+			picture = eng_guided_by_britain
+			allowed = {
+				TAG = ENG
+			}
+			modifier = {
+				conscription = 0.03
+			}
+		}
+
+		ENG_indian_labor_force = {
+			ledger = army
+			picture = prc_low_popular_support3
+			allowed = {
+				TAG = ENG
+			}
+			modifier = {
+				conscription = 0.01
+production_speed_arms_factory_factor = 0.05 
+production_speed_infrastructure_factor = 0.05
+			}
+		}
+
+		ENG_widespread_labour_strikes = {
+			picture = chi_war_of_resistance3
+			modifier = {
+				stability_factor = -0.10
+war_support_factor = -0.10
+stability_weekly = -0.0015
+			}
+		}
+
+		ENG_labour_strikes = {
+			picture = chi_war_of_resistance2
+			modifier = {
+				stability_factor = -0.10
+war_support_factor = -0.10
+			}
+		}
+
+		ENG_war_propaganda_bureau = {
+			ledger = army
+			picture = ENG_war_propaganda_bureau-91348
+			modifier = {
+				stability_factor = 0.10
+war_support_factor = 0.10
+stability_weekly = 0.002
+			}
+		}
+	
+
+		ENG_gallipoli_campaign = {
+			picture = ENG_gallipoli_campaign-91344
+			allowed = {
+				TAG=ENG
+			}
+				targeted_modifier = {
+	          tag = TUR
+	          attack_bonus_against = 0.25
+			}
+		}
+		
 		ENG_imperial_conference_defense_dominion = {
 
 			allowed = {

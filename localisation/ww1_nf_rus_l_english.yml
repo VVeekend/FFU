@@ -210,6 +210,7 @@ SOV_support_greece:0 "Support Greece"
 SOV_support_greece_desc:0 ""
 SOV_tsar_tank:0 "Tsar Tank"
 SOV_tsar_tank_desc:0 ""
+SOV_Galicia:0 "Galicia Offensive"
             ####Decisions####
 infrastructure_modernization:0 "Infrastructure Modernization "
 infrastructure_modernization_desc:0 "Because of the vastness of the country, Russia's railroad system not only suffered from its insufficient network, but also from a comparably low volume in traffic. This was true even though the sixteen Russian producers of goods wagons increased their carrying capacity from 12,285 kilograms to 14,742 kilograms per unit on the eve of the war."

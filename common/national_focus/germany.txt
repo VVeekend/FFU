@@ -59,7 +59,7 @@ instant_build = yes  } }
 		icon = GFX_GER_militarism-86387
 		x = 11
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_mllitary_leagues_demands }
 		ai_will_do = {
@@ -125,7 +125,7 @@ instant_build = yes  } }
 			add_tech_bonus={ bonus=2 uses=1           
             technology = chemical_research
             technology = nukes
-	    technology = chemical_research33 
+	    technology = chemical_research3
 	    ahead_reduction = 1
 		} } }
  #This may not be in the right place. If your focus tree is having issues, check the above focus, as this closing brace was added to close the focus.
@@ -211,7 +211,7 @@ category = stormtrooper_tech }
 		completion_reward = {
 			add_tech_bonus = {
 name = land_doc_bonus
-bonus = 1.0
+bonus = 2.0
 uses = 1
 category = land_doctrine
 			}
@@ -295,7 +295,7 @@ category = support_tech
 			AUS = {
             add_timed_idea= { 
             idea = GER_Investment
-            days = 315 
+            days = 365 
          }
         add_stability = 0.1 }
 		}
@@ -317,7 +317,7 @@ category = support_tech
 			TUR = {
             add_timed_idea= { 
             idea = GER_Investment
-            days = 315 
+            days = 365 
          }
         add_stability = 0.05 }
 		}
@@ -777,7 +777,7 @@ instant_build = yes  } }
 		icon = GFX_goal_generic_fortify_city
 		x = 19
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_deutsches_heer }
 		ai_will_do = {

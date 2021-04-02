@@ -12,10 +12,10 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		buildings = {
-			infrastructure = 4
+			infrastructure = 10
 			air_base = 1
 			17314 = {
-				naval_base = 2
+				naval_base = 10
 			   }
 			}
 		}

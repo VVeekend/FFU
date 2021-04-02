@@ -362,7 +362,7 @@ ideas={
 				dig_in_speed_factor = 0.25
 			}
 			
-			picture= GER_west
+			picture = German_staff_ww1
 			
 			targeted_modifier = {
 				tag = USA
@@ -376,6 +376,21 @@ ideas={
 			
 			targeted_modifier = {
 				tag = ENG
+				defense_bonus_against = 0.25
+			}
+
+			targeted_modifier = {
+				tag = ITA
+				defense_bonus_against = 0.25
+			}
+
+			targeted_modifier = {
+				tag = SER
+				defense_bonus_against = 0.25
+			}
+			
+			targeted_modifier = {
+				tag = GRE
 				defense_bonus_against = 0.25
 			}
 			
