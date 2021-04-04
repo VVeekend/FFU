@@ -345,7 +345,7 @@ ideas={
 			RUS_michael_alexandrovich={ ledger = army allowed={ tag=SOV } traits={ mass_assault_expert } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			}
 	army_chief={
-			RUS_alexei_brusilov={ allowed={ tag=SOV } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
+			RUS_alexei_brusilov={\ allowed={ tag=SOV } traits={ army_chief_defensive_3 } ai_will_do={ factor=1 } }
 			RUS_vasily_gurko={ allowed={ tag=SOV } traits={ army_chief_organizational_1 } ai_will_do={ factor=1 } }
 			RUS_nikolai_dukhonin={ allowed={ tag=SOV } traits={ army_chief_morale_1 } ai_will_do={ factor=1 } }
 			RUS_grand_duke_nikolai={ allowed={ tag=SOV } traits={ army_chief_offensive_1 } ai_will_do={ factor=1 } }

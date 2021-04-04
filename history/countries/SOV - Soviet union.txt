@@ -52,9 +52,9 @@ create_corps_commander={ name = "Nikolay Baratov" id=77711 portrait_path="gfx/ho
 	planning_skill = 1
 	logistics_skill = 2
 }	
-create_corps_commander={ name = "Alexeï Broussilov" id=76187 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_brusilov.dds" traits={ cavalry_expert thorough_planner trickster winter_expert hill_fighter } skill=6
+create_corps_commander={ name = "Alexeï Broussilov" id=76187 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_brusilov.dds" traits={ infantry_leader thorough_planner trickster winter_expert hill_fighter } skill=6
 	attack_skill = 5
-	defense_skill = 4
+	defense_skill = 6
 	planning_skill = 6
 	logistics_skill = 2
 }		
