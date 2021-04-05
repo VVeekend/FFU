@@ -91,10 +91,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		
 		path = {
 			leads_to_tech = ww1infantry_weapons2
 			research_cost_coeff = 1
@@ -171,10 +167,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		mechanized = {
-			soft_attack = 0.05
-		}
-		
 		path = {
 			leads_to_tech = ww1infantry_weapons3
 			research_cost_coeff = 1
@@ -238,10 +230,6 @@ technologies = {
 		}
 		
 		motorized = {
-			soft_attack = 0.05
-		}
-		
-		mechanized = {
 			soft_attack = 0.05
 		}
 		
@@ -675,12 +663,13 @@ technologies = {
 			marine
 		}
 		
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = marine
-				}
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = marine
 			}
+		}
+
+		on_research_complete = {
 			hidden_effect = {
 				load_oob = "unlock_marines"
 			}			
@@ -754,7 +743,6 @@ technologies = {
 			soft_attack = 0.02
 		}
 		path = {
-			leads_to_tech = marines4
 			research_cost_coeff = 1
 		}
 		
@@ -777,12 +765,13 @@ technologies = {
 			mountaineers
 		}
 
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = mountaineers
-				}
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = mountaineers
 			}
+		}
+
+		on_research_complete = {
 			hidden_effect = {
 				load_oob = "unlock_mountaineers"
 			}
@@ -861,7 +850,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 		path = {
-			leads_to_tech = tech_mountaineers4
 			research_cost_coeff = 1
 		}
 
@@ -893,12 +881,14 @@ technologies = {
 			leads_to_tech = Stormtroopers2
 			research_cost_coeff = 1
 		}
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = Stormtrooper
-				}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = Stormtrooper
 			}
+		}
+
+		on_research_complete = {
 			hidden_effect = {
 				load_oob = "unlock_stormtrooper"
 			}
@@ -979,15 +969,16 @@ technologies = {
 		}
 
 		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = jaeger
-				}
-			}
 			hidden_effect = {
 				load_oob = "unlock_jaegers"
 			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = jaeger
+			}
 		}
 
 		path = {
@@ -1384,60 +1375,8 @@ technologies = {
 		on_research_complete = {
 
 			hidden_effect = {
-
-				if = {
-					limit = {
-						TAG = GER
-						is_ai = yes
-
-						52 = { #Munich is under German Control
-							is_controlled_by=GER
-						}
-					}
-
-					load_oob = "unlock_GER_ww1_infantry2"
-				}
-
-				if = {
-					limit = {
-						TAG = AUH
-						is_ai = yes
-
-						4 = { #Vienna is under Austrian Control
-							is_controlled_by=AUH
-						}
-					}
-
-					load_oob = "unlock_AUH_ww1_infantry2"
-				}
-
-
-				if = {
-					limit = {
-						TAG = FRA
-						is_ai = yes
-
-						24 = { #Orleans is under French Control
-							is_controlled_by=FRA
-						}
-					}
-
-					load_oob = "unlock_FRA_ww1_infantry2"
-				}
-
-				if = {
-					limit = {
-						TAG = BEL
-						is_ai = yes
-
-						6 = { #Brussels is under Belgium Control
-							is_controlled_by=BEL
-						}
-					}
-
-					load_oob = "unlock_BEL_ww1_infantry2"
-				}
-
+				load_oob = "unlock_GER_ww1_infantry2"
+				custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 			}
 		}
 		###############################################################
@@ -1645,12 +1584,13 @@ technologies = {
 			motorized_equipment_0
 		}
 
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = motorized
-				}
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = motorized
 			}
+		}
+
+		on_research_complete = {
 			hidden_effect = {
 				load_oob = "unlock_motorized"
 			}			
