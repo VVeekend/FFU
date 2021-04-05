@@ -85,7 +85,7 @@ country = {
 				defense_bonus_against = 0.50
 			}
 			targeted_modifier = {
-				tag = AUH
+				tag = AUS
 				attack_bonus_against = 0.50
 				defense_bonus_against = 0.50
 			}
@@ -100,10 +100,11 @@ country = {
 			picture = YUG_serbian_general_staff
 			
 			modifier = {
+			    conscription = 0.05
 				army_morale_factor = 0.25
 				attrition = -0.1
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
 			}		
 		
 			

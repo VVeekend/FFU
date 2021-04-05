@@ -110,7 +110,7 @@ focus_tree = {
 		icon = GFX_SOV_support_serbia-45156
 		x = 22
 		y = 6
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_orthodox_brotherhood }
 		ai_will_do = {
@@ -1200,7 +1200,7 @@ technology = tech_recon4
 		icon = GFX_SOV_support_greece-45157
 		x = 26
 		y = 6
-		cost = 5
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_orthodox_brotherhood }
 		ai_will_do = {
