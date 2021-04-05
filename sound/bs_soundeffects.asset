@@ -1,42 +1,6 @@
 ########### BATTLESOUND
 
 soundeffect = {
-	name = USA_infantry_rifle_attack
-	falloff = "falloff_100"
-	sounds = {
-		sound = USA_infantry_rifle_attack01
-		sound = USA_infantry_rifle_attack02
-		sound = USA_infantry_rifle_attack03
-		sound = USA_infantry_rifle_attack04
-		sound = USA_infantry_rifle_attack05
-		sound = USA_infantry_rifle_attack06
-		sound = USA_infantry_rifle_attack07
-		sound = USA_infantry_rifle_attack08
-	} 
-	max_audible = 10
-	delay_random_offset = { 0.0 0.15 }
-	playbackrate_random_offset = { -0.15 0.15 }
-	max_audible_behaviour = fail
-	is3d = yes
-	volume = 0.4
-}
-soundeffect = {
-	name = USA_infantry_rifle_cartridge
-	falloff = "falloff_100"
-	sounds = {
-		sound = USA_infantry_rifle_cartridge_01
-		sound = USA_infantry_rifle_cartridge_02
-		sound = USA_infantry_rifle_cartridge_03
-	} 
-	max_audible = 5
-	delay_random_offset = { 0.0 0.15 }
-	playbackrate_random_offset = { -0.15 0.15 }
-	max_audible_behaviour = fail
-	is3d = yes
-	volume = 0.13
-}
-
-soundeffect = {
 	name = GER_stuka
 	falloff = "falloff_200"
 	sounds = {
@@ -127,21 +91,6 @@ soundeffect = {
 }
 
 soundeffect = {
-	name = USA_mechanized_units_mg_fire
-	falloff = "falloff_100"
-	random_sound_when_looping = no
-	sounds = {
-		sound = USA_mechanized_units_mg_fire_01
-		sound = USA_mechanized_units_mg_fire_02
-	} 
-	max_audible = 5
-	looping_delay_random_offset = yes
-	delay_random_offset = { 0.0 0.3 }
-	max_audible_behaviour = fail
-	volume = 0.3
-}
-
-soundeffect = {
 	name = GER_mechanized_units_mg_fire
 	falloff = "falloff_100"
 	random_sound_when_looping = no
@@ -168,18 +117,4 @@ soundeffect = {
 	max_audible_behaviour = fail
 	is3d = yes
 	volume = 0.1
-}
-
-soundeffect = {
-	name = USA_infantry_mg_attack
-	falloff = "falloff_100"
-	sounds = {
-		sound = USA_infantry_mg_attack01
-		sound = USA_infantry_mg_attack02
-	} 
-	max_audible = 4
-	delay_random_offset = { 0.0 0.3 }
-	max_audible_behaviour = fail
-	is3d = yes
-	volume = 0.2
 }

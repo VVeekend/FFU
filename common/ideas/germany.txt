@@ -365,11 +365,6 @@ ideas={
 			picture = German_staff_ww1
 			
 			targeted_modifier = {
-				tag = USA
-				attack_bonus_against = 0.25
-			}
-			
-			targeted_modifier = {
 				tag = FRA
 				defense_bonus_against = 0.25
 			}

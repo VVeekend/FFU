@@ -19,34 +19,6 @@ opinion_modifiers = {
 		value = -90
 	}
 	##############################################
-
-	##############################################
-	# JAPAN
-
-	# JAP : Contest Russian Domination
-	HOI4TGW_Opinion_JAP_contest_russian_domination = {
-		value = -35
-	}
-
-	#JAP Celebrate Tsushima
-	HOI4TGW_Opinion_JAP_celebrate_tsushima = {
-		value = -20
-	}
-
-	#JAP Ambassador to Siam
-	HOI4TGW_Opinion_JAP_ambassador_siam = {
-		value = 32
-	}
-
-	#JAP Thirteen Demands
-	HOI4TGW_Opinion_JAP_china_13 = {
-		value = -5
-	}
-	#JAP Twenty-One_Demands
-	HOI4TGW_Opinion_JAP_china_21 = {
-		value = -15
-	}
-	##############################################
 	
 	romanovs_executed =  { value = -100 }
 	
@@ -726,9 +698,7 @@ opinion_modifiers = {
 
 	### UK/BRITAIN/ENG FOCUS TREE ###
 	
-	ENG_benelux_intervention_USA = {
-		value = -20
-	}
+	
 	ENG_benelux_intervention_BEL_HOL = {
 		value = -50
 	}

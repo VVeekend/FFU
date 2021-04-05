@@ -1254,23 +1254,6 @@
  ww1_england.20.t:0 "Revolution in United-Kingdom"
  ww1_england.20.d:0 "Revolution in United-Kingdom"
 
- # JAPAN
- ww1_japan.90.a:0 "We have no other choice"
- ww1_japan.90.b:0 "Enough! We Must Free Ourselves!"
- ww1_japan.100.t:0 "Japan-Korea Annexation Treaty"
- ww1_japan.100.d:0 "The Korean Empire, a Japanese puppet state since the assassination of Queen Min in 1895, has just signed a treaty with the Japanese government that resulted in full annexation. Though the Russian Empire and United States are complaining about this measure, no official actions have been taken against Japan yet. It seems that Korea's long legacy will go out with nothing more than a whimper."
- ww1_japan.100.a:0 "Oh well."
- ww1_japan.100.b:0 "More land for the sun to rise on!"
- ww1_japan.101.t:0 "Japan Nationalism"
- ww1_japan.101.d:0 "Japan is the Center of the World, with its ruler, the Emperor, a divine being, who derives his divinity from ancestral descent from the great Amaterasu-Omikami, the Goddess of the Sun herself."
- ww1_japan.101.a:0 "The Emperor is now a Puppet..."
- ww1_japan.102.t:0 "Taisho Democracy"
- ww1_japan.102.d:0 "The Taisho Era is now called Taisho Democracy as Japan enjoyed a climate of political liberalism unforeseen after decades of Authoritarianism."
- ww1_japan.102.a:0 "We are Free!"
- ww1_japan.103.t:0 "Emperor Meiji is dead"
- ww1_japan.103.d:0 "Emperor Meiji, suffering from diabetes, nephritis, and gastroenteritis, died of uremia. Although the official announcement said he died at 00:42 on July 30, 1912, the actual death was at 22:40 on July 29. After the emperor's death in 1912, the Japanese Diet passed a resolution to commemorate his role in the Meiji Restoration. An iris garden in an area of Tokyo where Emperor Meiji and the Empress had been known to visit was chosen as the building's location for the Shinto shrine Meiji jingu. The shrine does not contain the Emperor's grave, which is located at Fushimi-momoyama south of Kyoto."
- ww1_japan.103.a:0 "Glory to the Emperor"
-
  # PORTUGAL
  ww1_portugal.1.t:0 "Join the Entente?"
  ww1_portugal.1.d:0 "The British have asked us to impound German and Austrian ships currently harbored in Portugal. If we accept, we will inevitably be drawn into the war. Should we do so?"
@@ -1280,13 +1263,6 @@
  ww1_portugal.100.t:0 "Portugal becomes a Republic"
  ww1_portugal.100.d:0 "Mirroring their former colony, Brazil, the Republicans of Portugal have couped the monarchy. A string of blunders by the Monarchy, mostly concerning the colonies and technological development, provoked a very small band of rebels to come together, which quickly earned the support of nearly the entire military. Though the issues the Monarchy faced are unlikely to be easily solved any time soon, at least the anger of the public is quenched, for now."
  ww1_portugal.100.a:0 "The Portuguese Republic is proclaimed"
-
- # ALBANIA
- ww1_albania.100.t:0 "Battle of Deçiq"
- ww1_albania.100.d:0 "The Albanians have scored an upset victory over Turksih forces today. After a surprise attack on a much numerically superior Ottoman force, the Albanians lured the pursuing Turks into the nearby town of Tuzi, where, joined by rebels from Montenegro, they overwhelmed the bottlenecked forces into a retreat. The Turkish authority in the Balkans has fallen further into question as a result."
- ww1_albania.100.a:0 "The Balkans further destabilize."
- ww1_albania.100.b:0 "Shame on us!"
-
 
  # FRANCE
  ww1_france.16.t:0 "Revolution in France"
@@ -1323,39 +1299,7 @@
  ww1_luxembourg.1.d:0 "Grand Duke William IV of Luxembourg, the second independent ruler of the country and its first Catholic monarch, has died today after 5 years of regency due to poor health and old age. Marie-Adélaïde has ascended to the throne and is expected to carry on his legacy."
  ww1_luxembourg.1.t:0 "Grand Duke William IV Dies!"
 
- # JAPAN
- ww1_japan.3.t:0 "Germany accepts our conditions"
- ww1_japan.3.d:0 "Surprisingly, Germany accepted our conditions. We can honor our promise to stay neutral now, which will no doubt anger the United Kingdom, join the Entente anyway, which will displease the United States, or, most interestingly, use this as colateral to join with the Central Powers entirely. What shall we do?"
- ww1_japan.3.a:0 "Honor our promise"
- ww1_japan.3.b:0 "Help our allies"
- ww1_japan.3.c:0 "Join the Central Powers"
-
- ww1_japan.4.t:0 "Japanese Ultimatum"
- ww1_japan.4.d:0 "Japan, allied to United Kingdom, proposes to stay neutral in exchange of all our Pacific and Chinese possessions. Is such a deal worth it to oppose such a faraway adversary?"
- ww1_japan.4.a:0 "Don't even bother to answer"
- ww1_japan.4.b:0 "Agree"
-
- ww1_japan.5.t:0 "Emperor Meiji dies"
- ww1_japan.5.d:0 "On June 30th, 1912, the Meiji-jidai came to an end. Japan's greatest emperor, Meiji, after 44 long years in power, finally could rule no more. Already, a grand shrine, the Meiji Jingu, is under construction in Tokyo. His son, Yoshihito, has taken office."
- ww1_japan.5.a:0 "Tennou heika banzai!"
-
- ww1_japan.6.t:0 "Japan–Korea Annexation Treaty"
- ww1_japan.6.d:0 "The Japan–Korea Treaty has been signed. The Empire of Korea, formerly our puppet state, has been annexed directly into Japan. The public, already being used to Japanese dominance, has hardly even made many complaints. This will be the launching point for Japanese expansion!"
- ww1_japan.6.a:0 "Wonderful!"
-
- ww1_japan.1.t:0 "Ultimatum on Germany"
- ww1_japan.1.d:0 "With the recent war that sparked between Germany and our British allies, we can negotiate our neutrality with the German Empire. The price for neutrality is all Germany's Pacific possessions as well as Qingdao."
- ww1_japan.1.a:0 "Send the Ultimatum"
- ww1_japan.1.b:0 "Ask also for New Guinea, Samoa and Bismarck Archipelago!"
-
- ww1_japan.2.t:0 "Germany did not answer"
- ww1_japan.2.d:0 "Germany did not care for our ultimatum. Our diplomats did not receive any answer. We're obligated to go to war! But we can put it off for a bit if we really need to..."
- ww1_japan.2.b:0 "Back down"
- ww1_japan.2.a:0 "Declare war"
  
- ww1_japan.700.a:0 "We must obey"
- ww1_japan.700.b:0 "We will fight till the end"
-
  # KiS NEWS
  kis_news.4.t:0 "Albanian Revolt"
  kis_news.4.d:0 "The Albanians refused to submit to the Turks. A new Albanian uprisings began in Kosovo and the northern mountains. Ottoman government declared martial law and sent a military expedition."

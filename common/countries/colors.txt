@@ -32,25 +32,9 @@ HOL = {
 	color = rgb { 203 138 74 }
 	color_ui = rgb { 255 179 96 }
 }
-POL = {
-	color = rgb { 197 92 106 }
-	color_ui = rgb { 255 120 138 }
-}
 AUS = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
-}
-LIT = {
-	color = rgb { 219 219 119 }
-	color_ui = rgb { 255 255 155 }
-}
-EST = {
-	color = rgb { 50 135 175 }
-	color_ui = rgb { 99 204 254 }
-}
-LAT = {
-	color = rgb { 75 77 186 }
-	color_ui = rgb { 124 125 184 }
 }
 SPR = {
 	color = rgb { 242 205 94 }
@@ -80,14 +64,6 @@ ALB = {
 	color = rgb { 149 45 102 }
 	color_ui = rgb { 194 59 133 }
 }
-NOR = {
-	color = rgb { 135 178 192 }
-	color_ui = rgb { 161 213 230 }
-}
-DEN = {
-	color = rgb { 159 83 80 }
-	color_ui = rgb { 197 101 98 }
-}
 BUL = {
 	color = rgb { 51 155 0 }
 	color_ui = rgb { 210 147 217 }
@@ -96,39 +72,22 @@ POR = {
 	color = rgb { 39 116 70 }
 	color_ui = rgb { 51 151 91 }
 }
-FIN = {
-	color = rgb { 205 212 228 }
-	color_ui = rgb { 255 255 255 }
-}
-
 MNT = {
 	color = rgb { 121 141 224 }
 	color_ui = rgb { 133 155 246 }
 }
-
 SER = {
 	color = rgb { 72  73  126 }
 	color_ui = rgb { 133 155 246 }
-}
-
-PER = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 92 147 126 }
-}
-USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
 }
 UKR = {
 	color = rgb { 0  80  230 }
 	color_ui = rgb { 0  80  230 }	
 }
-
 RUS = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 163 17 31 }
 }
-
 EGY = {
 	color = rgb { 181 52 48 }
 	color_ui = rgb { 181 52 48 }

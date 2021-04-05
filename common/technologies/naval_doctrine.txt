@@ -2004,13 +2004,7 @@ technologies = {
 				has_war = yes
 				factor = 2
 			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
+			
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
@@ -2066,20 +2060,8 @@ technologies = {
 				has_war = yes
 				factor = 2
 			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
+			
+			
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
@@ -2136,20 +2118,8 @@ technologies = {
 				has_war = yes
 				factor = 2
 			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
+			
+			
 
 			modifier = {
 				has_navy_experience > 120
@@ -2204,20 +2174,8 @@ technologies = {
 				has_war = yes
 				factor = 2
 			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
+			
+			
 			modifier = {
 				has_navy_experience > 120
 				factor = 4
@@ -2276,21 +2234,9 @@ technologies = {
 				has_war = yes
 				factor = 2
 			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
+			
 
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
+			
 			modifier = {
 				has_navy_experience > 120
 				factor = 4
@@ -2336,24 +2282,7 @@ technologies = {
 			position = { x = 2 y = 10 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 4
-			}
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
 
-		}
 		
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -2400,20 +2329,8 @@ technologies = {
 				has_war = yes
 				factor = 2
 			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
+			
+			
 
 			modifier = {
 				has_navy_experience > 120
@@ -2467,10 +2384,7 @@ technologies = {
 				has_war = yes
 				factor = 5
 			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
+			
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
@@ -2520,10 +2434,7 @@ technologies = {
 				has_war = yes
 				factor = 5
 			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
+			
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
@@ -2576,10 +2487,7 @@ technologies = {
 				has_war = yes
 				factor = 5
 			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
+			
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
@@ -2625,10 +2533,7 @@ technologies = {
 				has_war = yes
 				factor = 5
 			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
+			
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
@@ -2681,10 +2586,7 @@ technologies = {
 				has_war = yes
 				factor = 5
 			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
+			
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
@@ -2742,10 +2644,7 @@ technologies = {
 				has_war = yes
 				factor = 5
 			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
+			
 			modifier = {
 				has_navy_experience > 120
 				factor = 2
@@ -2799,10 +2698,7 @@ technologies = {
 				has_war = yes
 				factor = 5
 			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
+			
 			modifier = {
 				has_navy_experience > 120
 				factor = 2

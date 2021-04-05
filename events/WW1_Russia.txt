@@ -380,18 +380,7 @@ news_event = {
 					relation = military_access
 					active = yes
 				}
-				diplomatic_relation = {
-					country = FIN
-					relation = non_aggression_pact
-				}
-				diplomatic_relation = {
-					country = EST
-					relation = non_aggression_pact
-				}
-				diplomatic_relation = {
-					country = LAT
-					relation = non_aggression_pact
-				}
+
 				diplomatic_relation = {
 					country = ROM
 					relation = non_aggression_pact
@@ -448,21 +437,6 @@ country_event = {
 				transfer_state = 117
 				transfer_state = 115
 			}
-			EST = {
-				add_state_core = 118
-				add_state_core = 116
-				add_state_core = 117
-				add_state_core = 115				
-				set_cosmetic_tag = UBD
-				create_country_leader = {
-				    name = "Adolf Friedrich, Duke of Mecklenburg-Schwerin"
-				    picture = "gfx/leaders/hoi4tgw/Adolf_Friedrich.dds"			
-				    expire = "1965.1.1"
-				    ideology = despotism
-				    traits = {}
-				}
-				set_politics = { ruling_party = neutrality elections_allowed = no }
-			}
 			SOV = {
 				country_event = { days = 2 id = ww1_russia.9 }
 			}
@@ -488,15 +462,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		hidden_effect = {
-			POL = {
-				add_state_core = 271
-				add_state_core = 241
-				add_state_core = 286
-				add_state_core = 287
-				add_state_core = 278	
-				add_state_core = 279				
-			}			
+		hidden_effect = {		
 			SOV = {
 				country_event = { days = 2 id = ww1_russia.10 }
 			}

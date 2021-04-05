@@ -34,8 +34,6 @@
  GER_light_field_gun1:0 "77mm FK96 "
  AUH_light_field_gun1:0 "8 cm Feldkanone M. 99"
  TUR_light_field_gun1:0 "Krupp 75mm M1903"
- JAP_light_field_gun1:0 "Type 35/38 75mm"
- USA_light_field_gun1:0 "4.7inch M1906"
  ENG_light_field_gun2:0 "QF 4.7inch gun"
  FRA_light_field_gun2:0 "Canon de 105 modele 1913 Schneider"
  ITA_light_field_gun2:0 "75/27 model 12"
@@ -43,7 +41,6 @@
  GER_light_field_gun2:0 "Krupp 75mm M1903"
  AUH_light_field_gun2:0 "Skoda 75mm Mountain Gun M1909"
  TUR_light_field_gun2:0 "Krupp 76.2mm "
- JAP_light_field_gun2:0 "Type 41 75 mm Cavalry Gun"
  ENG_light_field_gun3:0 "2.7in Mountain Gun"
  FRA_light_field_gun3:0 "Canon de 105 mle 1913 Schneider"
  ITA_light_field_gun3:0 "65/17 model 13"
@@ -54,7 +51,7 @@
  GER_light_field_gun4:0 "100mm FK M1917"
  AUH_light_field_gun4:0 "8 cm Feldkanone M 18"
  TUR_light_field_gun4:0 "Krupp 77mm Field Gun Model 1916"
- USA_light_field_gun4:0 "75mm Canon (French)"
+
  ENG_light_howitzer1:0 "6inch 30CWT"
  GER_light_howitzer1:0 "10.5 cm Feldhaubitze 98/09"
  AUH_light_howitzer1:0 "10 cm Feldhaubitze M 99"
@@ -75,7 +72,6 @@
  RUS_heavy_field_gun1:0 "42-line field gun M1877"
  GER_heavy_field_gun1:0 "10 cm Kanone 04"
  GER_heavy_field_gun2:0 "135mm FK 1909"
- JAP_heavy_field_gun2:0 "Type 38 10 cm Cannon"
  ENG_heavy_field_gun3:0 "BL 6inch MkVII"
  FRA_heavy_field_gun3:0 "Canon de 240 1884"
  RUS_heavy_field_gun3:0 "Krupp 152mm  "
@@ -85,7 +81,7 @@
  GER_heavy_field_gun4:0 "150mm Kannone 16"
  AUH_heavy_field_gun4:0 "149mm M. 16 Feldhaubitze"
  TUR_heavy_field_gun4:0 "Krupp 105mm Field Gun Model 1916"
- USA_heavy_field_gun4:0 "M1918 GPF (French)"
+
  ENG_heavy_howitzer1:0 "BL 5-inch howitzer"
  FRA_heavy_howitzer1:0 "155 mm Rimailho Howitzer Model 1904TR"
  GER_heavy_howitzer1:0 "Krupp 120mm M1905"
@@ -93,13 +89,12 @@
  RUS_heavy_howitzer2:0 "152mm How 1909/30"
  GER_heavy_howitzer2:0 "210mm Howitzer"
  TUR_heavy_howitzer2:0 "Krupp 120mm Howitzer Model 1905"
- JAP_heavy_howitzer2:0 "Type 38 15 cm Howitzer"
  ENG_heavy_howitzer3:0 "BL 9.2inch howitzer"
  RUS_heavy_howitzer3:0 "Krupp 155mm How"
  GER_heavy_howitzer3:0 "150mm sFH 13"
  AUH_heavy_howitzer3:0 "15 cm schwere Feldhaubitze M 14"
  TUR_heavy_howitzer3:0 "Krupp 150mm Howitzer Model 1913"
- JAP_heavy_howitzer3:0 "150mm Howitzer 1915"
+
  ENG_heavy_howitzer4:0 "BL 8inch Gun Mk VII"
  FRA_heavy_howitzer4:0 "Canon de 155 C modèle 1917 Schneider"
  AUH_heavy_howitzer4:0 "15 cm schwere Feldhaubitze M. 15"
@@ -118,7 +113,7 @@
  GER_antiair1:0 "77mm Towed AA M14"
  ENG_antiair2:0 "13pdr 9cwt"
  GER_antiair2:0 "80mm Towed AA"
- USA_antiair2:0 "3inch M1917"
+
  GER_antitank1:0 "3.7 cm TaK Rheinmetall"
  ENG_light_field_gun1_short:0 "QF18pdr"
  FRA_light_field_gun1_short:0 "Canon de 75 modèle 1897"
@@ -127,8 +122,8 @@
  GER_light_field_gun1_short:0 "77mm FK96 "
  AUH_light_field_gun1_short:0 "8 cm Feldkanone M. 99"
  TUR_light_field_gun1_short:0 "Krupp 75mm M1903"
- JAP_light_field_gun1_short:0 "Type 35/38 75mm"
- USA_light_field_gun1_short:0 "4.7inch M1906"
+
+
  ENG_light_field_gun2_short:0 "QF 4.7inch gun"
  FRA_light_field_gun2_short:0 "Canon de 105 modele 1913 Schneider"
  ITA_light_field_gun2_short:0 "75/27 model 12"
@@ -136,7 +131,7 @@
  GER_light_field_gun2_short:0 "Krupp 75mm M1903"
  AUH_light_field_gun2_short:0 "Skoda 75mm Mountain Gun M1909"
  TUR_light_field_gun2_short:0 "Krupp 76.2mm "
- JAP_light_field_gun2_short:0 "Type 41 75 mm Cavalry Gun"
+
  ENG_light_field_gun3_short:0 "2.7in Mountain Gun"
  FRA_light_field_gun3_short:0 "Canon de 105 mle 1913 Schneider"
  ITA_light_field_gun3_short:0 "65/17 model 13"
@@ -147,7 +142,7 @@
  GER_light_field_gun4_short:0 "100mm FK M1917"
  AUH_light_field_gun4_short:0 "8 cm Feldkanone M 18"
  TUR_light_field_gun4_short:0 "Krupp 77mm Field Gun Model 1916"
- USA_light_field_gun4_short:0 "75mm Canon (French)"
+
  ENG_light_howitzer1_short:0 "6inch 30CWT"
  GER_light_howitzer1_short:0 "10.5 cm Feldhaubitze 98/09"
  AUH_light_howitzer1_short:0 "10 cm Feldhaubitze M 99"
@@ -168,7 +163,7 @@
  RUS_heavy_field_gun1_short:0 "42-line field gun M1877"
  GER_heavy_field_gun1_short:0 "10 cm Kanone 04"
  GER_heavy_field_gun2_short:0 "135mm FK 1909"
- JAP_heavy_field_gun2_short:0 "Type 38 10 cm Cannon"
+
  ENG_heavy_field_gun3_short:0 "BL 6inch MkVII"
  FRA_heavy_field_gun3_short:0 "Canon de 240 1884"
  RUS_heavy_field_gun3_short:0 "Krupp 152mm  "
@@ -178,7 +173,7 @@
  GER_heavy_field_gun4_short:0 "150mm Kannone 16"
  AUH_heavy_field_gun4_short:0 "149mm M. 16 Feldhaubitze"
  TUR_heavy_field_gun4_short:0 "Krupp 105mm Field Gun Model 1916"
- USA_heavy_field_gun4_short:0 "M1918 GPF (French)"
+
  ENG_heavy_howitzer1_short:0 "BL 5-inch howitzer"
  FRA_heavy_howitzer1_short:0 "155 mm Rimailho Howitzer Model 1904TR"
  GER_heavy_howitzer1_short:0 "Krupp 120mm M1905"
@@ -186,13 +181,13 @@
  RUS_heavy_howitzer2_short:0 "152mm How 1909/30"
  GER_heavy_howitzer2_short:0 "210mm Howitzer"
  TUR_heavy_howitzer2_short:0 "Krupp 120mm Howitzer Model 1905"
- JAP_heavy_howitzer2_short:0 "Type 38 15 cm Howitzer"
+
  ENG_heavy_howitzer3_short:0 "BL 9.2inch howitzer"
  RUS_heavy_howitzer3_short:0 "Krupp 155mm How"
  GER_heavy_howitzer3_short:0 "150mm sFH 13"
  AUH_heavy_howitzer3_short:0 "15 cm schwere Feldhaubitze M 14"
  TUR_heavy_howitzer3_short:0 "Krupp 150mm Howitzer Model 1913"
- JAP_heavy_howitzer3_short:0 "150mm Howitzer 1915"
+
  ENG_heavy_howitzer4_short:0 "BL 8inch Gun Mk VII"
  FRA_heavy_howitzer4_short:0 "Canon de 155 C modèle 1917 Schneider"
  AUH_heavy_howitzer4_short:0 "15 cm schwere Feldhaubitze M. 15"
@@ -211,7 +206,7 @@
  GER_antiair1_short:0 "77mm Towed AA M14"
  ENG_antiair2_short:0 "13pdr 9cwt"
  GER_antiair2_short:0 "80mm Towed AA"
- USA_antiair2_short:0 "3inch M1917"
+
  GER_antitank1_short:0 "3.7 cm TaK Rheinmetall"
  ENG_light_field_gun1_desc:0 "TODO"
  FRA_light_field_gun1_desc:0 "TODO"
@@ -220,8 +215,8 @@
  GER_light_field_gun1_desc:0 "TODO"
  AUH_light_field_gun1_desc:0 "TODO"
  TUR_light_field_gun1_desc:0 "TODO"
- JAP_light_field_gun1_desc:0 "TODO"
- USA_light_field_gun1_desc:0 "TODO"
+
+
  ENG_light_field_gun2_desc:0 "TODO"
  FRA_light_field_gun2_desc:0 "TODO"
  ITA_light_field_gun2_desc:0 "TODO"
@@ -229,7 +224,7 @@
  GER_light_field_gun2_desc:0 "TODO"
  AUH_light_field_gun2_desc:0 "TODO"
  TUR_light_field_gun2_desc:0 "TODO"
- JAP_light_field_gun2_desc:0 "TODO"
+
  ENG_light_field_gun3_desc:0 "TODO"
  FRA_light_field_gun3_desc:0 "TODO"
  ITA_light_field_gun3_desc:0 "TODO"
@@ -240,7 +235,7 @@
  GER_light_field_gun4_desc:0 "TODO"
  AUH_light_field_gun4_desc:0 "TODO"
  TUR_light_field_gun4_desc:0 "TODO"
- USA_light_field_gun4_desc:0 "TODO"
+
  ENG_light_howitzer1_desc:0 "TODO"
  GER_light_howitzer1_desc:0 "TODO"
  AUH_light_howitzer1_desc:0 "TODO"
@@ -261,7 +256,7 @@
  RUS_heavy_field_gun1_desc:0 "TODO"
  GER_heavy_field_gun1_desc:0 "TODO"
  GER_heavy_field_gun2_desc:0 "TODO"
- JAP_heavy_field_gun2_desc:0 "TODO"
+
  ENG_heavy_field_gun3_desc:0 "TODO"
  FRA_heavy_field_gun3_desc:0 "TODO"
  RUS_heavy_field_gun3_desc:0 "TODO"
@@ -271,7 +266,7 @@
  GER_heavy_field_gun4_desc:0 "TODO"
  AUH_heavy_field_gun4_desc:0 "TODO"
  TUR_heavy_field_gun4_desc:0 "TODO"
- USA_heavy_field_gun4_desc:0 "TODO"
+
  ENG_heavy_howitzer1_desc:0 "TODO"
  FRA_heavy_howitzer1_desc:0 "TODO"
  GER_heavy_howitzer1_desc:0 "TODO"
@@ -279,13 +274,13 @@
  RUS_heavy_howitzer2_desc:0 "TODO"
  GER_heavy_howitzer2_desc:0 "TODO"
  TUR_heavy_howitzer2_desc:0 "TODO"
- JAP_heavy_howitzer2_desc:0 "TODO"
+
  ENG_heavy_howitzer3_desc:0 "TODO"
  RUS_heavy_howitzer3_desc:0 "TODO"
  GER_heavy_howitzer3_desc:0 "TODO"
  AUH_heavy_howitzer3_desc:0 "TODO"
  TUR_heavy_howitzer3_desc:0 "TODO"
- JAP_heavy_howitzer3_desc:0 "TODO"
+
  ENG_heavy_howitzer4_desc:0 "TODO"
  FRA_heavy_howitzer4_desc:0 "TODO"
  AUH_heavy_howitzer4_desc:0 "TODO"
@@ -304,7 +299,7 @@
  GER_antiair1_desc:0 "TODO"
  ENG_antiair2_desc:0 "TODO"
  GER_antiair2_desc:0 "TODO"
- USA_antiair2_desc:0 "TODO"
+
  GER_antitank1_desc:0 "TODO"
  ENG_light_field_gun_equipment_1:0 "QF18pdr"
  FRA_light_field_gun_equipment_1:0 "Canon de 75 modèle 1897"
@@ -313,8 +308,8 @@
  GER_light_field_gun_equipment_1:0 "77mm FK96 "
  AUH_light_field_gun_equipment_1:0 "8 cm Feldkanone M. 99"
  TUR_light_field_gun_equipment_1:0 "Krupp 75mm M1903"
- JAP_light_field_gun_equipment_1:0 "Type 35/38 75mm"
- USA_light_field_gun_equipment_1:0 "4.7inch M1906"
+
+
  ENG_light_field_gun_equipment_2:0 "QF 4.7inch gun"
  FRA_light_field_gun_equipment_2:0 "Canon de 105 modele 1913 Schneider"
  ITA_light_field_gun_equipment_2:0 "75/27 model 12"
@@ -322,7 +317,7 @@
  GER_light_field_gun_equipment_2:0 "Krupp 75mm M1903"
  AUH_light_field_gun_equipment_2:0 "Skoda 75mm Mountain Gun M1909"
  TUR_light_field_gun_equipment_2:0 "Krupp 76.2mm "
- JAP_light_field_gun_equipment_2:0 "Type 41 75 mm Cavalry Gun"
+
  ENG_light_field_gun_equipment_3:0 "2.7in Mountain Gun"
  FRA_light_field_gun_equipment_3:0 "Canon de 105 mle 1913 Schneider"
  ITA_light_field_gun_equipment_3:0 "65/17 model 13"
@@ -333,7 +328,7 @@
  GER_light_field_gun_equipment_4:0 "100mm FK M1917"
  AUH_light_field_gun_equipment_4:0 "8 cm Feldkanone M 18"
  TUR_light_field_gun_equipment_4:0 "Krupp 77mm Field Gun Model 1916"
- USA_light_field_gun_equipment_4:0 "75mm Canon (French)"
+
  ENG_light_howitzer_equipment_1:0 "6inch 30CWT"
  GER_light_howitzer_equipment_1:0 "10.5 cm Feldhaubitze 98/09"
  AUH_light_howitzer_equipment_1:0 "10 cm Feldhaubitze M 99"
@@ -354,7 +349,7 @@
  RUS_heavy_field_gun_equipment_1:0 "42-line field gun M1877"
  GER_heavy_field_gun_equipment_1:0 "10 cm Kanone 04"
  GER_heavy_field_gun_equipment_2:0 "135mm FK 1909"
- JAP_heavy_field_gun_equipment_2:0 "Type 38 10 cm Cannon"
+
  ENG_heavy_field_gun_equipment_3:0 "BL 6inch MkVII"
  FRA_heavy_field_gun_equipment_3:0 "Canon de 240 1884"
  RUS_heavy_field_gun_equipment_3:0 "Krupp 152mm  "
@@ -364,7 +359,7 @@
  GER_heavy_field_gun_equipment_4:0 "150mm Kannone 16"
  AUH_heavy_field_gun_equipment_4:0 "149mm M. 16 Feldhaubitze"
  TUR_heavy_field_gun_equipment_4:0 "Krupp 105mm Field Gun Model 1916"
- USA_heavy_field_gun_equipment_4:0 "M1918 GPF (French)"
+
  ENG_heavy_howitzer_equipment_1:0 "BL 5-inch howitzer"
  FRA_heavy_howitzer_equipment_1:0 "155 mm Rimailho Howitzer Model 1904TR"
  GER_heavy_howitzer_equipment_1:0 "Krupp 120mm M1905"
@@ -372,13 +367,13 @@
  RUS_heavy_howitzer_equipment_2:0 "152mm How 1909/30"
  GER_heavy_howitzer_equipment_2:0 "210mm Howitzer"
  TUR_heavy_howitzer_equipment_2:0 "Krupp 120mm Howitzer Model 1905"
- JAP_heavy_howitzer_equipment_2:0 "Type 38 15 cm Howitzer"
+
  ENG_heavy_howitzer_equipment_3:0 "BL 9.2inch howitzer"
  RUS_heavy_howitzer_equipment_3:0 "Krupp 155mm How"
  GER_heavy_howitzer_equipment_3:0 "150mm sFH 13"
  AUH_heavy_howitzer_equipment_3:0 "15 cm schwere Feldhaubitze M 14"
  TUR_heavy_howitzer_equipment_3:0 "Krupp 150mm Howitzer Model 1913"
- JAP_heavy_howitzer_equipment_3:0 "150mm Howitzer 1915"
+
  ENG_heavy_howitzer_equipment_4:0 "BL 8inch Gun Mk VII"
  FRA_heavy_howitzer_equipment_4:0 "Canon de 155 C modèle 1917 Schneider"
  AUH_heavy_howitzer_equipment_4:0 "15 cm schwere Feldhaubitze M. 15"
@@ -397,7 +392,7 @@
  GER_anti_air_equipment_1:0 "77mm Towed AA M14"
  ENG_anti_air_equipment_2:0 "13pdr 9cwt"
  GER_anti_air_equipment_2:0 "80mm Towed AA"
- USA_anti_air_equipment_2:0 "3inch M1917"
+
  GER_anti_tank_equipment_1:0 "3.7 cm TaK Rheinmetall"
  ENG_light_field_gun_equipment_1_desc:0 "QF18pdr"
  FRA_light_field_gun_equipment_1_desc:0 "Canon de 75 modèle 1897"
@@ -406,8 +401,8 @@
  GER_light_field_gun_equipment_1_desc:0 "77mm FK96 "
  AUH_light_field_gun_equipment_1_desc:0 "8 cm Feldkanone M. 99"
  TUR_light_field_gun_equipment_1_desc:0 "Krupp 75mm M1903"
- JAP_light_field_gun_equipment_1_desc:0 "Type 35/38 75mm"
- USA_light_field_gun_equipment_1_desc:0 "4.7inch M1906"
+
+
  ENG_light_field_gun_equipment_2_desc:0 "QF 4.7inch gun"
  FRA_light_field_gun_equipment_2_desc:0 "Canon de 105 modele 1913 Schneider"
  ITA_light_field_gun_equipment_2_desc:0 "75/27 model 12"
@@ -415,7 +410,7 @@
  GER_light_field_gun_equipment_2_desc:0 "Krupp 75mm M1903"
  AUH_light_field_gun_equipment_2_desc:0 "Skoda 75mm Mountain Gun M1909"
  TUR_light_field_gun_equipment_2_desc:0 "Krupp 76.2mm "
- JAP_light_field_gun_equipment_2_desc:0 "Type 41 75 mm Cavalry Gun"
+
  ENG_light_field_gun_equipment_3_desc:0 "2.7in Mountain Gun"
  FRA_light_field_gun_equipment_3_desc:0 "Canon de 105 mle 1913 Schneider"
  ITA_light_field_gun_equipment_3_desc:0 "65/17 model 13"
@@ -426,7 +421,7 @@
  GER_light_field_gun_equipment_4_desc:0 "100mm FK M1917"
  AUH_light_field_gun_equipment_4_desc:0 "8 cm Feldkanone M 18"
  TUR_light_field_gun_equipment_4_desc:0 "Krupp 77mm Field Gun Model 1916"
- USA_light_field_gun_equipment_4_desc:0 "75mm Canon (French)"
+
  ENG_light_howitzer_equipment_1_desc:0 "6inch 30CWT"
  GER_light_howitzer_equipment_1_desc:0 "10.5 cm Feldhaubitze 98/09"
  AUH_light_howitzer_equipment_1_desc:0 "10 cm Feldhaubitze M 99"
@@ -447,7 +442,7 @@
  RUS_heavy_field_gun_equipment_1_desc:0 "42-line field gun M1877"
  GER_heavy_field_gun_equipment_1_desc:0 "10 cm Kanone 04"
  GER_heavy_field_gun_equipment_2_desc:0 "135mm FK 1909"
- JAP_heavy_field_gun_equipment_2_desc:0 "Type 38 10 cm Cannon"
+
  ENG_heavy_field_gun_equipment_3_desc:0 "BL 6inch MkVII"
  FRA_heavy_field_gun_equipment_3_desc:0 "Canon de 240 1884"
  RUS_heavy_field_gun_equipment_3_desc:0 "Krupp 152mm  "
@@ -457,7 +452,7 @@
  GER_heavy_field_gun_equipment_4_desc:0 "150mm Kannone 16"
  AUH_heavy_field_gun_equipment_4_desc:0 "149mm M. 16 Feldhaubitze"
  TUR_heavy_field_gun_equipment_4_desc:0 "Krupp 105mm Field Gun Model 1916"
- USA_heavy_field_gun_equipment_4_desc:0 "M1918 GPF (French)"
+
  ENG_heavy_howitzer_equipment_1_desc:0 "BL 5-inch howitzer"
  FRA_heavy_howitzer_equipment_1_desc:0 "155 mm Rimailho Howitzer Model 1904TR"
  GER_heavy_howitzer_equipment_1_desc:0 "Krupp 120mm M1905"
@@ -465,13 +460,13 @@
  RUS_heavy_howitzer_equipment_2_desc:0 "152mm How 1909/30"
  GER_heavy_howitzer_equipment_2_desc:0 "210mm Howitzer"
  TUR_heavy_howitzer_equipment_2_desc:0 "Krupp 120mm Howitzer Model 1905"
- JAP_heavy_howitzer_equipment_2_desc:0 "Type 38 15 cm Howitzer"
+
  ENG_heavy_howitzer_equipment_3_desc:0 "BL 9.2inch howitzer"
  RUS_heavy_howitzer_equipment_3_desc:0 "Krupp 155mm How"
  GER_heavy_howitzer_equipment_3_desc:0 "150mm sFH 13"
  AUH_heavy_howitzer_equipment_3_desc:0 "15 cm schwere Feldhaubitze M 14"
  TUR_heavy_howitzer_equipment_3_desc:0 "Krupp 150mm Howitzer Model 1913"
- JAP_heavy_howitzer_equipment_3_desc:0 "150mm Howitzer 1915"
+
  ENG_heavy_howitzer_equipment_4_desc:0 "BL 8inch Gun Mk VII"
  FRA_heavy_howitzer_equipment_4_desc:0 "Canon de 155 C modèle 1917 Schneider"
  AUH_heavy_howitzer_equipment_4_desc:0 "15 cm schwere Feldhaubitze M. 15"
@@ -490,7 +485,7 @@
  GER_anti_air_equipment_1_desc:0 "77mm Towed AA M14"
  ENG_anti_air_equipment_2_desc:0 "13pdr 9cwt"
  GER_anti_air_equipment_2_desc:0 "80mm Towed AA"
- USA_anti_air_equipment_2_desc:0 "3inch M1917"
+
  GER_anti_tank_equipment_1_desc:0 "3.7 cm TaK Rheinmetall"
  LIGHT_ARTILLERY_TITLE:0 "LIGHT\nARTILLERY"
  HEAVY_ARTILLERY_TITLE:0 "HEAVY\nARTILLERY"

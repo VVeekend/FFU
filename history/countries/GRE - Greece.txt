@@ -232,43 +232,4 @@ create_equipment_variant = {
 			rear_1_custom_slot = ship_airplane_launcher_1
 		}
 	}
-	
-create_equipment_variant={ name="Pre-Dreadnoughts" name_group = USA_BB_HISTORICAL type=ship_hull_heavy_1 parent_version = 0 obsolete=yes 
-        modules = {
-		    fixed_ship_battery_slot = ship_heavy_battery_1 
-            fixed_ship_fire_control_system_slot = ship_fire_control_system_0 
-            fixed_ship_radar_slot = empty fixed_ship_engine_slot = heavy_ship_engine_1
-            fixed_ship_secondaries_slot = ship_secondaries_1 
-            fixed_ship_armor_slot = ship_armor_bb_1 
-            front_1_custom_slot = ship_heavy_battery_1  
-            mid_1_custom_slot = ship_secondaries_1 
-            rear_1_custom_slot = empty } }
-
-create_equipment_variant={ name="Semi-Dreadnoughts" name_group = USA_BB_HISTORICAL type=ship_hull_heavy_2 parent_version = 0 		
-        modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_2
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bb_1
-			front_1_custom_slot = ship_heavy_battery_2
-			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_secondaries_1
-			rear_1_custom_slot = empty } }
-		
-		
-create_equipment_variant={ name="Dreadnoughts" name_group = USA_BB_HISTORICAL type= ship_hull_super_heavy_1 parent_version = 0  
-        modules = {fixed_ship_battery_slot = ship_super_heavy_battery_1
-          fixed_ship_fire_control_system_slot = ship_fire_control_system_0 
-          fixed_ship_radar_slot = empty 
-          fixed_ship_engine_slot = heavy_ship_engine_2 
-          fixed_ship_secondaries_slot = ship_secondaries_1 
-          fixed_ship_armor_slot = ship_armor_shbb
-          front_1_custom_slot = ship_super_heavy_battery_1 
-          mid_1_custom_slot = ship_secondaries_1 
-		  mid_2_custom_slot = ship_secondaries_1
-          rear_1_custom_slot = ship_super_heavy_battery_1 } }
-
-}
 

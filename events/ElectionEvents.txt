@@ -28,7 +28,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { tag = USA }
+		
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		NOT = {
@@ -68,7 +68,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { tag = USA }
+		
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		has_war = no
@@ -135,7 +135,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { tag = USA }
+		
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		NOT = { has_idea = fascism_defeated }
@@ -168,7 +168,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { tag = USA }
+		
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		NOT = { has_idea = communism_defeated }
@@ -201,7 +201,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { tag = USA }
+		
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		democratic < 0.5
@@ -245,7 +245,7 @@ country_event = {
 	}
 
 	trigger = {
-		NOT = { tag = USA }
+		
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		has_country_flag = coalition_with_fascists
@@ -287,7 +287,7 @@ country_event = {
 	}
 
 	trigger = {
-		NOT = { tag = USA }
+		
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		has_country_flag = coalition_with_communists
@@ -419,7 +419,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { tag = USA }
+		
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		has_war = yes
@@ -455,7 +455,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { tag = USA }
+		
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		has_war = yes
@@ -493,7 +493,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { tag = USA }
+		
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = fascism
 		fascism > 0.5
@@ -515,7 +515,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { tag = USA }
+		
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = fascism
 		NOT = { fascism > 0.5 }

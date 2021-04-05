@@ -66,20 +66,6 @@ music = {
 	}
 }
 
-music = {
-	song = "USAmainsong"
-
-	chance = {
-		modifier = {
-			factor = 3
-			tag = USA
-
-			has_war = no
-
-		}
-	}
-}
-
 # MAIN SONGS ##################
 music = {
 	song = "general_peace_1"

@@ -27,12 +27,6 @@ country_event = {
 		ai_chance={
 			factor=100
 			}
-		USA={
-			add_opinion_modifier={
-				target=GER
-				modifier=small_decrease
-				}
-			}
 		GER={
 			set_country_flag=Atrocities
 			}

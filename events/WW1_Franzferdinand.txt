@@ -13,8 +13,6 @@ news_event = {
 	trigger = {
 		date > 1914.6.28
 		date < 1914.9.1
-		NOT = { has_global_flag = kis_franzferdinand_murdered }
-		NOT = { has_global_flag = kis_fra_war_ger } # Set by France
 		country_exists = SER
 		SER = {
         	is_puppet = no 
@@ -217,9 +215,6 @@ country_event = {
 		}
 		
 		}
-
-		set_global_flag = kis_war
-		set_global_flag = kis_franzferdinand_murdered
 	}
 #____________________________________________________________
 

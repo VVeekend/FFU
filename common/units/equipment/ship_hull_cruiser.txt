@@ -798,8 +798,6 @@ equipments = {
 		}		
 		manpower = 2200
 	}
-	
-	###### SPECIAL JAP TECH FROM FOCUS ######	
 
 	torpedo_cruiser = {
 		year = 1940

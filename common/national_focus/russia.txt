@@ -105,7 +105,7 @@ focus_tree = {
 		id = RUS_ww1_foster_new_values
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = RUS_ww1_soviet_constitution focus = RUS_ww1_liberty }
-		completion_reward = { add_political_power = -20 if = { limit = { country_exists = FIN FIN = { is_subject_of = RUS } } country_event = { id = ww1_soviet.1 } } }
+		completion_reward = { add_political_power = -20 }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 9
@@ -174,7 +174,7 @@ focus_tree = {
 		id = RUS_ww1_red_terror
 		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = RUS_ww1_establish_cheka }
-		completion_reward = { hidden_effect = { if = { limit = { country_exists = FIN FIN = { is_subject_of = RUS } } country_event = { id = ww1_soviet.1 } } } }
+		completion_reward = { hidden_effect = {  } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 5
@@ -270,7 +270,7 @@ focus_tree = {
 		id = RUS_ww1_new_russia
 		icon = GFX_goal_generic_territory_or_war
 		prerequisite = { focus = RUS_ww1_end_heretical_rule }
-		completion_reward = { add_popularity = { ideology = fascism popularity = 0.5 } set_politics = { ruling_party = fascism elections_allowed = no } if = { limit = { country_exists = FIN FIN = { is_subject_of = RUS } } FIN = { country_event = { id = ww1_soviet.1 } } } }
+		completion_reward = { add_popularity = { ideology = fascism popularity = 0.5 } set_politics = { ruling_party = fascism elections_allowed = no } }
 		ai_will_do = { factor = 10 modifier = { factor = 1 is_historical_focus_on = yes} }
 		cost = 10
 		x = 15
@@ -425,43 +425,6 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 4
-		y = 11
-	}
-	
-	focus = {
-		id = RUS_ww1_revenge_japan
-		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = RUS_ww1_eastern_defenses }
-		completion_reward = {
-		    create_wargoal = {
-                target = JAP
-                type = take_state_focus
-                generator = {
-                    537 744
-                }
-            }
-		}
-		ai_will_do = { factor = 10 modifier = { factor = 1 is_historical_focus_on = yes} }
-		cost = 10
-		x = 4
-		y = 12
-	}
-	
-	focus = {
-		id = RUS_ww1_finland_intervention
-		available = { country_exists = FIN FIN = { NOT = { is_subject_of = ROOT is_in_faction_with = ROOT } } }
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = RUS_ww1_ukraine_war }
-		completion_reward = { add_state_claim = 146 add_state_claim = 147 add_state_claim = 722 create_wargoal = {
-                target = FIN
-                type = take_state_focus
-                generator = {
-                    146 147 722
-                }
-            } }
-		ai_will_do = { factor = 10 modifier = { factor = 1 is_historical_focus_on = yes} }
-		cost = 10
-		x = 6
 		y = 11
 	}
 	
@@ -692,7 +655,7 @@ focus_tree = {
 		prerequisite = { focus=RUS_ww1_trenchwarfare }
 		available = { date > 1913.1.1 }
 		icon = GFX_hoi4tgw_gasmask
-		completion_reward = { army_experience=15 add_tech_bonus={ name=gasmask_bonus bonus=1 uses=1 technology=infantry_gasmask technology=chemical_research2 technology=chemical_research3 } }
+		completion_reward = { army_experience=15 add_tech_bonus={ name=gasmask_bonus bonus=1 uses=1 technology=infantry_gasmask technology=chemical_research3 } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 17

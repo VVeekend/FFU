@@ -202,33 +202,7 @@
 
  GER_ww1_super_heavy_tank_equipment_short:0 "K-Wagen"
  GER_ww1_super_heavy_tank_equipment:0 "K-Wagen"
-#----------------------------------------------------
 
-#----------------------------------------------------
-# USA
-
- USA_ww1_armored_car_equipment_2:0 "Jeffrey No.1"
- USA_ww1_armored_car_equipment_3:0 "White AEF"
- USA_ww1_armored_car_equipment_4:0 "M1 Armoured Car"
- USA_ww1_armored_car_equipment_5:0 "Willys Jeep"
-
- USA_ww1_light_tank_equipment_1_short:0 "M1917"
- USA_ww1_light_tank_equipment_1:0 "M1917"
-
- USA_ww1_light_tank_equipment_1b_short:0 "Ford 3-Ton"
- USA_ww1_light_tank_equipment_1b:0 "Ford 3-Ton M1918"
-
- USA_ww1_light_tank_equipment_2_short:0 "T1 Light"
- USA_ww1_light_tank_equipment_2:0 "T1 Light Tank"
-
- USA_ww1_light_tank_equipment_3_short:0 "M1 Light"
- USA_ww1_light_tank_equipment_3:0 "M1 Light Tank"
-
- USA_ww1_heavy_tank_equipment_2_short:0 "Skeleton"
- USA_ww1_heavy_tank_equipment_2:0 "Skeleton Tank"
-
- USA_ww1_heavy_tank_equipment_3_short:0 "Mark VIII"
- USA_ww1_heavy_tank_equipment_3:0 "Mark VIII Liberty"
 #----------------------------------------------------
 
 #----------------------------------------------------

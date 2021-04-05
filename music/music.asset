@@ -28,11 +28,6 @@ music = {
 	volume = 0.65
 }
 music = {
-	name = "USAmainsong"
-	file = "USAmainsong.ogg"
-	volume = 0.65
-}
-music = {
 	name = "general_peace_1"
 	file = "general_peace_1.ogg"
 	volume = 0.65

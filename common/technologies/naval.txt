@@ -163,16 +163,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -209,15 +199,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
 			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -253,15 +235,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
 			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -293,15 +267,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
 			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -714,15 +680,7 @@ technologies = {
 				NOT = { has_war = yes }
 			}
 			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
 			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 			
 			modifier = {
 				factor = 2
@@ -763,23 +721,9 @@ technologies = {
 				NOT = { has_war = yes }
 			}
 			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
 			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 
-			modifier = {
-				factor = 50
-				tag = JAP
-				OR = {
-					has_war_with = USA
-				}
-			}
+			
 			
 			modifier = {
 				factor = 2
@@ -814,15 +758,7 @@ technologies = {
 				NOT = { has_war = yes }
 			}
 			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
 			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 			
 			modifier = {
 				factor = 2
@@ -859,15 +795,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -898,15 +826,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -938,15 +858,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -974,15 +886,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
 			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -1125,9 +1029,6 @@ technologies = {
 		}
 	}
 
-	
-
-	######## JAPAN FOCUS TREE UNLOCK ########
 	torpedo_cruiser = {
 
 		enable_equipments = { 
