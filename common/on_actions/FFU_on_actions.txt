@@ -32,9 +32,11 @@ on_actions = {
 		effect = { 
 			if = {
 				limit = { 
+					NOT = { has_global_flag = balkan_war_over }
 					original_tag = SER 
 					TUR = { has_war_with = SER }
 				}
+				set_global_flag = balkan_war_over
 				TUR = { 
 					country_event = { id = ww1_firstbalkan.200 } 
 					TUR = { white_peace = SER }		
