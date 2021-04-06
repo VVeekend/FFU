@@ -2,17 +2,21 @@
 state={
 	id=141
 	name="STATE_141"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
 	provinces={
-		1436 1825 1959 2274 2361 3578 3755 4478 5293 5559 5588 5594 6510 6680 7361 7377 7626 7689 7727 7733 7985 8629 10141 16907 16918 16919 16921 16927 16937 16941 16944 16945 16950 
+		337 1023 1436 1825 1959 2274 2361 2793 3578 3755 3800 4478 5293 5559 5588 5594 6085 6510 6680 7361 7377 7626 7689 7702 7727 7733 7985 8629 9277 9909 10141 11561 16907 16918 16919 16921 16927 16937 16941 16944 16945 16950 16968 16980 
 	}
 	manpower=52556
 	buildings_max_level_factor=1.000
-	state_category = wasteland
-	history={
-		owner = EGY
-                add_core_of = EGY
-		buildings = {
-			infrastructure = 3
-		}
-    }
+	state_category=wasteland
 }

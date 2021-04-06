@@ -1,7 +1,0 @@
-spriteTypes = { 
-##Icon For: 1651723
- SpriteType = { 
- name = "GFX_gallipolicampaign" 
- texturefile = "gfx/interface/goals/GFX_gallipolicampaign.tga" 
- } 
- }

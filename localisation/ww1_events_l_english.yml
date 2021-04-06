@@ -1193,7 +1193,9 @@
  ww1_russia.37.a:0 "Bruh"
  ww1_russia.80.title:0 "Tsar  Desperate Mass Conscription"
  ww1_russia.80.desc:0 "With our deteriorating situation the Tsar has taken personal control and directed the civilian population and economy to the war effort."
-
+ ww1_russia.80.a:0 "What happens now?"
+ ww1_russia.81.title:0 "Fall of Poland Aftermath"
+ ww1_russia.81.desc:0 "With Poland out of our control, we hasten the deployment of the Far East divisions and rush them to the field"
  # ROMANIA
  ww1_romania.1.t:0 "Carol I of Romania had Died"
  ww1_romania.1.d:0 "The long rule of Carol I of Romania helped the quick development of the Romanian state.\n\nDuring his reign, Carol I personally led Romanian troops during the Russo-Turkish War and assumed command of the Russo-Romanian army during the siege of Plevna. The country achieved internationally recognized independence via the Treaty of Berlin in 1878."

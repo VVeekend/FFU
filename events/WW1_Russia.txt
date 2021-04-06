@@ -876,11 +876,35 @@ country_event = {
 			load_oob = "SOV_South"
 } }
 	option = {
-		name = ww1_russia.4.a
-		trigger = { tag = RUS NOT = { tag = SOV } }
+		name = ww1_russia.80.a
 		ai_chance = { factor = 100 }
-				declare_war_on = {
-		            type = annex_everything
-		            target = SOV
-		        }
+	} }
+
+##Event: Tsar Desperate Mass Conscription #Poland
+country_event = {
+	id =  ww1_russia.81
+	title =  ww1_russia.81.title
+	desc =  ww1_russia.81.desc
+	picture = GFX_report_event_chinese_soldiers
+	fire_only_once = yes
+	  trigger = {
+		SOV = {
+			OR = {
+				has_war_with = GER
+				has_war_with = AUS
+			}
+			NOT = {
+				has_country_flag = dual_power
+			    controls_state = 279
+			}			   
+
+		} }
+		
+		immediate = { 			
+           SOV = {		
+			load_oob = "SOV_Center"
+} }
+	option = {
+		name =ww1_russia.80.a
+		ai_chance = { factor = 100 }
 	} }

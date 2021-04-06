@@ -1,4 +1,4 @@
-country={
+
 ideas={
 		political_advisor={
 				MTN_petar_plamenac={ allowed={ tag=MTN } traits={ smooth_talking_charmer } ai_will_do={ factor=1 } }
@@ -48,4 +48,3 @@ ideas={
 								} traits={ industrial_concern } picture=generic_tank_manufacturer_1 }
 				}
 		}
-	}

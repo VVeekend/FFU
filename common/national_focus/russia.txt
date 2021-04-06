@@ -58,7 +58,7 @@ focus_tree = {
 		available = { NOT = { country_exists = RUS has_war_with = RUS } }
 		prerequisite = { focus = RUS_ww1_volunteers }
 		prerequisite = { focus = RUS_ww1_support_bolsheviks }
-		completion_reward = { add_stability = 0.02 add_opinion_modifier = { target = ENG modifier = romanovs_executed } add_opinion_modifier = { target = DEN modifier = romanovs_executed } }
+		completion_reward = { add_stability = 0.02 add_opinion_modifier = { target = ENG modifier = romanovs_executed } add_opinion_modifier = { target = GER modifier = romanovs_executed } }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 1
@@ -446,11 +446,11 @@ focus_tree = {
 	
 	focus = {
 		id = RUS_ww1_poland_war
-		available = { country_exists = POL POL = { NOT = { is_subject_of = ROOT is_in_faction_with = ROOT } } }
+		available = { country_exists = GER GER = { NOT = { is_subject_of = ROOT is_in_faction_with = ROOT } } }
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = RUS_ww1_finland_intervention }
 		completion_reward = { create_wargoal = {
-                target = POL
+                target = GER
                 type = take_state_focus
                 generator = {
                     95 96 97 94 91 89
