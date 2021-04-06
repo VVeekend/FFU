@@ -96,17 +96,8 @@ country_event = {
 		days=0
 	}
 	fire_only_once=yes
-	trigger={
-		tag = SER
-		country_exists=AUS
-		has_global_flag = kis_franzferdinand_murdered
-		has_war=no
-		date > 1914.6.28
+	is_triggered_only = yes
 
-		NOT = {
-			has_global_flag = kis_ask_ger_surrend # Can't happened if Germany loosed the WW1
-		}
-	}
 	option={
 		name=ww1_franzferdinand.2.a
 		ai_chance={

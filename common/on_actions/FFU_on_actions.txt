@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SER = {
+				country_event = { id = ww1_franzferdinand.2 days = 1304 }
+			}
+		}
+	}
+}
