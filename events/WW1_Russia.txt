@@ -163,7 +163,6 @@ news_event = {
                 transfer_state = 205
                 transfer_state = 201
                 transfer_state = 222
-                transfer_state = 198
                 transfer_state = 194				
 				
 				country_event = { days = 1 id = ww1_soviet.999 }
@@ -198,7 +197,7 @@ news_event = {
 				create_country_leader = { 
 					name = "Georgy Lvov" 
 					desc = RUS_georgy_lvov_DESC 
-					picture = "gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_georgy_lvov.dds" 
+					picture = "gfx/leaders/RUS/RUS_georgy_lvov.dds" 
 					expire = "1935.1.1" 
 					ideology = conservatism 
 					traits = { } 
@@ -263,23 +262,11 @@ news_event = {
 	}
 
 	trigger = {
+		has_global_flag = soviets_civil_war
 		RUS = {
-			has_country_flag = kis_tsarnicholasabdicated
-			NOT = {
-				has_global_flag = kis_brestlitovsk
-				has_country_flag = kis_octoberrevolutioncrushed
-			}
-		}
-		OR = {
-			SOV = {
+			OR = {
+				has_capitulated = yes
 				exists = no
-				#has_war_with = RUS
-				#surrender_progress > 0.60
-			}
-			# If AI Peace Conference Occured - SOV can become democratic, we want russia to annex the remaining SOV
-			SOV = {
-				exists = yes
-				has_government = democratic
 			}
 		}
 	}
@@ -287,6 +274,7 @@ news_event = {
 	immediate = {
 		hidden_effect = {
 			SOV = {
+				clr_global_flag = soviets_civil_war
 				set_country_flag = kis_octoberrevolutioncrushed
 				kill_country_leader = yes
 				create_country_leader={ name = "Nikolai II" desc=RUS_nikolai_ii_DESC picture="gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_nikolai_ii.dds" expire="1935.1.1" ideology=autocracy traits={  } }
@@ -306,6 +294,20 @@ news_event = {
 				annex_country = {
 					target = SOV
 					transfer_troops = no
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = FIN
+				}
+			}
+			every_state = {
+				limit = {
+					# SOV will get the same core as RUS
+					#is_claimed_by = RUS
+					is_core_of = SOV
+				}
+				RUS = {
+					remove_state_core = PREV
 				}
 			}
 		}
@@ -352,11 +354,12 @@ news_event = {
 		hidden_effect = {
 			set_global_flag = kis_brestlitovsk
 			RUS = {
-			                set_rule={ can_send_volunteers=no }
+				set_capital = 171
+			    set_rule={ can_send_volunteers=no }
 				country_event = { days = 20 id = ww1_russia.7 }
 				country_event = { days = 2 id = ww1_russia.8 }
 				SOV = {
-							set_rule={ can_send_volunteers=no }
+					set_rule={ can_send_volunteers=yes }
 					every_state = {
 						limit = {
 							# SOV will get the same core as RUS
@@ -413,6 +416,7 @@ news_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+
 #____________________________________________________________
 
 # Treaty of Brest-Litovsk - Part 2
@@ -444,7 +448,7 @@ country_event = {
 				transfer_state = 115
 			}
 			SOV = {
-				country_event = { days = 2 id = ww1_russia.9 }
+				country_event = { days = 2 id = ww1_russia.9 days = 7 }
 			}
 		}
 	}
@@ -470,7 +474,35 @@ country_event = {
 	immediate = {
 		hidden_effect = {		
 			SOV = {
-				country_event = { days = 2 id = ww1_russia.10 }
+				kill_country_leader = yes
+				create_country_leader = { 
+					name = "Alexander Kerensky" 
+					desc = RUS_alexander_kerensky_DESC 
+					picture = "gfx/leaders/RUS/RUS_alexander_kerensky.dds" 
+					expire = "1935.1.1" 
+					ideology = conservatism 
+					traits = { } 
+				}
+				country_event = { days = 7 id = ww1_russia.10 }
+			}
+			FIN = {
+				create_country_leader = { 
+					name = "Pehr Evind Svinhufvud" 
+					desc = RUS_pehr_evind_svinhufvud_DESC 
+					picture = "gfx/leaders/FIN/FIN_pehr_evind_svinhufvud.dds" 
+					expire = "1935.1.1" 
+					ideology = conservatism 
+					traits = { } 
+				}
+				transfer_state = 113
+				transfer_state = 376
+				transfer_state = 293
+				transfer_state = 295
+				transfer_state = 122
+				transfer_state = 294
+				transfer_state = 292
+				transfer_state = 375
+				transfer_state = 120
 			}
 		}
 	}
@@ -495,6 +527,20 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
+			SOV = {
+				kill_country_leader = yes
+				create_country_leader = { 
+					name = "Alexander Kolchak" 
+					desc = RUS_alexander_kolchak_DESC 
+					picture = "gfx/leaders/RUS/RUS_alexander_kolchak.dds" 
+					expire = "1935.1.1" 
+					ideology = conservatism 
+					traits = { } 
+				}
+				teleport_armies = {
+					to_state = 221
+				}
+			}
 			UKR = {
 				transfer_state = 172
 				transfer_state = 173
@@ -529,10 +575,6 @@ country_event = {
 
 	option = {
 		name = ww1_russia.10.a
-		ai_chance = { factor = 100 }
-		hidden_effect = {
-			country_event = { days = 420 id = ww1_russia.20 }
-		}
 	}
 }
 #____________________________________________________________

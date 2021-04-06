@@ -47,6 +47,40 @@ on_actions = {
 					MNT = { white_peace = TUR }
 				}
 			}
+			if = {
+				limit = { 
+					original_tag = RUS
+					SOV = { has_war_with = RUS }
+				}
+				SOV = {
+					annex_country = {
+						target = RUS
+						transfer_troops = no
+					}
+				}
+			}
+			if = {
+				limit = { 
+					original_tag = FIN
+					SOV = { has_war_with = FIN }
+				}
+				SOV = {
+					annex_country = {
+						target = FIN
+						transfer_troops = no
+					}
+					every_state = {
+						limit = {
+							# SOV will get the same core as RUS
+							#is_claimed_by = RUS
+							is_core_of = FIN
+						}
+						SOV = {
+							add_state_core = PREV
+						}
+					}
+				}
+			}
 		}
 	}
 }

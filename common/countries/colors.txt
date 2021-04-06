@@ -88,6 +88,10 @@ EGY = {
 	color = rgb { 181 52 48 }
 	color_ui = rgb { 181 52 48 }
 }
+FIN = {
+	color = rgb { 205 212 228 }
+	color_ui = rgb { 255 255 255 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
