@@ -93,7 +93,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"		
-			spriteType ="GFX_division_designer_popup_bg"
+			spriteType ="GFX_ssc_division_designer_popup_bg"
 		}
 		
 		iconType = {
@@ -105,7 +105,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "border_container"
 			position = { x=29 y=101 }
-			size = { width = 96 height = 90 }
+			size = { width = 96 height = 48 }
 			
 			background = {
 				name ="bg_tech_button"
@@ -158,7 +158,7 @@ guiTypes = {
 				name = "support_grid"
 				position = { x = 23 y = 57 }
 				size = { width = 85 height = 100%% }
-				slotsize = { width = 82 height = 51 }
+				slotsize = { width = 82 height = 42 }
 				format = "UPPER_LEFT"
 			}
 			
@@ -293,14 +293,8 @@ guiTypes = {
 			containerWindowType = {
 				name = "adjuster_stats"
 				position = { x = 15 y = 343 }	
-				size = { width = 515 height = 130 }
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent"
-				}
-				
-				verticalScrollbar = "right_vertical_slider"
+				size = { width = 515 height = 50 }
+				clipping = no
 				
 				gridboxtype = {
 					name = "stats_grid"
@@ -308,6 +302,7 @@ guiTypes = {
 					size = { width = 100%% height = 100%% }
 					slotsize = { width = 103 height = 62 }
 					max_slots_horizontal = 5
+					max_slots_vertical = 2
 					format = "UPPER_LEFT"
 				}
 			}
@@ -367,12 +362,12 @@ guiTypes = {
 		containerWindowType = {
 			name = "cost"
 			size = { width = 70 height = 29 }
-			position = { x=10000 y=10000 }
+			position = { x=285 y=505 }
 			
 			background = {
 				name = "cost_bg"
 				quadTextureSprite = "GFX_generic_background"
-				position = { x = 15 y = 0 }
+				position = { x=10000 y=10000 }
 				alwaystransparent = yes
 			}
 		}
@@ -645,7 +640,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "designerregimentswindow"
-			position = { x=-10 y=40}	
+			position = { x=0 y=40}	
 			size = { width=549 height=459 }
 			margin = { top = 14 bottom = 11 }
 			verticalScrollbar = "right_vertical_slider"
@@ -850,6 +845,7 @@ guiTypes = {
 			name = "div_template_select_model"
 			position = { x=538 y=40 }
 			size = { width=567 height=460 }
+			show_sound = pop_up
 			
 			
 			background = {
@@ -979,12 +975,12 @@ guiTypes = {
 	containerWindowType = {
 		name = "designer_division_support_slot_entry"
 		position = { x=0 y=0}	
-		size = { width=64 height=53 }
+		size = { width=64 height=44 }
 		clipping = no
 
 		background = {
 			name = "Background"		
-			spriteType ="GFX_div_subunit_item_bg"
+			spriteType ="GFX_ssc_div_subunit_item_bg"
 		}
 		
 		instantTextboxType = {
@@ -1002,7 +998,7 @@ guiTypes = {
 		buttonType = {
 			name = "unit_icon"
 			spriteType = "GFX_locked_icon"
-			position = {x=2 y=20}
+			position = {x=2 y=11}
 			Orientation = CENTER_LOWER
 			scale = 0.8
 			clicksound = click_default
@@ -1010,7 +1006,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invisible_icon"
-			position = { x = 2 y = 21 }
+			position = { x = 2 y = 12 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
 			scale = 0.8
@@ -1212,7 +1208,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "designer_adjuster_entry"	
-		size = { width = 50 height = 70 }
+		size = { width = 50 height = 50 }
 		clipping = no
 
 		iconType = {
