@@ -1,0 +1,109 @@
+defined_text = {
+	name = GetSuperEventPicture
+	text = {
+		trigger = {
+			check_variable = { super_event = 1 }
+		}
+		localization_key = super_event_picture_1
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 2 }
+		}
+		localization_key = super_event_picture_2
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 3 }
+		}
+		localization_key = super_event_picture_3
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 4 }
+		}
+		localization_key = super_event_picture_4
+	}
+}
+defined_text = {
+	name = GetSuperEventTitle
+	text = {
+		trigger = {
+			check_variable = { super_event = 1 }
+		}
+		localization_key = super_event_title_1
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 2 }
+		}
+		localization_key = super_event_title_2
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 3 }
+		}
+		localization_key = super_event_title_3
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 4 }
+		}
+		localization_key = super_event_title_4
+	}
+}
+defined_text = {
+	name = GetSuperEventText
+	text = {
+		trigger = {
+			check_variable = { super_event = 1 }
+		}
+		localization_key = super_event_text_1
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 2 }
+		}
+		localization_key = super_event_text_2
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 3 }
+		}
+		localization_key = super_event_text_3
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 4 }
+		}
+		localization_key = super_event_text_4
+	}
+}
+defined_text = {
+	name = GetSuperEventButtonText
+	text = {
+		trigger = {
+			check_variable = { super_event = 1 }
+		}
+		localization_key = super_event_button_text_1
+	}
+
+	text = {
+		trigger = {
+			check_variable = { super_event = 2 }
+		}
+		localization_key = super_event_button_text_2
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 3 }
+		}
+		localization_key = super_event_button_text_3
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 4 }
+		}
+		localization_key = super_event_button_text_4
+	}
+}

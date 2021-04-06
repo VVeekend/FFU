@@ -6,7 +6,7 @@ country_event = {
 	id = ww1_firstbalkan.1
 	title = ww1_firstbalkan.1.t
 	desc = ww1_firstbalkan.1.d
-	#picture = ww1_firstbalkan_1
+	picture=ww1_france_2
 
 	is_triggered_only = yes
 	
@@ -33,7 +33,7 @@ country_event = {
 	id = ww1_firstbalkan.2
 	title = ww1_firstbalkan.2.t
 	desc = ww1_firstbalkan.2.d
-	#picture = ww1_firstbalkan_2
+	picture=ww1_france_2
 
 	fire_only_once = yes
 	
@@ -81,7 +81,7 @@ country_event = {
 	id = ww1_firstbalkan.3
 	title = ww1_firstbalkan.3.t
 	desc = ww1_firstbalkan.3.d
-	#picture = ww1_firstbalkan_3
+	picture=ww1_france_2
 
 	is_triggered_only = yes
 	
@@ -122,7 +122,7 @@ country_event = {
 	id = ww1_firstbalkan.4
 	title = ww1_firstbalkan.4.t
 	desc = ww1_firstbalkan.4.d
-	#picture = ww1_firstbalkan_4
+	picture=ww1_france_2
 
      fire_only_once = yes
 	trigger = {
@@ -142,16 +142,23 @@ country_event = {
 			        155
 			    }
 			}
+			set_variable = {
+				Global.super_event=2
+			}
+			FFU_show_super_event = yes
 		}
 
 		hidden_effect = {
+			every_country = {limit = {check_variable= { super_events_enabled > 0} }
+				scoped_sound_effect="FFU_first_balkan_war_begins"
+			}
 			SER = {
 				add_named_threat = {
 					threat = 20
 					name = "War in the Balkans"
 				}
 			}
-			set_global_flag = ffu_first_balkan_super
+			
 			set_global_flag = kis_firstbalkan_war
 			news_event = { days = 1 id = ww1_firstbalkan.100 }
 

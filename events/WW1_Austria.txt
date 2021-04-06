@@ -21,9 +21,15 @@ news_event = {
         }
     }
     immediate = {
-	set_global_flag = franz_joseph_dead  
         hidden_effect = {
+			every_country = {limit = {check_variable= { super_events_enabled > 0} }
+				scoped_sound_effect="FFU_franz_joseph_dead"
+			}
             AUS = {
+                set_variable = {
+                    Global.super_event=4
+                }
+                FFU_show_super_event = yes
                 kill_country_leader = yes
                 create_country_leader={ name = "Karl I" desc=AUH_karl_i_DESC picture="gfx/hoi4tgw_portraits/AUH/country_leaders/AUH_karl_i.dds" expire="1935.1.1" ideology=autocracy  traits={ inexperienced_imperialist inexperienced_monarch } }
                 set_country_flag = emperor_franz_dead

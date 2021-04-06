@@ -124,16 +124,24 @@ country_event = {
 		ai_chance={
 			factor=100
 		}
-		set_global_flag=FFU_war_begins
 		set_country_flag=serbian_ultamatium
 		add_named_threat={
 			threat=4
 			name=ww1_franzferdinand.3.t
 		}
+		hidden_effect = {
+			every_country = {limit = {check_variable= { super_events_enabled > 0} }
+				scoped_sound_effect="ffu_war_begins"
+			}
+		}
 		SOV={
 			country_event=ww1_franzferdinand.4
 		}
 		AUS={
+			set_variable = {
+				Global.super_event=1
+			}
+			FFU_show_super_event = yes
 	        declare_war_on={
 				type=annex_everything
 				target=POR
