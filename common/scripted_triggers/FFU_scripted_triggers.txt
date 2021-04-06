@@ -1,0 +1,20 @@
+is_playable_country = {
+	OR = {
+		tag = GER
+		tag = ENG
+		tag = SOV
+		tag = FRA
+		tag = BEL
+		tag = AUS
+		tag = SPR
+		tag = ITA
+		tag = ROM
+		tag = TUR
+		tag = GRE
+		tag = BUL
+		tag = POR
+		tag = RUS
+		tag = SER
+		tag = EGY
+	}
+}

@@ -445,24 +445,6 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = RUS_ww1_poland_war
-		available = { country_exists = GER GER = { NOT = { is_subject_of = ROOT is_in_faction_with = ROOT } } }
-		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = RUS_ww1_finland_intervention }
-		completion_reward = { create_wargoal = {
-                target = GER
-                type = take_state_focus
-                generator = {
-                    95 96 97 94 91 89
-                }
-            } }
-		ai_will_do = { factor = 10 modifier = { factor = 1 is_historical_focus_on = yes} }
-		cost = 10
-		x = 6
-		y = 12
-	}
-	
-	focus = {
 		id = RUS_ww1_third_international
 		icon = GFX_goal_support_communism
 		prerequisite = { focus = RUS_ww1_respect_treaty focus = RUS_ww1_break_treaty }

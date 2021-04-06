@@ -4,6 +4,28 @@ on_actions = {
 			SER = {
 				country_event = { id = ww1_franzferdinand.2 days = 1304 }
 			}
+			every_country={
+				limit={
+					is_playable_country=yes
+				}
+				add_ideas = peace_training
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			every_country={
+				limit = { 
+					is_playable_country=yes
+					NOT = {
+						OR = {
+							has_war = yes
+							has_idea = peace_training 
+						}
+					} 
+				}
+				add_ideas = peace_training
+			}
 		}
 	}
 }

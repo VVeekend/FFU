@@ -92,9 +92,6 @@ country_event = {
 	desc=ww1_franzferdinand.2.d
 	picture=COUNTRY_hoi4tgw_report_austria_hungary
 	
-	mean_time_to_happen={
-		days=0
-	}
 	fire_only_once=yes
 	is_triggered_only = yes
 
@@ -115,8 +112,8 @@ country_event = {
 # July Crisis
 #____________________________________________________________
 country_event = {
-	title=ww1_franzferdinand.3.t#July Crisis
-	desc=ww1_franzferdinand.3.d#This ultimatum was part of a coercive program meant to weaken the Kingdom of Serbia as a threat to Austria-Hungarys occupation of the northern Balkans which had a significant southern Slavic population, including a majority Serbian community in Bosnia. This was supposed to be achieved either through diplomacy or by a localized war if the ultimatum were rejected. Austria-Hungary preferred war, and to ensure war the terms of the ultimatum were so harsh that they were certain to be rejected. One month after the assassination of Franz Ferdinand, Austria-Hungary declared war on Serbia, thus initiating the First World War.
+	title=ww1_franzferdinand.3.t #July Crisis
+	desc=ww1_franzferdinand.3.d #This ultimatum was part of a coercive program meant to weaken the Kingdom of Serbia as a threat to Austria-Hungarys occupation of the northern Balkans which had a significant southern Slavic population, including a majority Serbian community in Bosnia. This was supposed to be achieved either through diplomacy or by a localized war if the ultimatum were rejected. Austria-Hungary preferred war, and to ensure war the terms of the ultimatum were so harsh that they were certain to be rejected. One month after the assassination of Franz Ferdinand, Austria-Hungary declared war on Serbia, thus initiating the First World War.
 	id=ww1_franzferdinand.3
 	picture=COUNTRY_hoi4tgw_report_austria_hungary
 	

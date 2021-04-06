@@ -136,14 +136,6 @@ sub_units = {
 		type = { interceptor }
 		need = { rocket_interceptor_equipment = 1 }
 	}
-
-	guided_missile = {
-		sprite = missile_default
-		priority = 8
-		active = yes
-		type = { missile }
-		need = { guided_missile_equipment = 1 }
-	}
 	
 	suicide_craft = {
 		sprite = light_plane

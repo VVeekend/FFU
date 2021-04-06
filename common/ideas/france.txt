@@ -370,20 +370,21 @@ ideas = {
                 naval_hit_chance = -0.3
                 naval_morale = -15
                 naval_retreat_speed = -0.3
-                equipment_bonus = {
-                capital_ship = {
-					build_cost_ic = 0.50 instant = yes
-				}				
-				screen_ship = {
-					build_cost_ic = 0.50 instant = yes
-				}
-				submarine = {
-					build_cost_ic = 0.50 instant = yes
-				}
-				destroyer = {
-					build_cost_ic = 0.50 instant = yes
-				} }
 			}
+            equipment_bonus = {
+                capital_ship = {
+                    build_cost_ic = 0.50 instant = yes
+                }				
+                screen_ship = {
+                    build_cost_ic = 0.50 instant = yes
+                }
+                submarine = {
+                    build_cost_ic = 0.50 instant = yes
+                }
+                destroyer = {
+                    build_cost_ic = 0.50 instant = yes
+                } 
+            }
 		}
 
 		FRA_defunded_navy = {

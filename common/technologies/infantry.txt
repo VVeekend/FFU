@@ -1487,11 +1487,7 @@ technologies = {
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}		
+		}	
 		Stormtrooper = {
 			defense = 0.02
 			breakthrough = 0.02
@@ -1545,10 +1541,6 @@ technologies = {
 			breakthrough = 0.03
 		}
 		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
