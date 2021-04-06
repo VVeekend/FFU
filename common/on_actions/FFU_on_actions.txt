@@ -28,4 +28,22 @@ on_actions = {
 			}
 		}
 	}
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = { 
+					original_tag = SER 
+					TUR = { has_war_with = SER }
+				}
+				TUR = { 
+					country_event = { id = ww1_firstbalkan.200 } 
+					TUR = { white_peace = SER }		
+					SER = { white_peace = TUR }
+					BUL = { white_peace = TUR }
+					GRE = { white_peace = TUR }
+					MNT = { white_peace = TUR }
+				}
+			}
+		}
+	}
 }

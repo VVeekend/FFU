@@ -235,7 +235,7 @@ country_event = {
 	id = ww1_firstbalkan.5
 	title = ww1_firstbalkan.5.t
 	desc = ww1_firstbalkan.5.d
-	#picture = ww1_firstbalkan_5
+	picture=ww1_france_2
 
 	fire_only_once = yes
 
@@ -283,7 +283,7 @@ country_event = {
 	id = ww1_firstbalkan.6
 	title = ww1_firstbalkan.6.t
 	desc = ww1_firstbalkan.6.d
-	#picture = ww1_firstbalkan_6
+	picture=ww1_france_2
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -430,35 +430,15 @@ country_event = {
 	id = ww1_firstbalkan.200
 	title = ww1_firstbalkan.200.t
 	desc = ww1_firstbalkan.200.d
-	#picture = ww1_firstbalkan_5
+	picture=ww1_france_2
 
 	fire_only_once = yes
-
-	trigger = {
-		date < 1914.6.1
-
-		tag = SER
-
-		NOT = {
-			has_global_flag = kis_war
-			has_global_flag = hoi4tgw_SchlieffenSecurity
-			has_global_flag = kis_firstbalkanwar_victory
-		}
-			SER = {
-				surrender_progress > 0.40
-			}
-	}
+	is_triggered_only = yes
 	
 	# ROOT Yes
 	option = { 
-		name = ww1_firstbalkan.5.a
+		name = ww1_firstbalkan.200.a
 		ai_chance = { factor = 100 }
-		
-		TUR = { white_peace = SER }		
-		SER = { white_peace = TUR }
-		BUL = { white_peace = TUR }
-		GRE = { white_peace = TUR }
-		MNT = { white_peace = TUR }
 		
 		161 = { add_extra_state_shared_building_slots=10 
 		add_building_construction={ type=arms_factory level=10
@@ -470,45 +450,12 @@ country_event = {
 		add_building_construction={ type=industrial_complex level=10 
 		instant_build=yes } }
 		
-	SER = {
-			remove_from_faction = ITA
-			remove_from_faction = GRE
-			remove_from_faction = MNT
-		}
-		hidden_effect = {
-			SER = {
-				country_event = { days = 1 id = ww1_firstbalkan.50 }
-			}
-		}
-	}
-}
-
-country_event = {
-
-	id = ww1_firstbalkan.50
-	title = ww1_firstbalkan.50.g
-	desc = ww1_firstbalkan.50.h
-
-	fire_only_once = yes
-	is_triggered_only = yes
-	
-	# TUR Yes
-	option = {
-		name = ww1_firstbalkan.5.a
-		ai_chance = { factor = 100 }
-
-		SER = { white_peace = TUR }
-		BUL = { white_peace = TUR }
-		GRE = { white_peace = TUR }
-		MNT = { white_peace = TUR }
-
 		SER = {
 			remove_from_faction = ITA
 			remove_from_faction = GRE
 			remove_from_faction = MNT
-			remove_from_faction = BUL
 		}
-		
+
 	}
 }
 
@@ -517,7 +464,7 @@ country_event = {
 	id = ww1_firstbalkan.40
 	title = ww1_firstbalkan.40.t
 	desc = ww1_firstbalkan.40.d
-	#picture = ww1_firstbalkan_2
+	picture=ww1_france_2
 
 	fire_only_once = yes
 	
