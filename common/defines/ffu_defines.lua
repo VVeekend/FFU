@@ -1,7 +1,7 @@
 NDefines.NGame.START_DATE = "1911.1.1.12"
 NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 2
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 300
-NDefines.NGame.LAG_DAYS_FOR_PAUSE = 320
+NDefines.NGame.LAG_DAYS_FOR_PAUSE = 321
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6
 NDefines.NGame.HANDS_OFF_START_TAG = "SWI"
 
@@ -15,7 +15,7 @@ NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 0				-- days to transfer a unit 
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 0
 NDefines.NDiplomacy.TENSION_TIME_SCALE_START_DATE = "1931.1.1.12"
 NDefines.NDiplomacy.GUARANTEE_COST = 1000
-NDefines.NDiplomacy.FRONT_IS_DANGEROUS = -19
+NDefines.NDiplomacy.FRONT_IS_DANGEROUS = -20
 NDefines.NDiplomacy.JOIN_FACTION_LIMIT_CHANGE_AT_WAR = 0.2
 NDefines.NDiplomacy.ASSUME_FACTION_LEADERSHIP_PP_COST = 1000			-- Political power cost to assume faction leadership
 NDefines.NDiplomacy.ASSUME_FACTION_LEADERSHIP_MIN_MANPOWER_RATIO = 50	-- The minimum ratio of manpower that a country must have compared to the current leader in order to assume leadership.

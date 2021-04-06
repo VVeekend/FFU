@@ -1,4 +1,3 @@
-country = {
 ideas={
 	political_advisor={
 			SER_mihailo_gavrilovic={ allowed={ tag=SER } traits={ ideological_crusader } ai_will_do={ factor=1 } }
@@ -65,6 +64,7 @@ ideas={
 							    
 							   } traits={ industrial_concern } picture=generic_tank_manufacturer_1 }
 			}
+country = {
     First_Balkan = {
 		  allowed = {
 			}
