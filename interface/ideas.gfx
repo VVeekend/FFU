@@ -1,6 +1,10 @@
 spriteTypes = {	
 
 
+	spriteType = {
+		name = "GFX_idea_MEX_revolutionary_army"
+		texturefile = "gfx/interface/ideas/idea_mex_revolutionary_army.dds"
+	}	
 
 	SpriteType = {
 		name = "GFX_idea_traits_strip"
