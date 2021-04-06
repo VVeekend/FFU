@@ -78,6 +78,15 @@ objectTypes = {
 	}
 	
 	pdxmesh = {
+		name = "bicycle_frame_mesh"
+		file = "gfx/models/units/vehicles/bicycle_frame.mesh"
+		
+		animation = { id = "idle"			type = "bicycle_frame_idle_animation" }
+		animation = { id = "move"			type = "bicycle_frame_move_animation" }
+		animation = { id = "attack"			type = "bicycle_frame_attack_animation" }
+	}
+	
+	pdxmesh = {
 		name = "bicycle_vehicle_mesh"
 		file = "gfx/models/units/vehicles/bicycle_vehicle.mesh"
 		

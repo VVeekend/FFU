@@ -1,6 +1,41 @@
 ﻿army = {
 	gfx = GFX_theatre_army_shield
-
+	
+	icon = {
+		#Example of icon script, corresponding to the frame index in the .dds files
+		#color_override = no
+		#name = "EQUAL_ICON"
+		#available = 
+		#{
+		#	tag = CHI
+		#}
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
 	icon = {
 		color_override = no
 		name = "4. Armee"
@@ -264,6 +299,78 @@
 	}
 	icon = {
 		color_override = no
+		name = "8th Army"
+		available = 
+		{
+			has_dlc = "Waking the Tiger"
+			tag = SWI
+		}
+	}
+	icon = {
+		color_override = no
+		name = "1st Army"
+		available = 
+		{
+			has_dlc = "Waking the Tiger"
+			tag = SWI
+		}
+	}
+	icon = {
+		color_override = no
+		name = "2nd Army"
+		available = 
+		{
+			has_dlc = "Waking the Tiger"
+			tag = SWI
+		}
+	}
+	icon = {
+		color_override = no
+		name = "3rd Army"
+		available = 
+		{
+			has_dlc = "Waking the Tiger"
+			tag = SWI
+		}
+	}
+	icon = {
+		color_override = no
+		name = "5th Army"
+		available = 
+		{
+			has_dlc = "Waking the Tiger"
+			tag = SWI
+		}
+	}
+	icon = {
+		color_override = no
+		name = "6th Army"
+		available = 
+		{
+			has_dlc = "Waking the Tiger"
+			tag = SWI
+		}
+	}
+	icon = {
+		color_override = no
+		name = "7th Army"
+		available = 
+		{
+			has_dlc = "Waking the Tiger"
+			tag = SWI
+		}
+	}
+	icon = {
+		color_override = no
+		name = "9th Army"
+		available = 
+		{
+			has_dlc = "Waking the Tiger"
+			tag = SWI
+		}
+	}
+	icon = {
+		color_override = no
 		name = "1re Armée"
 		available = 
 		{
@@ -327,7 +434,7 @@
 				tag = FRA
 				tag = GER
 				tag = ENG
-				
+				tag = SWI
 				tag = SOV
 			}
 		}
@@ -343,7 +450,7 @@
 				tag = FRA
 				tag = GER
 				tag = ENG
-				
+				tag = SWI
 				tag = SOV
 			}
 		}
@@ -359,7 +466,7 @@
 				tag = FRA
 				tag = GER
 				tag = ENG
-				
+				tag = SWI
 				tag = SOV
 			}
 		}
@@ -394,7 +501,7 @@
 				tag = FRA
 				tag = GER
 				tag = ENG
-				
+				tag = SWI
 				tag = SOV
 			}
 		}
@@ -410,7 +517,7 @@
 				tag = FRA
 				tag = GER
 				tag = ENG
-				
+				tag = SWI
 				tag = SOV
 			}
 		}
@@ -502,6 +609,69 @@
 		{
 			has_dlc = "Waking the Tiger"
 			tag = SOV
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Turkish 1"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = TUR
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Turkish 2"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = TUR
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Greek 1"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = GRE
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Greek 2"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = GRE
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Greek 3"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = GRE
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Bulgarian 1"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = BUL
+		}
+	}
+	icon = {
+		color_override = no
+		name = "Bulgarian 2"
+		available = 
+		{
+			has_dlc = "Battle for the Bosporus"
+			tag = BUL
 		}
 	}
 }
