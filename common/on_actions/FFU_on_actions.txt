@@ -3,6 +3,11 @@ on_actions = {
 		effect = {
 			SER = {
 				country_event = { id = ww1_franzferdinand.2 days = 1304 }
+				country_event = { id = ww1_firstbalkan.4 days = 609 }
+				country_event = { id = ww1_firstbalkan.2 days = 578 }
+			}
+			SWI = {
+				country_event = { id = ww1_firstbalkan.40 days = 790 }
 			}
 			every_country={
 				limit={

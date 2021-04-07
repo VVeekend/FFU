@@ -36,10 +36,7 @@ country_event = {
 	picture=ww1_france_2
 
 	fire_only_once = yes
-	
-	trigger = {
-		date > 1912.8.1
-		date < 1912.8.30 }
+	is_triggered_only = yes
 		
 	# SER Yes
 	option = {
@@ -124,10 +121,8 @@ country_event = {
 	desc = ww1_firstbalkan.4.d
 	picture=ww1_france_2
 
-     fire_only_once = yes
-	trigger = {
-		date > 1912.9.1
-		date < 1912.11.1 }
+    fire_only_once = yes
+	is_triggered_only = yes
 		
 	# SER Yes
 	option = {
@@ -474,28 +469,29 @@ country_event = {
 	picture=ww1_france_2
 
 	fire_only_once = yes
-	
-	trigger = {
-	    tag = SER
-		date > 1913.5.1
-		date < 1913.5.30 
-		has_offensive_war_with = TUR
-		}
+	is_triggered_only = yes
 		
 	# SER Yes
 	option = {
 		name = ww1_firstbalkan.2.a
 		ai_chance = { factor = 100 }
 		
-		SER = { white_peace = TUR }
-		GRE = { white_peace = TUR }
-		MNT = { white_peace = TUR }
+		if = {
+			limit = {
+				SER = {
+					has_offensive_war_with = TUR
+				}
+			}
+			SER = { white_peace = TUR }
+			GRE = { white_peace = TUR }
+			MNT = { white_peace = TUR }
 
-		SER = {
-			remove_from_faction = ITA
-			remove_from_faction = GRE
-			remove_from_faction = MNT
-			remove_from_faction = BUL
+			SER = {
+				remove_from_faction = ITA
+				remove_from_faction = GRE
+				remove_from_faction = MNT
+				remove_from_faction = BUL
+			}
 		}
 	}
 }
