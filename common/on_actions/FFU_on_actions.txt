@@ -19,6 +19,23 @@ on_actions = {
 				add_ideas = peace_training
 				set_variable = { super_events_enabled = 2 }
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = FFU_navy_race
+						option = RACE
+					}
+				}
+				every_country = {
+					limit={
+						is_playable_country=yes
+					}
+					transfer_navy = {
+						target = SWI
+					}
+					add_ideas = naval_race
+				}
+			}
 		}
 	}
 	on_monthly = {

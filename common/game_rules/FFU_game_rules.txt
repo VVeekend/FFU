@@ -1,0 +1,15 @@
+FFU_navy_race = {
+	name = "Navy Mode"
+	group = "FFU Rules"
+	icon = "GFX_military_access_docking_rights"
+	default = {
+		name = NORMAL
+		text = "Normal FFU"
+		desc = ""
+	}
+	option = {
+		name = RACE
+		text = "Naval Arms Race"
+		desc = "All starting navies are deleted and everyone is given a national spirit that gives dockyard construction speed +300%"
+	}
+}

@@ -15,5 +15,18 @@ ideas = {
 				experience_gain_navy_unit_factor = 10
 			}
 		}
+		naval_race = {
+			cancel = {
+				has_war = yes
+			}
+
+			removal_cost = -1
+
+			picture = MTG_naval_treaty_adherent
+
+			modifier = {
+				production_speed_dockyard_factor = 3.0
+			}
+		}
 	}
 }
