@@ -996,9 +996,7 @@ units = {
         # start_equipment_factor = 0.3
         # start_manpower_factor = 0.3
     }
-
-air_wings = {
-    }
+}
 
 instant_effect = {
     add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "GER" } requested_factories = 1 progress = 0.1 efficiency = 50 }

@@ -1,30 +1,24 @@
 units = {
 	fleet = {
-		name = "Πολεμικό Ναυτικό"
+		name = "Basilikos Stolos Ellenas Fleet"
 		naval_base = 16491
 		task_force = {
 			location = 16491
-			name = "Πολεμικό Ναυτικό"
-			ship = { name = "Caïman" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GRE version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GRE version_name = "Pre-Dreadnoughts" } } }
-	  ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Armored Cruisers" } } }
-	  ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Protected Cruiser" } } }
-		ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-		ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }	
-		ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-		ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-		  ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-		ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }	
-		ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-		ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-		  ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }	
+			name = "Basilikos Stolos Ellenas"
+			ship = { name = "EBN Baseleos Georgios" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "Armored Cruisers" } } }
+			ship = { name = "EBN Basilissa Olga" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "Armored Cruisers" } } }
+			ship = { name = "EBN Hydra" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "Armored Cruisers" } } }
+			ship = { name = "EBN Spetsai" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "Armored Cruisers" } } }
+			ship = { name = "EBN Psara" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "Armored Cruisers" } } }
+			ship = { name = "EBN Navarchos Miaoulis" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "Light Cruisers"	 } } }
+			ship = { name = "EBN Niki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer" } } }
+			ship = { name = "EBN Doxa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer" } } }
+			ship = { name = "EBN Aspis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer" } } }
+			ship = { name = "EBN Velos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer" } } }
+			ship = { name = "EBN Thyella" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer" } } }
+			ship = { name = "EBN Nafkratousa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer" } } }
+			ship = { name = "EBN Lonchi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer" } } }
+			ship = { name = "EBN Sfendoni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer" } } }
 		}
 	}
 }

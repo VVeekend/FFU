@@ -390,7 +390,7 @@ create_equipment_variant = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			mid_1_custom_slot = ship_airplane_launcher_1
 			mid_2_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_medium_battery_1
+
 		}
 	}
 	
@@ -481,160 +481,8 @@ create_equipment_variant = {
           rear_1_custom_slot = ship_super_heavy_battery_1 } }
 }
 
-
-}
 1910.6.1 = {
 	create_country_leader={ name = "George V" desc=ENG_george_v_DESC picture = "gfx/leaders/ENG/ENG_george_v.dds" expire="1935.1.1" ideology=conservatism traits={  } }
 	set_country_flag = king_death_george
 	set_country_flag = saf_release
-}
-1914.1.1 = {
-	oob = "ENG_1914"
-
-	#-------------------------------------------------------
-	#							NF
-	#-------------------------------------------------------
-	#Army
-	complete_national_focus = ENG_ww1_army_effort
-	complete_national_focus = ENG_ww1_equipment_effort
-	complete_national_focus = ENG_ww1_artillery_effort_1
-	complete_national_focus = ENG_ww1_doctrine_effort
-	complete_national_focus = ENG_ww1_trenchwarfare
-
-	# Air
-	complete_national_focus = ENG_ww1_aviation_effort
-	complete_national_focus = ENG_ww1_aviation_effort_2
-	complete_national_focus = ENG_ww1_airship_focus
-
-	# Industry
-	complete_national_focus = ENG_ww1_industrial_effort
-	complete_national_focus = ENG_ww1_infrastructure_effort
-	complete_national_focus = ENG_ww1_airfield_expansion_1
-	complete_national_focus = ENG_ww1_construction_effort
-	complete_national_focus = ENG_ww1_production_effort
-	complete_national_focus = ENG_ww1_dockyard_effort_1
-
-	# Naval
-	complete_national_focus = ENG_ww1_naval_effort
-	complete_national_focus = ENG_ww1_newnavalcanons_1
-	complete_national_focus = ENG_ww1_dreadnought_effort
-	complete_national_focus = ENG_ww1_newnavalcanons_2
-
-	#Political
-	complete_national_focus = ENG_ww1_political_effort
-	complete_national_focus = ENG_ww1_support_republic
-	complete_national_focus = ENG_ww1_democracy
-	complete_national_focus = ENG_ww1_freespeech
-
-	#Diplomatic
-	complete_national_focus = ENG_ww1_diplomatic_effort
-	complete_national_focus = ENG_ww1_triple_alliance
-	complete_national_focus = ENG_ww1_back_france
-	complete_national_focus = ENG_ww1_back_russia
-	complete_national_focus = ENG_ww1_send_diplomats
-	complete_national_focus = ENG_ww1_assert_position_west
-	complete_national_focus = ENG_ww1_anti_ger
-	complete_national_focus = ENG_ww1_assert_position_east
-	complete_national_focus = ENG_ww1_balkan_strategy
-	complete_national_focus = ENG_ww1_support_romania
-	complete_national_focus = ENG_ww1_nordic_countries
-	complete_national_focus = ENG_ww1_bureau_colonies
-	complete_national_focus = ENG_ww1_commonwealth_focus
-	#-------------------------------------------------------
-
-	set_technology = {
-
-		# Infantry
-		infantry_weapons = 1
-		ww1infantry_weapons1 = 1
-		ww1_infantry_equip1 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		infantry_binoculars = 1
-		infantry_grenade = 1
-		motorised_infantry = 1
-		ww1_ambulance1 = 1
-		tech_mountaineers = 1
-
-		# Support
-		tech_support = 1
-		tech_engineers = 1
-		tech_recon = 1
-		tech_military_police = 1
-		tech_maintenance_company = 1
-		tech_field_hospital = 1
-		tech_logistics_company = 1
-
-		# Armor
-		gwtank=1 # 1910 Armored Car
-		ww1_armored_car_2 = 1
-
-		# Artillery
-		light_field_gun1 = 1
-		bonus_artillery1 = 1
-		heavy_field_gun1 = 1
-		bonus_bertha1 = 1
-
-		# Land Doctrine
-		ww1_landdoctrine = 1
-		ww1_directfire = 1
-
-		# Navy
-		transport = 1
-
-		# Air
-		ww1_fighter1 = 1
-		ww1_fighter1b = 1
-		ww1_zeppelin1 = 1
-
-		# Air Doctrine
-		ww1_airdoctrine = 1
-		ww1_airdoctrine_2 = 1
-		ww1_airdoctrine_3 = 1
-
-		# Navy Doctrine
-		ww1_navaldoctrine = 1
-		ww1_navaldoctrine_2 = 1
-		ww1_navaldoctrine_3 = 1
-
-		# Engineering
-		electronic_mechanical_engineering = 1
-		mechanical_computing = 1
-		chemical_research = 1
-		tank_unlocker1 = 1
-		radio = 1
-		supertech1 = 1
-		tankaircraft1 = 1
-		torpedotech1 = 1
-
-		# Industry
-		ww1_tools1 = 1
-		ww1_medicine1 = 1
-		ww1_fortification1 = 1
-		ww1_fortification2 = 1
-	}
-
-	set_politics = {
-	    ruling_party = democratic
-	    last_election = "1910.1.15"
-	    election_frequency = 60
-	    elections_allowed = yes
-	}
-	set_popularities = {
-	    democratic = 96
-	    fascism = 2
-	    communism = 1
-	    neutrality = 1
-	}
-
-	add_ideas = {
-		ww1_Scramble_for_Africa
-		stiff_upper_lip
-		limited_conscription
-		ENG_Staff
-	}
-
-
-
-	set_country_flag = titanic
 }

@@ -190,7 +190,7 @@ create_equipment_variant = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			mid_1_custom_slot = ship_airplane_launcher_1
 			mid_2_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_medium_battery_1
+
 		}
 	}
 	        
@@ -213,7 +213,7 @@ create_equipment_variant = {
 		}
 	}
 
-create_equipment_variant = {
+	create_equipment_variant = {
 		name = "Battlecrusiers"		
 		type = ship_hull_heavy_2
 		name_group = GRE_BC_HISTORICAL
@@ -232,4 +232,3 @@ create_equipment_variant = {
 			rear_1_custom_slot = ship_airplane_launcher_1
 		}
 	}
-

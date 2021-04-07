@@ -616,9 +616,6 @@ start_experience_factor=0.1
 
 ############################################################################################
 
-air_wings = { 
-}
-
 instant_effect = {
     
 	add_equipment_production = {

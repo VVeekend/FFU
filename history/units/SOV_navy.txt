@@ -5,69 +5,182 @@ units = {
 		task_force = {
 			location = 8493
 			name = "Imperial Russian Navy"
-			ship = { name = "Terrible" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner =ITA version_name = "Dreadnoughts" } } }
-			ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ITA version_name = "Dreadnoughts" } } }
-			ship = { name = "Caïman" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = ITA version_name = "Dreadnoughts" } } }
-			ship = { name = "Terrible" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "Caïman" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } } 
-		ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } } 
-		ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Pre-Dreadnoughts" } } }
-		ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
-		ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
-		ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
-		ship = { name = "Tourville" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
-		ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
-			ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
-		ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Armored Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Protected Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Light Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Light Cruisers" } } }
-		ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Light Cruisers" } } }
-		ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
-		ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }	
-		ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
-		ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }	
-		ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
-		ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
-		ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
-		ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }	
-		ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
-		ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }
-		ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Pre-1905 Destroyer"} } }	 
+			ship = { name = "Tsesarevich" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+			ship = { name = "Imperator Alexander II" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+			ship = { name = "Dvienadtsat Apostolov" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+			ship = { name = "Georgi Pobiedonosets" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+			ship = { name = "Sinop" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+			ship = { name = "Petr Veliki" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+			ship = { name = "Slava" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+			ship = { name = "Minin" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Admiral Makarov" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Bayan" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Rurik" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "General-Admiral" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Gerzog Edinburgski" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Pamiat Azova" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Bogatyr" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Oleg" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Admiral Kornilov" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Avrora" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Diana" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Rossia" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Gromoboi" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Prytky" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Podvizhni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Porazhayuschi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Poslushni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Prochni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Pronzitelni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Prozorlivi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Pylki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Retivi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Rezvi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Ryani" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Serditi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Skori" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Smyeli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Smyetlivi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Statni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Stremitelni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Strogi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Sviryepi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Bezposhchadni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Bezshumni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Beztrashni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Bodri" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Boiki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Bravi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Vidni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Grozovoi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Vlastni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Gromyaschi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Grozni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Zadorni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Zavetni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Zavidni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Zorki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Zvonki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Zharki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Zhivoi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Zhivuchi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Zhutki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Inzhener-Mekhanik Anastasov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Leitenant Maleev" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Tochni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Trevozhni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Tverdi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Iskusni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Ispolnitelni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Krepki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Legki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Leitenant Burakov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Letuchi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Likhoi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Lovki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Metki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Molodetski" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Moshchni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Bditelni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Boevoi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Burni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Inzhener-Mekhanik Dmitriev" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Inzhener-Mekhanik Zverev" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Kapitan Yurasovski" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Leitenant Sergeev" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Vnimatelni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Vnushitelni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Vynoslivi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Podvizhny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Porazhayushchy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Poslushny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Prochny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Pronzitelny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Prozorlivy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Pylky" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Retivy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Rezvy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Ryany" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Serdity" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Skory" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Smely" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Smetlivy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Statny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Stremitelny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Strogy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Svirepy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Besposhchadny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			ship = { name = "Tri Svititelia" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+			ship = { name = "Rotislav" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+			ship = { name = "Pantelimon" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+			ship = { name = "Kagul" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Ochakov" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Dyelni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Dyeyatelni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Dostoini" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Rastoropni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Razyashchi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Silni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Storozhevoi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Stroini" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Tri Svyatitelya" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Pre-Dreadnoughts" } } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			ship = { name = "1.Askold" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Almaz" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Zhemchug" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
+			ship = { name = "Donskoi Kazak" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Kazanets" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Sterehushchi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Strashni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Turkmenetz-Stavropolski" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Ukraina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Vojskovoi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Zabajkaletz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Dobrovoletz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Emir Bukharski" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Finn" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Moskvityanin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Amuretz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Gaidamak" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Ussurietz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Vsadnik" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "General Kondratenko" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Okhotnik" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Pogranichnik" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Sibirski Stryelok" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Kapitan-Leitenant Baranov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Leitenant Pushchin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Leitenant Shestakov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "Leitenant Zatsarenni" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "1905 Destroyer" } } }
+			ship = { name = "2.Askold" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Armored Cruisers" } } }
 		}
 	}
 }

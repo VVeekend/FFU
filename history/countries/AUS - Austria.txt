@@ -243,7 +243,7 @@ create_equipment_variant = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			mid_1_custom_slot = ship_airplane_launcher_1
 			mid_2_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_medium_battery_1
+
 		}
 	}
 	
@@ -323,4 +323,3 @@ create_equipment_variant={ name="Dreadnoughts" name_group = AUS_BB_HISTORICAL ty
 		  mid_2_custom_slot = ship_secondaries_1
           rear_1_custom_slot = ship_super_heavy_battery_1 } }
 }
-

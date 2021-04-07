@@ -280,7 +280,7 @@ create_equipment_variant = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			mid_1_custom_slot = ship_airplane_launcher_1
 			mid_2_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_medium_battery_1
+
 		}
 	}
 	
@@ -369,93 +369,4 @@ create_equipment_variant = {
           mid_1_custom_slot = ship_secondaries_1
           mid_2_custom_slot = ship_secondaries_1
           rear_1_custom_slot = ship_super_heavy_battery_1 } }	
-}
-
-1914.1.1 = {
-	oob = "SOV_1914"
-
-
-	#-------------------------------------------------------
-	#							NF
-	#-------------------------------------------------------
-
-	#Army
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = ww1_artillery_effort_1
-	complete_national_focus = doctrine_effort
-	complete_national_focus = ww1_trenchwarfare
-
-	#Industrial
-	complete_national_focus = industrial_effort
-	complete_national_focus = infrastructure_effort
-
-	#Political
-	complete_national_focus = political_effort
-
-	#Diplomatic
-	complete_national_focus = ww1_diplomatic_effort
-	complete_national_focus = neutrality_focus
-	complete_national_focus = ww1_military_reserve
-	
-
-	#-------------------------------------------------------
-
-	set_technology = {
-
-		# Infantry
-		infantry_weapons = 1
-		ww1infantry_weapons1 = 1
-		support_weapons = 1
-		infantry_binoculars = 1
-		infantry_grenade = 1
-		motorised_infantry = 1
-		ww1_ambulance1 = 1
-
-
-		# Support
-		tech_support = 1
-		tech_engineers = 1
-		tech_recon = 1
-		tech_military_police = 1
-		tech_maintenance_company = 1
-		tech_field_hospital = 1
-		tech_logistics_company = 1
-
-		# Armor
-		gwtank = 1 # 1910 Armored Car
-
-		# Artillery
-		light_field_gun1 = 1
-		bonus_artillery1 = 1
-		heavy_field_gun1 = 1
-		bonus_bertha1 = 1
-
-		# Navy
-		transport = 1
-
-		# Air
-		ww1_fighter1 = 1
-
-		# Engineering
-		electronic_mechanical_engineering = 1
-
-		# Industry
-	}
-
-	set_politics = {
-	    ruling_party = communism
-	    last_election = "1910.1.1"
-	    election_frequency = 48
-	    elections_allowed = no
-	}
-	set_popularities = {
-	    democratic = 0
-	    fascism = 0
-	    communism = 100
-	    neutrality = 0
-	}
-
-	add_ideas = {
-	}
 }
