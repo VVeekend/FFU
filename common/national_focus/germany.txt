@@ -909,7 +909,7 @@ instant_build = yes  } }
 	}
 
 	focus = {
-		id = GER_ww1_Kaiserschlacht
+		id = GER_ww1_kaiserschlacht
 		prerequisite = { }
 		icon = GFX_hoi4tgw_ironcross
 		available = { date > 1916.1.1 }

@@ -900,6 +900,6 @@
  motorized_rocket_equipment_1_desc:0 "Multiple rocket launchers such as these deliver explosives to a target area more quickly than conventional artillery, but with lower accuracy and requiring a longer time to reload. Being mounted on trucks, this version is able to launch attacks and change positions before the enemy can return fire."
  SOV_motorized_rocket_equipment_1:0 "BM-13 Katyusha"
  SOV_motorized_rocket_equipment_1_short:0 "Katyusha"
-
+ ARCHETYPE_DESC_ENTRY:0 "    - $COUNT|0$ $NAME|H$"
 
 

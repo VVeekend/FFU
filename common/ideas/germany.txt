@@ -1,7 +1,7 @@
 ideas={
 
 	political_advisor={
-	        GER_Emil={ allowed={ tag=GER } traits={ captain_of_industry } ai_will_do={ factor=1 } }
+	        GER_Emil={ allowed={ tag=GER } picture = rudolf_hess traits={ captain_of_industry } ai_will_do={ factor=1 } }
 			GER_bernhard_von_bulow={ allowed={ tag=GER } traits={ prince_of_terror } ai_will_do={ factor=1 } }
 			GER_theobald_von_bethmann_hollweg={ allowed={ tag=GER } traits={ compassionate_gentleman } ai_will_do={ factor=1 } }
 			#GER_georg_von_hertling={ allowed={ tag=GER } traits={ backroom_backstabber } ai_will_do={ factor=1 } }
@@ -13,7 +13,7 @@ ideas={
 			GER_clemens_von_delbruck={ allowed={ tag=GER } traits={ popular_figurehead } ai_will_do={ factor=1 } }
 			GER_karl_trimborn={ allowed={ tag=GER } traits={ silent_workhorse } ai_will_do={ factor=1 } }
 			#GER_gustav_bauer={ allowed={ tag=GER } traits={ democratic_reformer } ai_will_do={ factor=1 } }
-			GER_Yaboi={ allowed={ tag=GER } traits={ war_industrialist } ai_will_do={ factor=1 } }
+			GER_Yaboi={ allowed={ tag=GER } picture = rudolf_hess traits={ war_industrialist } ai_will_do={ factor=1 } }
 
 			GER_wolfgang_kapp={
 					allowed={ tag=GER }

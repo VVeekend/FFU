@@ -163,8 +163,7 @@ ideas={
 			allowed = {
 				original_tag = SOV
 			}
-			modifier = {
-			army_org = -5				
+			modifier = {			
 			army_morale_factor = -0.1				
 			training_time_army_factor = 0.25			
             army_attack_factor = -0.05
