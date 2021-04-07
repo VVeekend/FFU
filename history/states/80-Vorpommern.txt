@@ -12,6 +12,7 @@ state={
 		add_core_of = GER
 		buildings = {
 			infrastructure = 6
+			dockyard = 7
 			fuel_silo = 1
 			industrial_complex = 2
 		}

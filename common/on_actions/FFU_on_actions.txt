@@ -52,6 +52,18 @@ on_actions = {
 				}
 				add_ideas = peace_training
 			}
+			every_country={
+				limit = { 
+					is_playable_country=yes
+					NOT = {
+						OR = {
+							has_war = yes
+							add_ideas = naval_race
+						}
+					} 
+				}
+				add_ideas = naval_race
+			}
 		}
 	}
 	on_state_control_changed {
