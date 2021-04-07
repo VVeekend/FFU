@@ -8,6 +8,9 @@ on_actions = {
 				limit={
 					is_playable_country=yes
 				}
+				set_rule = {
+					can_use_kamikaze_pilots = yes
+				}
 				add_ideas = peace_training
 				set_variable = { super_events_enabled = 2 }
 			}
@@ -29,13 +32,14 @@ on_actions = {
 			}
 		}
 	}
-	on_capitulation = {
-		effect = { 
+	on_state_control_changed {
+		effect = {
 			if = {
-				limit = { 
+				limit = {
+					tag = TUR
+					FROM.FROM = { state = 152 }
+					FROM = { original_tag = SER }
 					NOT = { has_global_flag = balkan_war_over }
-					original_tag = SER 
-					TUR = { has_war_with = SER }
 				}
 				set_global_flag = balkan_war_over
 				TUR = { 
@@ -47,6 +51,10 @@ on_actions = {
 					MNT = { white_peace = TUR }
 				}
 			}
+		}
+	}
+	on_capitulation = {
+		effect = { 
 			if = {
 				limit = { 
 					original_tag = RUS

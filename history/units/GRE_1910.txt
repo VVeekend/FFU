@@ -154,31 +154,6 @@ units = {
 		division_template="Infantry Division"
 		start_experience_factor=0.05
 	}
-	navy = {
-		name = "Greek Fleet"
-		location = 16491 # Athens
-		base =  16491 # Athens
-	     ship = { name = "Caïman" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GRE version_name = "Pre-Dreadnoughts" } } }
-             ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GRE version_name = "Pre-Dreadnoughts" } } }
-	   ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Armored Cruisers" } } }
-	   ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Protected Cruiser" } } }
-	     ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-	     ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }	
-	     ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-	     ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-  	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-	     ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-	     ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }	
-	     ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-	     ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "1905 Destroyer"} } }
-  	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }
-	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Pre-1905 Destroyer"} } }		 
-	}
 }
 air_wings = { 
 	}

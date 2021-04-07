@@ -8,6 +8,7 @@ set_research_slots = 4
 set_stability = 0.45
 set_war_support = 0.30
 set_convoys = 100
+set_naval_oob = "SOV_navy"
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------

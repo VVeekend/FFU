@@ -537,9 +537,6 @@ country_event = {
 					ideology = conservatism 
 					traits = { } 
 				}
-				teleport_armies = {
-					to_state = 221
-				}
 			}
 			UKR = {
 				transfer_state = 172

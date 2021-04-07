@@ -459,35 +459,6 @@ units = {
 	#    division_template = "Süvari Tugayı"
 	#    start_experience_factor = 0
 	#}
-	navy = {
-		name = "Osmanli Donanmasi"
-		location = 3195 # Smyrna
-		base =  3195 # Smyrna
-	     ship = { name = "Caïman" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TUR version_name = "Pre-Dreadnoughts" } } }
-             ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = TUR version_name = "Pre-Dreadnoughts" } } }
-             ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Armored Cruisers" } } }
-	     ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Armored Cruisers" } } }
-	     ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer"} } }
-	     ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer"} } }	
-	     ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer"} } }
-	     ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer"} } }
-  	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "Pre-1905 Destroyer"} } }
-	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "Pre-1905 Destroyer"} } }
-	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "Pre-1905 Destroyer"} } }
-	     ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "Pre-1905 Destroyer"} } }		 
-		 
-		# 1914 strengths: 
-		# 1 modern battlecruiser "Yavûz Sultân Selîm" former SMS Goeben, acquired 29 October 1914, excluded for 1910 scenario
-		# 2 pre-dreadnought battleships "Barbaros Hayreddin", "Turgut Reis", acquired 12 September 1910, excluded for 1910 scenario
-		# 1 cruiser "Midili" (former SMS Breslau) acquired 16 August 1914, excluded for 1910 scenario
-		# 2 "torpedo cruisers" (aka destroyers) "Peyk-i Şevket", "Berk-i Şevket"  both available 1910
-		# 1 coastal defence ship "Mesûdiye" - class as really old cruiser, both available 1910
-		# 2 Protected Cruisers "Hamidiye", "Mecidiye", both available 1910
-		# 8 destroyers "Basra", "Samsun", "Taşoz", "Yarhisar",  "Gayret-i Vatâniye", "Yâdigâr-ı Millet", "Muâvenet-i Millîye" , "Nümûne-i Hamiyet", some available 1910, assume all?
-		# 8 "torpedo boats" aka small destroyers, "Draç","Kütahya","Mûsul","Akhisar","Sultanhisar","Demirhisar","Sivrihisar","Hamidâbad"
-		# some minelayers, also excluded	
-	
-	}
 }
 air_wings = {}
 instant_effect = {

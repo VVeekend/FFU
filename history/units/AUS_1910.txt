@@ -616,57 +616,6 @@ start_experience_factor=0.1
 
 ############################################################################################
 
- navy = {
-name = "1. Linienschiffschwadron"
-location = 7018 # Zara
-base =  7018 # Zara
-	 ship = { name = "Terrible" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner =AUS version_name = "Dreadnoughts" } } }
-     ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = AUS version_name = "Dreadnoughts" } } }
-     ship = { name = "Caïman" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = AUS version_name = "Dreadnoughts" } } }
-	 ship = { name = "Styx" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Semi-Dreadnoughts" } } }
-	 ship = { name = "Cocyte" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Semi-Dreadnoughts" } } }
-     ship = { name = "Styx" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Semi-Dreadnoughts" } } }
-     ship = { name = "Dévastation" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-     ship = { name = "Terrible" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-     ship = { name = "Indomptable" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-     ship = { name = "Caïman" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-     ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } } 
-	 ship = { name = "Requin" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-	 ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Armored Cruisers" } } }
-	 ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Armored Cruisers" } } }
-	 ship = { name = "Pluton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Protected Cruisers" } } }
-	 ship = { name = "Pluton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Protected Cruisers" } } }
-	 ship = { name = "Pluton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Protected Cruisers" } } }
-	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruisers" } } }
-	 ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruisers" } } }
-	 ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer"} } }
-	 ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer"} } }	
-	 ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer"} } }
-	 ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer"} } }	
-	 ship = { name = "HMS Volunteer" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer"} } }
-	 ship = { name = "HMS Wolverine" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }
-	 ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer"} } }	 
-
-}
-
-}
-
-
 air_wings = { 
 }
 

@@ -8,7 +8,7 @@ set_research_slots = 4
 set_stability = 0.7
 set_war_support = 0.80
 set_convoys = 300
-
+set_naval_oob = "FRA_navy"
 create_faction = entente # France is now Leader of the Entente | Since Beta 0.2
 
 add_to_faction = FRA

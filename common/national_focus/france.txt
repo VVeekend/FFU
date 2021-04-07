@@ -1351,7 +1351,6 @@ focus = {
 		icon = GFX_FRA_nivelle_offensive-91858
 		available = {
 		 OR ={ 
-		 GER = { has_completed_focus = GER_ww1_Kaiserschlacht } 
 		 FRA = { surrender_progress > 0.38 }
 		 date > 1915.6.1  
 		   }
