@@ -73,7 +73,7 @@ buildings = {
 		icon_frame = 15
 		land_fort = 1
 		max_level = 10
-		value = 1
+		value = 2
 	}
 	bunker = {
 		show_on_map = 1
