@@ -131,7 +131,7 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 		name = "1905 Destroyer"
-		type = ship_hull_light_1
+		type = ship_hull_light_2
 		name_group = RUS_DD_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -147,7 +147,7 @@ create_equipment_variant = {
 	}
 	
 create_equipment_variant = {
-		name = "Light Cruisers"			
+		name = "Light Cruiser 1890"
 		type = ship_hull_cruiser_1
 		name_group = RUS_CL_HISTORICAL
 		parent_version = 0
@@ -165,7 +165,7 @@ create_equipment_variant = {
 	}
 
 create_equipment_variant = {
-		name = "Protected Cruisers"			
+		name = "Heavy Cruiser 1890"
 		type = ship_hull_cruiser_1
 		name_group = RUS_CL_HISTORICAL
 		parent_version = 0
@@ -201,7 +201,7 @@ create_equipment_variant = {
 	}
 
 create_equipment_variant = {
-		name = "Battlecrusiers"		
+		name = "Battlecrusier"
 		type = ship_hull_heavy_2
 		name_group = RUS_BC_HISTORICAL
 		parent_version = 0
@@ -220,7 +220,7 @@ create_equipment_variant = {
 		}
 	}
 	
-create_equipment_variant={ name="Pre-Dreadnoughts" name_group = RUS_BB_HISTORICAL type=ship_hull_heavy_1 parent_version = 0 obsolete=yes 
+create_equipment_variant={ name="Pre-Dreadnought" name_group = RUS_BB_HISTORICAL type=ship_hull_heavy_1 parent_version = 0 obsolete=yes
         modules = {
 		    fixed_ship_battery_slot = ship_heavy_battery_1 
             fixed_ship_fire_control_system_slot = ship_fire_control_system_0 
@@ -231,7 +231,7 @@ create_equipment_variant={ name="Pre-Dreadnoughts" name_group = RUS_BB_HISTORICA
             mid_1_custom_slot = ship_secondaries_1 
             rear_1_custom_slot = empty } }
 
-create_equipment_variant={ name="Semi-Dreadnoughts" name_group = RUS_BB_HISTORICAL type=ship_hull_heavy_2 parent_version = 0 		
+create_equipment_variant={ name="Semi-Dreadnought" name_group = RUS_BB_HISTORICAL type=ship_hull_heavy_2 parent_version = 0
         modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
@@ -245,7 +245,7 @@ create_equipment_variant={ name="Semi-Dreadnoughts" name_group = RUS_BB_HISTORIC
 			rear_1_custom_slot = empty } }
 		
 		
-create_equipment_variant={ name="Dreadnoughts" name_group = RUS_BB_HISTORICAL type= ship_hull_super_heavy_1 parent_version = 0  
+create_equipment_variant={ name="Dreadnought" name_group = RUS_BB_HISTORICAL type= ship_hull_super_heavy_1 parent_version = 0
         modules = {fixed_ship_battery_slot = ship_super_heavy_battery_1
           fixed_ship_fire_control_system_slot = ship_fire_control_system_0 
           fixed_ship_radar_slot = empty 

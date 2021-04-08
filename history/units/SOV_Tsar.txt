@@ -32,7 +32,7 @@
 	}
 
 	units = {
-		division = {  start_experience_factor = 0.1 start_manpower_factor = 1
+		division = {  start_experience_factor = 0.1 
 			force_equipment_variants = { ww1_heavy_tank_equipment_1 = { owner = "SOV" } }
 			location = 20320
 			division_template = "Eksperimental'nyy tank" 

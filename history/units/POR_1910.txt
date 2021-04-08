@@ -41,36 +41,25 @@ division_template = {
 
 units = {
 	division= { 
-			name = "1o Batalhão de Infantaria"
-			location = 16146 # Lisboa
-			division_template="Infantry Division"
-			start_experience_factor=0.05
-			}
+		name = "1o Batalhão de Infantaria"
+		location = 16146 # Lisboa
+		division_template="Infantry Division"
+		start_experience_factor=0.05
+	}
 	
 	
 	division= { 
-			name = "2o Batalhão de Infantaria"
-			location = 16146 # Lisboa
-			division_template="Infantry Division"
-			start_experience_factor=0.1
-			}
-navy = {
-name = "Home Fleet"
-location = 10957 # SE
-base =  10957 # SE
-	   ship = { name = "Pluton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "Protected Cruisers" } } }
-	   ship = { name = "Pluton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "Protected Cruisers" } } }
-	   ship = { name = "Pluton" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "Protected Cruisers" } } }
-	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "Light Cruisers" } } }
-	   ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "Light Cruisers" } } }
-	   ship = { name = "HMS Witherington" definition = destroyer  equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Pre-1905 Destroyer"} } }
-}
-}
-air_wings = { 
+		name = "2o Batalhão de Infantaria"
+		location = 16146 # Lisboa
+		division_template="Infantry Division"
+		start_experience_factor=0.1
 	}
+}
+
 instant_effect = {
-	add_equipment_production = { equipment = { type = infantry_equipment_0 creator = "POR" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = support_equipment_1 creator = "POR" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "POR" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "POR" } requested_factories = 1 progress = 0.1 efficiency = 50}
+    add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "POR" } requested_factories = 1 progress = 0.1 efficiency = 50 }
+    add_equipment_production = { equipment = { type = support_equipment_1 creator = "POR"  } requested_factories = 1 progress = 0.1 efficiency = 50 }
+    add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "POR" } requested_factories = 1 progress = 0.1 efficiency = 50 }
+	add_equipment_production = { equipment = { type = heavy_field_gun_equipment_1 creator = "POR" } requested_factories = 5 progress = 0.1 efficiency = 50 }
+    add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "POR" } requested_factories = 1 progress = 0.1 efficiency = 50 }
 }

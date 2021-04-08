@@ -42,6 +42,7 @@ entity = {
 	scale = 0.8			
 }	
 
+
 entity = {
 	name = "infantry_mg_entity"
 	pdxmesh = "generic_western_european_mg_infantry_mesh"

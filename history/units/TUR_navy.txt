@@ -5,34 +5,34 @@ units = {
 		task_force = {
 			location = 3195
 			name = "Osmanlı Donanması"
-			ship = { name = "Mesûdiye" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Armored Cruisers" } } }
-			ship = { name = "1.Hamidiye" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Light Cruisers"	 } } }
-			ship = { name = "2.Hamidiye" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Light Cruisers"	 } } }
-			ship = { name = "1.Mecidiye" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Light Cruisers"	 } } }
-			ship = { name = "2.Mecidiye" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Light Cruisers"	 } } }
-			ship = { name = "1.Basra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "2.Basra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "1.Samsun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "2.Samsun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "1.Taşoz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "2.Taşoz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "1.Yarhisar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "2.Yarhisar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "1.Gayret-i Vatâniye" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "2.Gayret-i Vatâniye" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "1.Yâdigâr-ı Millet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "2.Yâdigâr-ı Millet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "1.Muâvenet-i Millîye" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "2.Muâvenet-i Millîye" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "1.Nümûne-i Hamiyet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "2.Nümûne-i Hamiyet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "Berk-i Şevket" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "Peyk-i Şevket" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
-			ship = { name = "İclaliye" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Armored Cruisers" } } }
-			ship = { name = "Feth-i Bülend" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Armored Cruisers" } } }
-			ship = { name = "Avni Illah" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Armored Cruisers" } } }
-			ship = { name = "Muin-i-Zaffer" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Armored Cruisers" } } }
-			ship = { name = "Peleng-i Derya" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Light Cruisers"	 } } }
+			ship = { name = "Mesûdiye" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TUR version_name = "Heavy Cruiser 1900" } } }
+			ship = { name = "1.Hamidiye" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TUR version_name = "Light Cruiser 1900" } } }
+			ship = { name = "2.Hamidiye" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TUR version_name = "Light Cruiser 1900" } } }
+			ship = { name = "1.Mecidiye" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TUR version_name = "Light Cruiser 1900" } } }
+			ship = { name = "2.Mecidiye" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TUR version_name = "Light Cruiser 1900" } } }
+			ship = { name = "1.Basra" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "2.Basra" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "1.Samsun" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "2.Samsun" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "1.Taşoz" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "2.Taşoz" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "1.Yarhisar" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "2.Yarhisar" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "1.Gayret-i Vatâniye" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "2.Gayret-i Vatâniye" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "1.Yâdigâr-ı Millet" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "2.Yâdigâr-ı Millet" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "1.Muâvenet-i Millîye" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "2.Muâvenet-i Millîye" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "1.Nümûne-i Hamiyet" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "2.Nümûne-i Hamiyet" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TUR version_name = "1905 Destroyer" } } }
+			ship = { name = "Berk-i Şevket" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "Pre-1905 Destroyer" } } }
+			ship = { name = "Peyk-i Şevket" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "Pre-1905 Destroyer" } } }
+			ship = { name = "İclaliye" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Heavy Cruiser 1890" } } }
+			ship = { name = "Feth-i Bülend" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Heavy Cruiser 1890" } } }
+			ship = { name = "Avni Illah" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Heavy Cruiser 1890" } } }
+			ship = { name = "Muin-i-Zaffer" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Heavy Cruiser 1890" } } }
+			ship = { name = "Peleng-i Derya" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Light Cruiser 1890" } } }
 		}
 	}
 }

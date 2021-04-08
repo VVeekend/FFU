@@ -613,25 +613,13 @@ location = 20050 #Wien
 division_template="Hussars"
 start_experience_factor=0.1
 }
-
+}
 ############################################################################################
 
 instant_effect = {
-    
-	add_equipment_production = {
-    equipment = {
-           type = heavy_field_gun_equipment_1 creator = "AUS"
-        }
-     requested_factories = 1 progress = 0.1 efficiency = 20
-    }
-
-	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "AUS" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = support_equipment_1 creator = "AUS" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "AUS" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "AUS" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = ship_hull_heavy_1 creator = "AUS" version_name = "Pre-Dreadnoughts"  }  requested_factories = 1  progress = 0.96  amount = 1 } #SMS Erzherzog Franz Ferdinand LD:12-Sep-1907 Comp:05-Jun-1910
-	add_equipment_production = { equipment = { type = ship_hull_heavy_1 creator = "AUS" version_name = "Pre-Dreadnoughts"  }  requested_factories = 1  progress = 0.77  amount = 1 } #SMS Radetzky LD:26-Nov-1907 Comp:15-Jan-1911
-	add_equipment_production = { equipment = { type = ship_hull_heavy_1 creator = "AUS" version_name = "Pre-Dreadnoughts"  }  requested_factories = 1  progress = 0.48  amount = 1 } #SMS Zristi LD:20-Jan-1909 Comp:15-Sep-1911
-	add_equipment_production = { equipment = { type = ship_hull_cruiser_1 creator = "AUS" version_name = "Armored Crusiers"   }  requested_factories = 1  progress = 0.78  amount = 1 } #SMS Admiral Spaun LD:30-May-1908 Comp:15-Nov-1910
-
+    add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "AUS" } requested_factories = 1 progress = 0.1 efficiency = 50 }
+    add_equipment_production = { equipment = { type = support_equipment_1 creator = "AUS"  } requested_factories = 1 progress = 0.1 efficiency = 50 }
+    add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "AUS" } requested_factories = 1 progress = 0.1 efficiency = 50 }
+	add_equipment_production = { equipment = { type = heavy_field_gun_equipment_1 creator = "AUS" } requested_factories = 5 progress = 0.1 efficiency = 50 }
+    add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "AUS" } requested_factories = 1 progress = 0.1 efficiency = 50 }
 }

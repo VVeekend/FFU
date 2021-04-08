@@ -137,7 +137,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -147,7 +147,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -157,7 +157,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -191,7 +191,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -201,7 +201,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -211,7 +211,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -221,7 +221,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -231,7 +231,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -249,7 +249,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -259,7 +259,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -277,7 +277,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -287,7 +287,7 @@ units = {
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -321,7 +321,7 @@ units = {
 			division_template="Reserve Brigade"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -331,7 +331,7 @@ units = {
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -341,7 +341,7 @@ units = {
 			division_template="Reserve Brigade"
 			start_experience_factor=0.1
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -351,7 +351,7 @@ units = {
 			division_template="Reserve Brigade"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -361,7 +361,7 @@ units = {
 			division_template="Reserve Brigade"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -371,7 +371,7 @@ units = {
 			division_template="Reserve Brigade"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -381,7 +381,7 @@ units = {
 			division_template="Reserve Brigade"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -391,7 +391,7 @@ units = {
 			division_template="Reserve Brigade"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 	
@@ -401,7 +401,7 @@ units = {
 			division_template="Reserve Brigade"
 			start_experience_factor=0.05
 			start_equipment_factor = 0.3 
-			start_manpower_factor = 0.3
+			
 			}
 	
 
@@ -411,17 +411,14 @@ division= {
 	division_template="Reserve Brigade"
 	start_experience_factor=0.05
 	start_equipment_factor = 0.3 
-	start_manpower_factor = 0.3
+	
 	}
 }
 
-air_wings = {}
-
 instant_effect = {
-	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "ENG" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = support_equipment_1 creator = "ENG" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "ENG" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "ENG" } requested_factories = 1 progress = 0.1 efficiency = 50}
-
-
+    add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "ENG" } requested_factories = 1 progress = 0.1 efficiency = 50 }
+    add_equipment_production = { equipment = { type = support_equipment_1 creator = "ENG"  } requested_factories = 1 progress = 0.1 efficiency = 50 }
+    add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "ENG" } requested_factories = 1 progress = 0.1 efficiency = 50 }
+	add_equipment_production = { equipment = { type = heavy_field_gun_equipment_1 creator = "ENG" } requested_factories = 5 progress = 0.1 efficiency = 50 }
+    add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "ENG" } requested_factories = 1 progress = 0.1 efficiency = 50 }
 }

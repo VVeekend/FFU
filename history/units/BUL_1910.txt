@@ -137,7 +137,7 @@ units = {
 	
 	
 	division= { 
-			name = "10-ta 'Belomorska' Pekhotna Divizija"
+			name = "10-ta 'BULomorska' Pekhotna Divizija"
 			location = 8047 # Sofia
 			division_template="Infantry Brigade"
 			start_experience_factor=0.1
@@ -197,10 +197,11 @@ units = {
 
 	}
 
-air_wings = { 
-	}
 
-instant_effect = {
-	add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "BUL" } requested_factories = 1 progress = 0.1 efficiency = 50}
-	add_equipment_production = { equipment = { type = support_equipment_1 creator = "BUL" } requested_factories = 1 progress = 0.1 efficiency = 50}
-}
+	instant_effect = {
+		add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "BUL" } requested_factories = 1 progress = 0.1 efficiency = 50 }
+		add_equipment_production = { equipment = { type = support_equipment_1 creator = "BUL"  } requested_factories = 1 progress = 0.1 efficiency = 50 }
+		add_equipment_production = { equipment = { type = light_field_gun_equipment_1 creator = "BUL" } requested_factories = 1 progress = 0.1 efficiency = 50 }
+		add_equipment_production = { equipment = { type = heavy_field_gun_equipment_1 creator = "BUL" } requested_factories = 5 progress = 0.1 efficiency = 50 }
+		add_equipment_production = { equipment = { type = motorized_equipment_0 creator = "BUL" } requested_factories = 1 progress = 0.1 efficiency = 50 }
+	}

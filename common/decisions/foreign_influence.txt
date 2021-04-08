@@ -137,19 +137,7 @@ foreign_influence = {
 		visible = {
 			has_government = fascism
 			NOT = {
-				AND = {
-					tag = ENG
-					FROM = {
-						OR = {
-							tag = CAN
-							tag = SAF
-							tag = RAJ
-							tag = AST
-							tag = NZL
-						}
-						has_government = fascism
-					}
-				}
+				tag = ENG
 			}
 			FROM = {
 				is_puppet_of = ROOT

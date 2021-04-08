@@ -13,6 +13,9 @@ state={
                 coal=80
 	}
 	history={
+		victory_points = {
+			16094 50
+		}
 		owner = SPR
 		add_core_of = SPR
 		buildings = {

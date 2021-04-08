@@ -3,42 +3,52 @@ units = {
 		name = "K.u.K Kriegsmarine"
 		naval_base = 7018
 		task_force = {
-			location = 7018
 			name = "K.u.K Kriegsmarine"
-			ship = { name = "SMS Kronprinzessin Erzherzogin Stephanie" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "SMS Kronprinz Erzherzogin Rudolf" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "SMS Meteor" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
-			ship = { name = "SMS Blitz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
-			ship = { name = "SMS Komet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
-			ship = { name = "SMS Planet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
-			ship = { name = "SMS Trabant" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
-			ship = { name = "SMS Satellit" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
-			ship = { name = "SMS Magnet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
-			ship = { name = "SMS Habsburg" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "SMS Árpád" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "SMS Babenberg" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "SMS Erzherzog Karl" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "SMS Erzherzog Friedrich" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "SMS Erzherzog Ferdinand Max" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "SMS Monarch" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "SMS Wien" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "SMS Budapest" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnoughts" } } }
-			ship = { name = "SMS Kaiserin und Königin Maria Theresia" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Armored Cruisers" } } }
-			ship = { name = "SMS Kaiser Karl VI" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Armored Cruisers" } } }
-			ship = { name = "SMS Zenta" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruisers"	 } } }
-			ship = { name = "SMS Kaiser Franz Joseph I" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruisers"	 } } }
-			ship = { name = "SMS Panther" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruisers"	 } } }
-			ship = { name = "SMS Leopard" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruisers"	 } } }
-			ship = { name = "SMS Tiger" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruisers"	 } } }
-			ship = { name = "SMS Sankt Georg" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Armored Cruisers" } } }
-			ship = { name = "SMS Aspern" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruisers"	 } } }
-			ship = { name = "SMS Szigetvár" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruisers"	 } } }
-
-
-
-
-
-
+			location = 7018
+			ship = { name = "SMS Kronprinzessin Erzherzogin Stephanie" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "SMS Kronprinz Erzherzogin Rudolf" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
+			ship = { name = "SMS Meteor" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer" } } }
+			ship = { name = "SMS Blitz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer" } } }
+			ship = { name = "SMS Komet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer" } } }
+			ship = { name = "SMS Planet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer" } } }
+			ship = { name = "SMS Trabant" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer" } } }
+			ship = { name = "SMS Satellit" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer" } } }
+			ship = { name = "SMS Magnet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer" } } }
+			ship = { name = "SMS Ulan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
+			ship = { name = "SMS Streiter" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
+			ship = { name = "SMS Wildfang" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
+			ship = { name = "SMS Scharfschütze" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
+			ship = { name = "SMS Habsburg" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
+			ship = { name = "SMS Árpád" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
+			ship = { name = "SMS Babenberg" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
+			ship = { name = "SMS Erzherzog Karl" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Semi-Dreadnought" } } }
+			ship = { name = "SMS Erzherzog Friedrich" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Semi-Dreadnought" } } }
+			ship = { name = "SMS Erzherzog Ferdinand Max" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = AUS version_name = "Semi-Dreadnought" } } }
+			ship = { name = "SMS Uskoke" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
+			ship = { name = "SMS Turul" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
+			ship = { name = "SMS Pandur" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
+			ship = { name = "SMS Csikos" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
+			ship = { name = "SMS Reka" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
+			ship = { name = "SMS Dinara" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
+			ship = { name = "SMS Velebit" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUS version_name = "1905 Destroyer" } } }
+			ship = { name = "SMS Monarch" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
+			ship = { name = "SMS Wien" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
+			ship = { name = "SMS Budapest" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
+			ship = { name = "SMS Kaiserin und Königin Maria Theresia" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "SMS Kaiser Karl VI" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "Heavy Cruiser 1900" } } }
+			ship = { name = "SMS Zenta" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "Light Cruiser 1900" } } }
+			ship = { name = "SMS Kaiser Franz Joseph I" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruiser 1890" } } }
+			ship = { name = "SMS Panther" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruiser 1890" } } }
+			ship = { name = "SMS Leopard" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruiser 1890" } } }
+			ship = { name = "SMS Tiger" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruiser 1890" } } }
+			ship = { name = "SMS Zara" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruiser 1890" } } }
+			ship = { name = "SMS Spalato" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruiser 1890" } } }
+			ship = { name = "SMS Sebenico" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruiser 1890" } } }
+			ship = { name = "SMS Lussin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruiser 1890" } } }
+			ship = { name = "SMS Sankt Georg" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "Heavy Cruiser 1900" } } }
+			ship = { name = "SMS Aspern" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "Light Cruiser 1900" } } }
+			ship = { name = "SMS Szigetvár" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "Light Cruiser 1900" } } }
+			ship = { name = "SMS Kaiserin Elisabeth" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruiser 1890" } } }
 		}
 	}
 }

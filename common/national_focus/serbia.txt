@@ -590,7 +590,7 @@ focus_tree = {
 
 		available = {
 			SER = { 
-				controls_state = 107 
+				controls_state = 156
 			}
 		}
 
@@ -633,97 +633,6 @@ focus_tree = {
 		y = 3
 		mutually_exclusive = { focus=SER_ww1_recognize_minorities }
 	}
-
-	focus = {
-		id = SER_ww1_reinforce_ottoman_border
-		prerequisite = { focus=SER_ww1_serbia_first }
-		icon = GFX_goal_generic_construct_military
-
-		available = {
- 			SER = { 
-				controls_state = 108 
-			}
-		}
-
-		completion_reward = { 
-
-			108={
-				add_building_construction = {
-					type = trench
-					level = 3
-					province = 11857
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = trench
-					level = 3
-					province = 9906
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = trench
-					level = 3
-					province = 9890
-					instant_build = yes
-				}
-			}
-
-		}
-		
-		ai_will_do = { factor = 2 }
-		cost = 10
-		x = 14
-		y = 4
-	}
-
-	focus = {
-		id = SER_ww1_reinforce_austria_border
-		prerequisite = { focus=SER_ww1_reinforce_ottoman_border }
-		icon = GFX_goal_generic_construct_mil_factory
-
-		available = {
- 			SER = { 
-				controls_state = 107
-			}
-		}
-
-		completion_reward = { 
-
-			107={
-				add_building_construction = {
-					type = trench
-					level = 3
-					province = 11586
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = trench
-					level = 3
-					province = 11583
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = trench
-					level = 3
-					province = 11580
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = trench
-					level = 3
-					province = 3609
-					instant_build = yes
-				}
-			}
-
-		}
-
-		ai_will_do = { factor = 2 }
-		cost = 10
-		x = 14
-		y = 5
-	}
-
 	focus = {
 		id = SER_ww1_recognize_minorities
 		prerequisite = { focus=SER_ww1_develop_serbia }
@@ -760,9 +669,13 @@ focus_tree = {
 			has_global_flag = kis_treaty_of_versailles
 
 			SER = { 
-				controls_state = 104 
-				controls_state = 107
-				controls_state = 108
+				controls_state = 155
+				controls_state = 156
+				controls_state = 152
+				controls_state = 99
+				controls_state = 158
+				controls_state = 157
+				controls_state = 150
 			}
 		}
 
