@@ -288,16 +288,16 @@ ideas={
 			
 			modifier = { 
 				ai_focus_aggressive_factor = 0.1
-				army_speed_factor = 0.25	
+				army_speed_factor = 0.15	
 			}	
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.25
+				attack_bonus_against = 0.15
 			}
 						
 			targeted_modifier = {
 				tag = ROM
-				attack_bonus_against = 0.25
+				attack_bonus_against = 0.15
 			}
 			
 		}

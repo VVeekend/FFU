@@ -815,12 +815,12 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_Stormtroopers2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/stormtroopers.dds"
+		texturefile = "gfx/interface/technologies/hoi4tgw/stormtroopers2.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_Stormtroopers3_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/stormtroopers.dds"
+		texturefile = "gfx/interface/technologies/hoi4tgw/stormtroopers3.dds"
 	}
 	SpriteType = {
 		name = "GFX_marines5_medium"
@@ -5616,10 +5616,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_jaegers2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/jaegers.dds"
+		texturefile = "gfx/interface/technologies/hoi4tgw/jaegers2.dds"
 	}
 	SpriteType = {
 		name = "GFX_jaegers3_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/jaegers.dds"
+		texturefile = "gfx/interface/technologies/hoi4tgw/jaegers3.dds"
 	}
  }

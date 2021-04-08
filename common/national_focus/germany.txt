@@ -136,7 +136,7 @@ instant_build = yes  } }
 		icon = GFX_GER_sturmtruppen-86215
 		x = 20
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_stahlhelm }
 		ai_will_do = {
@@ -285,7 +285,7 @@ category = support_tech
 		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
 		x = 3
 		y = 3
-		cost = 5
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_consolidate_central_powers }
 		ai_will_do = {
@@ -307,7 +307,7 @@ category = support_tech
 		icon = GFX_focus_generic_befriend_turkey
 		x = 7
 		y = 3
-		cost = 5
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_consolidate_central_powers }
 		ai_will_do = {
@@ -356,7 +356,7 @@ category = support_tech
 		icon = GFX_GER_korsettstangen_units-86220
 		x = 5
 		y = 3
-		cost = 10
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_consolidate_central_powers }
 		ai_will_do = {
@@ -465,7 +465,7 @@ air_experience
 		icon = GFX_GER_adriatic_sea_reinforcement-45124
 		x = 3
 		y = 4
-		cost = 10
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_align_austriahungary }
 		ai_will_do = {
@@ -521,7 +521,7 @@ air_experience
 		icon = GFX_GER_specialist_units-46526
 		x = 19
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = GER_sturmtruppen 
@@ -544,7 +544,7 @@ category = mountaineers_tech }
 		icon = GFX_goal_generic_army_artillery2
 		x = 22
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_stahlhelm }
 		ai_will_do = {
@@ -561,7 +561,7 @@ category = mountaineers_tech }
 		icon = GFX_GER_a7v-86394
 		x = 22
 		y = 6
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = GER_specialist_units 
@@ -614,7 +614,7 @@ category = mountaineers_tech }
 		icon = GFX_GER_asienkorps_units-86387
 		x = 7
 		y = 4
-		cost = 10
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_align_ottomans }
 		ai_will_do = {
@@ -701,7 +701,7 @@ instant_build = yes  } }
 		icon = GFX_GER_auxiliary_service_law-87477
 		x = 13
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_industrialization_of_warfare }
 		ai_will_do = {
@@ -719,7 +719,7 @@ instant_build = yes  } }
 		icon = GFX_goal_generic_small_arms
 		x = 21
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_stahlhelm }
 		ai_will_do = {

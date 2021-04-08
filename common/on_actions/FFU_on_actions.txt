@@ -62,7 +62,7 @@ on_actions = {
 					NOT = {
 						OR = {
 							has_war = yes
-							add_ideas = naval_race
+							has_idea = naval_race
 						}
 					} 
 				}
