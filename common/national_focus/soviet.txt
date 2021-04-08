@@ -324,7 +324,7 @@ focus_tree = {
 		icon = GFX_SOV_investigations_into_grigori_rasputin-45142
 		x = 31
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_emergency_fourth_state_duma_meetings }
 		ai_will_do = {
@@ -474,7 +474,7 @@ focus_tree = {
 		icon = GFX_SOV_protsar_duma-45146
 		x = 26
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_tsar_supremacy }
 		ai_will_do = {
@@ -642,7 +642,7 @@ focus_tree = {
 		icon = GFX_SOV_expanded_okhrana-45139
 		x = 26
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_protsar_duma }
 		ai_will_do = {
@@ -662,7 +662,7 @@ focus_tree = {
 		icon = GFX_SOV_emergency_fourth_state_duma_meetings-45137
 		x = 31
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_concessions_to_radicals }
 		ai_will_do = {
@@ -684,7 +684,7 @@ focus_tree = {
 		icon = GFX_SOV_limit_tsar_influence-45140
 		x = 33
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_strengthen_third_state_duma }
 		ai_will_do = {
@@ -701,7 +701,7 @@ focus_tree = {
 		icon = GFX_SOV_additional_siberian_gulags-45147
 		x = 26
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_expanded_okhrana }
 		ai_will_do = {
@@ -1101,7 +1101,7 @@ technology = tech_recon4
 		prerequisite = { focus = SOV_strengthen_third_state_duma }
 		x = 31
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
