@@ -55,11 +55,9 @@ on_actions = {
 			every_country={
 				limit = { 
 					is_playable_country=yes
-					limit = {
-						has_game_rule = {
-							rule = FFU_navy_race
-							option = RACE
-						}
+					has_game_rule = {
+						rule = FFU_navy_race
+						option = RACE
 					}
 					NOT = {
 						OR = {
