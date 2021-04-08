@@ -6,6 +6,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 14714;5232;sea;18426;-1;-1;-1;-1;;West Crimea-East Crimea
 17313;17314;sea;18573;-1;-1;-1;-1;;North Anglo Island to South Anglo Island
 16633;393;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar to North Africa
+11529;20327;sea;;-1;-1;-1;-1;Kuwait-Cairo;Kuwait-Cairo
 11484;17305;sea;18295;-1;-1;-1;-1;;Dutch Island Chain 1
 17305;17304;sea;18295;-1;-1;-1;-1;;Dutch Island Chain 2
 17304;17303;sea;18295;-1;-1;-1;-1;;Dutch Island Chain 3
@@ -48,7 +49,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 17371;17375;sea;17640;-1;-1;-1;-1;;Dodecanese islands 13
 17393;17391;sea;17666;-1;-1;-1;-1;;Dodecanese islands 14
 9767;7177;sea;17567;-1;-1;-1;-1;;Izmit Aegean Islands 1
-17352;10131;sea;17596;-1;-1;-1;-1;;Izmit Aegean Islands 2
 17351;16349;sea;18870;-1;-1;-1;-1;;Izmit Aegean Islands 3
 17344;5483;sea;18652;-1;-1;-1;-1;;Izmit Aegean Islands 4
 17344;16151;sea;18652;-1;-1;-1;-1;;Izmit Aegean Islands 5
