@@ -1,5 +1,6 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3195;19709;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
+9750;7411;;-1;-1;-1;-1;-1;DARDANELLES_STRAIT;Dardanelles
 9405;10724;sea;17601;-1;-1;-1;-1;;Calabria-Sicily
 8836;9945;sea;17750;-1;-1;-1;-1;;Corsica-Sardinia
 17406;16733;sea;18532;-1;-1;-1;-1;;West Malta-East Malta
@@ -48,6 +49,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 17375;4509;sea;17640;-1;-1;-1;-1;;Dodecanese islands 12
 17371;17375;sea;17640;-1;-1;-1;-1;;Dodecanese islands 13
 17393;17391;sea;17666;-1;-1;-1;-1;;Dodecanese islands 14
+9750;4926;sea;18802;-1;-1;-1;-1;;Izmit Edrine Bursa
 9767;7177;sea;17567;-1;-1;-1;-1;;Izmit Aegean Islands 1
 17351;16349;sea;18870;-1;-1;-1;-1;;Izmit Aegean Islands 3
 17344;5483;sea;18652;-1;-1;-1;-1;;Izmit Aegean Islands 4
@@ -57,7 +59,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8900;3718;sea;18459;-1;-1;-1;-1;;Izmit Aegean Islands 8
 11192;3718;sea;18459;-1;-1;-1;-1;;Izmit Aegean Islands 9
 17345;8900;sea;18318;-1;-1;-1;-1;;Izmit Aegean Islands 10
-9750;4926;sea;18802;-1;-1;-1;-1;;Izmit Edrine Bursa
 17339;3714;sea;18309;-1;-1;-1;-1;;Izmit Edrine Bursa 2
 11346;11368;sea;18766;-1;-1;-1;-1;;Thrace to Island
 4007;17316;sea;18578;-1;-1;-1;-1;;Zaporizka to small island

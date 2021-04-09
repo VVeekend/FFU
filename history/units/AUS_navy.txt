@@ -5,7 +5,7 @@ units = {
 		task_force = {
 			name = "K.u.K Kriegsmarine"
 			location = 7018
-			ship = { name = "SMS Kronprinzessin Erzherzogin Stephanie" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "SMS Kronprinzessin Erzherzogin Stephanie" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
 			ship = { name = "SMS Kronprinz Erzherzogin Rudolf" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
 			ship = { name = "SMS Meteor" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer" } } }
 			ship = { name = "SMS Blitz" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Pre-1905 Destroyer" } } }
@@ -34,7 +34,7 @@ units = {
 			ship = { name = "SMS Monarch" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
 			ship = { name = "SMS Wien" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
 			ship = { name = "SMS Budapest" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AUS version_name = "Pre-Dreadnought" } } }
-			ship = { name = "SMS Kaiserin und Königin Maria Theresia" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "SMS Kaiserin und Königin Maria Theresia" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "Heavy Cruiser 1900" } } }
 			ship = { name = "SMS Kaiser Karl VI" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "Heavy Cruiser 1900" } } }
 			ship = { name = "SMS Zenta" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AUS version_name = "Light Cruiser 1900" } } }
 			ship = { name = "SMS Kaiser Franz Joseph I" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Light Cruiser 1890" } } }

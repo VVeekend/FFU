@@ -7,7 +7,7 @@ on_actions = {
 				country_event = { id = ww1_firstbalkan.2 days = 578 }
 			}
 			SWI = {
-				country_event = { id = ww1_firstbalkan.40 days = 790 }
+				country_event = { id = ww1_firstbalkan.40 days = 851 }
 			}
 			every_country={
 				limit={
