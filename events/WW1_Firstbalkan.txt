@@ -315,11 +315,13 @@ country_event = {
 			remove_from_faction = GRE
 			remove_from_faction = MNT
 			remove_from_faction = BUL
+			remove_ideas = SER_First_Balkan
 		}
 		GRE = {
 			transfer_state = 135
 			transfer_state = 134
 			transfer_state = 132
+			remove_ideas = GRE_First_Balkan
 			diplomatic_relation = {
 				country = TUR
 				relation = non_aggression_pact
