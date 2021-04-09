@@ -42,7 +42,7 @@ adjacency_rule
 		trade = yes
 	}
 	
-	required_provinces = { 3195 19707 19708 19709 19710 19711 }
+	required_provinces = { 3195 19709 }
 	
 	icon = 3195
 	offset = { -2 0 -9 }
@@ -77,9 +77,9 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = yes
-		navy = yes
-		submarine = yes
+		army = no
+		navy = no
+		submarine = no
 		trade = yes
 	}
 	
@@ -132,14 +132,14 @@ adjacency_rule
 	{
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
 	enemy =
 	{
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
 	friend =
@@ -151,13 +151,13 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = no
-		navy = no
-		submarine = no
+		army = yes
+		navy = yes
+		submarine = yes
 		trade = yes
 	}
 	
-	required_provinces = { 9750 15975 4926 7411 4819 }
+	required_provinces = { 9750 4926 }
 	
 	icon = 9750
 	offset = { -2 0 -9 }

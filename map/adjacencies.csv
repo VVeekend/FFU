@@ -1,6 +1,12 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-3195;19709;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
-9750;7411;;-1;-1;-1;-1;-1;DARDANELLES_STRAIT;Dardanelles
+
+
+3195;19709;sea;;-1;-1;-1;-1;;Bosphorus
+
+18221;18309;sea;;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
+
+18416;18802;sea;;-1;-1;-1;-1;DARDANELLES_STRAIT;Dardanelles
+
 9405;10724;sea;17601;-1;-1;-1;-1;;Calabria-Sicily
 8836;9945;sea;17750;-1;-1;-1;-1;;Corsica-Sardinia
 17406;16733;sea;18532;-1;-1;-1;-1;;West Malta-East Malta
