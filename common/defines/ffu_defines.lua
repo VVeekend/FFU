@@ -21,6 +21,7 @@ NDefines.NDiplomacy.ASSUME_FACTION_LEADERSHIP_PP_COST = 1000			-- Political powe
 NDefines.NDiplomacy.ASSUME_FACTION_LEADERSHIP_MIN_MANPOWER_RATIO = 50	-- The minimum ratio of manpower that a country must have compared to the current leader in order to assume leadership.
 NDefines.NDiplomacy.ASSUME_FACTION_LEADERSHIP_MIN_FACTORY_RATIO = 50
 
+NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 15000000    -- Increased so most nations don't need to queue up multiple lines of infantry or spam 2w infantry and convert
 NDefines.NCountry.COUNTRY_SCORE_MULTIPLIER = 0					-- Weight of the country score.
 NDefines.NCountry.ARMY_SCORE_MULTIPLIER = 0				-- Based on number of armies.
 NDefines.NCountry.NAVY_SCORE_MULTIPLIER = 0			-- Based on number of navies.
