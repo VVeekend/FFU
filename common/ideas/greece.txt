@@ -53,4 +53,22 @@ ideas={
 							    
 							   } traits={ industrial_concern } picture=generic_tank_manufacturer_1 }
 			}
+
+			country = {
+				First_Balkan = {
+					allowed = {
+					  }
+		  
+					  removal_cost = -1
+					  
+					  picture = German_staff_ww1
+						  
+					  targeted_modifier = {
+						  tag = TUR
+						  attack_bonus_against = 0.50
+						  defense_bonus_against = 0.50
+					  }
+					  
+				  }
+			}
 	}

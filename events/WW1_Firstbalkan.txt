@@ -143,7 +143,7 @@ country_event = {
 			}
 			FFU_show_super_event = yes
 		}
-
+		GRE = { add_ideas = First_Balkan }
 		hidden_effect = {
 			every_country = {limit = {check_variable= { super_events_enabled > 0} }
 				scoped_sound_effect="FFU_first_balkan_war_begins"
