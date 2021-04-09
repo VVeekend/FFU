@@ -97,7 +97,7 @@ technologies = {
 
 	ww1_medicine1 = {
 	
-		supply_consumption_factor = -0.05
+		supply_consumption_factor = -0.075
 		
 		path = {
 			leads_to_tech = ww1_medicine2
