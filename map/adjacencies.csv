@@ -12,7 +12,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 17406;16733;sea;18532;-1;-1;-1;-1;;West Malta-East Malta
 14714;5232;sea;18426;-1;-1;-1;-1;;West Crimea-East Crimea
 17313;17314;sea;18573;-1;-1;-1;-1;;North Anglo Island to South Anglo Island
-16633;393;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar to North Africa
+16633;393;;-1;-1;-1;-1;-1;;Gibraltar to North Africa
+18468;18742;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar to North Africa
 11529;20327;sea;;-1;-1;-1;-1;Kuwait-Cairo;Kuwait-Cairo
 11484;17305;sea;18295;-1;-1;-1;-1;;Dutch Island Chain 1
 17305;17304;sea;18295;-1;-1;-1;-1;;Dutch Island Chain 2

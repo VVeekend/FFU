@@ -15,6 +15,17 @@ ideas = {
 				experience_gain_navy_unit_factor = 10
 			}
 		}
+		ai_limiter = {
+			cancel = { is_ai = no }
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			modifier = {
+				#consumer_goods_factor = 1
+				industrial_capacity_factory = -1
+				production_factory_max_efficiency_factor = -1
+				conscription = -1.0
+			}
+		}
 		naval_race = {
 			cancel = {
 				has_war = yes
@@ -26,6 +37,7 @@ ideas = {
 
 			modifier = {
 				production_speed_dockyard_factor = 3.0
+				production_speed_dockyard_factor = 1.0
 			}
 		}
 	}

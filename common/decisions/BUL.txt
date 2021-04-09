@@ -1,0 +1,65 @@
+operations = {
+	BUL_second_balkan_war = {
+
+		icon = ger_mefo_bills
+
+		available = {
+			#date > 1913.06.29
+			has_global_flag = kis_firstbalkanwar_victory
+		}
+
+		visible = {
+			tag = BUL
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = kis_secondbalkan_war
+			# Factions
+			SER = {
+				create_faction = anti_bulg_league
+				add_to_faction = GRE
+				add_to_faction = MNT
+			}
+			BUL = {
+				create_faction = "greater_builgaria"
+				add_named_threat = {
+					threat = 5
+					name = "Second War in the Balkans"
+				}
+			}
+
+			BUL = {
+			    declare_war_on = {
+			        target = SER
+			        type = take_claimed_state
+			        generator = {
+			            311 431
+			        }
+			    }
+			    set_global_flag = kis_secondbalkan_war
+			}
+
+			GRE = {
+			    add_to_war = {
+		            targeted_alliance = SER enemy = BUL
+		        }
+			}
+			MNT = {
+			    add_to_war = {
+		            targeted_alliance = SER enemy = BUL
+		        }
+			}
+			ROM = {
+                country_event = { days = 7 id = ww1_secondbalkan.2 }
+            }
+			news_event = { days = 1 id = ww1_secondbalkan.100 }
+		}
+
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

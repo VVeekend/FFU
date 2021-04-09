@@ -27,7 +27,7 @@ ideas={
 			allowed={ always=no } allowed_civil_war={ NOT={ has_government=communism } } removal_cost=-1
 
 			modifier = {
-				army_org_factor = 0.02
+				army_org_factor = 0.05
 				communism_drift = -0.05
 				conscription = 0.020
 			}

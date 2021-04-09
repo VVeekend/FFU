@@ -3,3 +3,7 @@
   naval_race:0 "Naval Arms Race"
   naval_race_desc:0 "All starting navies are deleted and everyone is given a national spirit that gives dockyard construction speed +300%, removed during war."
   ENG_annex_EGY:0 "Annex Egypt"
+  TUR_annex_BUL:0 "Annex Bulgaria"
+  ai_limiter:0 "Artificial Intelligence"
+  BUL_second_balkan_war:0 "Declare second Balkan War"
+  ROM_second_balkan_war:0 "Intervene in second Balkan War"

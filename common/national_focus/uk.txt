@@ -750,7 +750,7 @@ technology = ww1_super_heavy_tank }
 		icon = GFX_goal_generic_build_airforce
 		x = 26
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_british_expeditionary_force }
 		ai_will_do = {

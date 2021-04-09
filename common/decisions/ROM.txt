@@ -1,0 +1,51 @@
+operations = {
+	ROM_second_balkan_war = {
+
+		icon = ger_mefo_bills
+
+		available = {
+			AND = {
+				SER = {
+					surrender_progress > 0.8
+				}
+				GRE = {
+					surrender_progress > 0.8
+				}
+				has_global_flag = kis_secondbalkan_war
+			}
+		}
+
+
+		visible = {
+			tag = ROM
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+
+			SER = {
+				add_to_faction = ROM
+			}
+			ROM = {
+				set_global_flag = kis_secondbalkanwar_romanian_intervention
+				create_wargoal = {
+					type = take_state_focus 
+					target = BUL 
+					generator = {
+						110
+					}
+				}
+				add_to_war = {
+					targeted_alliance = SER enemy = BUL
+				}
+			}
+			news_event = { days = 1 id = ww1_secondbalkan.102 }
+		}
+
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

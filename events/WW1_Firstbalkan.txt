@@ -137,6 +137,7 @@ country_event = {
 			        155
 			    }
 			}
+			add_ideas = First_Balkan
 			set_variable = {
 				Global.super_event=2
 			}

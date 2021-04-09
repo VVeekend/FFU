@@ -85,7 +85,7 @@ ideas={
 				defense_bonus_against = 0.50
 			}
 			targeted_modifier = {
-				tag = AUH
+				tag = AUS
 				attack_bonus_against = 0.50
 				defense_bonus_against = 0.50
 			}

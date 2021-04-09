@@ -6,7 +6,6 @@ is_playable_country = {
 		tag = FRA
 		tag = BEL
 		tag = AUS
-		tag = SPR
 		tag = ITA
 		tag = ROM
 		tag = TUR
