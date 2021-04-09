@@ -150,7 +150,6 @@ on_actions = {
 				set_global_flag = second_balkan_war_over
 				GRE = {
 					white_peace = BUL
-					transfer_state = 361
 					transfer_state = 133
 				}
 				SER = {
