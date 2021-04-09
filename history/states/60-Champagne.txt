@@ -25,9 +25,6 @@ state={
 		6790 = {
 				trench= 2
 			}
-		10063 = {
-				trench= 2
-			}
 		14575 = {
 				trench= 2
 			}

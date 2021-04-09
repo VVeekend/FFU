@@ -65,7 +65,7 @@ ideas={
 							   } traits={ industrial_concern } picture=generic_tank_manufacturer_1 }
 			}
 	country = {
-    	First_Balkan = {
+    	SER_First_Balkan = {
 		  allowed = {
 			}
 

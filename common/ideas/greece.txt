@@ -55,7 +55,7 @@ ideas={
 			}
 
 			country = {
-				First_Balkan = {
+				GRE_First_Balkan = {
 					allowed = {
 					  }
 		  

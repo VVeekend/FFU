@@ -4,7 +4,7 @@ operations = {
 		icon = ger_mefo_bills
 
 		available = {
-			#date > 1913.06.29
+			date > 1913.06.29
 			has_global_flag = kis_firstbalkanwar_victory
 		}
 
