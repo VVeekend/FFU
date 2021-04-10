@@ -52,3 +52,12 @@ units = {
 		}
 	}
 }
+
+instant_effect = {
+
+	add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "AUS" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.96  amount = 1 } #SMS Erzherzog Franz Ferdinand LD:12-Sep-1907 Comp:05-Jun-1910
+	add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "AUS" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.77  amount = 1 } #SMS Radetzky LD:26-Nov-1907 Comp:15-Jan-1911
+	add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "AUS" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.48  amount = 1 } #SMS Zristi LD:20-Jan-1909 Comp:15-Sep-1911
+	add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "AUS" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.78  amount = 1 } #SMS Admiral Spaun LD:30-May-1908 Comp:15-Nov-1910
+
+}

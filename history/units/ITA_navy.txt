@@ -99,3 +99,10 @@ units = {
 		}
 	}
 }
+
+instant_effect = {
+
+	add_equipment_production = { equipment = { type = ship_hull_cruiser_1 creator = "ITA" version_name = "Heavy Cruiser 1890"  }  requested_factories = 1  progress = 0.97  amount = 1 } #RN San Giorgio LD:04-Jul-1905 Comp:01-Jul-1910
+	add_equipment_production = { equipment = { type = ship_hull_cruiser_1 creator = "ITA" version_name = "Heavy Cruiser 1890"  }  requested_factories = 1  progress = 0.81  amount = 1 } #RN San Marco LD:02-Jan-1907 Comp:07-Feb-1911
+
+}

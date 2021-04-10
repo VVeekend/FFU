@@ -155,3 +155,15 @@ units = {
 		}
 	}
 }
+
+instant_effect = {
+
+	add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.96  amount = 1 } #Evstafi LD:01-Dec-1903 Comp:05-Aug-1910
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.96  amount = 1 } #Ioann Zlatoust LD:01-Nov-1903 Comp:11-Aug-1910
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.97  amount = 1 } #Andrei Pervozvanny LD:01-Apr-1903 Comp:27-Jul-1910
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.95  amount = 1 } #Imperator Pavel I LD:01-Apr-1904 Comp:07-Sep-1910
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.16  amount = 1 } #Gangut LD:16-Jun-1909 Comp:01-Dec-1914
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.16  amount = 1 } #Petropavlovsk LD:16-Jun-1909 Comp:01-Dec-1914
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.16  amount = 1 } #Poltava LD:16-Jun-1909 Comp:17-Dec-1914
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.16  amount = 1 } #Sevastapol LD:16-Jun-1909 Comp:17-Dec-1914
+	}

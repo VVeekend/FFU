@@ -365,3 +365,29 @@ units = {
 		}
 	}
 }
+
+instant_effect = {
+
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.46  amount = 1 } #HMS Neptune LD:19-Jan-1909 Comp:01-Nov-1911
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.83  amount = 1 } #HMS Colossus LD:08-Jul-1909 Comp:01-Jul-1910
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.47  amount = 1 } #HMS Hercules LD:30-Jul-1909 Comp:01-Mar-1911
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.03  amount = 1 } #HMS Conqueror LD:05-Apr-1910 Comp:01-Nov-1912
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.04  amount = 1 } #HMS Monarch LD:01-Apr-1910 Comp:01-Mar-1912
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.2  amount = 1 } #HMS Orion LD:29-Nov-1909 Comp:01-Jan-1912
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.02  amount = 1 } #HMS Thunderer LD:13-Apr-1910 Comp:01-Jun-1912
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Battlecrusier"  }  requested_factories = 1  progress = 0.56  amount = 1 } #HMS Indefatigable LD:23-Feb-1909 Comp:01-Apr-1911
+add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Battlecrusier"  }  requested_factories = 1  progress = 0.23  amount = 1 } #HMS Lion LD:29-Sep-1909 Comp:01-May-1912
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.29  amount = 1 } #HMS Blonde LD:06-Dec-1909 Comp:01-May-1911
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.68  amount = 1 } #HMS Blanche LD:12-Apr-1909 Comp:01-Nov-1910
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.65  amount = 1 } #HMS Bristol LD:23-Mar-1909 Comp:01-Dec-1910
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.77  amount = 1 } #HMS Glasgow LD:25-Mar-1909 Comp:01-Sep-1910
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.71  amount = 1 } #HMS Gloucester LD:15-Apr-1909 Comp:01-Oct-1910
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.74  amount = 1 } #HMS Liverpool LD:17-Feb-1909 Comp:01-Oct-1910
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.76  amount = 1 } #HMS Newcastle LD:14-Apr-1909 Comp:01-Sep-1910
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.12  amount = 1 } #HMS Dartmouth LD:19-Feb-1910 Comp:01-Oct-1911
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.12  amount = 1 } #HMS Falmouth LD:21-Feb-1910 Comp:01-Sep-1911
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.16  amount = 1 } #HMS Weymouth LD:19-Jan-1910 Comp:01-Oct-1911
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.12  amount = 1 } #HMS Yarmouth LD:27-Jan-1910 Comp:01-Apr-1912
+
+
+}

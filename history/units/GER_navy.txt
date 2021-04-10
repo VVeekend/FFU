@@ -193,3 +193,26 @@ units = {
 		}
 	}
 }
+
+instant_effect = {
+
+add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.88  amount = 1 } #SMS Rheinland LD:01-Jun-1907 Comp:21-Sep-1910
+add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.88  amount = 1 } #SMS Posen LD:11-Jun-1907 Comp:21-Sep-1910
+add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.45  amount = 1 } #SMS Helgoland LD:24-Dec-1908 Comp:19-Dec-1911
+add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.53  amount = 1 } #SMS Ostfriesland LD:19-Oct-1908 Comp:15-Sep-1911
+add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.52  amount = 1 } #SMS Thüringen LD:07-Nov-1908 Comp:10-Sep-1911
+add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.35  amount = 1 } #SMS Oldenburg LD:01-Mar-1909 Comp:01-Jul-1912
+add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.14  amount = 1 } #SMS Kaiser LD:01-Dec-1909 Comp:07-Dec-1912
+add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.09  amount = 1 } #SMS Friedrich der Grosse LD:26-Jan-1910 Comp:22-Jan-1913
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.72  amount = 1 } #SMS Von der Tann LD:25-Mar-1908 Comp:20-Feb-1911
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.42  amount = 1 } #SMS Moltke LD:07-Dec-1908 Comp:31-Mar-1912
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.22  amount = 1 } #SMS Goeben LD:28-Aug-1909 Comp:28-Aug-1912
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.94  amount = 1 } #SMS Kolberg LD:01-Jan-1908 Comp:21-Jun-1910
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.67  amount = 1 } #SMS Cöln LD:01-Jan-1908 Comp:16-Jun-1911
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.82  amount = 1 } #SMS Augsburg LD:01-Jan-1908 Comp:01-Nov-1910
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.12  amount = 1 } #SMS Magdeburg LD:01-Jan-1910 Comp:20-Aug-1912
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.14  amount = 1 } #SMS Breslau LD:01-Jan-1910 Comp:10-May-1912
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.12  amount = 1 } #SMS Strassburg LD:01-Jan-1910 Comp:09-Oct-1912
+add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.11  amount = 1 } #SMS Stralsund LD:01-Jan-1910 Comp:10-Dec-1912
+
+}
