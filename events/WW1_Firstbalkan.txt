@@ -451,9 +451,13 @@ country_event = {
 		add_political_power = 120
 		
 		SER = {
+			remove_ideas = SER_First_Balkan
 			remove_from_faction = ITA
 			remove_from_faction = GRE
 			remove_from_faction = MNT
+		}
+		GRE = {
+			remove_ideas = GRE_First_Balkan
 		}
 
 	}
