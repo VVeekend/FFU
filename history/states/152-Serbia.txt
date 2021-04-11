@@ -14,7 +14,7 @@ state={
                 steel=12
 	}
 	history={
-		add_extra_state_shared_building_slots = 6
+		add_extra_state_shared_building_slots = 17
 		owner = SER
 		add_core_of = SER
 			buildings = {

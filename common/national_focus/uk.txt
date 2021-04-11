@@ -852,7 +852,7 @@ category = land_doctrine
 		icon = GFX_ENG_gallipoli_campaign-91344
 		x = 21
 		y = 6
-		cost = 10
+		cost = 2
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -909,7 +909,7 @@ technology = support_weapons5 }
 		icon = GFX_ENG_scientific_development-73674
 		x = 10
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_national_insurance_act_1911 }
 		ai_will_do = {
