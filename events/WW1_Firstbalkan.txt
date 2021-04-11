@@ -485,10 +485,11 @@ country_event = {
 				}
 			}
 			SER = { white_peace = TUR }
-			GRE = { white_peace = TUR }
+			GRE = { white_peace = TUR remove_ideas = GRE_First_Balkan }
 			MNT = { white_peace = TUR }
 
 			SER = {
+				remove_ideas = SER_First_Balkan
 				remove_from_faction = ITA
 				remove_from_faction = GRE
 				remove_from_faction = MNT
