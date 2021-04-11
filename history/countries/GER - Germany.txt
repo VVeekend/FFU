@@ -380,7 +380,6 @@ create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/admir
 		interwar_antiair=1
 
 		# Navy
-		transport = 1
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
 		early_ship_hull_submarine = 1

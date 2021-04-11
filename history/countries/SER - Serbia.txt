@@ -125,7 +125,7 @@ create_corps_commander={
 		interwar_antiair=1
 
 		# Navy
-		transport = 1
+		mtg_transport = 1
 
 		# Air
 

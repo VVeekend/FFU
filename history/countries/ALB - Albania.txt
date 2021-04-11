@@ -68,7 +68,7 @@ set_popularities = {
 		heavy_field_gun1 = 1
 
 		# Navy
-		transport = 1
+		mtg_transport = 1
 
 		# Air
 
@@ -76,6 +76,7 @@ set_popularities = {
 		electronic_mechanical_engineering = 1
 
 		# Industry
+		
 	}
 
 	add_ideas = {

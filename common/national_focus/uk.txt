@@ -608,9 +608,10 @@ POR = { add_offsite_building= { type = arms_factory level = 3 }  }
 		completion_reward = {
 			add_political_power= 150
 						EGY = {
-				give_resource_rights = { receiver = ENG state = 272 }
-			}
-		}
+				give_resource_rights = { receiver = ENG state = 272 } }
+						EGY = {
+				give_resource_rights = { receiver = ENG state = 123 } }
+	   } 
 	}
 
 	#Focus for Defence of the Realm Act

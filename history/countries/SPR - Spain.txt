@@ -86,6 +86,7 @@ set_technology = {
 		electronic_mechanical_engineering = 1
 
 		# Industry
+		mtg_transport = 1
 	}
 
 	set_politics = {

@@ -52,7 +52,7 @@ create_country_leader={ name = "William IV" desc=LUX_william_iv_DESC picture="gf
 		interwar_antiair=1
 
 		# Navy
-		transport = 1
+		mtg_transport = 1
 
 		# Air
 

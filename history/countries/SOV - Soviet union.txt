@@ -179,7 +179,7 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 		interwar_antiair=1
 
 		# Navy
-		transport = 1
+		mtg_transport = 1
 
 		# Air
 

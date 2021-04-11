@@ -65,7 +65,6 @@ set_technology = {
 	ww1_fortification1 = 1
 	
 	# Navy
-	transport = 1
 	early_ship_hull_light = 1
 	basic_ship_hull_light = 1
 	early_ship_hull_submarine = 1
