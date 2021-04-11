@@ -134,6 +134,7 @@ country_event = {
 				scoped_sound_effect="ffu_war_begins"
 			}
 		}
+		set_global_flag = ffu_ww1_starts
 		SOV={
 			country_event=ww1_franzferdinand.4
 		}

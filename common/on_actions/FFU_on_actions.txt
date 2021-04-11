@@ -20,9 +20,6 @@ on_actions = {
 				limit={
 					is_playable_country=no
 				}
-				set_rule = {
-					can_use_kamikaze_pilots = yes
-				}
 				add_ideas = ai_limiter
 			}
 			if = {
@@ -146,6 +143,7 @@ on_actions = {
 					FROM.FROM = { state = 147 }
 					FROM = { original_tag = BUL }
 					NOT = { has_global_flag = second_balkan_war_over }
+					NOT = { has_global_flag = ffu_ww1_starts }
 				}
 				set_global_flag = second_balkan_war_over
 				GRE = {

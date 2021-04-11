@@ -4,6 +4,7 @@ operations = {
 		icon = ger_mefo_bills
 
 		available = {
+			NOT = { has_global_flag = ffu_ww1_starts }
 			date > 1913.06.29
 			has_global_flag = kis_firstbalkanwar_victory
 		}
@@ -23,7 +24,7 @@ operations = {
 				add_to_faction = MNT
 			}
 			BUL = {
-				create_faction = "greater_builgaria"
+				create_faction = "greater_bulgaria"
 				add_named_threat = {
 					threat = 5
 					name = "Second War in the Balkans"
