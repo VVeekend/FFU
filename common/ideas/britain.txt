@@ -1,15 +1,15 @@
 ideas={
 	political_advisor={
-			ENG_edward_grey={ allowed={ tag=ENG } traits={ smooth_talking_charmer } ai_will_do={ factor=1 } }
-			ENG_henry_petty_fitzmaurice={ allowed={ tag=ENG } traits={ democratic_reformer } ai_will_do={ factor=1 } }
+			ENG_edward_grey={ allowed={ tag=ENG } traits={ captain_of_industry } ai_will_do={ factor=1 } }
+			ENG_henry_petty_fitzmaurice={ allowed={ tag=ENG } traits={ dealbroker } ai_will_do={ factor=1 } }
 			ENG_frederick_maurice={ allowed={ tag=ENG } traits={ silent_workhorse } ai_will_do={ factor=1 } }
-			ENG_arthur_balfour={ allowed={ tag=ENG } traits={ ideological_crusader } ai_will_do={ factor=1 } }
-			ENG_george_macdonogh={ allowed={ tag=ENG } traits={ quartermaster_general } ai_will_do={ factor=1 } }
+			ENG_arthur_balfour={ allowed={ tag=ENG } traits={ conservative_nationalist } ai_will_do={ factor=1 } }
+			ENG_george_macdonogh={ allowed={ tag=ENG } traits={ head_of_intelligence } ai_will_do={ factor=1 } }
 			ENG_reginald_mckenna={ allowed={ tag=ENG } traits={ armaments_organizer } ai_will_do={ factor=1 } }
 			ENG_herbert_samuel={ allowed={ tag=ENG } traits={ compassionate_gentleman } ai_will_do={ factor=1 } }
-			ENG_aretas_akers_douglas={ allowed={ tag=ENG } traits={ prince_of_terror } ai_will_do={ factor=1 } }
+			ENG_aretas_akers_douglas={ allowed={ tag=ENG } traits={ economist } ai_will_do={ factor=1 } }
 			ENG_arthur_henderson={ allowed={ tag=ENG } traits={ popular_figurehead } ai_will_do={ factor=1 } }
-			ENG_william_peel={ allowed={ tag=ENG } traits={ backroom_backstabber } ai_will_do={ factor=1 } }
+			ENG_william_peel={ allowed={ tag=ENG } traits={ connected_citizen } ai_will_do={ factor=1 } }
 			ENG_herbert_mullaly={ allowed={ tag=ENG } traits={ war_industrialist } ai_will_do={ factor=1 } }
 			}
 	theorist={
@@ -66,6 +66,17 @@ ideas={
 			#ENG_b_h_jones={ allowed={ tag=ENG } traits={ navy_carrier_1 } ai_will_do={ factor=1 } }
 			#ENG_john_bennett={ allowed={ tag=ENG } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
 			ENG_percy_zachariah_cox={ ledger = army allowed={ tag=ENG } traits={ army_commando_1 } ai_will_do={ factor=1 } }
+			
+		ENG_ernest_swinton = {
+			ledger = army
+			traits = {
+				army_armored_3
+			}
+			picture = rudolf_hess
+			allowed = {
+				TAG=ENG
+			}
+		}
 			}
 	naval_manufacturer={
 			designer = yes

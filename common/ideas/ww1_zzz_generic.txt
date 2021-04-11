@@ -54,6 +54,7 @@ ideas={
 		}
 		
 		market_dynamism = {
+		   picture = FRA_market_dynamism
 			removal_cost = -1
 			
 			modifier = {
