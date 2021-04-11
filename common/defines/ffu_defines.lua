@@ -2,6 +2,7 @@ NDefines.NGame.START_DATE = "1911.1.1.12"
 NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 2
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 300
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 321
+NDefines.NGame.GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.05, 0.0 }
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6
 NDefines.NGame.HANDS_OFF_START_TAG = "SWI"
 
@@ -84,6 +85,7 @@ NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.35
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.15
 NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0
 NDefines.NMilitary.SLOWEST_SPEED = 2
+NDefines.NMilitary.REINFORCE_CHANCE = 0.04
 NDefines.NMilitary.TRAINING_ATTRITION = 0.0
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0
 NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT = 0.3					-- Minimum damage from nukes as a percentage of current strength/organisation
@@ -125,7 +127,7 @@ NDefines.NNavy.MISSION_FUEL_COSTS = {
 		0.0, -- RESERVE_FLEET (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 		0.5, -- NAVAL_INVASION_SUPPORT (does not cost fuel at base, only costs while doing bombardment and escorting units)
 	}
-NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 20                       -- WAS 6
+NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 6                      -- WAS 6
 NDefines.NNavy.HOLD_MISSION_MOVEMENT_COST = 0.5								
 NDefines.NNavy.IN_COMBAT_FUEL_COST = 1.0
 NDefines.NNavy.MISSION_SUPREMACY_RATIOS = { 
@@ -140,6 +142,7 @@ NDefines.NNavy.MISSION_SUPREMACY_RATIOS = {
 		0.0, -- RESERVE_FLEET
 		0.0, -- NAVAL_INVASION_SUPPORT
 	}
+NDefines.NNavy.BASE_SPOTTING = 50
 NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0.0
 NDefines.NNavy.HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR	= 0.3
 NDefines.NNavy.MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO = 0.5

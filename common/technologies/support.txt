@@ -1088,8 +1088,8 @@ technologies = {
 			max_organisation = 5
 			soft_attack = 0.1
 			river = {
-				attack = 0.1
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 			amphibious = {	
 				defence = 0.2
@@ -1140,8 +1140,8 @@ technologies = {
 			max_organisation = 5
 			soft_attack = 0.1
 			forest = {
-				attack = 0.1
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 			jungle = {
 				attack = 0.1
@@ -1193,12 +1193,12 @@ technologies = {
 			max_organisation = 5
 			soft_attack = 0.1
 			mountain = {
-				attack = 0.1
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 			hills = {
-				attack = 0.1	
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 		}
 
@@ -1298,10 +1298,10 @@ technologies = {
 			ap_attack = 0.1
 			soft_attack = 0.1
 			fort = {
-				attack = 0.1
+				attack = 0.05
 			}
 			urban = {
-				attack = 0.1
+				attack = 0.05
 			}
 		}
 		
@@ -1350,10 +1350,10 @@ technologies = {
 			ap_attack = 0.1
 			soft_attack = 0.1
 			fort = {
-				attack = 0.1
+				attack = 0.05
 			}
 			urban = {
-				attack = 0.1
+				attack = 0.05
 			}
 		}
 		path = {
@@ -1399,10 +1399,10 @@ technologies = {
 			ap_attack = 0.1
 			soft_attack = 0.1
 			fort = {
-				attack = 0.1
+				attack = 0.05
 			}
 			urban = {
-				attack = 0.1
+				attack = 0.05
 			}
 		}
 
@@ -1502,7 +1502,7 @@ technologies = {
 		suppression_factor = 0.05
 		recon = 0.5
 		urban = {
-			attack = 0.1
+			attack = 0.05
 		}
 		}
 		
@@ -1549,7 +1549,7 @@ technologies = {
 		soft_attack = 0.05
 		suppression_factor = 0.05
 		urban = {
-			attack = 0.1
+			attack = 0.05
 		}
 		}
 	
@@ -1596,7 +1596,7 @@ technologies = {
 		soft_attack = 0.05
 		suppression_factor = 0.05
 		urban = {
-			attack = 0.1
+			attack = 0.05
 		}
 		}
 

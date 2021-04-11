@@ -726,7 +726,7 @@ instant_build = yes  } }
 			factor = 1
 		}
 		completion_reward = {
-		army_experience=100 add_tech_bonus={ name=infantry_weapons_bonus bonus=2 uses=2 category=infantry_weapons} }
+		army_experience=100 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=2 category=infantry_weapons} }
 	}
 
 	#Focus for Hydroplane Develoipment
