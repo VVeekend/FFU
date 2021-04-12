@@ -211,7 +211,7 @@ spriteTypes = {
 		name = "GFX_unit_jaeger_icon_small"
 		texturefile = "gfx/texticons/unit_infantry3_icon.dds"
 		legacy_lazy_load = no
-		noOfFrames = 1
+		noOfFrames = 2
 	}	
 	
 	spriteType = {

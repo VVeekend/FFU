@@ -191,8 +191,9 @@ on_actions = {
 			if = {
 				limit = {
 					tag = BUL
+					NOT = { has_global_flag = ffu_ww1_starts }
 					FROM.FROM = { state = 152 }
-					FROM = { original_tag = SER }
+					FROM = {  OR = { tag = SER tag = GRE tag = ROM } }
 					NOT = { has_global_flag = second_balkan_war_over }
 				}
 				set_global_flag = second_balkan_war_over
