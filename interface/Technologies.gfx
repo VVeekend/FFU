@@ -1,6 +1,28 @@
 spriteTypes = {	
 
+	SpriteType = {
+		name = "GFX_peoples_army_medium"
+		texturefile = "gfx/interface/technologies/peoples_army.dds"
+		alwaystransparent = yes
+	}
 
+	SpriteType = {
+		name = "GFX_trench_warfare_medium"
+		texturefile = "gfx/interface/technologies/trench_warfare.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_deep_operations_medium"
+		texturefile = "gfx/interface/technologies/deep_operations.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_continuous_offensive_medium"
+		texturefile = "gfx/interface/technologies/continuous_offensive.dds"
+		alwaystransparent = yes
+	}
 
 	SpriteType = {
 		name = "GFX_ww1_infantry_equip1_medium"

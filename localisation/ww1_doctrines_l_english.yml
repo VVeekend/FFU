@@ -42,6 +42,10 @@ ww1_armored_car_and_tank_desc:0 "Tanks are getting more mobile, and beginning to
 ww1_landdoctrine_unlock_ww2:0 "War of Movement"
 ww1_landdoctrine_unlock_ww2_desc:0 "New weapon developments like the Tank, the Sub-Machine Gun, and the Light Machine Gun have made the long trenches and stalemates of the last war almost obsolete. Even if we are to still be a defensive focused army, the future is no longer with these old doctrines and mentalities. Tomorrow's war may just make speed a priority."
 
+peoples_army:0 "Peoples Army"
+trench_warfare:0 "Trench Warfare"
+continuous_offensive:0 "Continuous Offensive"
+deep_operations:0 "Deep Operations"
 
 #)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
 # NAVAL DOCTRINES

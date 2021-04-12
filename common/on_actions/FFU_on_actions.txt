@@ -55,6 +55,86 @@ on_actions = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					NOT = {
+						has_game_rule = {
+							rule = FFU_navy_race
+							option = RACE
+						}
+					}
+				}
+				AUS = {
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "AUS" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.96  amount = 1 } #SMS Erzherzog Franz Ferdinand LD:12-Sep-1907 Comp:05-Jun-1910
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "AUS" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.77  amount = 1 } #SMS Radetzky LD:26-Nov-1907 Comp:15-Jan-1911
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "AUS" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.48  amount = 1 } #SMS Zristi LD:20-Jan-1909 Comp:15-Sep-1911
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "AUS" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.78  amount = 1 } #SMS Admiral Spaun LD:30-May-1908 Comp:15-Nov-1910
+				}
+				ENG = {
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.46  amount = 1 } #HMS Neptune LD:19-Jan-1909 Comp:01-Nov-1911
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.83  amount = 1 } #HMS Colossus LD:08-Jul-1909 Comp:01-Jul-1910
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.47  amount = 1 } #HMS Hercules LD:30-Jul-1909 Comp:01-Mar-1911
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.03  amount = 1 } #HMS Conqueror LD:05-Apr-1910 Comp:01-Nov-1912
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.04  amount = 1 } #HMS Monarch LD:01-Apr-1910 Comp:01-Mar-1912
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.2  amount = 1 } #HMS Orion LD:29-Nov-1909 Comp:01-Jan-1912
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.02  amount = 1 } #HMS Thunderer LD:13-Apr-1910 Comp:01-Jun-1912
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Battlecrusier"  }  requested_factories = 1  progress = 0.56  amount = 1 } #HMS Indefatigable LD:23-Feb-1909 Comp:01-Apr-1911
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "ENG" version_name = "Battlecrusier"  }  requested_factories = 1  progress = 0.23  amount = 1 } #HMS Lion LD:29-Sep-1909 Comp:01-May-1912
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.29  amount = 1 } #HMS Blonde LD:06-Dec-1909 Comp:01-May-1911
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.68  amount = 1 } #HMS Blanche LD:12-Apr-1909 Comp:01-Nov-1910
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.65  amount = 1 } #HMS Bristol LD:23-Mar-1909 Comp:01-Dec-1910
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.77  amount = 1 } #HMS Glasgow LD:25-Mar-1909 Comp:01-Sep-1910
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.71  amount = 1 } #HMS Gloucester LD:15-Apr-1909 Comp:01-Oct-1910
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.74  amount = 1 } #HMS Liverpool LD:17-Feb-1909 Comp:01-Oct-1910
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.76  amount = 1 } #HMS Newcastle LD:14-Apr-1909 Comp:01-Sep-1910
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.12  amount = 1 } #HMS Dartmouth LD:19-Feb-1910 Comp:01-Oct-1911
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.12  amount = 1 } #HMS Falmouth LD:21-Feb-1910 Comp:01-Sep-1911
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.16  amount = 1 } #HMS Weymouth LD:19-Jan-1910 Comp:01-Oct-1911
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "ENG" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.12  amount = 1 } #HMS Yarmouth LD:27-Jan-1910 Comp:01-Apr-1912
+				}
+				FRA = {
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "FRA" version_name = "Semi-Dreadnought" } requested_factories = 1 progress = 0.85 amount = 1 } #Condorcet Comp:25-Jul-1911
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "FRA" version_name = "Semi-Dreadnought" } requested_factories = 1 progress = 0.85 amount = 1 } #Danton Comp:01-Jun-1911
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "FRA" version_name = "Semi-Dreadnought" } requested_factories = 1 progress = 0.85 amount = 1 } #Diderot Comp:01-Aug-1911
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "FRA" version_name = "Semi-Dreadnought" } requested_factories = 1 progress = 0.85 amount = 1 } #Mirabeau Comp:01-Aug-1911
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "FRA" version_name = "Semi-Dreadnought" } requested_factories = 1 progress = 0.85 amount = 1 } #Vergniaud Comp:22-Sep-1911
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "FRA" version_name = "Semi-Dreadnought" } requested_factories = 1 progress = 0.85 amount = 1 } #Voltaire Comp:01-Aug-1911
+				}
+				GER = {
+					add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.88  amount = 1 } #SMS Rheinland LD:01-Jun-1907 Comp:21-Sep-1910
+					add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.88  amount = 1 } #SMS Posen LD:11-Jun-1907 Comp:21-Sep-1910
+					add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.45  amount = 1 } #SMS Helgoland LD:24-Dec-1908 Comp:19-Dec-1911
+					add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.53  amount = 1 } #SMS Ostfriesland LD:19-Oct-1908 Comp:15-Sep-1911
+					add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.52  amount = 1 } #SMS Thüringen LD:07-Nov-1908 Comp:10-Sep-1911
+					add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.35  amount = 1 } #SMS Oldenburg LD:01-Mar-1909 Comp:01-Jul-1912
+					add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.14  amount = 1 } #SMS Kaiser LD:01-Dec-1909 Comp:07-Dec-1912
+					add_equipment_production = { equipment = { type = ship_hull_super_heavy_1 creator = "GER" version_name = "Dreadnought"  }  requested_factories = 1  progress = 0.09  amount = 1 } #SMS Friedrich der Grosse LD:26-Jan-1910 Comp:22-Jan-1913
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.72  amount = 1 } #SMS Von der Tann LD:25-Mar-1908 Comp:20-Feb-1911
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.42  amount = 1 } #SMS Moltke LD:07-Dec-1908 Comp:31-Mar-1912
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.22  amount = 1 } #SMS Goeben LD:28-Aug-1909 Comp:28-Aug-1912
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.94  amount = 1 } #SMS Kolberg LD:01-Jan-1908 Comp:21-Jun-1910
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.67  amount = 1 } #SMS Cöln LD:01-Jan-1908 Comp:16-Jun-1911
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.82  amount = 1 } #SMS Augsburg LD:01-Jan-1908 Comp:01-Nov-1910
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.12  amount = 1 } #SMS Magdeburg LD:01-Jan-1910 Comp:20-Aug-1912
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.14  amount = 1 } #SMS Breslau LD:01-Jan-1910 Comp:10-May-1912
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.12  amount = 1 } #SMS Strassburg LD:01-Jan-1910 Comp:09-Oct-1912
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_2 creator = "GER" version_name = "Light Cruiser 1900"  }  requested_factories = 1  progress = 0.11  amount = 1 } #SMS Stralsund LD:01-Jan-1910 Comp:10-Dec-1912
+				}
+				ITA = {
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_1 creator = "ITA" version_name = "Heavy Cruiser 1890"  }  requested_factories = 1  progress = 0.97  amount = 1 } #RN San Giorgio LD:04-Jul-1905 Comp:01-Jul-1910
+					add_equipment_production = { equipment = { type = ship_hull_cruiser_1 creator = "ITA" version_name = "Heavy Cruiser 1890"  }  requested_factories = 1  progress = 0.81  amount = 1 } #RN San Marco LD:02-Jan-1907 Comp:07-Feb-1911
+				}
+				SOV = {
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.96  amount = 1 } #Evstafi LD:01-Dec-1903 Comp:05-Aug-1910
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.96  amount = 1 } #Ioann Zlatoust LD:01-Nov-1903 Comp:11-Aug-1910
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.97  amount = 1 } #Andrei Pervozvanny LD:01-Apr-1903 Comp:27-Jul-1910
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.95  amount = 1 } #Imperator Pavel I LD:01-Apr-1904 Comp:07-Sep-1910
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.16  amount = 1 } #Gangut LD:16-Jun-1909 Comp:01-Dec-1914
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.16  amount = 1 } #Petropavlovsk LD:16-Jun-1909 Comp:01-Dec-1914
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.16  amount = 1 } #Poltava LD:16-Jun-1909 Comp:17-Dec-1914
+					add_equipment_production = { equipment = { type = ship_hull_heavy_2 creator = "SOV" version_name = "Semi-Dreadnought"  }  requested_factories = 1  progress = 0.16  amount = 1 } #Sevastapol LD:16-Jun-1909 Comp:17-Dec-1914
+				}
+			}
 		}
 	}
 	on_monthly = {

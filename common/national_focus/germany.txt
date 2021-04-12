@@ -444,7 +444,7 @@ category = naval_equipment }
 		icon = GFX_focus_ger_reichskommisariats
 		x = 25
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_deutsches_heer }
 		ai_will_do = {
