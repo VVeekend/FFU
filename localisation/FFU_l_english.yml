@@ -25,3 +25,5 @@
   gas_effect:0 "Gas Effect"
   gas_effect_desc:0 "Gas Effect"
   gas_province_modifier:0 "Hazardous Gas"
+  nuclear_reactor_plural:0 "Toxic Chemical Plants"
+  NUCLEAR_BOMB:0 "Hazardus Gas Shells"

@@ -11,6 +11,7 @@ unit_leader_event = { #THIS = Country
     immediate = {
         add_to_temp_array = { scope_array = global.army_leader_ids^59 } #a simple workaround
         for_each_scope_loop = { #PREV = Country, THIS = Army Leader
+        
             array = scope_array
             
             if = {

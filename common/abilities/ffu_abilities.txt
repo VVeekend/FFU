@@ -16,7 +16,7 @@ ability = {
 			factor = -1
 		}
 		
-		cost = 0.1
+		cost = 0.2
 		duration = 1 #it's by hours. means nothing anyway
 		allowed = {
 			NOT = {
@@ -24,9 +24,20 @@ ability = {
 			}
 			FROM = {
 				has_war = yes
+				num_of_nukes > 0
 			}
+			
 		}
 		one_time_effect = {
+			FROM = {
+				launch_nuke = {
+					province = 19404
+					state = 378
+					controller = FROM
+					use_nuke = yes
+				}
+			}
+
 			set_temp_variable = { duration = 16 } #days
 			
 			meta_effect = {
