@@ -18,3 +18,8 @@ sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
 	file = "ffu_custom/FFU_first_balkan_war_begins.wav" ## location of the sound file
 	always_load = no
 }
+sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
+	name = "FFU_gas_attack_sound" #name you're using for the sound
+	file = "ffu_custom/ffu_gas_attack.wav" ## location of the sound file
+	always_load = no
+}

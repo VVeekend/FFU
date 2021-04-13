@@ -1,4 +1,14 @@
 spriteTypes = { 
+	spriteType = {
+		name = "GFX_trait_gas_attack"
+		texturefile = "gfx/interface/traits/trait_gas_attack.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_ability_gas_attack"
+		texturefile = "gfx/interface/abilitylist/ability_gas_attack.dds"
+	}
+
 	##Icon For: Seperate Cossack Regiments
 	SpriteType = { 
 		name = "GFX_SOV_seperate_cossack_regiments-45151"

@@ -1,0 +1,39 @@
+add_namespace = ffu
+
+country_event = {
+	id = ffu.1
+	title = ffu.1.t
+	desc = ffu.1.d
+
+	picture = GFX_report_event_tanks_mexico_city
+	is_triggered_only = yes
+
+	hidden = yes
+
+	option = {
+		name = ffu.1.a
+
+		every_country = {
+			every_army_leader = {
+				limit = {
+					NOT = { has_trait = cheater }
+					OR = {
+						AND = {
+							has_trait = panzer_leader
+							has_trait = combined_arms_expert
+						}
+						AND = {
+							has_trait = infantry_expert
+							has_trait = ambusher
+						}
+						AND = {
+							has_trait = fortress_buster
+							has_trait = scavenger
+						}
+					}
+				}
+				add_unit_leader_trait = cheater
+			}
+		}
+	}
+}

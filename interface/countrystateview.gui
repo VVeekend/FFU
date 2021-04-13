@@ -366,6 +366,12 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 					Orientation = "UPPER_LEFT"			
 				}	
+				iconType = {
+					name = "gas_province_modifier_icon"
+					spriteType = "GFX_modifiers_gas_province_modifier_icon"
+					position = { x = 0 y= 0 }
+					Orientation = "UPPER_LEFT"
+				}
 			}
 			
 			gridBoxType = {

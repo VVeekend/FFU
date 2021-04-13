@@ -1,0 +1,298 @@
+gas_attack_on_provinces = {
+	#THIS: Army Leader
+	set_temp_variable = { duration = 16 } #days, set again
+	set_temp_variable = { duration_for_removal_event = duration } 
+	add_to_temp_variable = { duration_for_removal_event = 1 }
+	
+	get_variables_for_provinces_on_attack = yes
+	#	states_friendly_divisions_in = temp_array
+	#	states_enemy_divisions_in = temp_array
+	#	dangerous_states = temp_array
+	
+	#	states_on_attack = temp_array
+	#	provinces_on_attack = temp_array
+	#	states_on_attack_same_index = temp_array
+	
+	for_each_scope_loop = {
+		array = states_on_attack
+		break = main_break
+		for_each_loop = {
+			array = provinces
+			value = province_id
+			if = {
+				limit = {
+					is_in_array = {
+						array = provinces_on_attack
+						value = province_id
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							is_in_array = {
+								array = provinces_on_gas_attack
+								value = province_id
+							}
+						}
+					}
+					add_to_array = { provinces_on_gas_attack = province_id }
+					add_to_variable = { num_provinces_on_gas_attack = 1 }
+					meta_effect = {
+						text = {
+							add_province_modifier = { 
+								static_modifiers = { gas_province_modifier }
+								province = [PROVINCE_ID]
+							}
+						}
+						PROVINCE_ID = province_id
+					}
+					meta_effect = {
+						text = {
+							add_building_construction = {
+								type = gas_effect
+								level = 1
+								instant_build = yes
+								province = [PROVINCE_ID]
+							}
+						}
+						PROVINCE_ID = province_id
+					}
+				}
+				meta_effect = {
+					text = {
+						set_state_flag = {
+							flag = province_on_gas_attack_[PROVINCE_ID]
+							days = 7 # how long will effect last
+						}
+					}
+					PROVINCE_ID = province_id
+				}
+			}
+		}
+		meta_effect = {
+			text = {
+				state_event = {
+					id = gas_state_events.[EVENT_ID]
+					days = [DURATION]
+					trigger_for = controller
+				}
+			}
+			EVENT_ID = THIS.state_id
+			DURATION = duration_for_removal_event
+		}
+	}
+}
+
+get_variables_for_provinces_on_attack = { 
+	#requires army_leader scope, spawns gas in every enemy province that our divisions are attacking
+	#THIS = Army Leader
+	
+	get_friendly_and_enemy_states = yes
+	#	states_friendly_divisions_in = temp_array
+	#	states_enemy_divisions_in = temp_array
+	
+	get_dangerous_states = yes
+	#	dangerous_states = temp_array
+	
+	get_provinces_on_attack = yes
+	#	states_on_attack = temp_array
+	#	provinces_on_attack = temp_array
+	#	states_on_attack_same_index = temp_array
+	
+}
+
+get_friendly_and_enemy_states = {
+	#THIS = Army Leader
+	#FROM = Country
+
+	every_state = {
+		if = {
+			limit = {
+				meta_trigger = { #found how to do a meta_trigger by trial&error :D, never seen it being used or documented anywhere, but it did appear in patch notes so i thought why not try my luck
+					text = {
+						check_variable = { PREV.num_units_in_state@[STATE_ID] > 0 }
+						
+					}
+					STATE_ID = THIS.id
+				}
+			}
+			
+			add_to_temp_array = {
+				array = states_friendly_divisions_in
+				value = THIS.id
+			}
+		}
+		for_each_scope_loop = {
+			array = PREV.FROM.enemies
+			if = {
+				limit = {
+					divisions_in_state = {
+						size > 0
+						state = PREV.id
+					}
+				}
+				add_to_temp_array = {
+					array = states_enemy_divisions_in
+					value = PREV.id
+				}
+				set_temp_variable = { break = 1 }
+			}
+		}
+	}
+}
+
+get_dangerous_states = {
+	#THIS = Army Leader
+
+	for_each_scope_loop = {
+		array = states_friendly_divisions_in
+		
+		set_temp_variable = { state_friendly_divisions_in = THIS }
+		if = { #combat on same state, random provinces
+			limit = {
+				is_in_array = {
+					array = states_enemy_divisions_in
+					value = state_friendly_divisions_in
+				}
+			}
+			add_to_temp_array = { dangerous_states = state_friendly_divisions_in }
+		}
+		else = { #combat on different states, from border provinces
+			every_neighbor_state = {
+				set_temp_variable = { neighbor_state_enemy_divisions_in = THIS }
+				if = {
+					limit = {
+						is_in_array = {
+							array = states_enemy_divisions_in
+							value = neighbor_state_enemy_divisions_in
+						}
+						NOT = {
+							is_in_array = { # Checks if it is not already in the array that it is to be added, so this prevents duplicates
+								array = dangerous_states
+								value = neighbor_state_enemy_divisions_in
+							}
+						}
+					}
+					add_to_temp_array = { dangerous_states = neighbor_state_enemy_divisions_in }
+				}	
+			}
+		}	
+	}
+}
+get_provinces_on_attack = {
+	#THIS = Army Leader
+	for_each_scope_loop = {
+		array = dangerous_states
+		for_each_loop = {
+			array =	provinces
+			value = v
+			set_temp_variable = { province_id = v }
+			check_enemy_division_in_province = yes
+			#	bool_enemy_division_in_province = temp_variable
+			if = {
+				limit = {
+					check_variable = {
+						var = bool_enemy_division_in_province
+						value = 1
+						compare = equals
+					}
+				}
+				add_to_temp_array = { provinces_on_attack = province_id }
+				add_to_temp_array = { states_on_attack_same_index = THIS }
+				if = {
+					limit = {
+						NOT = {
+							is_in_array = {
+								array = states_on_attack #prevents duplicates
+								value = THIS
+							}
+						}
+					}
+					add_to_temp_array = { states_on_attack = THIS }
+				}
+			}
+		}
+	}
+}
+check_enemy_division_in_province = {	
+	#THIS = State
+	#PREV = Army Leader
+	#Scope Order: 
+	#	(Country or Army Leader, depends) -> Army_Leader -> State
+	
+	set_temp_variable = { bool_enemy_division_in_province = 0 }
+	set_temp_variable = { old_num_units_offensive_combats_against_fort = PREV.num_units_offensive_combats_against@fort }
+	add_to_temp_variable = { old_num_units_offensive_combats_against_fort = 0 }
+	if = {
+		limit = {
+			meta_trigger = {
+				text = {
+					any_province_building_level = {
+						province = {
+							id = [PROVINCE_ID]
+						}
+						building = bunker
+						level > 0
+					}
+				}
+				PROVINCE_ID = province_id
+			}
+		}
+		meta_effect = {
+			text = {
+				add_building_construction = {
+					type = land_fort_detector_negative
+					level = 10
+					instant_build = yes
+					province = [PROVINCE_ID]
+				}
+			}
+			PROVINCE_ID = province_id
+		}
+	}
+	else = {
+		meta_effect = {
+			text = {
+				add_building_construction = {
+					type = land_fort_detector
+					level = 1
+					instant_build = yes
+					province = [PROVINCE_ID]
+				}
+			}
+			PROVINCE_ID = province_id
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 
+				var = PREV.num_units_offensive_combats_against@fort 
+				value = old_num_units_offensive_combats_against_fort
+				compare = not_equals
+			}
+		}
+		set_temp_variable = { bool_enemy_division_in_province = 1 }
+	}
+	meta_effect = {
+		text = {
+			set_building_level = {
+				type = land_fort_detector
+				level = 0
+				instant_build = yes
+				province = [PROVINCE_ID]
+			}
+		}
+		PROVINCE_ID = province_id
+	}
+	meta_effect = {
+		text = {
+			set_building_level = {
+				type = land_fort_detector_negative
+				level = 0
+				instant_build = yes
+				province = [PROVINCE_ID]
+			}
+		}
+		PROVINCE_ID = province_id
+	}
+}

@@ -1,5 +1,10 @@
 spriteTypes = {
 
+	spriteType = {
+		name = "GFX_modifiers_gas_province_modifier_icon"
+		textureFile = "gfx/interface/modifiers_gas_icon.dds"
+	}
+
 	progressbartype = {
 		name = "GFX_nuke_progress"
 		color = { 0.0 0.5 0.0 }

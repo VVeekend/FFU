@@ -1,0 +1,49 @@
+gas_state_event_effect = { #THIS = State, PREV = Country
+	for_each_loop = {
+		array = provinces_on_gas_attack
+		value = province_id
+		index = i
+		if = {
+			limit = {
+				NOT = {
+					meta_trigger = {
+						text = {
+							has_state_flag = {
+								flag = province_on_gas_attack_[PROVINCE_ID]
+							}
+						}
+						PROVINCE_ID = province_id
+					}
+				}
+			}
+			add_to_temp_array = { provinces_on_gas_attack_to_delete = province_id }
+		}
+	}
+	for_each_loop = {
+		array = provinces_on_gas_attack_to_delete
+		value = province_id
+		
+		remove_from_array = { provinces_on_gas_attack = province_id }
+		subtract_from_variable = { num_provinces_on_gas_attack = 1 }
+		meta_effect = {
+			text = {
+				remove_province_modifier = { 
+					static_modifiers = { gas_province_modifier }
+					province = [PROVINCE_ID]
+				}
+			}
+			PROVINCE_ID = province_id
+		}
+		meta_effect = {
+			text = {
+				set_building_level = {
+					type = gas_effect
+					level = 0
+					instant_build = yes
+					province = [PROVINCE_ID]
+				}
+			}
+			PROVINCE_ID = province_id
+		}
+	}
+}

@@ -1,0 +1,16 @@
+leader_traits = {
+	cheater = {
+		type = land
+		trait_type = personality_trait
+
+		modifier = {
+			army_org_factor = -1.0
+			army_attack_factor = -1.0
+			army_defence_factor = -1.0
+		}
+	}
+	gas_attack = { 
+		type = all
+		trait_type = status_trait
+	}
+}

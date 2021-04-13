@@ -1,0 +1,18 @@
+add_namespace = gas_state_events
+
+state_event = { #THIS: Country
+    id = gas_state_events.59
+    title = gas_state_events.59.t
+    desc = gas_state_events.59.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+        
+        59 = {
+            gas_state_event_effect = yes
+        }
+        
+    }		
+}

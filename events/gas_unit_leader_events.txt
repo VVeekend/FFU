@@ -1,0 +1,28 @@
+add_namespace = gas_unit_leader_events
+
+unit_leader_event = { #THIS = Country
+    id = gas_unit_leader_events.59
+    title = gas_unit_leader_events.59.t
+    desc = gas_unit_leader_events.59.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+    
+    immediate = {
+        add_to_temp_array = { scope_array = global.army_leader_ids^59 } #a simple workaround
+        for_each_scope_loop = { #PREV = Country, THIS = Army Leader
+            array = scope_array
+            
+            if = {
+                limit = {
+                    has_trait = gas_attack
+                }
+                gas_attack_on_provinces = yes
+                unit_leader_event = { 
+                    id = gas_unit_leader_events.59
+                    hours = 2
+                }
+            }
+        }
+    }
+}

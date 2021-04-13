@@ -1,5 +1,5 @@
 ability = {
-	
+
 	staff_office_plan = {
 		name = ABILITY_STAFF_OFFICE_PLAN
 		desc = ABILITY_STAFF_OFFICE_PLAN_DESC
