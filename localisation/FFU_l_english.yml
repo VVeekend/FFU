@@ -27,3 +27,5 @@
   gas_province_modifier:0 "Hazardous Gas"
   nuclear_reactor_plural:0 "Toxic Chemical Plants"
   NUCLEAR_BOMB:0 "Hazardus Gas Shells"
+  NUCLEAR_PRODUCTION_SPEED:0 "Toxic Chemical plants built: $NUM|Y$\nTotal production speed: $PROC|%1+$/day"
+  NUCLEAR_PRODUCTION_ETA:0 "Next hazardus gas shell is $PROGRESS|1G%$ done will be ready roughly in $DAYS|G$ days."
