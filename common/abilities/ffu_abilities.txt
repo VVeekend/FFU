@@ -30,7 +30,7 @@ ability = {
 		}
 		one_time_effect = {
 			FROM = {
-				launch_nuke = {
+				launch_nuke = { #province and state that no one owns, this just takes a nuke from the stockpile
 					province = 19404
 					state = 378
 					controller = FROM
