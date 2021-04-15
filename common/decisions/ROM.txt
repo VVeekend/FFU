@@ -29,13 +29,6 @@ operations = {
 			}
 			ROM = {
 				set_global_flag = kis_secondbalkanwar_romanian_intervention
-				create_wargoal = {
-					type = take_state_focus 
-					target = BUL 
-					generator = {
-						110
-					}
-				}
 				add_to_war = {
 					targeted_alliance = SER enemy = BUL
 				}
