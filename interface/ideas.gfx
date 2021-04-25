@@ -6585,4 +6585,70 @@ spriteType = { name = "GFX_idea_GRE_eleftherios_venizelos" texturefile = "gfx/in
 		texturefile = "gfx/interface/ideas/ENG_gallipoli_campaign-91344.dds"
 	}	
 
+	##Icon For: Outdated Army
+	SpriteType = { 
+		name = "GFX_idea_TUR_outdated_army-96313"
+		texturefile = "gfx/interface/ideas/TUR_outdated_army-96313.dds"
+	}
+
+	##Icon For: 1914 Law of Military Obligation
+	SpriteType = { 
+		name = "GFX_idea_TUR_1914_law_of_military_obligation-96239"
+		texturefile = "gfx/interface/ideas/TUR_1914_law_of_military_obligation-96239.dds"
+	}
+
+	##Icon For: Office of War Industry
+	SpriteType = { 
+		name = "GFX_idea_TUR_office_of_war_industry-96211"
+		texturefile = "gfx/interface/ideas/TUR_office_of_war_industry-96211.dds"
+	}
+
+	##Icon For: Imperial Arsenal
+	SpriteType = { 
+		name = "GFX_idea_TUR_imperial_arsenal-96314"
+		texturefile = "gfx/interface/ideas/TUR_imperial_arsenal-96314.dds"
+	}
+
+	##Icon For: Turkish Equipment Modernization
+	SpriteType = { 
+		name = "GFX_idea_TUR_turkish_equipment_modernization-96312"
+		texturefile = "gfx/interface/ideas/TUR_turkish_equipment_modernization-96312.dds"
+	}
+
+	##Icon For: Domestic Economic Control
+	SpriteType = { 
+		name = "GFX_idea_TUR_domestic_economic_control-96386"
+		texturefile = "gfx/interface/ideas/TUR_domestic_economic_control-96386.dds"
+	}
+
+	##Icon For: Mustafa Kemal
+	SpriteType = { 
+		name = "GFX_idea_TUR_mustafa_kemal-96389"
+		texturefile = "gfx/interface/ideas/TUR_mustafa_kemal-96389.dds"
+	}
+
+	##Icon For: Talaat Pasha
+	SpriteType = { 
+		name = "GFX_idea_TUR_talaat_pasha-96387"
+		texturefile = "gfx/interface/ideas/TUR_talaat_pasha-96387.dds"
+	}
+
+	##Icon For: Enver Pasha
+	SpriteType = { 
+		name = "GFX_idea_TUR_enver_pasha-96388"
+		texturefile = "gfx/interface/ideas/TUR_enver_pasha-96388.dds"
+	}
+
+	##Icon For: German Attaché
+	SpriteType = { 
+		name = "GFX_idea_TUR_german_attach-96390"
+		texturefile = "gfx/interface/ideas/TUR_german_attach-96390.dds"
+	}
+
+	##Icon For: Schellendorf Plan
+	SpriteType = { 
+		name = "GFX_idea_TUR_schellendorf_plan-96391"
+		texturefile = "gfx/interface/ideas/TUR_schellendorf_plan-96391.dds"
+	}
+
 }

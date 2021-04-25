@@ -1,16 +1,128 @@
 ideas={
     country = {
-	TUR_Sick_Man = {
-			allowed = {original_tag = TUR} 
-			allowed_civil_war = {always = yes} 
-			removal_cost = -1
-            picture = MEX_revolutionary_army			
+		TUR_minority_military_service_exemptions = {
+			ledger = army
+			picture = SPR_disbanded_army
 			modifier = {
-				research_speed_factor = -0.10
-				training_time_army_factor = 0.1
-				stability_factor = -0.10
+				conscription_factor = -0.2
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		TUR_outdated_army = {
+			ledger = army
+			picture = TUR_outdated_army-96313
+			modifier = {
+				army_attack_factor = -0.025
+army_defence_factor = -0.025
+army_morale_factor = -0.05
+acclimatization_cold_climate_gain_factor = -0.25
+			}
+		}
+
+		TUR_1914_law_of_military_obligation = {
+			ledger = army
+			picture = TUR_1914_law_of_military_obligation-96239
+			modifier = {
+				recruitable_population = 0.04
+			}
+		}
+
+		TUR_office_of_war_industry = {
+			ledger = army
+			picture = TUR_office_of_war_industry-96211
+			equipment_bonus = {
+				infantry_equipment = {					
+                build_cost_ic = -0.05 instant = yes
+				}
+                support_equipment = {					
+                 build_cost_ic = -0.05 instant = yes
 				}
 			}
+		}
+
+		TUR_imperial_arsenal = {
+			ledger = army
+			picture = TUR_imperial_arsenal-96314
+			modifier = {
+				industrial_capacity_dockyard = 0.25
+production_speed_dockyard_factor = 0.15
+refit_ic_cost = -0.2
+refit_speed = 0.2
+			}
+		}
+
+		TUR_1913_taxation_exemptions = {
+			picture = gre_schachtplan
+			modifier = {
+			consumer_goods_factor = -0.05 }
+		}
+
+		TUR_turkish_equipment_modernization = {
+			ledger = army
+			picture = TUR_turkish_equipment_modernization-96312
+			modifier = {
+				license_infantry_eq_production_speed_factor = 0.1 
+license_artillery_eq_production_speed_factor = 0.1 
+equipment_conversion_speed = 0.1
+			}
+		}
+
+		TUR_foreign_economic_control = {
+			ledger = army
+			picture = gre_schachtplan2
+			modifier = {
+				consumer_goods_factor = 0.05
+min_export = 0.1
+stability_factor = -0.1
+			}
+		}
+
+		TUR_low_literacy = {
+			ledger = army
+			picture = tur_tdpa
+			modifier = {
+				research_speed_factor = -0.1
+			}
+		}
+
+		TUR_domestic_economic_control = {
+			ledger = army
+			picture = TUR_domestic_economic_control-96386
+			modifier = {
+				line_change_production_efficiency_factor = 0.05
+production_speed_industrial_complex_factor = 0.05
+production_speed_infrastructure_factor = 0.1
+production_speed_air_base_factor = 0.1
+production_speed_naval_base_factor = 0.1
+production_speed_fuel_silo_factor = 0.1
+local_resources_factor = 0.10
+			}
+		}
+
+		TUR_german_attache = {
+			picture = TUR_german_attach-96390
+			modifier = { experience_gain_army = 0.03 }
+			research_bonus = {
+				land_doctrine = 0.05
+                air_doctrine = 0.05
+			}
+		}
+
+		TUR_schellendorf_plan = {
+			picture = TUR_schellendorf_plan-96391
+			modifier = {
+				army_core_defence_factor = 0.05
+mobilization_speed = 0.25
+			}
+		}
+
+		TUR_debt_payments = {
+			picture = generic_foreign_capital
+			modifier = {
+				consumer_goods_factor = 0.05
+			 }
+		  }
 		}
 				
 	political_advisor={
@@ -21,7 +133,26 @@ ideas={
 			TUR_hasan_saka={ allowed={ tag=TUR } traits={ armaments_organizer } ai_will_do={ factor=1 } }
 			#TUR_hulusi_salih_kezrak={ allowed={ tag=TUR } traits={ democratic_reformer } ai_will_do={ factor=1 } }
 			TUR_mehemmed_naby={ allowed={ tag=TUR } traits={ smooth_talking_charmer } ai_will_do={ factor=1 } }
-			TUR_mehmed_talat={ allowed={ tag=TUR } traits={ backroom_backstabber } ai_will_do={ factor=1 } }
+		TUR_talaat_pasha = {
+			ledger = army
+			picture = TUR_talaat_pasha-96387
+			allowed={ tag=TUR }
+            trait = {connected_citizen}			
+		}
+
+		TUR_enver_pasha = {
+			ledger = army
+			picture = TUR_enver_pasha-96388
+			allowed={ tag=TUR } 
+			trait = { social_revolutionary }
+		}
+
+		TUR_djemal_pasha = {
+			ledger = army
+			picture = rudolf_hess
+			allowed={ tag=TUR } 
+			trait = { propaganda_bungler }
+		}
 			}
 
 	theorist={
@@ -45,7 +176,34 @@ ideas={
 	high_command={
 			TUR_huseyin_hilmi={ ledger = army allowed={ tag=TUR } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
 			TUR_ahmed_izzet={ ledger = army  allowed={ tag=TUR } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
-			TUR_mustafa_ismet={ ledger = army  allowed={ tag=TUR } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
+			TUR_mustafa_ismet={ ledger = army  allowed={ tag=TUR } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
+			
+		TUR_erich_von_falkenhayn = {
+			ledger = army
+			picture = rudolf_hess
+			allowed={ tag=TUR }
+			available = {
+				has_completed_focus = TUR_schellendorf_plan
+			}
+			traits={ army_infantry_2 }
+		}
+
+		TUR_mustafa_kemal = {
+			ledger = army
+			picture = TUR_mustafa_kemal-96389
+			allowed={ tag=TUR }
+			traits={ army_concealment_2 }
+		}
+
+		TUR_otto_liman_von_sanders = {
+			ledger = army
+			picture = rudolf_hess
+			allowed={ tag=TUR }
+			available = {
+				has_completed_focus = TUR_schellendorf_plan
+			}
+			traits={ army_artillery_1 }
+		}
 			}
 	naval_manufacturer={
 			designer = yes 

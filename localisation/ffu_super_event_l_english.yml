@@ -12,9 +12,14 @@
  super_event_picture_3:0 "FFU_russian_civil_war"
  super_event_title_3:0 "RUSSIAN CIVIL WAR"
  super_event_text_3:0 "Capitalism has triumphed all over the world, but this triumph is only the prelude to the triumph of labour over capital. \n- Vladimir Lenin"
- super_event_button_text_3:0 "Ok"
+ super_event_button_text_3:0 "This is bad."
 
  super_event_picture_4:0 "FFU_franz_joseph_dead"
  super_event_title_4:0 "FRANZ JOSEPH I PASSES"
  super_event_text_4:0 "I am the last ruler of the old world. \n- Kaiser Franz Joseph I"
  super_event_button_text_4:0 "Goodbye our beloved."
+
+ super_event_picture_5:0 "FFU_jihad
+ super_event_title_5:0 "SULTAN MEHMED V DECLARES JIHAD"
+ super_event_text_5:0 "Would it be a religious duty for all the Muslims in all countries, whether young or old, infantry or cavalry, to resort to jihad with all their properties and lives, as required by the Quranic verse of Enfiru, if the Sultan of Islam declares war and calls the entire population under arms, when there is an enemy attack against Islam and Islamic countries are extorted and pillaged and Islamic people are enslaved? \n- Sultan Mehmed V"
+ super_event_button_text_5:0 "Will they answer?"

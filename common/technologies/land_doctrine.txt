@@ -1742,7 +1742,6 @@ technologies = {
 		category_all_infantry = {
 			max_organisation = 5
 		}
-		max_dig_in = 5
 		doctrine = yes	
 		research_cost = 4.5		
 		categories = {

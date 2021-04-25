@@ -1,0 +1,12 @@
+units = {
+	fleet = {
+		name = "Osmanlı Donanması III"
+		naval_base = 3195
+		task_force = {
+			location = 3195
+			name = "Osmanlı Donanması III"
+			ship = { name = "Yavuz Sultan Selim" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = TUR version_name = "Battlecrusier" } } }
+			ship = { name = "Midilli" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TUR version_name = "Light Cruiser 1900" } } }
+		}
+	}
+}

@@ -24,6 +24,12 @@ defined_text = {
 		}
 		localization_key = super_event_picture_4
 	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 5 }
+		}
+		localization_key = super_event_picture_5
+	}
 }
 defined_text = {
 	name = GetSuperEventTitle
@@ -50,6 +56,12 @@ defined_text = {
 			check_variable = { super_event = 4 }
 		}
 		localization_key = super_event_title_4
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 5 }
+		}
+		localization_key = super_event_title_5
 	}
 }
 defined_text = {
@@ -78,6 +90,12 @@ defined_text = {
 		}
 		localization_key = super_event_text_4
 	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 5 }
+		}
+		localization_key = super_event_text_5
+	}
 }
 defined_text = {
 	name = GetSuperEventButtonText
@@ -105,5 +123,11 @@ defined_text = {
 			check_variable = { super_event = 4 }
 		}
 		localization_key = super_event_button_text_4
+	}
+	text = {
+		trigger = {
+			check_variable = { super_event = 5 }
+		}
+		localization_key = super_event_button_text_5
 	}
 }

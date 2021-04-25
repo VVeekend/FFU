@@ -1,68 +1,121 @@
-﻿add_namespace = ww1_ottoman
+﻿add_namespace = ffuottoman
 
-#country_event = {
-#	id = ww1_ottoman.21
-#	title = ww1_ottoman.21.t
-#	desc = ww1_ottoman.21.d
-
-#	picture=EVENT_hoi4tgw_asir_revolt
-	
-#	major = no
-	
-#	trigger = {
-#		TAG = TUR
-#		date > 1910.5.1
-#		NOT = { has_global_flag = asir_revolt_1910 }
-#	}
-#	
-#	mean_time_to_happen = {
-#		days = 0
-#	}
-
-#	immediate = {
-#		747 = { set_border_war = yes } # Asir Region will be striped
-#		293 = { set_border_war = yes } # Yemen Region will be striped
-#		set_global_flag = asir_revolt_1910
-#	}
-	
-#	option = {
-#		name = ww1_ottoman.21.a
-#		ai_chance = {
-#            factor = 100
-#        }
-#	}
-#}
-
-# When Ottoman is asked to join the Central Powers 
-#____________________________________________________________
+##Event: Ottomans demand transfer of Sultan Osman-ı Evvel and Resadiye!
 country_event = {
-	id = ww1_ottoman.100
-	title = ww1_ottoman.100.t
-	desc = ww1_ottoman.100.d
-	picture = ww1_ottoman_100
-
+	id = ffuottoman.1
+	title = ffuottoman.1.title
+	desc = ffuottoman.1.desc
+	picture = GFX_report_event_merchant_ship_01
 	fire_only_once = yes
 	is_triggered_only = yes
-
 	option = {
-		name = ww1_ottoman.100.a
-		ai_chance = { factor = 100 }
-		
-		GER = { 
-			add_to_faction = TUR 
+		name = ffuottoman.1.a
+		ai_chance = { factor = 1}
+	TUR = {
+			country_event = { id = ffuottoman.2 days = 1 }
 		}
-
+	}
+	option = {
+		name = ffuottoman.1.b
+		ai_chance = { factor = 1}
+	TUR = {
+			country_event = { id = ffuottoman.3 days = 1 }
+		}
+	}
+}
+##Event: United Kingdom Accepts Transfer!
+country_event = {
+	id = ffuottoman.2
+	title = ffuottoman.2.title
+	desc = ffuottoman.2.desc
+	picture = GFX_report_event_merchant_ship_01
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ffuottoman.2.a
+		ai_chance = { factor = 1}
+	}
+	immediate = {
 		hidden_effect = {
-			TUR = {
-				remove_opinion_modifier = { 
-					target = BUL 
-					modifier = HOI4TGW_Opinion_hostile_relations_post_balkan_war 
-				}
+		           TUR = {		
+			load_oob = "TUR_brit" }
+} } }
+##Event: United Kingdom Seize Dreadnoughts!
+country_event = {
+	id = ffuottoman.3
+	title = ffuottoman.3.title
+	desc = ffuottoman.3.desc
+	picture = GFX_report_event_merchant_ship_01
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ffuottoman.3.a
+		ai_chance = { factor = 1}
+	}
+	immediate = {
+	hidden_effect = {
+	TUR = {
+	250 = {
+         add_extra_state_shared_building_slots=4 add_building_construction={ type=dockyard level=4 instant_build=yes }
 			}
+    251 = {
+         add_extra_state_shared_building_slots=4 add_building_construction={ type=dockyard level=4 instant_build=yes }
+			}
+    345 = {
+         add_extra_state_shared_building_slots=4 add_building_construction={ type=dockyard level=4 instant_build=yes }
+			}
+} } } }
+##Event: Ottomans Request Transfer of SMS Breslau & SMS Goeben
+country_event = {
+	id = ffuottoman.4
+	title = ffuottoman.4.title
+	desc = ffuottoman.4.desc
+	picture = GFX_report_event_merchant_ship_01
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ffuottoman.4.a
+		ai_chance = { factor = 1}
+			TUR = {
+			country_event = { id = ffuottoman.5 days = 1 }
 		}
 	}
 	option = {
-		name = ww1_ottoman.100.b
-		ai_chance = { factor = 0 }
+		name = ffuottoman.4.b
+		ai_chance = { factor = 1}
+			TUR = {
+			country_event = { id = ffuottoman.6 days = 1 }
+		}
 	}
-#____________________________________________________________
+}
+##Event: Germany Accepts Transfer!
+country_event = {
+	id = ffuottoman.5
+	title = ffuottoman.5.title
+	desc = ffuottoman.5.desc
+	picture = GFX_report_event_merchant_ship_01
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ffuottoman.5.a
+		ai_chance = { factor = 1}
+	}
+	immediate = {
+		hidden_effect = {
+		           TUR = {		
+			load_oob = "TUR_ger" }
+} }
+}
+##Event: Germany Declines the Transfer!
+country_event = {
+	id = ffuottoman.6
+	title = ffuottoman.6.title
+	desc = ffuottoman.6.desc
+	picture = GFX_report_event_merchant_ship_01
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ffuottoman.6.a
+		ai_chance = { factor = 1}
+	}
+}______________________________________________________

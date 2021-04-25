@@ -1,0 +1,12 @@
+units = {
+	fleet = {
+		name = "Osmanlı Donanması II"
+		naval_base = 3195
+		task_force = {
+			location = 3195
+			name = "Osmanlı Donanması II"
+			ship = { name = "Sultan Osman-i Evvel" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = TUR version_name = "Dreadnought" } } }
+			ship = { name = "Resadiye" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = TUR version_name = "Dreadnought" } } }
+		}
+	}
+}
