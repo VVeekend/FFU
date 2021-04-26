@@ -137,21 +137,21 @@ mobilization_speed = 0.25
 			ledger = army
 			picture = TUR_talaat_pasha-96387
 			allowed={ tag=TUR }
-            trait = {connected_citizen}			
+            traits = {connected_citizen}			
 		}
 
 		TUR_enver_pasha = {
 			ledger = army
 			picture = TUR_enver_pasha-96388
 			allowed={ tag=TUR } 
-			trait = { social_revolutionary }
+			traits = { social_revolutionary }
 		}
 
 		TUR_djemal_pasha = {
 			ledger = army
 			picture = rudolf_hess
 			allowed={ tag=TUR } 
-			trait = { propaganda_bungler }
+			traits = { propaganda_bungler }
 		}
 			}
 

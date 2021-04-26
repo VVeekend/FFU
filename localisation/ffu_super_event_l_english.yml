@@ -19,7 +19,12 @@
  super_event_text_4:0 "I am the last ruler of the old world. \n- Kaiser Franz Joseph I"
  super_event_button_text_4:0 "Goodbye our beloved."
 
- super_event_picture_5:0 "FFU_jihad
- super_event_title_5:0 "SULTAN MEHMED V DECLARES JIHAD"
- super_event_text_5:0 "Would it be a religious duty for all the Muslims in all countries, whether young or old, infantry or cavalry, to resort to jihad with all their properties and lives, as required by the Quranic verse of Enfiru, if the Sultan of Islam declares war and calls the entire population under arms, when there is an enemy attack against Islam and Islamic countries are extorted and pillaged and Islamic people are enslaved? \n- Sultan Mehmed V"
+ super_event_picture_5:0 "FFU_jihad"
+ super_event_title_5:0 "MEHMED V DECLARES JIHAD"
+ super_event_text_5:0 "Would it be a religious duty for all the Muslims in all countries, whether young or old, infantry or cavalry, to resort to jihad with all their properties and lives, as required by the Quranic verse of Enfiru, if the Sultan of Islam declares war and calls the entire population under arms, when there is an enemy attack against Islam and Islamic countries are extorted and pillaged and Islamic people are enslaved? Answer: It would. \n- Sultan Mehmed V"
  super_event_button_text_5:0 "Will they answer?"
+ 
+ super_event_picture_6:0 "FFU_black_sea_raid"
+ super_event_title_6:0 "BLACK SEA RAID"
+ super_event_text_6:0 "You are greatly mistaken. We have this country absolutely under our control. I have no desire to shift the blame onto our underlings and I am entirely willing to accept the responsibility myself for everything that has taken place. \n- Ismail Enver Pasha"
+ super_event_button_text_6:0 "Another Nation Joins."

@@ -118,4 +118,65 @@ country_event = {
 		name = ffuottoman.6.a
 		ai_chance = { factor = 1}
 	}
-}______________________________________________________
+}
+
+##Event: Black Sea Raid
+country_event = {
+	id = ffuottoman.7
+	title = ffuottoman.7.title
+	desc = ffuottoman.7.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ffuottoman.7.a
+		ai_chance = { factor = 1}
+	}
+}
+
+##Event: Black Sea Maneuvers
+country_event = {
+	id = ffuottoman.8
+	title = ffuottoman.8.title
+	desc = ffuottoman.8.desc
+	picture = GFX_report_event_ast_navy
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ffuottoman.8.a
+		ai_chance = { factor = 1}
+			TUR = {
+			country_event = { id = ffuottoman.7 days = 10 }
+hidden_effect = {
+			TUR = {
+			country_event = { id = ffuottoman.9 days = 60 }
+		} }
+		}
+	}
+
+}
+
+##Event: Sultan Mehmed V Declares Jihad
+country_event = {
+	id = ffuottoman.9
+	title = ffuottoman.9.title
+	desc = ffuottoman.9.desc
+	picture = GFX_report_event_generic_battle
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = ffuottoman.9.a
+		ai_chance = { factor = 1}
+		TUR = {
+			set_variable = {
+				Global.super_event=5
+			}
+			FFU_show_super_event = yes }
+		hidden_effect = {
+			every_country = {limit = {check_variable= { super_events_enabled > 0} }
+				scoped_sound_effect="FFU_jihad" }
+	}
+}
+ }
+
+______________________________________________________
