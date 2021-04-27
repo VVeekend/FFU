@@ -684,7 +684,7 @@ air_experience
 		ai_will_do = {
 			factor = 1
 		}
-		available = { has_army_experience> 300 }
+		available = { has_army_experience> 400 }
 		completion_reward = {
 			remove_ideas= TUR_outdated_army
 		}

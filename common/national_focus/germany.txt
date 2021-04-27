@@ -880,7 +880,7 @@ instant_build = yes  } }
 		icon = GFX_hoi4tgw_ironcross
 		available = {
 			date > 1914.6.28
-			date < 1916.1.1
+			date < 1915.1.1
 			OR = {
              has_war_with = FRA
 			}
