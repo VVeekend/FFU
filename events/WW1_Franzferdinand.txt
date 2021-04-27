@@ -33,8 +33,7 @@ news_event = {
 	immediate = {
 		hidden_effect = {
 		set_global_flag=kis_franzferdinand_murdered
-		GER = { add_to_faction = BUL }
-		GER = { add_to_faction = TUR }
+
 			AUS = {
 				set_country_flag=murder_of_franz_ferdinand
 			}

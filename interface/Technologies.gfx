@@ -308,6 +308,11 @@ spriteTypes = {
 	### artillery tech	###
 
 	SpriteType = {
+		name = "GFX_anti_tank_rifle1_medium"
+		texturefile = "gfx/interface/technologies/AXIS_infantry_antitank_tankgewehr_m1918_1.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_antitank5_medium"
 		texturefile = "gfx/interface/technologies/AT_3_allies.dds"
 	}	

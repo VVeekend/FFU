@@ -714,7 +714,7 @@ guiTypes = {
 					position = { x = 655 y = 850 }
 					textureFile = ""
 					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
+					borderSize = {x = 0 y = 2}
 					text = "ARTILLERY_TITLE_AT"
 					maxWidth = 290
 					maxHeight = 62
@@ -855,46 +855,6 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}				
-
-				# HOI4 TGW
-				instantTextBoxType = {
-					name = "artillery_year11"
-					position = { x = 60 y = 1398 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = {x = 0 y = 4}
-					text = "1941"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "artillery_year12"
-					position = { x = 60 y = 1538 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = {x = 0 y = 4}
-					text = "1942"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "artillery_year13"
-					position = { x = 60 y = 1678 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = {x = 0 y = 4}
-					text = "1943"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
 				
 			}
 			
@@ -906,6 +866,7 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
+
 		}
 		
       containerWindowType = {

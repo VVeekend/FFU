@@ -19,6 +19,16 @@ sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
 	always_load = no
 }
 sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
+	name = "FFU_jihad_sound" #name you're using for the sound
+	file = "ffu_custom/FFU_jihad.wav" ## location of the sound file
+	always_load = no
+}
+sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
+	name = "FFU_black_sea_raid_sound" #name you're using for the sound
+	file = "ffu_custom/FFU_black_sea_raid.wav" ## location of the sound file
+	always_load = no
+}
+sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
 	name = "FFU_gas_attack_sound" #name you're using for the sound
 	file = "ffu_custom/ffu_gas_attack.wav" ## location of the sound file
 	always_load = no

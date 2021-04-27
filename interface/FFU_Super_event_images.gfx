@@ -47,10 +47,22 @@ spriteTypes = {
     frameAnimatedSpriteType = {
      name = "FFU_jihad"
      texturefile = "gfx/animated/FFU_jihad.dds"
-     noOfFrames = 18
+     noOfFrames = 22
      loadType = "INGAME"
      alwaystransparent = no
-     animation_rate_fps = 3
+     animation_rate_fps = 5
+	 looping = yes
+     play_on_show = yes
+     pause_on_loop = 0.0
+   }
+
+    frameAnimatedSpriteType = {
+     name = "FFU_black_sea_raid"
+     texturefile = "gfx/animated/FFU_black_sea_raid.dds"
+     noOfFrames = 28
+     loadType = "INGAME"
+     alwaystransparent = no
+     animation_rate_fps = 9
 	 looping = yes
      play_on_show = yes
      pause_on_loop = 0.0

@@ -34,6 +34,11 @@ on_actions = {
 			SWI = {
 				country_event = { id = ww1_firstbalkan.40 days = 851 }
 			}
+
+			TUR = {
+				country_event = { id = ffuottoman.8 days = 1383 }
+			}
+			
 			every_country={
 				limit={
 					is_playable_country=yes
