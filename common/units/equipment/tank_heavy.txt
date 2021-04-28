@@ -21,25 +21,25 @@ equipments = {
 		}
 		
 		#Misc Abilities
-		maximum_speed = 5
+		maximum_speed = 4
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 6
-		breakthrough = 30
+		defense = 8
+		breakthrough = 52
 		hardness = 0.95
-		armor_value = 70
+		armor_value = 110
 
 		#Offensive Abilities
-		soft_attack = 17
-		hard_attack = 12
-		ap_attack = 35
+		soft_attack = 34
+		hard_attack = 30
+		ap_attack = 111
 		air_attack = 0
 
 		#Space taken in convoy
 		lend_lease_cost = 14
 		
-		build_cost_ic = 25 
+		build_cost_ic = 42 
 		resources = {
 			#oil = 1
 			steel = 3
@@ -54,62 +54,40 @@ equipments = {
 		archetype = heavy_tank_equipment		
 		priority = 90
 		visual_level = 0
-
-		#Misc Abilities
-		maximum_speed = 3
-		reliability = 0.5
-
-		#Defensive Abilities
-		defense = 14
-		breakthrough = 30
-		hardness = 0.9
-		armor_value = 20
-
-		#Offensive Abilities
-		soft_attack = 30
-		hard_attack = 15
-		ap_attack = 20
-		air_attack = 0
-
-		build_cost_ic = 35 
-		resources = {
-			#oil = 1
-			steel = 2
-			wood = 2
-		}
-		fuel_consumption = 4.0
+		
 	}
+	
 	# WW1 [2]
 	ww1_heavy_tank_equipment_2 = {
 		archetype = heavy_tank_equipment	
 		parent = ww1_heavy_tank_equipment_1
 		priority = 90
 		visual_level = 0
+		is_convertable = yes
 
 		#Misc Abilities
 		maximum_speed = 4
 		reliability = 0.6
 
 		#Defensive Abilities
-		defense = 20
-		breakthrough = 40
-		hardness = 0.9
-		armor_value = 35
+		defense = 9
+		breakthrough = 67
+		armor_value = 130
 
 		#Offensive Abilities
-		soft_attack = 39
-		hard_attack = 22
-		ap_attack = 30
-		air_attack = 0
+		soft_attack = 42
+		hard_attack = 40
+		ap_attack = 131
 
 		build_cost_ic = 42
 		resources = {
 			#oil = 1
-			steel = 2
-			wood = 3
+			steel = 4
+			chromium = 3
 		}
 		fuel_consumption = 4.1
 	}
+	
 	# WW1 [3]
 	ww1_heavy_tank_equipment_3 = {
 		archetype = heavy_tank_equipment	
