@@ -75,8 +75,9 @@ set_technology = {
 		support_weapons = 1
 		infantry_binoculars = 1
 		infantry_grenade = 1
-		motorised_infantry = 1
+		
 		ww1_ambulance1 = 1
+		horse_0 = 1
 
 		# Support
 		tech_support = 1

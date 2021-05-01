@@ -91,8 +91,8 @@
  BEL_ww1_armored_car_equipment_2_short:0 "Minerva"
  BEL_ww1_armored_car_equipment_2:0 "Minerva Armored Car"
 
- BEL_ww1_armored_car_equipment_3_short:0 "SAVA"
- BEL_ww1_armored_car_equipment_3:0 "SAVA Armored Car"
+ BEL_armored_car_equipment_3_short:0 "SAVA"
+ BEL_armored_car_equipment_3:0 "SAVA Armored Car"
 
  #WW2 Light Tank
  BEL_light_tank_equipment_1:0 "T15"
@@ -102,11 +102,11 @@
 #----------------------------------------------------
 # FRANCE
 
- FRA_ww1_armored_car_equipment_1:0 "Charron AM"
- FRA_ww1_armored_car_equipment_2:0 "Peugeot AM"
- FRA_ww1_armored_car_equipment_3:0 "Peugeot AC-2"
- FRA_ww1_armored_car_equipment_4:0 "AMC P 16"
- FRA_ww1_armored_car_equipment_5:0 "Panhard 178"
+ FRA_armored_car_equipment_1:0 "Charron AM"
+ FRA_armored_car_equipment_2:0 "Peugeot AM"
+ FRA_armored_car_equipment_3:0 "Peugeot AC-2"
+ FRA_armored_car_equipment_4:0 "AMC P 16"
+ FRA_armored_car_equipment_5:0 "Panhard 178"
 
  FRA_ww1_light_tank_equipment_1_short:0 "Renault FT"
  FRA_ww1_light_tank_equipment_1:0 "Renault FT"
@@ -136,19 +136,19 @@
 #----------------------------------------------------
 # ITALIA
 
- ITA_ww1_armored_car_equipment_1:0 "FIAT Arsenale"
+ ITA_armored_car_equipment_1:0 "FIAT Arsenale"
 
- ITA_ww1_armored_car_equipment_2_short:0 "Lancia IZ"
- ITA_ww1_armored_car_equipment_2:0 "Lancia-Ansaldo IZ"
+ ITA_armored_car_equipment_2_short:0 "Lancia IZ"
+ ITA_armored_car_equipment_2:0 "Lancia-Ansaldo IZ"
 
- ITA_ww1_armored_car_equipment_3_short:0 "FIAT Tripoli"
- ITA_ww1_armored_car_equipment_3:0 "FIAT-Terni Tripoli"
+ ITA_armored_car_equipment_3_short:0 "FIAT Tripoli"
+ ITA_armored_car_equipment_3:0 "FIAT-Terni Tripoli"
 
- ITA_ww1_armored_car_equipment_4_short:0 "AB 611"
- ITA_ww1_armored_car_equipment_4:0 "Autoblinda AB 611"
+ ITA_armored_car_equipment_4_short:0 "AB 611"
+ ITA_armored_car_equipment_4:0 "Autoblinda AB 611"
 
- ITA_ww1_armored_car_equipment_5_short:0 "AB 40"
- ITA_ww1_armored_car_equipment_5:0 "Autoblinda AB 40"
+ ITA_armored_car_equipment_5_short:0 "AB 40"
+ ITA_armored_car_equipment_5:0 "Autoblinda AB 40"
 
  ITA_ww1_light_tank_equipment_1_short:0 "FIAT 3000"
  ITA_ww1_light_tank_equipment_1:0 "FIAT 3000"
@@ -175,11 +175,11 @@
  GER_ww1_tank_prototype_equipment_short:0 "Marienwagen"
  GER_ww1_tank_prototype_equipment:0 "Bremen Marienwagen"
 
- GER_ww1_armored_car_equipment_1:0 "Kraftwagen BAK"
- GER_ww1_armored_car_equipment_2:0 "Ehrhardt E-V/4"
- GER_ww1_armored_car_equipment_3:0 "Büssig A5P"
- GER_ww1_armored_car_equipment_4:0 "Daimler DZVR"
- GER_ww1_armored_car_equipment_5:0 "Sd.Kfz. 221"
+ GER_armored_car_equipment_1:0 "Kraftwagen BAK"
+ GER_armored_car_equipment_2:0 "Ehrhardt E-V/4"
+ GER_armored_car_equipment_3:0 "Büssig A5P"
+ GER_armored_car_equipment_4:0 "Daimler DZVR"
+ GER_armored_car_equipment_5:0 "Sd.Kfz. 221"
 
 
  GER_ww1_light_tank_equipment_1_short:0 "LK I"
@@ -211,16 +211,16 @@
  ENG_ww1_tank_prototype_equipment_short:0 "Little Willie"
  ENG_ww1_tank_prototype_equipment:0 "Little Willie"
 
- ENG_ww1_armored_car_equipment_1_short:0 "Silver Ghost"
- ENG_ww1_armored_car_equipment_1:0 "Rolls Royce Silver Ghost"
+ ENG_armored_car_equipment_1_short:0 "Silver Ghost"
+ ENG_armored_car_equipment_1:0 "Rolls Royce Silver Ghost"
 
- ENG_ww1_armored_car_equipment_2:0 "Austin"
- ENG_ww1_armored_car_equipment_3:0 "Rolls Royce Mk.I"
+ ENG_armored_car_equipment_2:0 "Austin"
+ ENG_armored_car_equipment_3:0 "Rolls Royce Mk.I"
 
- ENG_ww1_armored_car_equipment_4:0 "Lanchester 6×4"
+ ENG_armored_car_equipment_4:0 "Lanchester 6×4"
 
- ENG_ww1_armored_car_equipment_5_short:0 "Daimler Dingo"
- ENG_ww1_armored_car_equipment_5:0 "Daimler Dingo Scout Car"
+ ENG_armored_car_equipment_5_short:0 "Daimler Dingo"
+ ENG_armored_car_equipment_5:0 "Daimler Dingo Scout Car"
 
  ENG_ww1_light_tank_equipment_1_short:0 "Whippet"
  ENG_ww1_light_tank_equipment_1:0 "Whippet"
@@ -252,11 +252,11 @@
 
  RUS_ww1_tank_prototype_equipment:0 "Tsar Tank"
 
- RUS_ww1_armored_car_equipment_1:0 "Nakashidze-Charron"
- RUS_ww1_armored_car_equipment_2:0 "Austin"
- RUS_ww1_armored_car_equipment_3:0 "Mgebrov-Renault"
- RUS_ww1_armored_car_equipment_4:0 "Austin-Putilov"
- RUS_ww1_armored_car_equipment_5:0 "BA-3"
+ RUS_armored_car_equipment_1:0 "Nakashidze-Charron"
+ RUS_armored_car_equipment_2:0 "Austin"
+ RUS_armored_car_equipment_3:0 "Mgebrov-Renault"
+ RUS_armored_car_equipment_4:0 "Austin-Putilov"
+ RUS_armored_car_equipment_5:0 "BA-3"
 
  RUS_ww1_light_tank_equipment_1_short:0 "Vezdekhod"
  RUS_ww1_light_tank_equipment_1:0 "Vezdekhod"
@@ -285,12 +285,12 @@
 #----------------------------------------------------
 # AUSTRIA-HUNGARY
 
- AUH_ww1_armored_car_equipment_1_short:0 "Austro-Daimler"
- AUH_ww1_armored_car_equipment_1:0 "Austro-Daimler Panzerwagen"
+ AUH_armored_car_equipment_1_short:0 "Austro-Daimler"
+ AUH_armored_car_equipment_1:0 "Austro-Daimler Panzerwagen"
 
- AUH_ww1_armored_car_equipment_2:0 "Junovicz P.A.1"
+ AUH_armored_car_equipment_2:0 "Junovicz P.A.1"
 
- AUH_ww1_armored_car_equipment_3:0 "Romfell P.A.2"
+ AUH_armored_car_equipment_3:0 "Romfell P.A.2"
 
  AUH_ww1_light_tank_equipment_1_short:0 "Motorgeschütz"
  AUH_ww1_light_tank_equipment_1:0 "Motorgeschütz"
@@ -303,10 +303,10 @@
 #----------------------------------------------------
 # OTTOMAN EMPIRE
 
- TUR_ww1_armored_car_equipment_1_short:0 "Hotchkiss"
- TUR_ww1_armored_car_equipment_1:0 "Hotchkiss"
+ TUR_armored_car_equipment_1_short:0 "Hotchkiss"
+ TUR_armored_car_equipment_1:0 "Hotchkiss"
 
- TUR_ww1_armored_car_equipment_2:0 "Panhard-Genty"
+ TUR_armored_car_equipment_2:0 "Panhard-Genty"
 #----------------------------------------------------
 
  ARMORED_CAR_TITLE_LIGHT:0 "ARMORED\nCARS"
@@ -314,4 +314,4 @@
 
 # Description added, ugly but meh
 
- ww1_armored_car_equipment_desc:0 "Armored Car I"
+ armored_car_equipment_desc:0 "Armored Car I"

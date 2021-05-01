@@ -60,7 +60,25 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4tgw/binoculars.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_machine_gun_medium"
+		texturefile = "gfx/interface/technologies/machine_gun.dds"   
+	}
 
+	SpriteType = {
+		name = "GFX_machine_gun_1_medium"
+		texturefile = "gfx/interface/technologies/machine_gun_generic.dds"   
+	}
+
+	SpriteType = {
+		name = "GFX_machine_gun_2_medium"
+		texturefile = "gfx/interface/technologies/machine_gun_generic.dds"   
+	}
+
+	SpriteType = {
+		name = "GFX_machine_gun_3_medium"
+		texturefile = "gfx/interface/technologies/machine_gun_generic.dds"   
+	}
 
 	SpriteType = {
 		name = "GFX_infantry_ww1_machinegun1_medium"
@@ -143,8 +161,8 @@ spriteTypes = {
 	}	
 
 	SpriteType = { #1900 Horse
-		name = "GFX_motorized_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/truck_1900.dds"
+		name = "GFX_horse_equipment_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/horse.dds"
 	}	
 	SpriteType = { #1914 Early Motorized
 		name = "GFX_motorized_equipment_1_medium"

@@ -103,7 +103,7 @@ sub_units = {
 
 
 	strat_bomber = {
-		sprite = heavy_plane
+		sprite = airship_plane
 		priority = 5
 		active = yes
 		type = { suicide }
@@ -113,7 +113,7 @@ sub_units = {
 	}
 
 	jet_strat_bomber = {
-		sprite = heavy_plane
+		sprite = airship_plane
 		priority = 5
 		active = yes
 		type = { strategic_bomber }

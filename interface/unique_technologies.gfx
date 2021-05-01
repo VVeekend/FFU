@@ -352,6 +352,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/FRA_infantry_equipment_0.dds"   
 	}
 	
+	SpriteType = {
+		name = "GFX_FRA_machine_gun_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_machine_gun_1.dds"   
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_machine_gun_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_machine_gun_2.dds"   
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_machine_gun_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_machine_gun_3.dds"   
+	}
+	
+	
 ##################################### Italian Equipment #####################################
 
 	SpriteType = {

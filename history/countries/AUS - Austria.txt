@@ -98,10 +98,11 @@ create_navy_leader={  name = "Miklós Horthy" id=6394 portrait_path="gfx/hoi4tgw
 		support_weapons = 1
 		infantry_binoculars = 1
 		infantry_grenade = 1
-		motorised_infantry = 1
+		
 		ww1_ambulance1 = 1
 		tech_mountaineers = 1
 		jaegers = 1
+		horse_0 = 1
 
 		# Support
 		tech_support = 1

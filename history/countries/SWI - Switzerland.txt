@@ -57,9 +57,10 @@ create_corps_commander={  name = "Wildbolz" id=81029 portrait_path="gfx/generals
 		infantry_weapons = 1
 		support_weapons = 1
 		infantry_binoculars = 1
-		motorised_infantry = 1
+		
 		ww1_ambulance1 = 1
 		tech_mountaineers = 1
+		horse_0 = 1
 
 		# Support
 		tech_support = 1

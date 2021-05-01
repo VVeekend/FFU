@@ -121,7 +121,7 @@ equipments = {
 		archetype = infantry_equipment
 		parent = infantry_equipment_3
 		priority = 10
-		visual_level = 1
+		visual_level = 3
 
 		#Defensive Abilities
 		defense = 22

@@ -8,6 +8,11 @@ technologies = {
 			armored_car
 		}
 		
+		enable_subunits = {	
+		    armored_car_recon 
+		
+		}
+		
 		on_research_complete = {
 
 			hidden_effect = {
@@ -59,7 +64,7 @@ technologies = {
 
 	ww1_armored_car_2 =
 	{
-		enable_equipments = { ww1_armored_car_equipment_2 }
+		enable_equipments = { armored_car_equipment_1 }
 
 		research_cost = 2
 		folder = { name=armour_folder position={ x=-8 y = 2 } }
@@ -75,7 +80,7 @@ technologies = {
 
 	ww1_armored_car_3 =
 	{
-		enable_equipments = { ww1_armored_car_equipment_3 }
+		enable_equipments = { armored_car_equipment_2 }
 
 		research_cost = 2
 		folder = { name=armour_folder position={ x=-8 y = 6 } }
@@ -90,7 +95,7 @@ technologies = {
 
 	ww1_armored_car_4 =
 	{
-		enable_equipments = { ww1_armored_car_equipment_4 }
+		enable_equipments = { armored_car_equipment_3 }
 
 		research_cost = 2
 		folder = { name=armour_folder position={ x=-8 y = 10 } }

@@ -31,23 +31,9 @@ equipments = {
 		fuel_consumption = 1.2
 	}
 
-	#1900
+	#1918
 	motorized_equipment_0 = {
-		year = 1900
-		archetype = motorized_equipment
-		maximum_speed = 8
-		reliability = 0.6
-		priority = 30	
-		build_cost_ic = 2.1
-		resources = {
-			steel = 1
-		}
-		fuel_consumption = 0.0 #HOI4TGW Open Beta 0.7
-	}
-
-	#1914
-	motorized_equipment_2 = {
-		year = 1914
+		year = 1918
 		archetype = motorized_equipment
 		maximum_speed = 10
 		reliability = 0.7
@@ -59,16 +45,6 @@ equipments = {
 			steel = 1
 		}
 		fuel_consumption = 0.9
-	}
-
-	#1936
-	motorized_equipment_1 = {
-		year = 1936
-		archetype = motorized_equipment
-		maximum_speed = 12
-		reliability = 0.8
-		priority = 30
-		fuel_consumption = 1.2			
 	}
 
 }

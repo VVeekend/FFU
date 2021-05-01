@@ -76,7 +76,7 @@
 
  infantry2:0 "Reequipped Infantry"
 
- ww1_armored_car_equipment:0 "Armored Car"
+ armored_car_equipment:0 "Armored Car"
  armored_car_equipment_1:0 "Armored Car I"
  armored_car_equipment_2:0 "Armored Car II"
 
