@@ -18,9 +18,9 @@ state={
 		add_extra_state_shared_building_slots = 10
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 4
+			industrial_complex = 3
 			dockyard = 1
-			arms_factory = 7
+			arms_factory = 9
 			3195 = {
 				naval_base = 10
 			     }

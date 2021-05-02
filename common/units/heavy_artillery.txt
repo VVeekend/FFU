@@ -35,7 +35,7 @@ heavy_artillery_brigade = {
 	supply_consumption = 0.08
 	
 		urban = {
-			attack = 0.2
+			attack = 0.3
 		}
 		
 		forest = {
@@ -63,6 +63,7 @@ heavy_artillery_brigade = {
 
 		fort = {
 			attack = 0.1
+			defence = -0.2
 		}
 
 		river = {

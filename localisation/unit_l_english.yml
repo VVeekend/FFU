@@ -299,7 +299,7 @@
  mechanized_desc:0 "Lightly armored infantry transportation."
  modern_armor:0 "Modern Tank"
  modern_armor_desc:0 "Modern Tanks have evolved to deal with most battlefield situations. Powerful guns and sloped armor have eliminated the need for specialized tanks."
- infantry:0 "Infantry"
+ infantry:0 "Riflemen"
  infantry_desc:0 "Meat for the meat grinder."
  bicycle_battalion:0 "Bicycle Battalion"
  bicycle_battalion_desc:0 "Meat for the meat grinder, but with extra bits of metal."

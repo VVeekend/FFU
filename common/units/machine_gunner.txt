@@ -23,9 +23,9 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 60
-		default_morale = 0.3
-		manpower = 750
+		max_organisation = 30
+		default_morale = 0.2
+		manpower = 200
 
 		#Misc Abilities
 		training_time = 90
@@ -35,10 +35,12 @@ sub_units = {
 		supply_consumption = 0.04
 	
 		fort = {
-			defence = 0.10
+			defence = 0.25
 		}
+		
 		need = {
-			machine_gun_equipment = 50
+			machine_gun_equipment = 24
+			infantry_equipment = 100
 		}
 	}
 }

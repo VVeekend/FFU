@@ -148,7 +148,8 @@ ideas={
 					experience_gain_navy = 0.02
 					land_reinforce_rate = 0.05
 					minimum_training_level = -0.1
-					max_planning = 0.1
+					army_attack_factor = 0.05
+					breakthrough_factor = 0.05
 			}
 		}
 

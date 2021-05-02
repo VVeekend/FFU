@@ -74,7 +74,7 @@
  # hoi4tgw
  ######################################
 
- infantry2:0 "Reequipped Infantry"
+ infantry2:0 "Standard Riflemen"
 
  armored_car_equipment:0 "Armored Car"
  armored_car_equipment_1:0 "Armored Car I"

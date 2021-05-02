@@ -383,7 +383,7 @@ technologies = {
 ############################ Defensive Doctrines ################
 	complex_trench_systems = {
 		 
-
+        production_speed_buildings_factor = 0.05
 		supply_consumption_factor = 0.02
 		xp_research_type = army
 		xp_research_cost = 10
@@ -415,7 +415,13 @@ technologies = {
 			
 			
 			
-		}		
+		}	
+
+		enable_building = {
+			building = trench
+			level = 1
+		}
+		
 		categories = {
 			land_doctrine
 			
@@ -527,11 +533,16 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 2 }
 		}
-		on_research_complete = {
+		on_research_complete = {					
 			
 			
-			
-		}		
+		}	
+
+		enable_building = {
+			building = trench
+			level = 5
+		}
+		
 		categories = {
 			land_doctrine
 			
@@ -739,19 +750,20 @@ technologies = {
 		doctrine = yes	
 		research_cost = 2
 		on_research_complete = {
+				
 			
-			
-			
-		}		
+		}
+		
+		enable_building = {
+			building = bunker
+			level = 2
+		}	
+		
 		categories = {
 			land_doctrine
 			
 		}
 		
-		enable_building = {
-			building = pillboxes
-			level = 1
-		}
 		
 		folder = {
 			name = land_doctrine_folder
@@ -909,6 +921,11 @@ technologies = {
 			defense = 0.1
 		}
 		max_dig_in = 6
+
+		enable_building = {
+			building = bunker
+			level = 5
+		}
 		
 		research_cost = 2.5
 		folder = {
@@ -935,6 +952,7 @@ technologies = {
 				 
 				
 			}
+		
 			modifier = {
 
 				
@@ -2455,16 +2473,7 @@ technologies = {
 	}
 	##############################################
 	armored_car_recon = {
-		 
 		
-		recon_ac = {
-			recon = 0.5
-			max_organisation = 1
-		}
-		category_tankette_recon = {
-			recon = 0.5
-			max_organisation = 1
-		}
 		
 		doctrine = yes	
 		research_cost = 1
@@ -2818,6 +2827,12 @@ technologies = {
 			
 			
 		}
+
+		enable_building = {
+			building = anti_air_building
+			level = 5
+		}
+		
 		categories = {
 			land_doctrine
 			
@@ -2833,14 +2848,15 @@ technologies = {
 			modifier = {
 				factor = 100
 				
-			}
+			} 
 			modifier = {
 
 				
 				
 			}
-		}
-	}
+		
+	} }
+	
 	first_aid_stations = {
 		 
 	
@@ -2854,12 +2870,12 @@ technologies = {
 			
 			
 			
-			custom_effect_tooltip = medical_tech_tt
+			custom_effect_tooltip = _tt
 		}
 		categories = {
 			land_doctrine
 			
-			medical_tech
+			
 		}
 		
 		folder = {
@@ -2963,11 +2979,6 @@ technologies = {
 			factor = 8
 			modifier = {
 				factor = 100
-				
-			}
-			modifier = {
-
-				
 				
 			}
 		}

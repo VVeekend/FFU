@@ -1297,9 +1297,6 @@ technologies = {
 		flamethrower = {
 			ap_attack = 0.1
 			soft_attack = 0.1
-			fort = {
-				attack = 0.05
-			}
 			urban = {
 				attack = 0.05
 			}
@@ -1352,9 +1349,6 @@ technologies = {
 			fort = {
 				attack = 0.05
 			}
-			urban = {
-				attack = 0.05
-			}
 		}
 		path = {
 			leads_to_tech = tech_flamethrower4
@@ -1398,9 +1392,6 @@ technologies = {
 		flamethrower = {
 			ap_attack = 0.1
 			soft_attack = 0.1
-			fort = {
-				attack = 0.05
-			}
 			urban = {
 				attack = 0.05
 			}
@@ -1501,9 +1492,6 @@ technologies = {
 		wardog = {
 		suppression_factor = 0.05
 		recon = 0.5
-		urban = {
-			attack = 0.05
-		}
 		}
 		
 		path = {
@@ -1548,9 +1536,6 @@ technologies = {
 		wardog = {
 		soft_attack = 0.05
 		suppression_factor = 0.05
-		urban = {
-			attack = 0.05
-		}
 		}
 	
 		path = {
@@ -1595,9 +1580,6 @@ technologies = {
 		wardog = {
 		soft_attack = 0.05
 		suppression_factor = 0.05
-		urban = {
-			attack = 0.05
-		}
 		}
 
 		research_cost = 1
