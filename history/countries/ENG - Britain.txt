@@ -248,9 +248,10 @@ create_navy_leader={  name = "Tyrwhitt" id=28485 portrait_path="gfx/admiral/ENG_
 		support_weapons = 1
 		infantry_binoculars = 1
 		infantry_grenade = 1
-		
+		machine_gun = 1
+		machine_gun_1 = 1
 		ww1_ambulance1 = 1
-		horse_0 = 1
+		horse_equipment = 1
 		
 
 		# Support
@@ -297,7 +298,7 @@ create_navy_leader={  name = "Tyrwhitt" id=28485 portrait_path="gfx/admiral/ENG_
 		tank_unlocker1 = 1
 
 		# Industry
-		ww1_fortification1 = 1
+		
 	}
 
 	set_politics = {

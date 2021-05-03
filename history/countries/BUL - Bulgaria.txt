@@ -101,9 +101,10 @@ set_technology = {
 		support_weapons = 1
 		infantry_binoculars = 1
 		infantry_grenade = 1
-		
+		machine_gun = 1
+		machine_gun_1 = 1
 		ww1_ambulance1 = 1
-		horse_0 = 1
+		horse_equipment = 1
 
 		# Support
 		tech_support = 1
@@ -149,7 +150,7 @@ set_technology = {
 		chemical_research = 1
 
 		# Industry
-		ww1_fortification1 = 1
+		
 	}
 
 	set_politics = {

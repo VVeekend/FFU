@@ -356,12 +356,13 @@ create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/admir
 		support_weapons = 1
 		infantry_binoculars = 1
 		infantry_grenade = 1
-		
+		machine_gun = 1
+		machine_gun_1 = 1
 		ww1_ambulance1 = 1
 		tech_mountaineers = 1
 		Stormtroopers = 1
 		Stormtroopers2 = 1
-		horse_0 = 1
+		horse_equipment = 1
 
 		# Support
 		tech_support = 1
@@ -408,7 +409,7 @@ create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/admir
 		tank_unlocker1 = 1
 
 		# Industry
-		ww1_fortification1 = 1
+		
 		ww1_medicine1 = 1
 	}
 

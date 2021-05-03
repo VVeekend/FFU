@@ -42,7 +42,6 @@ equipments = {
 
 	machine_gun_equipment_0 = {
 		archetype = machine_gun_equipment
-		active = yes
 		priority = 10
 		visual_level = 0		
 	}
@@ -50,14 +49,13 @@ equipments = {
 	machine_gun_equipment_1 = {
 		archetype = machine_gun_equipment
 		parent = machine_gun_equipment_0
-		active = yes
 		priority = 10
 		visual_level = 1
-        build_cost_ic = 1.5	
+        build_cost_ic = 1.75	
 
 		#Defensive Abilities
 		defense = 18
-		breakthrough = 2
+		breakthrough = 1
 
 		#Offensive Abilities
 		soft_attack = 4
@@ -69,14 +67,13 @@ equipments = {
 	machine_gun_equipment_2 = {
 		archetype = machine_gun_equipment
 		parent = machine_gun_equipment_1
-		active = yes
 		priority = 10
 		visual_level = 2	
-        build_cost_ic = 1.7
+        build_cost_ic = 2
 
 		#Defensive Abilities
 		defense = 22
-		breakthrough = 3
+		breakthrough = 2
 
 		#Offensive Abilities
 		soft_attack = 5
@@ -94,14 +91,13 @@ equipments = {
 	machine_gun_equipment_3 = {
 		archetype = machine_gun_equipment
 		parent = machine_gun_equipment_2
-		active = yes
 		priority = 10
 		visual_level = 3	
-        build_cost_ic = 2.4
+        build_cost_ic = 2.5
 
 		#Defensive Abilities
 		defense = 28
-		breakthrough = 4
+		breakthrough = 3
 
 		#Offensive Abilities
 		soft_attack = 6.5

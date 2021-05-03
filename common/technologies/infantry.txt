@@ -1670,7 +1670,7 @@ technologies = {
 	    horse_equipment = {
 
 		enable_equipments = {
-			horse_0
+			horse_equipment_0
 		}
 
 		

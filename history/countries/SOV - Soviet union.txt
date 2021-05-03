@@ -156,9 +156,10 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 		ww1infantry_weapons1 = 1
 		support_weapons = 1
 		infantry_binoculars = 1
-		
+		machine_gun = 1
+		machine_gun_1 = 1
 		ww1_ambulance1 = 1
-		horse_0 = 1
+		horse_equipment = 1
 
 
 		# Support
@@ -188,7 +189,7 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 		electronic_mechanical_engineering = 1
 
 		# Industry
-		ww1_fortification1 = 1
+		
 	}
 
 	set_politics = {

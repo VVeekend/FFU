@@ -24,6 +24,7 @@ heavy_artillery_brigade = {
 	manpower = 750
 	need = { 
 	    heavy_field_gun_equipment=26 
+		horse_equipment = 2
 	}
 	
 	max_strength = 1
@@ -35,12 +36,13 @@ heavy_artillery_brigade = {
 	supply_consumption = 0.08
 	
 		urban = {
-			attack = 0.3
+			attack = 0.5
 		}
 		
 		forest = {
-			attack = -0.2
+			attack = 0.1
 			movement = -0.2
+			defence = -0.15
 		}
 
 		hills = {

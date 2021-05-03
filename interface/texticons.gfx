@@ -1056,6 +1056,35 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
+
+	spriteType = {
+		name = "GFX_unit_light_tank_recon_icon_small"
+		texturefile = "gfx/texticons/support_armored_recon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_armored_car_recon_icon_small"
+		texturefile = "gfx/texticons/support_light_armored_recon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_mot_recon_icon_small"
+		texturefile = "gfx/texticons/support_motorized_recon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_armored_car_icon_small"
+		texturefile = "gfx/texticons/unit_armored_car_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
 	spriteType = {
 		name = "GFX_text_contact_resistance_token"
 		texturefile = "gfx/texticons/text_contact_resistance_token.dds"

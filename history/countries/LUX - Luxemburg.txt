@@ -31,9 +31,10 @@ create_country_leader={ name = "William IV" desc=LUX_william_iv_DESC picture="gf
 		infantry_weapons = 1
 		support_weapons = 1
 		infantry_binoculars = 1
-		
+		machine_gun = 1
+		machine_gun_1 = 1
 		ww1_ambulance1 = 1
-		horse_0 = 1
+		horse_equipment = 1
 
 
 		# Support

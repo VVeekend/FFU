@@ -24,7 +24,7 @@ sub_units = {
 		
 		manpower = 500
 		need = { 
-		      light_field_gun_equipment=32
+		      light_field_gun_equipment = 32
 	    }
 		
 		max_strength = 0.6
