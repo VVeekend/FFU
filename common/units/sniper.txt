@@ -25,12 +25,12 @@ sub_units = {
 		combat_width = 0
 	
 		#Size Definitions
-		max_strength = 10
-		max_organisation = 40
-		breakthrough = 0.33
+		max_strength = 2
+		max_organisation = 20
 		default_morale = 0.3
+		manpower = 200
+		training_time = 120
 		manpower = 100
-		training_time = 180
 
 		#Misc Abilities
 		weight = 0.1
@@ -40,8 +40,8 @@ sub_units = {
 		can_be_parachuted = yes
 		
 		# Support nerfs to combat abilities
-		defense = 0.1
-		soft_attack = 0.5	
+		defense = -0.1
+		soft_attack = -0.5	
 
 		essential = {
 			infantry_equipment

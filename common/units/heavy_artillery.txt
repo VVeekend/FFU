@@ -37,15 +37,17 @@ heavy_artillery_brigade = {
 	
 		urban = {
 			attack = 0.5
+	  	    defence = -0.2
 		}
 		
 		forest = {
-			attack = 0.1
+			attack = 0.2
 			movement = -0.2
-			defence = -0.15
+			defence = -0.2
 		}
 
 		hills = {
+		    attack = 0.1
 			movement = -0.05
 		}
 

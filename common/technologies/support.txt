@@ -791,6 +791,10 @@ technologies = {
 			fuel_consumption_factor = -0.05
 		}
 		
+		category_all_infantry = {
+			default_morale = 0.02
+		}
+		
 		
 		path = {
 			leads_to_tech = tech_logistics_company3
@@ -832,6 +836,9 @@ technologies = {
 			fuel_consumption_factor = -0.05
 		}
 		
+		category_all_infantry = {
+			default_morale = 0.02
+		}		
 		
 		path = {
 			leads_to_tech = tech_logistics_company4
@@ -873,7 +880,10 @@ technologies = {
 			fuel_consumption_factor = -0.05
 		}
 		
-
+		category_all_infantry = {
+			default_morale = 0.02
+		}
+		
 		research_cost = 1.5
 		start_year = 1918
 		folder = {
@@ -1090,10 +1100,6 @@ technologies = {
 			recon = 1
 			max_organisation = 5
 			soft_attack = 0.1
-			river = {
-				attack = 0.05
-				defence = 0.05
-			}
 			amphibious = {	
 				defence = 0.2
 			}
@@ -1143,12 +1149,12 @@ technologies = {
 			max_organisation = 5
 			soft_attack = 0.1
 			forest = {
-				attack = 0.05
-				defence = 0.05
+				attack = 0.025
+				defence = 0.025
 			}
 			jungle = {
-				attack = 0.1
-				defence = 0.1
+				attack = 0.025
+				defence = 0.025
 			}
 		}
 		
@@ -1196,12 +1202,12 @@ technologies = {
 			max_organisation = 5
 			soft_attack = 0.1
 			mountain = {
-				attack = 0.05
-				defence = 0.05
+				attack = 0.025
+				defence = 0.025
 			}
 			hills = {
-				attack = 0.05
-				defence = 0.05
+				attack = 0.025
+				defence = 0.025
 			}
 		}
 
@@ -1301,7 +1307,7 @@ technologies = {
 			ap_attack = 0.1
 			soft_attack = 0.1
 			urban = {
-				attack = 0.05
+				attack = 0.025
 			}
 		}
 		
@@ -1350,7 +1356,7 @@ technologies = {
 			ap_attack = 0.1
 			soft_attack = 0.1
 			fort = {
-				attack = 0.05
+				attack = 0.025
 			}
 		}
 		path = {
@@ -1396,7 +1402,7 @@ technologies = {
 			ap_attack = 0.1
 			soft_attack = 0.1
 			urban = {
-				attack = 0.05
+				attack = 0.025
 			}
 		}
 
