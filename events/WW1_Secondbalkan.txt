@@ -1,21 +1,5 @@
 ﻿add_namespace = ww1_secondbalkan
 
-
-# Second Balkan War Starts
-#____________________________________________________________
-news_event = {
-	id = ww1_secondbalkan.100
-	title = ww1_secondbalkan.100.desc
-	picture = EVENT_hoi4tgw_second_balkan_war
-
-	major = yes
-	is_triggered_only = yes
-	
-	option = {
-		name = ww1_secondbalkan.100.a
-	}
-}
-
 #____________________________________________________________
 
 # Second Balkan War Victory
