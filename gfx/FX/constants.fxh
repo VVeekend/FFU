@@ -188,8 +188,8 @@ static const float  SHADOW_WEIGHT_TREE   		= 0.7f;
 // ------------------    GRADIENT BORDERS   ---------------------
 // --------------------------------------------------------------
 
-static const float GB_CAM_MIN = 220.0f;
-static const float GB_CAM_MAX = 225.0f;
+static const float GB_CAM_MIN = 300.0f;
+static const float GB_CAM_MAX = 350.0f;
 static const float GB_CAM_MAX_FILLING_CLAMP = 0.6f; // 0 to 1 value for clamping the fill when camera is at max distance
 static const float GB_THRESHOLD = 0.37f; // interpolation time
 static const float GB_THRESHOLD2 = 0.05f; // interpolation time
