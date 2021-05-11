@@ -872,42 +872,6 @@ instant_build = yes  } }
 			factor = 1
 		}
 	}
-	
-	#National Focus: Schlieffen Plan
-	focus = {
-		id = GER_ww1_war_with_france
-
-		icon = GFX_hoi4tgw_ironcross
-		available = {
-			date > 1914.6.28
-			date < 1915.1.1
-			OR = {
-             has_war_with = FRA
-			}
-			NOT = { has_global_flag = kis_treaty_of_versailles }
-		}
-
-		completion_reward = {
-			add_named_threat = { threat = 15 name = "Schlieffen Plan" }
-
-			GER = {
-				set_country_flag=GER_ww1_schlieffen_plan
-				country_event = { id = ww1_franzferdinand.8 days = 1 }
-				add_timed_idea = {
-					days = 100
-					idea = GER_schlieffen1
-			}
-			}
-		}
-		x = 19
-		y = 7
-		cost = 2
-
-
-		ai_will_do = { 
-			factor = 500
-		}
-	}
 
 	focus = {
 		id = GER_ww1_kaiserschlacht

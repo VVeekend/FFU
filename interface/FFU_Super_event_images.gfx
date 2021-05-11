@@ -67,4 +67,16 @@ spriteTypes = {
      play_on_show = yes
      pause_on_loop = 0.0
    }
+   
+    frameAnimatedSpriteType = {
+     name = "FFU_schlieffen_plan"
+     texturefile = "gfx/animated/FFU_schlieffen_plan.dds"
+     noOfFrames = 27
+     loadType = "INGAME"
+     alwaystransparent = no
+     animation_rate_fps = 3
+	 looping = yes
+     play_on_show = yes
+     pause_on_loop = 0.0
+   }
 }

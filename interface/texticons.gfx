@@ -1006,7 +1006,14 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}
-
+	
+	spriteType = {
+		name = "GFX_unit_gunner_icon_small"
+		texturefile = "gfx/texticons/unit_gunner_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
 	spriteType = {
 		name = "GFX_nato_unit_armored_car_icon_small"
 		texturefile = "gfx/texticons/nato_unit_super_heavy_armor_icon_small.dds"
@@ -1019,7 +1026,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-
+	
 	spriteType = {
 		name = "GFX_ship_dreadnought_icon_small"
 		texturefile = "gfx/texticons/ship_battleship_icon_small.dds"
@@ -1056,7 +1063,13 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
-
+	spriteType = {
+		name = "GFX_unit_gunner_icon_small"
+		texturefile = "gfx/texticons/unit_gunner_icon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
 	spriteType = {
 		name = "GFX_unit_light_tank_recon_icon_small"
 		texturefile = "gfx/texticons/support_armored_recon.dds"

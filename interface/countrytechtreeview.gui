@@ -1978,30 +1978,6 @@ guiTypes = {
 
 			###---------------------------------------------------------------------
 
-			###---------------------------------------------------------------------
-			#FORTIFICATION HOI4TGW
-
-			gridboxtype = {
-				name = "ww1_fortification1_tree"
-
-				position = { x = 1191 y = 172 }
-				size = { width = 520 height = 800 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-				instantTextBoxType = {
-					name = "industry_ww1_fortification"
-					position = { x = 1446 y = 115  }
-					textureFile = ""
-					font = "hoi_22tech"
-					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_FORTIFICATION"
-					maxWidth = 150
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
 
 			###---------------------------------------------------------------------
 
@@ -2104,7 +2080,6 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
 			smooth_scrolling = yes 
-			scroll_wheel_factor = @TECH_TABS_SCROLL_WHEEL_FACTOR
 
 			background = {
 				name = "Background"
@@ -2137,11 +2112,6 @@ guiTypes = {
 				spriteType = "GFX_ww1_support_bg"
 				position = { x=1830 y=33 }
 			}
-			iconType = {
-				name ="ww1_air_bg"
-				spriteType = "GFX_ww1_air_bg"
-				position = { x=2435 y=33 }
-			}
 			#Label text
 			instantTextBoxType = {
 				name = "ww1_infantry_title"
@@ -2169,7 +2139,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "basic_MG_defences_title"
-				position = { x = 50 y = 1290 }
+				position = { x = 1825 y = 800 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = { x = 0 y = 4 }
@@ -2239,18 +2209,6 @@ guiTypes = {
 				format = center
 				orientation = "UPPER_LEFT"
 			}
-			instantTextBoxType = {
-				name = "ww1_air_title"
-				position = { x = 2450 y = 40 }
-				textureFile = ""
-				font = "hoi_36header"
-				borderSize = { x = 0 y = 4 }
-				text = "EARLY AIR THEORIES"
-				maxWidth = 550
-				maxHeight = 122
-				format = center
-				orientation = "UPPER_LEFT"
-			}
 			
 			gridboxtype = {
 				name = "ww1_infantry_tree"
@@ -2274,7 +2232,7 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "basic_MG_defences_tree"
-				position = { x = 25 y = 1325 }
+				position = { x = 1825 y = 850 }
 				size = { width = 600 height = 1000 }
 				slotsize = { width = 60 height = 60 }
 				format = "UP"				
@@ -2345,19 +2303,6 @@ guiTypes = {
 					quadTextureSprite ="GFX_fullborder_tiled"
 					position = { x = 0 y = -150 }					
 				}				
-			}
-			gridboxtype = {
-				name = "WW1_air_power_tree"
-				position = { x = 2425 y = 172 }
-				size = { width = 600 height = 1885 }
-				slotsize = { width = 60 height = 60 }
-				format = "UP"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x = 0 y = -150 }					
-				}
 			}
 		}
 

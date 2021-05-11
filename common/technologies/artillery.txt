@@ -17,10 +17,6 @@ technologies = {
 			leads_to_tech = rocket_artillery
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = bonus_artillery4
-			research_cost_coeff = 1
-		}
 
 		path = {
 			leads_to_tech = heavy_field_gun1
@@ -99,10 +95,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = bonus_bertha4
-			research_cost_coeff = 1
-		}
 		
 		categories = {
 			artillery
@@ -145,34 +137,6 @@ technologies = {
 			factor = 0
 		}
 	}
-
-	# 0.5.1 (03/2018)
-	bonus_bertha4 = {
-
-		start_year = 1910
-
-		heavy_artillery_brigade = {
-			maximum_speed = 0.5
-		}
-		
-		research_cost = 1.5
-
-		start_year = 1914
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 8 y = 6 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
 
 
 	heavy_field_gun2 = {
@@ -338,31 +302,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 200
-		}
-	}
-
-	# 0.5.1 (03/2018)
-	bonus_artillery4 = {
-
-		artillery_brigade = {
-			maximum_speed = 0.25
-		}
-		
-		research_cost = 1.5
-
-		start_year = 1910
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -2 y = 2 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 20
 		}
 	}
 
@@ -670,7 +609,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -5 y = 2 }
+			position = { x = -4 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -702,7 +641,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -5 y = 4 }
+			position = { x = -4 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -738,7 +677,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -5 y = 6 }
+			position = { x = -4 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -770,7 +709,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -5 y = 8 }
+			position = { x = -4 y = 8 }
 		}
 		
 		ai_will_do = {

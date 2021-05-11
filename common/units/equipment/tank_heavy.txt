@@ -26,12 +26,12 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 8
-		breakthrough = 52
-		hardness = 0.95
+		breakthrough = 60
+		hardness = 0.8
 		armor_value = 110
 
 		#Offensive Abilities
-		soft_attack = 34
+		soft_attack = 45
 		hard_attack = 30
 		ap_attack = 111
 		air_attack = 0
@@ -71,11 +71,11 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 9
-		breakthrough = 67
+		breakthrough = 70
 		armor_value = 130
 
 		#Offensive Abilities
-		soft_attack = 42
+		soft_attack = 53
 		hard_attack = 40
 		ap_attack = 131
 

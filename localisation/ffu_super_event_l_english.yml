@@ -1,8 +1,8 @@
 ﻿l_english:
  super_event_picture_1:0 "FFU_ww1_start"
  super_event_title_1:0 "THE GREAT WAR"
- super_event_text_1:0 "Paris for lunch, dinner in St. Petersburg. \n- Kaiser Wilhelm II"
- super_event_button_text_1:0 "Europe is burning."
+ super_event_text_1:0 " This new lot...they too would go down. They were 'troops' who were about to be 'thrown in,' 'men' in some general's larger plan, 're-enforcements ' and would soon be 'casualties'. They were also Spud, Snow, Skeeter, Blue, Tommo. \n- David Malouf"
+ super_event_button_text_1:0 "Dread."
 
  super_event_picture_2:0 "FFU_balkan_war"
  super_event_title_2:0 "BALKAN WAR"
@@ -28,3 +28,13 @@
  super_event_title_6:0 "BLACK SEA RAID"
  super_event_text_6:0 "You are greatly mistaken. We have this country absolutely under our control. I have no desire to shift the blame onto our underlings and I am entirely willing to accept the responsibility myself for everything that has taken place. \n- Ismail Enver Pasha"
  super_event_button_text_6:0 "Another Nation Joins."
+ 
+ super_event_picture_6:0 "FFU_black_sea_raid"
+ super_event_title_6:0 "BLACK SEA RAID"
+ super_event_text_6:0 "You are greatly mistaken. We have this country absolutely under our control. I have no desire to shift the blame onto our underlings and I am entirely willing to accept the responsibility myself for everything that has taken place. \n- Ismail Enver Pasha"
+ super_event_button_text_6:0 "Another Nation Joins."
+ 
+ super_event_picture_7:0 "FFU_schlieffen_plan"
+ super_event_title_7:0 "SCHLIEFFEN PLAN"
+ super_event_text_7:0 "Belgium is a nation, not a road. \n- King Albert I"
+ super_event_button_text_7:0 "Hold Little Belgium."

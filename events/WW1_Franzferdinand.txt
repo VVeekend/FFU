@@ -57,7 +57,6 @@ news_event = {
 				FRA = { add_to_faction = SER }
 				FRA = { add_to_faction = MNT }
 				FRA = { add_to_faction = LUX }
-				FRA = { add_to_faction = BEL }
 				FRA = { add_to_faction = POR }
 			}
 
@@ -70,7 +69,6 @@ news_event = {
 				ENG = { add_to_faction = SER }
 				ENG = { add_to_faction = MNT }
 				ENG = { add_to_faction = LUX }
-				ENG = { add_to_faction = BEL }
 				ENG = { add_to_faction = POR }
 			}
 
@@ -148,14 +146,6 @@ country_event = {
 			}
 		    declare_war_on={
 				type=annex_everything
-				target=LUX
-			}
-			declare_war_on={
-				type=annex_everything
-				target=BEL
-			}
-		    declare_war_on={
-				type=annex_everything
 				target=FRA
 			}
 			declare_war_on={
@@ -176,17 +166,10 @@ country_event = {
 			}
 		}
 		GER={
+		set_country_flag = russia_mobilized
 	        declare_war_on={
 				type=annex_everything
 				target=POR
-			}
-		    declare_war_on={
-				type=annex_everything
-				target=LUX
-			}
-			declare_war_on={
-				type=annex_everything
-				target=BEL
 			}
 		    declare_war_on={
 				type=annex_everything
@@ -208,6 +191,7 @@ country_event = {
 				type=annex_everything
 				target=MNT
 			}
+			country_event = { id = ww1_franzferdinand.8 days = 30 }
 		}
 		
 		}
@@ -417,25 +401,28 @@ country_event = {
 		ai_chance =  { factor = 100 }
 
 		GER = {
+			add_timed_idea = {
+					days = 100
+					idea = GER_schlieffen1
+			}
 			declare_war_on = {
 				type = annex_everything
 				target = BEL
 			}
+			set_variable = {
+				Global.super_event=7
+				
+			}
+			FFU_show_super_event = yes
 		}
 
-
+        FRA = { add_to_faction = BEL }
+		FRA = { add_to_faction = LUX }
 		hidden_effect = {
 			add_named_threat = {
 				threat = 30
 				name = "The Great War"
 			}
-			#GER = {
-			#	create_wargoal = {
-			#		type = annex_everything
-			#		target = FRA
-			#	}
-			#}
-
 	        AUS = {
 				add_to_war = {
 		            targeted_alliance = GER enemy = BEL
@@ -448,8 +435,11 @@ country_event = {
 	            targeted_alliance = BEL enemy = GER
 	        }
         }
+		hidden_effect = {
+			every_country = {limit = {check_variable= { super_events_enabled > 0} }
+				scoped_sound_effect="FFU_schlieffen_plan" }
 	}
-}
+} }
 #____________________________________________________________
 
 

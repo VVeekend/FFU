@@ -431,6 +431,7 @@ ideas={
 			}
 
 			modifier={ stability_factor  = 0.10 
+			global_building_slots_factor = 0.2
 
 			}
 		}

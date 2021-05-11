@@ -1,3 +1,4 @@
+
 category = { ### THIS USES SOUND EFFECTS, NOT SOUND
  	name = "ffu_war_begins"
 	soundeffects = {
@@ -89,9 +90,9 @@ category = { ### THIS USES SOUND EFFECTS, NOT SOUND
  	}
 }
 category = { ### THIS USES SOUND EFFECTS, NOT SOUND
- 	name = "FFU_gas_attack"
+ 	name = "FFU_schlieffen_plan"
 	soundeffects = {
-		FFU_gas_attack
+		FFU_schlieffen_plan
 	}
  	compressor = {
 		enabled = yes
@@ -102,4 +103,4 @@ category = { ### THIS USES SOUND EFFECTS, NOT SOUND
 		attacktime = 0.030
 		releasetime = 1.2
  	}
-}
+} 

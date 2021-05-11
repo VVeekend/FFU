@@ -15,36 +15,6 @@ technologies = {
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
 		
-		category_light_infantry = { 
-			#maximum_speed = -0.1
-			#defense = 0.15
-			breakthrough = -0.3
-			soft_attack = -0.60
-			hard_attack = -0.45
-		}
-		category_artillery = {
-			soft_attack = -0.1
-			defense = -0.1
-		}
-		
-		category_all_armor = {
-			amphibious = {
-				attack = -0.3
-			}
-			soft_attack = 0.10
-			hard_attack = 0.10
-			breakthrough = 0.05
-		}
-		category_tanks = {
-			soft_attack = 0.25
-			hard_attack = 0.25
-			breakthrough = 0.10
-			defense = 0.10
-		}
-
-		max_dig_in = -10
-		org_loss_when_moving = 0.05
-		
 		attrition = 0.08
 		
 		doctrine = yes	
@@ -75,7 +45,8 @@ technologies = {
 	}
 	infantry_charge = {
 		 
-	
+	    enable_tactic = tactic_infantry_charge
+
 		category_all_infantry = {
 			breakthrough = 0.02
 		}
@@ -96,7 +67,6 @@ technologies = {
 			breakthrough = 0.02
 		}
 		
-		enable_tactic = tactic_infantry_advance
 		
 		path = {
 			leads_to_tech = ww1_airdoctrine_6
@@ -143,12 +113,14 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 5
 		xp_research_bonus = 1.00
-		
 		path = {
 			leads_to_tech = dispersed_infantry_attacks
 			research_cost_coeff = 1
 		}
 		
+		category_fighter = {
+				air_agility = 0.15
+			}
 
 		doctrine = yes	
 		research_cost = 3
@@ -413,6 +385,15 @@ technologies = {
 		 
         production_speed_buildings_factor = 0.05
 		supply_consumption_factor = 0.02
+		infantry = {
+			combat_width = -0.4
+		}
+		infantry2 = {
+			combat_width = -0.4
+		}
+		allow = {
+            date > 1914.6.28
+        }
 		xp_research_type = army
 		xp_research_cost = 10
 		xp_research_bonus = 1.00
@@ -481,7 +462,7 @@ technologies = {
 		
 		#max_dig_in = 1
 		dig_in_speed_factor = 0.15
-		
+		enable_tactic = tactic_relentless_assault
 		category_all_infantry = {
 			breakthrough = 0.05
 			entrenchment  = 0.2
@@ -536,9 +517,6 @@ technologies = {
 		max_dig_in = 5
 		#dig_in_speed_factor = #0.25 #25% bonus
 
-		category_all_infantry = {
-			defense = 0.05
-		}
 		engineer = {
 			entrenchment  = 2
 		}
@@ -588,15 +566,14 @@ technologies = {
 	}
 		WW1_air_power = {
 		 
-		air_ace_generation_chance_factor = 0.25
-		air_mission_efficiency = 0.25
-		xp_research_type = air
-		xp_research_cost = 5
+
+		xp_research_type = army
+		xp_research_cost = 15
 		xp_research_bonus = 1.00
 		doctrine = yes	
 		research_cost = 1.5
 		on_research_complete = {
-			
+	
 			
 			
 			
@@ -615,10 +592,7 @@ technologies = {
 			
 			
 		}
-		path = {
-			leads_to_tech = WW1_air_survey
-			research_cost_coeff = 1
-		}		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 3 }
@@ -631,16 +605,17 @@ technologies = {
 				
 			}
 			modifier = {
-
 				
 				
 			}
 		}
 	}
 	reserve_trenches = {
-		 
-	
-		land_reinforce_rate = 0.008
+
+		category_all_infantry = {
+			defense = 0.05
+		}
+		land_reinforce_rate = 0.05
 		attrition = -0.01
 		doctrine = yes	
 		research_cost = 1
@@ -729,8 +704,8 @@ technologies = {
 		 
 		air_cas_efficiency = 0.20
 		air_cas_present_factor = 0.10
-		xp_research_type = air
-		xp_research_cost = 20
+		xp_research_type = army
+		xp_research_cost = 15
 		xp_research_bonus = 1.00
 		doctrine = yes	
 		research_cost = 1.5
@@ -951,7 +926,7 @@ technologies = {
 		doctrine = yes
 		
 		category_all_infantry = {
-			breakthrough = 0.02
+			breakthrough = 0.05
 		}
 
 		path = {
@@ -1089,7 +1064,7 @@ technologies = {
 		doctrine = yes
 		
 		category_all_infantry = {
-			defense = 0.02
+			defense = 0.05
 		}
 		path = {
 			leads_to_tech = multiple_MG_nests
@@ -1343,10 +1318,6 @@ technologies = {
 	#############################################
 	ww1_artillery = {
 		 
-	
-		category_artillery = {
-			defense = 0.1
-		}
 		path = {
 			leads_to_tech = artillery_concentration
 			research_cost_coeff = 1
@@ -1388,10 +1359,9 @@ technologies = {
 	}
 	artillery_concentration = {
 		 
-			
-		category_artillery = {
-			combat_width = -0.1
-		}
+        category_support_battalions = {
+			max_organisation = 10
+			soft_attack = 0.25 }
 		
 		path = {
 			leads_to_tech = ww1_airdoctrine
@@ -1438,7 +1408,7 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 10
 		xp_research_bonus = 1.00
-		
+		army_bonus_air_superiority_factor = 0.05
 		path = {
 			leads_to_tech = offensive_prep_fire
 			research_cost_coeff = 1
@@ -1464,7 +1434,10 @@ technologies = {
 	offensive_prep_fire = {
 		 
 		
-		enable_tactic = tactic_offensive_prep
+		artillery = { 
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
 
 		supply_consumption_factor = 0.01
 
@@ -1577,7 +1550,9 @@ technologies = {
 			leads_to_tech = rear_area_bombardment
 			research_cost_coeff = 1
 		}
-		
+		category_artillery = {
+			defense = 0.1
+		}
 		doctrine = yes	
 		research_cost = 2
 		xp_research_type = army
@@ -2061,10 +2036,7 @@ technologies = {
 			
 			
 		}
-		path = {
-			leads_to_tech = WW1_air_ground
-			research_cost_coeff = 1
-		}		
+		
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 6 }
@@ -2579,7 +2551,7 @@ technologies = {
 		 
 		doctrine = yes
 		
-		enable_tactic = tactic_infantry_artillery_armor
+		enable_tactic = tactic_unexpected_thrust
 		
 		
 		category_all_armor = {
@@ -2723,6 +2695,9 @@ technologies = {
 			
 			
 			
+		}
+		armored_car_recon = { 
+			recon = 1 
 		}
 		categories = {
 			land_doctrine
