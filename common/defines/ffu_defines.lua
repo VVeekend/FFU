@@ -2,7 +2,7 @@ NDefines.NGame.START_DATE = "1911.1.1.12"
 NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 2
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 300
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 321
-NDefines.NGame.GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.05, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.04, 0.0 }
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6
 NDefines.NGame.HANDS_OFF_START_TAG = "SWI"
 
@@ -82,29 +82,29 @@ NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.03
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.35
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.10
 NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0.0
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.35
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.30
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0
 NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0
 NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.6
 NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 20
+NDefines.NCountry.LAND_COMBAT_COLLATERAL_FACTOR = 0.003		   -- Factor to scale collateral damage to infra and forts with.
 NDefines.NMilitary.SLOWEST_SPEED = 2
 NDefines.NMilitary.REINFORCE_CHANCE = 0.04
 NDefines.NMilitary.TRAINING_ATTRITION = 0.0
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0
-NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT = 0.3					-- Minimum damage from nukes as a percentage of current strength/organisation
-NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT = 0.5
+NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT = 0.0					-- Minimum damage from nukes as a percentage of current strength/organisation
+NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT = 0.0
 NDefines.NMilitary.NUKE_DELAY_HOURS = 0
 NDefines.NMilitary.UNIT_LEADER_INITIAL_TRAIT_SLOT = { 3, 3, 1, 0 }
-NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.03
-NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0003
-NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2
+NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.00875 --linear NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR*air_attack*thisdefine=casreduction
+NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0
 NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0  
 NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP =0 --Division experience drop if unit has different battalion when switching templates(vanilla 0.5 but can be circumvented with template editing)
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1       -- WAS 0.25 | Turns out that no Russian volunteers to Spain leads to at least 15 veteran +75% heavy tanks at barb every game that kill nearly every Russia player in less than 3 months. Just wait until Germany players manage to get 30 vet heavies by using minors more
 
-NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.6
-NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.50
-NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.5
+NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.5
+NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.0
+NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.70
 NDefines.NAir.CAS_NIGHT_ATTACK_FACTOR = 0.5
 
 

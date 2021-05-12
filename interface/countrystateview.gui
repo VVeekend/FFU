@@ -381,8 +381,26 @@ guiTypes = {
 				format = "UPPER_LEFT"
 				slotsize = { width = 130 height = 54 }
 				max_slots_horizontal = 3
-			}			
+			}		
 			
+			buttonType = {
+				name = "nuke_province"
+				quadTextureSprite ="GFX_nuke_button"
+				position = { x= 100 y = -11 }
+			}
+			
+			iconType = {
+				name = "nuclear_strike_bar"
+				spriteType = "GFX_nuke_progress"
+				position = { x=23 y= 27 }
+				rotation = 1.5708		
+			}	
+			
+			iconType = {
+				name = "nuke_progress_frame"
+				spriteType = "GFX_nuke_progress_frame"
+				position = { x=102 y= -6 }	
+			}
 		}	
 		
 		buttonType = {

@@ -59,9 +59,7 @@ technologies = {
 		category_all_infantry = {
 			max_organisation = 5
 		}
-		category_army = {
-			max_organisation = -5
-		}
+		
 		category_light_infantry = {
 			max_organisation = 5
 			breakthrough = 0.02
@@ -615,6 +613,7 @@ technologies = {
 		category_all_infantry = {
 			defense = 0.05
 		}
+		enable_tactic = tactic_delay
 		land_reinforce_rate = 0.05
 		attrition = -0.01
 		doctrine = yes	
@@ -655,8 +654,8 @@ technologies = {
 
 	communication_trenches = {
 		 
-
-		planning_speed = 0.05
+        
+		max_planning = 0.05
 		attrition = -0.01
 		doctrine = yes	
 		research_cost = 1
@@ -1110,6 +1109,9 @@ technologies = {
 		category_all_infantry = {
 			defense = 0.03
 		}
+		gunner = {
+		max_organisation = 3 }
+		
 		path = {
 			leads_to_tech = enfilade_MG_fire_fields
 			research_cost_coeff = 1
@@ -1153,6 +1155,9 @@ technologies = {
 		category_all_infantry = {
 			defense = 0.08
 		}
+		gunner = {
+		max_organisation = 2 }
+		
 		path = {
 			leads_to_tech = infantry_MG_coordination
 			research_cost_coeff = 1
@@ -1195,6 +1200,10 @@ technologies = {
 		doctrine = yes
 		infantry = {
 			default_morale = 0.02
+		}
+		infantry = {
+			default_morale = 0.02
+			defense = 0.03
 		}
 		path = {
 			leads_to_tech = MG_support_infantry_doctrine
@@ -1243,7 +1252,7 @@ technologies = {
 		XOR = {
 			Infantry_support_MG_doctrine
 		}
-		
+		enable_tactic = tactic_elastic_defense
 		category_all_infantry = {
 			defense = 0.1
 		}
@@ -1438,6 +1447,8 @@ technologies = {
 			soft_attack = 0.1
 			hard_attack = 0.1
 		}
+		
+		enable_tactic = tactic_overwhelming_fire
 
 		supply_consumption_factor = 0.01
 
@@ -1542,9 +1553,8 @@ technologies = {
 		}
 	}
 	harassment_fire = {
-		 
-	
-		enable_tactic = tactic_harassment_fire
+		 	
+    enable_tactic = tactic_harassment_fire
 		
 		path = {
 			leads_to_tech = rear_area_bombardment
@@ -1581,8 +1591,7 @@ technologies = {
 				
 			}
 			modifier = {
-
-				
+						
 				
 			}
 		}
@@ -1687,7 +1696,7 @@ technologies = {
 		}
 		categories = {
 			land_doctrine
-			
+			cat_superior_firepower
 		}
 		
 		folder = {
@@ -3173,6 +3182,7 @@ technologies = {
 			
 			
 		}
+		casualty_trickleback = 0.1
 		
 		folder = {
 			name = land_doctrine_folder

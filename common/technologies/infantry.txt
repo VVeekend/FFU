@@ -412,7 +412,7 @@ technologies = {
 
 	infantry_ww1_machinegun2 = {
 
-		category_all_infantry = {
+		gunner = {
 			soft_attack = 0.05
 			defense = 0.05
 		}
@@ -469,7 +469,7 @@ technologies = {
 
 	infantry_ww1_machinegun3 = {
 
-		category_all_infantry = {
+		gunner = {
 			soft_attack = 0.05
 			defense = 0.05
 		}
@@ -498,7 +498,7 @@ technologies = {
 
 	   machine_gun_3 = {
 
-		category_all_infantry = {
+		gunner = {
 			soft_attack = 0.15
 			breakthrough = 0.05
 		}
@@ -531,7 +531,7 @@ technologies = {
 
 	infantry_ww1_machinegun4 = {
 
-		category_all_infantry = {
+		gunner = {
 			hard_attack = 0.05
 			defense = 0.05
 		}
