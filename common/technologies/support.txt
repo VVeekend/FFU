@@ -106,7 +106,7 @@ technologies = {
 	tech_engineers2 = {
 
 		engineer = {
-			entrenchment  = 2
+			entrenchment  = 1
 			
 			fort = {
 				defence = 0.10
@@ -150,7 +150,7 @@ technologies = {
 	tech_engineers3 = {
 
 		engineer = {
-			entrenchment  = 2
+			entrenchment  = 1
 			
 			fort = {
 				defence = 0.10
@@ -198,7 +198,7 @@ technologies = {
 	tech_engineers4 = {
 
 		engineer = {
-			entrenchment  = 2
+			entrenchment  = 1
 			
 			fort = {
 				defence = 0.10
@@ -1098,7 +1098,6 @@ technologies = {
 
 		sniper = {
 			recon = 1
-			max_organisation = 5
 			soft_attack = 0.1
 			amphibious = {	
 				defence = 0.2
@@ -1146,7 +1145,6 @@ technologies = {
 
 		sniper = {
 			recon  = 1
-			max_organisation = 5
 			soft_attack = 0.1
 			forest = {
 				attack = 0.025

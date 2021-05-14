@@ -1461,7 +1461,11 @@ technologies = {
 		enable_subunits = {
 			infantry2
 		}
-
+		
+		allow = {
+            date > 1915.1.1
+        }
+		
 		infantry2 = {
 			defense = 0.10
 		}

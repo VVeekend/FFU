@@ -75,7 +75,18 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-				
+				instantTextBoxType = {
+					name = "infantry_research_1"
+					position = { x = 570 y = 100 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "Unlocks 1915"
+					maxWidth = 600
+					maxHeight = 62
+					format = center
+		 			Orientation = "UPPER_LEFT"
+		    	}
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
 					position = { x = 30 y = 990 }
@@ -1492,7 +1503,20 @@ guiTypes = {
 				}				
 				
 			}
-
+			
+		    instantTextBoxType = {
+					name = "tac_research_1"
+					position = { x = 850 y = 325 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "Unlocks 1915 -->"
+					maxWidth = 600
+					maxHeight = 62
+					format = center
+		 			Orientation = "UPPER_LEFT"
+		    	}
+				
 			instantTextBoxType = {
 				name = "airtech_year2"
 				position = { x = 60 y = 160 }
@@ -2138,6 +2162,18 @@ guiTypes = {
 				orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
+					name = "trench_research_1"
+					position = { x = -130 y = 750 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "Unlocks 1915-->"
+					maxWidth = 600
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
 				name = "basic_MG_defences_title"
 				position = { x = 1825 y = 800 }
 				textureFile = ""
@@ -2148,6 +2184,30 @@ guiTypes = {
 				maxHeight = 122
 				format = center
 				orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+					name = "tank_research_1"
+					position = { x = 1100 y = 730 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "Unlocks 1916-->"
+					maxWidth = 600
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+					name = "tank_research_2"
+					position = { x = 1150 y = 850 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "Unlocks 1917-->"
+					maxWidth = 600
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "ww1_artillery_title"
@@ -3045,6 +3105,18 @@ guiTypes = {
 					text = "TITLE_TANK_RESERACH_SUBTITLE"
 					maxWidth = 200
 					maxHeight = 122
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "tank_research_unlock"
+					position = { x = 1100 y = 425 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "<--- Unlocks 1915"
+					maxWidth = 600
+					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
 				}

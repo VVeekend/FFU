@@ -25,6 +25,7 @@ sub_units = {
 		manpower = 500
 		need = { 
 		      light_field_gun_equipment = 32
+			  horse_equipment = 5
 	    }
 		
 		max_strength = 0.6
@@ -99,6 +100,7 @@ sub_units = {
 
 		need = {
 			rocket_artillery_equipment = 36
+			horse_equipment = 2
 		}
 		supply_consumption = 0.28
 		manpower = 500

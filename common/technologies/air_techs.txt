@@ -281,7 +281,11 @@ technologies = {
 	# HOI4 TGW
 
 	ww1_bomber1 = {
-
+	
+		allow = {
+            date > 1915.1.1
+        }
+		
 		enable_equipments = {
 			ww1_bomber_equipment_1
 		}

@@ -330,6 +330,7 @@ ideas={
 			targeted_modifier = {
 				tag = BEL
 				attack_bonus_against = 0.50
+				breakthrough_factor = 0.20
 			}
 						
 			targeted_modifier = {
