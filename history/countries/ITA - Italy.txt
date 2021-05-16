@@ -135,9 +135,12 @@ create_navy_leader={  name = "Marcello Amero d'Aste-Stella" id=46076 portrait_pa
 	    neutrality = 1
 	}
 
+	set_country_flag = ITA_giolitti
+
 	add_ideas = {
+		ITA_ww1_giolitti
 		ITA_ww1_Risorgimento
-		ww1_Scramble_for_Africa
+		ITA_ww1_agrarian_south
 		limited_conscription
 		limited_exports
 	}

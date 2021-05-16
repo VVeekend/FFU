@@ -92,6 +92,10 @@ FIN = {
 	color = rgb { 205 212 228 }
 	color_ui = rgb { 255 255 255 }
 }
+SIC = {
+	color = rgb { 204 204 0 }
+	color_ui = rgb { 204 204 0 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

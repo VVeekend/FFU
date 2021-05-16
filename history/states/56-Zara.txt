@@ -2,12 +2,15 @@ state={
 	id=56
 	name="STATE_56"
 	provinces={
-		7018 20122 
+		7018 17330 17328 17329 20122 851 3722 9955 11364 4410 15679 9218 8263 4844 147 15560 1995 17336 17337 17334 17333 17323 17325 17327 17326
 	}
 	manpower=18000
 	buildings_max_level_factor=1.000
 	state_category = enclave
 	history={
+		victory_points = {
+			4410 1
+		}
 		add_extra_state_shared_building_slots = 6
 		owner = AUS
 		add_core_of = AUS

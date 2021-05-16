@@ -366,35 +366,6 @@ technology = antiair3 }
 		}
 	}
 
-	#Focus for Pact of London
-	focus = {
-		id = ENG_pact_of_london
-		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
-		x = 8
-		y = 3
-		cost = 1
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_entente_cordiale }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-		add_to_faction=ITA 
-ITA = { add_state_claim = 43
-add_state_claim = 38
-add_state_claim = 100 
-			34 = {
-				add_extra_state_shared_building_slots = 2
-                add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
-				}			
-
-	  } }
-		}
-	}
-
 	#Focus for Entente Cordiale
 	focus = {
 		id = ENG_entente_cordiale

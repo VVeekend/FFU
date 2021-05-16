@@ -52,10 +52,14 @@ bookmarks = {
 			history =  ITA_POWDERKEG_DESC 
 			ideology = democratic
 			ideas = {
-				ww1_Scramble_for_Africa
+				ITA_ww1_giolitti
+				ITA_ww1_Risorgimento
+				ITA_ww1_agrarian_south
 			}
 			focuses = {
-				ITA_ww1_back_france
+				ITA_giolitti_speech
+				ITA_treaty_of_london
+				ITA_finish_southern_integration
 			}
 		}
 		 AUS ={

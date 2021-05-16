@@ -381,7 +381,7 @@ technologies = {
 		}
 	}
 	
-	    machine_gun_1 = {
+	machine_gun_1 = {
 		
 		research_cost = 1.5
 		start_year = 1910
@@ -392,7 +392,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1910 }
+			position = { x = 4 y = @1911 }
 		}
 
 		path = {

@@ -31,14 +31,28 @@ on_actions = {
 				country_event = { id = ww1_firstbalkan.4 days = 609 }
 				country_event = { id = ww1_firstbalkan.2 days = 578 }
 			}
-			SWI = {
-				country_event = { id = ww1_firstbalkan.40 days = 851 }
-			}
-
-			TUR = {
-				country_event = { id = ffuottoman.8 days = 1383 }
+			SWI = { country_event = { id = ww1_firstbalkan.40 days = 851 } }
+			TUR = { country_event = { id = ffuottoman.8 days = 1383 } }
+			ROM = { country_event = { id = ww1_romania.1 days = 1378 } } # King Carol death
+			LUX = { country_event = { id = ww1_luxembourg.1 days = 400 } } #Duke death
+			ITA = { 
+				#Start of Italo-Turkish war
+				news_event = {
+					days = 262
+					id = ffuitaly.2
+				}
+				#End of Italo-Turkish war (shortly before balkan war start
+				news_event = {
+					days = 666
+					id = ffuitaly.3
+				}
 			}
 			
+			#set_compliance and set_resistance don't work in history file
+			29 = { add_dynamic_modifier = { modifier = southern_sepratism } set_compliance = 30 set_resistance = 10 }
+			30 = { add_dynamic_modifier = { modifier = southern_sepratism } set_compliance = 30 set_resistance = 10 }
+			31 = { add_dynamic_modifier = { modifier = southern_sepratism } set_compliance = 30 set_resistance = 10 }
+
 			every_country={
 				limit={
 					is_playable_country=yes

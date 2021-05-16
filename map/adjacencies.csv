@@ -7,6 +7,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
 18416;18802;sea;;-1;-1;-1;-1;DARDANELLES_STRAIT;Dardanelles
 
+17324;20123;sea;18668;-1;-1;-1;-1;;Dalmatia to Veglia
+
 9405;10724;sea;17601;-1;-1;-1;-1;;Calabria-Sicily
 8836;9945;sea;17750;-1;-1;-1;-1;;Corsica-Sardinia
 17406;16733;sea;18532;-1;-1;-1;-1;;West Malta-East Malta

@@ -1,0 +1,8 @@
+ITA_southern_integration_category  = {
+	priority = 4
+	icon = GFX_decision_category_eng_concessions_to_the_trade_unions
+
+	allowed = {
+		original_tag = ITA
+	}
+}

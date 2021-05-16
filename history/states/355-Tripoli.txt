@@ -12,8 +12,8 @@ state={
                 rubber=24
 	}
 	history={
-		owner = ITA
-		add_core_of = LBA
+		owner = TUR	
+		add_core_of = TUR
 		buildings = {
 			infrastructure = 3
 			16911 = {

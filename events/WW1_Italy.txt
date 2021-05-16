@@ -1,1 +1,159 @@
-﻿add_namespace = ww1_italy
+add_namespace = ffuitaly
+
+news_event = {
+    id = ffuitaly.1
+    title = ffuitaly.1.t
+    desc = ffuitaly.1.d
+    picture = FFU_GFX_news_2
+    
+    major = yes
+
+    is_triggered_only = yes
+
+    option = {
+        name = ffuitaly.1.a
+        trigger = { tag = ITA } 
+    }
+    option = {
+        name = ffuitaly.1.b
+        trigger = { tag = TUR }  
+    }
+	option = {
+		name = ffuitaly.1.c
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = TUR
+			}
+		}
+	}
+}
+
+news_event = {
+    id = ffuitaly.2
+    title = ffuitaly.2.t
+    desc = ffuitaly.2.d
+    picture = FFU_GFX_news_3
+    major = yes
+    is_triggered_only = yes
+
+    immediate = {
+        hidden_effect = {
+            set_global_flag = FFU_italo_turkish_war_over
+        	ITA = {
+        		transfer_state = 355
+				transfer_state = 356
+				transfer_state = 357
+				transfer_state = 358
+				transfer_state = 359
+				transfer_state = 119
+        	}
+        }
+    }
+
+    option = {
+        name = ffuitaly.2.a
+        trigger = { tag = ITA } 
+    }
+    option = {
+        name = ffuitaly.2.b
+        trigger = { tag = TUR }  
+    }
+	option = {
+		name = ffuitaly.2.c
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = TUR
+			}
+		}
+	}
+}
+
+# Treaty of London event for Britain
+
+country_event = {
+    id = ffuitaly.3
+    title = ffuitaly.3.t
+    desc = ffuitaly.3.d
+    picture = GFX_report_event_yugoslavian_split
+    is_triggered_only = yes
+
+    # yes
+    option = {
+        name = ffuitaly.3.a
+        ITA = { country_event = { id = ffuitaly.4 days = 1 } }
+    }
+
+    # no
+    #option = {
+    #    name = ffuitaly.3.b
+    #    ITA = { country_event = { id = ffuitaly.5 days = 1 } }
+    #}
+    # mp mod, trolls get blocked!
+}
+
+# Italy - Britain says yes
+
+country_event = {
+    id = ffuitaly.4
+    title = ffuitaly.4.t
+    desc = ffuitaly.4.d
+    picture = GFX_report_event_yugoslavian_split
+    is_triggered_only = yes
+
+    # winning
+    option = {
+        name = ffuitaly.4.a
+        ITA = { news_event = { days = 1 id = ffuitaly.6 } }
+    }
+}
+
+#Italy - Britain says no
+
+country_event = {
+    id = ffuitaly.5
+    title = ffuitaly.5.t
+    desc = ffuitaly.5.d
+    picture = GFX_report_event_yugoslavian_split
+    is_triggered_only = yes
+
+    # literally inting wtf
+    option = {
+        name = ffuitaly.5.a
+    }
+}
+
+news_event = {
+    id = ffuitaly.6
+    title = ffuitaly.6.t
+    desc = ffuitaly.6.d
+    picture = GFX_news_event_008
+    fire_only_once = yes
+    major = yes
+
+    is_triggered_only = yes
+
+    immediate = {
+        hidden_effect = {
+        	ITA = {
+        		add_state_claim = 56
+                add_state_claim = 381
+                add_state_core = 38
+        	}
+        }
+    }
+
+    option = {
+        name = ffuitaly.2.a
+        trigger = { tag = ITA } 
+    }
+	option = {
+		name = ffuitaly.b.c
+		trigger = {
+			NOT = {
+				TAG = ITA
+			}
+		}
+	}
+}

@@ -8,20 +8,7 @@ news_event = {
 
 	major = yes
 
-	trigger = {
-		#has_government = neutrality
-		ROM = {
-			NOT = {
-				has_country_flag=carol_dead
-			}
-		
-		}
-		date > 1914.10.10
-	}
-
-	mean_time_to_happen = {
-		days = 0
-	}
+	is_triggered_only = yes
 
 	immediate = {
 		hidden_effect = {

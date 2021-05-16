@@ -1783,26 +1783,6 @@ leader_traits = {
 		gui_row = 10
 		gui_column = 2
 	}
-	torpedo_bomber = { 
-		type = navy
-		sub_unit_modifiers = {
-			cv_nav_bomber = {
-				air_attack_factor = 0.1
-				air_mission_efficiency = 0.1
-			}
-		}		
-		ai_will_do = {
-			factor = 0
-		}
-		
-		trait_type = assignable_trait
-		mutually_exclusive = fighter_director
-		mutually_exclusive = dive_bomber
-		parent = flight_deck_manager
-		
-		gui_row = 11
-		gui_column = 2
-	}
 	
 
 ##################################

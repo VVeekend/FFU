@@ -8,18 +8,8 @@ news_event = {
     
     major = yes
 
-    mean_time_to_happen = {
-        days = 0
-    }
-    trigger = {
-        date > 1912.2.25
-        LUX = {
-	        has_government = democratic
-	        not = {
-	            has_country_flag = william_dead
-	        }    
-        }
-    }
+    is_triggered_only = yes
+    
     immediate = {
         hidden_effect = {
         	LUX = {

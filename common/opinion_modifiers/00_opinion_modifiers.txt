@@ -12,6 +12,10 @@ opinion_modifiers = {
 
 ##### HOI4 TGW KiS
 
+	drew_to_entente = {
+		value = -100
+	}
+
 	##############################################
 	# Balkans
 
