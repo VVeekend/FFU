@@ -32,3 +32,8 @@
   NUCLEAR_BOMB:0 "Hazardus Gas Shells"
   NUCLEAR_PRODUCTION_SPEED:0 "PENID"
   NUCLEAR_PRODUCTION_ETA:0 "Next hazardus gas shell is $PROGRESS|1G%$ done will be ready roughly in $DAYS|G$ days."
+  kis_firstbalkan_war:0 "The Balkan war has started"
+  submarine_1:0 "Submarine I"
+  submarine_2:0 "Submarine II"
+  submarine_3:0 "Submarine III"
+  submarine_4:0 "Submarine IV"

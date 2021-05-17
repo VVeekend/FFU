@@ -364,7 +364,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_regio_esercito
 		prerequisite = {
-			focus = ITA_regio_esercito
 			focus = ITA_regia_marina
 		}
 		completion_reward = { 
@@ -528,6 +527,371 @@ focus_tree = {
 				uses = 1
 				category = infantry_weapons
 				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = ITA_dockyard_1
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_regia_marina
+		}
+		relative_position_id = ITA_regia_marina
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}		
+		}
+	}
+
+	focus = {
+		id = ITA_dockyard_2
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_dockyard_1
+		}
+		relative_position_id = ITA_dockyard_1
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}		
+		}
+	}
+
+	focus = {
+		id = ITA_dockyard_3
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_dockyard_2
+		}
+		relative_position_id = ITA_dockyard_2
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}		
+		}
+	}
+
+	focus = {
+		id = ITA_destroyer_effort
+		icon = GFX_focus_generic_destroyer
+		cost = 10
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = ITA_regia_marina
+		}
+		relative_position_id = ITA_regia_marina
+		completion_reward = {
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = dd_tech
+			}
+		}
+	}
+
+	focus = {
+		id = ITA_cruiser_effort
+		icon = GFX_focus_generic_cruiser2
+		cost = 10
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_destroyer_effort
+		}
+		relative_position_id = ITA_destroyer_effort
+		completion_reward = { 
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+		}
+	}
+
+	focus = {
+		id = ITA_capital_effort
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = ITA_regia_marina
+		}
+		relative_position_id = ITA_regia_marina
+		completion_reward = {
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = bc_tech
+				category = bb_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = ITA_andrea_doria
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 10
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = ITA_capital_effort
+		}
+		relative_position_id = ITA_capital_effort
+		completion_reward = { 
+			custom_effect_tooltip = ITA_andrea_doria_tt
+			hidden_effect = {
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_super_heavy_1
+						creator = "ITA" 
+						version_name = "Dreadnought"
+					}
+					name = "Andrea Doria" 
+					requested_factories = 1
+					progress = 0.8
+					amount = 1
+				}
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_super_heavy_1
+						creator = "ITA" 
+						version_name = "Dreadnought"
+					}
+					name = "Caio Duilio" 
+					requested_factories = 1
+					progress = 0.8
+					amount = 1
+				}
 			}
 		}
 	}
