@@ -24,7 +24,7 @@ sub_units = {
 		#Size Definitions
 		max_strength = 25
 		max_organisation = 10
-		default_morale = 0.2
+		default_morale = 0
 		manpower = 200
 
 		#Misc Abilities
@@ -39,7 +39,7 @@ sub_units = {
 		}
 		
 		need = {
-			machine_gun_equipment = 32
+			machine_gun_equipment = 36
 			infantry_equipment = 100
 		}
 	}

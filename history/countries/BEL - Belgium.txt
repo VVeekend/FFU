@@ -17,49 +17,29 @@ create_country_leader={ name = "Albert I" desc=BEL_albert_i_DESC picture="gfx/ho
 create_field_marshal={
 	name = "Albert I" id=9009
 	portrait_path="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_albert_i.dds"
-	traits={ unyielding_defender infantry_leader }
-	skill=3
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander={  name = " Gerard Leman" id=9008 portrait_path="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_Gerard_Leman.tga" traits={ trait_engineer } skill=4 
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2 }
-create_corps_commander={  name = "de Witte de Haelen" id=9012 portrait_path="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_de_Witte_de_Haelen.tga" traits={ cavalry_leader } skill=3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3 }
-
-
-
-#-# The Great War 0.5.1 (2018) #----------------------------------------------------------------------------------------------------------#
-
-create_field_marshal={
-	name = "Albert Lantonnois van Rode" id=92109
-	portrait_path="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_van_Rode.dds"
 	traits={  }
 	skill=3
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2 
+	logistics_skill = 2
 }
 
-create_corps_commander={
+create_corps_commander={  name = "Leman" id=9008 portrait_path="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_Gerard_Leman.dds" traits={ trait_engineer } skill=4 }
+create_corps_commander={  name = "de Witte de Haelen" id=9012 portrait_path="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_de_Witte_de_Haelen.dds" traits={ trickster } skill=3 }
+
+create_field_marshal = {
+	name = "Albert Lantonnois van Rode" id=92109
+	portrait_path="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_van_Rode.dds"
+	traits = { offensive_doctrine }
+	skill=3
+}
+
+create_corps_commander = {
 	name = "Émile Dossin de Saint-Georges" id=92110
 	portrait_path="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_Emile_Dossin.dds"
-	traits={ }
-	skill=3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4 
+	traits = { }
+	skill=4
 }
 
 #----------------------------------------------------------------------------------------------------------#

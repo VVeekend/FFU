@@ -432,7 +432,7 @@ ideas={
 			}
 
 			modifier={ stability_factor  = 0.10 
-			global_building_slots_factor = 0.2
+			global_building_slots_factor = 0.4
 
 			}
 		}
@@ -453,7 +453,7 @@ ideas={
 						army_speed_factor = 0.10
 						army_attack_factor = 0.05
 						breakthrough_factor = 0.1
-			         	planning_speed = 0.25
+			         	planning_speed = 0.1
 					}
 				}
 

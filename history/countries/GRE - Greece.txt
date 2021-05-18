@@ -31,13 +31,13 @@ create_corps_commander={  name = "Zymvrakakis E." id=35014 portrait_path="gfx/ge
 	planning_skill = 2
 	logistics_skill = 2 skill=3 }
 create_corps_commander={  name = "Nider" id=35016 portrait_path="gfx/generals/GRE_nider.tga" traits={ infantry_leader  } 
-	attack_skill = 4
+	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2 skill=4 }
 create_corps_commander={  name = "Papoulas" id=35019 portrait_path="gfx/generals/GRE_papoulas.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Paraskevopoulos" id=35022 portrait_path="gfx/generals/GRE_paraskevopoulos.tga" traits={ infantry_leader  } skill=4 
-	attack_skill = 4
+	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 4 }
