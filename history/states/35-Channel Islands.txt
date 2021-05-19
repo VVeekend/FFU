@@ -11,6 +11,7 @@ state={
 	{
 		owner = ENG
 		add_core_of = ENG
+		add_core_of = BEL
 		buildings = {
 			infrastructure = 10
 			air_base = 1

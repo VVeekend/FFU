@@ -246,6 +246,7 @@ create_navy_leader={
 		# Engineering
 		electronic_mechanical_engineering = 1
 		chemical_research = 1
+		nukes = 1
 		tank_unlocker1 = 1
 
 		# Industry

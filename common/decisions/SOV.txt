@@ -11,6 +11,13 @@ TAG = SOV
 }
 fire_only_once = yes
 complete_effect = {
+112 = {
+        add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+        }
+    }
 172 = {
         add_building_construction = {
             type = infrastructure
@@ -25,21 +32,14 @@ complete_effect = {
             instant_build = yes
         }
     }
-331 = {
+176 = {
         add_building_construction = {
             type = infrastructure
             level = 1
             instant_build = yes
         }
     }
-179 = {
-        add_building_construction = {
-            type = infrastructure
-            level = 1
-            instant_build = yes
-        }
-    }
-178 = {
+188 = {
         add_building_construction = {
             type = infrastructure
             level = 1
@@ -67,9 +67,21 @@ complete_effect = {
             instant_build = yes
         }
     }
-}
-cost = 25
-}
+331 = {
+        add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+        }
+    }
+288 = {
+        add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+        }
+    } }
+cost = 25  }
 
 #Decision for: St.Peterburg 
 stpeterburgrailmodernization = {
@@ -92,14 +104,21 @@ complete_effect = {
 202 = {
         add_building_construction = {
             type = infrastructure
-            level = 1
+            level = 2
             instant_build = yes
         }
     }
 204 = {
         add_building_construction = {
             type = infrastructure
-            level = 1
+            level = 2
+            instant_build = yes
+        }
+    }
+201 = {
+        add_building_construction = {
+            type = infrastructure
+            level = 2
             instant_build = yes
         }
     }
@@ -178,7 +197,7 @@ complete_effect = {
 291 = {
         add_building_construction = {
             type = infrastructure
-            level = 1
+            level = 2
             instant_build = yes
         }
     }
@@ -207,6 +226,13 @@ complete_effect = {
         add_building_construction = {
             type = infrastructure
             level = 1
+            instant_build = yes
+        }
+    }
+194 = {
+        add_building_construction = {
+            type = infrastructure
+            level = 2
             instant_build = yes
         }
     }

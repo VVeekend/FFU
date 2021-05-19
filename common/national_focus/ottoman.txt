@@ -411,7 +411,6 @@ technology = tech_mountaineers3 }
 		completion_reward = {
 			add_tech_bonus={ name=artillery_bonus bonus=2 uses = 2
 technology = light_field_gun1
-technology = bonus_artillery4
 technology = light_field_gun2 
 technology = bonus_artillery2
 technology = bonus_artillery3 

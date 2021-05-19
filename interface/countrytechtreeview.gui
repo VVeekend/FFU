@@ -67,7 +67,7 @@ guiTypes = {
 					name = "infantry_subtitle_weapons"
 					position = { x = 30 y = 100 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "INFANTRY_TITLE_WEAPONS"
 					maxWidth = 600
@@ -91,7 +91,7 @@ guiTypes = {
 					name = "infantry_subtitle_specialists"
 					position = { x = 30 y = 990 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "INFANTRY_TITLE_SPECIAL"
 					maxWidth = 600
@@ -104,7 +104,7 @@ guiTypes = {
 					name = "infantry_subtitle_motorized"
 					position = { x = 30 y = 660 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "INFANTRY_TITLE_MOTORISED"
 
@@ -428,7 +428,7 @@ guiTypes = {
 				format = "LEFT"
 			}
 			gridboxtype = {
-				name = "motorised_infantry_tree"
+				name = "horse_equipment_tree"
 				position = { x = 100 y = 160 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -591,7 +591,7 @@ guiTypes = {
 				#	name = "armour_subtitle_prototype"
 				#	position = { x = 200 y = 51 }
 				#	textureFile = ""
-				#	font = "hoi_33"
+				#	font = "hoi_36header"
 				#	borderSize = {x = 0 y = 4}
 				#	text = "PROTOTYPE"
 				#	maxWidth = 200
@@ -604,10 +604,10 @@ guiTypes = {
 					name = "armour_subtitle_heavy"
 					position = { x = 450 y = 30 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "ARMORED_TITLE_HEAVY"
-					maxWidth = 250
+					maxWidth = 200
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
@@ -617,11 +617,11 @@ guiTypes = {
 					name = "armour_subtitle_light"
 					position = { x = -70 y = 30  }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "ARMORED_TITLE_LIGHT"
 					maxWidth = 200
-					maxHeight = 62
+					maxHeight = 50
 					format = center
 					Orientation = "UPPER_LEFT"
 				}	
@@ -631,7 +631,7 @@ guiTypes = {
 					name = "armour_subtitle_armored_car"
 					position = { x = -400 y = -60  }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "ARMORED_TITLE_ARMORED_CAR"
 					maxWidth = 300
@@ -719,7 +719,7 @@ guiTypes = {
 					name = "artillery_subtitle_rocket"
 					position = { x = 425 y = 150 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = " "
 					maxWidth = 210
@@ -730,9 +730,9 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "artillery_subtitle_anti_tank"
-					position = { x = 655 y = 850 }
+					position = { x = 850 y = 150 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 2}
 					text = "ARTILLERY_TITLE_AT"
 					maxWidth = 290
@@ -747,7 +747,7 @@ guiTypes = {
 					name = "artillery_subtitle_artillery"
 					position = { x = 105 y = 55 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "ARTILLERY_TITLE"
 					maxWidth = 400
@@ -759,9 +759,9 @@ guiTypes = {
 				# HOI4 TGW
 				instantTextBoxType = {
 					name = "artillery_subtitle_bertha"
-					position = { x = 460 y = 55 }
+					position = { x = 530 y = 55 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "ARTILLERY_TITLE_BERTHA"
 					maxWidth = 400
@@ -774,7 +774,7 @@ guiTypes = {
 					name = "artillery_subtitle_anti_air"
 					position = { x = -60 y = 150  }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "ARTILLERT_TITLE_AA"
 					maxWidth = 200
@@ -971,7 +971,7 @@ guiTypes = {
 					name = "naval_subtitle_destroyer"
 					position = { x = 30 y = 55 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_DESTROYERS"
 					maxWidth = 600
@@ -985,7 +985,7 @@ guiTypes = {
 					name = "naval_subtitle_cruiser"
 					position = { x = 30 y = 185 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_CRUISERS"
 					maxWidth = 600
@@ -999,7 +999,7 @@ guiTypes = {
 					name = "naval_subtitle_battlecruiser"
 					position = { x = 30 y = 465 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_BATTLECRUISERS"
 					maxWidth = 600
@@ -1013,7 +1013,7 @@ guiTypes = {
 					name = "naval_subtitle_battleship"
 					position = { x = 30 y = 605 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_BATTLESHIPS"
 					maxWidth = 600
@@ -1027,7 +1027,7 @@ guiTypes = {
 					name = "naval_subtitle_carrier"
 					position = { x = 30 y = 893 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_CARRIERS"
 					maxWidth = 600
@@ -1041,7 +1041,7 @@ guiTypes = {
 					name = "naval_subtitle_sub"
 					position = { x = 30 y = 1032 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_SUBMARINES"
 					maxWidth = 600
@@ -1055,7 +1055,7 @@ guiTypes = {
 					name = "naval_subtitle_transport"
 					position = { x = 30 y = 1177 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_TRANSPORTS"
 					maxWidth = 600
@@ -1236,7 +1236,7 @@ guiTypes = {
 					name = "naval_subtitle_destroyer"
 					position = { x = 30 y = 55 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_DESTROYERS"
 					maxWidth = 600
@@ -1250,7 +1250,7 @@ guiTypes = {
 					name = "naval_subtitle_cruiser"
 					position = { x = 30 y = 295 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_CRUISERS"
 					maxWidth = 600
@@ -1264,7 +1264,7 @@ guiTypes = {
 					name = "naval_subtitle_battleship"
 					position = { x = 30 y = 490 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_BATTLESHIPS"
 					maxWidth = 600
@@ -1278,7 +1278,7 @@ guiTypes = {
 					name = "naval_subtitle_carrier"
 					position = { x = 30 y = 693 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_CARRIERS"
 					maxWidth = 600
@@ -1292,7 +1292,7 @@ guiTypes = {
 					name = "naval_subtitle_sub"
 					position = { x = 30 y = 795 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_SUBMARINES"
 					maxWidth = 600
@@ -1305,7 +1305,7 @@ guiTypes = {
 					name = "naval_subtitle_armaments"
 					position = { x = 30 y = 1370 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_ARMAMENT"
 					maxWidth = 600
@@ -1317,7 +1317,7 @@ guiTypes = {
 					name = "naval_subtitle_damage_control"
 					position = { x = 30 y = 1770 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_DAMAGE_CONTROL"
 					maxWidth = 600
@@ -1329,7 +1329,7 @@ guiTypes = {
 					name = "naval_subtitle_fire_control"
 					position = { x = 30 y = 1910 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_FIRE_CONTROL"
 					maxWidth = 600
@@ -1341,7 +1341,7 @@ guiTypes = {
 					name = "naval_subtitle_transport"
 					position = { x = 30 y = 2030 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_TRANSPORTS"
 					maxWidth = 600
@@ -1354,7 +1354,7 @@ guiTypes = {
 					name = "naval_subtitle_mines"
 					position = { x = 30 y = 2170 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "NAVAL_TITLE_MINES"
 					maxWidth = 600
@@ -1573,7 +1573,7 @@ guiTypes = {
 			#	name = "airtech_subtitle_fighter"
 			#	position = { x = 388 y = 214 }
 			#	textureFile = ""
-			#	font = "hoi_33"
+			#	font = "hoi_36header"
 			#	borderSize = {x = 0 y = 4}
 			#	text = "AIR_TITLE_FIGHTER"
 			#	maxWidth = 300
@@ -1587,7 +1587,7 @@ guiTypes = {
 				name = "airtech_subtitle_scout"
 				position = { x = 189 y = 104 }
 				textureFile = ""
-				font = "hoi_33"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_SCOUT"
 				maxWidth = 700
@@ -1601,7 +1601,7 @@ guiTypes = {
 				name = "airtech_subtitle_transportplane"
 				position = { x = 707 y = 496 }
 				textureFile = ""
-				font = "hoi_33"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_TRANSPORTPLANE"
 				maxWidth = 700
@@ -1615,7 +1615,7 @@ guiTypes = {
 				name = "airtech_subtitle_triplane"
 				position = { x = 175 y = 210 }
 				textureFile = ""
-				font = "hoi_33"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_TRIPLANE"
 				maxWidth = 300
@@ -1629,7 +1629,7 @@ guiTypes = {
 				name = "airtech_subtitle_seaplane"
 				position = { x = 668 y = 210 }
 				textureFile = ""
-				font = "hoi_33"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_SEAPLANE"
 				maxWidth = 300
@@ -1644,7 +1644,7 @@ guiTypes = {
 				name = "airtech_subtitle_tac"
 				position = { x = 1260 y = 210 }
 				textureFile = ""
-				font = "hoi_33"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_MEDIUM_BOMBER"
 				maxWidth = 300
@@ -1659,7 +1659,7 @@ guiTypes = {
 				name = "airtech_subtitle_zeppelin"
 				position = { x = 1533 y = 210 }
 				textureFile = ""
-				font = "hoi_33"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_ZEPPELIN"
 				maxWidth = 300
@@ -1864,7 +1864,7 @@ guiTypes = {
 					position = { x = 610 y = 225 } # 0.1.5
 
 					textureFile = ""
-					font = "hoi_22tech"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "INDUSTRY_TITLE"
 					maxWidth = 200
@@ -1877,7 +1877,7 @@ guiTypes = {
 					name = "industry_subtitle_production"
 					position = { x = 260 y = 115  }
 					textureFile = ""
-					font = "hoi_22tech"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "INDUSTRY_TITLE_PRODUCTION"
 					maxWidth = 200
@@ -1889,12 +1889,12 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "industry_ww1_oil"
-					position = { x = 1218 y = 115  }
+					position = { x = 1250 y = 75  }
 					textureFile = ""
-					font = "hoi_22tech"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "INDUSTRY_TITLE_OIL_PRODUCTION"
-					maxWidth = 150
+					maxWidth = 200
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
@@ -1904,7 +1904,7 @@ guiTypes = {
 					name = "industry_subtitle_synthetic_oil"
 					position = { x = 1208 y = 675  }
 					textureFile = ""
-					font = "hoi_22tech"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = " "
 					maxWidth = 150
@@ -1917,7 +1917,7 @@ guiTypes = {
 					name = "industry_subtitle_construction"
 					position = { x = 929 y = 255  }
 					textureFile = ""
-					font = "hoi_22tech"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "INDUSTRY_TITLE_CONSTRUCTION"
 					maxWidth = 250
@@ -1957,7 +1957,7 @@ guiTypes = {
 					name = "industry_ww1_camera"
 					position = { x = 468 y = 225  }
 					textureFile = ""
-					font = "hoi_22tech"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "INDUSTRY_TITLE_CAMERA"
 					maxWidth = 150
@@ -1989,9 +1989,9 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "industry_ww1_medicine"
-					position = { x = 778 y = 115  }
+					position = { x = 850 y = 115  }
 					textureFile = ""
-					font = "hoi_22tech"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "INDUSTRY_TITLE_MEDICINE"
 					maxWidth = 150
@@ -2422,7 +2422,7 @@ guiTypes = {
 				name = "ww1_navaldoctrine_title"
 				position = { x = 120 y = 35 }
 				textureFile = ""
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_WW1_NAVALDOCTRINE"
 				maxWidth = 400
@@ -2449,7 +2449,7 @@ guiTypes = {
 				#position = { x = 120 y = 35 }
 				position = { x = 600 y = 35 }
 				textureFile = ""
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_FLEET_IN_BEING"
 				maxWidth = 400
@@ -2477,7 +2477,7 @@ guiTypes = {
 				#position = { x = 610 y = 35 }
 				position = { x = 1085 y = 35 }
 				textureFile = ""
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_TRADE_INTERDICTION"
 				maxWidth = 400
@@ -2505,7 +2505,7 @@ guiTypes = {
 				#position = { x = 1085 y = 35 }
 				position = { x = 1565 y = 35 }
 				textureFile = ""
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_BASE_STRIKE"
 				maxWidth = 400
@@ -2654,7 +2654,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "ww1_airdoctrine_title"
 				position = { x = 91 y = 35 }
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_WW1_AIRDOCTRINE"
 				maxWidth = 400
@@ -2681,7 +2681,7 @@ guiTypes = {
 				name = "strategic_destruction_title"
 				#position = { x = 80 y = 35 }
 				position = { x = 607 y = 35 }
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_STRATEGIC_DESTRUCTION"
 				maxWidth = 400
@@ -2707,7 +2707,7 @@ guiTypes = {
 				name = "battlefield_support_title"
 				#position = { x = 605 y = 35 }
 				position = { x = 1105 y = 35 }
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_BATTLEFIELD_SUPPORT"
 				maxWidth = 400
@@ -2734,7 +2734,7 @@ guiTypes = {
 				name = "operational_integrity_title"
 				#position = { x = 1105 y = 35 }
 				position = { x = 1605 y = 35 }
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_OPERATIONAL_INTEGRITY"
 				maxWidth = 400
@@ -2759,7 +2759,7 @@ guiTypes = {
 # 			instantTextBoxType = {
 #				name = "strategic_destruction_title"
 #				position = { x = 1580 y = 35 }
-#				font = "hoi_22tech"
+#				font = "hoi_36header"
 #				borderSize = {x = 0 y = 4}
 #				text = "TITLE_STRATEGIC_DESTRUCTION"
 #				maxWidth = 400
@@ -3075,7 +3075,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "electronic_eng_subtitle"
 					position = { x = 425 y = 103 }
-					font = "hoi_22tech"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "TITLE_ELECTRONIC_SUBTITLE"
 					maxWidth = 200
@@ -3087,7 +3087,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "gaz_research_ww1subtitle"
 					position = { x = 900 y = 103 }
-					font = "hoi_22tech"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "TITLE_CHEMICAL_RESEARCH_SUBTITLE"
 					maxWidth = 200
@@ -3100,7 +3100,7 @@ guiTypes = {
 					name = "tank_research_ww1subtitle"
 					position = { x = 1095 y = 220 }
 
-					font = "hoi_22tech"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "TITLE_TANK_RESERACH_SUBTITLE"
 					maxWidth = 200

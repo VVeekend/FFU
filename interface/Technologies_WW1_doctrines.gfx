@@ -27,7 +27,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ww1_doctrine_infiltration_attacks.tga"
 	}
 	SpriteType = {
-		name = "GFX_stormtroopers_medium"
+		name = "GFX_stormtroopers_land_medium"
 		texturefile = "gfx/interface/technologies/ww1_doctrine_stormtroopers.tga"
 	}
 	## Defensive ##

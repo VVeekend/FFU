@@ -247,7 +247,6 @@ category = support_tech
 			technology = support_weapons4 
 			technology = support_weapons5 
 			technology = infantry_grenade
-            technology = infantry_ww1_machinegun1
             technology = infantry_ww1_machinegun2 
             technology = infantry_ww1_machinegun3
             technology = infantry_ww1_machinegun4

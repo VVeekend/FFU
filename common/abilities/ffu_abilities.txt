@@ -16,7 +16,7 @@ ability = {
 			factor = -1
 		}
 		
-		cost = 0.02
+		cost = 0.25
 		duration = 1 #it's by hours. means nothing anyway
 		allowed = {
 			NOT = {
