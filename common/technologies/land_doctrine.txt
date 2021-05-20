@@ -149,7 +149,7 @@ technologies = {
 			default_morale = 0.02
 		}
 		
-		
+		research_cost = 3.5
 		doctrine = yes	
 		research_cost = 1
 		on_research_complete = {
@@ -384,6 +384,9 @@ technologies = {
 		}
 		infantry2 = {
 			combat_width = -0.4
+		}
+		gunner = {
+			defense = 0.1
 		}
 		allow = {
             date > 1914.6.28
@@ -740,8 +743,8 @@ technologies = {
 		category_army = {
 			max_organisation = 5
 		}
-		supply_consumption_factor = -0.02
-		attrition = -0.02
+		supply_consumption_factor = -0.1
+		attrition = -0.1
 		
 		doctrine = yes	
 		research_cost = 3.5
@@ -1011,6 +1014,9 @@ technologies = {
 			default_morale = 0.02
 		}
 		category_all_infantry = {
+			defense = 0.1
+		}
+		gunner = {
 			defense = 0.1
 		}
 		max_dig_in = 6
@@ -2682,7 +2688,7 @@ technologies = {
 		doctrine = yes
 		
 		category_all_infantry = {
-			hard_attack = 0.05
+			hard_attack = 0.2
 		}
 		
 		research_cost = 3.5

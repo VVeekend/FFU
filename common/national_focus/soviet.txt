@@ -1099,8 +1099,8 @@ technology = tech_recon4
 		ai_will_do = {
 			factor = 1
 		}
-		available = {has_army_experience> 400}
-		completion_reward = { remove_ideas= SOV_incompetent_russian_general_staff army_experience = -400 
+		available = {has_army_experience> 500}
+		completion_reward = { remove_ideas= SOV_incompetent_russian_general_staff army_experience = -500 
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = SOV_yuri_danilov  }
 	

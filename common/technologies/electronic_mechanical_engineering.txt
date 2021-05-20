@@ -37,7 +37,7 @@ technologies = {
 			custom_effect_tooltip = TANK_UNLOCKER_RESEARCHED
 		}
 		allow = {
-            date > 1915.1.1
+            date > 1915.6.1
         }
 		
 		start_year = 1915

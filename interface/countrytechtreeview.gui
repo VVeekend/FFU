@@ -2656,7 +2656,7 @@ guiTypes = {
 				position = { x = 91 y = 35 }
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "TITLE_WW1_AIRDOCTRINE"
+				text = "Coffee"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -2665,12 +2665,12 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ww1_airdoctrine_desc"
-				position = { x = 102 y = 70 }
+				position = { x = 90 y = 70 }
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
-				text = "WW1_AIRDOCTRINE_DESC"
-				maxWidth = 380
-				maxHeight = 122
+				text = "I saw Coffee sitting & I was nervous. I tapped him and said I didnt mean to bother him, immediately he said oh how youre bothering me now? Taken back, I said huh? He repeated Huh? mockingly. I walked away embarrassed. I heard him laughing as I left."
+				maxWidth = 500
+				maxHeight = 400
 				format = center
 				Orientation = "UPPER_LEFT"
 			}
@@ -2683,7 +2683,7 @@ guiTypes = {
 				position = { x = 607 y = 35 }
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "TITLE_STRATEGIC_DESTRUCTION"
+				text = "SUNSSS"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -2696,7 +2696,7 @@ guiTypes = {
 				position = { x = 619 y = 70 }
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
-				text = "STRATEGIC_DESTRUCTION_DESC"
+				text = "Don't think I have ever had a pleasant converstation with Sunsss, once he texted me at 5am asking to play EU4. First person I blocked. Remains blocked."
 				maxWidth = 380
 				maxHeight = 122
 				format = center
@@ -2709,7 +2709,7 @@ guiTypes = {
 				position = { x = 1105 y = 35 }
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "TITLE_BATTLEFIELD_SUPPORT"
+				text = "Binnison"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -2723,7 +2723,7 @@ guiTypes = {
 
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
-				text = "BATTLEFIELD_SUPPORT_DESC"
+				text = "Binnison sent me 4 pictures trying to convince me that he was 6'1, each time we measured objects near him and lined it up to him. Always measured 5'4."
 				maxWidth = 380
 				maxHeight = 122
 				format = center
@@ -2736,7 +2736,7 @@ guiTypes = {
 				position = { x = 1605 y = 35 }
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "TITLE_OPERATIONAL_INTEGRITY"
+				text = "Sal"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -2749,7 +2749,7 @@ guiTypes = {
 				position = { x = 1622 y = 82 }
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
-				text = "OPERATIONAL_INTEGRITY_DESC"
+				text = "HOI4 with Sal can either be painful or decent. One time Sal accidently turned on his camera and he was staring at the camera. In a rush to turn it off, he tripped exposing that he was wearing a skirt."
 				maxWidth = 380
 				maxHeight = 122
 				format = center
@@ -3114,7 +3114,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "<--- Unlocks 1915"
+					text = "<--- Unlocks Jun 1915"
 					maxWidth = 600
 					maxHeight = 62
 					format = center

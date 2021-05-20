@@ -29,7 +29,12 @@ create_country_leader={ name = "Wilhelm II" desc=GER_wilhelm_ii_DESC picture="gf
 #ARMY
 create_field_marshal = { name = "von Gallwitz" id = 34038 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_von_gallwitz.dds" traits = { thorough_planner } skill=3 }
 create_field_marshal = { name = "Duke Albrecht of Wurttemberg" id = 34337 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_duke_albrecht_of_wurttemberg.dds" traits = { thorough_planner } skill=3 }
-create_field_marshal = { name = "Crown Prince Rupprecht of Bavaria" id = 34547 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_rupprecht_of_bavaria.dds" traits = { } skill=3 }
+create_field_marshal = { name = "Crown Prince Rupprecht of Bavaria" id = 34547 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_rupprecht_of_bavaria.dds" traits = { infantry_leader } 
+	attack_skill = 2
+    defense_skill = 4
+    planning_skill = 2
+	logistics_skill = 3 
+	skill=3 }
 create_field_marshal = { name = "Crown Prince Wilhelm of Prussia" id = 34548 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_wilhelm_of_prussia.dds" traits = { } skill=2 }
 
 ############################################################################################################ 
@@ -41,7 +46,7 @@ create_corps_commander = {
 	traits = { old_guard }
 	skill = 3
 	attack_skill = 1
-	defense_skill = 2
+	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 2
 }
@@ -52,7 +57,7 @@ create_corps_commander = {
 	traits = { }
 	skill = 3
 	attack_skill = 2
-	defense_skill = 1
+	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
 }
@@ -161,10 +166,10 @@ create_corps_commander = {
 	portrait_path = "gfx/generals/GER_von_below_o.dds"
 	traits = { }
 	skill = 4
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "von Gündell" 
@@ -216,7 +221,7 @@ create_corps_commander = {
 	portrait_path = "gfx/generals/GER_von_schlieffen.dds"
 	traits = { thorough_planner }
 	skill = 3
-	attack_skill = 1
+	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 5
 	logistics_skill = 3
