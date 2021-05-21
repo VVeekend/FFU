@@ -12,13 +12,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		xp_research_type = army
-		xp_research_cost = 15
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		
 		attrition = 0.08
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -3 y = -1 }
@@ -51,7 +51,7 @@ technologies = {
 			breakthrough = 0.02
 		}
 		xp_research_type = army
-		xp_research_cost = 5
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		
 		#army_infantry_attack_factor = 0.05
@@ -76,7 +76,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -1 y = 0 }
@@ -109,7 +109,7 @@ technologies = {
 		ww1_airdoctrine_6 = {
 	
 		xp_research_type = army
-		xp_research_cost = 5
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		path = {
 			leads_to_tech = dispersed_infantry_attacks
@@ -121,7 +121,7 @@ technologies = {
 			}
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 
 		folder = {
 			name = land_doctrine_folder
@@ -143,13 +143,13 @@ technologies = {
 			default_morale = 0.02
 		}
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		category_light_infantry = {
 			default_morale = 0.02
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		doctrine = yes	
 		research_cost = 1
 		on_research_complete = {
@@ -204,9 +204,9 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 15
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -256,9 +256,9 @@ technologies = {
 		org_loss_when_moving = -0.1
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -296,9 +296,9 @@ technologies = {
 		land_night_attack = 0.10
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -340,9 +340,9 @@ technologies = {
 		no_supply_grace = 12
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 25
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -385,14 +385,12 @@ technologies = {
 		infantry2 = {
 			combat_width = -0.4
 		}
-		gunner = {
-			defense = 0.1
-		}
+		
 		allow = {
             date > 1914.6.28
         }
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		path = {
 			leads_to_tech = offensive_trenches
@@ -416,7 +414,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5.5
+		research_cost = 2.5
 		on_research_complete = {
 			
 			
@@ -472,13 +470,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -4 y = 2 }
 		}
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -521,7 +519,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 2 }
@@ -542,7 +540,7 @@ technologies = {
 			
 		}
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		
 		ai_will_do = {
@@ -566,7 +564,7 @@ technologies = {
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		on_research_complete = {
 	
 			
@@ -616,9 +614,9 @@ technologies = {
 		land_reinforce_rate = 0.05
 		attrition = -0.01
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -657,9 +655,9 @@ technologies = {
 		max_planning = 0.05
 		attrition = -0.01
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -706,7 +704,7 @@ technologies = {
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		on_research_complete = {
 			
 			
@@ -747,9 +745,9 @@ technologies = {
 		attrition = -0.1
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -791,9 +789,9 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 5
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -841,10 +839,10 @@ technologies = {
 			research_cost_coeff = 0.75
 		}
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		on_research_complete = {
 				
 			
@@ -886,9 +884,9 @@ technologies = {
 		enable_tactic = tactic_sniper
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -932,13 +930,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -4 y = 4 }
 		}
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -973,13 +971,13 @@ technologies = {
 		}
 		enable_tactic = tactic_tunnel_mine
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -4 y = 6 }
 		}
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1026,13 +1024,13 @@ technologies = {
 			level = 5
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x =-1 y = 7 }
 		}
 		xp_research_type = army
-		xp_research_cost = 25
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1072,14 +1070,14 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 0 }
 		}
 		
 		xp_research_type = army
-		xp_research_cost = 5
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1119,13 +1117,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 2 }
 		}
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1165,7 +1163,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 4 }
@@ -1216,13 +1214,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 6 }
 		}
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1259,13 +1257,13 @@ technologies = {
 			defense = 0.1
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -1 y = 8 }
 		}
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1302,13 +1300,13 @@ technologies = {
 			breakthrough = 0.12
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 1 y = 8 }
 		}
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1335,7 +1333,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
@@ -1383,9 +1381,9 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1420,7 +1418,7 @@ technologies = {
 		ww1_airdoctrine = {
 	
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		army_bonus_air_superiority_factor = 0.05
 		path = {
@@ -1430,7 +1428,7 @@ technologies = {
 		
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 
 		folder = {
 			name = land_doctrine_folder
@@ -1462,9 +1460,9 @@ technologies = {
 		}
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1522,9 +1520,9 @@ technologies = {
 		}
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1568,9 +1566,9 @@ technologies = {
 			defense = 0.1
 		}
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1611,9 +1609,9 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1653,9 +1651,9 @@ technologies = {
 		enable_tactic = tactic_dummy_barrage
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1696,9 +1694,9 @@ technologies = {
 		enable_tactic = tactic_standing_barrage
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1754,9 +1752,9 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1793,9 +1791,9 @@ technologies = {
 		enable_tactic = tactic_block_barrage
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1835,9 +1833,9 @@ technologies = {
 		enable_tactic = tactic_creeping_barrage
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1877,9 +1875,9 @@ technologies = {
 		enable_tactic = tactic_rolling_barrage
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1926,9 +1924,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -1973,9 +1971,9 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2018,9 +2016,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2059,7 +2057,7 @@ technologies = {
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		on_research_complete = {
 			
 			
@@ -2100,9 +2098,9 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 5
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2142,9 +2140,9 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2182,7 +2180,7 @@ technologies = {
 		planning_speed = 0.05
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
@@ -2228,7 +2226,7 @@ technologies = {
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		on_research_complete = {
 			
 			
@@ -2297,13 +2295,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -1 y = -1 }
 		}
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2343,13 +2341,13 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 1 y = 1 }
 		}
 		xp_research_type = army
-		xp_research_cost = 5
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2392,9 +2390,9 @@ technologies = {
 		}	
 		
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 5
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2438,9 +2436,9 @@ technologies = {
 			max_organisation = 8
 		}		
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2489,9 +2487,9 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2550,9 +2548,9 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2611,13 +2609,13 @@ technologies = {
 			default_morale = 0.02
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 11 }
 		}
 		xp_research_type = army
-		xp_research_cost = 25
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2650,9 +2648,9 @@ technologies = {
 			hard_attack = 0.05
 		}
 		xp_research_type = army
-		xp_research_cost = 5
+		xp_research_cost = 100
 		xp_research_bonus = 1.00	
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 0 }
@@ -2691,13 +2689,13 @@ technologies = {
 			hard_attack = 0.2
 		}
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 0 }
 		}
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2727,9 +2725,9 @@ technologies = {
 		
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2770,9 +2768,9 @@ technologies = {
 		
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2810,9 +2808,9 @@ technologies = {
 		
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2881,9 +2879,9 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 20
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2918,9 +2916,9 @@ technologies = {
 	
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -2956,7 +2954,7 @@ technologies = {
 		org_loss_when_moving = -0.1
 		
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
@@ -2999,7 +2997,7 @@ technologies = {
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		on_research_complete = {
 			
 			
@@ -3035,7 +3033,7 @@ technologies = {
 		planning_speed = 0.1
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
@@ -3081,7 +3079,7 @@ technologies = {
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		on_research_complete = {
 			
 			
@@ -3114,9 +3112,9 @@ technologies = {
 		experience_loss_factor = -0.05
 
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 5
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -3154,9 +3152,9 @@ technologies = {
 		}
 		doctrine = yes	
 		
-		research_cost = 3.5
+		research_cost = 2.5
 		xp_research_type = army
-		xp_research_cost = 10
+		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		on_research_complete = {
 			
@@ -3201,7 +3199,7 @@ technologies = {
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3.5
+		research_cost = 2.5
 		on_research_complete = {
 			
 			

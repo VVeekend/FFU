@@ -1,5 +1,5 @@
 sub_units = {
-	logistics_company = {
+	signal_company = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -24,24 +24,23 @@ sub_units = {
 	
 		#Size Definitions
 		max_strength = 1
-		max_organisation = 10	
+		max_organisation = 20
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
 
 		#Misc Abilities
 		weight = 0.1
+		supply_consumption = 0.02
 		can_be_parachuted = yes
-
+		
 		# Important Ability
-		supply_consumption_factor = -0.1
-		fuel_consumption_factor = -0.05
-
+		initiative = 0.20
+		
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 		
 		essential = {
 			support_equipment
-			motorized_equipment
 		}
 
 		need = {

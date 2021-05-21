@@ -26,6 +26,7 @@ sub_units = {
 		need = { 
 		      light_field_gun_equipment = 32
 			  horse_equipment = 5
+			  infantry_equipment = 25
 	    }
 		
 		max_strength = 0.6

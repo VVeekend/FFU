@@ -206,20 +206,6 @@ leader_traits = {
 		attack_skill_factor = 1
 		logistics_skill_factor = 1
 	}
-
-	bearer_of_artillery = {
-		type = corps_commander
-		
-		trait_type = personality_trait
-		
-		modifier = {
-			army_artillery_attack_factor = 0.15
-		}
-		
-		new_commander_weight = {
-			factor = 0
-		}
-	}
 	
 	infantry_officer = { 
 		type = land
@@ -591,37 +577,6 @@ leader_traits = {
 		
 		trait_type = basic_terrain_trait
 		gui_row = 7
-	}
-
-	adaptable = { 
-		type = corps_commander
-		gain_xp = {
-			always = no # not gainable
-		}
-		cost = 1000
-		modifier = {
-			terrain_penalty_reduction = 0.10
-			acclimatization_cold_climate_gain_factor = 0.1
-			acclimatization_hot_climate_gain_factor = 0.1
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		trait_type = assignable_terrain_trait
-		gui_row = 3
-				
-		parent = desert_fox
-		parent = swamp_fox
-		parent = trait_mountaineer
-		parent = hill_fighter
-		parent = jungle_rat
-		parent = ranger
-		parent = urban_assault_specialist
-		parent = winter_specialist
-		
-		num_parents_needed = 2
 	}
 
 	winter_expert = { 
