@@ -6,9 +6,7 @@ icon = decision_generic_form_nation
 available = {
 has_completed_focus = AUS_dual_monarchy
 }
-visible = {
-TAG = AUS
-}
+allowed = { original_tag = AUS }
 complete_effect = {
 remove_ideas = AUS_hungarian_political_dominance
 remove_ideas = AUS_austrian_political_dominance
@@ -23,9 +21,7 @@ icon = decision_generic_form_nation
 available = {
 AUS = { has_completed_focus = AUS_dual_monarchy}
 }
-visible = {
-TAG = AUS
-}
+allowed = { original_tag = AUS }
 complete_effect = {
 remove_ideas = AUS_trialism
 remove_ideas = AUS_austrian_political_dominance
@@ -40,9 +36,7 @@ icon = decision_generic_form_nation
 available = {
 AUS = { has_completed_focus = AUS_dual_monarchy}
 }
-visible = {
-TAG = AUS
-}
+allowed = { original_tag = AUS }
 complete_effect = {
 remove_ideas = AUS_hungarian_political_dominance
 remove_ideas = AUS_trialism

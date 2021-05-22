@@ -9,9 +9,7 @@ operations = {
 			has_global_flag = kis_firstbalkanwar_victory
 		}
 
-		visible = {
-			tag = BUL
-		}
+       allowed = { original_tag = BUL }
 
 		fire_only_once = yes
 
