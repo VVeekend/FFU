@@ -29,19 +29,19 @@ state={
 				bunker = 5
 			}
 		14898 = {
-				trench= 2
+				trench= 4
 			}
 		14857 = {
-				trench= 2
+				trench= 4
 			}
 		19687 = {
-				trench= 2
+				trench= 4
 			}
 		10063 = {
-				trench= 2
+				trench= 4
 			}
 		2742 = {
-				trench= 2
+				trench= 4
 			}
 		}
 		victory_points = {
