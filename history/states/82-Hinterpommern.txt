@@ -21,5 +21,32 @@ state={
 			industrial_complex = 1
 			dockyard = 3
 		}
+		victory_points = {
+			13612 15 
+		}
+		victory_points = {
+			8886 1 
+		}
+		victory_points = {
+			1391 1 
+		}
+		victory_points = {
+			8935 1 
+		}
+		victory_points = {
+			13647 1 
+		}
+		victory_points = {
+			13676 1 
+		}
+		victory_points = {
+			13543 1 
+		}
+		victory_points = {
+			254 1 
+		}
+		victory_points = {
+			13532 1 
+		}
       }
 }

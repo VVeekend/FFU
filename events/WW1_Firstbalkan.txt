@@ -257,8 +257,7 @@ country_event = {
 			has_war_with = SER
 			NOT = {
 				controls_state = 156
-				controls_state = 151
-				controls_state = 135
+				controls_state = 134
 			}
 		}
 	}

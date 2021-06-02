@@ -37,3 +37,19 @@ country_event = {
 		}
 	}
 }
+
+# FFU Basics
+
+country_event = {
+	id = ffu.2
+	title = ffu.2.t
+	desc = ffu.2.d
+
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Good to know"	
+	}
+}

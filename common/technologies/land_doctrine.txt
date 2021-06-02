@@ -385,7 +385,7 @@ technologies = {
 		infantry2 = {
 			combat_width = -0.4
 		}
-		
+		max_dig_in = 2
 		allow = {
             date > 1914.6.28
         }
@@ -507,9 +507,12 @@ technologies = {
 		 
 		doctrine = yes	
 		
-		max_dig_in = 2
 		#dig_in_speed_factor = #0.25 #25% bonus
 
+		category_all_infantry = {
+			defense = 0.05
+		}
+		
 		engineer = {
 			entrenchment  = 2
 		}

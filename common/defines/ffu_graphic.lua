@@ -1,3 +1,5 @@
+    NDefines.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.6 -- Vanilla 0.6   HFU 0.9
+    NDefines.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.85 -- Vanilla 0.8   HFU 0.9
 
 	NDefines_Graphics.NAirGfx.AIRPLANES_ANIMATION_GLOBAL_SPEED_PER_GAMESPEED = { 0.1, 0.1, 0.20, 0.45, 0.50, 0.85 } -- Speed factor for each game speed (begin with paused). Larger value = faster animation.
 	
@@ -19,7 +21,8 @@
 	NDefines_Graphics.NGraphics.PROVINCE_BORDER_FADE_FAR = 900
 	NDefines_Graphics.NGraphics.STATE_BORDER_FADE_NEAR = 800
 	NDefines_Graphics.NGraphics.STATE_BORDER_FADE_FAR = 900
-
+    NDefines_Graphics.NGraphics.DRAW_SHADOWS_CUTOFF = 0
+    NDefines_Graphics.NGraphics.DRAW_SHADOWS_FADE_LENGTH = 0
 	NDefines_Graphics.NGraphics.DRAW_FOW_CUTOFF = 0
 	NDefines_Graphics.NGraphics.DRAW_FOW_FADE_LENGTH = 0
 	
