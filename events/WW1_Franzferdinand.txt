@@ -191,7 +191,7 @@ country_event = {
 				type=annex_everything
 				target=MNT
 			}
-			country_event = { id = ww1_franzferdinand.8 days = 30 }
+			country_event = { id = ww1_franzferdinand.8 days = 14 }
 		}
 		
 		}

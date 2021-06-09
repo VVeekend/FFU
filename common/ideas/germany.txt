@@ -331,20 +331,24 @@ ideas={
 				tag = BEL
 				attack_bonus_against = 0.50
 				breakthrough_factor = 0.20
+				defense_bonus_against = 0.20
 			}
 						
 			targeted_modifier = {
 				tag = FRA
 				attack_bonus_against = 0.25
+				defense_bonus_against = 0.20
 			}
 			targeted_modifier = {
 				tag = ENG
 				attack_bonus_against = 0.25
+				defense_bonus_against = 0.20
 			}
 			
 			targeted_modifier = {
 				tag = POR
 				attack_bonus_against = 0.25
+				defense_bonus_against = 0.20
 			}
 			
 		}
