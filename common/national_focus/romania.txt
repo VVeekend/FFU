@@ -1,0 +1,1000 @@
+focus_tree = {
+	id=generic_focus
+	default=no
+	reset_on_civilwar=no
+	country={ factor=0 modifier = { add = 10 tag = ROM } }
+	###########################################################################################################################
+	# POLITICAL
+	###########################################################################################################################
+focus = {
+		id = ROM_define_parlimentary_role
+		icon = GFX_goal_demand_sudetenland
+		completion_reward = { add_political_power = 100 }
+		ai_will_do = { factor = 10 }
+		
+		cost = 5
+		x = 8
+		y = 1
+		}
+focus = {
+		id = ROM_legacy_of_1928
+		prerequisite = { focus = ROM_define_parlimentary_role}
+		icon = GFX_focus_rom_parties_end
+		completion_reward = { add_political_power = 150 }
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_define_parlimentary_role
+		cost = 10
+		x = -3
+		y = 2
+		}
+focus = {
+		id = ROM_legitimize_constitution
+		prerequisite = { focus = ROM_legacy_of_1928}
+		icon = GFX_focus_rom_coup
+		completion_reward = { add_political_power = 50 }
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_legacy_of_1928
+		cost = 10
+		x = 0
+		y = 1
+		}
+
+
+ 
+		
+focus = {	
+		id = ROM_reform_effort
+		prerequisite = { focus = ROM_define_parlimentary_role}
+		icon = GFX_SOV_stolypins_land_reform-45113
+		completion_reward = {  add_stability= 0.1 
+		
+		111={
+			add_extra_state_shared_building_slots = 2
+		}
+		365 = {
+			add_extra_state_shared_building_slots = 2
+
+		}
+		236 = {
+			add_extra_state_shared_building_slots = 4
+
+		}
+
+		}
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_define_parlimentary_role
+		cost = 5
+		x = -1
+		y = 2
+		}
+focus = {	
+		id = ROM_prepare_for_war
+		prerequisite = { focus = ROM_reform_effort}
+		icon = GFX_goal_generic_construct_mil_factory
+		completion_reward = {  236 = {
+		add_extra_state_shared_building_slots = 4
+		add_building_construction = { type = arms_factory level = 4 instant_build = yes
+		}}}
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_reform_effort
+		cost = 10
+		x = 0
+		y = 1
+		}
+		focus = {
+		id = ROM_align_with_entente
+		prerequisite = { focus = ROM_legitimize_constitution}
+		prerequisite = { focus = ROM_prepare_for_war}
+		available ={
+
+			has_country_flag=carol_dead
+		}
+		icon = GFX_SOV_reformation_of_the_empire-45115
+		completion_reward = { 
+		add_offsite_building= { type = arms_factory level = 5 }
+		ROM = {
+ 			add_to_tech_sharing_group = entente_research }
+		}
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_legacy_of_1928
+		cost = 10
+		x = 1
+		y = 3
+		}
+		focus = {
+		id = ROM_joint_entente_planning
+		prerequisite = { focus = ROM_lessons_of_the_balkan_wars}
+		prerequisite = { focus = ROM_align_with_entente}
+		icon = GFX_focus_generic_diplomatic_treaty
+		completion_reward = { add_ideas = ROM_entente_planning }
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_align_with_entente
+		cost = 10
+		x = -2
+		y = 3
+		}
+	focus = {	
+		id = ROM_Emergency_War_Act
+		prerequisite = { focus = ROM_align_with_entente}
+		prerequisite = { focus = ROM_strengthen_war_industry}
+		available = {
+			GER = {
+				has_war_with = ROM
+			}
+			AUS = {
+				has_war_with = ROM
+			}
+		}
+		icon = GFX_goal_generic_construct_mil_factory
+		completion_reward = {add_ideas = ROM_emergency_war_act}
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_align_with_entente
+		cost = 10
+		x = 2
+		y = 3
+		}
+		focus = {
+		id = ROM_tech_sharing
+		prerequisite = { focus = ROM_joint_entente_planning}
+		
+		icon = GFX_goal_tfv_generic_tech_sharing
+		completion_reward = { add_research_slot = 1 }
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_joint_entente_planning
+		cost = 10
+		x = 0
+		y = 2
+		}
+
+
+	
+	###########################################################################################################################
+	# WAR
+	###########################################################################################################################
+
+	focus = {
+		id = ROM_Entente_Military_Mission
+		prerequisite = { focus = ROM_define_parlimentary_role}
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1.5 uses=1 category=land_doctrine } }
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_define_parlimentary_role
+		cost = 10
+		x = -6
+		y = 2
+		}
+	focus = {
+		id = ROM_repurpose_fortress_guns
+		prerequisite = { focus = ROM_Entente_Military_Mission}
+		icon = GFX_goal_generic_army_artillery
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=2 uses=1 category=artillery } }
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_Entente_Military_Mission
+		cost = 10
+		x = -1
+		y = 2
+		}
+	focus = {
+		id = ROM_study_foreign_designs
+		prerequisite = { focus = ROM_Entente_Military_Mission}
+		icon = GFX_focus_prc_infiltration
+		completion_reward = { add_ideas = ROM_study_foreign_equipment }
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_Entente_Military_Mission
+		cost = 10
+		x = 1
+		y = 2
+		}
+	focus = {	
+		id = ROM_lessons_of_the_balkan_wars
+		prerequisite = { focus = ROM_study_foreign_designs focus = ROM_repurpose_fortress_guns}
+
+		available = { date > 1913.5.1 }
+		
+		icon = GFX_FRA_union_sacre-73662
+		completion_reward = { add_ideas = ROM_lessons_of_balkan_wars}
+		ai_will_do = { factor = 10 }
+		relative_position_id = ROM_Entente_Military_Mission
+		cost = 10
+		x = 0
+		y = 3
+		}
+		             #################################################
+focus = {
+		id = ROM_ww1_army_effort_1
+		icon = GFX_goal_generic_allies_build_infantry
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_1 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_1 }
+		cost = 10
+		x = 19
+		y = 1
+		}
+focus = {
+		id = ROM_ww1_equipment_effort_1
+		prerequisite = {  }
+		icon = GFX_goal_generic_small_arms
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=infantry_weapons} }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_1 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_1 }
+		cost = 10
+		x = 21
+		y = 1
+	}
+focus = {
+		id = ROM_ww1_artillery_effort_1
+		prerequisite = { }
+		icon = GFX_goal_generic_army_artillery2
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=artillery } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_1 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_1 }
+		cost = 10
+		x = 23
+		y = 1
+	}
+focus = {
+		id = ROM_ww1_aircraftprod_1
+		prerequisite = {  }
+		icon = GFX_goal_generic_air_production
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1 uses=1 category=air_equipment } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_1 }
+		cost = 10
+		x = 25
+		y = 1
+	}
+focus = {
+		id = ROM_ww1_large_navy_1
+		prerequisite = {  }
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=1 uses=1 category=air_doctrine }}
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_1 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_1 }
+		cost = 5
+		x = 27
+		y = 1
+		
+		}
+
+	##############################################################################
+
+focus = {
+		id = ROM_ww1_army_effort_2
+		prerequisite = { focus=ROM_ww1_army_effort_1
+		 focus=ROM_ww1_equipment_effort_1
+		 focus=ROM_ww1_artillery_effort_1
+		 focus=ROM_ww1_aircraftprod_1
+		 focus=ROM_ww1_large_navy_1}
+		icon = GFX_goal_generic_allies_build_infantry
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_2 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_2 }
+		cost = 10
+		x = 19
+		y = 2
+		}
+focus = {
+		id = ROM_ww1_equipment_effort_2
+		prerequisite = { focus=ROM_ww1_army_effort_1
+		 focus=ROM_ww1_equipment_effort_1
+		 focus=ROM_ww1_artillery_effort_1
+		 focus=ROM_ww1_aircraftprod_1
+		 focus=ROM_ww1_large_navy_1}
+		icon = GFX_goal_generic_small_arms
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=infantry_weapons} }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_2 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_2}
+		cost = 10
+		x = 21
+		y = 2
+	}
+focus = {
+		id = ROM_ww1_artillery_effort_2
+		prerequisite = { focus=ROM_ww1_army_effort_1
+		 focus=ROM_ww1_equipment_effort_1
+		 focus=ROM_ww1_artillery_effort_1
+		 focus=ROM_ww1_aircraftprod_1
+		 focus=ROM_ww1_large_navy_1}
+		icon = GFX_goal_generic_army_artillery2
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=artillery } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_2 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_2 }
+		cost = 10
+		x = 23
+		y = 2
+	}
+focus = {
+		id = ROM_ww1_aircraftprod_2
+		prerequisite = { focus=ROM_ww1_army_effort_1
+		focus=ROM_ww1_equipment_effort_1
+		focus=ROM_ww1_artillery_effort_1
+		focus=ROM_ww1_aircraftprod_1
+		focus=ROM_ww1_large_navy_1}
+		icon = GFX_goal_generic_air_production
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1 uses=1 category=air_equipment } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_2 }
+		cost = 10
+		x = 25
+		y = 2
+	}
+focus = {
+		id = ROM_ww1_large_navy_2
+		prerequisite = { focus=ROM_ww1_army_effort_1
+		focus=ROM_ww1_equipment_effort_1
+		focus=ROM_ww1_artillery_effort_1
+		focus=ROM_ww1_aircraftprod_1
+		focus=ROM_ww1_large_navy_1}
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=1 uses=1 category=air_doctrine }}
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_2 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_2 }
+		cost = 5
+		x = 27
+		y = 2
+	}
+	################################################################
+
+focus = {
+		id = ROM_ww1_army_effort_3
+		prerequisite = { focus=ROM_ww1_army_effort_2
+		 focus=ROM_ww1_equipment_effort_2
+		 focus=ROM_ww1_artillery_effort_2
+		 focus=ROM_ww1_aircraftprod_2
+		 focus=ROM_ww1_large_navy_2}
+		icon = GFX_goal_generic_allies_build_infantry
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_3 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_3 }
+		cost = 10
+		x = 19
+		y = 3
+		}
+focus = {
+		id = ROM_ww1_equipment_effort_3
+		prerequisite = { focus=ROM_ww1_army_effort_2
+		 focus=ROM_ww1_equipment_effort_2
+		 focus=ROM_ww1_artillery_effort_2
+		 focus=ROM_ww1_aircraftprod_2
+		 focus=ROM_ww1_large_navy_2}
+		icon = GFX_goal_generic_small_arms
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=infantry_weapons} }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_3 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_3}
+		cost = 10
+		x = 21
+		y = 3
+	}
+focus = {
+		id = ROM_ww1_artillery_effort_3
+		prerequisite = { focus=ROM_ww1_army_effort_2
+		 focus=ROM_ww1_equipment_effort_2
+		 focus=ROM_ww1_artillery_effort_2
+		 focus=ROM_ww1_aircraftprod_2
+		 focus=ROM_ww1_large_navy_2}
+		icon = GFX_goal_generic_army_artillery2
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=artillery } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_3 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_3 }
+		cost = 10
+		x = 23
+		y = 3
+	}
+focus = {
+		id = ROM_ww1_aircraftprod_3
+		prerequisite = { focus=ROM_ww1_army_effort_2
+		focus=ROM_ww1_equipment_effort_2
+		focus=ROM_ww1_artillery_effort_2
+		focus=ROM_ww1_aircraftprod_2
+		focus=ROM_ww1_large_navy_2}
+		icon = GFX_goal_generic_air_production
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1 uses=1 category=air_equipment } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_3 }
+		cost = 10
+		x = 25
+		y = 3
+	}
+focus = {
+		id = ROM_ww1_large_navy_3
+		prerequisite = { focus=ROM_ww1_army_effort_2
+		focus=ROM_ww1_equipment_effort_2
+		focus=ROM_ww1_artillery_effort_2
+		focus=ROM_ww1_aircraftprod_2
+		focus=ROM_ww1_large_navy_2 }
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=1 uses=1 category=air_doctrine }}
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_3 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_3 }
+		cost = 5
+		x = 27
+		y = 3
+	}
+	################################################################
+
+focus = {
+		id = ROM_ww1_army_effort_4
+		prerequisite = { focus=ROM_ww1_army_effort_3
+		 focus=ROM_ww1_equipment_effort_3
+		 focus=ROM_ww1_artillery_effort_3
+		 focus=ROM_ww1_aircraftprod_3
+		 focus=ROM_ww1_large_navy_3}
+		icon = GFX_goal_generic_allies_build_infantry
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_4 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_4 }
+		cost = 10
+		x = 19
+		y = 4
+		}
+focus = {
+		id = ROM_ww1_equipment_effort_4
+		prerequisite = { focus=ROM_ww1_army_effort_3
+		 focus=ROM_ww1_equipment_effort_3
+		 focus=ROM_ww1_artillery_effort_3
+		 focus=ROM_ww1_aircraftprod_3
+		 focus=ROM_ww1_large_navy_3}
+		icon = GFX_goal_generic_small_arms
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=infantry_weapons} }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_4 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_4 }
+		cost = 10
+		x = 21
+		y = 4
+	}
+focus = {
+		id = ROM_ww1_artillery_effort_4
+		prerequisite = { focus=ROM_ww1_army_effort_3
+		 focus=ROM_ww1_equipment_effort_3
+		 focus=ROM_ww1_artillery_effort_3
+		 focus=ROM_ww1_aircraftprod_3
+		 focus=ROM_ww1_large_navy_3 }
+		icon = GFX_goal_generic_army_artillery2
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=artillery } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_4 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_4 }
+		cost = 10
+		x = 23
+		y = 4
+	}
+focus = {
+		id = ROM_ww1_aircraftprod_4
+		prerequisite = { focus=ROM_ww1_army_effort_3
+		focus=ROM_ww1_equipment_effort_3
+		focus=ROM_ww1_artillery_effort_3
+		focus=ROM_ww1_aircraftprod_3
+		focus=ROM_ww1_large_navy_3}
+		icon = GFX_goal_generic_air_production
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1 uses=1 category=air_equipment } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_4 }
+		cost = 10
+		x = 25
+		y = 4
+	}
+focus = {
+		id = ROM_ww1_large_navy_4
+		prerequisite = { focus=ROM_ww1_army_effort_3
+		focus=ROM_ww1_equipment_effort_3
+		focus=ROM_ww1_artillery_effort_3
+		focus=ROM_ww1_aircraftprod_3
+		focus=ROM_ww1_large_navy_3 }
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=1 uses=1 category=air_doctrine }}
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_4 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_4 }
+		cost = 5
+		x = 27
+		y = 4
+	}
+
+   ############################################################################
+ 	################################################################
+
+focus = {
+		id = ROM_ww1_army_effort_5
+		prerequisite = { focus=ROM_ww1_army_effort_4
+		 focus=ROM_ww1_equipment_effort_4
+		 focus=ROM_ww1_artillery_effort_4
+		 focus=ROM_ww1_aircraftprod_4
+		 focus=ROM_ww1_large_navy_4}
+		icon = GFX_goal_generic_allies_build_infantry
+		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_5 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_5 }
+		cost = 10
+		x = 19
+		y = 5
+		}
+focus = {
+		id = ROM_ww1_equipment_effort_5
+		prerequisite = { focus=ROM_ww1_army_effort_4
+		 focus=ROM_ww1_equipment_effort_4
+		 focus=ROM_ww1_artillery_effort_4
+		 focus=ROM_ww1_aircraftprod_4
+		 focus=ROM_ww1_large_navy_4}
+		icon = GFX_goal_generic_small_arms
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=infantry_weapons} }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_5 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_5 }
+		cost = 10
+		x = 21
+		y = 5
+	}
+focus = {
+		id = ROM_ww1_artillery_effort_5
+		prerequisite = { focus=ROM_ww1_army_effort_4
+		 focus=ROM_ww1_equipment_effort_4
+		 focus=ROM_ww1_artillery_effort_4
+		 focus=ROM_ww1_aircraftprod_4
+		 focus=ROM_ww1_large_navy_4 }
+		icon = GFX_goal_generic_army_artillery2
+		completion_reward = { army_experience=10 add_tech_bonus={ name=infantry_weapons_bonus bonus=1 uses=1 category=artillery } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_5 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_5 }
+		cost = 10
+		x = 23
+		y = 5
+	}
+focus = {
+		id = ROM_ww1_aircraftprod_5
+		prerequisite = { focus=ROM_ww1_army_effort_4
+		focus=ROM_ww1_equipment_effort_4
+		focus=ROM_ww1_artillery_effort_4
+		focus=ROM_ww1_aircraftprod_4
+		focus=ROM_ww1_large_navy_4}
+		icon = GFX_goal_generic_air_production
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1 uses=1 category=air_equipment } }
+		ai_will_do = { factor = 10 }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_large_navy_5 }
+		cost = 10
+		x = 25
+		y = 5
+	}
+focus = {
+		id = ROM_ww1_large_navy_5
+		prerequisite = { focus=ROM_ww1_army_effort_4
+		focus=ROM_ww1_equipment_effort_4
+		focus=ROM_ww1_artillery_effort_4
+		focus=ROM_ww1_aircraftprod_4
+		focus=ROM_ww1_large_navy_4 }
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1 uses=1 category=naval_doctrine } add_tech_bonus={ name=air_doc_bonus bonus=1 uses=1 category=air_doctrine }}
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		mutually_exclusive = { focus = ROM_ww1_army_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_equipment_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_artillery_effort_5 }
+		mutually_exclusive = { focus = ROM_ww1_aircraftprod_5 }
+		cost = 5
+		x = 27
+		y = 5
+	}
+
+   ############################################################################
+focus = {
+		id = ROM_ww1_armor_effort_1
+		prerequisite = { focus=ROM_ww1_army_effort_5
+		focus=ROM_ww1_equipment_effort_5
+		focus=ROM_ww1_artillery_effort_5
+		focus=ROM_ww1_aircraftprod_5
+		focus=ROM_ww1_large_navy_5 }
+		icon = GFX_hoi4tgw_renaultft
+		completion_reward = { army_experience=50 add_tech_bonus={ name=armor_bonus bonus=1 uses=2 category=armor } }
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 23
+		y = 6
+	}
+######################################################################################
+
+
+
+	             #################################################
+
+
+focus = {
+		id = ROM_modernize_industry
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {focus = ROM_define_parlimentary_role }
+		completion_reward = { 
+		add_ideas= industrialization_effort
+		add_tech_bonus={ name=industrial_bonus bonus=1 uses=1 category=industry } add_political_power=50 }
+		relative_position_id = ROM_define_parlimentary_role
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 3
+		y = 2
+	}	
+	focus = {
+		id = ROM_strengthen_war_industry
+		relative_position_id = ROM_modernize_industry
+		prerequisite = {focus = ROM_develop_domestic_talent
+		focus = ROM_hire_foreign_engineers}
+		icon = GFX_focus_focus_fra_maquis
+		completion_reward = {
+		 	add_ideas = arms_factory_expansion
+		}
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 0
+		y = 5
+	}	
+	
+	
+	focus = {
+		id = ROM_retrofit_railroads
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = ROM_modernize_industry }
+		completion_reward = {	
+		
+			111 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+		              type=infrastructure level=2 instant_build=yes 
+		        }
+				add_building_construction = {
+		              type=industrial_complex level=1 instant_build=yes 
+		        }
+			}
+		}
+	
+		relative_position_id = ROM_modernize_industry
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 0
+		y = 1
+	}	
+	focus = {
+		id = ROM_encourage_urbanization
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {focus = ROM_retrofit_railroads }
+		completion_reward = { 
+			365 = {
+					add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+		            type=industrial_complex level=1 instant_build=yes 
+		        }}
+		
+		}
+		relative_position_id = ROM_retrofit_railroads
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 0
+		y = 3
+	}	
+	focus = {
+		id = ROM_attract_foreign_investment
+		mutually_exclusive = { focus = ROM_develop_domestic_industry }
+		prerequisite = {focus =ROM_modernize_industry }
+		relative_position_id = ROM_modernize_industry
+		icon = GFX_focus_generic_industry_3
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = -2
+		y = 2
+		completion_reward = {
+		 	111 = { add_extra_state_shared_building_slots = 4 add_building_construction={ type=industrial_complex level=3 instant_build=yes } } 
+			add_timed_idea= { 
+        		idea = ROM_encourage_foreign_investment   
+         		Days = 360
+          }
+		}
+		
+	}	
+	focus = {
+		id = ROM_develop_domestic_industry
+		mutually_exclusive = { focus = ROM_attract_foreign_investment }
+		prerequisite = {focus =ROM_modernize_industry }
+		relative_position_id = ROM_modernize_industry
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		completion_reward = {
+		 	random_owned_state={ add_extra_state_shared_building_slots=8 add_building_construction={ type=arms_factory level=4 instant_build=yes } } 
+			add_political_power=50
+		}
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 2
+		y = 2
+	}	
+	focus = {
+		id = ROM_domestic_oil
+		prerequisite = {focus =ROM_develop_domestic_industry }
+		relative_position_id = ROM_develop_domestic_industry
+		icon = GFX_goal_generic_oil_refinery
+		completion_reward = {
+		 add_resource= { 
+         type = oil 
+         amount = 20
+         state = 111
+         }
+		}
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 2
+		y = 3
+	}	
+	focus = {
+		id = ROM_hire_foreign_engineers
+		relative_position_id = ROM_modernize_industry
+		prerequisite = {focus = ROM_attract_foreign_investment }
+		icon = GFX_goal_generic_positive_trade_relations
+		completion_reward = {
+		 	add_research_slot=1
+			add_tech_bonus={ name=industrial_bonus bonus=0.5 uses=1 category=industry } 
+		}
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = -2
+		y = 4
+	}	
+	focus = {
+		id = ROM_develop_domestic_talent
+		relative_position_id = ROM_modernize_industry
+		prerequisite = {focus = ROM_develop_domestic_industry}
+		icon = GFX_goal_generic_scientific_exchange
+		completion_reward = {
+		 	add_research_slot=1
+		}
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 2
+		y = 4
+	}	
+	focus = {
+		id = ROM_develop_electronics
+		icon = GFX_goal_generic_radar
+		prerequisite = {focus = ROM_strengthen_war_industry }
+		completion_reward = { 
+		add_tech_bonus = {
+		name = electronics_bonus
+		bonus = 0.5
+		uses = 1
+		category = electronics
+		}
+		}
+		relative_position_id = ROM_strengthen_war_industry
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 3
+		y = 1
+	}	
+	
+	
+
+	###########################################################################################################################
+
+   focus = {
+		id = ROM_ww1_naval_effort
+		icon = GFX_goal_generic_build_navy 
+		available = { any_state={ is_coastal=yes is_controlled_by=ROOT } }
+		completion_reward = { navy_experience=100 if={ limit={ NOT={ any_owned_state={ dockyard > 0 free_building_slots={ building=dockyard size > 2 include_locked=yes } } } any_owned_state={ is_coastal=yes } } random_owned_state={ limit={ is_coastal=yes free_building_slots={ building=dockyard size > 2 include_locked=yes } } add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } } set_country_flag=naval_effort_built } if={ limit={ NOT={ has_country_flag=naval_effort_built } any_owned_state={ dockyard > 0 free_building_slots={ building=dockyard size > 2 include_locked=yes } } } random_owned_state={ limit={ dockyard > 0 free_building_slots={ building=dockyard size > 2 include_locked=yes } } add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } } set_country_flag=naval_effort_built } if={ limit={ NOT={ has_country_flag=naval_effort_built } NOT={ any_owned_state={ free_building_slots={ building=dockyard size > 2 include_locked=yes } } } } random_state={ limit={ controller={ tag=ROOT } free_building_slots={ building=dockyard size > 2 include_locked=yes } } add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } } }			 }
+		complete_tooltip = { navy_experience=100 add_extra_state_shared_building_slots=3 add_building_construction={ type=dockyard level=3 instant_build=yes } }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 36
+		y = 0
+	}
+
+	focus = {
+		id = ROM_ww1_newnavalcanons_1
+		prerequisite = { focus=ROM_ww1_naval_effort }
+		icon = GFX_hoi4tgw_navalcanons
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1.0 uses=1 category=naval_doctrine } }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 36
+		y = 1
+	}
+
+
+	focus = {
+		id = ROM_ww1_dreadnought_effort
+		prerequisite = { focus=ROM_ww1_newnavalcanons_1 }
+		icon = GFX_goal_generic_navy_battleship
+		completion_reward = { add_tech_bonus = { bonus = 1.0 uses = 1 category = bb_tech } }
+		ai_will_do = { factor=1 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 36
+		y = 2
+	}
+
+	focus = {
+		id = ROM_ww1_newnavalcanons_2
+		prerequisite = { focus=ROM_ww1_dreadnought_effort }
+		icon = GFX_goal_generic_army_artillery
+		completion_reward = { navy_experience=100 add_tech_bonus={ name=newnavalcanons_2_bonus bonus=1.0 uses=1 category=naval_doctrine } }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 36
+		y = 3
+	}
+
+	focus = {
+		id = ROM_ww1_flexible_navy
+		prerequisite = { focus=ROM_ww1_newnavalcanons_2 }
+		icon = GFX_goal_generic_occupy_states_coastal
+		completion_reward = { add_tech_bonus={ name=sub_op_bonus bonus=1.0 uses=1 technology=convoy_interdiction_ti technology=unrestricted_submarine_warfare technology=wolfpacks technology=advanced_submarine_warfare } }
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		cost = 5
+		x = 35
+		y = 4
+		mutually_exclusive = { focus=ROM_ww1_large_navy }
+	}
+
+
+	focus = {
+		id = ROM_ww1_large_navy
+		prerequisite = { focus=ROM_ww1_newnavalcanons_2 }
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		completion_reward = { add_tech_bonus={ name=fleet_in_being_bonus bonus=1.0 uses=1 category=fleet_in_being_tree } }
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		cost = 5
+		x = 37
+		y = 4
+		mutually_exclusive = { focus=ROM_ww1_flexible_navy }
+	}
+
+	focus = {
+		id = ROM_ww1_submarine_effort
+		prerequisite = { focus=ROM_ww1_flexible_navy focus=ROM_ww1_large_navy }
+		icon = GFX_goal_generic_navy_submarine
+		completion_reward = { add_tech_bonus = { bonus = 1.0 uses = 1 category = ss_tech } }
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		cost = 5
+		x = 35
+		y = 5
+	}
+
+	focus = {
+		id = ROM_ww1_cruiser_effort
+		prerequisite = { focus=ROM_ww1_flexible_navy focus=ROM_ww1_large_navy }
+		icon = GFX_goal_generic_navy_cruiser
+		completion_reward = { add_tech_bonus = { bonus = 1.0 uses = 1 category = ca_tech } }
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		cost = 5
+		x = 37
+		y = 5
+	}
+
+	focus = {
+		id = ROM_ww1_destroyer_effort
+		prerequisite = { focus=ROM_ww1_submarine_effort }
+		icon = GFX_goal_generic_wolf_pack
+		completion_reward = { add_tech_bonus = { bonus = 1.0 uses = 1 category = dd_tech } }
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		cost = 5
+		x = 35
+		y = 6
+	}
+
+	focus = {
+		id = ROM_ww1_capital_ships_effort
+		prerequisite = { focus=ROM_ww1_cruiser_effort }
+		icon = GFX_goal_generic_navy_battleship
+		completion_reward = { add_tech_bonus = { bonus = 1.0 uses = 1 category = bc_tech } }
+		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
+		cost = 5
+		x = 37
+		y = 6
+	}
+
+
+	focus = {
+		id = ROM_ww1_newnavalcanons_3
+		prerequisite = { focus=ROM_ww1_capital_ships_effort }
+		prerequisite = { focus=ROM_ww1_destroyer_effort }
+		icon = GFX_goal_generic_army_artillery
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_3_bonus bonus=1.0 uses=1 category=naval_doctrine } }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 36
+		y = 7
+	}
+
+	focus = {
+		id = ROM_ww1_navyreform
+		prerequisite = { focus=ROM_ww1_newnavalcanons_3 }
+		available = { date > 1917.1.1 }
+		icon = GFX_goal_generic_amphibious_assault
+		completion_reward = { navy_experience=100 }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 36
+		y = 8
+	}
+
+	focus = {
+		id = ROM_ww1_carrier_focus
+		prerequisite = { focus=ROM_ww1_navyreform }
+		icon = GFX_goal_generic_navy_carrier
+		completion_reward = { add_tech_bonus = { bonus = 1.0 uses = 1 category = cv_tech } }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 35
+		y = 9
+	}
+
+	focus = {
+		id = ROM_ww1_antisubmarine
+		prerequisite = { focus=ROM_ww1_navyreform }
+		icon = GFX_goal_generic_navy_anti_submarine
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_3_bonus bonus=1.0 uses=1 category=naval_doctrine } }
+		ai_will_do = { factor = 10 }
+		cost = 5
+		x = 37
+		y = 9
+	}
+	}

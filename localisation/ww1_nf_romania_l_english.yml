@@ -1,0 +1,189 @@
+﻿l_english:
+
+
+#--------------------------------------------------------------
+# [Romania] Army Effort
+#=========================================================================
+ROM_ww1_army_effort_1:0 "Army Effort"
+ROM_ww1_army_effort_1_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_army_effort_2:0 "Army Effort II"
+ROM_ww1_army_effort_2_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_army_effort_3:0 "Army Effort III"
+ROM_ww1_army_effort_3_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_army_effort_4:0 "Army Effort IV"
+ROM_ww1_army_effort_4_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_army_effort_5:0 "Army Effort V"
+ROM_ww1_army_effort_5_desc:0 "" #Frenchie
+
+ROM_ww1_equipment_effort_1:0 "Equipment Effort"
+ROM_ww1_equipment_effort_1_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_equipment_effort_2:0 "Equipment Effort II"
+ROM_ww1_equipment_effort_2_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_equipment_effort_3:0 "Equipment Effort III"
+ROM_ww1_equipment_effort_3_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_equipment_effort_4:0 "Equipment Effort IV"
+ROM_ww1_equipment_effort_4_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_equipment_effort_5:0 "Equipment Effort V"
+ROM_ww1_equipment_effort_5_desc:0 "" #Frenchie
+
+ROM_ww1_artillery_effort_1:0 "Artillery Effort"
+ROM_ww1_artillery_effort_1_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_artillery_effort_2:0 "Artillery Effort II"
+ROM_ww1_artillery_effort_2_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_artillery_effort_3:0 "Artillery Effort III"
+ROM_ww1_artillery_effort_3_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_artillery_effort_4:0 "Artillery Effort IV"
+ROM_ww1_artillery_effort_4_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_artillery_effort_5:0 "Artillery Effort V"
+ROM_ww1_artillery_effort_5_desc:0 "" #Frenchie
+
+ROM_ww1_aircraftprod_1:0 "Aircraft Production"
+ROM_ww1_aircraftprod_1_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_aircraftprod_2:0 "Aircraft Production II"
+ROM_ww1_aircraftprod_2_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_aircraftprod_3:0 "Aircraft Production III"
+ROM_ww1_aircraftprod_3_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_aircraftprod_4:0 "Aircraft Production IV"
+ROM_ww1_aircraftprod_4_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_aircraftprod_5:0 "Aircraft Production V"
+ROM_ww1_aircraftprod_5_desc:0 "" #Frenchie
+
+ROM_ww1_large_navy_1:0 "Naval Aviation"
+ROM_ww1_large_navy_1_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_large_navy_2:0 "Naval and Aviation Reform II"
+ROM_ww1_large_navy_2_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_large_navy_3:0 "Naval and Aviation Reform III"
+ROM_ww1_large_navy_3_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_large_navy_4:0 "Naval and Aviation Reform IV"
+ROM_ww1_large_navy_4_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_large_navy_5:0 "Naval and Aviation Reform V"
+ROM_ww1_large_navy_5_desc:0 "" #Frenchie
+
+ROM_ww1_armor_effort_1:0 "Armor Effort"
+ROM_ww1_armor_effort_1_desc:0 "" #KAIROM_ANONY
+#--------------------------------------------------------------
+# [Romania] Political Effort
+#=========================================================================
+ ROM_define_parlimentary_role:0 "Define The Role of Parliment"
+ ROM_define_parlimentary_role_desc:0 ""
+ ROM_legacy_of_1928:0 "Legacy of 1928"
+ ROM_legacy_of_1928_desc:0 ""
+ ROM_legitimize_constitution:0 "Legtimize the Consitution"
+ ROM_legitimize_constitution_desc:0 ""
+ ROM_align_with_entente:0 "Align With the Entente"
+ ROM_align_with_entente_desc:0 ""
+ ROM_reform_effort:0 "Reform Effort"
+ ROM_reform_effort_desc:0 ""
+#--------------------------------------------------------------
+# [Romania] Industrial Effort
+#=========================================================================
+ ROM_modernize_industry:0 "Modernize Industry"
+ ROM_modernize_industry_desc:0 ""
+ ROM_retrofit_railroads:0 "Retrofit Railroads"
+ ROM_retrofit_railroads_desc:0 ""
+ ROM_attract_foreign_investment:0 "Attract Foreign Investment"
+ ROM_attract_foreign_investment_desc:0 ""
+ ROM_develop_domestic_industry:0 "Develop Domestic Industry"
+ ROM_develop_domestic_industry_desc:0 ""
+ ROM_domestic_oil:0 "Domestic Oil"
+ ROM_domestic_oil_desc:0 ""
+ ROM_hire_foreign_engineers:0 "Hire Foreign Engineers"
+ ROM_hire_foreign_engineers_desc:0 ""
+ ROM_develop_domestic_talent:0 "Develop Domestic Talent"
+ ROM_develop_domestic_talent_desc:0 ""
+ ROM_strengthen_war_industry:0 "Strengthen War Industry"
+ ROM_strengthen_war_industry_desc:0 ""
+ ROM_develop_electronics:0"Develop Electronics"
+ ROM_develop_electronics_desc:0 ""
+ ROM_Entente_Military_Mission:0 "French Military Mission"
+ ROM_Entente_Military_Mission_desc:0 ""
+ ROM_tech_sharing:0"Entente Technology Sharing"
+ ROM_tech_sharing_desc:0 "" 
+ ROM_encourage_urbanization:0"Encourage Urbanization"
+ ROM_encourage_urbanization_desc:0 ""
+#--------------------------------------------------------------
+# [Romania] War Effort
+#=========================================================================
+ ROM_prepare_for_war:0 "Prepare for War"
+ ROM_prepare_for_war_desc:0 ""
+ ROM_Emergency_War_Act:0 "Emergency War Act"
+ ROM_Emergency_War_Act_desc:0 ""
+ ROM_repurpose_fortress_guns:0 "Repurpose Fortress Guns"
+ ROM_repurpose_fortress_guns_desc:0 ""
+ ROM_study_foreign_designs:0 "Study Foreign Designs"
+ ROM_study_foreign_designs_desc:0 ""
+ ROM_lessons_of_the_balkan_wars:0 "Develop the "Z" Hypothesis"
+ ROM_lessons_of_the_balkan_wars_desc:0 ""
+ ROM_joint_entente_planning:0"Joint Entente Planning"
+ ROM_joint_entente_planning_desc:0 ""
+
+# [Romania] Naval Effort
+#=========================================================================
+ROM_ww1_naval_effort:0 "Naval Effort"
+ROM_ww1_naval_effort_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_newnavalcanons_1:0 "Naval Gun Effort"
+ROM_ww1_newnavalcanons_1_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_newnavalcanons_2:0 "Naval Gun Effort II"
+ROM_ww1_newnavalcanons_2_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_newnavalcanons_3:0 "Naval Gun Effort III"
+ROM_ww1_newnavalcanons_3_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_dreadnought_effort:0 "Dreadnought Effort"
+ROM_ww1_dreadnought_effort_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_flexible_navy:0 "Flexible Navy"
+ROM_ww1_flexible_navy_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_large_navy:0 "Large Navy"
+ROM_ww1_large_navy_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_navyreform:0 "Navy Deployment"
+ROM_ww1_navyreform_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_submarine_effort:0 "Submarine Effort"s
+ROM_ww1_submarine_effort_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_cruiser_effort:0 "Cruiser Effort"
+ROM_ww1_cruiser_effort_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_destroyer_effort:0 "Destroyer Effort"
+ROM_ww1_destroyer_effort_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_capital_ships_effort:0 "Capital Ship Effort"
+ROM_ww1_capital_ships_effort_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_carrier_focus:0 "Carrier Effort"
+ROM_ww1_carrier_focus_desc:0 "" #KAIROM_ANONY
+
+ROM_ww1_antisubmarine:0 "Anti-Submarine Warfare"
+ROM_ww1_antisubmarine_desc:0 "" #KAIROM_ANONY
+
+
+#--------------------------------------------------------------
+
+
+
+
