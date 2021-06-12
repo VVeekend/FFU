@@ -1,4 +1,46 @@
 ideas={
+country = {
+		ROM_emergency_war_act = {
+		picture = generic_local_self_management
+			modifier = {
+				consumer_goods_factor = -0.01
+				conscription = 0.02
+			}
+		}
+		ROM_entente_planning = {
+		picture = prc_low_popular_support3
+			modifier = {
+				army_defence_factor = 0.05 
+				max_planning_factor = 0.10
+			}
+		}
+		ROM_study_foreign_equipment = {
+		picture = chi_wargaming_division
+			modifier = {
+				license_production_speed = 0.15	
+				
+			}
+			research_bonus = {
+                infantry_weapons = 0.10
+            }
+		}
+		ROM_lessons_of_balkan_wars = {
+		picture = SPR_international_brigades
+			modifier = {
+			army_attack_factor = 0.05
+			experience_gain_army = 0.05
+			}
+		}
+		ROM_encourage_foreign_investment = {
+		picture = generic_foreign_capital
+			modifier = {
+			production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		
+		
+		
+		}
 	political_advisor={
 			ROM_nicolae_titulescu={ allowed={ tag=ROM } traits={ war_industrialist } ai_will_do={ factor=1 } }
 			ROM_istrate_micescu={ allowed={ tag=ROM } traits={ smooth_talking_charmer } ai_will_do={ factor=1 } }
@@ -54,9 +96,6 @@ ideas={
 							    
 							   } traits={ industrial_concern } picture=generic_tank_manufacturer_3 }
 			}
-	country={
-			ROM_revenge_against_soviet={ picture=anti_soviet_pact removal_cost=-1 allowed={ original_tag=BUL } allowed_civil_war={ NOT={ has_government=communism } } modifier={ fascism_drift=0.1 fascism_acceptance=100 } }
-			ROM_revenge_against_germany={ picture=generic_communism_drift_bonus removal_cost=-1 allowed={ original_tag=BUL } allowed_civil_war={ NOT={ has_government=fascism } } modifier={ communism_drift=0.1 communism_acceptance=100 } }
-			}
+	
 	
 	}
