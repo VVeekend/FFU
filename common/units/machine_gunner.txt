@@ -31,6 +31,7 @@ sub_units = {
 		training_time = 90
 		suppression = 1
 		weight = 0.5
+		maximum_speed = -0.5
 		
 		supply_consumption = 0.04
 	

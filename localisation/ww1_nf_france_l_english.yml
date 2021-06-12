@@ -82,8 +82,8 @@ FRA_ww1_large_navy_5_desc:0 "" #Frenchie
  
  # FRENCHIE MOD
  #=========================================================================
- FRA_BATTLE_OF_AMIENS:0 "Battle of Amiens"
- FRA_BATTLE_OF_AMIENS_desc:0 "The Battle of Amiens was an Allied victory that helped bring an end to World War I. Following the Second Battle of the Marne, the Allies launched an attack in August 1918 with a force of 75,000 men, more than 500 tanks and nearly 2,000 planes. The offensive achieved huge gains on the first day, with Allied troops and tanks advancing eight miles and causing 27,000 casualties. Although the German resistance stiffened and the fighting was over after a few days, the battle convinced many in the German high command that victory in the war was unattainable."
+ FRA_BATTLE_OF_AMIENS:0 "First Battle of Marne"
+ FRA_BATTLE_OF_AMIENS_desc:0 "With its army in retreat, the French needed a miracle to save Paris from enemy occupation. They received it on September 3 when French reconnaissance pilots spotted the forces of German General Alexander von Kluck’s First Army, which had been pointed at Paris like a spear tip, suddenly switch to the southeast. Although under orders to support the Second Army to guard against possible attacks from Paris, the aggressive von Kluck instead sought glory and a chance to drive a stake in the enemy by pursuing the retreating French Fifth Army across the Marne River east of Paris. By doing so, his troops, exhausted after weeks of marching and fighting, outran their supply lines, and he inadvertently exposed his right flank to French forces."
  FRA_concessions_to_sfio:0 "Concessions to SFIO"
  FRA_concessions_to_sfio_desc:0 ""
  FRA_manufacture_darmes_de_chatellerault:0 "Manufacture d'Armes de Chatellerault"

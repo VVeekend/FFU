@@ -15,7 +15,7 @@ equipments = {
 		
 		#Misc Abilities
 		reliability = 0.9
-		maximum_speed = 4
+		
 
 		#Defensive Abilities
 		defense = 16
@@ -37,7 +37,7 @@ equipments = {
 			steel = 1
 			wood = 4
 		}
-		
+		maximum_speed = 4
 	}
 
 	machine_gun_equipment_0 = {

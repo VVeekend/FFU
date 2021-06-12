@@ -45,6 +45,7 @@ ideas={
 			targeted_modifier = {
 				tag = BUL
 				attack_bonus_against = 0.25
+				defense_bonus_against = 0.25
 			}			
 			targeted_modifier = {
 				tag = AUS
@@ -61,6 +62,7 @@ ideas={
 			targeted_modifier = {
 				tag = TUR
 				attack_bonus_against = 0.25
+				defense_bonus_against = 0.25
 			}
 		}
 		

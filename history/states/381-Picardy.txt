@@ -1,0 +1,36 @@
+state={
+	id=381
+	name="STATE_381"
+	provinces={
+		73 722 1465 3543 4685 6117 6174 6358 7209 8871 9581 9819 10619 11257 11320 14359 14363 14372 14393 14402 14412 14430 14431 14462 14554 19496 19498 19499 19587 19588 19589 19590 19591 19596 19597 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 7
+
+		}
+		victory_points = {
+			19590 3 
+		}
+		victory_points = {
+			19589 5 
+		}
+		victory_points = {
+			11257 1 
+		}
+		victory_points = {
+			19496 1 
+		}
+		victory_points = {
+			19596 20 
+		}
+		victory_points = {
+			14462 1 
+		}
+	}
+}

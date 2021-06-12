@@ -1,0 +1,17 @@
+state={
+	id=387
+	name="STATE_387"
+	provinces={
+		4542 4750 5783 6506 6951 9353 9940 10699 10791 11733 11741 11833 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = city
+		history={
+		owner = CAN
+		add_core_of = CAN 
+		buildings = {
+			infrastructure = 7
+
+		} }
+}

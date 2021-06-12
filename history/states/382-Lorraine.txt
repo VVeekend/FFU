@@ -1,0 +1,81 @@
+state={
+	id=382
+	name="STATE_382"
+	provinces={
+		1009 2742 2931 3492 3554 3988 4563 4850 5968 5993 6790 7532 7677 8145 9822 10063 10359 10387 14493 14544 14575 14592 14648 14695 14702 14720 14744 14822 14833 14857 19633 19639 19642 19643 19648 19650 19658 19659 19662 19665 19667 19687 19688 19689 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city	
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			5968 = {
+				bunker = 5
+
+			}
+			19662 = {
+				bunker = 5
+
+			}
+			14857 = {
+				trench = 4
+
+			}
+			19687 = {
+				trench = 4
+
+			}
+			10063 = {
+				trench = 4
+
+			}
+			2742 = {
+				trench = 4
+
+			}
+			14695 = {
+				trench = 4
+
+			}
+			14544 = {
+				bunker = 4
+
+			}
+			6790 = {
+				trench = 4
+
+			}
+			14575 = {
+				trench = 4
+
+			}
+			19659 = {
+				trench = 4
+
+			}
+		}
+		victory_points = {
+			5968 5 
+		}
+		victory_points = {
+			14744 1 
+		}
+		victory_points = {
+			4850 1 
+		}
+		victory_points = {
+			19662 20 
+		}
+		victory_points = {
+			19650 1 
+		}
+		victory_points = {
+			14833 1 
+		}
+
+	}
+}

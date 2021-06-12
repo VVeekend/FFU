@@ -1396,7 +1396,7 @@ ideas = {
 		generic_captain_of_industry = {
 
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { captain_of_industry }
@@ -1405,7 +1405,7 @@ ideas = {
 		generic_fortification_engineer = {
 
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { fortification_engineer }
@@ -1414,7 +1414,7 @@ ideas = {
 		generic_war_industrialist = {
 
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR  original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { war_industrialist }
@@ -1426,7 +1426,7 @@ ideas = {
 		generic_army_chief_off = {
 			
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { army_chief_offensive_1 }
@@ -1435,7 +1435,7 @@ ideas = {
 		generic_army_chief_def = {
 			
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { army_chief_defensive_1 }
@@ -1447,7 +1447,7 @@ ideas = {
 		generic_navy_chief_decisive_bat = {
 			
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { navy_chief_decisive_battle_2 }
@@ -1456,7 +1456,7 @@ ideas = {
 		generic_navy_anti_submarine = {
 			
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { navy_anti_submarine_2 }
@@ -1468,7 +1468,7 @@ ideas = {
 		generic_air_close_air_sup = {
 			
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { air_close_air_support_2 }
@@ -1477,7 +1477,7 @@ ideas = {
 		generic_air_chief_all_weather = {
 			
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { air_chief_all_weather_2 }			
@@ -1488,7 +1488,7 @@ ideas = {
 		generic_army_art = {
 			ledger = army
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { army_artillery_1 }			
@@ -1497,7 +1497,7 @@ ideas = {
 		generic_army_log = {
          ledger = army
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { army_logistics_2 }			
@@ -1506,7 +1506,7 @@ ideas = {
 		generic_navy_fleet_log = {
            ledger = navy  
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { navy_fleet_logistics_1 }			
@@ -1515,7 +1515,7 @@ ideas = {
 		generic_air_air_combat_trainer = {
            ledger = air  
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			traits = { air_air_combat_training_2 }			
@@ -1527,7 +1527,7 @@ ideas = {
 		generic_military_theorist = {
 			ledger = army
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			research_bonus = {
@@ -1540,7 +1540,7 @@ ideas = {
 		generic_naval_theorist = {
 			ledger = navy  
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			research_bonus = {
@@ -1553,7 +1553,7 @@ ideas = {
 		generic_air_warfare_theorist = {
 			ledger = air
 			allowed = {
-				OR = { original_tag = UKR  original_tag = MNT  }
+				OR = { original_tag = UKR original_tag = EGY original_tag = MNT  }
 			}
 			
 			research_bonus = {

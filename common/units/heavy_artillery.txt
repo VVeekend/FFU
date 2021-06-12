@@ -33,6 +33,7 @@ heavy_artillery_brigade = {
 	default_morale = 0.2
 	training_time = 120
 	weight = 0.1
+	maximum_speed = -0.55
 	
 	supply_consumption = 0.08
 	

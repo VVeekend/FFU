@@ -2,77 +2,47 @@
 state={
 	id=61
 	name="STATE_61"
-	provinces={
-		197 651 2062 2247 2647 2742 2931 4268 4563 4850 5008 5053 5146 5968 5993 6123 6309 7122 7677 8314 8516 10063 10243 10359 10654 11366 14720 14822 14833 14857 14897 14898 14957 15045 15078 15130 19620 19622 19627 19628 19629 19630 19634 19639 19640 19642 19643 19648 19650 19659 19662 19687 19693 19694 19695 19696 19697 19698 19699 19950 19968 19971 19974 19979 19993 
-	}
-	manpower=1517500
-	buildings_max_level_factor=1.000
-	state_category = city
 	resources={
-		steel=28 # was: 48
+		steel=28.000
 		wood=22.000
-
 	}
+
 	history={
 		owner = FRA
 		add_core_of = FRA
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 4
-		5968 = {
+			industrial_complex = 2
+			19979 = {
 				bunker = 5
+
 			}
-		19662 = {
-				bunker = 5
+			14898 = {
+				trench = 4
+
 			}
-		19979 = {
-				bunker = 5
+			19628 = {
+				trench = 4
+
 			}
-		14898 = {
-				trench= 4
-			}
-		14857 = {
-				trench= 4
-			}
-		19687 = {
-				trench= 4
-			}
-		10063 = {
-				trench= 4
-			}
-		2742 = {
-				trench= 4
+			19634 = {
+				trench = 4
+
 			}
 		}
 		victory_points = {
-			5968 5
+			19699 1 
 		}
 		victory_points = {
-			14744 1
+			6309 1 
 		}
-		victory_points = {
-			4850 1
-		}
-		victory_points = {
-			19699 1
-		}
-		victory_points = {
-			19662 20
-		}
-		victory_points = {
-			19650 1
-		}
-		victory_points = {
-			5968 1
-		}
-		victory_points = {
-			19699 1
-		}
-		victory_points = {
-			6309 1
-		}
-		victory_points = {
-			14833 1
-		}
+
 	}
+
+	provinces={
+		197 651 2062 2247 2647 4268 5053 5146 6123 6309 7122 8314 8516 9713 10243 10654 11366 14897 14898 14957 15045 15078 15130 15141 19620 19622 19627 19628 19629 19630 19634 19693 19694 19695 19696 19697 19698 19699 19950 19968 19971 19974 19979 19993 
+	}
+	manpower=517500
+	buildings_max_level_factor=1.000
+	state_category=city
 }

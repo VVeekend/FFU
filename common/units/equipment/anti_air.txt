@@ -36,7 +36,7 @@ equipments = {
 			steel = 2
 		}
 
-		
+		maximum_speed = 4
 	}
 
 	anti_air_equipment_1 = {

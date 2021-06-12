@@ -521,14 +521,17 @@ ideas = {
 			removal_cost = -1
 			
 			picture =FRA_undividable
-			
+			modifier = {
+			dig_in_speed = 5 
+			army_org_regain = 0.25 
+			org_loss_when_moving = -0.2 }
 			targeted_modifier = {
 				tag = GER
 				defense_bonus_against = 0.25
 			}
 						
 			targeted_modifier = {
-				tag = AUH
+				tag = AUS
 				defense_bonus_against = 0.25
 			}
 			targeted_modifier = {

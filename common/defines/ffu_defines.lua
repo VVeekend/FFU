@@ -40,6 +40,8 @@ NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.00					-- Max ammount of special f
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 1000	
 NDefines.NCountry.BASE_FUEL_CAPACITY = 100000
 NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0
+NDefines.NCountry.SUPPLY_PORT_LEVEL_THROUGHPUT = 4
+NDefines.NCountry.VP_TO_SUPPLY_BASE = 1.5
 NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = -0.1
 NDefines.NResistance.RESISTANCE_TARGET_BASE = 0.0
 NDefines.NResistance.RESISTANCE_DECAY_BASE = 1.0
@@ -48,6 +50,7 @@ NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 1.000 -- base compliance grow
 NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = 30
 NDefines.NResistance.MAX_GARRISON_RATIO_WE_AGREE_TO_SUPPORT = -1
 NDefines.NResistance.INITIAL_HISTORY_COMPLIANCE = 100.0
+NDefines.NCountry.SUPPLY_FROM_DAMAGED_INFRA = 0.8
 
 NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 15
 NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 1000000
@@ -61,8 +64,6 @@ NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 0.0
 NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 20
 
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.15
-NDefines.NBuildings.BASE_FACTORY_REPAIR = 0.4			-- Default repair rate before factories are taken into account
-NDefines.NBuildings.BASE_FACTORY_REPAIR_FACTOR = 3.0	-- Factory speed modifier when repairing.
 
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 50
 
@@ -82,7 +83,7 @@ NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.03
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.35
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.15
 NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0.0
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.30
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.35
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0
 NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0
 NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.6
@@ -102,7 +103,7 @@ NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0
 NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0  
 NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP =0 --Division experience drop if unit has different battalion when switching templates(vanilla 0.5 but can be circumvented with template editing)
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1       -- WAS 0.25 | Turns out that no Russian volunteers to Spain leads to at least 15 veteran +75% heavy tanks at barb every game that kill nearly every Russia player in less than 3 months. Just wait until Germany players manage to get 30 vet heavies by using minors more
-NDefines.NCountry.SUPPLY_FROM_DAMAGED_INFRA = 0.5
+NDefines.NMilitary.MIN_SUPPLY_CONSUMPTION = 0.02
 
 NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.5
 NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.0

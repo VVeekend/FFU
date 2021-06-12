@@ -162,15 +162,15 @@ equipments = {
 		air_attack = 0
 		lend_lease_cost = 4
         build_cost_ic = 30.00	
-        maximum_speed = 2.0
- 
+		maximum_speed = 3
+		
 		resources = {
 			coal = 1
 			steel = 1
 			tungsten = 1
 		}	
 
-		maximum_speed = 3
+
 	}
 
 	heavy_field_gun_equipment_1 = {
