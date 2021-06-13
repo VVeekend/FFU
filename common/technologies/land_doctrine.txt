@@ -2928,6 +2928,13 @@ technologies = {
 			
 			
 		}
+		infantry = {
+			experience_loss_factor = -0.01
+		}
+		
+		infantry2 = {
+			experience_loss_factor = -0.01
+		}
 		categories = {
 			land_doctrine
 			
@@ -3203,11 +3210,19 @@ technologies = {
 		xp_research_bonus = 1.00
 		doctrine = yes	
 		research_cost = 2.5
+								
+		infantry = {
+			casualty_trickleback = 0.01
+		}
+		
+		infantry2 = {
+			casualty_trickleback = 0.01
+		}
+		
 		on_research_complete = {
 			
 			
-			
-			custom_effect_tooltip = _tt
+
 		}
 		categories = {
 			land_doctrine

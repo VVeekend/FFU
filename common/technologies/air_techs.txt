@@ -283,7 +283,7 @@ technologies = {
 	ww1_bomber1 = {
 	
 		allow = {
-            date > 1915.1.1
+            date > 1914.6.1
         }
 		
 		enable_equipments = {

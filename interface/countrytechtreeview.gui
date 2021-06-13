@@ -1510,7 +1510,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "Unlocks 1915 -->"
+					text = "Unlocks June 1914 -->"
 					maxWidth = 600
 					maxHeight = 62
 					format = center

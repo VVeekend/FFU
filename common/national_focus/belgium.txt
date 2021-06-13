@@ -53,7 +53,7 @@ focus_tree = {
         amount = 2000 
         producer = BEL 
                   }
-		    }			B
+		    }		
 
             add_offsite_building= { type = industrial_complex level = 20 }
             add_offsite_building= { type = arms_factory level = 20 }

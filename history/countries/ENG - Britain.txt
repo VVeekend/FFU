@@ -23,8 +23,14 @@ if = {
 		autonomous_state = autonomy_colony
 		freedom_level = 0.75
 	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
 		else = {
 		puppet = EGY
+		puppet = CAN
 	}
 }
 if = {

@@ -28,7 +28,7 @@ heavy_artillery_brigade = {
 		infantry_equipment = 25
 	}
 	
-	max_strength = 1
+	max_strength = 6
 	max_organisation = 0
 	default_morale = 0.2
 	training_time = 120
