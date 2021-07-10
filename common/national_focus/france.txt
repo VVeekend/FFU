@@ -649,7 +649,11 @@ add_political_power = 100
 			factor = 1
 		}
 		available = {
-			BEL = { has_capitulated= yes }
+			BEL = { 		
+			      NOT = {
+			        	controls_state = 48
+			    }
+			}
 		}
 		completion_reward = {
 			BEL = { add_offsite_building= { type = arms_factory level = 10 } 

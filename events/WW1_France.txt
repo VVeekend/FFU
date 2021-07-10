@@ -2,38 +2,32 @@
 # French Events
 ###########################
 
-add_namespace = ww1_france
+add_namespace = ffufrance
 
-
-# Dissolve Viviani Administration
-#____________________________________________________________
+##Event: Armée d’Afrique Arrives in Toulon!
 country_event = {
-	title=ww1_france.2.t# Dissolve Viviani Administration
-	desc=ww1_france.2.d#The Fifth Aristide Briand administration was formed on October 29th 1915 after the Second René Vivani administration was dissolved.
-	id=ww1_france.2
-	picture=ww1_france_2
-	fire_only_once=yes
-	is_triggered_only=yes
-	option={
-		name=ww1_france.2.a
-		custom_effect_tooltip=remove_political_advisor
-		hidden_effect={
-			remove_ideas=FRA_rene_viviani
-		}
-		#KiS#add_ideas=FRA_aristide_briand
-		add_ideas=FRA_joseph_gallieni
-		#KiS#add_ideas=FRA_louis_malvy
-		add_political_power=25
-		}
-	}
-#____________________________________________________________
+	id = ffufrance.1
+	title = ffufrance.1.title
+	desc = ffufrance.1.desc
+	picture = GFX_arme_dafrique_arrives_in_toulon-106274
+	is_triggered_only = yes
+	option = {
+		name = ffufrance.1.a
+		ai_chance = { factor = 1}
+		
+	hidden_effect = {
+		     FRA = {		
+			load_oob = "FRA_legion" }
+          }
+	 }
+}
 
 # The French support for war effort
 #____________________________________________________________
 country_event = {
-	title=ww1_france.3.t#The French support for war effort
-	desc=ww1_france.3.d#After the initial shock of the German offensive has worn off the French public get behind industry to gear up for the war.
-	id=ww1_france.3
+	title=ffufrance.2.t#The French support for war effort
+	desc=ffufrance.2.d#After the initial shock of the German offensive has worn off the French public get behind industry to gear up for the war.
+	id=ffufrance.2
 	#picture=ww1_france_3
 	fire_only_once=yes
 	is_triggered_only=no
@@ -47,10 +41,11 @@ country_event = {
 			}
 		}
 	option={
-		name=ww1_france.3.a
+		name=ffufrance.2.a
 		add_stability=0.10
 		}
 	}
 #____________________________________________________________
+
 
 #____________________________________________________________

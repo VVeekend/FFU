@@ -14,6 +14,9 @@ division_template = {
 		infantry = { x = 2 y = 2 }
 		infantry = { x = 3 y = 0 }
 	}
+	support = {
+		gunner_support { x = 0 y = 0 }
+	}
 }
 
 division_template = {

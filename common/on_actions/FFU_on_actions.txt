@@ -96,6 +96,161 @@ on_actions = {
 					}
 				}
 			}
+			
+			if = {
+				limit = {
+                          BEL = { is_ai = yes } } 
+				FRA = {          
+			         	add_equipment_to_stockpile= {
+                        type = infantry_equipment_1
+                        amount = 50000 
+                        producer = FRA 
+            }
+				}
+				ENG = {          
+			         	add_equipment_to_stockpile= {
+                        type = infantry_equipment_1
+                        amount = 50000 
+                        producer = ENG 
+            }
+				}
+				FRA = {          
+			         	add_equipment_to_stockpile= {
+                        type = support_equipment
+                        amount = 1000 
+                        producer = FRA 
+            }
+				}
+				ENG = {          
+			         	add_equipment_to_stockpile= {
+                        type = support_equipment
+                        amount = 1000 
+                        producer = ENG 
+            }
+				} }
+
+			if = {
+				limit = {
+                          CAN = { is_ai = yes } } 
+				ENG = {          
+			         	add_equipment_to_stockpile= {
+                        type = infantry_equipment_1
+                        amount = 60000 
+                        producer = ENG 
+            }
+				}
+				ENG = {          
+			         	add_equipment_to_stockpile= {
+                        type = support_equipment
+                        amount = 420
+                        producer = ENG 
+            }
+				}
+				ENG = {          
+			         	add_equipment_to_stockpile= {
+                        type = light_field_gun_equipment_1
+                        amount = 240
+                        producer = ENG 
+            }
+				}
+				ENG = {          
+			         	add_equipment_to_stockpile= {
+                        type = heavy_field_gun_equipment_1
+                        amount = 1560
+                        producer = ENG 
+            }
+				} }
+				 
+			if = {
+				limit = {
+                          POR = { is_ai = yes } } 
+				ENG = {          
+			         	add_equipment_to_stockpile= {
+                        type = infantry_equipment_1
+                        amount = 60000 
+                        producer = ENG 
+            }
+				}
+				ENG = {          
+			         	add_equipment_to_stockpile= {
+                        type = support_equipment
+                        amount = 420
+                        producer = ENG 
+            }
+				}
+				ENG = {          
+			         	add_equipment_to_stockpile= {
+                        type = light_field_gun_equipment_1
+                        amount = 240
+                        producer = ENG 
+            }
+				}
+				ENG = {          
+			         	add_equipment_to_stockpile= {
+                        type = heavy_field_gun_equipment_1
+                        amount = 1560
+                        producer = ENG 
+            }
+				} }
+				
+			if = {
+				limit = {
+                          SER = { is_ai = yes } } 
+				SOV = {          
+			         	add_equipment_to_stockpile= {
+                        type = infantry_equipment_1
+                        amount = 120000 
+                        producer = SOV 
+            }
+				}
+				SOV = {          
+			         	add_equipment_to_stockpile= {
+                        type = support_equipment
+                        amount = 400 
+                        producer = SOV 
+            }
+				}
+				SOV = {          
+			         	add_equipment_to_stockpile= {
+                        type = light_field_gun_equipment_1
+                        amount = 240
+                        producer = SOV 
+            }
+				} }
+				
+			if = {
+				limit = {
+                          GRE = { is_ai = yes } } 
+				SOV = {          
+			         	add_equipment_to_stockpile= {
+                        type = infantry_equipment_1
+                        amount = 60000 
+                        producer = SOV 
+            }
+				}
+				SOV = {          
+			         	add_equipment_to_stockpile= {
+                        type = support_equipment
+                        amount = 400 
+                        producer = SOV 
+            }
+				}
+				SOV = {          
+			         	add_equipment_to_stockpile= {
+                        type = light_field_gun_equipment_1
+                        amount = 240
+                        producer = SOV 
+            }
+				
+				}
+				SOV = {          
+			         	add_equipment_to_stockpile= {
+                        type = heavy_field_gun_equipment_1
+                        amount = 780
+                        producer = SOV 
+            }
+				}}
+				
 			if = {
 				limit = {
 					NOT = {
@@ -4342,8 +4497,24 @@ on_actions = {
 					}
 				}
 			}
-		}
-	}
+			if = {
+					limit = {
+						FROM = { tag = BEL }
+						FROM.FROM = { is_core_of = BEL }
+						BEL = { surrender_progress	> 0.60 }					
+						NOT = { BEL = { has_country_flag = belgium_is_kill }}}
+						
+	         		BEL = { 
+						set_country_flag = belgium_is_kill  
+						add_state_core = 35 
+						set_capital = 35 
+						transfer_state = 35	
+						add_ideas = we_fight_on
+					  }
+					}
+	        	}
+	        } 
+     
 	on_capitulation = {
 		effect = { 
 			if = {

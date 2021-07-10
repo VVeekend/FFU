@@ -1069,7 +1069,12 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
-	
+	spriteType = {
+		name = "GFX_unit_gunner_support_icon_small"
+		texturefile = "gfx/texticons/unit_gunner_support_icon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
 	spriteType = {
 		name = "GFX_unit_light_tank_recon_icon_small"
 		texturefile = "gfx/texticons/support_armored_recon.dds"

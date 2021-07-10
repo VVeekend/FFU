@@ -6651,4 +6651,15 @@ spriteType = { name = "GFX_idea_GRE_eleftherios_venizelos" texturefile = "gfx/in
 		texturefile = "gfx/interface/ideas/TUR_schellendorf_plan-96391.dds"
 	}
 
+	##Icon For: We Fight On!
+	SpriteType = { 
+		name = "GFX_idea_we_fight_on-106258"
+		texturefile = "gfx/interface/ideas/we_fight_on-106258.dds"
+	}
+
+	##Icon For: Chistmas Truce
+	SpriteType = { 
+		name = "GFX_idea_chistmas_truce-102183"
+		texturefile = "gfx/interface/ideas/chistmas_truce-102183.dds"
+	}
 }

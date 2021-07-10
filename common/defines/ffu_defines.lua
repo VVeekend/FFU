@@ -96,7 +96,7 @@ NDefines.NMilitary.TRAINING_ATTRITION = 0.0
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0
 NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT = 0.0					-- Minimum damage from nukes as a percentage of current strength/organisation
 NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT = 0.0
-NDefines.NMilitary.NUKE_DELAY_HOURS = 0
+NDefines.NMilitary.NUKE_DELAY_HOURS = 2000
 NDefines.NMilitary.UNIT_LEADER_INITIAL_TRAIT_SLOT = { 3, 3, 1, 0 }
 NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.00875 --linear NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR*air_attack*thisdefine=casreduction
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0

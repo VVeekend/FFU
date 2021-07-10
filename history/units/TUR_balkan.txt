@@ -48,21 +48,21 @@ division_template = {
 # 13 cavaly brigades @ 4300/brigade of cavalry = 55900, goal of 55/56K historically
 units = {
 	division = {
-	    name = "1. Piyade Tümeni 'Harbiye'"
+	    name = "1. Askerler 'Harbiye'"
 	    location = 3195# Istanbul
 	    division_template = "Askerler"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "2. Piyade Tümeni 'Selimiye'"
+	    name = "2. Askerler 'Selimiye'"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	#division = {
-	#    name = "3. Piyade Tümeni 'Pangalti'"
+	#    name = "3. Askerler 'Pangalti'"
 	#    location = 3195# Istanbul
 	#    division_template = "Tümeni"
 	#    start_experience_factor = 0
@@ -78,26 +78,26 @@ units = {
 	division = {
 	    name = "Istanbul Garnizon"
 	    location = 3195# Istanbul
-	    division_template = "Jandarma Alayı"
+	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "4. Piyade Tümeni 'Tekirdag'"
+	    name = "4. Askerler 'Tekirdag'"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "5. Piyade Tümeni 'Gelibolu'"
+	    name = "5. Askerler 'Gelibolu'"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "6. Piyade Tümeni 'Smyrna'"
+	    name = "6. Askerler 'Smyrna'"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
@@ -113,26 +113,26 @@ units = {
 	division = {
 	    name = "Çanakkale Garnizon"
 	    location = 3195# Istanbul
-	    division_template = "Jandarma Alayı"
+	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "7. Piyade Tümeni 'Kirk Kilise'"
+	    name = "7. Askerler 'Kirk Kilise'"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "8. Piyade Tümeni 'Çorlu'"
+	    name = "8. Askerler 'Çorlu'"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	#division = {
-	#    name = "9. Piyade Tümeni"
+	#    name = "9. Askerler"
 	#    location = 3195# Istanbul
 	#    division_template = "Tümeni"
 	#    start_experience_factor = 0
@@ -141,26 +141,26 @@ units = {
 	division = {
 	    name = "3. Tüfek Alayi"
 	    location = 3195# Istanbul
-	    division_template = "Jandarma Alayı"
+	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "10. Piyade Tümeni"
+	    name = "10. Askerler"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "11. Piyade Tümeni"
+	    name = "11. Askerler"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	#division = {
-	#    name = "12. Piyade Tümeni"
+	#    name = "12. Askerler"
 	#    location = 3195# Istanbul
 	#    division_template = "Tümeni"
 	#    start_experience_factor = 0
@@ -169,19 +169,19 @@ units = {
 	division = {
 	    name = "4. Tüfek Alayi"
 	    location = 3195# Istanbul
-	    division_template = "Jandarma Alayı"
+	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
 	    name = "Edirne Garnizon"
 	    location = 3195# Istanbul
-	    division_template = "Jandarma Alayı"
+	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "13. Piyade Tümeni 'Selanik'"
+	    name = "13. Askerler 'Selanik'"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
@@ -195,35 +195,35 @@ units = {
 	}
 	
 	#division = {
-	#    name = "14. Piyade Tümeni"
+	#    name = "14. Askerler"
 	#    location = 3195# Istanbul
 	#    division_template = "Tümeni"
 	#    start_experience_factor = 0
 	#}
 
 	division = {
-	    name = "15. Piyade Tümeni"
+	    name = "15. Askerler"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	#division = {
-	#    name = "16. Piyade Tümeni"
+	#    name = "16. Askerler"
 	#    location = 3195# Istanbul
 	#    division_template = "Tümeni"
 	#    start_experience_factor = 0
 	#}
 
 	division = {
-	    name = "17. Piyade Tümeni"
+	    name = "17. Askerler"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	#division = {
-	#    name = "18. Piyade Tümeni"
+	#    name = "18. Askerler"
 	#    location = 3195# Istanbul
 	#    division_template = "Tümeni"
 	#    start_experience_factor = 0
@@ -239,26 +239,26 @@ units = {
 	#division = {
 	#    name = "6. Tüfek Alayi"
 	#    location = 3195# Istanbul
-	#    division_template = "Jandarma Alayı"
+	#    division_template = "Tümeni"
 	#    start_experience_factor = 0
 	#}
 
 	division = {
-	    name = "19. Piyade Tümeni"
+	    name = "19. Askerler"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	#division = {
-	#    name = "20. Piyade Tümeni"
+	#    name = "20. Askerler"
 	#    location = 3195# Istanbul
 	#   division_template = "Tümeni"
 	#    start_experience_factor = 0
 	#}
 
 	division = {
-	    name = "21. Piyade Tümeni"
+	    name = "21. Askerler"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
@@ -267,7 +267,7 @@ units = {
 	division = {
 	    name = "7. Tüfek Alayi"
 	    location = 3195# Istanbul
-	    division_template = "Jandarma Alayı"
+	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
@@ -279,21 +279,21 @@ units = {
 	}
 	
 	#division = {
-	#    name = "25. Piyade Tümeni"
+	#    name = "25. Askerler"
 	#    location = 3195# Istanbul
 	#    division_template = "Tümeni"
 	#    start_experience_factor = 0
 	#}
 
 	division = {
-	    name = "26. Piyade Tümeni"
+	    name = "26. Askerler"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "27. Piyade Tümeni"
+	    name = "27. Askerler"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
@@ -309,19 +309,19 @@ units = {
 	division = {
 	    name = "8. Tüfek Alayi"
 	    location = 3195# Istanbul
-	    division_template = "Jandarma Alayı"
+	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "28. Piyade Tümeni 'Erzurum'"
+	    name = "28. Askerler 'Erzurum'"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "29. Piyade Tümeni 'Bayburt'"
+	    name = "29. Askerler 'Bayburt'"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
@@ -330,28 +330,28 @@ units = {
 	division = {
 	    name = "9. Tüfek Alayi"
 	    location = 3195# Istanbul
-	    division_template = "Jandarma Alayı"
+	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "30. Piyade Tümeni"
+	    name = "30. Askerler"
 	    location = 3195# Istanbul
 	    division_template = "Tümeni"
 	    start_experience_factor = 0
 	}
 
 	#division = {
-	#    name = "31. Piyade Tümeni"
+	#    name = "31. Askerler"
 	#    location = 3195# Istanbul
-	#    division_template = "Piyade Tümeni"
+	#    division_template = "Askerler"
 	#    start_experience_factor = 0
 	#}
 
 	#division = {
-	#    name = "32. Piyade Tümeni"
+	#    name = "32. Askerler"
 	#    location = 3195# Istanbul
-	#    division_template = "Piyade Tümeni"
+	#    division_template = "Askerler"
 	#    start_experience_factor = 0
 	#}
 
@@ -364,16 +364,16 @@ units = {
 	}
 	
 	division = {
-	    name = "33. Piyade Tümeni 'Van'"
+	    name = "33. Askerler 'Van'"
 	    location = 3195# Istanbul
-	    division_template = "Piyade Tümeni"
+	    division_template = "Askerler"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "34. Piyade Tümeni 'Mus'"
+	    name = "34. Askerler 'Mus'"
 	    location = 3195# Istanbul
-	    division_template = "Piyade Tümeni"
+	    division_template = "Askerler"
 	    start_experience_factor = 0
 	}
 
@@ -406,37 +406,37 @@ units = {
 	}
 
 	division = {
-	    name = "35. Piyade Tümeni 'Musul'"
+	    name = "35. Askerler 'Musul'"
 	    location = 3195# Istanbul
-	    division_template = "Piyade Tümeni"
+	    division_template = "Askerler"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "36. Piyade Tümeni 'Kerkük'"
+	    name = "36. Askerler 'Kerkük'"
 	    location = 3195# Istanbul
-	    division_template = "Piyade Tümeni"
+	    division_template = "Askerler"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "37. Piyade Tümeni 'Bagdat'"
+	    name = "37. Askerler 'Bagdat'"
 	    location = 3195# Istanbul
-	    division_template = "Piyade Tümeni"
+	    division_template = "Askerler"
 	    start_experience_factor = 0
 	}
 
 	division = {
-	    name = "38. Piyade Tümeni 'Basra'"
+	    name = "38. Askerler 'Basra'"
 	    location = 3195# Istanbul
-	    division_template = "Piyade Tümeni"
+	    division_template = "Askerler"
 	    start_experience_factor = 0
 	}
 
 	#division = {
 	#    name = "1. Milis Tümeni 'Bingazi'"
 	#    location = 3195# Istanbul
-	#    division_template = "Jandarma Alayı"
+	#    division_template = "Tümeni"
 	#    start_experience_factor = 0
 	#}
 
@@ -450,7 +450,7 @@ units = {
 	#division = {
 	#    name = "2. Milis Tümeni 'Trablus'"
 	#    location = 3195# Istanbul
-	#    division_template = "Jandarma Alayı"
+	#    division_template = "Tümeni"
 	#    start_experience_factor = 0
 	#}
 	#division = {

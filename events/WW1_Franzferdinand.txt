@@ -56,7 +56,6 @@ news_event = {
 				}
 				FRA = { add_to_faction = SER }
 				FRA = { add_to_faction = MNT }
-				FRA = { add_to_faction = LUX }
 				FRA = { add_to_faction = POR }
 			}
 
@@ -68,7 +67,6 @@ news_event = {
 				}
 				ENG = { add_to_faction = SER }
 				ENG = { add_to_faction = MNT }
-				ENG = { add_to_faction = LUX }
 				ENG = { add_to_faction = POR }
 			}
 
@@ -438,6 +436,7 @@ country_event = {
 		hidden_effect = {
 			every_country = {limit = {check_variable= { super_events_enabled > 0} }
 				scoped_sound_effect="FFU_schlieffen_plan" }
+			FRA = { country_event = { id = ffufrance.1 days = 50  } }
 	}
 } }
 #____________________________________________________________

@@ -1,0 +1,218 @@
+﻿
+###################################################################
+
+division_template = {
+	name = "Légionnaires Africains"		# Elite
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
+		sniper = { x = 0 y = 5 }
+	}
+	priority = 2
+}
+
+###################################################################
+
+units = {
+	division= { 
+			name = "81eme Division d'Infanterie territoriale"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			
+			}
+	
+	
+	division= { 
+			name = "82eme Légionnaires Africains territoriale"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			
+			}
+	
+	
+	division= { 
+			name = "87eme Légionnaires Africains territoriale"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			
+			}
+	
+	
+	division= { 
+			name = "15e Division de Gendarmerie"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			
+			}
+	
+	
+	division= { 
+			name = "86eme Légionnaires Africains territoriale"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			 
+			
+			}
+	
+	
+	division= { 
+			name = "88eme Légionnaires Africains territoriale"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			 
+			
+			}
+	
+	
+	division= { 
+			name = "85eme Légionnaires Africains territoriale"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			 
+			
+			}
+	
+	
+	division= { 
+			name = "90eme Division Territoriale"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			 
+			
+			}
+	
+	
+	division= { 
+			name = "58eme Légionnaires Africains de reserve"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			 
+			
+			}
+	
+	
+	division= { 
+			name = "63eme Légionnaires Africains de reserve"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			 
+			
+			}
+	
+	
+	division= { 
+			name = "66eme Légionnaires Africains de reserve"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			 
+			
+			}
+	
+	
+	division= { 
+			name = "61eme Légionnaires Africains de reserve"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			 
+			
+			}
+	
+	
+	division= { 
+			name = "62eme Légionnaires Africains de reserve"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			 
+			
+			}
+	
+	
+	division= { 
+			name = "67eme Légionnaires Africains de reserve"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			}
+	
+	
+	division= { 
+			name = "51eme Légionnaires Africains de reserve"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			 
+			
+			}
+	
+	
+	division= { 
+			name = "53eme Légionnaires Africains de reserve"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			}
+	
+	
+	division= { 
+			name = "69eme Légionnaires Africains de reserve"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			}
+	
+	
+	division= { 
+			name = "1re Division de Cavalerie"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			}
+	
+	
+	division= { 
+			name = "3eme Division de Cavalerie"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			}
+	
+	
+	division= { 
+			name = "5eme Division de Cavalerie"
+			location=20001 # Val de Marnes
+			division_template="Légionnaires Africains"
+			start_experience_factor= 1.0
+			}
+}
+
+
+
+

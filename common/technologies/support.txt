@@ -106,7 +106,7 @@ technologies = {
 	tech_engineers2 = {
 
 		engineer = {
-			entrenchment  = 1
+			entrenchment = 2
 			
 			fort = {
 				defence = 0.10
@@ -150,7 +150,7 @@ technologies = {
 	tech_engineers3 = {
 
 		engineer = {
-			entrenchment  = 1
+			entrenchment = 2
 			
 			fort = {
 				defence = 0.10
@@ -198,7 +198,7 @@ technologies = {
 	tech_engineers4 = {
 
 		engineer = {
-			entrenchment  = 1
+			entrenchment = 2
 			
 			fort = {
 				defence = 0.10

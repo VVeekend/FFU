@@ -414,13 +414,13 @@ add_state_claim = 100
 		FRA = {
  			add_to_tech_sharing_group = entente_research }				
 	    BEL = {
- 			add_to_tech_sharing_group = entente_research }
-			
+ 			add_to_tech_sharing_group = entente_research }			
 	    EGY = {
  			add_to_tech_sharing_group = entente_research }
-		}
+	    CAN = {
+ 			add_to_tech_sharing_group = entente_research }
 	}
-
+ }
 	#Focus for Mobilization of Industry
 	focus = {
 		id = ENG_mobilization_of_industry
@@ -647,25 +647,29 @@ POR = { add_offsite_building= { type = arms_factory level = 3 }  }
 			factor = 1
 		}
 		completion_reward = {
-			ENG = {
-add_timed_idea = {					days = 240
-idea = ENG_imperial_conference_economy_dominion }
-ENG = { add_timed_idea = {
-days = 240
-idea = ENG_imperial_conference_defense_dominion }
+		ENG = { add_timed_idea = { days = 240
+           idea = ENG_imperial_conference_economy_dominion }
+        ENG = { add_timed_idea = { days = 240
+           idea = ENG_imperial_conference_defense_dominion }
 			}
-EGY = { add_timed_idea = {days = 240
-idea = ENG_imperial_conference_economy_dominion }
+	    CAN = { add_timed_idea = { days = 240
+           idea = ENG_imperial_conference_defense_dominion }
+			}
+        EGY = { add_timed_idea = {days = 240
+           idea = ENG_imperial_conference_economy_dominion }
 			} 
-			EGY = {
-				add_timed_idea = {days = 240
-idea = ENG_imperial_conference_defense_dominion }
+		EGY = {
+			    add_timed_idea = {days = 240
+           idea = ENG_imperial_conference_defense_dominion }
 			}
- hidden_effect = { news_event = { id = mtg_news.13 days = 1 }			
-		}
+		CAN = {
+			    add_timed_idea = {days = 240
+           idea = ENG_imperial_conference_defense_dominion }
+			}
 		}
 	}
-} #This may not be in the right place. If your focus tree is having issues, check the above focus, as this closing brace was added to close the focus.
+}
+ #This may not be in the right place. If your focus tree is having issues, check the above focus, as this closing brace was added to close the focus.
 
 	#Focus for ANZAC Marines
 	focus = {

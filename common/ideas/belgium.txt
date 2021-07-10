@@ -70,4 +70,17 @@ ideas={
 			designer = yes 
 			vickers_armstrong_bel={ allowed={ TAG=BEL } research_bonus={ armor=0.10 } traits={ medium_tank_manufacturer } }
 			}
+	country = {		
+			we_fight_on = {
+			picture = we_fight_on-106258
+			allowed = {
+				TAG = BEL
+			}
+			modifier = {
+				surrender_limit = 0.5
+				stability_factor = 0.2
+				war_stability_factor = 0.2
+				conscription = 0.05
+			}
+		} }
 	}
