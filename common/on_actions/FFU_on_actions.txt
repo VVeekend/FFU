@@ -250,6 +250,39 @@ on_actions = {
                         producer = SOV 
             }
 				}}
+
+			if = {
+				limit = {
+                          BUL = { is_ai = yes } } 
+				GER = {          
+			         	add_equipment_to_stockpile= {
+                        type = infantry_equipment_1
+                        amount = 80000 
+                        producer = GER 
+            }
+				}
+				GER = {          
+			         	add_equipment_to_stockpile= {
+                        type = support_equipment
+                        amount = 1600 
+                        producer = GER 
+            }
+				}
+				GER = {          
+			         	add_equipment_to_stockpile= {
+                        type = light_field_gun_equipment_1
+                        amount = 240
+                        producer = GER 
+            }
+				
+				}
+				GER = {          
+			         	add_equipment_to_stockpile= {
+                        type = heavy_field_gun_equipment_1
+                        amount = 3120
+                        producer = GER 
+            }
+				}}
 				
 			if = {
 				limit = {

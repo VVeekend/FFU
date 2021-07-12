@@ -379,12 +379,6 @@ technologies = {
 		 
         production_speed_buildings_factor = 0.05
 		supply_consumption_factor = 0.02
-		infantry = {
-			combat_width = -0.5
-		}
-		infantry2 = {
-			combat_width = -0.5
-		}
 		max_dig_in = 2
 		allow = {
             date > 1915.1.1
