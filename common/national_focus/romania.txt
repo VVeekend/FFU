@@ -9,7 +9,7 @@ focus_tree = {
 focus = {
 		id = ROM_define_parlimentary_role
 		icon = GFX_goal_demand_sudetenland
-		completion_reward = { add_political_power = 100 }
+		completion_reward = { add_political_power = 100 set_rule = { can_send_volunteers = yes } }
 		ai_will_do = { factor = 10 }
 		
 		cost = 5

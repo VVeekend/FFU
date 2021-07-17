@@ -1367,10 +1367,11 @@ technologies = {
 		}
 	}
 	artillery_concentration = {
-		 
+		 category_artillery = {
+			max_organisation = 5
+		}
         category_support_battalions = {
-			max_organisation = 10
-			soft_attack = 0.25 }
+			soft_attack = 0.15 }
 		
 		path = {
 			leads_to_tech = ww1_airdoctrine
@@ -1443,8 +1444,8 @@ technologies = {
 	offensive_prep_fire = {
 		 
 		
-		artillery = { 
-           max_organisation = 2
+		category_artillery = { 
+           max_organisation = 5
 		}
 		
 		enable_tactic = tactic_overwhelming_fire

@@ -22,6 +22,16 @@ ideas={
 
 			}
 		}
+
+		RUS_ww1_modern_railways = {
+			allowed = {original_tag = SOV}
+			allowed_civil_war = {always = yes}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+
+			}
+		}
 		
 		RUS_Kerensky = {
 			allowed = {

@@ -29,7 +29,7 @@ heavy_artillery_brigade = {
 	}
 	
 	max_strength = 6
-	max_organisation = 0
+	max_organisation = 5
 	default_morale = 0.2
 	training_time = 120
 	weight = 0.1
