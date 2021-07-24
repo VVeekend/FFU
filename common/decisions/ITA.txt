@@ -9,7 +9,7 @@ ITA_southern_integration_category = {
 
 		available = {
 			FROM = {
-				compliance > 75
+				compliance > 50
 			}
 		}
 
@@ -49,6 +49,68 @@ ITA_southern_integration_category = {
 			FROM = {
 				add_core_of = ROOT
 			}
+		}
+	}
+}
+
+operations = {
+	ITA_first_isonzo = {
+		icon = generic_operation
+
+		allowed = {
+			tag = ITA
+		}
+		fire_only_once = yes
+	
+		cost = 0
+	
+		ai_will_do = {
+			factor = 0
+		}
+	
+		available = {
+			ITA = { has_war_with = AUS }
+		}
+	
+		visible = {
+			tag = ITA
+		}
+	
+		days_remove = 180
+		targeted_modifier = {
+			tag = AUS
+			attack_bonus_against = 0.25
+		}
+	}
+	ITA_defend_venice = {
+		icon = generic_operation
+
+		allowed = {
+			tag = ITA
+		}
+		fire_only_once = yes
+	
+		cost = 0
+	
+		ai_will_do = {
+			factor = 0
+		}
+	
+		available = {
+			AND = {
+				ITA = { has_war_with = AUS }
+				surrender_progress > 0.1
+			}
+		}
+	
+		visible = {
+			tag = ITA
+		}
+	
+		days_remove = 180
+		targeted_modifier = {
+			tag = AUS
+			defense_bonus_against = 0.1
 		}
 	}
 }

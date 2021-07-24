@@ -34,7 +34,7 @@ focus_tree = {
 	focus = {
 		id = ITA_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = ITA_economic_reform
 		}
@@ -56,7 +56,7 @@ focus_tree = {
 	focus = {
 		id = ITA_industrialize_south
 		icon = GFX_goal_generic_construction2
-		cost = 10
+		cost = 5
 		x = 0
 		y = 1
 		relative_position_id = ITA_infrastructure_effort
@@ -84,7 +84,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_economic_reform
 		}
-		cost = 10
+		cost = 5
 		x = -2
 		y = 1
 		completion_reward = {
@@ -112,7 +112,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_civillian_north
 		}
-		cost = 10
+		cost = 5
 		x = 0
 		y = 1
 		completion_reward = {
@@ -140,7 +140,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_economic_reform
 		}
-		cost = 10
+		cost = 5
 		x = 2
 		y = 1
 		completion_reward = {
@@ -168,7 +168,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_civillian_south
 		}
-		cost = 10
+		cost = 5
 		x = 0
 		y = 1
 		completion_reward = {
@@ -261,7 +261,7 @@ focus_tree = {
 	focus = {
 		id = ITA_join_entente
 		icon = GFX_hoi4tgw_marianne
-		cost = 10
+		cost = 5
 		x = 0
 		y = 1
 		relative_position_id = ITA_treaty_of_london
@@ -332,7 +332,7 @@ focus_tree = {
 	focus = {
 		id = ITA_regio_esercito
 		icon = GFX_goal_generic_allies_build_infantry
-		cost = 10
+		cost = 5
 		x = 12
 		y = 0
 		completion_reward = {
@@ -349,7 +349,7 @@ focus_tree = {
 		id = ITA_regia_marina
 		icon = GFX_goal_generic_build_navy
 		cost = 10
-		x = 18
+		x = 20
 		y = 0
 		completion_reward = {
 			navy_experience = 50
@@ -360,9 +360,9 @@ focus_tree = {
 		id = ITA_marines
 		icon = GFX_goal_generic_amphibious_assault
 		cost = 10
-		x = 4
+		x = -2
 		y = 1
-		relative_position_id = ITA_regio_esercito
+		relative_position_id = ITA_regia_marina
 		prerequisite = {
 			focus = ITA_regia_marina
 		}
@@ -466,6 +466,19 @@ focus_tree = {
 				technology = tech_mountaineers3
 			}
 		}
+	}
+
+	focus = {
+		id = ITA_airplane
+		icon = GFX_goal_generic_air_production
+		cost = 10
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = ITA_regio_esercito
+		}
+		relative_position_id = ITA_regio_esercito
+		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1 uses=1 category=air_equipment } }
 	}
 
 	focus = {
