@@ -1,0 +1,20 @@
+
+state={
+	id=391
+	name="STATE_391"
+	provinces={
+		11817 11936 17545 17576 17716 17734 17876 17915 17953 17998 18075 18199 18203 18209 18291 18591 18782 18915 18916 18998 19049 19050 19051 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	
+	history={
+		owner = CAN
+		add_core_of = CAN 
+		buildings = {
+			infrastructure = 10
+		    industrial_complex = 6
+			arms_factory = 4
+       }
+		 }
+}

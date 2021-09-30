@@ -1,18 +1,22 @@
+
 state={
 	id=274
 	name="STATE_274"
-	provinces={
-		351 614 887 1502 1687 2656 2684 3831 4146 5396 7040 7223 8041 10554 17076 17171 
-	}
-	manpower=4224516
-	buildings_max_level_factor=1.000
-	state_category = rural
-	history = {
+
+	history={
 		owner = EGY
 		buildings = {
 			infrastructure = 4
-                        arms_factory = 1
+			arms_factory = 1
+
 		}
 
 	}
+
+	provinces={
+		351 614 887 1502 1687 2656 2684 3831 4146 5199 5396 7040 7223 8041 10554 17076 17159 17171 
+	}
+	manpower=4224516
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

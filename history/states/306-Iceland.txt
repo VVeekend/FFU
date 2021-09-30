@@ -13,19 +13,19 @@ state={
 
 	history={
 		owner = CAN
-		add_core_of = CAN 
+		add_core_of = CAN
 		buildings = {
-		  infrastructure = 7
-          industrial_complex = 4
+			infrastructure = 7
+			industrial_complex = 4
+
 		}
 
 	}
 
 	provinces={
-		2101 2462 6286 8017 8115 9448 11639 11817 11823 11827 11879 11883 11887 
+		2462 8017 8115 9448 11639 11879 11887 
 	}
-
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=city
-	manpower=1
 }

@@ -1,17 +1,22 @@
+
 state={
 	id=383
 	name="STATE_383"
-	provinces={
-		99 1333 2813 3298 4637 4731 5403 6685 7760 7768 9552 9648 10937 10995 11617 11896 11904 11920 11942 11953 11964 11989 12001 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category = city
+
 	history={
 		owner = CAN
-		add_core_of = CAN 
+		add_core_of = CAN
 		buildings = {
 			infrastructure = 7
 
-		} }
+		}
+
+	}
+
+	provinces={
+		99 1333 2813 3298 4637 4731 5403 6685 7760 9552 9648 10937 10995 11617 11896 11904 11920 11942 11953 11964 11989 12001 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
 }
