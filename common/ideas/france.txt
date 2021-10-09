@@ -328,7 +328,7 @@ ideas = {
                 armor = 0.10
             }
             traits = {
-                fast_tank_manufacturer
+                FRA_fast_tank_manufacturer
             }
         }
     }

@@ -9,15 +9,8 @@ state={
 	state_category = metropolis
 	manpower=11000000
 	history={
-		owner = CAN
-		add_core_of = CAN 
 		buildings = {
-			infrastructure = 10
-		    industrial_complex = 6
-			arms_factory = 4
-		11899 = {
-				naval_base = 10
-			}}
+			infrastructure = 10 }
 		victory_points = {
 		11899 20
 		}

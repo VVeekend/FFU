@@ -1,0 +1,20 @@
+state={
+	id=402
+	name="STATE_402"
+	provinces={
+		18634 
+	}
+	manpower=2563952
+	state_category = city
+	resources={
+		steel=110 # was: 208
+	}
+	buildings_max_level_factor=1.000
+		history={
+		owner = USA
+		add_core_of = USA 
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+}}

@@ -1,0 +1,21 @@
+state={
+	id=403
+	name="STATE_403"
+	provinces={
+		17546 
+	}
+	manpower=680844
+    state_category = rural
+	resources={
+		steel=17 # was: 24
+		oil=7 # was: 10
+	}
+	buildings_max_level_factor=1.000
+		history={
+		owner = USA
+		add_core_of = USA 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+}}

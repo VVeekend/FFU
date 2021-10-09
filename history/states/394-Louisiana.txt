@@ -1,0 +1,21 @@
+state={
+	id=394
+	name="STATE_394"
+	provinces={
+		17669 
+	}
+	manpower=2101592
+	state_category = city
+	resources={
+		oil=44 # was: 66
+	}
+	buildings_max_level_factor=1.000
+		history={
+		owner = USA
+		add_core_of = USA 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 5
+		}
+}}

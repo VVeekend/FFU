@@ -25,7 +25,7 @@ sub_units = {
 		combat_width = 0
 	
 		#Size Definitions
-		max_strength = 2
+		max_strength = 0
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 200
@@ -52,12 +52,5 @@ sub_units = {
 			support_equipment = 20
 		}
 
-		urban = {
-			attack = 0.05
-			defence = 0.05
-		}
-		marsh = {
-			attack = 0.05
-		}
 	}
 }

@@ -4,8 +4,6 @@ state={
 	name="STATE_386"
 
 	history={
-		owner = CAN
-		add_core_of = CAN
 		buildings = {
 			infrastructure = 7
 

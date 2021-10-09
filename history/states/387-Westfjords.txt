@@ -8,8 +8,6 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = city
 		history={
-		owner = CAN
-		add_core_of = CAN 
 		buildings = {
 			infrastructure = 7
 

@@ -1349,7 +1349,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = -1 }
+			position = { x = -3 y = -1 }
 		}
 		
 		ai_will_do = {
@@ -1395,7 +1395,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 1 }
+			position = { x = -3 y = 1 }
 		}
 		
 		
@@ -1430,7 +1430,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 2 }
+			position = { x = -3 y = 2 }
 		}
 		
 		categories = {
@@ -1474,7 +1474,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 4 }
+			position = { x = -3 y = 4 }
 		}
 		
 		
@@ -1534,7 +1534,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 6 }
+			position = { x = -3 y = 6 }
 		}
 		
 		
@@ -1580,7 +1580,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 6 }
+			position = { x = 0 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -1626,7 +1626,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 8 }
+			position = { x = -1 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -1669,7 +1669,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 10 }
+			position = { x = -1 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -1712,7 +1712,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 10 }
+			position = { x = -3 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -1766,7 +1766,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 12 }
+			position = { x = -3 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -1808,7 +1808,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -1 y = 14 }
+			position = { x = -2 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -1850,7 +1850,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 1 y = 14 }
+			position = { x = 0 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -1892,7 +1892,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 3 y = 14 }
+			position = { x = 2 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -1955,6 +1955,221 @@ technologies = {
 			}
 		}
 	}
+
+		ww1_mortars_1915 = {
+		 
+		path = {
+			leads_to_tech = ww1_mortars_1916
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 2.5
+		xp_research_type = army
+		xp_research_cost = 15
+		xp_research_bonus = 1.00
+		on_research_complete = {
+			
+			
+			
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.05
+		}
+		artillery = {
+			soft_attack = 0.05
+		}
+		rocket_artillery = {
+			soft_attack = 0.05
+		}
+		
+		categories = {
+			land_doctrine
+			
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = -1 }
+		}
+		
+		ai_will_do = {
+			factor = 8
+			modifier = {
+				factor = 100
+				 
+				
+			}
+			modifier = {
+
+				
+				
+			}
+		}
+	}
+
+		ww1_mortars_1916 = {
+		 
+		path = {
+			leads_to_tech = ww1_mortars_1917
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 2.5
+		xp_research_type = army
+		xp_research_cost = 15
+		xp_research_bonus = 1.00
+		on_research_complete = {
+			
+			
+			
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.05
+		}
+		artillery = {
+			soft_attack = 0.05
+		}
+		rocket_artillery = {
+			soft_attack = 0.05
+		}
+		categories = {
+			land_doctrine
+			
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 8
+			modifier = {
+				factor = 100
+				 
+				
+			}
+			modifier = {
+
+				
+				
+			}
+		}
+	}
+
+
+		ww1_mortars_1917 = {
+		 
+		path = {
+			leads_to_tech = ww1_mortars_1918
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 2.5
+		xp_research_type = army
+		xp_research_cost = 15
+		xp_research_bonus = 1.00
+		on_research_complete = {
+			
+			
+			
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.05
+		}
+		artillery = {
+			soft_attack = 0.05
+		}
+		rocket_artillery = {
+			soft_attack = 0.05
+		}
+		categories = {
+			land_doctrine
+			
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 3 }
+		}
+		
+		ai_will_do = {
+			factor = 8
+			modifier = {
+				factor = 100
+				 
+				
+			}
+			modifier = {
+
+				
+				
+			}
+		}
+	}
+
+
+		ww1_mortars_1918 = {
+		
+		doctrine = yes	
+		research_cost = 2.5
+		xp_research_type = army
+		xp_research_cost = 15
+		xp_research_bonus = 1.00
+		on_research_complete = {
+			
+			
+			
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.05
+		}
+		artillery = {
+			soft_attack = 0.05
+		}
+		rocket_artillery = {
+			soft_attack = 0.05
+		}
+		categories = {
+			land_doctrine
+			
+		}
+		
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 5 }
+		}
+		
+		ai_will_do = {
+			factor = 8
+			modifier = {
+				factor = 100
+				 
+				
+			}
+			modifier = {
+
+				
+				
+			}
+		}
+	}
+
 	balloon_observers = {
 		 
 	

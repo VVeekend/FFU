@@ -1,0 +1,21 @@
+state={
+	id=416
+	name="STATE_416"
+	provinces={
+		17755 
+	}
+	manpower=9631346
+	state_category = megalopolis
+	resources={
+		steel=44 # was: 80
+	}
+	buildings_max_level_factor=1.000
+		history={
+		owner = USA
+		add_core_of = USA 
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			dockyard = 7
+		}
+}}

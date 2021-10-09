@@ -146,7 +146,6 @@ create_navy_leader={  name = "Richmond P. Hobson" id=93396 portrait_path="gfx/ho
 		support_weapons = 1
 		infantry_binoculars = 1
 		infantry_grenade = 1
-		motorised_infantry = 1
 		ww1_ambulance1 = 1
 
 		# Support
@@ -192,8 +191,6 @@ create_navy_leader={  name = "Richmond P. Hobson" id=93396 portrait_path="gfx/ho
 		electronic_mechanical_engineering = 1
 		chemical_research = 1
 
-		# Industry
-		ww1_fortification1 = 1
 	}
 
 	set_politics = {

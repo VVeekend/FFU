@@ -1,0 +1,18 @@
+state={
+	id=395
+	name="STATE_395"
+	provinces={
+		18777 
+	}
+	manpower=2009820
+	state_category = city
+	buildings_max_level_factor=1.000
+		history={
+		owner = USA
+		add_core_of = USA 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 3
+		}
+}}

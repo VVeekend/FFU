@@ -1,0 +1,23 @@
+state={
+	id=425
+	name="STATE_425"
+	provinces={
+		18199 
+	}
+	manpower=2432754
+	state_category = city
+	resources={
+		aluminium=3 # was: 4
+	}
+	buildings_max_level_factor=1.000
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		add_core_of = CAN
+
+	}
+}

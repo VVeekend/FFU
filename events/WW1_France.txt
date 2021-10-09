@@ -47,5 +47,57 @@ country_event = {
 	}
 #____________________________________________________________
 
+#1913 Presidental Election
+country_event = {
+	id = ffufrance.3
+	title = ffufrance.3.t
+	desc = ffufrance.3.d
+	picture = ffufrance_1913_presidental_election-81921
+	is_triggered_only = yes
+	option = {
+		name = ffufrance.3.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			retire_country_leader = yes
+		}
+		create_country_leader = {
+			name = "Raymond Poincaré"
+			picture = "gfx/hoi4tgw_portraits/FRA/country_leaders/FRA_raymond_poincare.dds"
+			expire = "1935.1.1"
+			ideology=liberalism
+			traits = {
+			}
+		}
+	}
+}
+
+#1913 Presidental Election
+country_event = {
+	id = ffufrance.4
+	title = ffufrance.4.t
+	desc = ffufrance.4.d
+	picture = ww1_france_3ffufrance_1913_presidental_election-81921
+	is_triggered_only = yes
+	option = {
+		name = ffufrance.3.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			retire_country_leader = yes
+		}
+		create_country_leader = {
+			name = "Georges Clemenceau"
+			picture = "gfx/hoi4tgw_portraits/FRA/country_leaders/FRA_georges_clemenceau.dds"
+			expire = "1935.1.1"
+			ideology=liberalism
+			traits = {
+			headstrong
+			indomitable_perseverance
+			our_right_to_survive
+			popular_figurehead2
+			economic_reformer
+			}
+		}
+	}
+}
 
 #____________________________________________________________

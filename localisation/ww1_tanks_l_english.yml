@@ -315,3 +315,6 @@
 # Description added, ugly but meh
 
  armored_car_equipment_desc:0 "Armored Car I"
+ 
+#FFU
+FRA_fast_tank_manufacturer:0 "Fast Tank Manufacturer"

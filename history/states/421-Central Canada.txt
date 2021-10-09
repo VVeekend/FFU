@@ -1,0 +1,17 @@
+state={
+	id=421
+	name="STATE_421"
+	provinces={
+		17915 17998 18998 19050 
+	}
+	manpower=651071
+	state_category = rural
+	buildings_max_level_factor=1.000
+		history={
+		owner = CAN
+		add_core_of = CAN 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+}}

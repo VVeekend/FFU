@@ -1,0 +1,22 @@
+state={
+	id=419
+	name="STATE_419"
+	provinces={
+		17875 
+	}
+	manpower=8404713
+	resources={
+		steel=12 # was: 20.000
+	}
+	state_category = metropolis
+	buildings_max_level_factor=1.000
+		history={
+		owner = USA
+		add_core_of = USA 
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 5
+			dockyard = 4
+		}
+}}

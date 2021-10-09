@@ -1,17 +1,22 @@
+
 state={
 	id=309
 	name="STATE_309"
-	provinces={
-		169 397 1154 1421 1645 1954 2417 2467 3066 3795 4027 4199 4616 4743 4962 5449 6547 7352 7843 8062 8543 9299 9472 9975 11175 11210 16801 16819 16834 16852 16866 16878 
-	}
-	manpower=1865552
-	buildings_max_level_factor=1.000
-	state_category = wasteland
+
 	history={
 		owner = FRA
 		add_core_of = MOR
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
+	provinces={
+		169 397 1011 1154 1421 1645 1954 2417 2467 3066 3795 4027 4199 4616 4743 4962 5449 6547 7352 7843 8062 8543 9299 9472 9975 10288 11175 11210 16801 16819 16834 16852 16866 16878 
+	}
+	manpower=1865552
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }
