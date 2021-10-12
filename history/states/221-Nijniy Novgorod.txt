@@ -3,6 +3,9 @@ state={
 	state_category = town
 	id=221
 	name="STATE_221"
+	resources={
+		wood=100
+	}
 	history={
 		owner = SOV
 		add_core_of = SOV

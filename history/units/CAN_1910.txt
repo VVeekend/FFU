@@ -44,7 +44,7 @@ division_template = {
 units = {
 	division= { 
 			name = "1st Canadian Infantry Div."
-			location=11899 # Ottawa
+			location=18199 # Ottawa
 			division_template="Infantry Division"
 			start_experience_factor=0.1
 			}
@@ -52,7 +52,7 @@ units = {
 	
 	division= { 
 			name = "2nd Canadian Infantry Div."
-			location=11899 # Ottawa
+			location=18199 # Ottawa
 			division_template="Infantry Division"
 			start_experience_factor=0.05
 			}

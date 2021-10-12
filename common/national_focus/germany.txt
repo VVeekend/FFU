@@ -166,10 +166,11 @@ category = stormtrooper_tech }
 			factor = 1
 		}
 		completion_reward = {
-			add_tech_bonus={ bonus=2 uses=2           
-       	    technology = basic_submarine
-            technology = improved_submarine
-            technology = advanced_submarine }
+			add_tech_bonus={ bonus=2 uses=2    
+            technology = early_ship_hull_submarine
+			technology = basic_ship_hull_submarine
+       	    technology = improved_ship_hull_submarine
+            technology = advanced_ship_hull_submarine }
 		}
 	}
 

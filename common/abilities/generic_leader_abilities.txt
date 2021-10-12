@@ -12,7 +12,7 @@ ability = {
 			is_border_war = no
 		}
 		
-		cost = 0.12
+		cost = 0.05
 		duration = 168
 		
 		unit_modifiers = {

@@ -417,6 +417,7 @@ remove_ideas = AUS_czech_autonomy_demands
 		ai_will_do = {
 			factor = 1
 		}
+		available = {has_army_experience> 300}
 	    completion_reward = {
          remove_unit_leader = 6137
 		 remove_ideas = AUS_austrian_military_staff

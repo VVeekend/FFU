@@ -606,12 +606,11 @@ focus_tree = {
 	focus = {
 		id = SOV_tsar_supremacy
 		icon = GFX_SOV_tsar_supremacy-45134
-		x = 26
+		x = 28
 		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_reformation_of_the_empire }
-		mutually_exclusive = { focus = SOV_strengthen_third_state_duma }
 		ai_will_do = {
 			factor = 1
 		}
@@ -621,34 +620,13 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Strengthen Third State Duma
-	focus = {
-		id = SOV_strengthen_third_state_duma
-		icon = GFX_SOV_strengthen_third_state_duma-45137
-		x = 31
-		y = 1
-		cost = 5
-		available_if_capitulated = yes
-		prerequisite = { focus = SOV_reformation_of_the_empire }
-		mutually_exclusive = { focus = SOV_tsar_supremacy }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-		    add_stability= 0.1
-			add_timed_idea= { 
-            idea = FRA_strengthen_government_support_focus
-            days = 365 }
-		}
-	}
-
 	#Focus for Expanded Okhrana
 	focus = {
 		id = SOV_expanded_okhrana
 		icon = GFX_SOV_expanded_okhrana-45139
 		x = 26
 		y = 3
-		cost = 5
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_protsar_duma }
 		ai_will_do = {
@@ -659,6 +637,7 @@ focus_tree = {
 			show_ideas_tooltip = SOV_vladimir_dzhunkovsky
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = SOV_roman_malinovsky
+			remove_country_leader_trait= unpopular_monarch
 		}
 	}
 
@@ -681,23 +660,6 @@ focus_tree = {
 		completion_reward = {
         unlock_decision_category_tooltip= fourth_duma_assembly
 		custom_effect_tooltip = SOV_fourth_duma_assembly_tt
-		}
-	}
-
-	#Focus for Limit Tsar Influence 
-	focus = {
-		id = SOV_limit_tsar_influence
-		icon = GFX_SOV_limit_tsar_influence-45140
-		x = 33
-		y = 2
-		cost = 5
-		available_if_capitulated = yes
-		prerequisite = { focus = SOV_strengthen_third_state_duma }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-        remove_country_leader_trait= unpopular_monarch
 		}
 	}
 
@@ -1005,7 +967,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-         completion_reward = { add_ideas= SOV_russian_staff}
+         completion_reward = { add_ideas= SOV_russian_staff
+		 add_tech_bonus={ name=infantry_weapons_bonus bonus=2 uses=1 category=infantry_weapons}} 
 	} 
 	    
 	#Focus for Tsar Tank
@@ -1111,8 +1074,8 @@ technology = tech_recon4
 	focus = {
 		id = SOV_concessions_to_radicals
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = SOV_strengthen_third_state_duma }
-		x = 31
+		prerequisite = { focus = SOV_tsar_supremacy }
+		x = 30
 		y = 2
 		cost = 5
 		available_if_capitulated = yes
@@ -1187,6 +1150,7 @@ technology = tech_recon4
 			add_unit_leader_trait = infantry_leader
 			add_unit_leader_trait = trait_engineer
 			add_unit_leader_trait = swamp_fox
+			add_unit_leader_trait = brilliant_strategist
 			add_skill_level = 1
             add_attack = 1
 			add_defense = 1

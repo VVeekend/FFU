@@ -28,14 +28,24 @@ create_country_leader={ name = "Wilhelm II" desc=GER_wilhelm_ii_DESC picture="gf
 
 #ARMY
 create_field_marshal = { name = "von Gallwitz" id = 34038 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_von_gallwitz.dds" traits = { thorough_planner } skill=3 }
-create_field_marshal = { name = "Duke Albrecht of Wurttemberg" id = 34337 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_duke_albrecht_of_wurttemberg.dds" traits = { thorough_planner } skill=3 }
+create_field_marshal = { name = "Duke Albrecht of Wurttemberg" id = 34337 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_duke_albrecht_of_wurttemberg.dds" traits = { ranger } skill=3 
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+	logistics_skill = 3 
+	skill=3 }
 create_field_marshal = { name = "Crown Prince Rupprecht of Bavaria" id = 34547 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_rupprecht_of_bavaria.dds" traits = { infantry_leader } 
 	attack_skill = 2
     defense_skill = 4
     planning_skill = 2
 	logistics_skill = 3 
-	skill=3 }
-create_field_marshal = { name = "Crown Prince Wilhelm of Prussia" id = 34548 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_wilhelm_of_prussia.dds" traits = { } skill=2 }
+	skill=2 }
+create_field_marshal = { name = "Crown Prince Wilhelm of Prussia" id = 34548 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_wilhelm_of_prussia.dds" traits = { } 	
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+	logistics_skill = 3 
+	skill=2 }
 
 ############################################################################################################ 
 
@@ -208,12 +218,12 @@ create_corps_commander = {
 	name = "Sixt von Armin" 
 	id = 34127
 	portrait_path = "gfx/generals/GER_sixt_von_armin.dds"
-	traits = { fortress_buster }
+	traits = { infantry_expert ambusher }
 	skill = 3
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 1
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "von Schlieffen" 
@@ -230,12 +240,12 @@ create_corps_commander = {
 	name = "von der Goltz C." 
 	id = 34260
 	portrait_path = "gfx/generals/GER_von_der_goltz_c.dds"
-	traits = { old_guard }
+	traits = { unyielding_defender desert_fox }
 	skill = 3
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 5
 }
 create_corps_commander = {
 	name = "von Hindenburg" 

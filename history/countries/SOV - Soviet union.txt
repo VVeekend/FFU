@@ -26,35 +26,35 @@ create_field_marshal={  name = "Nikolay II" id=70484 portrait_path="gfx/leaders/
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 create_field_marshal={  name = "Mikhail Alexeyev" id=76321 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_alekseyev.dds" traits={ thorough_planner } skill=2 
 	attack_skill = 3
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 4
 	logistics_skill = 2
 }			
-create_field_marshal={  name = "Nikolay Rouzski" id=76837 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_ruzsky.dds" traits={ defensive_doctrine } skill=2 
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
+create_field_marshal={  name = "Nikolay Rouzski" id=76837 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_ruzsky.dds" traits={ fortress_buster } skill=2 
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 4
 }							
 create_field_marshal={  name = "Vladimir Sukhomlinov" id=76860 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_sukhomlinov.dds" traits={ } skill=3 
-	attack_skill = 2
+	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 1
 }
 				
-create_corps_commander={ name = "Nikolay Baratov" id=77711 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_baratov.dds" traits={ } skill=2 
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
+create_corps_commander={ name = "Nikolay Baratov" id=77711 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_baratov.dds" traits={ cavalry_expert cavalry_officer trait_mountaineer } skill=3 
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3 
 	logistics_skill = 2
 }	
-create_corps_commander={ name = "Aleksei Brusilov" id=76187 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_brusilov.dds" traits={ thorough_planner trickster } skill=4
-	attack_skill = 3
+create_corps_commander={ name = "Aleksei Brusilov" id=76187 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_brusilov.dds" traits={ thorough_planner trickster } skill=5
+	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 3
 	logistics_skill = 4
@@ -63,11 +63,11 @@ create_corps_commander={ name = "Anton Denikin" id=76428 portrait_path="gfx/hoi4
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 5
+	logistics_skill = 3
 }							
-create_corps_commander={ name = "Alexei Evert" id=76431 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_evert.dds" traits={ urban_assault_specialist } skill=2 
+create_corps_commander={ name = "Alexei Evert" id=76431 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_evert.dds" traits={ urban_assault_specialist ambusher } skill=2 
 	attack_skill = 3
-	defense_skill = 1
+	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 3
 }								
@@ -83,16 +83,16 @@ create_corps_commander={ name = "Alexey Kaledin" id=76546 portrait_path="gfx/hoi
 	planning_skill = 2
 	logistics_skill = 2
 }						
-create_corps_commander={ name = "Aleksey Kuropatkin" id=77712 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_kuropatkin.dds" traits={ } skill=3 
+create_corps_commander={ name = "Aleksey Kuropatkin" id=77712 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_kuropatkin.dds" traits={ trait_reckless } skill=2 
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
 }	
-create_corps_commander={ name = "Platon Lechitsky" id=77713 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_lechitsky.dds" traits={ } skill=2 
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
+create_corps_commander={ name = "Platon Lechitsky" id=77713 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_lechitsky.dds" traits={ infantry_expert trait_engineer aggressive_assaulter } skill=4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 3
 }						
 create_corps_commander={ name = "Pavel Karlovitch Rennenkampf" id=77001 portrait_path="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_rennenkampf.dds" traits={  } skill=3 

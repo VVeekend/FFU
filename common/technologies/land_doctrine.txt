@@ -60,11 +60,6 @@ technologies = {
 			max_organisation = 5
 		}
 		
-		category_light_infantry = {
-			max_organisation = 5
-			breakthrough = 0.02
-		}
-		
 		
 		path = {
 			leads_to_tech = ww1_airdoctrine_6
@@ -1962,6 +1957,10 @@ technologies = {
 			leads_to_tech = ww1_mortars_1916
 			research_cost_coeff = 1
 		}
+
+		allow = {
+            date > 1915.1.1
+        }
 		
 		doctrine = yes	
 		research_cost = 2.5
@@ -2017,7 +2016,10 @@ technologies = {
 			leads_to_tech = ww1_mortars_1917
 			research_cost_coeff = 1
 		}
-		
+				
+		allow = {
+            date > 1916.1.1
+        }
 		doctrine = yes	
 		research_cost = 2.5
 		xp_research_type = army
@@ -2029,10 +2031,12 @@ technologies = {
 			
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.15
+			max_organisation = 5
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.15
+			max_organisation = 5
 		}
 		artillery = {
 			soft_attack = 0.05
@@ -2073,6 +2077,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+				
+		allow = {
+            date > 1917.1.1
+        }
+
 		doctrine = yes	
 		research_cost = 2.5
 		xp_research_type = army
@@ -2084,10 +2093,10 @@ technologies = {
 			
 		}
 		rocket_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.075
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.075
 		}
 		artillery = {
 			soft_attack = 0.05
@@ -2128,11 +2137,12 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 15
 		xp_research_bonus = 1.00
-		on_research_complete = {
-			
-			
+		on_research_complete = {				
 			
 		}
+		allow = {
+            date > 1918.1.1
+        }
 		rocket_artillery_brigade = {
 			soft_attack = 0.05
 		}

@@ -602,4 +602,90 @@ equipments = {
 		naval_strike_targetting = 10
 	}
 	
+	cv_nav_bomber_equipment = {
+		year = 1933
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_heavy_fighter_equipment
+		is_buildable = no
+		type = naval_bomber
+		group_by = archetype
+		sprite = light_plane
+		carrier_capable = yes
+		default_carrier_composition_weight = 1
+		air_map_icon_frame = 3
+		
+		interface_category = interface_category_air
+		
+		# Naval bomber
+		interface_overview_category_index = 2
+
+		upgrades = {
+			cv_plane_naval_upgrade
+			cv_plane_range_upgrade
+			plane_engine_upgrade
+			plane_reliability_upgrade
+		}
+
+		air_superiority = 1
+		reliability = 0.8
+
+		# Air vs Navy - high damage / medium hit chance / easy to hurt
+		naval_strike_attack = 15
+		naval_strike_targetting = 7.5
+		
+		build_cost_ic = 26
+		resources = {
+			#oil = 1
+			aluminium = 2
+			rubber = 1
+		}
+		
+		manpower = 20
+		fuel_consumption = 0.28
+	}
+	
+	jet_fighter_equipment = {
+		year = 1933
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_fighter_equipment
+		is_buildable = no
+		type = fighter
+		group_by = archetype
+		sprite = jet_plane
+		air_map_icon_frame = 4
+		
+		interface_category = interface_category_air
+		
+		# Fighter
+		interface_overview_category_index = 1
+
+		upgrades = {
+			plane_gun_upgrade
+			plane_range_upgrade
+			plane_engine_upgrade
+			plane_reliability_upgrade
+		}
+
+		air_superiority = 1
+		reliability = 0.8
+
+		# Air vs Navy - low damage / high hit chance / easy to hurt
+		naval_strike_attack = 5
+		naval_strike_targetting = 10
+		
+		build_cost_ic = 30
+		resources = {
+			aluminium = 2
+			tungsten = 3
+			rubber = 1
+		}
+		
+		manpower = 40
+		fuel_consumption = 0.42
+	}
+	
 }

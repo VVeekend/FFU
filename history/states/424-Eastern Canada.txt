@@ -11,7 +11,9 @@ state={
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 1
-
+		18209 = {
+				naval_base = 5
+			  }
 		}
 
 	}

@@ -27,8 +27,8 @@ on_actions = {
 	on_startup = {
 		effect = {
 			FRA = {
-				country_event = { id = ffufrance.3 days = 1 }
-				country_event = { id = ffufrance.4 days = 3 }
+				country_event = { id = ffufrance.3 days = 779 }
+				country_event = { id = ffufrance.4 days = 2497 }
 			}
 			SER = {
 				country_event = { id = ww1_franzferdinand.2 days = 1304 }

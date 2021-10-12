@@ -57,7 +57,20 @@ units = {
 		division_template="Infantry Division"
 		start_experience_factor=0.1
 	}
+	fleet = {
+		name = "Home Fleet"
+		naval_base = 10957
+		task_force = {
+			location = 10957
+			name = "Home Fleet"
+		ship = { name = "Marinha Granda" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = POR version_name = "Light Cruiser 1900" } } }
+		ship = { name = "Nazare" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = POR version_name = "Light Cruiser 1900" } } }
+		ship = { name = "Figueira da Foz" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = POR version_name = "Light Cruiser 1900" } } }
+	   ship = { name = "Matosinhos" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = POR version_name = "Light Cruiser 1900" } } }
+	   ship = { name = "Vila Nova de Gaia" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = POR version_name = "Light Cruiser 1900" } } }
+	   ship = { name = "Guadiana" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Pre-1905 Destroyer" } } } }
 }
+} 
 
 instant_effect = {
     add_equipment_production = { equipment = { type = infantry_equipment_1 creator = "POR" } requested_factories = 1 progress = 0.1 efficiency = 50 }

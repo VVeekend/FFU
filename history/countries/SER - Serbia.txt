@@ -40,9 +40,9 @@ create_field_marshal={
 	name = "Radomir Putnik" id=82002
 	portrait_path="gfx/hoi4tgw_portraits/SER/army_generals/SER_radomir_putnik.dds"
 	traits={ defensive_doctrine old_guard infantry_expert unyielding_defender }
-	skill=4
+	skill=5
 	attack_skill = 3
-	defense_skill = 5
+	defense_skill = 6
 	planning_skill = 3
 	logistics_skill = 2
 }
