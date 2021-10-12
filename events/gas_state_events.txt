@@ -1,7 +1,7 @@
 add_namespace = gas_state_events
 state_event = {
-    id = gas_state_events.1
-    title = gas_state_events.1.t
+    id = gas_state_events.391
+    title = gas_state_events.391.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -9,15 +9,15 @@ state_event = {
 
     immediate = {
 
-        1 = {
+        391 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.111
-    title = gas_state_events.111.t
+    id = gas_state_events.198
+    title = gas_state_events.198.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -25,15 +25,15 @@ state_event = {
 
     immediate = {
 
-        111 = {
+        198 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.124
-    title = gas_state_events.124.t
+    id = gas_state_events.419
+    title = gas_state_events.419.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -41,15 +41,15 @@ state_event = {
 
     immediate = {
 
-        124 = {
+        419 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.125
-    title = gas_state_events.125.t
+    id = gas_state_events.77
+    title = gas_state_events.77.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -57,15 +57,15 @@ state_event = {
 
     immediate = {
 
-        125 = {
+        77 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.136
-    title = gas_state_events.136.t
+    id = gas_state_events.256
+    title = gas_state_events.256.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -73,15 +73,15 @@ state_event = {
 
     immediate = {
 
-        136 = {
+        256 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.137
-    title = gas_state_events.137.t
+    id = gas_state_events.110
+    title = gas_state_events.110.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -89,15 +89,15 @@ state_event = {
 
     immediate = {
 
-        137 = {
+        110 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.144
-    title = gas_state_events.144.t
+    id = gas_state_events.56
+    title = gas_state_events.56.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -105,15 +105,15 @@ state_event = {
 
     immediate = {
 
-        144 = {
+        56 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.2
-    title = gas_state_events.2.t
+    id = gas_state_events.94
+    title = gas_state_events.94.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -121,15 +121,15 @@ state_event = {
 
     immediate = {
 
-        2 = {
+        94 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.3
-    title = gas_state_events.3.t
+    id = gas_state_events.169
+    title = gas_state_events.169.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -137,15 +137,15 @@ state_event = {
 
     immediate = {
 
-        3 = {
+        169 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.308
-    title = gas_state_events.308.t
+    id = gas_state_events.223
+    title = gas_state_events.223.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -153,15 +153,15 @@ state_event = {
 
     immediate = {
 
-        308 = {
+        223 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.309
-    title = gas_state_events.309.t
+    id = gas_state_events.34
+    title = gas_state_events.34.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -169,295 +169,7 @@ state_event = {
 
     immediate = {
 
-        309 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.47
-    title = gas_state_events.47.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        47 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.48
-    title = gas_state_events.48.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        48 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.49
-    title = gas_state_events.49.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        49 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.51
-    title = gas_state_events.51.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        51 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.52
-    title = gas_state_events.52.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        52 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.53
-    title = gas_state_events.53.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        53 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.54
-    title = gas_state_events.54.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        54 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.55
-    title = gas_state_events.55.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        55 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.57
-    title = gas_state_events.57.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        57 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.58
-    title = gas_state_events.58.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        58 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.59
-    title = gas_state_events.59.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        59 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.60
-    title = gas_state_events.60.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        60 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.61
-    title = gas_state_events.61.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        61 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.62
-    title = gas_state_events.62.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        62 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.63
-    title = gas_state_events.63.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        63 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.64
-    title = gas_state_events.64.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        64 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.65
-    title = gas_state_events.65.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        65 = {
-            gas_state_event_effect = yes
-        }
-
-    }
-}
-state_event = {
-    id = gas_state_events.66
-    title = gas_state_events.66.t
-    desc = gas_state_events.d
-    picture = GFX_report_event_generic_read_write
-    is_triggered_only = yes
-    hidden = yes
-
-    immediate = {
-
-        66 = {
+        34 = {
             gas_state_event_effect = yes
         }
 
@@ -480,8 +192,8 @@ state_event = {
     }
 }
 state_event = {
-    id = gas_state_events.68
-    title = gas_state_events.68.t
+    id = gas_state_events.33
+    title = gas_state_events.33.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -489,15 +201,15 @@ state_event = {
 
     immediate = {
 
-        68 = {
+        33 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.69
-    title = gas_state_events.69.t
+    id = gas_state_events.48
+    title = gas_state_events.48.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -505,15 +217,15 @@ state_event = {
 
     immediate = {
 
-        69 = {
+        48 = {
             gas_state_event_effect = yes
         }
 
     }
 }
 state_event = {
-    id = gas_state_events.70
-    title = gas_state_events.70.t
+    id = gas_state_events.316
+    title = gas_state_events.316.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -521,7 +233,391 @@ state_event = {
 
     immediate = {
 
-        70 = {
+        316 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.7
+    title = gas_state_events.7.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        7 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.10
+    title = gas_state_events.10.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        10 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.195
+    title = gas_state_events.195.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        195 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.320
+    title = gas_state_events.320.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        320 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.206
+    title = gas_state_events.206.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        206 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.323
+    title = gas_state_events.323.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        323 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.32
+    title = gas_state_events.32.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        32 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.410
+    title = gas_state_events.410.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        410 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.326
+    title = gas_state_events.326.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        326 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.182
+    title = gas_state_events.182.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        182 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.180
+    title = gas_state_events.180.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        180 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.20
+    title = gas_state_events.20.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        20 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.282
+    title = gas_state_events.282.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        282 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.394
+    title = gas_state_events.394.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        394 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.267
+    title = gas_state_events.267.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        267 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.145
+    title = gas_state_events.145.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        145 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.325
+    title = gas_state_events.325.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        325 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.332
+    title = gas_state_events.332.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        332 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.386
+    title = gas_state_events.386.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        386 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.290
+    title = gas_state_events.290.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        290 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.338
+    title = gas_state_events.338.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        338 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.22
+    title = gas_state_events.22.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        22 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.390
+    title = gas_state_events.390.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        390 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.61
+    title = gas_state_events.61.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        61 = {
             gas_state_event_effect = yes
         }
 
@@ -544,6 +640,1062 @@ state_event = {
     }
 }
 state_event = {
+    id = gas_state_events.234
+    title = gas_state_events.234.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        234 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.227
+    title = gas_state_events.227.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        227 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.254
+    title = gas_state_events.254.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        254 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.216
+    title = gas_state_events.216.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        216 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.14
+    title = gas_state_events.14.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        14 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.315
+    title = gas_state_events.315.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        315 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.339
+    title = gas_state_events.339.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        339 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.101
+    title = gas_state_events.101.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        101 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.405
+    title = gas_state_events.405.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        405 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.172
+    title = gas_state_events.172.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        172 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.356
+    title = gas_state_events.356.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        356 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.27
+    title = gas_state_events.27.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        27 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.400
+    title = gas_state_events.400.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        400 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.18
+    title = gas_state_events.18.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        18 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.126
+    title = gas_state_events.126.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        126 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.333
+    title = gas_state_events.333.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        333 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.43
+    title = gas_state_events.43.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        43 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.193
+    title = gas_state_events.193.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        193 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.268
+    title = gas_state_events.268.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        268 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.280
+    title = gas_state_events.280.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        280 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.107
+    title = gas_state_events.107.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        107 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.409
+    title = gas_state_events.409.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        409 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.392
+    title = gas_state_events.392.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        392 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.318
+    title = gas_state_events.318.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        318 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.207
+    title = gas_state_events.207.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        207 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.281
+    title = gas_state_events.281.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        281 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.241
+    title = gas_state_events.241.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        241 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.283
+    title = gas_state_events.283.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        283 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.346
+    title = gas_state_events.346.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        346 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.425
+    title = gas_state_events.425.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        425 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.330
+    title = gas_state_events.330.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        330 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.417
+    title = gas_state_events.417.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        417 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.31
+    title = gas_state_events.31.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        31 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.208
+    title = gas_state_events.208.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        208 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.255
+    title = gas_state_events.255.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        255 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.289
+    title = gas_state_events.289.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        289 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.372
+    title = gas_state_events.372.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        372 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.261
+    title = gas_state_events.261.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        261 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.159
+    title = gas_state_events.159.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        159 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.245
+    title = gas_state_events.245.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        245 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.354
+    title = gas_state_events.354.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        354 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.127
+    title = gas_state_events.127.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        127 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.29
+    title = gas_state_events.29.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        29 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.421
+    title = gas_state_events.421.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        421 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.336
+    title = gas_state_events.336.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        336 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.3
+    title = gas_state_events.3.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        3 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.348
+    title = gas_state_events.348.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        348 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.350
+    title = gas_state_events.350.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        350 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.141
+    title = gas_state_events.141.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        141 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.121
+    title = gas_state_events.121.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        121 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.183
+    title = gas_state_events.183.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        183 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.71
+    title = gas_state_events.71.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        71 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.113
+    title = gas_state_events.113.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        113 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.84
+    title = gas_state_events.84.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        84 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.58
+    title = gas_state_events.58.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        58 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.257
+    title = gas_state_events.257.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        257 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.2
+    title = gas_state_events.2.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        2 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.243
+    title = gas_state_events.243.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        243 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.201
+    title = gas_state_events.201.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        201 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.424
+    title = gas_state_events.424.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        424 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.378
+    title = gas_state_events.378.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        378 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.166
+    title = gas_state_events.166.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        166 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.185
+    title = gas_state_events.185.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        185 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.276
+    title = gas_state_events.276.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        276 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.178
+    title = gas_state_events.178.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        178 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.218
+    title = gas_state_events.218.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        218 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
     id = gas_state_events.97
     title = gas_state_events.97.t
     desc = gas_state_events.d
@@ -554,6 +1706,5094 @@ state_event = {
     immediate = {
 
         97 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.100
+    title = gas_state_events.100.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        100 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.40
+    title = gas_state_events.40.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        40 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.398
+    title = gas_state_events.398.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        398 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.317
+    title = gas_state_events.317.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        317 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.199
+    title = gas_state_events.199.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        199 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.404
+    title = gas_state_events.404.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        404 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.129
+    title = gas_state_events.129.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        129 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.168
+    title = gas_state_events.168.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        168 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.341
+    title = gas_state_events.341.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        341 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.124
+    title = gas_state_events.124.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        124 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.151
+    title = gas_state_events.151.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        151 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.104
+    title = gas_state_events.104.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        104 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.251
+    title = gas_state_events.251.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        251 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.389
+    title = gas_state_events.389.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        389 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.387
+    title = gas_state_events.387.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        387 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.363
+    title = gas_state_events.363.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        363 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.305
+    title = gas_state_events.305.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        305 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.4
+    title = gas_state_events.4.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        4 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.91
+    title = gas_state_events.91.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        91 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.146
+    title = gas_state_events.146.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        146 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.271
+    title = gas_state_events.271.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        271 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.213
+    title = gas_state_events.213.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        213 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.21
+    title = gas_state_events.21.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        21 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.396
+    title = gas_state_events.396.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        396 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.171
+    title = gas_state_events.171.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        171 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.380
+    title = gas_state_events.380.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        380 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.263
+    title = gas_state_events.263.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        263 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.106
+    title = gas_state_events.106.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        106 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.219
+    title = gas_state_events.219.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        219 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.157
+    title = gas_state_events.157.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        157 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.154
+    title = gas_state_events.154.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        154 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.131
+    title = gas_state_events.131.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        131 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.150
+    title = gas_state_events.150.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        150 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.286
+    title = gas_state_events.286.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        286 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.359
+    title = gas_state_events.359.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        359 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.399
+    title = gas_state_events.399.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        399 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.116
+    title = gas_state_events.116.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        116 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.313
+    title = gas_state_events.313.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        313 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.70
+    title = gas_state_events.70.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        70 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.55
+    title = gas_state_events.55.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        55 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.238
+    title = gas_state_events.238.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        238 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.278
+    title = gas_state_events.278.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        278 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.343
+    title = gas_state_events.343.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        343 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.327
+    title = gas_state_events.327.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        327 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.73
+    title = gas_state_events.73.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        73 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.25
+    title = gas_state_events.25.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        25 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.149
+    title = gas_state_events.149.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        149 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.349
+    title = gas_state_events.349.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        349 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.279
+    title = gas_state_events.279.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        279 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.295
+    title = gas_state_events.295.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        295 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.374
+    title = gas_state_events.374.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        374 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.420
+    title = gas_state_events.420.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        420 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.69
+    title = gas_state_events.69.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        69 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.361
+    title = gas_state_events.361.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        361 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.142
+    title = gas_state_events.142.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        142 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.9
+    title = gas_state_events.9.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        9 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.345
+    title = gas_state_events.345.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        345 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.79
+    title = gas_state_events.79.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        79 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.412
+    title = gas_state_events.412.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        412 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.362
+    title = gas_state_events.362.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        362 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.23
+    title = gas_state_events.23.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        23 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.366
+    title = gas_state_events.366.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        366 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.76
+    title = gas_state_events.76.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        76 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.211
+    title = gas_state_events.211.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        211 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.125
+    title = gas_state_events.125.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        125 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.355
+    title = gas_state_events.355.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        355 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.190
+    title = gas_state_events.190.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        190 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.144
+    title = gas_state_events.144.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        144 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.133
+    title = gas_state_events.133.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        133 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.247
+    title = gas_state_events.247.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        247 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.42
+    title = gas_state_events.42.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        42 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.47
+    title = gas_state_events.47.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        47 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.177
+    title = gas_state_events.177.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        177 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.46
+    title = gas_state_events.46.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        46 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.41
+    title = gas_state_events.41.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        41 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.186
+    title = gas_state_events.186.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        186 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.302
+    title = gas_state_events.302.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        302 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.340
+    title = gas_state_events.340.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        340 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.402
+    title = gas_state_events.402.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        402 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.128
+    title = gas_state_events.128.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        128 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.196
+    title = gas_state_events.196.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        196 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.291
+    title = gas_state_events.291.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        291 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.264
+    title = gas_state_events.264.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        264 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.200
+    title = gas_state_events.200.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        200 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.181
+    title = gas_state_events.181.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        181 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.132
+    title = gas_state_events.132.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        132 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.153
+    title = gas_state_events.153.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        153 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.324
+    title = gas_state_events.324.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        324 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.152
+    title = gas_state_events.152.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        152 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.344
+    title = gas_state_events.344.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        344 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.108
+    title = gas_state_events.108.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        108 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.5
+    title = gas_state_events.5.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        5 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.252
+    title = gas_state_events.252.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        252 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.6
+    title = gas_state_events.6.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        6 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.96
+    title = gas_state_events.96.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        96 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.75
+    title = gas_state_events.75.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        75 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.406
+    title = gas_state_events.406.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        406 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.270
+    title = gas_state_events.270.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        270 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.415
+    title = gas_state_events.415.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        415 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.225
+    title = gas_state_events.225.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        225 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.114
+    title = gas_state_events.114.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        114 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.170
+    title = gas_state_events.170.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        170 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.134
+    title = gas_state_events.134.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        134 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.226
+    title = gas_state_events.226.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        226 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.422
+    title = gas_state_events.422.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        422 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.173
+    title = gas_state_events.173.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        173 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.12
+    title = gas_state_events.12.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        12 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.418
+    title = gas_state_events.418.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        418 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.229
+    title = gas_state_events.229.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        229 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.304
+    title = gas_state_events.304.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        304 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.299
+    title = gas_state_events.299.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        299 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.385
+    title = gas_state_events.385.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        385 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.45
+    title = gas_state_events.45.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        45 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.288
+    title = gas_state_events.288.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        288 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.86
+    title = gas_state_events.86.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        86 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.4232
+    title = gas_state_events.4232.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        4232 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.138
+    title = gas_state_events.138.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        138 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.306
+    title = gas_state_events.306.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        306 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.312
+    title = gas_state_events.312.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        312 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.99
+    title = gas_state_events.99.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        99 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.224
+    title = gas_state_events.224.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        224 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.13
+    title = gas_state_events.13.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        13 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.242
+    title = gas_state_events.242.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        242 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.118
+    title = gas_state_events.118.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        118 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.37
+    title = gas_state_events.37.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        37 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.236
+    title = gas_state_events.236.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        236 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.63
+    title = gas_state_events.63.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        63 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.411
+    title = gas_state_events.411.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        411 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.292
+    title = gas_state_events.292.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        292 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.231
+    title = gas_state_events.231.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        231 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.135
+    title = gas_state_events.135.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        135 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.297
+    title = gas_state_events.297.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        297 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.331
+    title = gas_state_events.331.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        331 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.59
+    title = gas_state_events.59.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        59 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.325
+    title = gas_state_events.325.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        325 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.377
+    title = gas_state_events.377.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        377 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.284
+    title = gas_state_events.284.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        284 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.105
+    title = gas_state_events.105.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        105 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.365
+    title = gas_state_events.365.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        365 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.123
+    title = gas_state_events.123.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        123 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.357
+    title = gas_state_events.357.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        357 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.16
+    title = gas_state_events.16.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        16 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.381
+    title = gas_state_events.381.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        381 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.235
+    title = gas_state_events.235.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        235 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.367
+    title = gas_state_events.367.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        367 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.39
+    title = gas_state_events.39.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        39 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.189
+    title = gas_state_events.189.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        189 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.266
+    title = gas_state_events.266.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        266 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.351
+    title = gas_state_events.351.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        351 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.371
+    title = gas_state_events.371.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        371 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.272
+    title = gas_state_events.272.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        272 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.209
+    title = gas_state_events.209.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        209 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.74
+    title = gas_state_events.74.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        74 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.300
+    title = gas_state_events.300.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        300 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.82
+    title = gas_state_events.82.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        82 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.53
+    title = gas_state_events.53.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        53 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.187
+    title = gas_state_events.187.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        187 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.89
+    title = gas_state_events.89.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        89 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.11
+    title = gas_state_events.11.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        11 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.122
+    title = gas_state_events.122.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        122 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.85
+    title = gas_state_events.85.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        85 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.52
+    title = gas_state_events.52.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        52 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.60
+    title = gas_state_events.60.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        60 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.119
+    title = gas_state_events.119.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        119 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.174
+    title = gas_state_events.174.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        174 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.308
+    title = gas_state_events.308.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        308 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.232
+    title = gas_state_events.232.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        232 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.335
+    title = gas_state_events.335.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        335 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.95
+    title = gas_state_events.95.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        95 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.49
+    title = gas_state_events.49.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        49 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.68
+    title = gas_state_events.68.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        68 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.72
+    title = gas_state_events.72.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        72 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.140
+    title = gas_state_events.140.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        140 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.103
+    title = gas_state_events.103.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        103 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.167
+    title = gas_state_events.167.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        167 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.78
+    title = gas_state_events.78.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        78 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.147
+    title = gas_state_events.147.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        147 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.98
+    title = gas_state_events.98.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        98 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.222
+    title = gas_state_events.222.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        222 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.148
+    title = gas_state_events.148.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        148 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.192
+    title = gas_state_events.192.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        192 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.139
+    title = gas_state_events.139.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        139 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.92
+    title = gas_state_events.92.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        92 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.376
+    title = gas_state_events.376.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        376 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.155
+    title = gas_state_events.155.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        155 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.184
+    title = gas_state_events.184.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        184 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.329
+    title = gas_state_events.329.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        329 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.258
+    title = gas_state_events.258.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        258 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.368
+    title = gas_state_events.368.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        368 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.210
+    title = gas_state_events.210.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        210 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.109
+    title = gas_state_events.109.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        109 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.136
+    title = gas_state_events.136.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        136 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.314
+    title = gas_state_events.314.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        314 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.65
+    title = gas_state_events.65.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        65 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.62
+    title = gas_state_events.62.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        62 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.285
+    title = gas_state_events.285.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        285 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.163
+    title = gas_state_events.163.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        163 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.179
+    title = gas_state_events.179.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        179 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.303
+    title = gas_state_events.303.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        303 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.342
+    title = gas_state_events.342.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        342 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.66
+    title = gas_state_events.66.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        66 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.57
+    title = gas_state_events.57.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        57 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.160
+    title = gas_state_events.160.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        160 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.382
+    title = gas_state_events.382.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        382 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.248
+    title = gas_state_events.248.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        248 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.212
+    title = gas_state_events.212.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        212 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.393
+    title = gas_state_events.393.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        393 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.322
+    title = gas_state_events.322.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        322 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.191
+    title = gas_state_events.191.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        191 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.384
+    title = gas_state_events.384.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        384 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.403
+    title = gas_state_events.403.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        403 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.203
+    title = gas_state_events.203.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        203 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.24
+    title = gas_state_events.24.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        24 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.265
+    title = gas_state_events.265.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        265 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.111
+    title = gas_state_events.111.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        111 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.401
+    title = gas_state_events.401.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        401 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.50
+    title = gas_state_events.50.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        50 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.273
+    title = gas_state_events.273.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        273 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.17
+    title = gas_state_events.17.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        17 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.319
+    title = gas_state_events.319.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        319 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.416
+    title = gas_state_events.416.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        416 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.259
+    title = gas_state_events.259.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        259 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.253
+    title = gas_state_events.253.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        253 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.117
+    title = gas_state_events.117.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        117 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.19
+    title = gas_state_events.19.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        19 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.158
+    title = gas_state_events.158.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        158 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.321
+    title = gas_state_events.321.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        321 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.296
+    title = gas_state_events.296.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        296 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.294
+    title = gas_state_events.294.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        294 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.83
+    title = gas_state_events.83.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        83 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.352
+    title = gas_state_events.352.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        352 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.369
+    title = gas_state_events.369.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        369 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.334
+    title = gas_state_events.334.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        334 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.28
+    title = gas_state_events.28.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        28 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.233
+    title = gas_state_events.233.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        233 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.175
+    title = gas_state_events.175.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        175 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.250
+    title = gas_state_events.250.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        250 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.120
+    title = gas_state_events.120.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        120 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.88
+    title = gas_state_events.88.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        88 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.156
+    title = gas_state_events.156.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        156 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.397
+    title = gas_state_events.397.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        397 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.310
+    title = gas_state_events.310.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        310 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.137
+    title = gas_state_events.137.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        137 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.246
+    title = gas_state_events.246.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        246 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.26
+    title = gas_state_events.26.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        26 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.81
+    title = gas_state_events.81.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        81 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.204
+    title = gas_state_events.204.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        204 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.202
+    title = gas_state_events.202.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        202 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.298
+    title = gas_state_events.298.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        298 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.8
+    title = gas_state_events.8.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        8 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.262
+    title = gas_state_events.262.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        262 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.217
+    title = gas_state_events.217.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        217 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.130
+    title = gas_state_events.130.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        130 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.249
+    title = gas_state_events.249.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        249 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.162
+    title = gas_state_events.162.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        162 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.164
+    title = gas_state_events.164.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        164 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.328
+    title = gas_state_events.328.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        328 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.364
+    title = gas_state_events.364.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        364 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.115
+    title = gas_state_events.115.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        115 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.176
+    title = gas_state_events.176.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        176 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.388
+    title = gas_state_events.388.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        388 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.228
+    title = gas_state_events.228.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        228 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.413
+    title = gas_state_events.413.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        413 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.112
+    title = gas_state_events.112.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        112 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.165
+    title = gas_state_events.165.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        165 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.383
+    title = gas_state_events.383.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        383 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.54
+    title = gas_state_events.54.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        54 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.36
+    title = gas_state_events.36.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        36 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.337
+    title = gas_state_events.337.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        337 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.293
+    title = gas_state_events.293.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        293 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.244
+    title = gas_state_events.244.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        244 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.80
+    title = gas_state_events.80.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        80 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.407
+    title = gas_state_events.407.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        407 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.260
+    title = gas_state_events.260.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        260 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.1
+    title = gas_state_events.1.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        1 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.370
+    title = gas_state_events.370.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        370 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.30
+    title = gas_state_events.30.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        30 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.275
+    title = gas_state_events.275.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        275 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.311
+    title = gas_state_events.311.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        311 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.230
+    title = gas_state_events.230.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        230 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.194
+    title = gas_state_events.194.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        194 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.64
+    title = gas_state_events.64.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        64 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.143
+    title = gas_state_events.143.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        143 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.214
+    title = gas_state_events.214.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        214 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.360
+    title = gas_state_events.360.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        360 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.395
+    title = gas_state_events.395.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        395 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.309
+    title = gas_state_events.309.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        309 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.375
+    title = gas_state_events.375.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        375 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.188
+    title = gas_state_events.188.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        188 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.277
+    title = gas_state_events.277.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        277 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.38
+    title = gas_state_events.38.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        38 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.358
+    title = gas_state_events.358.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        358 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.301
+    title = gas_state_events.301.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        301 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.269
+    title = gas_state_events.269.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        269 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.90
+    title = gas_state_events.90.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        90 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.161
+    title = gas_state_events.161.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        161 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.287
+    title = gas_state_events.287.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        287 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.353
+    title = gas_state_events.353.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        353 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.102
+    title = gas_state_events.102.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        102 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.220
+    title = gas_state_events.220.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        220 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.379
+    title = gas_state_events.379.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        379 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.237
+    title = gas_state_events.237.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        237 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.51
+    title = gas_state_events.51.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        51 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.274
+    title = gas_state_events.274.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        274 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.414
+    title = gas_state_events.414.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        414 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.221
+    title = gas_state_events.221.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        221 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.15
+    title = gas_state_events.15.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        15 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.240
+    title = gas_state_events.240.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        240 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.307
+    title = gas_state_events.307.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        307 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.373
+    title = gas_state_events.373.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        373 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.35
+    title = gas_state_events.35.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        35 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.197
+    title = gas_state_events.197.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        197 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.408
+    title = gas_state_events.408.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        408 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.205
+    title = gas_state_events.205.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        205 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.239
+    title = gas_state_events.239.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        239 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.93
+    title = gas_state_events.93.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        93 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.44
+    title = gas_state_events.44.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        44 = {
+            gas_state_event_effect = yes
+        }
+
+    }
+}
+state_event = {
+    id = gas_state_events.347
+    title = gas_state_events.347.t
+    desc = gas_state_events.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        347 = {
             gas_state_event_effect = yes
         }
 
