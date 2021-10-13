@@ -8,8 +8,8 @@ namespace gasattacks
 {
     class Program
     {
-        
-        public static string[] stateFiles = Directory.GetFiles("C:/Users/elwol/Documents/Paradox Interactive/Hearts of Iron IV/mod/FFU/history/states/","*.txt");
+
+        public static string[] stateFiles = Directory.GetFiles("/home/elwolf/.local/share/Paradox Interactive/Hearts of Iron IV/mod/FFU/history/states","*.txt");
         public static List<string> provinceArray = new List<string>();
         public static List<string> stateEvents = new List<string>();
         public static List<string> leaderEvents = new List<string>();
@@ -38,7 +38,7 @@ namespace gasattacks
             for (int i = 0; i < stateFiles.Length; i++)
             {
                 Console.WriteLine("Reading file " + stateFiles[i]);
-                if (isWesternFront(stateFiles[i]))
+                if (shouldGas(stateFiles[i]))
                 {
                     Console.WriteLine(stateFiles[i] + " is western front, adding provinces to array");
                     if(!File.Exists("gas_state_events.txt"))
@@ -107,9 +107,9 @@ namespace gasattacks
             return sProvinces;
         }
 
-        static private bool isWesternFront(string state)
+        static private bool shouldGas(string state)
         {
-            if (Regex.IsMatch(File.ReadAllText(state),@".*FRA.*") || Regex.IsMatch(File.ReadAllText(state),@".*BEL.*") || Regex.IsMatch(File.ReadAllText(state),@"(?<=^|\s)90(?=$|\s)") || Regex.IsMatch(File.ReadAllText(state),@"(?<=^|\s)49(?=$|\s)") || Regex.IsMatch(File.ReadAllText(state),@"(?<=^|\s)89(?=$|\s)"))
+            if (Regex.IsMatch(File.ReadAllText(state),@".*FRA.*") || Regex.IsMatch(File.ReadAllText(state),@".*BEL.*") || Regex.IsMatch(File.ReadAllText(state),@".*ITA.*") || Regex.IsMatch(File.ReadAllText(state),@".*AUS.*") || Regex.IsMatch(File.ReadAllText(state),@".*GER.*") || Regex.IsMatch(File.ReadAllText(state),@".*SOV.*") || Regex.IsMatch(File.ReadAllText(state),@".*EGY.*") || Regex.IsMatch(File.ReadAllText(state),@".*TUR.*"))
             {
                 return true;
             }
