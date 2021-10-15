@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pch6yhOqgr9hOxCA8q1fJyiBIndCbHf3C5qXl4BmBHRj6Z6+R4HGKaRS8NjKEW3qjtYqALFnLYuLtZmHtr/zNg==",
+  "success": true,
+  "projectFilePath": "/home/elwolf/.local/share/Paradox Interactive/Hearts of Iron IV/mod/FFU/resources/resources.csproj",
+  "expectedPackageFiles": [
+    "/home/elwolf/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

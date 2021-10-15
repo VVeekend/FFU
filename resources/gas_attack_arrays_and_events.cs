@@ -9,10 +9,11 @@ namespace gasattacks
     class Program
     {
 
-        public static string[] stateFiles = Directory.GetFiles("/home/elwolf/.local/share/Paradox Interactive/Hearts of Iron IV/mod/FFU/history/states","*.txt");
+        public static string[] stateFiles = Directory.GetFiles("../history/states","*.txt");
         public static List<string> provinceArray = new List<string>();
         public static List<string> stateEvents = new List<string>();
         public static List<string> leaderEvents = new List<string>();
+        public static string[] definitions = File.ReadAllLines("../map/definition.csv");
 
         static void Main(string[] args)
         {
@@ -40,7 +41,7 @@ namespace gasattacks
                 Console.WriteLine("Reading file " + stateFiles[i]);
                 if (shouldGas(stateFiles[i]))
                 {
-                    Console.WriteLine(stateFiles[i] + " is western front, adding provinces to array");
+                    Console.WriteLine(stateFiles[i] + " adding provinces to array");
                     if(!File.Exists("gas_state_events.txt"))
                     {
                         doStateEvent(getStateID(stateFiles[i]));
@@ -91,15 +92,18 @@ namespace gasattacks
                     {
                         if(fileLines[i+1].Split(' ')[x] != String.Empty)
                         {
-                            try
-                            {
-                                sProvinces.Add(Convert.ToInt32(fileLines[i+1].Split(' ')[x]));
-                            }
-                            catch (System.Exception)
-                            {
-                                Console.WriteLine("sProvinces exception");
-                                continue;
-                            }
+				try
+				{
+					if (isLand(Convert.ToInt32(fileLines[i+1].Split(' ')[x]),definitions))
+					{
+                	                	sProvinces.Add(Convert.ToInt32(fileLines[i+1].Split(' ')[x]));
+					}
+				}
+				catch(System.Exception)
+                            	{
+                                	Console.WriteLine("sProvinces exception");
+                                	continue;
+                            	}
                         }
                     }
                 }
@@ -112,6 +116,23 @@ namespace gasattacks
             if (Regex.IsMatch(File.ReadAllText(state),@".*FRA.*") || Regex.IsMatch(File.ReadAllText(state),@".*BEL.*") || Regex.IsMatch(File.ReadAllText(state),@".*ITA.*") || Regex.IsMatch(File.ReadAllText(state),@".*AUS.*") || Regex.IsMatch(File.ReadAllText(state),@".*GER.*") || Regex.IsMatch(File.ReadAllText(state),@".*SOV.*") || Regex.IsMatch(File.ReadAllText(state),@".*EGY.*") || Regex.IsMatch(File.ReadAllText(state),@".*TUR.*"))
             {
                 return true;
+            }
+            return false;
+        }
+
+        static private bool isLand(int ID, string[] definitions)
+        {
+            string[] read;
+            foreach (string item in definitions)
+            {
+                if(!String.IsNullOrWhiteSpace(item))
+                {
+                    read = item.Split(';');
+                    if(Convert.ToInt32(read[0]) == ID && read != null && read[3] == "land" )
+                    {
+			    return true;
+                    }
+                }
             }
             return false;
         }
