@@ -1098,7 +1098,7 @@ technologies = {
 
 		sniper = {
 			recon = 1
-			soft_attack = 0.1
+			soft_attack = 0.05
 			amphibious = {	
 				defence = 0.2
 			}
@@ -1145,7 +1145,7 @@ technologies = {
 
 		sniper = {
 			recon  = 1
-			soft_attack = 0.1
+			soft_attack = 0.05
 			forest = {
 				attack = 0.025
 				defence = 0.025
@@ -1197,8 +1197,7 @@ technologies = {
 
 		sniper = {
 			recon  = 1
-			max_organisation = 5
-			soft_attack = 0.1
+			soft_attack = 0.05
 			mountain = {
 				attack = 0.025
 				defence = 0.025
@@ -1303,7 +1302,7 @@ technologies = {
 
 		flamethrower = {
 			ap_attack = 0.1
-			soft_attack = 0.1
+			soft_attack = 0.05
 			urban = {
 				attack = 0.025
 			}
@@ -1352,7 +1351,7 @@ technologies = {
 
 		flamethrower = {
 			ap_attack = 0.1
-			soft_attack = 0.1
+			soft_attack = 0.05
 			fort = {
 				attack = 0.025
 			}
@@ -1398,7 +1397,7 @@ technologies = {
 
 		flamethrower = {
 			ap_attack = 0.1
-			soft_attack = 0.1
+			soft_attack = 0.05
 			urban = {
 				attack = 0.025
 			}

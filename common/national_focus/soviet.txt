@@ -858,7 +858,7 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_main_directorate_of_the_general_staff }
-		completion_reward = { add_tech_bonus={ name=land_doc_bonus bonus=2 uses=1 category=land_doctrine } }
+		completion_reward = { add_tech_bonus={ name=artillery_bonus bonus=2 uses = 1 category=artillery }  add_tech_bonus={ name=land_doc_bonus bonus=2 uses=1 category=land_doctrine } }
 		ai_will_do = {
 			factor = 1
 		}

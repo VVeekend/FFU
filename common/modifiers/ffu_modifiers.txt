@@ -1,5 +1,5 @@
 gas_province_modifier = { # on Province
-	local_org_regain = -0.2
-	army_attack_factor = -0.2
-	army_defence_factor = -0.2
+	local_org_regain = -0.1
+	army_attack_factor = -0.1
+	army_defence_factor = -0.1
 }

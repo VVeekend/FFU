@@ -16,9 +16,7 @@ sub_units = {
 		
 		categories = {
 			category_front_line
-			category_light_infantry
 			category_support_battalions
-			category_all_infantry
 			category_army
 		}
 	

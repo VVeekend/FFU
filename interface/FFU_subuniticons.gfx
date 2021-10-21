@@ -1,0 +1,34 @@
+spriteTypes = {	
+
+	##################################
+	### Large images for DIVISIONS ###
+	spriteType = { name = "GFX_unit_gunner_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_gunner_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_gunner_support_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_gunner_support_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_jaeger_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_infantry3_icon.dds" noOfFrames = 2 }				
+	spriteType = { name = "GFX_unit_Stormtrooper_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_stormtrooper_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_infantry2_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_infantry2_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_sniper_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_sniper_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_flamethrower_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_flamethrower_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_wardog_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_wardog_icon.dds" noOfFrames = 2 }
+
+	#HOI4TGW
+	spriteType = { name = "GFX_unit_armored_car_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_armoredcar_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_artillery_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/support_unit_heavy_art_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_artillery_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_heavy_art_icon.dds" noOfFrames = 2 }
+
+	####################################################
+	### Small images for DIVISIONS (On-map-counters) ###
+
+	spriteType = { name = "GFX_unit_Stormtrooper_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_stormtrooper_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_infantry2_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry2_icon.dds" noOfFrames = 2 }
+    spriteType = { name = "GFX_unit_jaeger_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry3_icon.dds" noOfFrames = 1}
+
+	#HOI4TGW
+	spriteType = { name = "GFX_unit_armored_car_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armoredcar.dds" noOfFrames = 2}
+	
+	#HOI4 TGW
+	spriteType = { name = "GFX_unit_heavy_artillery_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_art_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_heavy_artillery_brigade_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_art_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_heavy_art_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_art_icon.dds" noOfFrames = 2}
+
+}

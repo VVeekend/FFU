@@ -14,9 +14,9 @@ leader_traits = {
 		trait_type = status_trait
 
 		modifier = {
-			army_org_regain = 0.2
-			army_attack_factor = 0.2
-			army_defence_factor = 0.2
+			army_org_regain = 0.1
+			army_attack_factor = 0.1
+			army_defence_factor = 0.1
 		}
 			
 	}

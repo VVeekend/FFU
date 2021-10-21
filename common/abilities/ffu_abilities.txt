@@ -16,7 +16,7 @@ ability = {
 			factor = -1
 		}
 
-		cost = 0.25
+		cost = 0.05
 		duration = 1 #it's by hours. means nothing anyway
 		allowed = {
 			NOT = {
@@ -38,7 +38,7 @@ ability = {
 				}
 			}
 
-			set_temp_variable = { duration = 16 } #days
+			set_temp_variable = { duration = 7 } #days
 
 			meta_effect = {
 				text = {
