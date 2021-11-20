@@ -72,7 +72,7 @@ country_event = {
 	}
 }
 
-#1913 Presidental Election
+#George Clemenceau PM
 country_event = {
 	id = ffufrance.4
 	title = ffufrance.4.t

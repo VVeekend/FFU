@@ -117,6 +117,7 @@ news_event = {
 					modifier = HOI4TGW_Opinion_Russia_Leave_Entente
 				} 
 			}
+			FRA = { country_event = { days = 7 id = ffufrance.4 } }
 			RUS = {
 				create_faction = "Comintern"
 				

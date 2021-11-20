@@ -52,7 +52,7 @@ ideas={
 			#ENG_william_nicholson={ allowed={ tag=ENG } traits={ army_concealment_1 } ai_will_do={ factor=1 } }
 			#ENG_charles_douglas={ allowed={ tag=ENG } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
 			ENG_john_french={ ledger = army allowed={ tag=ENG } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
-			#ENG_william_robertson={ allowed={ tag=ENG } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
+			#ENG_william_robertson={ ledger = army allowed={ tag=ENG } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
 			ENG_frederick_lambart={ ledger = army allowed={ tag=ENG } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
 			#ENG_john_fisher={ allowed={ tag=ENG } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }
 			ENG_arthur_wilson={ ledger = navy allowed={ tag=ENG } traits={ navy_naval_air_defense_1 } ai_will_do={ factor=1 } }

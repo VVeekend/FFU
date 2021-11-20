@@ -2488,13 +2488,13 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+		industrial_capacity_factory = 0.025
 	}
 
 	construction_company = {
 		random = no
 
 		production_speed_infrastructure_factor = 0.1
-		
 		ai_will_do = {
 			factor = 1
 		}
