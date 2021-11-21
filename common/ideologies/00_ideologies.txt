@@ -98,7 +98,7 @@ ideologies = {
 		
 		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
+			can_send_volunteers = no
 			can_puppet = yes
 			can_occupy_non_war = yes
 		}
@@ -145,7 +145,7 @@ ideologies = {
 		
 		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
+			can_send_volunteers = no
 			can_puppet = yes
 			can_occupy_non_war = no
 		}
@@ -191,7 +191,7 @@ ideologies = {
 		rules = {
 			can_force_government = no
 			can_puppet = yes
-			can_send_volunteers = yes
+			can_send_volunteers = no
 		}
 		
 		modifiers = {

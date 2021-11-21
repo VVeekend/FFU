@@ -572,7 +572,6 @@ focus_tree = {
 			factor = 1
 		}
 		complete_tooltip = {
-		    set_rule = { can_send_volunteers = yes }
 			add_political_power= 150
 		}
 		completion_reward = {
