@@ -27,4 +27,32 @@ ENG_annex_EGY = {
 			}
 		}
     }
+ENG_annex_CAN = {
+		icon = generic_operation
+
+			allowed = {
+				tag = ENG
+			}
+
+			available = {
+				CAN = { is_ai = yes }
+			}
+			
+			fire_only_once = yes
+
+			cost = 0
+
+			visible = {
+			country_exists = CAN
+				}
+				
+			complete_effect = {
+				ENG = { 
+					annex_country = {
+						target = CAN
+						transfer_troops = yes 
+					}
+			}
+		}
+    }
 }
