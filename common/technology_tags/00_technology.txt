@@ -110,6 +110,11 @@ technology_folders = {
 			has_dlc = "No Step Back"
 		}
 	}
+	nsb_armour_folder = {
+		ledger = army
+		available = {
+			has_dlc = "No Step Back"
+		}
 	artillery_folder = {
 		ledger = army
 	}
