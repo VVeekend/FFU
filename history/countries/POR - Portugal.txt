@@ -10,10 +10,10 @@ set_convoys = 100
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
+recruit_character = POR_emanuel_ii
 recruit_character = POR_gomes_da_costa
 recruit_character = POR_bernadino_machado
 recruit_character = POR_sidónio_pais
-recruit_character = POR_emanuel_ii
 recruit_character = POR_joão_do_canto_e_castro
 recruit_character = POR_antónio_josé_de_almeida
 recruit_character = POR_teófilo_braga

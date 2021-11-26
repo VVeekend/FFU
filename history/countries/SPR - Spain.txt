@@ -11,12 +11,12 @@ set_convoys = 150
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
+recruit_character = SPR_alfonso_xiii
 recruit_character = SPR_antonio_garcía_quejido
 recruit_character = SPR_julián_besteiro
 recruit_character = SPR_ramón_lamoneda
 recruit_character = SPR_alejandro_lerroux
 recruit_character = SPR_pablo_iglesias
-recruit_character = SPR_alfonso_xiii
 recruit_character = SPR_berenguer_d.
 recruit_character = SPR_cavalcanti
 recruit_character = SPR_gómez_jordana

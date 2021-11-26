@@ -808,4 +808,155 @@ characters={
 			legacy_id=34313
 		}
 	}
+	#PAIN BEGINS HERE
+	GER_Emil={ 
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					captain_of_industry 
+				}
+		}
+	}
+	GER_bernhard_von_bulow={
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					prince_of_terror 
+				}
+		}
+	}
+	GER_theobald_von_bethmann_hollweg ={
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					appeaser 
+				}
+		}
+	}
+	GER_gottlieb_von_jagow ={
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					propaganda_expert 
+				}
+		}
+	}
+	GER_arthur_zimmermann={
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					smooth_talking_charmer 
+				}
+		}
+	}
+	GER_karl_von_einem={
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					national_integralist 
+				}
+		}
+	}
+	GER_reinhold_von_sydow ={
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					quartermaster_general 
+				}
+		}
+	}
+	GER_clemens_von_delbruck ={
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					popular_figurehead 
+				}
+		}
+	}
+	GER_karl_trimborn={
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					silent_workhorse 
+				}
+		}
+	}
+	GER_Yaboi={
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					war_industrialist 
+				}
+		}
+	}
+	GER_wolfgang_kapp ={
+		advisor={
+			slot = political_advisor
+			idea_token = rudolf_hess
+			allowed  = {
+					original_tag  = CAN
+				}
+				traits  = {
+					technocrat 
+				}
+		}
+	}
+	GER_josias_von_heeringen={
+		advisor={
+			slot = theorist
+			idea_token = CAN_tasker_cook
+			ledger  = air 
+				allowed  = {
+					original_tag  = CAN
+				}
+				research_bonus  = {
+					land_doctrine  = 0.100
+				}
+				traits  = {
+					blitzkrieg_theorist 
+				}
+		}
+		
+	}
+		
 }

@@ -10,6 +10,7 @@ set_stability = 0.85
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
+recruit_character = SWI_federal_council
 recruit_character = SWI_ulrich_wille
 recruit_character = SWI_felix_louis_calonder
 recruit_character = SWI_gustave_ador
@@ -17,7 +18,6 @@ recruit_character = SWI_jules_humbertdroz
 recruit_character = SWI_camille_decoppet
 recruit_character = SWI_edmund_schulthess
 recruit_character = SWI_robert_haab
-recruit_character = SWI_federal_council
 recruit_character = SWI_audéoud
 recruit_character = SWI_bornand
 recruit_character = SWI_sonderegger
