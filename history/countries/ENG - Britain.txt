@@ -51,6 +51,7 @@ recruit_character = ENG_frederic_thesiger
 recruit_character = ENG_rufus_isaacs
 recruit_character = ENG_walter_davidson
 recruit_character = ENG_george_v
+recruit_character = ENG_edward_grey
 recruit_character = ENG_sir_douglas_haig
 recruit_character = ENG_hamilton_i.s.m.
 recruit_character = ENG_aylmer_hunterweston

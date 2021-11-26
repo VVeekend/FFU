@@ -98,6 +98,24 @@ characters={
 			id=-1
 		}
 	}
+  ##Advisors##
+  
+   ENG_edward_grey={
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Oswald_Mosley.dds"
+			} }
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_oswald_mosley
+			traits  = {
+				captain_of_industry 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+		} }
+		
+  ##Army##
 	ENG_sir_douglas_haig={
 		name="Sir Douglas Haig"
 		portraits={
@@ -236,7 +254,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	ENG_butler,_sir_r.h.k={
+	ENG_butler_sir_r.h.k={
 		name="Butler, Sir R.H.K"
 		portraits={
 			army={
@@ -256,7 +274,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	ENG_byng,j.h.g={
+	ENG_byngj.h.g={
 		name="Byng,J.H.G"
 		portraits={
 			army={
@@ -354,7 +372,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	ENG_horne,_sir_h.={
+	ENG_horne_sir_h.={
 		name="Horne, Sir H."
 		portraits={
 			army={
@@ -413,7 +431,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	ENG_maxse,_sir_i.={
+	ENG_maxse_sir_i.={
 		name="Maxse, Sir I."
 		portraits={
 			army={
@@ -432,7 +450,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	ENG_plumer,_h.={
+	ENG_plumer_h.={
 		name="Plumer, H."
 		portraits={
 			army={
@@ -452,7 +470,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	ENG_rawlinson,_sir_h.={
+	ENG_rawlinson_sir_h.={
 		name="Rawlinson, Sir H."
 		portraits={
 			army={
@@ -639,7 +657,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/admiral/ENG_bridgeman.tga"
+				large="gfx/admiral/ENG_bridgeman.dds"
 			}
 		}
 		navy_leader={
@@ -659,7 +677,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/admiral/ENG_beatty.tga"
+				large="gfx/admiral/ENG_beatty.dds"
 			}
 		}
 		navy_leader={
@@ -679,7 +697,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/admiral/ENG_jellicoe.tga"
+				large="gfx/admiral/ENG_jellicoe.dds"
 			}
 		}
 		navy_leader={
@@ -699,7 +717,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/admiral/ENG_egerton.tga"
+				large="gfx/admiral/ENG_egerton.dds"
 			}
 		}
 		navy_leader={
@@ -719,7 +737,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/admiral/ENG_pakenham.tga"
+				large="gfx/admiral/ENG_pakenham.dds"
 			}
 		}
 		navy_leader={
@@ -739,7 +757,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/admiral/ENG_goodenough.tga"
+				large="gfx/admiral/ENG_goodenough.dds"
 			}
 		}
 		navy_leader={
@@ -759,7 +777,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/admiral/ENG_keyes.tga"
+				large="gfx/admiral/ENG_keyes.dds"
 			}
 		}
 		navy_leader={
@@ -779,7 +797,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/admiral/ENG_tyrwhitt.tga"
+				large="gfx/admiral/ENG_tyrwhitt.dds"
 			}
 		}
 		navy_leader={
