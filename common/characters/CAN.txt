@@ -71,7 +71,7 @@ characters={
 			legacy_id=13003
 		}
 	}
-	CAN_lipsett,l.j.={
+	CAN_lipsettl={
 		name="Lipsett,L.J."
 		portraits={
 			army={
