@@ -1,17 +1,4 @@
 ideas={
-	political_advisor={
-			ENG_edward_grey={ allowed={ tag=ENG } traits={ captain_of_industry } ai_will_do={ factor=1 } }
-			ENG_henry_petty_fitzmaurice={ allowed={ tag=ENG } traits={ dealbroker } ai_will_do={ factor=1 } }
-			ENG_frederick_maurice={ allowed={ tag=ENG } traits={ silent_workhorse } ai_will_do={ factor=1 } }
-			ENG_arthur_balfour={ allowed={ tag=ENG } traits={ conservative_nationalist } ai_will_do={ factor=1 } }
-			ENG_george_macdonogh={ allowed={ tag=ENG } traits={ head_of_intelligence } ai_will_do={ factor=1 } }
-			ENG_reginald_mckenna={ allowed={ tag=ENG } traits={ armaments_organizer } ai_will_do={ factor=1 } }
-			ENG_herbert_samuel={ allowed={ tag=ENG } traits={ compassionate_gentleman } ai_will_do={ factor=1 } }
-			ENG_aretas_akers_douglas={ allowed={ tag=ENG } traits={ economist } ai_will_do={ factor=1 } }
-			ENG_arthur_henderson={ allowed={ tag=ENG } traits={ popular_figurehead } ai_will_do={ factor=1 } }
-			ENG_william_peel={ allowed={ tag=ENG } traits={ connected_citizen } ai_will_do={ factor=1 } }
-			ENG_herbert_mullaly={ allowed={ tag=ENG } traits={ war_industrialist } ai_will_do={ factor=1 } }
-			}
 	theorist={
 			ENG_st_john_brodrick={ ledger = army allowed={ tag=ENG } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
 			ENG_richard_haldane={ ledger = army allowed={ tag=ENG } traits={ mobile_warfare_expert }  research_bonus = { land_doctrine = 0.10	}  ai_will_do={ factor=1 } }

@@ -103,18 +103,161 @@ characters={
    ENG_edward_grey={
 		portraits={
 			civilian={
-				large="gfx/leaders/ENG/Portrait_Britain_Oswald_Mosley.dds"
+				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_oswald_mosley
 			traits  = {
 				captain_of_industry 
 			}
 			ai_will_do  = {
 				factor  = 1.000
+			}
 		} }
 		
+   ENG_henry_petty_fitzmaurice={
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
+			} }
+		advisor={
+			slot = political_advisor
+			traits  = {
+				dealbroker
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		} }
+		
+   ENG_frederick_maurice={
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
+			} }
+		advisor={
+			slot = political_advisor
+			traits  = {
+				silent_workhorse
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		} }
+
+   ENG_arthur_balfour={
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
+			} }
+		advisor={
+			slot = political_advisor
+			traits  = {
+				conservative_nationalist
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		} }
+
+   ENG_george_macdonogh={
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
+			} }
+		advisor={
+			slot = political_advisor
+			traits  = {
+				head_of_intelligence
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		} }
+   ENG_reginald_mckenna={
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
+			} }
+		advisor={
+			slot = political_advisor
+			traits  = {
+				armaments_organizer 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		} }
+   ENG_herbert_samuel={
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
+			} }
+		advisor={
+			slot = political_advisor
+			traits  = {
+				compassionate_gentleman
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		} }
+   ENG_aretas_akers_douglas={
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
+			} }
+		advisor={
+			slot = political_advisor
+			traits  = {
+				economist
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		} }
+   ENG_arthur_henderson={
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
+			} }
+		advisor={
+			slot = political_advisor
+			traits  = {
+				popular_figurehead
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		} }
+   ENG_william_peel={
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
+			} }
+		advisor={
+			slot = political_advisor
+			traits  = {
+				connected_citizen
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		} }
+   ENG_herbert_mullaly={
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
+			} }
+		advisor={
+			slot = political_advisor
+			traits  = {
+				war_industrialist
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		} }		
   ##Army##
 	ENG_sir_douglas_haig={
 		name="Sir Douglas Haig"
