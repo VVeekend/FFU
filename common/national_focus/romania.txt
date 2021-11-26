@@ -17,7 +17,7 @@ focus = {
 		y = 1
 		}
 focus = {
-		id = ROM_legacy_of_1928
+		id = ROM_legacy_of_1908
 		prerequisite = { focus = ROM_define_parlimentary_role}
 		icon = GFX_focus_rom_parties_end
 		completion_reward = { add_political_power = 150 }
@@ -29,11 +29,11 @@ focus = {
 		}
 focus = {
 		id = ROM_legitimize_constitution
-		prerequisite = { focus = ROM_legacy_of_1928}
+		prerequisite = { focus = ROM_legacy_of_1908}
 		icon = GFX_focus_rom_coup
 		completion_reward = { add_political_power = 50 }
 		ai_will_do = { factor = 10 }
-		relative_position_id = ROM_legacy_of_1928
+		relative_position_id = ROM_legacy_of_1908
 		cost = 10
 		x = 0
 		y = 1
@@ -96,7 +96,7 @@ focus = {
  			add_to_tech_sharing_group = entente_research }
 		}
 		ai_will_do = { factor = 10 }
-		relative_position_id = ROM_legacy_of_1928
+		relative_position_id = ROM_legacy_of_1908
 		cost = 10
 		x = 1
 		y = 3
@@ -830,6 +830,60 @@ focus = {
 		x = 3
 		y = 1
 	}	
+	focus = {
+		id = ROM_industrialize_muntenia
+		icon = GFX_AUS_hungarian_industrialization-45108
+		prerequisite = {focus = ROM_strengthen_war_industry }
+		completion_reward = { 
+			111 = {
+					add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+		            type=industrial_complex level=3 instant_build=yes 
+		        }}
+		
+		}
+		relative_position_id = ROM_strengthen_war_industry
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 0
+		y = 3
+	}
+	focus = {
+		id = ROM_industrialize_georgia
+		icon = GFX_AUS_hungarian_industrialization-45108
+		prerequisite = {focus = ROM_strengthen_war_industry }
+		completion_reward = { 
+			365 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+		            type=industrial_complex level=2 instant_build=yes 
+		        }}
+		
+		}
+		relative_position_id = ROM_strengthen_war_industry
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = 2
+		y = 3
+	}
+	focus = {
+		id = ROM_industrialize_astrakhan
+		icon = GFX_AUS_hungarian_industrialization-45108
+		prerequisite = {focus = ROM_strengthen_war_industry }
+		completion_reward = { 
+			236 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+		            type=industrial_complex level=2 instant_build=yes 
+		        }}
+		
+		}
+		relative_position_id = ROM_strengthen_war_industry
+		ai_will_do = { factor = 10 }
+		cost = 10
+		x = -2
+		y = 3
+	}
 	
 	
 

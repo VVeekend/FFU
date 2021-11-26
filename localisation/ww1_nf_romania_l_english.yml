@@ -86,8 +86,8 @@ ROM_ww1_armor_effort_1_desc:0 "" #KAIROM_ANONY
 #=========================================================================
  ROM_define_parlimentary_role:0 "Define The Role of Parliment"
  ROM_define_parlimentary_role_desc:0 ""
- ROM_legacy_of_1928:0 "Legacy of 1928"
- ROM_legacy_of_1928_desc:0 ""
+ ROM_legacy_of_1908:0 "Legacy of 1908"
+ ROM_legacy_of_1908_desc:0 ""
  ROM_legitimize_constitution:0 "Legtimize the Consitution"
  ROM_legitimize_constitution_desc:0 ""
  ROM_align_with_entente:0 "Align With the Entente"
@@ -121,6 +121,13 @@ ROM_ww1_armor_effort_1_desc:0 "" #KAIROM_ANONY
  ROM_tech_sharing_desc:0 "" 
  ROM_encourage_urbanization:0"Encourage Urbanization"
  ROM_encourage_urbanization_desc:0 ""
+ ROM_industrialize_georgia:0"Industrialize Georgia"
+ ROM_industrialize_georgia_desc:0""
+ ROM_industrialize_astrakhan:0"Industrialize Astrakhan"
+ ROM_industrialize_astrakhan_desc:0""
+ ROM_industrialize_muntenia:0"Industrialize Mutenia"
+ ROM_industrialize_muntenia_desc:0""
+
 #--------------------------------------------------------------
 # [Romania] War Effort
 #=========================================================================

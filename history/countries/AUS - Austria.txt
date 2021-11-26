@@ -12,6 +12,7 @@ set_naval_oob = "AUS_navy"
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
+recruit_character = AUS_archduke_franz_ferdinand
 recruit_character = AUS_viktor_adler
 recruit_character = AUS_franz_ferdinand
 recruit_character = AUS_franz_joseph_i
@@ -30,7 +31,6 @@ recruit_character = AUS_bob_wilson
 recruit_character = AUS_AUH_agenor_goluchowski
 recruit_character = AUS_AUH_franz_von_holub
 recruit_character = AUS_AUH_oskar_von_hranilovic_czvetassin
-recruit_character = AUS_archduke_franz_ferdinand
 recruit_character = AUS_AUH_alois_lexa_von_aehrenthal
 recruit_character = AUS_istvan_tisza
 recruit_character = AUS_AUH_gyula_andrassy

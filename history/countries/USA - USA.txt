@@ -12,6 +12,7 @@ set_convoys = 400
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
+recruit_character = USA_william_h._taft
 recruit_character = USA_leonard_wood
 recruit_character = USA_charles_evans_hughes
 recruit_character = USA_james_p._cannon
@@ -21,7 +22,6 @@ recruit_character = USA_eugene_v._debs
 recruit_character = USA_warren_g._harding
 recruit_character = USA_william_mckinley
 recruit_character = USA_garret_a._hobart
-recruit_character = USA_william_h._taft
 recruit_character = USA_hugh_l._scott
 recruit_character = USA_tasker_h._bliss
 recruit_character = USA_hunter_liggett
