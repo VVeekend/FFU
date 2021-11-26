@@ -46,6 +46,25 @@ recruit_character = POR_bastro
 recruit_character = POR_de_azevedo_coutinho_v.
 recruit_character = POR_augusto_de_noronha
 recruit_character = POR_cláudio_dos_santos
+recruit_character = POR_bartolomeu_de_mesquita
+recruit_character = POR_bruno_de_vasconcelos
+recruit_character = POR_tomas_garcia_rosado
+recruit_character = POR_jose_carlos_de_maia
+recruit_character = POR_joao_martins_de_carvalho
+recruit_character = POR_jose_norton_de_matos
+recruit_character = POR_joao_jose_sinel_de_cordes
+recruit_character = POR_antonio_caetano_macieira_junior
+recruit_character = POR_joaquim_pimenta_de_castro
+recruit_character = POR_antonio_rodrigues_ribeiro
+recruit_character = POR_joao_do_canto_e_castro
+recruit_character = POR_antonio_maria_baptista
+recruit_character = POR_gomes_da_costa
+recruit_character = POR_vitor_hugo_de_azevedo_coutinho
+recruit_character = POR_afonso_augusto_da_costa
+recruit_character = POR_joao_de_sousa_barbosa
+recruit_character = POR_antonio_teixeira_de_sousa
+recruit_character = POR_antonio_joaquim_granjo
+
 
 set_technology = {
 	# Navy

@@ -307,4 +307,393 @@ characters={
 			id=-1
 		}
 	}
+	
+		ROM_constantin_balescu={
+			advisor={
+				slot = high_command
+				idea_token = ROM_constantin_balescu
+				ledger  = navy 
+					allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						navy_anti_submarine_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_constantin_balescu"
+			portraits={
+				army={
+					small="GFX_idea_ROM_constantin_balescu"
+				}
+			}
+		}
+		ROM_constantin_niculescu_rizea={
+			advisor={
+				slot = high_command
+				idea_token = ROM_constantin_niculescu_rizea
+				ledger  = navy 
+					allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						navy_fleet_logistics_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_constantin_niculescu_rizea"
+			portraits={
+				army={
+					small="GFX_idea_ROM_constantin_niculescu_rizea"
+				}
+			}
+		}
+		ROM_istrate_micescu={
+			advisor={
+				slot = political_advisor
+				idea_token = ROM_istrate_micescu
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						smooth_talking_charmer 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_istrate_micescu"
+			portraits={
+				army={
+					small="GFX_idea_ROM_istrate_micescu"
+				}
+			}
+		}
+		ROM_mihail_moruzov={
+			advisor={
+				slot = political_advisor
+				idea_token = ROM_mihail_moruzov
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						quartermaster_general 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_mihail_moruzov"
+			portraits={
+				army={
+					small="GFX_idea_ROM_mihail_moruzov"
+				}
+			}
+		}
+		ROM_ioan_popescu={
+			advisor={
+				slot = political_advisor
+				idea_token = ROM_ioan_popescu
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						fortification_engineer 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_ioan_popescu"
+			portraits={
+				army={
+					small="GFX_idea_ROM_ioan_popescu"
+				}
+			}
+		}
+		ROM_aurel_vlad={
+			advisor={
+				slot = political_advisor
+				idea_token = ROM_aurel_vlad
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						compassionate_gentleman 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_aurel_vlad"
+			portraits={
+				army={
+					small="GFX_idea_ROM_aurel_vlad"
+				}
+			}
+		}
+		ROM_Monkey_Man={
+			advisor={
+				slot = theorist
+				idea_token = ROM_Monkey_Man
+				ledger  = army 
+					allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						military_theorist 
+					}
+					research_bonus  = {
+						land_doctrine  = 0.100
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_Monkey_Man"
+			portraits={
+				army={
+					small="GFX_idea_ROM_Monkey_Man"
+				}
+			}
+		}
+		ROM_constantin_prezan={
+			advisor={
+				slot = high_command
+				idea_token = ROM_constantin_prezan
+				ledger  = army 
+					allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						army_infantry_2 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_constantin_prezan"
+			portraits={
+				army={
+					small="GFX_idea_ROM_constantin_prezan"
+				}
+			}
+		}
+		ROM_dumitru_iliescu={
+			advisor={
+				slot = army_chief
+				idea_token = ROM_dumitru_iliescu
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						army_chief_defensive_2 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_dumitru_iliescu"
+			portraits={
+				army={
+					small="GFX_idea_ROM_dumitru_iliescu"
+				}
+			}
+		}
+		ROM_constantin_cristescu={
+			advisor={
+				slot = army_chief
+				idea_token = ROM_constantin_cristescu
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						army_chief_morale_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_constantin_cristescu"
+			portraits={
+				army={
+					small="GFX_idea_ROM_constantin_cristescu"
+				}
+			}
+		}
+		ROM_constantin_coanda={
+			advisor={
+				slot = political_advisor
+				idea_token = ROM_constantin_coanda
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						silent_workhorse 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_constantin_coanda"
+			portraits={
+				army={
+					small="GFX_idea_ROM_constantin_coanda"
+				}
+			}
+		}
+		ROM_vintila_bratianu={
+			advisor={
+				slot = political_advisor
+				idea_token = ROM_vintila_bratianu
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						captain_of_industry 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_vintila_bratianu"
+			portraits={
+				army={
+					small="GFX_idea_ROM_vintila_bratianu"
+				}
+			}
+		}
+		ROM_alexandru_averescu={
+			advisor={
+				slot = high_command
+				idea_token = ROM_alexandru_averescu
+				ledger  = army 
+					allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						army_concealment_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_alexandru_averescu"
+			portraits={
+				army={
+					small="GFX_idea_ROM_alexandru_averescu"
+				}
+			}
+		}
+		ROM_nicolae_titulescu={
+			advisor={
+				slot = political_advisor
+				idea_token = ROM_nicolae_titulescu
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						war_industrialist 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_nicolae_titulescu"
+			portraits={
+				army={
+					small="GFX_idea_ROM_nicolae_titulescu"
+				}
+			}
+		}
+		ROM_artur_vaitoianu={
+			advisor={
+				slot = political_advisor
+				idea_token = ROM_artur_vaitoianu
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						backroom_backstabber 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_artur_vaitoianu"
+			portraits={
+				army={
+					small="GFX_idea_ROM_artur_vaitoianu"
+				}
+			}
+		}
+		ROM_nicolae_negru={
+			advisor={
+				slot = navy_chief
+				idea_token = ROM_nicolae_negru
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						navy_chief_decisive_battle_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_nicolae_negru"
+			portraits={
+				army={
+					small="GFX_idea_ROM_nicolae_negru"
+				}
+			}
+		}
+		ROM_alexandru_marghiloman={
+			advisor={
+				slot = political_advisor
+				idea_token = ROM_alexandru_marghiloman
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						ideological_crusader 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_alexandru_marghiloman"
+			portraits={
+				army={
+					small="GFX_idea_ROM_alexandru_marghiloman"
+				}
+			}
+		}
+		ROM_vasile_zottu={
+			advisor={
+				slot = army_chief
+				idea_token = ROM_vasile_zottu
+				allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						army_chief_organizational_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ROM_vasile_zottu"
+			portraits={
+				army={
+					small="GFX_idea_ROM_vasile_zottu"
+				}
+			}
+		}
+	
+	
 }

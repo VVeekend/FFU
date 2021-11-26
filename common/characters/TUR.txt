@@ -376,4 +376,407 @@ characters={
 			id=-1
 		}
 	}
+	
+		TUR_mehmet_nazim={
+			advisor={
+				slot = army_chief
+				idea_token = TUR_mehmet_nazim
+				allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						army_chief_offensive_2 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_mehmet_nazim"
+			portraits={
+				army={
+					small="GFX_idea_TUR_mehmet_nazim"
+				}
+			}
+		}
+		TUR_otto_liman_von_sanders={
+			advisor={
+				slot = high_command
+				idea_token = TUR_otto_liman_von_sanders
+				ledger  = army 
+					allowed  = {
+						tag  = TUR
+					}
+					available  = {
+						has_completed_focus  = TUR_schellendorf_plan 
+					}
+					traits  = {
+						army_artillery_1 
+					}
+			}
+			name="TUR_otto_liman_von_sanders"
+			portraits={
+				army={
+					small="GFX_idea_rudolf_hess"
+				}
+			}
+		}
+		TUR_ahmed_nessimy={
+			advisor={
+				slot = political_advisor
+				idea_token = TUR_ahmed_nessimy
+				allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						ideological_crusader 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_ahmed_nessimy"
+			portraits={
+				army={
+					small="GFX_idea_TUR_ahmed_nessimy"
+				}
+			}
+		}
+		TUR_ahmed_cemal={
+			advisor={
+				slot = army_chief
+				idea_token = TUR_ahmed_cemal
+				allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						army_chief_defensive_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_ahmed_cemal"
+			portraits={
+				army={
+					small="GFX_idea_TUR_ahmed_cemal"
+				}
+			}
+		}
+		TUR_celal_bayar={
+			advisor={
+				slot = political_advisor
+				idea_token = TUR_celal_bayar
+				allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						war_industrialist 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_celal_bayar"
+			portraits={
+				army={
+					small="GFX_idea_TUR_celal_bayar"
+				}
+			}
+		}
+		TUR_huseyin_rauf={
+			advisor={
+				slot = navy_chief
+				idea_token = TUR_huseyin_rauf
+				allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						navy_chief_decisive_battle_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_huseyin_rauf"
+			portraits={
+				army={
+					small="GFX_idea_TUR_huseyin_rauf"
+				}
+			}
+		}
+		TUR_djemal_pasha={
+			advisor={
+				slot = political_advisor
+				idea_token = TUR_djemal_pasha
+				ledger  = army 
+					allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						propaganda_bungler 
+					}
+			}
+			name="TUR_djemal_pasha"
+			portraits={
+				army={
+					small="GFX_idea_rudolf_hess"
+				}
+			}
+		}
+		TUR_enver_pasha={
+			advisor={
+				slot = political_advisor
+				idea_token = TUR_enver_pasha
+				ledger  = army 
+					allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						social_revolutionary 
+					}
+			}
+			name="TUR_enver_pasha"
+			portraits={
+				army={
+					small="GFX_idea_TUR_enver_pasha-96388"
+				}
+			}
+		}
+		TUR_ahmed_izzet={
+			advisor={
+				slot = high_command
+				idea_token = TUR_ahmed_izzet
+				ledger  = army 
+					allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						army_entrenchment_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_ahmed_izzet"
+			portraits={
+				army={
+					small="GFX_idea_TUR_ahmed_izzet"
+				}
+			}
+		}
+		TUR_ismail_enver={
+			advisor={
+				slot = air_chief
+				idea_token = TUR_ismail_enver
+				allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						air_close_air_support_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_ismail_enver"
+			portraits={
+				army={
+					small="GFX_idea_TUR_ismail_enver"
+				}
+			}
+		}
+		TUR_talaat_pasha={
+			advisor={
+				slot = political_advisor
+				idea_token = TUR_talaat_pasha
+				ledger  = army 
+					allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						connected_citizen 
+					}
+			}
+			name="TUR_talaat_pasha"
+			portraits={
+				army={
+					small="GFX_idea_TUR_talaat_pasha-96387"
+				}
+			}
+		}
+		TUR_mehemmed_naby={
+			advisor={
+				slot = political_advisor
+				idea_token = TUR_mehemmed_naby
+				allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						smooth_talking_charmer 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_mehemmed_naby"
+			portraits={
+				army={
+					small="GFX_idea_TUR_mehemmed_naby"
+				}
+			}
+		}
+		TUR_mustafa_kemal={
+			advisor={
+				slot = high_command
+				idea_token = TUR_mustafa_kemal
+				ledger  = army 
+					allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						army_concealment_2 
+					}
+			}
+			name="TUR_mustafa_kemal"
+			portraits={
+				army={
+					small="GFX_idea_TUR_mustafa_kemal-96389"
+				}
+			}
+		}
+		TUR_huseyin_hilmi={
+			advisor={
+				slot = high_command
+				idea_token = TUR_huseyin_hilmi
+				ledger  = army 
+					allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						army_logistics_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_huseyin_hilmi"
+			portraits={
+				army={
+					small="GFX_idea_TUR_huseyin_hilmi"
+				}
+			}
+		}
+		TUR_hasan_saka={
+			advisor={
+				slot = political_advisor
+				idea_token = TUR_hasan_saka
+				allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						armaments_organizer 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_hasan_saka"
+			portraits={
+				army={
+					small="GFX_idea_TUR_hasan_saka"
+				}
+			}
+		}
+		TUR_erich_von_falkenhayn={
+			advisor={
+				slot = high_command
+				idea_token = TUR_erich_von_falkenhayn
+				ledger  = army 
+					allowed  = {
+						tag  = TUR
+					}
+					available  = {
+						has_completed_focus  = TUR_schellendorf_plan 
+					}
+					traits  = {
+						army_infantry_2 
+					}
+			}
+			name="TUR_erich_von_falkenhayn"
+			portraits={
+				army={
+					small="GFX_idea_rudolf_hess"
+				}
+			}
+		}
+		TUR_mustafa_ismet={
+			advisor={
+				slot = high_command
+				idea_token = TUR_mustafa_ismet
+				ledger  = army 
+					allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						army_regrouping_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_mustafa_ismet"
+			portraits={
+				army={
+					small="GFX_idea_TUR_mustafa_ismet"
+				}
+			}
+		}
+		TUR_ethem_nejat={
+			advisor={
+				slot = theorist
+				idea_token = TUR_ethem_nejat
+				ledger  = army 
+					allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						military_theorist 
+					}
+					research_bonus  = {
+						land_doctrine  = 0.100
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_ethem_nejat"
+			portraits={
+				army={
+					small="GFX_idea_TUR_ethem_nejat"
+				}
+			}
+		}
+		TUR_ahmed_tevfik={
+			advisor={
+				slot = political_advisor
+				idea_token = TUR_ahmed_tevfik
+				allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						silent_workhorse 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="TUR_ahmed_tevfik"
+			portraits={
+				army={
+					small="GFX_idea_TUR_ahmed_tevfik"
+				}
+			}
+		}
+	
+	
 }

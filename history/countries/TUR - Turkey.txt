@@ -41,6 +41,25 @@ recruit_character = TUR_halil_kut_paşa
 recruit_character = TUR_ahmed_ramiz_bey
 recruit_character = TUR_arif_paşa
 recruit_character = TUR_reshad_orbay
+recruit_character = TUR_mehmet_nazim
+recruit_character = TUR_otto_liman_von_sanders
+recruit_character = TUR_ahmed_nessimy
+recruit_character = TUR_ahmed_cemal
+recruit_character = TUR_celal_bayar
+recruit_character = TUR_huseyin_rauf
+recruit_character = TUR_djemal_pasha
+recruit_character = TUR_enver_pasha
+recruit_character = TUR_ahmed_izzet
+recruit_character = TUR_ismail_enver
+recruit_character = TUR_talaat_pasha
+recruit_character = TUR_mehemmed_naby
+recruit_character = TUR_mustafa_kemal
+recruit_character = TUR_huseyin_hilmi
+recruit_character = TUR_hasan_saka
+recruit_character = TUR_erich_von_falkenhayn
+recruit_character = TUR_mustafa_ismet
+recruit_character = TUR_ethem_nejat
+recruit_character = TUR_ahmed_tevfik
 
 #NAVY
 1914.1.1 = {

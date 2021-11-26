@@ -1,4 +1,537 @@
 characters={
+	
+		ENG_frederick_roberts={
+			advisor={
+				slot = army_chief
+				idea_token = ENG_frederick_roberts
+				allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						army_chief_defensive_2 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_frederick_roberts"
+			portraits={
+				army={
+					small="GFX_idea_ENG_frederick_roberts"
+				}
+			}
+		}
+		ENG_frederick_sykes={
+			advisor={
+				slot = high_command
+				idea_token = ENG_frederick_sykes
+				ledger  = air 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						air_close_air_support_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_frederick_sykes"
+			portraits={
+				army={
+					small="GFX_idea_ENG_frederick_sykes"
+				}
+			}
+		}
+		ENG_ernest_swinton={
+			advisor={
+				slot = high_command
+				idea_token = ENG_ernest_swinton
+				ledger  = army 
+					traits  = {
+						army_armored_3 
+					}
+					allowed  = {
+						tag  = ENG
+					}
+			}
+			name="ENG_ernest_swinton"
+			portraits={
+				army={
+					small="GFX_idea_rudolf_hess"
+				}
+			}
+		}
+		ENG_douglas_haig={
+			advisor={
+				slot = army_chief
+				idea_token = ENG_douglas_haig
+				allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						army_chief_maneuver_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_douglas_haig"
+			portraits={
+				army={
+					small="GFX_idea_ENG_douglas_haig"
+				}
+			}
+		}
+		ENG_david_beatty={
+			advisor={
+				slot = navy_chief
+				idea_token = ENG_david_beatty
+				allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						navy_chief_maneuver_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_david_beatty"
+			portraits={
+				army={
+					small="GFX_idea_ENG_david_beatty"
+				}
+			}
+		}
+		ENG_john_jellicoe={
+			advisor={
+				slot = navy_chief
+				idea_token = ENG_john_jellicoe
+				allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						navy_chief_decisive_battle_2 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_john_jellicoe"
+			portraits={
+				army={
+					small="GFX_idea_ENG_john_jellicoe"
+				}
+			}
+		}
+		ENG_frederick_lambart={
+			advisor={
+				slot = high_command
+				idea_token = ENG_frederick_lambart
+				ledger  = army 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						army_infantry_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_frederick_lambart"
+			portraits={
+				army={
+					small="GFX_idea_ENG_frederick_lambart"
+				}
+			}
+		}
+		ENG_arthur_wilson={
+			advisor={
+				slot = high_command
+				idea_token = ENG_arthur_wilson
+				ledger  = navy 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						navy_naval_air_defense_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_arthur_wilson"
+			portraits={
+				army={
+					small="GFX_idea_ENG_arthur_wilson"
+				}
+			}
+		}
+		ENG_garrett_o_moore_creagh={
+			advisor={
+				slot = theorist
+				idea_token = ENG_garrett_o_moore_creagh
+				ledger  = army 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						grand_battle_plan_expert 
+					}
+					research_bonus  = {
+						land_doctrine  = 0.100
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_garrett_o_moore_creagh"
+			portraits={
+				army={
+					small="GFX_idea_ENG_garrett_o_moore_creagh"
+				}
+			}
+		}
+		ENG_george_macaulay_kirkpatrick={
+			advisor={
+				slot = army_chief
+				idea_token = ENG_george_macaulay_kirkpatrick
+				allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						army_chief_morale_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_george_macaulay_kirkpatrick"
+			portraits={
+				army={
+					small="GFX_idea_ENG_george_macaulay_kirkpatrick"
+				}
+			}
+		}
+		ENG_st_john_brodrick={
+			advisor={
+				slot = theorist
+				idea_token = ENG_st_john_brodrick
+				ledger  = army 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						military_theorist 
+					}
+					research_bonus  = {
+						land_doctrine  = 0.100
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_st_john_brodrick"
+			portraits={
+				army={
+					small="GFX_idea_ENG_st_john_brodrick"
+				}
+			}
+		}
+		ENG_john_french={
+			advisor={
+				slot = high_command
+				idea_token = ENG_john_french
+				ledger  = army 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						army_artillery_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_john_french"
+			portraits={
+				army={
+					small="GFX_idea_ENG_john_french"
+				}
+			}
+		}
+		ENG_herbert_kitchener={
+			advisor={
+				slot = high_command
+				idea_token = ENG_herbert_kitchener
+				ledger  = army 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						army_logistics_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_herbert_kitchener"
+			portraits={
+				army={
+					small="GFX_idea_ENG_herbert_kitchener"
+				}
+			}
+		}
+		ENG_john_edward_bernard_seely={
+			advisor={
+				slot = theorist
+				idea_token = ENG_john_edward_bernard_seely
+				ledger  = navy 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						naval_theorist 
+					}
+					research_bonus  = {
+						naval_doctrine  = 0.100
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_john_edward_bernard_seely"
+			portraits={
+				army={
+					small="GFX_idea_ENG_john_edward_bernard_seely"
+				}
+			}
+		}
+		ENG_hugh_trenchard={
+			advisor={
+				slot = high_command
+				idea_token = ENG_hugh_trenchard
+				ledger  = air 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						air_air_superiority_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_hugh_trenchard"
+			portraits={
+				army={
+					small="GFX_idea_ENG_hugh_trenchard"
+				}
+			}
+		}
+		ENG_edward_james_headlam={
+			advisor={
+				slot = navy_chief
+				idea_token = ENG_edward_james_headlam
+				allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						navy_chief_commerce_raiding_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_edward_james_headlam"
+			portraits={
+				army={
+					small="GFX_idea_ENG_edward_james_headlam"
+				}
+			}
+		}
+		ENG_charles_vaughan_lee={
+			advisor={
+				slot = air_chief
+				idea_token = ENG_charles_vaughan_lee
+				allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						air_chief_reform_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_charles_vaughan_lee"
+			portraits={
+				army={
+					small="GFX_idea_ENG_charles_vaughan_lee"
+				}
+			}
+		}
+		ENG_louis_alexander_mountbatten={
+			advisor={
+				slot = high_command
+				idea_token = ENG_louis_alexander_mountbatten
+				ledger  = navy 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						navy_screen_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_louis_alexander_mountbatten"
+			portraits={
+				army={
+					small="GFX_idea_ENG_louis_alexander_mountbatten"
+				}
+			}
+		}
+		ENG_percy_zachariah_cox={
+			advisor={
+				slot = high_command
+				idea_token = ENG_percy_zachariah_cox
+				ledger  = army 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						army_commando_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_percy_zachariah_cox"
+			portraits={
+				army={
+					small="GFX_idea_ENG_percy_zachariah_cox"
+				}
+			}
+		}
+		ENG_richard_haldane={
+			advisor={
+				slot = theorist
+				idea_token = ENG_richard_haldane
+				ledger  = army 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						mobile_warfare_expert 
+					}
+					research_bonus  = {
+						land_doctrine  = 0.100
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_richard_haldane"
+			portraits={
+				army={
+					small="GFX_idea_ENG_richard_haldane"
+				}
+			}
+		}
+		ENG_edward_stanley={
+			advisor={
+				slot = theorist
+				idea_token = ENG_edward_stanley
+				ledger  = air 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						air_warfare_theorist 
+					}
+					research_bonus  = {
+						air_doctrine  = 0.100
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_edward_stanley"
+			portraits={
+				army={
+					small="GFX_idea_ENG_edward_stanley"
+				}
+			}
+		}
+		ENG_neville_lyttleton={
+			advisor={
+				slot = army_chief
+				idea_token = ENG_neville_lyttleton
+				allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						army_chief_organizational_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_neville_lyttleton"
+			portraits={
+				army={
+					small="GFX_idea_ENG_neville_lyttleton"
+				}
+			}
+		}
+		ENG_archibald_murray={
+			advisor={
+				slot = army_chief
+				idea_token = ENG_archibald_murray
+				allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						army_chief_reform_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_archibald_murray"
+			portraits={
+				army={
+					small="GFX_idea_ENG_archibald_murray"
+				}
+			}
+		}
+		ENG_david_henderson={
+			advisor={
+				slot = air_chief
+				idea_token = ENG_david_henderson
+				allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						air_chief_ground_support_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="ENG_david_henderson"
+			portraits={
+				army={
+					small="GFX_idea_ENG_david_henderson"
+				}
+			}
+		}
+	
+	
 	ENG_tom_mann={
 		name="Tom Mann"
 		portraits={

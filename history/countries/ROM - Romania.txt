@@ -29,6 +29,25 @@ recruit_character = ROM_sebestian
 recruit_character = ROM_balescu
 recruit_character = ROM_niculescurizea
 recruit_character = ROM_mihai_tenescu
+recruit_character = ROM_constantin_balescu
+recruit_character = ROM_constantin_niculescu_rizea
+recruit_character = ROM_istrate_micescu
+recruit_character = ROM_mihail_moruzov
+recruit_character = ROM_ioan_popescu
+recruit_character = ROM_aurel_vlad
+recruit_character = ROM_Monkey_Man
+recruit_character = ROM_constantin_prezan
+recruit_character = ROM_dumitru_iliescu
+recruit_character = ROM_constantin_cristescu
+recruit_character = ROM_constantin_coanda
+recruit_character = ROM_vintila_bratianu
+recruit_character = ROM_alexandru_averescu
+recruit_character = ROM_nicolae_titulescu
+recruit_character = ROM_artur_vaitoianu
+recruit_character = ROM_nicolae_negru
+recruit_character = ROM_alexandru_marghiloman
+recruit_character = ROM_vasile_zottu
+
 
 
 #-# The Great War 0.5.1 (2018) #----------------------------------------------------------------------------------------------------------#

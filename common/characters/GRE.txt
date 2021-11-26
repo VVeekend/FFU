@@ -442,4 +442,261 @@ characters={
 			id=-1
 		}
 	}
+	
+		GRE_nikolaos_stratos={
+			advisor={
+				slot = political_advisor
+				idea_token = GRE_nikolaos_stratos
+				allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						popular_figurehead 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_nikolaos_stratos"
+			portraits={
+				army={
+					small="GFX_idea_GRE_nikolaos_stratos"
+				}
+			}
+		}
+		GRE_emmanouil_repoulis={
+			advisor={
+				slot = political_advisor
+				idea_token = GRE_emmanouil_repoulis
+				allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						fortification_engineer 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_emmanouil_repoulis"
+			portraits={
+				army={
+					small="GFX_idea_GRE_emmanouil_repoulis"
+				}
+			}
+		}
+		GRE_constantin_moschopoulos={
+			advisor={
+				slot = theorist
+				idea_token = GRE_constantin_moschopoulos
+				ledger  = army 
+					allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						military_theorist 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_constantin_moschopoulos"
+			portraits={
+				army={
+					small="GFX_idea_GRE_constantin_moschopoulos"
+				}
+			}
+		}
+		GRE_dimitrios_rallis={
+			advisor={
+				slot = political_advisor
+				idea_token = GRE_dimitrios_rallis
+				allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						captain_of_industry 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_dimitrios_rallis"
+			portraits={
+				army={
+					small="GFX_idea_GRE_dimitrios_rallis"
+				}
+			}
+		}
+		GRE_dimitrios_gounaris={
+			advisor={
+				slot = political_advisor
+				idea_token = GRE_dimitrios_gounaris
+				allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						backroom_backstabber 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_dimitrios_gounaris"
+			portraits={
+				army={
+					small="GFX_idea_GRE_dimitrios_gounaris"
+				}
+			}
+		}
+		GRE_paulos_kountouriotis={
+			advisor={
+				slot = navy_chief
+				idea_token = GRE_paulos_kountouriotis
+				allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						navy_chief_decisive_battle_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_paulos_kountouriotis"
+			portraits={
+				army={
+					small="GFX_idea_GRE_paulos_kountouriotis"
+				}
+			}
+		}
+		GRE_eleftherios_venizelos={
+			advisor={
+				slot = political_advisor
+				idea_token = GRE_eleftherios_venizelos
+				allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						ideological_crusader 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_eleftherios_venizelos"
+			portraits={
+				army={
+					small="GFX_idea_GRE_eleftherios_venizelos"
+				}
+			}
+		}
+		GRE_petros_protopapadakis={
+			advisor={
+				slot = political_advisor
+				idea_token = GRE_petros_protopapadakis
+				allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						armaments_organizer 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_petros_protopapadakis"
+			portraits={
+				army={
+					small="GFX_idea_GRE_petros_protopapadakis"
+				}
+			}
+		}
+		GRE_panagiotis_danglis={
+			advisor={
+				slot = army_chief
+				idea_token = GRE_panagiotis_danglis
+				allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						army_chief_defensive_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_panagiotis_danglis"
+			portraits={
+				army={
+					small="GFX_idea_GRE_panagiotis_danglis"
+				}
+			}
+		}
+		GRE_mark_kerr={
+			advisor={
+				slot = high_command
+				idea_token = GRE_mark_kerr
+				ledger  = navy 
+					allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						army_infantry_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_mark_kerr"
+			portraits={
+				army={
+					small="GFX_idea_GRE_mark_kerr"
+				}
+			}
+		}
+		GRE_alexandros_zaimis={
+			advisor={
+				slot = political_advisor
+				idea_token = GRE_alexandros_zaimis
+				allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						smooth_talking_charmer 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_alexandros_zaimis"
+			portraits={
+				army={
+					small="GFX_idea_GRE_alexandros_zaimis"
+				}
+			}
+		}
+		GRE_spiridon_lambros={
+			advisor={
+				slot = political_advisor
+				idea_token = GRE_spiridon_lambros
+				allowed  = {
+						tag  = GRE
+					}
+					traits  = {
+						compassionate_gentleman 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+			name="GRE_spiridon_lambros"
+			portraits={
+				army={
+					small="GFX_idea_GRE_spiridon_lambros"
+				}
+			}
+		}
+	
+	
 }
