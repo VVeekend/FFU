@@ -20,7 +20,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_currie_ja.tga"
+				large="gfx/generals/CAN_currie_ja.dds"
 			}
 		}
 		field_marshal={
@@ -40,7 +40,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_radcliffe.tga"
+				large="gfx/generals/CAN_radcliffe.dds"
 			}
 		}
 		corps_commander={
@@ -59,7 +59,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_turner.tga"
+				large="gfx/generals/CAN_turner.dds"
 			}
 		}
 		corps_commander={
@@ -78,7 +78,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_lipsett_lj.tga"
+				large="gfx/generals/CAN_lipsett_lj.dds"
 			}
 		}
 		corps_commander={
@@ -98,7 +98,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_tuxford.tga"
+				large="gfx/generals/CAN_tuxford.dds"
 			}
 		}
 		corps_commander={
@@ -110,14 +110,14 @@ characters={
 			legacy_id=13005
 		}
 	}
-	CAN_loomis,c.b.={
+	CAN_loomisc.b.={
 		name="Loomis,C.B."
 		portraits={
 			army={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_loomis_cb.tga"
+				large="gfx/generals/CAN_loomis_cb.dds"
 			}
 		}
 		corps_commander={
@@ -136,7 +136,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_hart_mcharg.tga"
+				large="gfx/generals/CAN_hart_mcharg.dds"
 			}
 		}
 		corps_commander={
@@ -155,7 +155,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_meighen.tga"
+				large="gfx/generals/CAN_meighen.dds"
 			}
 		}
 		corps_commander={
@@ -174,7 +174,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_boyle.tga"
+				large="gfx/generals/CAN_boyle.dds"
 			}
 		}
 		corps_commander={
@@ -186,14 +186,14 @@ characters={
 			legacy_id=13009
 		}
 	}
-	CAN_mercer,m.s.={
+	CAN_mercerm.s.={
 		name="Mercer,M.S."
 		portraits={
 			army={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_mercer_ms.tga"
+				large="gfx/generals/CAN_mercer_ms.dds"
 			}
 		}
 		corps_commander={
@@ -205,14 +205,14 @@ characters={
 			legacy_id=13016
 		}
 	}
-	CAN_burstall,h.e.={
+	CAN_burstallh.e.={
 		name="Burstall,H.E."
 		portraits={
 			army={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_burstall_he.tga"
+				large="gfx/generals/CAN_burstall_he.dds"
 			}
 		}
 		corps_commander={
@@ -231,7 +231,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_macdonell_ac.tga"
+				large="gfx/generals/CAN_macdonell_ac.dds"
 			}
 		}
 		corps_commander={
@@ -250,7 +250,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_steele.tga"
+				large="gfx/generals/CAN_steele.dds"
 			}
 		}
 		corps_commander={
@@ -269,7 +269,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_hughes.tga"
+				large="gfx/generals/CAN_hughes.dds"
 			}
 		}
 		corps_commander={
@@ -289,7 +289,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_o`grady_haly.tga"
+				large="gfx/generals/CAN_o`grady_haly.dds"
 			}
 		}
 		corps_commander={
@@ -308,7 +308,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_hutton.tga"
+				large="gfx/generals/CAN_hutton.dds"
 			}
 		}
 		corps_commander={
@@ -327,7 +327,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_otter.tga"
+				large="gfx/generals/CAN_otter.dds"
 			}
 		}
 		corps_commander={
@@ -346,7 +346,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/generals/CAN_lake.tga"
+				large="gfx/generals/CAN_lake.dds"
 			}
 		}
 		corps_commander={
@@ -365,7 +365,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/fieldmarshal/CAN_cochrane.tga"
+				large="gfx/fieldmarshal/CAN_cochrane.dds"
 			}
 		}
 		field_marshal={
