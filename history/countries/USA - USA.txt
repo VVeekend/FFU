@@ -106,8 +106,8 @@ recruit_character = USA_adna_r_chaffee
 		basic_heavy_armor_scheme = 1
 		basic_ship_hull_cruiser = 1
 		mtg_transport = 1
-		ship_hull_super_heavy 
-		basic_heavy_battery
+		#ship_hull_super_heavy 
+		#basic_heavy_battery
 		
 		# Air
 
