@@ -3,26 +3,33 @@
 set_stability = 0.50
 set_convoys = 20
 
-create_country_leader = {
-	name = "Abbas II Helmy"
-	picture = "gfx/leaders/EGY/EGY_abbas_ii.dds" 
-	expire = "1935.1.1" 
-	ideology = despotism 
-	traits = {} 
-}
-create_field_marshal={  name = "Archibald Murray" id=30030 portrait_path="gfx/generals/ENG_murray.tga" traits={ infantry_leader } skill=2
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
+recruit_character = EGY_abbas_ii_helmy
+recruit_character = EGY_archibald_murray
+recruit_character = EGY_edmund_allenby
+recruit_character = EGY_alex_smith
+recruit_character = EGY_bob_smith
+recruit_character = EGY_peter_jones
+recruit_character = EGY_acas
+recruit_character = EGY_mt
+recruit_character = EGY_nccr
+recruit_character = EGY_ai2
+recruit_character = EGY_ncs
+recruit_character = EGY_aco2
+recruit_character = EGY_acd2
+recruit_character = EGY_nt
+recruit_character = EGY_ar
+recruit_character = EGY_fascist_guy
+recruit_character = EGY_acgs
+recruit_character = EGY_acr
+recruit_character = EGY_stc
+recruit_character = EGY_ncm
+recruit_character = EGY_democratic_guy
+recruit_character = EGY_communist_guy
+recruit_character = EGY_coi
+recruit_character = EGY_pot
+recruit_character = EGY_aa2
+recruit_character = EGY_awt
 
-create_corps_commander={  name = "Edmund Allenby" id=20001 portrait_path="gfx/generals/ENG_Allenby.tga" traits={ desert_fox } skill=2
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
 oob = "EGY_1910"
 
 set_research_slots = 3

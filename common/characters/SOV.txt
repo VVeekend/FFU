@@ -1,0 +1,1115 @@
+characters={
+	SOV_vladimir_lenin={
+		name="Vladimir Lenin"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/RUS_vladimir_lenin.dds"
+			}
+		}
+		country_leader={
+			desc="RUS_vladimir_ilyich_lenin_DESC"
+			ideology=leninism
+			expire="1935.1.1.1"
+			id=-1
+		}
+	}
+	SOV_georgy_lvov={
+		name="Georgy Lvov"
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/RUS/country_leaders/RUS_georgy_lvov.dds"
+			}
+		}
+		country_leader={
+			desc="RUS_georgy_lvov_DESC"
+			ideology=liberalism
+			expire="1935.1.1.1"
+			id=-1
+		}
+	}
+	SOV_nikolay_ii={
+		name="Nikolay II"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/RUS_nicholas_romanov.dds"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=70484
+		}
+		country_leader={
+			desc="RUS_nikolai_ii_DESC"
+			ideology=liberalism
+			traits={ unpopular_monarch }
+			expire="1935.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="RUS_nikolai_ii_DESC"
+			ideology=fascism_ideology
+			expire="1935.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="RUS_nikolai_ii_DESC"
+			ideology=autocracy
+			traits={ unpopular_monarch }
+			expire="1935.1.1.1"
+			id=-1
+		}
+	}
+	SOV_aleksandr_kolchak={
+		name="Aleksandr Kolchak"
+		portraits={
+			civilian={
+				large="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_kolchak.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner superior_tactician }
+			skill=4
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=76649
+		}
+		country_leader={
+			desc="WHR_aleksandr_kolchak_DESC"
+			ideology=fascism_ideology
+			expire="1935.1.1.1"
+			id=-1
+		}
+	}
+	SOV_mikhail_alexeyev={
+		name="Mikhail Alexeyev"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_alekseyev.dds"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=76321
+		}
+	}
+	SOV_nikolay_rouzski={
+		name="Nikolay Rouzski"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_ruzsky.dds"
+			}
+		}
+		field_marshal={
+			traits={ fortress_buster }
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=76837
+		}
+	}
+	SOV_vladimir_sukhomlinov={
+		name="Vladimir Sukhomlinov"
+		advisor={
+			slot = high_command
+			idea_token = RUS_vladimir_sukhomlinov
+			ledger  = army 
+				allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					army_cavalry_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		portraits={
+			army={
+				small="GFX_idea_RUS_vladimir_sukhomlinov"
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_sukhomlinov.dds"
+			}
+		}
+		field_marshal={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=76860
+		}
+	}
+	SOV_nikolay_baratov={
+		name="Nikolay Baratov"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_baratov.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer trait_mountaineer cavalry_expert }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=77711
+		}
+	}
+	SOV_aleksei_brusilov={
+		name="Aleksei Brusilov"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_brusilov.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster thorough_planner }
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=76187
+		}
+	}
+	SOV_anton_denikin={
+		name="Anton Denikin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_denikin.dds"
+			}
+		}
+		corps_commander={
+			traits={ logistics_wizard }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=76428
+		}
+	}
+	SOV_alexei_evert={
+		name="Alexei Evert"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_evert.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist ambusher }
+			skill=2
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=76431
+		}
+	}
+	SOV_nikolay_iudovich_ivanov={
+		name="Nikolay Iudovich Ivanov"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_ivanov.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=76696
+		}
+	}
+	SOV_alexey_kaledin={
+		name="Alexey Kaledin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_kaledin.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=76546
+		}
+	}
+	SOV_aleksey_kuropatkin={
+		name="Aleksey Kuropatkin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_kuropatkin.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=77712
+		}
+	}
+	SOV_platon_lechitsky={
+		name="Platon Lechitsky"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_lechitsky.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer aggressive_assaulter infantry_expert }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=77713
+		}
+	}
+	SOV_pavel_karlovitch_rennenkampf={
+		name="Pavel Karlovitch Rennenkampf"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_rennenkampf.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=77001
+		}
+	}
+	SOV_aleksandr_samsonov={
+		name="Aleksandr Samsonov"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_samsonov.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=77166
+		}
+	}
+	SOV_vladimir_sakharov={
+		name="Vladimir Sakharov"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_sakharov.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=77532
+		}
+	}
+	SOV_dmitry_shcherbachev={
+		name="Dmitry Shcherbachev"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_shcherbachev.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=77298
+		}
+	}
+	SOV_piotr_wrangel={
+		name="Piotr Wrangel"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_wrangel.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=77689
+		}
+	}
+	SOV_nikolai_yudenich={
+		name="Nikolai Yudenich"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_yudenich.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=77714
+		}
+	}
+	SOV_yevgeni_ivanovich_alekseyev={
+		name="Yevgeni Ivanovich Alekseyev"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_admiral_alekseyev.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=77234
+		}
+	}
+	SOV_andrei_eberhardt={
+		name="Andrei Eberhardt"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_eberhard.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=76323
+		}
+	}
+	SOV_grand_duke_alexander={
+		name="Grand Duke Alexander"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_gd_alexander.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=76455
+		}
+	}
+	SOV_aleksandr_rusin={
+		name="Aleksandr Rusin"
+		advisor={
+			slot = high_command
+			idea_token = RUS_aleksandr_rusin
+			ledger  = navy 
+				allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					navy_anti_submarine_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		portraits={
+			army={
+				small=""
+			}
+			navy={
+				small="GFX_idea_RUS_aleksandr_rusin"
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_rusin.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=77235
+		}
+	}
+	SOV_vladimir_dzhunkovsky={
+		advisor={
+			slot = political_advisor
+			idea_token = SOV_vladimir_dzhunkovsky
+			available  = {
+					SOV = {
+						has_completed_focus  = SOV_expanded_okhrana 
+					}
+				}
+				traits  = {
+					head_of_intelligence 
+				}
+				allowed  = {
+					tag  = SOV
+				}
+				cost  = 25.000
+				allowed  = {
+					tag  = SOV
+				}
+		}
+		name="SOV_vladimir_dzhunkovsky"
+		portraits={
+			army={
+				small="GFX_idea_rudolf_hess"
+			}
+		}
+	}
+	SOV_RUS_vasily_shulgin={
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_vasily_shulgin
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					captain_of_industry 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_vasily_shulgin"
+		portraits={
+			army={
+				small="GFX_idea_RUS_vasily_shulgin"
+			}
+		}
+	}
+	SOV_RUS_alexei_polivanov={
+		advisor={
+			slot = theorist
+			idea_token = RUS_alexei_polivanov
+			ledger  = army 
+				allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					military_theorist 
+				}
+				research_bonus  = {
+					land_doctrine  = 0.100
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_alexei_polivanov"
+		portraits={
+			army={
+				small="GFX_idea_RUS_alexei_polivanov"
+			}
+		}
+	}
+	SOV_RUS_alexei_brusilov={
+		advisor={
+			slot = army_chief
+			idea_token = RUS_alexei_brusilov
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					army_chief_defensive_3 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_alexei_brusilov"
+		portraits={
+			army={
+				small="GFX_idea_RUS_alexei_brusilov"
+			}
+		}
+	}
+	SOV_RUS_michael_alexandrovich={
+		advisor={
+			slot = theorist
+			idea_token = RUS_michael_alexandrovich
+			ledger  = army 
+				allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					mass_assault_expert 
+				}
+				research_bonus  = {
+					land_doctrine  = 0.100
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_michael_alexandrovich"
+		portraits={
+			army={
+				small="GFX_idea_RUS_michael_alexandrovich"
+			}
+		}
+	}
+	SOV_RUS_ivan_grigorovich={
+		advisor={
+			slot = navy_chief
+			idea_token = RUS_ivan_grigorovich
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					navy_chief_decisive_battle_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_ivan_grigorovich"
+		portraits={
+			army={
+				small="GFX_idea_RUS_ivan_grigorovich"
+			}
+		}
+	}
+	SOV_alexander_izvolsky={
+		advisor={
+			slot = political_advisor
+			idea_token = SOV_alexander_izvolsky
+			available  = {
+					SOV = {
+						has_completed_focus  = SOV_protsar_duma 
+					}
+				}
+				traits  = {
+					dealbroker 
+				}
+				allowed  = {
+					tag  = SOV
+				}
+				cost  = 25.000
+				allowed  = {
+					tag  = SOV
+				}
+		}
+		name="SOV_alexander_izvolsky"
+		portraits={
+			army={
+				small="GFX_idea_rudolf_hess"
+			}
+		}
+	}
+	SOV_RUS_konstantin_v_rodzaevsky={
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_konstantin_v_rodzaevsky
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					connected_citizen 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_konstantin_v_rodzaevsky"
+		portraits={
+			army={
+				small="GFX_idea_RUS_konstantin_v_rodzaevsky"
+			}
+		}
+	}
+	SOV_RUS_vladimir_kokovtsov={
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_vladimir_kokovtsov
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					quartermaster_general 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_vladimir_kokovtsov"
+		portraits={
+			army={
+				small="GFX_idea_RUS_vladimir_kokovtsov"
+			}
+		}
+	}
+	SOV_vladimir_marushevsky={
+		advisor={
+			slot = high_command
+			idea_token = SOV_vladimir_marushevsky
+			ledger  = army 
+				allowed  = {
+					tag  = SOV
+				}
+				available  = {
+					SOV = {
+						has_completed_focus  = SOV_tsar_personal_command 
+					}
+				}
+				traits  = {
+					army_commando_1 
+				}
+				cost  = 150.000
+		}
+		name="SOV_vladimir_marushevsky"
+		portraits={
+			army={
+				small="GFX_idea_rudolf_hess"
+			}
+		}
+	}
+	SOV_RUS_vasily_gurko={
+		advisor={
+			slot = army_chief
+			idea_token = RUS_vasily_gurko
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					army_chief_organizational_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_vasily_gurko"
+		portraits={
+			army={
+				small="GFX_idea_RUS_vasily_gurko"
+			}
+		}
+	}
+	SOV_RUS_aleksandr_lukomsky={
+		advisor={
+			slot = high_command
+			idea_token = RUS_aleksandr_lukomsky
+			ledger  = army 
+				allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					army_artillery_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_aleksandr_lukomsky"
+		portraits={
+			army={
+				small="GFX_idea_RUS_aleksandr_lukomsky"
+			}
+		}
+	}
+	SOV_RUS_mikhail_alexeev={
+		advisor={
+			slot = high_command
+			idea_token = RUS_mikhail_alexeev
+			ledger  = army 
+				allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					army_entrenchment_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_mikhail_alexeev"
+		portraits={
+			army={
+				small="GFX_idea_RUS_mikhail_alexeev"
+			}
+		}
+	}
+	SOV_RUS_alexander_kolchak={
+		advisor={
+			slot = navy_chief
+			idea_token = RUS_alexander_kolchak
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					navy_chief_maneuver_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_alexander_kolchak"
+		portraits={
+			army={
+				small="GFX_idea_RUS_alexander_kolchak"
+			}
+		}
+	}
+	SOV_RUS_boris_sturmer={
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_boris_sturmer
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					silent_workhorse 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_boris_sturmer"
+		portraits={
+			army={
+				small="GFX_idea_RUS_boris_sturmer"
+			}
+		}
+	}
+	SOV_RUS_andrei_shkuro={
+		advisor={
+			slot = high_command
+			idea_token = RUS_andrei_shkuro
+			ledger  = army 
+				allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					army_regrouping_3 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_andrei_shkuro"
+		portraits={
+			army={
+				small="GFX_idea_RUS_andrei_shkuro"
+			}
+		}
+	}
+	SOV_RUS_nikolai_dukhonin={
+		advisor={
+			slot = army_chief
+			idea_token = RUS_nikolai_dukhonin
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					army_chief_morale_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_nikolai_dukhonin"
+		portraits={
+			army={
+				small="GFX_idea_RUS_nikolai_dukhonin"
+			}
+		}
+	}
+	SOV_RUS_stepan_voevodsky={
+		advisor={
+			slot = high_command
+			idea_token = RUS_stepan_voevodsky
+			ledger  = navy 
+				allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					navy_capital_ship_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_stepan_voevodsky"
+		portraits={
+			army={
+				small="GFX_idea_RUS_stepan_voevodsky"
+			}
+		}
+	}
+	SOV_roman_malinovsky={
+		advisor={
+			slot = political_advisor
+			idea_token = SOV_roman_malinovsky
+			available  = {
+					SOV = {
+						has_completed_focus  = SOV_expanded_okhrana 
+					}
+				}
+				traits  = {
+					editor 
+				}
+				allowed  = {
+					tag  = SOV
+				}
+				cost  = 25.000
+				visible  = {
+					tag  = SOV
+				}
+		}
+		name="SOV_roman_malinovsky"
+		portraits={
+			army={
+				small="GFX_idea_rudolf_hess"
+			}
+		}
+	}
+	SOV_grigori_rasputin={
+		advisor={
+			slot = political_advisor
+			idea_token = SOV_grigori_rasputin
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					disdain_for_politicians_2 
+				}
+				cost  = 50.000
+		}
+		name="SOV_grigori_rasputin"
+		portraits={
+			army={
+				small="GFX_idea_rudolf_hess"
+			}
+		}
+	}
+	SOV_RUS_pyotr_krasnov={
+		advisor={
+			slot = high_command
+			idea_token = RUS_pyotr_krasnov
+			ledger  = army 
+				allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					army_logistics_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_pyotr_krasnov"
+		portraits={
+			army={
+				small="GFX_idea_RUS_pyotr_krasnov"
+			}
+		}
+	}
+	SOV_RUS_pyotr_nesterov={
+		advisor={
+			slot = air_chief
+			idea_token = RUS_pyotr_nesterov
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					air_chief_safety_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_pyotr_nesterov"
+		portraits={
+			army={
+				small="GFX_idea_RUS_pyotr_nesterov"
+			}
+		}
+	}
+	SOV_RUS_grand_duke_nikolai={
+		advisor={
+			slot = army_chief
+			idea_token = RUS_grand_duke_nikolai
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					army_chief_offensive_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_grand_duke_nikolai"
+		portraits={
+			army={
+				small="GFX_idea_RUS_grand_duke_nikolai"
+			}
+		}
+	}
+	SOV_RUS_nikolai_golitsyn={
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_nikolai_golitsyn
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					compassionate_gentleman 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_nikolai_golitsyn"
+		portraits={
+			army={
+				small="GFX_idea_RUS_nikolai_golitsyn"
+			}
+		}
+	}
+	SOV_RUS_pavel_ryabushinsky={
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_pavel_ryabushinsky
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					armaments_organizer 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="RUS_pavel_ryabushinsky"
+		portraits={
+			army={
+				small="GFX_idea_RUS_pavel_ryabushinsky"
+			}
+		}
+	}
+	SOV_yuri_danilov={
+		advisor={
+			slot = high_command
+			idea_token = SOV_yuri_danilov
+			allowed  = {
+					tag  = SOV
+				}
+				ledger  = army 
+				traits  = {
+					army_infantry_3 
+				}
+				available  = {
+					has_completed_focus  = SOV_army_reform 
+				}
+				cost  = 150.000
+		}
+		name="SOV_yuri_danilov"
+		portraits={
+			army={
+				small="GFX_idea_rudolf_hess"
+			}
+		}
+	}
+}

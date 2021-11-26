@@ -1,0 +1,97 @@
+characters={
+	MNT_nikola_i={
+		name="Nikola I"
+		portraits={
+			civilian={
+				large="gfx/leaders/MTN_nikola_i.dds"
+			}
+		}
+		country_leader={
+			desc="MTN_nikola_i_DESC"
+			ideology=despotism
+			expire="1935.1.1.1"
+			id=-1
+		}
+	}
+	MNT_janko_vukotić={
+		name="Janko Vukotić"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/MTN/army_generals/MTN_Janko_Vukotic.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=58003
+		}
+	}
+	MNT_crown_prince_danilo={
+		name="Crown Prince Danilo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/MTN/army_generals/MTN_CrownPrince_Danilo.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=58008
+		}
+	}
+	MNT_jim_evans={
+		name="Jim Evans"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_4"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ smooth_talking_charmer armaments_organizer }
+			expire="1921.1.1.1"
+			id=-1
+		}
+	}
+	MNT_alexander_walker={
+		name="Alexander Walker"
+		portraits={
+			civilian={
+				large="GFX_Portrait_Europe_Generic_1"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ fortification_engineer }
+			expire="1929.1.1.1"
+			id=-1
+		}
+	}
+	MNT_jim_roberts={
+		name="Jim Roberts"
+		portraits={
+			civilian={
+				large="GFX_Portrait_europe_generic_7"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1921.1.1.1"
+			id=-1
+		}
+	}
+}

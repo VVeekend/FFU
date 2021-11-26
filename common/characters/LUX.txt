@@ -1,0 +1,70 @@
+characters={
+	LUX_marieadélaïde={
+		name="Marie-Adélaïde"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX_marie_adelaide.dds"
+			}
+		}
+		country_leader={
+			desc="LUX_marie_adelaide_DESC"
+			ideology=liberalism
+			expire="1935.1.1.1"
+			id=-1
+		}
+	}
+	LUX_aloys_kaiser={
+		name="Aloys Kaiser"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX_aloys_kaiser.dds"
+			}
+		}
+		country_leader={
+			desc="LUX_aloys_kaiser_DESC"
+			ideology=stalinism
+			expire="1935.1.1.1"
+			id=-1
+		}
+	}
+	LUX_william_iv={
+		name="William IV"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX_william_iv.dds"
+			}
+		}
+		country_leader={
+			desc="LUX_william_iv_DESC"
+			ideology=conservatism
+			expire="1935.1.1.1"
+			id=-1
+		}
+	}
+	LUX_damien_nagelmackers={
+		name="Damien Nagelmackers"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_4"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			expire="1929.1.1.1"
+			id=-1
+		}
+	}
+	LUX_florent_pirmez={
+		name="Florent Pirmez"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_8"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1930.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -12,80 +12,15 @@ set_convoys = 0
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-create_country_leader={
-	name = "Filip Filipovic"
-	desc=SER_filip_filipovic_DESC
-	picture="gfx/leaders/SER/SER_filip_filipovic.dds"
-	expire="1935.1.1"
-	ideology=stalinism
-	traits={  }
-}
-create_country_leader={
-	name = "Peter I"
-	desc=SER_peter_i_DESC
-	picture="gfx/leaders/SER/SER_peter_i.dds"
-	expire="1935.1.1"
-	ideology=conservatism
-	traits={  }
-}
-create_country_leader={
-	name = "Peter I"
-	desc=SER_peter_i_DESC
-	picture="gfx/leaders/SER/SER_peter_i.dds"
-	expire="1935.1.1"
-	ideology=autocracy
-	traits={  }
-}
-create_field_marshal={
-	name = "Radomir Putnik" id=82002
-	portrait_path="gfx/hoi4tgw_portraits/SER/army_generals/SER_radomir_putnik.dds"
-	traits={ defensive_doctrine old_guard infantry_expert unyielding_defender }
-	skill=5
-	attack_skill = 3
-	defense_skill = 6
-	planning_skill = 3
-	logistics_skill = 2
-}
-create_corps_commander={
-	name = "Stepa Stepanović" id=82003
-	portrait_path="gfx/hoi4tgw_portraits/SER/army_generals/SER_stepa_stepanovic.dds"
-	traits={ trickster commando hill_fighter }
-	skill=3
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-create_corps_commander={
-	name = "Živojin Mišić" id=82004
-	portrait_path="gfx/hoi4tgw_portraits/SER/army_generals/SER_zivojin_misic.dds"
-	traits={ trickster }
-	skill=3
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 10
-}
-create_corps_commander={
-	name = "Pavle Jurišić Šturm" id=82005
-	portrait_path="gfx/hoi4tgw_portraits/SER/army_generals/SER_jurisic_sturm.dds"
-	traits={ old_guard }
-	skill=3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-create_corps_commander={
-	name = "Petar Bojović" id=82006
-	portrait_path="gfx/hoi4tgw_portraits/SER/army_generals/SER_petar_bojovic.dds"
-	traits={ fortress_buster }
-	skill=3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
+recruit_character = SER_radomir_putnik
+recruit_character = SER_filip_filipovic
+recruit_character = SER_peter_i
+recruit_character = SER_stepa_stepanović
+recruit_character = SER_Živojin_mišić
+recruit_character = SER_pavle_jurišić_Šturm
+recruit_character = SER_petar_bojović
+recruit_character = SER_momcilo_hadzilic
+
 
 1910.1.1 = {
 	oob = "SER_1910"

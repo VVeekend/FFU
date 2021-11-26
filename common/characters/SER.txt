@@ -1,0 +1,150 @@
+characters={
+	SER_radomir_putnik={
+		name="Radomir Putnik"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/SER/army_generals/SER_radomir_putnik.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard defensive_doctrine unyielding_defender infantry_expert }
+			skill=5
+			attack_skill=3
+			defense_skill=6
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=82002
+		}
+	}
+	SER_filip_filipovic={
+		name="Filip Filipovic"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/SER_filip_filipovic.dds"
+			}
+		}
+		country_leader={
+			desc="SER_filip_filipovic_DESC"
+			ideology=stalinism
+			expire="1935.1.1.1"
+			id=-1
+		}
+	}
+	SER_peter_i={
+		name="Peter I"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/SER_peter_i.dds"
+			}
+		}
+		country_leader={
+			desc="SER_peter_i_DESC"
+			ideology=conservatism
+			expire="1935.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="SER_peter_i_DESC"
+			ideology=autocracy
+			expire="1935.1.1.1"
+			id=-1
+		}
+	}
+	SER_stepa_stepanović={
+		name="Stepa Stepanović"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/SER/army_generals/SER_stepa_stepanovic.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster commando hill_fighter }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=82003
+		}
+	}
+	SER_Živojin_mišić={
+		name="Živojin Mišić"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/SER/army_generals/SER_zivojin_misic.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=10
+			legacy_id=82004
+		}
+	}
+	SER_pavle_jurišić_Šturm={
+		name="Pavle Jurišić Šturm"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/SER/army_generals/SER_jurisic_sturm.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=82005
+		}
+	}
+	SER_petar_bojović={
+		name="Petar Bojović"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/hoi4tgw_portraits/SER/army_generals/SER_petar_bojovic.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=82006
+		}
+	}
+	SER_momcilo_hadzilic={
+		name="Momcilo Hadzilic"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_8"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ captain_of_industry }
+			expire="1925.1.1.1"
+			id=-1
+		}
+	}
+}

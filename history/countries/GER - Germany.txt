@@ -17,35 +17,50 @@ add_to_faction = AUS
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
-#LEADERS
-create_country_leader={ name = "Wilhelm III" desc=GER_wilhelm_iii_DESC picture="gfx/leaders/GER/GER_wilhelm_iii.dds" expire="1935.1.1" ideology=autocracy  traits={ } }
-create_country_leader={ name = "Paul von Hindenburg" desc=GER_paul_von_hindenburg_DESC picture="gfx/leaders/GER_paul_von_hindenburg.dds" expire="1935.1.1" ideology=conservatism  traits={  } }
-create_country_leader={ name = "Adolf Hitler" desc=GER_adolf_hitler_DESC picture="gfx/leaders/GER_adolf_hitler.dds" expire="1935.1.1" ideology=nazism traits={  } }
-create_country_leader={ name = "Erich Ludendorff" desc=GER_erich_ludendorff_DESC picture="gfx/leaders/GER/GER_erich_ludendorff.dds" expire="1935.1.1" ideology=fascism_ideology traits={  } }
-create_country_leader={ name = "Friedrich Ebert" desc=GER_friedrich_ebert_DESC picture="gfx/leaders/GER_friedrich_ebert.dds" expire="1935.1.1" ideology=liberalism traits={  } }
-create_country_leader={ name = "Karl Liebknecht" desc=GER_karl_liebknecht_DESC picture="gfx/leaders/GER_karl_liebknecht.dds" expire="1935.1.1" ideology=marxism  traits={  } }
-create_country_leader={ name = "Wilhelm II" desc=GER_wilhelm_ii_DESC picture="gfx/leaders/GER/GER_wilhelm_ii.dds" expire="1935.1.1" ideology=autocracy traits={ autocratic_imperialist } }
+recruit_character = GER_max_von_fischel
+recruit_character = GER_reinhard_scheer
+recruit_character = GER_alfred_von_tirpitz
+recruit_character = GER_henning_von_holtzendorff
+recruit_character = GER_wilhelm_iii
+recruit_character = GER_paul_von_hindenburg
+recruit_character = GER_adolf_hitler
+recruit_character = GER_erich_ludendorff
+recruit_character = GER_friedrich_ebert
+recruit_character = GER_karl_liebknecht
+recruit_character = GER_wilhelm_ii
+recruit_character = GER_von_gallwitz
+recruit_character = GER_duke_albrecht_of_wurttemberg
+recruit_character = GER_crown_prince_rupprecht_of_bavaria
+recruit_character = GER_crown_prince_wilhelm_of_prussia
+recruit_character = GER_maximilian_von_prittwitz_und_gaffron
+recruit_character = GER_von_hellingrath
+recruit_character = GER_von_kluck
+recruit_character = GER_von_preußen_w.
+recruit_character = GER_von_francois
+recruit_character = GER_von_falkenhayn_erich
+recruit_character = GER_von_einem
+recruit_character = GER_von_hutier
+recruit_character = GER_ludendorff
+recruit_character = GER_von_der_marwitz
+recruit_character = GER_von_lettowvorbeck
+recruit_character = GER_von_below_o.
+recruit_character = GER_von_gündell
+recruit_character = GER_von_heydebreck
+recruit_character = GER_krafft_von_dellmensingen
+recruit_character = GER_sixt_von_armin
+recruit_character = GER_von_schlieffen
+recruit_character = GER_von_der_goltz_c.
+recruit_character = GER_von_hindenburg
+recruit_character = GER_von_dem_borne
+recruit_character = GER_von_bülow
+recruit_character = GER_von_mackensen
+recruit_character = GER_franz_von_hipper
+recruit_character = GER_maximilian_von_spee
+recruit_character = GER_lothar_von_arnauld_de_la_perière
+recruit_character = GER_karl_von_müller
+recruit_character = GER_curt_von_prittwitz_und_gaffron
+recruit_character = GER_friedrich_graf_von_baudissin
 
-#ARMY
-create_field_marshal = { name = "von Gallwitz" id = 34038 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_von_gallwitz.dds" traits = { thorough_planner } skill=3 }
-create_field_marshal = { name = "Duke Albrecht of Wurttemberg" id = 34337 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_duke_albrecht_of_wurttemberg.dds" traits = { ranger } skill=3 
-	attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-	logistics_skill = 3 
-	skill=3 }
-create_field_marshal = { name = "Crown Prince Rupprecht of Bavaria" id = 34547 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_rupprecht_of_bavaria.dds" traits = { infantry_leader } 
-	attack_skill = 2
-    defense_skill = 4
-    planning_skill = 2
-	logistics_skill = 3 
-	skill=2 }
-create_field_marshal = { name = "Crown Prince Wilhelm of Prussia" id = 34548 portrait_path = "gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_wilhelm_of_prussia.dds" traits = { } 	
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-	logistics_skill = 3 
-	skill=2 }
 
 ############################################################################################################ 
 
