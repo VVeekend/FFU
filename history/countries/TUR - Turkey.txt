@@ -53,7 +53,6 @@ recruit_character = TUR_ahmed_izzet
 recruit_character = TUR_ismail_enver
 recruit_character = TUR_talaat_pasha
 recruit_character = TUR_mehemmed_naby
-recruit_character = TUR_mustafa_kemal
 recruit_character = TUR_huseyin_hilmi
 recruit_character = TUR_hasan_saka
 recruit_character = TUR_erich_von_falkenhayn

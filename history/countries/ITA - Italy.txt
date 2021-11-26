@@ -50,7 +50,6 @@ recruit_character = ITA_rodolfo_graziani
 recruit_character = ITA_giampietro_pellegrini
 recruit_character = ITA_alberto_pollio
 recruit_character = ITA_vittorio_alfieri
-recruit_character = ITA_armando_diaz
 recruit_character = ITA_pier_angelo_brandimarte
 recruit_character = ITA_paolo_boselli
 recruit_character = ITA_duca_degli_abruzzi

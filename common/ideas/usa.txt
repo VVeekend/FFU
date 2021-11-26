@@ -13,34 +13,6 @@ ideas={
 			USA_james_r_garfield={ allowed={ tag=USA } traits={ prince_of_terror } ai_will_do={ factor=1 } }
 			}
 
-
-	theorist={
-			USA_adna_r_chaffee={ ledger = army allowed={ tag=USA } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
-			}
-	army_chief={
-			USA_john_j_pershing={ allowed={ tag=USA } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			}
-
-
-
-	navy_chief={
-			USA_robert_e_coontz={ allowed={ tag=USA } traits={ navy_anti_submarine_1 } ai_will_do={ factor=1 } }
-			USA_george_dewey={ allowed={ tag=USA } traits={ navy_chief_decisive_battle_1 } ai_will_do={ factor=1 } }
-			}
-	air_chief={
-			USA_william_mitchell={ allowed={ tag=USA } traits={ air_air_superiority_1 } ai_will_do={ factor=1 } }
-			USA_charles_chandler={ allowed={ tag=USA } traits={ air_chief_ground_support_1 } ai_will_do={ factor=1 } }
-			}
-	high_command={
-			USA_william_kenly={ ledger = air allowed={ tag=USA } traits={ air_air_combat_training_1 } ai_will_do={ factor=1 } }
-			USA_benjamin_foulois={ ledger = air allowed={ tag=USA } traits={ air_tactical_bombing_1 } ai_will_do={ factor=1 } }
-			USA_mason_patrick={ ledger = air allowed={ tag=USA } traits={ air_bomber_interception_1 } ai_will_do={ factor=1 } }
-			USA_charles_menoher={ ledger = air allowed={ tag=USA } traits={ air_close_air_support_1 } ai_will_do={ factor=1 } }
-			USA_william_w_wotherspoon={ ledger = army allowed={ tag=USA } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
-			USA_tasker_h_bliss={ ledger = army allowed={ tag=USA } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
-			USA_nelson_a_miles={ ledger = army allowed={ tag=USA } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
-			USA_william_s_benson={ ledger = navy allowed={ tag=USA } traits={ navy_capital_ship_1 } ai_will_do={ factor=1 } }
-			}
 	naval_manufacturer={
 			designer = yes 
 			newport_news_shipbuilding={ allowed={ TAG=USA } research_bonus={ naval_equipment=0.10 } traits={ pacific_fleet_naval_manufacturer } }

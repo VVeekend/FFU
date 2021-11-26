@@ -11,42 +11,6 @@ ideas={
 			BUL_marko_tourlakov={ allowed={ tag=BUL } traits={ smooth_talking_charmer } ai_will_do={ factor=1 } }
 			BUL_kristo_pastukhov={ allowed={ tag=BUL } traits={ popular_figurehead } ai_will_do={ factor=1 } }
 			}
-	army_chief={
-			BUL_stefan_nerezov={ allowed={ tag=BUL } traits={ army_chief_old_guard } ai_will_do={ factor=1 } }
-			BUL_konstantin_zhostov={ allowed={ tag=BUL } traits={ army_chief_reform_1 } ai_will_do={ factor=1 } }
-			BUL_kalin_naidenov={ allowed={ tag=BUL } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
-			BUL_aleksandyr_dimitrov={ allowed={ tag=BUL } traits={ army_chief_drill_1 } ai_will_do={ factor=1 } }
-			BUL_sava_savov={ allowed={ tag=BUL } traits={ army_chief_offensive_3 } ai_will_do={ factor=1 } }
-			#BUL_atanas_nazlamov={ allowed={ tag=BUL } traits={ army_chief_offensive_1 } ai_will_do={ factor=1 } }
-			BUL_petar_midilev={ allowed={ tag=BUL } traits={ army_chief_morale_1 } ai_will_do={ factor=1 } }
-			BUL_radko_dimitriev={ allowed={ tag=BUL } traits={ army_chief_maneuver_1 } ai_will_do={ factor=1 } }
-			BUL_vicho_dikov={ allowed={ tag=BUL } traits={ army_chief_organizational_1 } ai_will_do={ factor=1 } }
-			}
-	navy_chief={
-			BUL_konstantin_kirkov={ allowed={ tag=BUL } traits={ navy_chief_commerce_raiding_1 } ai_will_do={ factor=1 } }
-			BUL_rashko_serafimov={ allowed={ tag=BUL } traits={ navy_chief_reform_1 } ai_will_do={ factor=1 } }
-			}
-
-
-	theorist={
-			BUL_nikola_zhekov={ ledger = army allowed={ tag=BUL } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
-			}
-
-	air_chief={
-			BUL_vasil_zlatarov={ allowed={ tag=BUL } traits={ air_chief_all_weather_1 } ai_will_do={ factor=1 } }
-			}
-
-
-	high_command={
-			BUL_radul_milkov={ ledger = air allowed={ tag=BUL } traits={ air_close_air_support_1 } ai_will_do={ factor=1 } }
-			BUL_hristo_burmov={ ledger = army allowed={ tag=BUL } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
-			BUL_nikola_topaldzhikov={ ledger = army allowed={ tag=BUL } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			BUL_mihail_savov={ ledger = army allowed={ tag=BUL } traits={ army_infantry_2 } ai_will_do={ factor=1 } }
-			BUL_pravoslav_tenev={ ledger = army allowed={ tag=BUL } traits={ army_commando_1 } ai_will_do={ factor=1 } }
-			BUL_lazar_draganov={ ledger = army allowed={ tag=BUL } traits={ army_cavalry_1 } ai_will_do={ factor=1 } }
-			BUL_ivan_fichev={ ledger = army allowed={ tag=BUL } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
-			BUL_stepan_paprikov={ ledger = army allowed={ tag=BUL } traits={ army_concealment_1 } ai_will_do={ factor=1 } }
-			}
 	aircraft_manufacturer={
 			designer = yes 
 			cbsa={ allowed={ TAG=BUL } research_bonus={ air_equipment=0.10 } traits={ CAS_manufacturer } picture=generic_air_manufacturer_2 }

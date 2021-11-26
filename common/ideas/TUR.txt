@@ -154,57 +154,7 @@ mobilization_speed = 0.25
 			traits = { propaganda_bungler }
 		}
 			}
-
-	theorist={
-			TUR_ethem_nejat={ ledger = army  allowed={ tag=TUR } traits={ military_theorist } research_bonus = { land_doctrine = 0.10	} ai_will_do={ factor=1 } }
-			}
-
-	army_chief={
-			TUR_ahmed_cemal={ allowed={ tag=TUR } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
-			TUR_mehmet_nazim={ allowed={ tag=TUR } traits={ army_chief_offensive_2 } ai_will_do={ factor=1 } }
-			}
-
-	navy_chief={
-			TUR_huseyin_rauf={ allowed={ tag=TUR } traits={ navy_chief_decisive_battle_1 } ai_will_do={ factor=1 } }
-			}
-	air_chief={
-			TUR_ismail_enver={ allowed={ tag=TUR } traits={ air_close_air_support_1 } ai_will_do={ factor=1 } }
-			}
-
-
-
-	high_command={
-			TUR_huseyin_hilmi={ ledger = army allowed={ tag=TUR } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			TUR_ahmed_izzet={ ledger = army  allowed={ tag=TUR } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
-			TUR_mustafa_ismet={ ledger = army  allowed={ tag=TUR } traits={ army_regrouping_1 } ai_will_do={ factor=1 } }
 			
-		TUR_erich_von_falkenhayn = {
-			ledger = army
-			picture = rudolf_hess
-			allowed={ tag=TUR }
-			available = {
-				has_completed_focus = TUR_schellendorf_plan
-			}
-			traits={ army_infantry_2 }
-		}
-
-		TUR_mustafa_kemal = {
-			ledger = army
-			picture = TUR_mustafa_kemal-96389
-			allowed={ tag=TUR }
-			traits={ army_concealment_2 }
-		}
-
-		TUR_otto_liman_von_sanders = {
-			ledger = army
-			picture = rudolf_hess
-			allowed={ tag=TUR }
-			available = {
-				has_completed_focus = TUR_schellendorf_plan
-			}
-			traits={ army_artillery_1 }
-		}
-			}
 	naval_manufacturer={
 			designer = yes 
 			tersane_i_amire_istanbul={ allowed={ TAG=TUR } research_bonus={ naval_equipment=0.10 } traits={ coastal_defence_naval_manufacturer } picture=generic_naval_manufacturer_2 }

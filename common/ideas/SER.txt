@@ -17,7 +17,6 @@ ideas={
 			SER_jovan_jovanovic_pizon={ ledger = army allowed={ tag=SER } traits={ military_theorist } traits={ military_theorist } ai_will_do={ factor=1 } }
 			}
 	army_chief={
-			SER_radomir_putnik={ allowed={ tag=SER } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
 			#SER_milivoje_zecevic={ allowed={ tag=SER } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
 			SER_petar_bojovic={ allowed={ tag=SER } traits={ army_chief_maneuver_1 } ai_will_do={ factor=1 } }
 			SER_zivko_pavlovic={ allowed={ tag=SER } traits={ army_chief_organizational_1 } ai_will_do={ factor=1 } }
