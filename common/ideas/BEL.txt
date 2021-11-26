@@ -15,10 +15,6 @@ ideas={
 			BEL_cyriaque_gillain={ allowed={ tag=BEL } traits={ army_chief_organizational_1 } ai_will_do={ factor=1 } }
 			}
 
-	theorist={
-			BEL_joseph_hellebaut={ ledger = army allowed={ tag=BEL } traits={ military_theorist } traits={ military_theorist } ai_will_do={ factor=1 } }
-			}
-
 
 	air_chief={
 			#BEL_clement_de_saint_marcq={ allowed={ tag=BEL } traits={ air_chief_reform_1 } ai_will_do={ factor=1 } }
