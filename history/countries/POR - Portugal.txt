@@ -58,7 +58,6 @@ recruit_character = POR_joaquim_pimenta_de_castro
 recruit_character = POR_antonio_rodrigues_ribeiro
 recruit_character = POR_joao_do_canto_e_castro
 recruit_character = POR_antonio_maria_baptista
-recruit_character = POR_gomes_da_costa
 recruit_character = POR_vitor_hugo_de_azevedo_coutinho
 recruit_character = POR_afonso_augusto_da_costa
 recruit_character = POR_joao_de_sousa_barbosa

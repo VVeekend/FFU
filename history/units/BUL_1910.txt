@@ -16,7 +16,7 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		gunner_support { x = 0 y = 1 }
+		gunner_support = { x = 0 y = 1 }
 	}
 }
 
