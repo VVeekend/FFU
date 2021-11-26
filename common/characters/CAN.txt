@@ -110,7 +110,7 @@ characters={
 			legacy_id=13005
 		}
 	}
-	CAN_loomis,c.b.={
+	CAN_loomis={
 		name="Loomis,C.B."
 		portraits={
 			army={
@@ -186,7 +186,7 @@ characters={
 			legacy_id=13009
 		}
 	}
-	CAN_mercer,m.s.={
+	CAN_mercer={
 		name="Mercer,M.S."
 		portraits={
 			army={
@@ -205,7 +205,7 @@ characters={
 			legacy_id=13016
 		}
 	}
-	CAN_burstall,h.e.={
+	CAN_burstall={
 		name="Burstall,H.E."
 		portraits={
 			army={
@@ -224,7 +224,7 @@ characters={
 			legacy_id=13017
 		}
 	}
-	CAN_macdonell_a.c.={
+	CAN_macdonell={
 		name="Macdonell A.C."
 		portraits={
 			army={
@@ -282,7 +282,7 @@ characters={
 			legacy_id=13020
 		}
 	}
-	CAN_o`gradyhaly={
+	CAN_ogradyhaly={
 		name="O`Grady-Haly"
 		portraits={
 			army={

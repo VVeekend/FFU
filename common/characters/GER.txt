@@ -9,6 +9,20 @@ characters={
 				large="gfx/admiral/GER_von_fischel.dds"
 			}
 		}
+		advisor={
+			slot = navy_chief
+			
+			ledger  = navy 
+				allowed  = {
+					original_tag  = GER
+				}
+				traits  = {
+					navy_chief_decisive_battle_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
 		navy_leader={
 			skill=3
 			attack_skill=1
@@ -27,6 +41,20 @@ characters={
 			army={
 				large="gfx/admiral/GER_scheer.dds"
 			}
+		}
+		advisor={
+			slot = navy_chief
+			
+			ledger  = navy 
+				allowed  = {
+					original_tag  = GER
+				}
+				traits  = {
+					navy_chief_maneuver_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
 		}
 		navy_leader={
 			traits={ superior_tactician }
@@ -819,6 +847,7 @@ characters={
 				traits  = {
 					captain_of_industry 
 				}
+				
 		}
 	}
 	GER_bernhard_von_bulow={
@@ -831,6 +860,7 @@ characters={
 				traits  = {
 					prince_of_terror 
 				}
+				
 		}
 	}
 	GER_theobald_von_bethmann_hollweg ={
@@ -842,6 +872,11 @@ characters={
 				}
 				traits  = {
 					appeaser 
+				}
+				portraits={
+					army={
+						small="gfx/hoi4tgw_portraits/GER/advisor/GER_bernhard_von_bulow.dds"
+					}
 				}
 		}
 	}
@@ -945,7 +980,7 @@ characters={
 		advisor={
 			slot = theorist
 			idea_token = CAN_tasker_cook
-			ledger  = air 
+			 
 				allowed  = {
 					original_tag  = GER
 				}
@@ -963,7 +998,7 @@ characters={
 		advisor={
 			slot = theorist
 			idea_token = CAN_tasker_cook
-			ledger  = air 
+			 
 				allowed  = {
 					original_tag  = GER
 				}
@@ -980,7 +1015,7 @@ characters={
 		advisor={
 			slot = theorist
 			idea_token = CAN_tasker_cook
-			ledger  = air 
+			 
 				allowed  = {
 					original_tag  = GER
 				}
@@ -1162,7 +1197,7 @@ characters={
 		advisor={
 			slot = high_command
 			
-			ledger  = army 
+			ledger  = naby 
 				allowed  = {
 					original_tag  = GER
 				}
@@ -1179,7 +1214,7 @@ characters={
 		advisor={
 			slot = high_command
 			
-			ledger  = army 
+			ledger  = navy 
 				allowed  = {
 					original_tag  = GER
 				}
@@ -1196,7 +1231,7 @@ characters={
 		advisor={
 			slot = high_command
 			
-			ledger  = army 
+			ledger  = air 
 				allowed  = {
 					original_tag  = GER
 				}
@@ -1213,7 +1248,7 @@ characters={
 		advisor={
 			slot = high_command
 			
-			ledger  = army 
+			ledger  = air 
 				allowed  = {
 					original_tag  = GER
 				}
@@ -1230,7 +1265,7 @@ characters={
 		advisor={
 			slot = high_command
 			
-			ledger  = army 
+			ledger  = air 
 				allowed  = {
 					original_tag  = GER
 				}
@@ -1270,6 +1305,91 @@ characters={
 				}
 				traits  = {
 					army_artillery_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		
+	}
+	GER_walter_von_eberhardt={
+		advisor={
+			slot = air_chief
+			
+			ledger  = air 
+				allowed  = {
+					original_tag  = GER
+				}
+				traits  = {
+					air_naval_strike_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		
+	}
+	GER_ernst_von_hoeppner={
+		advisor={
+			slot = air_chief
+			
+			ledger  = air 
+				allowed  = {
+					original_tag  = GER
+				}
+				traits  = {
+					air_chief_reform_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		
+	}
+	GER_hugo_von_pohl={
+		advisor={
+			slot = navy_chief
+			
+			ledger  = navy 
+				allowed  = {
+					original_tag  = GER
+				}
+				traits  = {
+					navy_chief_decisive_battle_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		
+	}
+	GER_eduard_von_capelle={
+		advisor={
+			slot = navy_chief
+			
+			ledger  = navy 
+				allowed  = {
+					original_tag  = GER
+				}
+				traits  = {
+					submarine_specialist 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		
+	}
+	GER_friedrich_von_baudissin={
+		advisor={
+			slot = navy_chief
+			
+			ledger  = navy 
+				allowed  = {
+					original_tag  = GER
+				}
+				traits  = {
+					navy_chief_old_guard 
 				}
 				ai_will_do  = {
 					factor  = 1.000
