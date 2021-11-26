@@ -814,7 +814,7 @@ characters={
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				traits  = {
 					captain_of_industry 
@@ -826,7 +826,7 @@ characters={
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				traits  = {
 					prince_of_terror 
@@ -838,7 +838,7 @@ characters={
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				traits  = {
 					appeaser 
@@ -850,7 +850,7 @@ characters={
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				traits  = {
 					propaganda_expert 
@@ -862,7 +862,7 @@ characters={
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				traits  = {
 					smooth_talking_charmer 
@@ -874,7 +874,7 @@ characters={
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				traits  = {
 					national_integralist 
@@ -886,7 +886,7 @@ characters={
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				traits  = {
 					quartermaster_general 
@@ -898,7 +898,7 @@ characters={
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				traits  = {
 					popular_figurehead 
@@ -910,7 +910,7 @@ characters={
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				traits  = {
 					silent_workhorse 
@@ -922,7 +922,7 @@ characters={
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				traits  = {
 					war_industrialist 
@@ -934,7 +934,7 @@ characters={
 			slot = political_advisor
 			idea_token = rudolf_hess
 			allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				traits  = {
 					technocrat 
@@ -947,7 +947,7 @@ characters={
 			idea_token = CAN_tasker_cook
 			ledger  = air 
 				allowed  = {
-					original_tag  = CAN
+					original_tag  = GER
 				}
 				research_bonus  = {
 					land_doctrine  = 0.100

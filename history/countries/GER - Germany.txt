@@ -69,6 +69,7 @@ recruit_character = GER_karl_von_einem
 recruit_character = GER_reinhold_von_sydow
 recruit_character = GER_karl_trimborn
 recruit_character = GER_Yaboi
+recruit_character = GER_josias_von_heeringen
 
 
 ############################################################################################################ 

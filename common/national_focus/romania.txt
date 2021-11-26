@@ -1,5 +1,5 @@
 focus_tree = {
-	id=generic_focus
+	id=rom_focus
 	default=no
 	reset_on_civilwar=no
 	country={ factor=0 modifier = { add = 10 tag = ROM } }
