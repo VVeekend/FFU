@@ -15,9 +15,7 @@ characters={
 	EGY_archibald_murray={
 		name="Archibald Murray"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_murray.tga"
 			}
@@ -35,9 +33,7 @@ characters={
 	EGY_edmund_allenby={
 		name="Edmund Allenby"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_Allenby.tga"
 			}

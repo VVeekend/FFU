@@ -44,9 +44,7 @@ characters={
 	BUL_vladimir_vazov={
 		name="Vladimir Vazov"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_Vladimir_Vazov.dds"
 			}
@@ -64,9 +62,7 @@ characters={
 	BUL_lukov_h.={
 		name="Lukov H."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_Ivan_Lukov.dds"
 			}
@@ -83,9 +79,7 @@ characters={
 	BUL_zhekov={
 		name="Zhekov"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_Nikola_Zhekov.dds"
 			}
@@ -103,9 +97,7 @@ characters={
 	BUL_kolev={
 		name="Kolev"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_Ivan_Kolev.dds"
 			}
@@ -123,9 +115,7 @@ characters={
 	BUL_fichev={
 		name="Fichev"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_fichev.dds"
 			}
@@ -143,9 +133,7 @@ characters={
 	BUL_dobrev={
 		name="Dobrev"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/BUL_dobrev.tga"
 			}
@@ -162,9 +150,7 @@ characters={
 	BUL_serafimov={
 		name="Serafimov"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/BUL_serafimov.tga"
 			}

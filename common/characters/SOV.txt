@@ -7,7 +7,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="RUS_vladimir_ilyich_lenin_DESC"
 			ideology=leninism
 			expire="1935.1.1.1"
 			id=-1
@@ -21,7 +20,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="RUS_georgy_lvov_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -44,20 +42,17 @@ characters={
 			legacy_id=70484
 		}
 		country_leader={
-			desc="RUS_nikolai_ii_DESC"
 			ideology=liberalism
 			traits={ unpopular_monarch }
 			expire="1935.1.1.1"
 			id=-1
 		}
 		country_leader={
-			desc="RUS_nikolai_ii_DESC"
 			ideology=fascism_ideology
 			expire="1935.1.1.1"
 			id=-1
 		}
 		country_leader={
-			desc="RUS_nikolai_ii_DESC"
 			ideology=autocracy
 			traits={ unpopular_monarch }
 			expire="1935.1.1.1"
@@ -90,9 +85,7 @@ characters={
 	SOV_mikhail_alexeyev={
 		name="Mikhail Alexeyev"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_alekseyev.dds"
 			}
@@ -110,9 +103,7 @@ characters={
 	SOV_nikolay_rouzski={
 		name="Nikolay Rouzski"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_ruzsky.dds"
 			}
@@ -163,9 +154,7 @@ characters={
 	SOV_nikolay_baratov={
 		name="Nikolay Baratov"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_baratov.dds"
 			}
@@ -183,9 +172,7 @@ characters={
 	SOV_aleksei_brusilov={
 		name="Aleksei Brusilov"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_brusilov.dds"
 			}
@@ -203,9 +190,7 @@ characters={
 	SOV_anton_denikin={
 		name="Anton Denikin"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_denikin.dds"
 			}
@@ -223,9 +208,7 @@ characters={
 	SOV_alexei_evert={
 		name="Alexei Evert"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_evert.dds"
 			}
@@ -243,9 +226,7 @@ characters={
 	SOV_nikolay_iudovich_ivanov={
 		name="Nikolay Iudovich Ivanov"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_ivanov.dds"
 			}
@@ -262,9 +243,7 @@ characters={
 	SOV_alexey_kaledin={
 		name="Alexey Kaledin"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_kaledin.dds"
 			}
@@ -282,9 +261,7 @@ characters={
 	SOV_aleksey_kuropatkin={
 		name="Aleksey Kuropatkin"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_kuropatkin.dds"
 			}
@@ -302,9 +279,7 @@ characters={
 	SOV_platon_lechitsky={
 		name="Platon Lechitsky"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_lechitsky.dds"
 			}
@@ -322,9 +297,7 @@ characters={
 	SOV_pavel_karlovitch_rennenkampf={
 		name="Pavel Karlovitch Rennenkampf"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_rennenkampf.dds"
 			}
@@ -341,9 +314,7 @@ characters={
 	SOV_aleksandr_samsonov={
 		name="Aleksandr Samsonov"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_samsonov.dds"
 			}
@@ -360,9 +331,7 @@ characters={
 	SOV_vladimir_sakharov={
 		name="Vladimir Sakharov"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_sakharov.dds"
 			}
@@ -379,9 +348,7 @@ characters={
 	SOV_dmitry_shcherbachev={
 		name="Dmitry Shcherbachev"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_shcherbachev.dds"
 			}
@@ -399,9 +366,7 @@ characters={
 	SOV_piotr_wrangel={
 		name="Piotr Wrangel"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_wrangel.dds"
 			}
@@ -418,9 +383,7 @@ characters={
 	SOV_nikolai_yudenich={
 		name="Nikolai Yudenich"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/army_generals/RUS_yudenich.dds"
 			}
@@ -438,9 +401,7 @@ characters={
 	SOV_yevgeni_ivanovich_alekseyev={
 		name="Yevgeni Ivanovich Alekseyev"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_admiral_alekseyev.dds"
 			}
@@ -458,9 +419,7 @@ characters={
 	SOV_andrei_eberhardt={
 		name="Andrei Eberhardt"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_eberhard.dds"
 			}
@@ -478,9 +437,7 @@ characters={
 	SOV_grand_duke_alexander={
 		name="Grand Duke Alexander"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_gd_alexander.dds"
 			}
@@ -512,9 +469,7 @@ characters={
 				}
 		}
 		portraits={
-			army={
-				small=""
-			}
+
 			navy={
 				small="GFX_idea_RUS_aleksandr_rusin"
 			}

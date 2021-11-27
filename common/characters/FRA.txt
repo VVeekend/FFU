@@ -307,9 +307,7 @@ characters={
 	FRA_philippe_pétain={
 		name="Philippe Pétain"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_philippe_petain.dds"
 			}
@@ -327,9 +325,7 @@ characters={
 	FRA_henri_berthelot={
 		name="Henri Berthelot"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_henri_berthelot.dds"
 			}
@@ -347,9 +343,7 @@ characters={
 	FRA_louis_franchet_despèrey={
 		name="Louis Franchet d'Espèrey"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_louis_franchet_d_esperey.dds"
 			}
@@ -367,9 +361,7 @@ characters={
 	FRA_Émile_fayolle={
 		name="Émile Fayolle"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_emile_fayolle.dds"
 			}
@@ -387,9 +379,7 @@ characters={
 	FRA_hubert_lyautey={
 		name="Hubert Lyautey"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_hubert_lyautey.dds"
 			}
@@ -407,9 +397,7 @@ characters={
 	FRA_michel_maunoury={
 		name="Michel Maunoury"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_michel_maunoury.dds"
 			}
@@ -426,9 +414,7 @@ characters={
 	FRA_auguste_boué_de_lapeyrère={
 		name="Auguste Boué de Lapeyrère"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/FRA/navy_admirals/FRA_de_lapeyrere.dds"
 			}
@@ -445,9 +431,7 @@ characters={
 	FRA_jean_merveilleux_du_vignaux={
 		name="Jean Merveilleux du Vignaux"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/FRA/navy_admirals/FRA_du_vignaux.dds"
 			}
@@ -465,9 +449,7 @@ characters={
 	FRA_lucien_lacaze={
 		name="Lucien Lacaze"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/FRA/navy_admirals/FRA_lucien_lacaze.dds"
 			}
@@ -484,9 +466,7 @@ characters={
 	FRA_pierrealexis_ronarch={
 		name="Pierre-Alexis Ronarc'h"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/FRA/navy_admirals/FRA_ronarc_h.dds"
 			}

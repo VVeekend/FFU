@@ -2,9 +2,7 @@ characters={
 	POR_gomes_da_costa={
 		name="Gomes da Costa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_gomes_da_costa.tga"
 			}
@@ -120,9 +118,7 @@ characters={
 	POR_alves_roçadas={
 		name="Alves Roçadas"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_alves_rocadas.tga"
 			}
@@ -139,9 +135,7 @@ characters={
 	POR_de_sousa_rosa={
 		name="de Sousa Rosa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_de_sousa_rosa.tga"
 			}
@@ -158,9 +152,7 @@ characters={
 	POR_pereira_deça={
 		name="Pereira d'Eça"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_pereira_d_eca.tga"
 			}
@@ -177,9 +169,7 @@ characters={
 	POR_martins_de_carvalho={
 		name="Martins de Carvalho"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_martins_de_carvalho.tga"
 			}
@@ -196,9 +186,7 @@ characters={
 	POR_rodrigues_ribeiro={
 		name="Rodrigues Ribeiro"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_rodrigues_ribeiro.tga"
 			}
@@ -215,9 +203,7 @@ characters={
 	POR_sinel_de_cordes={
 		name="Sinel de Cordes"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_sinel_de_cordes.tga"
 			}
@@ -234,9 +220,7 @@ characters={
 	POR_norton_de_matos={
 		name="Norton de Matos"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_norton_de_matos.tga"
 			}
@@ -253,9 +237,7 @@ characters={
 	POR_pimenta_de_castro={
 		name="Pimenta de Castro"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_pimenta_de_castro.tga"
 			}
@@ -273,9 +255,7 @@ characters={
 	POR_pais={
 		name="Pais"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_pais.tga"
 			}
@@ -292,9 +272,7 @@ characters={
 	POR_de_elvas_cardeira={
 		name="de Elvas Cardeira"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_de_elvas_cardeira.tga"
 			}
@@ -311,9 +289,7 @@ characters={
 	POR_ribeiro_júnior={
 		name="Ribeiro Júnior"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_ribeiro_junior.tga"
 			}
@@ -330,9 +306,7 @@ characters={
 	POR_da_cunha_corte_rial={
 		name="da Cunha Corte Rial"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_da_cunha_corte_rial.tga"
 			}
@@ -349,9 +323,7 @@ characters={
 	POR_camacho={
 		name="Camacho"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_camacho.tga"
 			}
@@ -368,9 +340,7 @@ characters={
 	POR_coelho={
 		name="Coelho"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_coelho.tga"
 			}
@@ -387,9 +357,7 @@ characters={
 	POR_de_freitas={
 		name="de Freitas"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_de_freitas.tga"
 			}
@@ -406,9 +374,7 @@ characters={
 	POR_de_andrade={
 		name="de Andrade"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_de_andrade.tga"
 			}
@@ -425,9 +391,7 @@ characters={
 	POR_rodrigeus_da_silva={
 		name="Rodrigeus da Silva"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_rodrigeus_da_silva.tga"
 			}
@@ -444,9 +408,7 @@ characters={
 	POR_de_abreu_t={
 		name="de Abreu,T"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_de_abreu_t.tga"
 			}
@@ -464,9 +426,7 @@ characters={
 	POR_simas_machados={
 		name="Simas Machados"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/POR_simas_machados.tga"
 			}
@@ -484,9 +444,7 @@ characters={
 	POR_de_sousa_telles={
 		name="de Sousa Telles"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/fieldmarshal/POR_de_sousa_telles.tga"
 			}
@@ -503,9 +461,7 @@ characters={
 	POR_da_silva_oliveira={
 		name="da Silva Oliveira"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/fieldmarshal/POR_da_silva_oliveira.tga"
 			}
@@ -522,9 +478,7 @@ characters={
 	POR_leote_do_rego={
 		name="Leote do Rego"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/POR_leote_do_rego.tga"
 			}
@@ -541,9 +495,7 @@ characters={
 	POR_de_maia={
 		name="de Maia"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/POR_de_maia.tga"
 			}
@@ -560,9 +512,7 @@ characters={
 	POR_de_azevedo_coutinho_p={
 		name="de Azevedo Coutinho P."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/POR_de_azevedo_coutinho_p.tga"
 			}
@@ -579,9 +529,7 @@ characters={
 	POR_bastro={
 		name="Bastro"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/POR_bastro.tga"
 			}
@@ -598,9 +546,7 @@ characters={
 	POR_de_azevedo_coutinho_v.={
 		name="de Azevedo Coutinho V."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/POR_de_azevedo_coutinho_v.tga"
 			}

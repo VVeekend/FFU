@@ -44,9 +44,7 @@ characters={
 	HOL_dufour={
 		name="Dufour"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_dufour.tga"
 			}
@@ -63,9 +61,7 @@ characters={
 	HOL_cool={
 		name="Cool"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_cool.tga"
 			}
@@ -82,9 +78,7 @@ characters={
 	HOL_weber={
 		name="Weber"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_weber.tga"
 			}
@@ -101,9 +95,7 @@ characters={
 	HOL_forbes_wels={
 		name="Forbes Wels"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_forbes_wels.tga"
 			}
@@ -120,9 +112,7 @@ characters={
 	HOL_pop={
 		name="Pop"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_pop.tga"
 			}
@@ -139,9 +129,7 @@ characters={
 	HOL_neeteson={
 		name="Neeteson"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_neeteson.tga"
 			}
@@ -158,9 +146,7 @@ characters={
 	HOL_van_terwisga={
 		name="van Terwisga"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_van_terwisga.tga"
 			}
@@ -177,9 +163,7 @@ characters={
 	HOL_latour={
 		name="Latour"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_latour.tga"
 			}
@@ -196,9 +180,7 @@ characters={
 	HOL_michielsen={
 		name="Michielsen"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_michielsen.tga"
 			}
@@ -215,9 +197,7 @@ characters={
 	HOL_de_greve={
 		name="de Greve"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_de_greve.tga"
 			}
@@ -234,9 +214,7 @@ characters={
 	HOL_van_rietschoten={
 		name="van Rietschoten"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_van_rietschoten.tga"
 			}
@@ -253,9 +231,7 @@ characters={
 	HOL_dijkstra={
 		name="Dijkstra"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_dijkstra.tga"
 			}
@@ -272,9 +248,7 @@ characters={
 	HOL_burger={
 		name="Burger"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_burger.tga"
 			}
@@ -291,9 +265,7 @@ characters={
 	HOL_thiange={
 		name="Thiange"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_thiange.tga"
 			}
@@ -310,9 +282,7 @@ characters={
 	HOL_hein_ter_poorten={
 		name="Hein Ter Poorten"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_hein_ter_poorten.tga"
 			}
@@ -330,9 +300,7 @@ characters={
 	HOL_gerardus_j._berenschot={
 		name="Gerardus J. Berenschot"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_gerardus_j_berenschot.tga"
 			}
@@ -349,9 +317,7 @@ characters={
 	HOL_jacob_j._pesman={
 		name="Jacob J. Pesman"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/HOL_jacob_j_pesman.tga"
 			}
@@ -369,9 +335,7 @@ characters={
 	HOL_gustav_a._ilgen={
 		name="Gustav A. Ilgen"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/fieldmarshal/HOL_gustav_a_ilgen.tga"
 			}
@@ -389,9 +353,7 @@ characters={
 	HOL_cornelis_snijders={
 		name="Cornelis Snijders"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/HOL/army_generals/HOL_Cornelis_Snijders.dds"
 			}
@@ -409,9 +371,7 @@ characters={
 	HOL_pinke={
 		name="Pinke"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/HOL_pinke.tga"
 			}
@@ -428,9 +388,7 @@ characters={
 	HOL_rambonnet={
 		name="Rambonnet"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/HOL_rambonnet.tga"
 			}
@@ -447,9 +405,7 @@ characters={
 	HOL_ten_cate={
 		name="ten Cate"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/HOL_ten_cate.tga"
 			}
@@ -466,9 +422,7 @@ characters={
 	HOL_wentholt={
 		name="Wentholt"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/HOL_wentholt.tga"
 			}
@@ -485,9 +439,7 @@ characters={
 	HOL_ellis={
 		name="Ellis"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/HOL_ellis.tga"
 			}
@@ -504,9 +456,7 @@ characters={
 	HOL_tydeman={
 		name="Tydeman"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/HOL_tydeman.tga"
 			}
@@ -523,9 +473,7 @@ characters={
 	HOL_conrad_e._l._helfrich={
 		name="Conrad E. L. Helfrich"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/HOL_conrad_e_l_helfrich.tga"
 			}

@@ -22,6 +22,7 @@ give_guarantee = BEL # France guaranteed the independence of Belgium - Treaty of
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
+recruit_character = FRA_armand_fallières
 recruit_character = FRA_alexandre_millerand
 recruit_character = FRA_joseph_gallieni
 recruit_character = FRA_joseph_joffre
@@ -36,7 +37,6 @@ recruit_character = FRA_jules_méline
 recruit_character = FRA_jules_pams
 recruit_character = FRA_paul_doumer
 recruit_character = FRA_philippe_viii
-recruit_character = FRA_armand_fallières
 recruit_character = FRA_philippe_pétain
 recruit_character = FRA_henri_berthelot
 recruit_character = FRA_louis_franchet_despèrey

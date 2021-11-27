@@ -2,9 +2,7 @@ characters={
 	ITA_luigi_cadorna={
 		name="Luigi Cadorna"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Luigi_Cadorna.dds"
 			}
@@ -22,9 +20,7 @@ characters={
 	ITA_armando_diaz={
 		name="Armando Diaz"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Armando_Diaz.dds"
 			}
@@ -90,9 +86,7 @@ characters={
 	ITA_pecori_giraldi={
 		name="Pecori Giraldi"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Pecori_Giraldi.dds"
 			}
@@ -109,9 +103,7 @@ characters={
 	ITA_carlo_caneva={
 		name="Carlo Caneva"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Carlo_Caneva.dds"
 			}
@@ -129,9 +121,7 @@ characters={
 	ITA_emanuele_filiberto={
 		name="Emanuele Filiberto"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Emanuele_Filiberto.dds"
 			}
@@ -148,9 +138,7 @@ characters={
 	ITA_luigi_amedeo={
 		name="Luigi Amedeo"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ITA/navy_admirals/ITA_duca_degli_abruzzi.dds"
 			}
@@ -167,9 +155,7 @@ characters={
 	ITA_thaon_di_revel={
 		name="Thaon di Revel"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ITA/navy_admirals/ITA_thaon_di_revel.dds"
 			}
@@ -186,9 +172,7 @@ characters={
 	ITA_marcello_amero_dastestella={
 		name="Marcello Amero d'Aste-Stella"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ITA/navy_admirals/ITA_marcello_aste_stella.dds"
 			}

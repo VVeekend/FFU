@@ -21,9 +21,9 @@ set_naval_oob = "TUR_navy"
 #-------------------------------------------------------
 
 #LEADERS
+recruit_character = TUR_mehmed_v
 recruit_character = TUR_mustafa_kemal
 recruit_character = TUR_mehmed_vi
-recruit_character = TUR_mehmed_v
 recruit_character = TUR_İsmail_enver_paşa
 recruit_character = TUR_mehmed_esad_paşa
 recruit_character = TUR_hasan_tahsin_paşa
