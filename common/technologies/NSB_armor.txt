@@ -14,7 +14,7 @@ technologies = {
 	@1946 = 20
 
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
-	gwtank_chassis = { #Leichttraktor
+	ww1_gwtank_chassis = { #Leichttraktor
 
 		enable_equipments = {
 			#light_tank_chassis_0
@@ -63,12 +63,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = basic_light_tank_chassis
+			leads_to_tech = ww1_light_tank_interwar_1
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = basic_heavy_tank_chassis
+			leads_to_tech = ww1_heavy_tank
 			research_cost_coeff = 1
 		}
 
@@ -194,7 +194,7 @@ technologies = {
 		cat_medium_armor
 	}
 }
-	basic_light_tank_chassis = { #Panzer I
+	ww1_light_tank_interwar_1 = { #Panzer I
 
 		enable_equipments = {
 			light_tank_chassis_1
@@ -213,7 +213,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = improved_light_tank_chassis
+			leads_to_tech = ww1_light_tank_interwar_2
 			research_cost_coeff = 1
 		}
 
@@ -256,7 +256,7 @@ technologies = {
 		}
 	}
 
-	improved_light_tank_chassis = { #Panzer II
+	ww1_light_tank_interwar_2 = { #Panzer II
 
 		enable_equipments = {
 			light_tank_chassis_2
@@ -266,7 +266,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = advanced_light_tank_chassis
+			leads_to_tech = ww1_light_tank_interwar_3
 			research_cost_coeff = 1
 		}
 
@@ -326,7 +326,7 @@ technologies = {
 
 	
 
-	advanced_light_tank_chassis = { #Leopard
+	ww1_light_tank_interwar_3 = { #Leopard
 
 		enable_equipments = {
 			light_tank_chassis_3
@@ -380,7 +380,7 @@ technologies = {
 	
 
 
-	basic_heavy_tank_chassis = { #Grosstraktor
+	ww1_heavy_tank = { #Grosstraktor
 
 		enable_equipments = {
 			heavy_tank_chassis_1
@@ -400,7 +400,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = improved_heavy_tank_chassis
+			leads_to_tech = ww1_heavy_tank2
 			research_cost_coeff = 1
 		}
 
@@ -446,7 +446,7 @@ technologies = {
 		}
 	}
 
-	improved_heavy_tank_chassis = { #Tiger
+	ww1_heavy_tank2 = { #Tiger
 
 		enable_equipments = {
 			heavy_tank_chassis_2
@@ -456,12 +456,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = advanced_heavy_tank_chassis
+			leads_to_tech = ww1_heavy_tank_interwar
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = super_heavy_tank_chassis
+			leads_to_tech = ww1_super_heavy_tank
 			research_cost_coeff = 1
 		}
 
@@ -503,7 +503,7 @@ technologies = {
 	}
 
 
-	advanced_heavy_tank_chassis = { #King Tiger
+	ww1_heavy_tank_interwar = { #King Tiger
 
 		enable_equipments = {
 			heavy_tank_chassis_3
@@ -550,7 +550,7 @@ technologies = {
 		}
 	}
 
-	super_heavy_tank_chassis = { #Maus
+	ww1_super_heavy_tank = { #Maus
 
 		enable_equipments = {
 			super_heavy_tank_chassis_1
