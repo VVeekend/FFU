@@ -1594,106 +1594,106 @@ spriteTypes = {
 
 
 
-	### Russian Empire Aircrafts ### KiS
+	### SOVsian Empire Aircrafts ### KiS
 
 	SpriteType = {
-		name = "GFX_RUS_tactical_bomber1_medium"
+		name = "GFX_SOV_tactical_bomber1_medium"
 		texturefile = "gfx/interface/technologies/SOV_tactical_bomber1.dds"
 	}		
 	
 	SpriteType = {
-		name = "GFX_RUS_tactical_bomber2_medium"
+		name = "GFX_SOV_tactical_bomber2_medium"
 		texturefile = "gfx/interface/technologies/SOV_tactical_bomber2.dds"
 	}		
 	
 	SpriteType = {
-		name = "GFX_RUS_tactical_bomber3_medium"
+		name = "GFX_SOV_tactical_bomber3_medium"
 		texturefile = "gfx/interface/technologies/SOV_tactical_bomber3.dds"
 	}		
 	
 	SpriteType = {
-		name = "GFX_RUS_strategic_bomber1_medium"
+		name = "GFX_SOV_strategic_bomber1_medium"
 		texturefile = "gfx/interface/technologies/SOV_strategic_bomber1.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_strategic_bomber2_medium"
+		name = "GFX_SOV_strategic_bomber2_medium"
 		texturefile = "gfx/interface/technologies/SOV_strategic_bomber2.dds"
 	}		
 	
 	SpriteType = {
-		name = "GFX_RUS_strategic_bomber3_medium"
+		name = "GFX_SOV_strategic_bomber3_medium"
 		texturefile = "gfx/interface/technologies/SOV_strategic_bomber3.dds"
 	}		
 	
 	SpriteType = {
-		name = "GFX_RUS_CAS1_medium"
+		name = "GFX_SOV_CAS1_medium"
 		texturefile = "gfx/interface/technologies/SOV_CAS1.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_CAS2_medium"
+		name = "GFX_SOV_CAS2_medium"
 		texturefile = "gfx/interface/technologies/SOV_CAS2.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_CAS3_medium"
+		name = "GFX_SOV_CAS3_medium"
 		texturefile = "gfx/interface/technologies/SOV_CAS3.dds"
 	}		
 	
 	SpriteType = {
-		name = "GFX_RUS_heavy_fighter1_medium"
+		name = "GFX_SOV_heavy_fighter1_medium"
 		texturefile = "gfx/interface/technologies/SOV_heavy_fighter1.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_heavy_fighter2_medium"
+		name = "GFX_SOV_heavy_fighter2_medium"
 		texturefile = "gfx/interface/technologies/SOV_heavy_fighter2.dds"
 	}		
 	
 	SpriteType = {
-		name = "GFX_RUS_heavy_fighter3_medium"
+		name = "GFX_SOV_heavy_fighter3_medium"
 		texturefile = "gfx/interface/technologies/SOV_heavy_fighter3.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_RUS_naval_bomber1_medium"
+		name = "GFX_SOV_naval_bomber1_medium"
 		texturefile = "gfx/interface/technologies/SOV_naval_bomber1.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_naval_bomber2_medium"
+		name = "GFX_SOV_naval_bomber2_medium"
 		texturefile = "gfx/interface/technologies/SOV_naval_bomber2.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_naval_bomber3_medium"
+		name = "GFX_SOV_naval_bomber3_medium"
 		texturefile = "gfx/interface/technologies/SOV_naval_bomber3.dds"
 	}	
 
 	
 	SpriteType = {
-		name = "GFX_RUS_fighter1_medium"
+		name = "GFX_SOV_fighter1_medium"
 		texturefile = "gfx/interface/technologies/SOV_fighter1.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_fighter2_medium"
+		name = "GFX_SOV_fighter2_medium"
 		texturefile = "gfx/interface/technologies/SOV_fighter2.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_RUS_fighter3_medium"
+		name = "GFX_SOV_fighter3_medium"
 		texturefile = "gfx/interface/technologies/SOV_fighter3.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_early_fighter_medium"
+		name = "GFX_SOV_early_fighter_medium"
 		texturefile = "gfx/interface/technologies/SOV_early_fighter.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RUS_early_bomber_medium"
+		name = "GFX_SOV_early_bomber_medium"
 		texturefile = "gfx/interface/technologies/SOV_early_bomber.dds"
 	}
 
@@ -2265,8 +2265,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/ww1_tank_unlocker2.dds"
 	}
 	SpriteType = {
-		name = "GFX_RUS_tank_unlocker2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/RUS_ww1_tank_unlocker2.dds"
+		name = "GFX_SOV_tank_unlocker2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/SOV_ww1_tank_unlocker2.dds"
 	}
 
 
@@ -3546,60 +3546,60 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ger_superheavy_tank.dds"
 	}
 
-### Russian Empire WW2 tanks ####	#KiS
+### SOVsian Empire WW2 tanks ####	#KiS
 
 	SpriteType = {
-		name = "GFX_RUS_basic_light_tank_medium"
+		name = "GFX_SOV_basic_light_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_basic_light_tank.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RUS_improved_light_tank_medium"
+		name = "GFX_SOV_improved_light_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_imp_light_tank.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_advanced_light_tank_medium"
+		name = "GFX_SOV_advanced_light_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_adv_light_tank.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_basic_medium_tank_medium"
+		name = "GFX_SOV_basic_medium_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_basic_main_tank.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_improved_medium_tank_medium"
+		name = "GFX_SOV_improved_medium_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_imp_main_tank.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_RUS_advanced_medium_tank_medium"
+		name = "GFX_SOV_advanced_medium_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_adv_main_tank.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_RUS_main_battle_tank_medium"
+		name = "GFX_SOV_main_battle_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_main_battle_tank.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_RUS_basic_heavy_tank_medium"
+		name = "GFX_SOV_basic_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_basic_heavy_tank.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_RUS_improved_heavy_tank_medium"
+		name = "GFX_SOV_improved_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_imp_heavy_tank.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_RUS_advanced_heavy_tank_medium"
+		name = "GFX_SOV_advanced_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_adv_heavy_tank.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_RUS_super_heavy_tank_medium"
+		name = "GFX_SOV_super_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/SOV_superheavy_tank.dds"
 	}
 
@@ -3816,7 +3816,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_ww1_light_tank_medium"
+		name = "GFX_ww1_gwtank_chassis_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/FRA_ww1_light_tank_1.dds"  #We use Renault FT as Generic One
 	}
 
@@ -3826,6 +3826,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_ww1_light_tank_interwar_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/ww1_light_tank_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_light_tank_interwar_3_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/ww1_light_tank_3.dds"
 	}
 
@@ -3844,7 +3848,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_ww1_super_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_super_heavy_tank.dds" #We use Russian Tank as Generic One
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_super_heavy_tank.dds" #We use SOVsian Tank as Generic One
 	}
 
 	#-------------------------------------------------------------------------------------
@@ -3884,7 +3888,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_ENG_ww1_armored_car_2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_armored_car_2.dds" #Austin is the Same for Russian Empire and UK
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_armored_car_2.dds" #Austin is the Same for SOVsian Empire and UK
 	}
 	SpriteType = {
 		name = "GFX_ENG_ww1_armored_car_3_medium"
@@ -3900,7 +3904,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_ENG_ww1_light_tank_medium"
+		name = "GFX_ENG_ww1_gwtank_chassis_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/ENG_ww1_light_tank_1.dds"
 	}
 	SpriteType = {
@@ -3956,7 +3960,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_FRA_ww1_light_tank_medium"
+		name = "GFX_FRA_ww1_gwtank_chassis_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/FRA_ww1_light_tank_1.dds"
 	}
 	SpriteType = {
@@ -4063,11 +4067,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_GER_ww1_light_tank_medium"
+		name = "GFX_GER_ww1_gwtank_chassis_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/GER_ww1_light_tank_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_ww1_light_tank_interwar_1_medium"
+		name = "GFX_GER_ww1_gwtank_chassis_interwar_1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/GER_ww1_light_tank_2.dds"
 	}
 	SpriteType = {
@@ -4111,7 +4115,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_AUH_ww1_light_tank_medium"
+		name = "GFX_AUH_ww1_gwtank_chassis_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/AUH_ww1_light_tank_1.dds"
 	}
 
@@ -4124,63 +4128,63 @@ spriteTypes = {
 
 
 	#-------------------------------------------------------------------------------------
-	# RUSSIAN EMPIRE : TANKS
+	# SOVSIAN EMPIRE : TANKS
 
 	SpriteType = {
-		name = "GFX_RUS_ww1_prototype_tank_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_prototype_tank.dds"
+		name = "GFX_SOV_ww1_prototype_tank_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_prototype_tank.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_RUS_gwtank_medium"
+		name = "GFX_SOV_gwtank_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/FRA_ww1_armored_car_1.dds" # Nakashidze-Charron, same as France (Charron 1905 armored car)
 	}
 	SpriteType = {
-		name = "GFX_RUS_ww1_armored_car_2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_armored_car_2.dds"
+		name = "GFX_SOV_ww1_armored_car_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_armored_car_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_RUS_ww1_armored_car_3_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_armored_car_3.dds"
+		name = "GFX_SOV_ww1_armored_car_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_armored_car_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_RUS_ww1_armored_car_4_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_armored_car_4.dds"
+		name = "GFX_SOV_ww1_armored_car_4_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_armored_car_4.dds"
 	}
 	SpriteType = {
-		name = "GFX_RUS_ww1_armored_car_5_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_armored_car_5.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_RUS_ww1_light_tank_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_light_tank_1.dds"
-	}
-	SpriteType = {
-		name = "GFX_RUS_ww1_light_tank_interwar_1_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_light_tank_2.dds"
-	}
-	SpriteType = {
-		name = "GFX_RUS_ww1_light_tank_interwar_2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_light_tank_3.dds"
+		name = "GFX_SOV_ww1_armored_car_5_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_armored_car_5.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_RUS_ww1_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_heavy_tank_1.dds"
+		name = "GFX_SOV_ww1_gwtank_chassis_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_light_tank_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_ww1_light_tank_interwar_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_light_tank_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_ww1_light_tank_interwar_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_light_tank_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_ww1_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_heavy_tank_1.dds"
 	}
 	#SpriteType = {
-	#	name = "GFX_RUS_ww1_heavy_tank2_medium"
-	#	texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_heavy_tank_2.dds"
+	#	name = "GFX_SOV_ww1_heavy_tank2_medium"
+	#	texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_heavy_tank_2.dds"
 	#}
 	SpriteType = {
-		name = "GFX_RUS_ww1_heavy_tank_interwar_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_heavy_tank_3.dds"
+		name = "GFX_SOV_ww1_heavy_tank_interwar_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_heavy_tank_3.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_RUS_ww1_super_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/tank/RUS_ww1_super_heavy_tank.dds"
+		name = "GFX_SOV_ww1_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_super_heavy_tank.dds"
 	}
 
 
@@ -4288,8 +4292,8 @@ spriteTypes = {
 
 
 	SpriteType = {
-		name = "GFX_RUS_ww1_bomber1_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/air/RUS_ww1_bomber1.dds"
+		name = "GFX_SOV_ww1_bomber1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/air/SOV_ww1_bomber1.dds"
 	}
 
 
@@ -4494,8 +4498,8 @@ spriteTypes = {
 
 
 	SpriteType = {
-		name = "GFX_RUS_ww1_fighter2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/air/RUS_ww1_fighter2.dds"
+		name = "GFX_SOV_ww1_fighter2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/air/SOV_ww1_fighter2.dds"
 	}
 
 
