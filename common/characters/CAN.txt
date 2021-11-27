@@ -16,9 +16,7 @@ characters={
 	CAN_authur_currie={
 		name="Authur Currie"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_currie_ja.dds"
 			}
@@ -36,9 +34,7 @@ characters={
 	CAN_radcliffe={
 		name="Radcliffe"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_radcliffe.dds"
 			}
@@ -55,9 +51,7 @@ characters={
 	CAN_turner={
 		name="Turner"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_turner.dds"
 			}
@@ -74,9 +68,7 @@ characters={
 	CAN_lipsettl={
 		name="Lipsett,L.J."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_lipsett_lj.dds"
 			}
@@ -94,9 +86,7 @@ characters={
 	CAN_tuxford={
 		name="Tuxford"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_tuxford.dds"
 			}
@@ -113,9 +103,7 @@ characters={
 	CAN_loomisc.b.={
 		name="Loomis,C.B."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_loomis_cb.dds"
 			}
@@ -132,9 +120,7 @@ characters={
 	CAN_hartmcharg={
 		name="Hart-McHarg"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_hart_mcharg.dds"
 			}
@@ -151,9 +137,7 @@ characters={
 	CAN_meighen={
 		name="Meighen"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_meighen.dds"
 			}
@@ -170,9 +154,7 @@ characters={
 	CAN_boyle={
 		name="Boyle"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_boyle.dds"
 			}
@@ -189,9 +171,7 @@ characters={
 	CAN_mercerm.s.={
 		name="Mercer,M.S."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_mercer_ms.dds"
 			}
@@ -208,9 +188,7 @@ characters={
 	CAN_burstallh.e.={
 		name="Burstall,H.E."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_burstall_he.dds"
 			}
@@ -227,9 +205,7 @@ characters={
 	CAN_macdonell={
 		name="Macdonell A.C."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_macdonell_ac.dds"
 			}
@@ -246,9 +222,7 @@ characters={
 	CAN_steele={
 		name="Steele"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_steele.dds"
 			}
@@ -265,9 +239,7 @@ characters={
 	CAN_hughes={
 		name="Hughes"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_hughes.dds"
 			}
@@ -285,9 +257,7 @@ characters={
 	CAN_ogradyhaly={
 		name="O`Grady-Haly"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_o`grady_haly.dds"
 			}
@@ -304,9 +274,7 @@ characters={
 	CAN_hutton={
 		name="Hutton"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_hutton.dds"
 			}
@@ -323,9 +291,7 @@ characters={
 	CAN_otter={
 		name="Otter"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_otter.dds"
 			}
@@ -342,9 +308,7 @@ characters={
 	CAN_lake={
 		name="Lake"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/CAN_lake.dds"
 			}
@@ -361,9 +325,7 @@ characters={
 	CAN_cochrane={
 		name="Cochrane"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/fieldmarshal/CAN_cochrane.dds"
 			}

@@ -7,7 +7,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SPR_antonio_garcia_quejido_DESC"
 			ideology=leninism
 			expire="1935.1.1.1"
 			id=-1
@@ -21,7 +20,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SPR_julian_besteiro_DESC"
 			ideology=leninism
 			expire="1935.1.1.1"
 			id=-1
@@ -35,7 +33,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SPR_ramon_lamoneda_DESC"
 			ideology=stalinism
 			expire="1935.1.1.1"
 			id=-1
@@ -49,7 +46,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SPR_alejandro_lerroux_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -63,7 +59,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SPR_pablo_iglesias_DESC"
 			ideology=leninism
 			expire="1935.1.1.1"
 			id=-1
@@ -77,7 +72,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SPR_alfonso_xiii_DESC"
 			ideology=conservatism
 			expire="1935.1.1.1"
 			id=-1
@@ -86,9 +80,7 @@ characters={
 	SPR_berenguer_d.={
 		name="Berenguer D."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/army_generals/SPR_berenguer_d.dds"
 			}
@@ -106,9 +98,7 @@ characters={
 	SPR_cavalcanti={
 		name="Cavalcanti"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/army_generals/SPR_cavalcanti.dds"
 			}
@@ -126,9 +116,7 @@ characters={
 	SPR_gómez_jordana={
 		name="Gómez Jordana"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/army_generals/SPR_gomez_jordana.dds"
 			}
@@ -145,9 +133,7 @@ characters={
 	SPR_lopez_ochoa={
 		name="Lopez Ochoa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/army_generals/SPR_lopez_ochoa.dds"
 			}
@@ -164,9 +150,7 @@ characters={
 	SPR_martínez_anido={
 		name="Martínez Anido"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/army_generals/SPR_martinez_anido.dds"
 			}
@@ -183,9 +167,7 @@ characters={
 	SPR_primo_de_rivera_f.={
 		name="Primo de Rivera F."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/army_generals/SPR_primo_de_rivera_f.dds"
 			}
@@ -202,9 +184,7 @@ characters={
 	SPR_primo_de_rivera_m.={
 		name="Primo de Rivera M."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/army_generals/SPR_primo_de_rivera_m.dds"
 			}
@@ -221,9 +201,7 @@ characters={
 	SPR_queipo_de_llano={
 		name="Queipo De Llano"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/army_generals/SPR_queipo_de_llano.dds"
 			}
@@ -241,9 +219,7 @@ characters={
 	SPR_sanjurjo={
 		name="Sanjurjo"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/army_generals/SPR_sanjurjo.dds"
 			}
@@ -260,9 +236,7 @@ characters={
 	SPR_silvestre={
 		name="Silvestre"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/army_generals/SPR_silvestre.dds"
 			}
@@ -279,9 +253,7 @@ characters={
 	SPR_weyler={
 		name="Weyler"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/army_generals/SPR_weyler.dds"
 			}
@@ -298,9 +270,7 @@ characters={
 	SPR_echague={
 		name="Echague"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/fieldmarshal/SPR_echague.dds"
 			}
@@ -317,9 +287,7 @@ characters={
 	SPR_aznar_cabañas={
 		name="Aznar Cabañas"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/navy_admirals/SPR_aznar_cabanas.dds"
 			}
@@ -337,9 +305,7 @@ characters={
 	SPR_miranda_y_godoy={
 		name="Miranda y Godoy"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/navy_admirals/SPR_miranda_y_godoy.dds"
 			}
@@ -357,9 +323,7 @@ characters={
 	SPR_rodriguez={
 		name="Rodriguez"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SPR/navy_admirals/SPR_rodriguez.dds"
 			}

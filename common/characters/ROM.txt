@@ -2,9 +2,7 @@ characters={
 	ROM_constantin_prezan={
 		name="Constantin Prezan"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Constantin_Prezan.dds"
 			}
@@ -22,9 +20,7 @@ characters={
 	ROM_alexandru_averescu={
 		name="Alexandru Averescu"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Alexandru_Averescu.dds"
 			}
@@ -84,9 +80,7 @@ characters={
 	ROM_grigore_crăiniceanu={
 		name="Grigore Crăiniceanu"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Grigore_Crainiceanu.dds"
 			}
@@ -104,9 +98,7 @@ characters={
 	ROM_ioan_culcer={
 		name="Ioan_Culcer"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Ioan_Culcer.dds"
 			}
@@ -124,9 +116,7 @@ characters={
 	ROM_artur_văitoianu={
 		name="Artur Văitoianu"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Artur_Vaitoianu.dds"
 			}
@@ -143,9 +133,7 @@ characters={
 	ROM_eremia_grigorescu={
 		name="Eremia Grigorescu"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Eremia_Grigorescu.dds"
 			}
@@ -163,9 +151,7 @@ characters={
 	ROM_ion_dragalina={
 		name="Ion Dragalina"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Ion_Dragalina.dds"
 			}
@@ -182,9 +168,7 @@ characters={
 	ROM_constantin_coandă={
 		name="Constantin Coandă"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Constantin_Coanda.dds"
 			}
@@ -201,9 +185,7 @@ characters={
 	ROM_nigrescu={
 		name="Nigrescu"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ROM_nigrescu.tga"
 			}
@@ -220,9 +202,7 @@ characters={
 	ROM_georgescu_i.={
 		name="Georgescu I."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ROM_georgescu_i.tga"
 			}
@@ -239,9 +219,7 @@ characters={
 	ROM_sebestian={
 		name="Sebestian"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ROM_sebestian.tga"
 			}
@@ -258,9 +236,7 @@ characters={
 	ROM_balescu={
 		name="Balescu"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ROM_balescu.tga"
 			}
@@ -277,9 +253,7 @@ characters={
 	ROM_niculescurizea={
 		name="Niculescu-Rizea"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ROM_niculescu_rizea.tga"
 			}

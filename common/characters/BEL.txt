@@ -24,9 +24,7 @@ characters={
 	BEL_leman={
 		name="Leman"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_Gerard_Leman.dds"
 			}
@@ -44,9 +42,7 @@ characters={
 	BEL_de_witte_de_haelen={
 		name="de Witte de Haelen"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_de_Witte_de_Haelen.dds"
 			}
@@ -64,9 +60,7 @@ characters={
 	BEL_albert_lantonnois_van_rode={
 		name="Albert Lantonnois van Rode"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_van_Rode.dds"
 			}
@@ -84,9 +78,7 @@ characters={
 	BEL_Émile_dossin_de_saintgeorges={
 		name="Émile Dossin de Saint-Georges"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/BEL/army_generals/BEL_Emile_Dossin.dds"
 			}

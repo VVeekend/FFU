@@ -16,7 +16,6 @@ characters={
 			legacy_id=90013
 		}
 		country_leader={
-			desc="TUR_mustafa_kemal_DESC"
 			ideology=despotism
 			expire="1935.1.1.1"
 			id=-1
@@ -30,7 +29,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="TUR_mehmed_vi_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -44,13 +42,11 @@ characters={
 			}
 		}
 		country_leader={
-			desc="TUR_mehmed_v_DESC"
 			ideology=nazism
 			expire="1935.1.1.1"
 			id=-1
 		}
 		country_leader={
-			desc="TUR_mehmed_v_DESC"
 			ideology=despotism
 			expire="1935.1.1.1"
 			id=-1
@@ -59,9 +55,7 @@ characters={
 	TUR_İsmail_enver_paşa={
 		name="İsmail Enver Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Enver.dds"
 			}
@@ -78,9 +72,7 @@ characters={
 	TUR_mehmed_esad_paşa={
 		name="Mehmed Esad Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Esad.dds"
 			}
@@ -97,9 +89,7 @@ characters={
 	TUR_hasan_tahsin_paşa={
 		name="Hasan Tahsin Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Hasan_Tahsin.dds"
 			}
@@ -117,9 +107,7 @@ characters={
 	TUR_mahmud_shevket_paşa={
 		name="Mahmud Shevket Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Shevket.dds"
 			}
@@ -136,9 +124,7 @@ characters={
 	TUR_kölemen_abdullah_paşa={
 		name="Kölemen Abdullah Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Kolemen.dds"
 			}
@@ -155,9 +141,7 @@ characters={
 	TUR_ali_rıza_paşa={
 		name="Ali Rıza Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Ali_Riza.dds"
 			}
@@ -174,9 +158,7 @@ characters={
 	TUR_mahmud_muhtar_paşa={
 		name="Mahmud Muhtar Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Muhtar.dds"
 			}
@@ -193,9 +175,7 @@ characters={
 	TUR_ahmed_djemal_paşa={
 		name="Ahmed Djemal Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Djemal.dds"
 			}
@@ -212,9 +192,7 @@ characters={
 	TUR_abdülkerim_Öpelimi_paşa={
 		name="Abdülkerim Öpelimi Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Abdulkerim.dds"
 			}
@@ -231,9 +209,7 @@ characters={
 	TUR_hasan_izzet_paşa={
 		name="Hasan Izzet Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Izzet.dds"
 			}
@@ -250,9 +226,7 @@ characters={
 	TUR_nihat_anılmış_paşa={
 		name="Nihat Anılmış Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Nihat.dds"
 			}
@@ -269,9 +243,7 @@ characters={
 	TUR_fevzi_Çakmak_paşa={
 		name="Fevzi Çakmak Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Fevzi.dds"
 			}
@@ -288,9 +260,7 @@ characters={
 	TUR_cevat_Çobanlı_paşa={
 		name="Cevat Çobanlı Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Cevat.dds"
 			}
@@ -307,9 +277,7 @@ characters={
 	TUR_halil_kut_paşa={
 		name="Halil Kut Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Halil.dds"
 			}
@@ -326,9 +294,7 @@ characters={
 	TUR_ahmed_ramiz_bey={
 		name="Ahmed Ramiz Bey"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/navy_admirals/TUR_Ahmed_Ramiz_Bey.dds"
 			}
@@ -345,9 +311,7 @@ characters={
 	TUR_arif_paşa={
 		name="Arif Paşa"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/TUR/navy_admirals/TUR_Arif_Pasa.dds"
 			}

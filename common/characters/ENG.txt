@@ -795,9 +795,7 @@ characters={
 	ENG_sir_douglas_haig={
 		name="Sir Douglas Haig"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ENG/army_generals/ENG_haig__sir_d.dds"
 			}
@@ -815,9 +813,7 @@ characters={
 	ENG_hamilton_i.s.m.={
 		name="Hamilton I.S.M."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ENG/army_generals/ENG_hamilton_ism.dds"
 			}
@@ -834,9 +830,7 @@ characters={
 	ENG_aylmer_hunterweston={
 		name="Aylmer Hunter-Weston"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ENG/army_generals/ENG_hunter.dds"
 			}
@@ -854,9 +848,7 @@ characters={
 	ENG_sir_leslie_rundle={
 		name="Sir Leslie Rundle"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ENG/army_generals/ENG_rundle.dds"
 			}
@@ -874,9 +866,7 @@ characters={
 	ENG_kitchener_h.h.={
 		name="Kitchener H.H."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/ENG/army_generals/ENG_kitchener_hh.dds"
 			}
@@ -894,9 +884,7 @@ characters={
 	ENG_badenpowell={
 		name="Baden-Powell"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_baden_powell.dds"
 			}
@@ -913,9 +901,7 @@ characters={
 	ENG_bakercarr={
 		name="Baker-Carr"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_baker_carr.dds"
 			}
@@ -933,9 +919,7 @@ characters={
 	ENG_butler_sir_r.h.k={
 		name="Butler, Sir R.H.K"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_butler__sir_rhk.dds"
 			}
@@ -953,9 +937,7 @@ characters={
 	ENG_byngj.h.g={
 		name="Byng,J.H.G"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_byng_jhg.dds"
 			}
@@ -973,9 +955,7 @@ characters={
 	ENG_cavan={
 		name="Cavan"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_cavan.dds"
 			}
@@ -992,9 +972,7 @@ characters={
 	ENG_elles={
 		name="Elles"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_elles.dds"
 			}
@@ -1012,9 +990,7 @@ characters={
 	ENG_glubb={
 		name="Glubb"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_glubb.dds"
 			}
@@ -1032,9 +1008,7 @@ characters={
 	ENG_grierson={
 		name="Grierson"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_grierson.dds"
 			}
@@ -1051,9 +1025,7 @@ characters={
 	ENG_horne_sir_h.={
 		name="Horne, Sir H."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_horne__sir_h.dds"
 			}
@@ -1071,9 +1043,7 @@ characters={
 	ENG_knox={
 		name="Knox"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_knox.dds"
 			}
@@ -1091,9 +1061,7 @@ characters={
 	ENG_maude={
 		name="Maude"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_maude.dds"
 			}
@@ -1110,9 +1078,7 @@ characters={
 	ENG_maxse_sir_i.={
 		name="Maxse, Sir I."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_maxse__sir_i.dds"
 			}
@@ -1129,9 +1095,7 @@ characters={
 	ENG_plumer_h.={
 		name="Plumer, H."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_plumer__h.dds"
 			}
@@ -1149,9 +1113,7 @@ characters={
 	ENG_rawlinson_sir_h.={
 		name="Rawlinson, Sir H."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_rawlinson__sir_h.dds"
 			}
@@ -1169,9 +1131,7 @@ characters={
 	ENG_snow={
 		name="Snow"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_snow.dds"
 			}
@@ -1189,9 +1149,7 @@ characters={
 	ENG_hickie_w.b.={
 		name="Hickie W.B."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_hickie_wb.dds"
 			}
@@ -1209,9 +1167,7 @@ characters={
 	ENG_capper_j.e.={
 		name="Capper J.E."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_capper_je.dds"
 			}
@@ -1229,9 +1185,7 @@ characters={
 	ENG_nugent_o.s.w.={
 		name="Nugent O.S.W."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_nugent_osw.dds"
 			}
@@ -1249,9 +1203,7 @@ characters={
 	ENG_dartnell={
 		name="Dartnell"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_dartnell.dds"
 			}
@@ -1269,9 +1221,7 @@ characters={
 	ENG_wolseley={
 		name="Wolseley"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_wolseley.dds"
 			}
@@ -1289,9 +1239,7 @@ characters={
 	ENG_willcocks={
 		name="Willcocks"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_willcocks.dds"
 			}
@@ -1309,9 +1257,7 @@ characters={
 	ENG_stewart={
 		name="Stewart"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/ENG_stewart.dds"
 			}
@@ -1329,9 +1275,7 @@ characters={
 	ENG_bridgeman={
 		name="Bridgeman"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ENG_bridgeman.dds"
 			}
@@ -1349,9 +1293,7 @@ characters={
 	ENG_beatty={
 		name="Beatty"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ENG_beatty.dds"
 			}
@@ -1369,9 +1311,7 @@ characters={
 	ENG_jellicoe={
 		name="Jellicoe"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ENG_jellicoe.dds"
 			}
@@ -1389,9 +1329,7 @@ characters={
 	ENG_egerton={
 		name="Egerton"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ENG_egerton.dds"
 			}
@@ -1409,9 +1347,7 @@ characters={
 	ENG_pakenham={
 		name="Pakenham"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ENG_pakenham.dds"
 			}
@@ -1429,9 +1365,7 @@ characters={
 	ENG_goodenough={
 		name="Goodenough"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ENG_goodenough.dds"
 			}
@@ -1449,9 +1383,7 @@ characters={
 	ENG_keyes={
 		name="Keyes"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ENG_keyes.dds"
 			}
@@ -1469,9 +1401,7 @@ characters={
 	ENG_tyrwhitt={
 		name="Tyrwhitt"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/ENG_tyrwhitt.dds"
 			}

@@ -15,9 +15,7 @@ characters={
 	USA_hugh_l._scott={
 		name="Hugh L. Scott"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/army_generals/USA_Hugh_Scott.dds"
 			}
@@ -35,9 +33,7 @@ characters={
 	USA_tasker_h._bliss={
 		name="Tasker H. Bliss"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/army_generals/USA_Tasker_Bliss.dds"
 			}
@@ -55,9 +51,7 @@ characters={
 	USA_hunter_liggett={
 		name="Hunter Liggett"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/army_generals/USA_Hunter_Liggett.dds"
 			}
@@ -75,9 +69,7 @@ characters={
 	USA_robert_l._bullard={
 		name="Robert L. Bullard"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/army_generals/USA_Robert_Bullard.dds"
 			}
@@ -94,9 +86,7 @@ characters={
 	USA_joseph_t._dickman={
 		name="Joseph T. Dickman"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/army_generals/USA_Joseph_Dickman.dds"
 			}
@@ -114,9 +104,7 @@ characters={
 	USA_frederick_funston={
 		name="Frederick Funston"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/army_generals/USA_Frederick_Funston.dds"
 			}
@@ -134,9 +122,7 @@ characters={
 	USA_samuel_rockenbach={
 		name="Samuel Rockenbach"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/army_generals/USA_Samuel_Rockenbach.dds"
 			}
@@ -154,9 +140,7 @@ characters={
 	USA_samson_l._faison={
 		name="Samson L. Faison"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/army_generals/USA_Samson_Faison.dds"
 			}
@@ -173,9 +157,7 @@ characters={
 	USA_john_j._pershing={
 		name="John J. Pershing"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/army_generals/USA_John_Pershing.dds"
 			}
@@ -193,9 +175,7 @@ characters={
 	USA_frank_parker={
 		name="Frank Parker"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/army_generals/USA_Frank_Parker.dds"
 			}
@@ -213,9 +193,7 @@ characters={
 	USA_douglas_macarthur={
 		name="Douglas MacArthur"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/army_generals/USA_Douglas_MacArthur.dds"
 			}
@@ -233,9 +211,7 @@ characters={
 	USA_william_s._sims={
 		name="William S. Sims"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_William_Sims.dds"
 			}
@@ -253,9 +229,7 @@ characters={
 	USA_william_s._benson={
 		name="William S. Benson"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_William_Benson.dds"
 			}
@@ -273,9 +247,7 @@ characters={
 	USA_henry_t._mayo={
 		name="Henry T. Mayo"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_Henry_Mayo.dds"
 			}
@@ -293,9 +265,7 @@ characters={
 	USA_william_b._caperton={
 		name="William B. Caperton"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_William_Caperton.dds"
 			}
@@ -313,9 +283,7 @@ characters={
 	USA_frank_f._fletcher={
 		name="Frank F. Fletcher"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_Frank_Fletcher.dds"
 			}
@@ -333,9 +301,7 @@ characters={
 	USA_richmond_p._hobson={
 		name="Richmond P. Hobson"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/USA/navy_admirals/USA_Richmond_Hobson.dds"
 			}

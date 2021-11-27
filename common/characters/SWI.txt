@@ -7,7 +7,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SWI_ulrich_wille_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -21,7 +20,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SWI_felix_louis_calonder_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -35,7 +33,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SWI_gustave_ador_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -49,7 +46,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SWI_jules_humbert_droz_DESC"
 			ideology=stalinism
 			expire="1935.1.1.1"
 			id=-1
@@ -63,7 +59,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SWI_camille_decoppet_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -77,7 +72,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SWI_edmund_schulthess_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -91,7 +85,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SWI_robert_haab_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -105,7 +98,6 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POLITICS_FEDERAL_COUNCIL_DESC"
 			ideology=moderatism
 			expire="1935.1.1.1"
 			id=-1
@@ -114,9 +106,7 @@ characters={
 	SWI_audéoud={
 		name="Audéoud"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_audeoud.tga"
 			}
@@ -133,9 +123,7 @@ characters={
 	SWI_bornand={
 		name="Bornand"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_bornand.tga"
 			}
@@ -152,9 +140,7 @@ characters={
 	SWI_sonderegger={
 		name="Sonderegger"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_sonderegger.tga"
 			}
@@ -171,9 +157,7 @@ characters={
 	SWI_büel={
 		name="Büel"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_buel.tga"
 			}
@@ -190,9 +174,7 @@ characters={
 	SWI_bohny={
 		name="Bohny"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_bohny.tga"
 			}
@@ -209,9 +191,7 @@ characters={
 	SWI_bolli={
 		name="Bolli"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_bolli.tga"
 			}
@@ -228,9 +208,7 @@ characters={
 	SWI_brügger={
 		name="Brügger"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_brugger.tga"
 			}
@@ -247,9 +225,7 @@ characters={
 	SWI_decoppet={
 		name="Decoppet"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_decoppet.tga"
 			}
@@ -266,9 +242,7 @@ characters={
 	SWI_dietler={
 		name="Dietler"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_dietler.tga"
 			}
@@ -285,9 +259,7 @@ characters={
 	SWI_fama={
 		name="Fama"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_fama.tga"
 			}
@@ -304,9 +276,7 @@ characters={
 	SWI_iselin={
 		name="Iselin"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_iselin.tga"
 			}
@@ -323,9 +293,7 @@ characters={
 	SWI_isler_p.={
 		name="Isler P."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_isler_p.tga"
 			}
@@ -342,9 +310,7 @@ characters={
 	SWI_kunz={
 		name="Kunz"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_kunz.tga"
 			}
@@ -361,9 +327,7 @@ characters={
 	SWI_de_loys={
 		name="de Loys"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_de_loys.tga"
 			}
@@ -380,9 +344,7 @@ characters={
 	SWI_schiess={
 		name="Schiess"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_schiess.tga"
 			}
@@ -399,9 +361,7 @@ characters={
 	SWI_schiessle={
 		name="Schiessle"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_schiessle.tga"
 			}
@@ -418,9 +378,7 @@ characters={
 	SWI_schmid={
 		name="Schmid"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_schmid.tga"
 			}
@@ -437,9 +395,7 @@ characters={
 	SWI_sprecher_von_bernegg={
 		name="Sprecher von Bernegg"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_sprecher_von_bernegg.tga"
 			}
@@ -456,9 +412,7 @@ characters={
 	SWI_steinbuch={
 		name="Steinbuch"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_steinbuch.tga"
 			}
@@ -475,9 +429,7 @@ characters={
 	SWI_vogel={
 		name="Vogel"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_vogel.tga"
 			}
@@ -494,9 +446,7 @@ characters={
 	SWI_von_wattenwyl={
 		name="von Wattenwyl"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_von_wattenwyl.tga"
 			}
@@ -513,9 +463,7 @@ characters={
 	SWI_weber={
 		name="Weber"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_weber.tga"
 			}
@@ -532,9 +480,7 @@ characters={
 	SWI_wildbolz={
 		name="Wildbolz"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/SWI_wildbolz.tga"
 			}

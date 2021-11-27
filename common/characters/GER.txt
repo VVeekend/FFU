@@ -2,9 +2,7 @@ characters={
 	GER_max_von_fischel={
 		name="Max von Fischel"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GER_von_fischel.dds"
 			}
@@ -35,9 +33,7 @@ characters={
 	GER_reinhard_scheer={
 		name="Reinhard Scheer"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GER_scheer.dds"
 			}
@@ -69,9 +65,7 @@ characters={
 	GER_alfred_von_tirpitz={
 		name="Alfred von Tirpitz"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GER_von_tirpitz.dds"
 			}
@@ -89,9 +83,7 @@ characters={
 	GER_henning_von_holtzendorff={
 		name="Henning von Holtzendorff"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GER_von_holtzendorff.dds"
 			}
@@ -208,9 +200,7 @@ characters={
 	GER_von_gallwitz={
 		name="von Gallwitz"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/GER/army_generals/GER_von_gallwitz.dds"
 			}
@@ -228,9 +218,7 @@ characters={
 	GER_duke_albrecht_of_wurttemberg={
 		name="Duke Albrecht of Wurttemberg"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/GER/army_generals/GER_duke_albrecht_of_wurttemberg.dds"
 			}
@@ -248,9 +236,7 @@ characters={
 	GER_crown_prince_rupprecht_of_bavaria={
 		name="Crown Prince Rupprecht of Bavaria"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_rupprecht_of_bavaria.dds"
 			}
@@ -268,9 +254,7 @@ characters={
 	GER_crown_prince_wilhelm_of_prussia={
 		name="Crown Prince Wilhelm of Prussia"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_wilhelm_of_prussia.dds"
 			}
@@ -287,9 +271,7 @@ characters={
 	GER_maximilian_von_prittwitz_und_gaffron={
 		name="Maximilian von Prittwitz und Gaffron"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/GER/army_generals/GER_von_prittwitz_und_gaffron_m.dds"
 			}
@@ -307,9 +289,7 @@ characters={
 	GER_von_hellingrath={
 		name="von Hellingrath"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_hellingrath.dds"
 			}
@@ -326,9 +306,7 @@ characters={
 	GER_von_kluck={
 		name="von Kluck"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_kluck.dds"
 			}
@@ -345,9 +323,7 @@ characters={
 	GER_von_preußen_w.={
 		name="von Preußen W."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_preussen_w.dds"
 			}
@@ -364,9 +340,7 @@ characters={
 	GER_von_francois={
 		name="von Francois"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_francois.dds"
 			}
@@ -383,9 +357,7 @@ characters={
 	GER_von_falkenhayn_erich={
 		name="von Falkenhayn Erich"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_falkenhayn_erich.dds"
 			}
@@ -403,9 +375,7 @@ characters={
 	GER_von_einem={
 		name="von Einem"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_einem.dds"
 			}
@@ -423,9 +393,7 @@ characters={
 	GER_von_hutier={
 		name="von Hutier"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_hutier.dds"
 			}
@@ -443,9 +411,7 @@ characters={
 	GER_ludendorff={
 		name="Ludendorff"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_ludendorff.dds"
 			}
@@ -463,9 +429,7 @@ characters={
 	GER_von_der_marwitz={
 		name="von der Marwitz"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_der_marwitz.dds"
 			}
@@ -483,9 +447,7 @@ characters={
 	GER_von_lettowvorbeck={
 		name="von Lettow-Vorbeck"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_lettow_vorbeck.dds"
 			}
@@ -503,9 +465,7 @@ characters={
 	GER_von_below_o.={
 		name="von Below O."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_below_o.dds"
 			}
@@ -522,9 +482,7 @@ characters={
 	GER_von_gündell={
 		name="von Gündell"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_gundell.dds"
 			}
@@ -542,9 +500,7 @@ characters={
 	GER_von_heydebreck={
 		name="von Heydebreck"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_heydebreck.dds"
 			}
@@ -562,9 +518,7 @@ characters={
 	GER_krafft_von_dellmensingen={
 		name="Krafft von Dellmensingen"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_krafft_von_dellmensingen.dds"
 			}
@@ -582,9 +536,7 @@ characters={
 	GER_sixt_von_armin={
 		name="Sixt von Armin"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_sixt_von_armin.dds"
 			}
@@ -602,9 +554,7 @@ characters={
 	GER_von_schlieffen={
 		name="von Schlieffen"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_schlieffen.dds"
 			}
@@ -622,9 +572,7 @@ characters={
 	GER_von_der_goltz_c.={
 		name="von der Goltz C."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_der_goltz_c.dds"
 			}
@@ -642,9 +590,7 @@ characters={
 	GER_von_hindenburg={
 		name="von Hindenburg"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_hindenburg.dds"
 			}
@@ -662,9 +608,7 @@ characters={
 	GER_von_dem_borne={
 		name="von dem Borne"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_dem_borne.dds"
 			}
@@ -682,9 +626,7 @@ characters={
 	GER_von_bülow={
 		name="von Bülow"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_bulow.dds"
 			}
@@ -702,9 +644,7 @@ characters={
 	GER_von_mackensen={
 		name="von Mackensen"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GER_von_mackensen.dds"
 			}
@@ -722,9 +662,7 @@ characters={
 	GER_franz_von_hipper={
 		name="Franz von Hipper"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GER_hipper.dds"
 			}
@@ -742,9 +680,7 @@ characters={
 	GER_maximilian_von_spee={
 		name="Maximilian von Spee"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GER_von_spee.dds"
 			}
@@ -762,9 +698,7 @@ characters={
 	GER_lothar_von_arnauld_de_la_perière={
 		name="Lothar von Arnauld de la Perière"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GER_von_arnauld_de_la_periere.dds"
 			}
@@ -782,9 +716,7 @@ characters={
 	GER_karl_von_müller={
 		name="Karl von Müller"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GER_von_muller_k.dds"
 			}
@@ -801,9 +733,7 @@ characters={
 	GER_curt_von_prittwitz_und_gaffron={
 		name="Curt von Prittwitz und Gaffron"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GER_von_prittwitz_boc.dds"
 			}
@@ -820,9 +750,7 @@ characters={
 	GER_friedrich_graf_von_baudissin={
 		name="Friedrich Graf von Baudissin"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GER_von_baudissin.dds"
 			}

@@ -45,9 +45,7 @@ characters={
 	AUS_conrad_von_hötzendorf={
 		name="Conrad von Hötzendorf"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Hotzendorf.dds"
 			}
@@ -65,9 +63,7 @@ characters={
 	AUS_arthur_von_bolfras={
 		name="Arthur von Bolfras"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Bolfras.dds"
 			}
@@ -84,9 +80,7 @@ characters={
 	AUS_stögersteiner_von_steinstätten={
 		name="Stöger-Steiner von Steinstätten"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Steinstatten.dds"
 			}
@@ -103,9 +97,7 @@ characters={
 	AUS_svetozar_borojević_von_bojna={
 		name="Svetozar Borojević von Bojna"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Bojna.dds"
 			}
@@ -123,9 +115,7 @@ characters={
 	AUS_karl_von_pflanzerbaltin={
 		name="Karl von Pflanzer-Baltin"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Pflanzer_Baltin.dds"
 			}
@@ -142,9 +132,7 @@ characters={
 	AUS_viktor_dankl_von_krasnik={
 		name="Viktor Dankl von Krasnik"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_Dankl_von_Krasnik.dds"
 			}
@@ -162,9 +150,7 @@ characters={
 	AUS_hermann_kövess_von_kövessháza={
 		name="Hermann Kövess von Kövessháza"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Kovesshaza.dds"
 			}
@@ -196,9 +182,7 @@ characters={
 				}
 		}
 		portraits={
-			army={
-				small=""
-			}
+
 			navy={
 				small="GFX_idea_AUH_anton_haus"
 			}
@@ -232,9 +216,7 @@ characters={
 				}
 		}
 		portraits={
-			army={
-				small=""
-			}
+
 			navy={
 				small="GFX_idea_AUH_hermann_von_spaun"
 			}
@@ -254,9 +236,7 @@ characters={
 	AUS_miklós_horthy={
 		name="Miklós Horthy"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/AUH/navy_admirals/AUH_horthy.dds"
 			}

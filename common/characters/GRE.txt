@@ -30,9 +30,7 @@ characters={
 	GRE_panagiótis_danglís={
 		name="Panagiótis Danglís"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/GRE/army_generals/GRE_panagiotis_danglis.dds"
 			}
@@ -50,9 +48,7 @@ characters={
 	GRE_nikolaos_trikoupis={
 		name="Nikolaos Trikoupis"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/GRE/army_generals/GRE_nikolaos_trikoupis.dds"
 			}
@@ -69,9 +65,7 @@ characters={
 	GRE_víctor_doúsmanis={
 		name="Víctor Doúsmanis"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/GRE/army_generals/GRE_victor_dousmanis.dds"
 			}
@@ -88,9 +82,7 @@ characters={
 	GRE_bairas={
 		name="Bairas"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_bairas.tga"
 			}
@@ -107,9 +99,7 @@ characters={
 	GRE_zymvrakakis_e.={
 		name="Zymvrakakis E."
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_zymvrakakis_e.tga"
 			}
@@ -126,9 +116,7 @@ characters={
 	GRE_nider={
 		name="Nider"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_nider.tga"
 			}
@@ -146,9 +134,7 @@ characters={
 	GRE_papoulas={
 		name="Papoulas"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_papoulas.tga"
 			}
@@ -165,9 +151,7 @@ characters={
 	GRE_paraskevopoulos={
 		name="Paraskevopoulos"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_paraskevopoulos.tga"
 			}
@@ -185,9 +169,7 @@ characters={
 	GRE_hatzianestis={
 		name="Hatzianestis"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_hatzianestis.tga"
 			}
@@ -205,9 +187,7 @@ characters={
 	GRE_vlahopoulos={
 		name="Vlahopoulos"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_vlahopoulos.tga"
 			}
@@ -224,9 +204,7 @@ characters={
 	GRE_sapountzakis={
 		name="Sapountzakis"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_sapountzakis.tga"
 			}
@@ -244,9 +222,7 @@ characters={
 	GRE_prince_andreas={
 		name="Prince Andreas"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_prince_andreas.tga"
 			}
@@ -263,9 +239,7 @@ characters={
 	GRE_miliotiskomninos={
 		name="Miliotis-Komninos"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_miliotis_komninos.tga"
 			}
@@ -282,9 +256,7 @@ characters={
 	GRE_mazarakis={
 		name="Mazarakis"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_mazarakis.tga"
 			}
@@ -301,9 +273,7 @@ characters={
 	GRE_othonaios={
 		name="Othonaios"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_othonaios.tga"
 			}
@@ -320,9 +290,7 @@ characters={
 	GRE_kondylis={
 		name="Kondylis"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_kondylis.tga"
 			}
@@ -340,9 +308,7 @@ characters={
 	GRE_plastiras={
 		name="Plastiras"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/generals/GRE_plastiras.tga"
 			}
@@ -359,9 +325,7 @@ characters={
 	GRE_constantine={
 		name="Constantine"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/fieldmarshal/GRE_constantine.tga"
 			}
@@ -379,9 +343,7 @@ characters={
 	GRE_kountouriotis={
 		name="Kountouriotis"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GRE_kountouriotis.tga"
 			}
@@ -399,9 +361,7 @@ characters={
 	GRE_hatzikiriakos={
 		name="Hatzikiriakos"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/admiral/GRE_hatzikiriakos.tga"
 			}

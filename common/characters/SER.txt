@@ -2,9 +2,7 @@ characters={
 	SER_radomir_putnik={
 		name="Radomir Putnik"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SER/army_generals/SER_radomir_putnik.dds"
 			}
@@ -56,9 +54,7 @@ characters={
 	SER_stepa_stepanović={
 		name="Stepa Stepanović"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SER/army_generals/SER_stepa_stepanovic.dds"
 			}
@@ -76,9 +72,7 @@ characters={
 	SER_Živojin_mišić={
 		name="Živojin Mišić"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SER/army_generals/SER_zivojin_misic.dds"
 			}
@@ -96,9 +90,7 @@ characters={
 	SER_pavle_jurišić_Šturm={
 		name="Pavle Jurišić Šturm"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SER/army_generals/SER_jurisic_sturm.dds"
 			}
@@ -116,9 +108,7 @@ characters={
 	SER_petar_bojović={
 		name="Petar Bojović"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/SER/army_generals/SER_petar_bojovic.dds"
 			}

@@ -16,9 +16,7 @@ characters={
 	MNT_janko_vukotić={
 		name="Janko Vukotić"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/MTN/army_generals/MTN_Janko_Vukotic.dds"
 			}
@@ -36,9 +34,7 @@ characters={
 	MNT_crown_prince_danilo={
 		name="Crown Prince Danilo"
 		portraits={
-			army={
-				small=""
-			}
+
 			army={
 				large="gfx/hoi4tgw_portraits/MTN/army_generals/MTN_CrownPrince_Danilo.dds"
 			}
