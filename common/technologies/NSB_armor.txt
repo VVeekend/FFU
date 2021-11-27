@@ -573,7 +573,7 @@ technologies = {
 		start_year = 1917
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 6 y = 4 }
+			position = { x = 6 y = 8 }
 		}
 
 		ai_will_do = {
