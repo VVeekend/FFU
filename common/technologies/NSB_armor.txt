@@ -17,9 +17,9 @@ technologies = {
 	ww1_gwtank_chassis = { #Leichttraktor
 
 		enable_equipments = {
-			#light_tank_chassis_0
+			light_tank_chassis_0
 			#medium_tank_chassis_0
-			heavy_tank_chassis_0
+			
 			
 			
 		}
@@ -46,7 +46,7 @@ technologies = {
 			tank_heavy_fixed_superstructure_turret
 			
 			#tank_modern_tank_turret
-			sloped_armor
+			#sloped_armor
 			extra_ammo_storage
 			#wet_ammo_storage
 			#smoke_launchers
@@ -77,8 +77,8 @@ technologies = {
 		#	research_cost_coeff = 1
 		#}
 
-		research_cost = 2
-		start_year = 1918
+		research_cost = 4
+		start_year = 1917
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = 0 }
@@ -203,7 +203,7 @@ technologies = {
 			light_tank_aa_chassis_1
 		}
 		enable_subunits = {
-			light_armor
+			
 		}
 
 		on_research_complete_limit = {
@@ -383,14 +383,12 @@ technologies = {
 	ww1_heavy_tank = { #Grosstraktor
 
 		enable_equipments = {
-			heavy_tank_chassis_1
-			heavy_tank_destroyer_chassis_1
-			heavy_tank_artillery_chassis_1
-			heavy_tank_aa_chassis_1
+			heavy_tank_chassis_0
+			
 		}
 
 		enable_subunits = {
-			heavy_armor
+		#	heavy_armor
 		}
 
 		on_research_complete_limit = {
@@ -405,7 +403,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1934
+		start_year = 1917
 
 		folder = {
 			name = nsb_armour_folder
@@ -449,10 +447,10 @@ technologies = {
 	ww1_heavy_tank2 = { #Tiger
 
 		enable_equipments = {
-			heavy_tank_chassis_2
-			heavy_tank_destroyer_chassis_2
-			heavy_tank_artillery_chassis_2
-			heavy_tank_aa_chassis_2
+			heavy_tank_chassis_1
+			heavy_tank_destroyer_chassis_1
+			heavy_tank_artillery_chassis_1
+			heavy_tank_aa_chassis_1
 		}
 
 		path = {
@@ -466,7 +464,7 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1940
+		start_year = 1918
 
 		folder = {
 			name = nsb_armour_folder
@@ -506,10 +504,10 @@ technologies = {
 	ww1_heavy_tank_interwar = { #King Tiger
 
 		enable_equipments = {
-			heavy_tank_chassis_3
-			heavy_tank_destroyer_chassis_3
-			heavy_tank_artillery_chassis_3
-			heavy_tank_aa_chassis_3
+			heavy_tank_chassis_2
+			heavy_tank_destroyer_chassis_2
+			heavy_tank_artillery_chassis_2
+			heavy_tank_aa_chassis_2
 		}
 
 		path = {
@@ -518,7 +516,7 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 1919
 
 		folder = {
 			name = nsb_armour_folder
