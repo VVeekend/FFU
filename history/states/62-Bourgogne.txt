@@ -16,7 +16,18 @@ state={
 			arms_factory = 2
 
 		}
-
+		victory_points = {
+			19973 10
+		}
+		victory_points = {
+			1124 1
+		}
+		victory_points = {
+			14878 1
+		}
+		victory_points = {
+			19621 1
+		}		
 	}
 
 	provinces={

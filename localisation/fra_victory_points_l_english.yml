@@ -58,6 +58,7 @@ VICTORY_POINTS_19589:0 "Beauvais"
 VICTORY_POINTS_11257:0 "Compiègne"
 VICTORY_POINTS_19496:0 "Senlis"
 VICTORY_POINTS_6858:0 "Maubeuge"
+
 ###Ile de France###
 VICTORY_POINTS_19467:0 "Paris"
 VICTORY_POINTS_19468:0 "Nanterre"
@@ -207,14 +208,18 @@ VICTORY_POINTS_3066:0 "El Jadida"
 VICTORY_POINTS_8062:0 "Safi"
 VICTORY_POINTS_16801:0 "Douar Lambakra"
 
-####Franche-Comte####
-VICTORY_POINTS_19699:0 "Besancon"
 VICTORY_POINTS_19662:0 "Nancy"
 VICTORY_POINTS_19650:0 "Charmes"
 VICTORY_POINTS_5968:0 "Epinal"
 VICTORY_POINTS_19971:0 "Baume les Dames"
-VICTORY_POINTS_6309:0 "Chaux les Port"
 VICTORY_POINTS_14833:0 "Aisey et Richecourt"
+
+####Franche-Comte####
+VICTORY_POINTS_19699:0 "Besancon"
+VICTORY_POINTS_6309:0 "Chaux les Port"
+VICTORY_POINTS_19979:0 "Belfort"
+VICTORY_POINTS_7122:0 "Pontarlier"
+VICTORY_POINTS_15078:0 "Lons-le-Saunier"
 
 ####Aquitaine####
 VICTORY_POINTS_19852:0 "Bordeaux"
@@ -262,12 +267,25 @@ VICTORY_POINTS_20026:0 "Avignon"
 VICTORY_POINTS_20022:0 "Arles"
 VICTORY_POINTS_6841:0 "Carcassonne"
   
- 
+####Bourgogne####
+VICTORY_POINTS_19973:0 "Dijon"
+VICTORY_POINTS_1124:0 "Chalon-sur-Saône"
+VICTORY_POINTS_14878:0 "Auxerre"
+VICTORY_POINTS_19621:0 "Nevers"
   
-  
- 
-  
-  
+####Rhone#### 
+VICTORY_POINTS_19898:0 "Lyon"
+VICTORY_POINTS_15157:0 "Macon"
+VICTORY_POINTS_19880:0 "Saint-Étienne"
+VICTORY_POINTS_11418:0 "Bourg-en-Bresse"
+VICTORY_POINTS_19803:0 "Vallon-Pont-d'Arc"
+
+####Alpes#### 
+VICTORY_POINTS_19827:0 "Valence" 
+VICTORY_POINTS_20032:0 "Bollène"
+VICTORY_POINTS_20029:0 "Orange"
+VICTORY_POINTS_19847:0 "Grenoble"
+VICTORY_POINTS_15572:0 "Sisteron" 
   
   
   
