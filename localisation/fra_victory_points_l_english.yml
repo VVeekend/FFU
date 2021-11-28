@@ -153,7 +153,7 @@ VICTORY_POINTS_4313:0 "Vierzon"
 VICTORY_POINTS_2553:0 "Saint-Amand-Montrond"
 VICTORY_POINTS_19967:0 "Bourges"
 
-###Aquitaine
+###Poitou
 VICTORY_POINTS_20116:0 "Niort"
 VICTORY_POINTS_14989:0 "Bressuire"
 VICTORY_POINTS_20117:0 "Parthenay"
@@ -179,7 +179,7 @@ VICTORY_POINTS_20121:0 "Périgueux"
 VICTORY_POINTS_15265:0 "Nontron"
 VICTORY_POINTS_8567:0 "Sarlat-la-Canéda"
 VICTORY_POINTS_8073:0 "Bergerac"
-
+VICTORY_POINTS_19543:0 "Tours"
 ####Provence####
 VICTORY_POINTS_20002:0 "Marseille"
 VICTORY_POINTS_20001:0 "Toulon"
@@ -248,7 +248,6 @@ VICTORY_POINTS_20013:0 "Nice"
 VICTORY_POINTS_20008:0 "Cannes"
 VICTORY_POINTS_20044:0 "Chambéry"
 VICTORY_POINTS_20046:0 "Annecy"
-VICTORY_POINTS_15405:0 "Grenoble"
 
 
 ####Midi Pyrenees####
@@ -286,14 +285,25 @@ VICTORY_POINTS_20032:0 "Bollène"
 VICTORY_POINTS_20029:0 "Orange"
 VICTORY_POINTS_19847:0 "Grenoble"
 VICTORY_POINTS_15572:0 "Sisteron" 
-  
-  
-  
-  
 
+####Limousin####
+VICTORY_POINTS_19870:0 "Brive-la-Gaillarde"
+VICTORY_POINTS_20108:0 "Agen" 
+VICTORY_POINTS_19919:0 "Limoges" 
+VICTORY_POINTS_19976:0 "Bergerac" 
+VICTORY_POINTS_19811:0 "Saint-Macaire"
+  
+####Auvergne#### 
+VICTORY_POINTS_19908:0 "Clermont-Ferrand"
+VICTORY_POINTS_19615:0 "Vichy"
+VICTORY_POINTS_19802:0 "Rodez"
+VICTORY_POINTS_19848:0 "Aurillac"
+VICTORY_POINTS_1896:0 "Saint-Flour"
 
-
-   
+####Centre-Sud####
+VICTORY_POINTS_19964:0 "Chateauroux"
+VICTORY_POINTS_19952:0 "Argenton-sur-Creuse"
+VICTORY_POINTS_19617:0 "Saint-Amand-Montrond"    
   
   
  
