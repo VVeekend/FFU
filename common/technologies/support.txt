@@ -1656,7 +1656,7 @@ technologies = {
 		}
 		
 		categories = {
-			train_tech
+			support_tech
 		}
 		
 		ai_will_do = {
@@ -1695,7 +1695,7 @@ technologies = {
 		}
 		
 		categories = {
-			train_tech
+			support_tech
 			artillery
 		}
 		
@@ -1730,7 +1730,7 @@ technologies = {
 		}
 		
 		categories = {
-			train_tech
+			support_tech
 		}
 		
 		ai_will_do = {
@@ -1783,7 +1783,7 @@ technologies = {
 		}
 		
 		categories = {
-			train_tech
+			support_tech
 		}
 		
 		ai_will_do = {
