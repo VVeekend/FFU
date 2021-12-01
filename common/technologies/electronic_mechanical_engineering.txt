@@ -46,7 +46,7 @@ technologies = {
 			
 			tank_cast_armor
 			
-			tank_bogie_suspension
+			tank_suspensionless_tracks
 			
 		}
 		folder = {

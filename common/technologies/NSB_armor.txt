@@ -31,7 +31,7 @@ technologies = {
 			#tank_petrol_electric_engine
 			tank_cast_armor
 			#tank_christie_suspension
-			#tank_bogie_suspension
+			#tank_suspensionless_tracks
 			#tank_interleaved_suspension
 			tank_light_one_man_tank_turret
 			tank_light_two_man_tank_turret

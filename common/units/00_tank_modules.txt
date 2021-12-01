@@ -149,7 +149,7 @@ equipment_modules = {
 		}
 	}
 
-	tank_bogie_suspension = {
+	tank_suspensionless_tracks = {
 		abbreviation = "bog"
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
