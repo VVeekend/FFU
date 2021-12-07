@@ -639,7 +639,7 @@ technologies = {
 		}
 
 		dependencies = {
-			horse_equipment = 1
+			early_motorised = 1
 		}
 
 		research_cost = 2
@@ -776,7 +776,7 @@ technologies = {
 		}
 
 		dependencies = {
-			horse_equipment = 1
+			early_motorised = 1
 		}
 
 		research_cost = 2
@@ -928,7 +928,7 @@ technologies = {
 
 		dependencies = {
 			radio = 1
-			horse_equipment = 1
+			early_motorised = 1
 		}
 
 		research_cost = 2

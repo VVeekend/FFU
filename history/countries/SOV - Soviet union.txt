@@ -94,7 +94,7 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 		machine_gun = 1
 		machine_gun_1 = 1
 		ww1_ambulance1 = 1
-		horse_equipment = 1
+		early_motorised = 1
 
 
 		# Support

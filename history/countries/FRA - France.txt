@@ -78,7 +78,7 @@ recruit_character = FRA_louis_pivet
 		tech_mountaineers = 1
 		machine_gun = 1
 		machine_gun_1 = 1
-		horse_equipment = 1
+		early_motorised = 1
 
 		# Support
 		tech_support = 1

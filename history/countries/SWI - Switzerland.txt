@@ -64,7 +64,7 @@ recruit_character = SWI_ulrich_funk
 		machine_gun_1 = 1
 		ww1_ambulance1 = 1
 		tech_mountaineers = 1
-		horse_equipment = 1
+		early_motorised = 1
 
 		# Support
 		tech_support = 1

@@ -24,7 +24,6 @@ heavy_artillery_brigade = {
 	manpower = 750
 	need = { 
 	    heavy_field_gun_equipment=26 
-		horse_equipment = 15
 		infantry_equipment = 25
 	}
 	

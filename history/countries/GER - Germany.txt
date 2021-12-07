@@ -373,7 +373,7 @@ create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/admir
 		tech_mountaineers = 1
 		Stormtroopers = 1
 		Stormtroopers2 = 1
-		horse_equipment = 1
+		early_motorised = 1
 		rocket_artillery = 1
 
 		# Support

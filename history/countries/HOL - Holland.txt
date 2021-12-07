@@ -67,7 +67,7 @@ set_technology = {
 		machine_gun = 1
 		machine_gun_1 = 1
 		ww1_ambulance1 = 1
-		horse_equipment = 1
+		early_motorised = 1
 
 
 		# Support

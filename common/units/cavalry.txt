@@ -42,7 +42,6 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 300
-			horse_equipment = 10
 		}
 
 		forest = {

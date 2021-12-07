@@ -1666,46 +1666,6 @@ technologies = {
 		}
 	}
 	
-	    horse_equipment = {
-
-		enable_equipments = {
-			horse_equipment_0
-		}
-
-		
-		path = {
-			leads_to_tech = early_motorised
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ww1_ambulance1
-			research_cost_coeff = 1
-		}
-		research_cost = 1.0
-		start_year = 1910
-
-		folder = {
-			name = infantry_folder
-			#position = { x = 0 y = @1910 }
-			position = { x = 0 y = -1 }
-		}
-		
-		folder = {
-			name = support_folder
-			position = { x = 7 y = 10 }
-		}
-				
-		categories = {
-			motorized_equipment
-			infantry_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-
 	ww1_ambulance1 = {
 
 		category_all_infantry = {
@@ -1713,7 +1673,7 @@ technologies = {
 		}
 			
 		path = {
-			leads_to_tech = ww1_ambulance2
+			leads_to_tech = early_motorised
 			research_cost_coeff = 1
 		}		
 
@@ -1722,7 +1682,7 @@ technologies = {
 
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1900 }
+			position = { x = 1 y = @1900 }
 		}
 		
 		categories = {
@@ -1733,31 +1693,7 @@ technologies = {
 			factor = 1
 		}
 	}
-
-	ww1_ambulance2 = {
-
-		category_all_infantry = {
-			default_morale = 0.05
-		}
-
-		research_cost = 1.0
-		start_year = 1914
-
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1914 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-
+	
 	early_motorised = {
 
 		enable_subunits = {
@@ -1770,12 +1706,7 @@ technologies = {
 		}
 
 		enable_equipments = {
-			motorized_equipment_0
-		}
-
-		path = {
-			leads_to_tech = motorised_infantry2
-			research_cost_coeff = 1
+			motorized_equipment_1
 		}
 
 		path = {
@@ -1784,10 +1715,10 @@ technologies = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 1910
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1918 }
+			position = { x = 1 y = @1910 }
 		}
 				
 		categories = {
@@ -1801,6 +1732,29 @@ technologies = {
 				factor = 0
 				date < 1930.5.1
 			}
+		}
+	}
+
+	ww1_ambulance2 = {
+
+		category_all_infantry = {
+			default_morale = 0.05
+		}
+
+		research_cost = 1.0
+		start_year = 1912
+
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1912 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	

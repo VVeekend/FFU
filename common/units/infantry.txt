@@ -41,7 +41,6 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 300
-			horse_equipment = 5
 		}
 	}
 
@@ -86,7 +85,6 @@ sub_units = {
 		
 		need = {
 			infantry_equipment = 300
-			horse_equipment = 5
 		}
 	}
 	
@@ -200,7 +198,6 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 900
-			horse_equipment = 5
 		}
 
 		marsh = {
@@ -255,7 +252,6 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 900
-			horse_equipment = 5
 		}
 
 		hills = {
@@ -310,7 +306,6 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 900
-			horse_equipment = 5
 		}
 	}
 	
@@ -357,7 +352,6 @@ sub_units = {
 
 		need = {
 			infantry_equipment = 900
-			horse_equipment = 5
 		}
 		
 		fort = {
@@ -402,7 +396,6 @@ sub_units = {
 
 		need = {
 			infantry_equipment = 900
-			horse_equipment = 5
 		}
 
 		marsh = {

@@ -86,7 +86,7 @@ recruit_character = AUS_AUH_franz_conrad_von_hotzendorf
 		ww1_ambulance1 = 1
 		tech_mountaineers = 1
 		jaegers = 1
-		horse_equipment = 1
+		early_motorised = 1
 
 		# Support
 		tech_support = 1

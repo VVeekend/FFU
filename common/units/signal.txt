@@ -45,7 +45,6 @@ sub_units = {
 
 		need = {
 			support_equipment = 20
-			horse_equipment = 20
 		}
 
 	}
