@@ -76,6 +76,7 @@ recruit_character = USA_adna_r_chaffee
 		tech_support = 1
 		tech_engineers = 1
 		tech_recon = 1
+		basic_train = 1
 		#tech_military_police = 1
 		#tech_maintenance_company = 1
 		#tech_field_hospital = 1

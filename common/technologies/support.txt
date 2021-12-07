@@ -1642,7 +1642,7 @@ technologies = {
 		start_year = 1910
 		folder = {
 			name = support_folder
-			position = { x = 0 y = 11 }
+			position = { x = 0 y = @1910 }
 		}
 
 		path = {
@@ -1691,7 +1691,7 @@ technologies = {
 		start_year = 1912
 		folder = {
 			name = support_folder
-			position = { x = 4 y = 3 }
+			position = { x = 4 y = @1912 }
 		}
 		
 		categories = {
@@ -1726,7 +1726,7 @@ technologies = {
 		start_year = 1913
 		folder = {
 			name = support_folder
-			position = { x = 0 y = @1939 }
+			position = { x = 0 y = @1914 }
 		}
 		
 		categories = {
@@ -1779,7 +1779,7 @@ technologies = {
 		start_year = 1915
 		folder = {
 			name = support_folder
-			position = { x = 2 y = 3 }
+			position = { x = 2 y = @1912 }
 		}
 		
 		categories = {

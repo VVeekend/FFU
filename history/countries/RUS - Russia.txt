@@ -78,6 +78,7 @@ create_navy_leader={  name = "Kireev" id=85075 portrait_path="gfx/admiral/SOV_ki
 		#tech_maintenance_company = 1
 		#tech_field_hospital = 1
 		#tech_logistics_company = 1
+		basic_train = 1
 
 		# Armor
 

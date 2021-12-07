@@ -105,6 +105,7 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 		#tech_maintenance_company = 1
 		#tech_field_hospital = 1
 		#tech_logistics_company = 1
+		basic_train = 1
 
 		# Armor
 		gwtank=1 # 1910 Armored Car

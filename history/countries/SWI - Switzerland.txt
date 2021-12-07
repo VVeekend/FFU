@@ -73,6 +73,7 @@ recruit_character = SWI_ulrich_funk
 		tech_maintenance_company = 1
 		tech_field_hospital = 1
 		tech_logistics_company = 1
+		basic_train = 1
 
 		# Armor
 

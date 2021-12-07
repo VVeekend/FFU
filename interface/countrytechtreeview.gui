@@ -421,6 +421,7 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+  		  	
 			gridboxtype = {
 				name = "electronic_mechanical_engineering_tree"
 				position = { x= 168 y=160 }
@@ -433,7 +434,12 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+           gridboxtype = {
+		        name = "basic_train_tree"
+		        position = { x = 100 y = 1580 }
+		        slotsize = { width = 70 height = 70 }
+		        format = "LEFT"
+	        }
 
 		}
 
@@ -4761,12 +4767,6 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 		}
-	}
-	gridboxtype = {
-		name = "basic_train_tree"
-		position = { x = 100 y = 1180 }
-		slotsize = { width = 70 height = 70 }
-		format = "LEFT"
 	}
 	
 	containerWindowType = {
