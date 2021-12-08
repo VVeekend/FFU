@@ -55,13 +55,6 @@ recruit_character = ITA_paolo_boselli
 recruit_character = ITA_duca_degli_abruzzi
 recruit_character = ITA_luigi_facta
 
-
-
-#NAVY
-create_navy_leader={  name = "Luigi Amedeo" id=46001 portrait_path="gfx/hoi4tgw_portraits/ITA/navy_admirals/ITA_duca_degli_abruzzi.dds" traits={   } skill=2 }
-create_navy_leader={  name = "Thaon di Revel" id=46075 portrait_path="gfx/hoi4tgw_portraits/ITA/navy_admirals/ITA_thaon_di_revel.dds" traits={   } skill=2 }
-create_navy_leader={  name = "Marcello Amero d'Aste-Stella" id=46076 portrait_path="gfx/hoi4tgw_portraits/ITA/navy_admirals/ITA_marcello_aste_stella.dds" traits={   } skill=1 }
-
 1910.1.1 = {
 	oob = "ITA_1910"
 

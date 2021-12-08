@@ -4,7 +4,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Luigi_Cadorna.dds"
+				large="gfx/leaders/ITA/ITA_Luigi_Cadorna.dds"
 				small="GFX_idea_ITA_luigi_cadorna"
 			}
 		}
@@ -23,7 +23,7 @@ characters={
 					}
 			}
 		field_marshal={
-			traits={ old_guard }
+			traits={ politically_connected old_guard }
 			skill=2
 			attack_skill=1
 			defense_skill=1
@@ -37,7 +37,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Armando_Diaz.dds"
+				large="gfx/leaders/ITA/ITA_Armando_Diaz.dds"
 				small="GFX_idea_ITA_armando_diaz"
 			}
 		}
@@ -58,7 +58,7 @@ characters={
 		field_marshal={
 			traits={ infantry_leader trait_mountaineer }
 			skill=4
-			attack_skill=4
+			attack_skill=5
 			defense_skill=4
 			planning_skill=4
 			logistics_skill=3
@@ -97,7 +97,7 @@ characters={
 		name="Vittorio Emanuele III"
 		portraits={
 			civilian={
-				large="gfx/hoi4tgw_portraits/ITA/country_leaders/ITA_vittorio_emanuele_iii.dds"
+				large="gfx/leaders/ITA/ITA_vittorio_emanuele_iii.dds"
 			}
 		}
 		country_leader={
@@ -118,15 +118,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Pecori_Giraldi.dds"
+				large="gfx/leaders/ITA/ITA_Pecori_Giraldi.dds"
 			}
 		}
 		corps_commander={
+		traits = { old_guard career_officer }
 			skill=2
-			attack_skill=2
+			attack_skill=3
 			defense_skill=2
 			planning_skill=2
-			logistics_skill=2
+			logistics_skill=1
 			legacy_id=46071
 		}
 	}
@@ -135,16 +136,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Carlo_Caneva.dds"
+				large="gfx/leaders/ITA/ITA_Carlo_Caneva.dds"
 			}
 		}
 		corps_commander={
 			traits={ desert_fox }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=46009
 		}
 	}
@@ -153,11 +154,11 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Emanuele_Filiberto.dds"
+				large="gfx/leaders/ITA/ITA_Emanuele_Filiberto.dds"
 			}
 		}
 		corps_commander={
-			skill=3
+			skill=2
 			attack_skill=2
 			defense_skill=2
 			planning_skill=2
@@ -170,14 +171,15 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/ITA/navy_admirals/ITA_duca_degli_abruzzi.dds"
+				large="gfx/leaders/ITA/ITA_luigi_amedeo.dds"
 			}
 		}
 		navy_leader={
+		    traits = { gentlemanly trait_royal }
 			skill=2
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=3
 			coordination_skill=1
 			legacy_id=46001
 		}
@@ -187,14 +189,15 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/ITA/navy_admirals/ITA_thaon_di_revel.dds"
+				large="gfx/leaders/ITA/ITA_thaon_di_revel.dds"
 			}
 		}
 		navy_leader={
-			skill=2
+		    traits = { gentlemanly ironside }
+			skill=3
 			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
+			defense_skill=2
+			maneuvering_skill=2
 			coordination_skill=1
 			legacy_id=46075
 		}
@@ -204,14 +207,15 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/ITA/navy_admirals/ITA_marcello_aste_stella.dds"
+				large="gfx/leaders/ITA/ITA_marcello_aste_stella.dds"
 			}
 		}
 		navy_leader={
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
+		    traits = { old_guard_navy gunnery_expert }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=2
 			coordination_skill=1
 			legacy_id=46076
 		}

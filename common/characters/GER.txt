@@ -473,7 +473,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/leaders/GER_krafft_von_dellmensingen.dds"
+				large="gfx/leaders/GER/GER_krafft_von_dellmensingen.dds"
 			}
 		}
 		corps_commander={
