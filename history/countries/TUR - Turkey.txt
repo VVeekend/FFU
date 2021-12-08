@@ -31,10 +31,6 @@ recruit_character = TUR_mahmud_shevket_paşa
 recruit_character = TUR_kölemen_abdullah_paşa
 recruit_character = TUR_ali_rıza_paşa
 recruit_character = TUR_mahmud_muhtar_paşa
-recruit_character = TUR_ahmed_djemal_paşa
-recruit_character = TUR_abdülkerim_Öpelimi_paşa
-recruit_character = TUR_hasan_izzet_paşa
-recruit_character = TUR_nihat_anılmış_paşa
 recruit_character = TUR_fevzi_Çakmak_paşa
 recruit_character = TUR_cevat_Çobanlı_paşa
 recruit_character = TUR_halil_kut_paşa
@@ -64,11 +60,6 @@ recruit_character = TUR_ahmed_tevfik
 1914.1.1 = {
 	create_navy_leader={  name = "Wilhelm Souchon" id=90162 portrait_path="gfx/hoi4tgw_portraits/TUR/navy_admirals/GER_souchon.dds" traits={ superior_tactician  } skill=4 }
 }
-
-create_navy_leader={  name = "Ahmed Ramiz Bey" id=90159 portrait_path="gfx/hoi4tgw_portraits/TUR/navy_admirals/TUR_Ahmed_Ramiz_Bey.dds" traits={   } skill=2 }
-
-create_navy_leader={  name = "Arif Paşa" id=90097 portrait_path="gfx/hoi4tgw_portraits/TUR/navy_admirals/TUR_Arif_Pasa.dds" traits={ old_guard  } skill=2 }
-
 
 set_technology = {
 	# Navy

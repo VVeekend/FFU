@@ -3,7 +3,7 @@ characters={
 		name="Mustafa Kemal"
 		portraits={
 			civilian={
-				large="gfx/hoi4tgw_portraits/TUR/country_leaders/TUR_mustafa_kemal.dds"
+				large="gfx/leaders/TUR/TUR_mustafa_kemal.dds"
 				small="GFX_idea_TUR_mustafa_kemal-96389"
 			}
 		}
@@ -69,15 +69,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Enver.dds"
+				large="gfx/leaders/TUR/TUR_enver_pasha.dds"
 			}
 		}
 		corps_commander={
+		    traits = { harsh_leader media_personality aggressive_assaulter politically_connected}
 			skill=2
-			attack_skill=3
+			attack_skill=2
 			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=90007
 		}
 	}
@@ -86,15 +87,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Esad.dds"
+				large="gfx/leaders/TUR/TUR_Mehmed_Esad.dds"
 			}
 		}
 		corps_commander={
+	traits = { inflexible_strategist hill_fighter career_officer }
 			skill=3
-			attack_skill=2
-			defense_skill=2
+			attack_skill=1
+			defense_skill=3
 			planning_skill=2
-			logistics_skill=1
+			logistics_skill=4
 			legacy_id=90008
 		}
 	}
@@ -103,15 +105,15 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Hasan_Tahsin.dds"
+				large="gfx/leaders/TUR/TUR_hasan_tahsin_pasha.dds"
 			}
 		}
 		corps_commander={
-			traits={ old_guard desert_fox }
-			skill=3
-			attack_skill=2
-			defense_skill=1
-			planning_skill=1
+			traits={ old_guard politically_connected }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=2
 			legacy_id=90138
 		}
@@ -121,15 +123,15 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Shevket.dds"
+				large="gfx/leaders/TUR/TUR_Mahmud_Muhtar_Pasha.dds"
 			}
 		}
 		corps_commander={
 			skill=2
 			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
 			legacy_id=90507
 		}
 	}
@@ -138,15 +140,15 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Kolemen.dds"
+				large="gfx/leaders/TUR/TUR_kolemen_abdullah_pasha.dds"
 			}
 		}
 		corps_commander={
-			skill=1
+			skill=2
 			attack_skill=1
 			defense_skill=2
 			planning_skill=2
-			logistics_skill=1
+			logistics_skill=2
 			legacy_id=90508
 		}
 	}
@@ -155,15 +157,15 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Ali_Riza.dds"
+				large="gfx/leaders/TUR/TUR_ali_riza.dds"
 			}
 		}
 		corps_commander={
-			skill=1
-			attack_skill=2
-			defense_skill=1
+			skill=2
+			attack_skill=1
+			defense_skill=2
 			planning_skill=2
-			logistics_skill=1
+			logistics_skill=2
 			legacy_id=90509
 		}
 	}
@@ -172,84 +174,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Muhtar.dds"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=90510
-		}
-	}
-	TUR_ahmed_djemal_paşa={
-		name="Ahmed Djemal Paşa"
-		portraits={
-
-			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Djemal.dds"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=2
-			defense_skill=3
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=90511
-		}
-	}
-	TUR_abdülkerim_Öpelimi_paşa={
-		name="Abdülkerim Öpelimi Paşa"
-		portraits={
-
-			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Abdulkerim.dds"
+				large="gfx/leaders/TUR/TUR_Mahmud_Muhtar_Pasha.dds"
 			}
 		}
 		corps_commander={
 			skill=2
 			attack_skill=2
 			defense_skill=1
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=90512
-		}
-	}
-	TUR_hasan_izzet_paşa={
-		name="Hasan Izzet Paşa"
-		portraits={
-
-			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Izzet.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=90513
-		}
-	}
-	TUR_nihat_anılmış_paşa={
-		name="Nihat Anılmış Paşa"
-		portraits={
-
-			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Nihat.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			planning_skill=1
+			planning_skill=3
 			logistics_skill=2
-			legacy_id=90514
+			legacy_id=90510
 		}
 	}
 	TUR_fevzi_Çakmak_paşa={
@@ -257,49 +191,52 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Fevzi.dds"
+				large="gfx/leaders/TUR/TUR_fevzi_cakmak.dds"
 			}
 		}
 		field_marshal={
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=90515
-		}
-	}
-	TUR_cevat_Çobanlı_paşa={
-		name="Cevat Çobanlı Paşa"
-		portraits={
-
-			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Cevat.dds"
-			}
-		}
-		corps_commander={
+	        traits = {harsh_leader trait_reckless}
 			skill=3
 			attack_skill=1
 			defense_skill=2
 			planning_skill=1
-			logistics_skill=2
+			logistics_skill=3
+			legacy_id=90515
+		}
+	}
+	TUR_cevat_Çobanlı_paşa={
+		name="Cevat Çobanlı "
+		portraits={
+
+			army={
+				large="gfx/leaders/TUR/TUR_cevat_cobanli.dds"
+			}
+		}
+		corps_commander={
+	traits = {brilliant_strategist}
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
 			legacy_id=90516
 		}
 	}
 	TUR_halil_kut_paşa={
-		name="Halil Kut Paşa"
+		name="Halil Kut"
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Halil.dds"
+				large="gfx/leaders/TUR/TUR_halil_kut.dds"
 			}
 		}
 		corps_commander={
-			skill=2
+	        traits = {trickster trait_engineer }
+			skill=3
 			attack_skill=2
 			defense_skill=2
-			planning_skill=2
-			logistics_skill=1
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=90517
 		}
 	}
@@ -308,15 +245,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/TUR/navy_admirals/TUR_Ahmed_Ramiz_Bey.dds"
+				large="gfx/leaders/TUR/TUR_ahmed_ramiz.dds"
 			}
 		}
 		navy_leader={
+	traits = {fleet_protector destroyer_leader }
 			skill=2
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=3
 			legacy_id=90159
 		}
 	}
@@ -325,16 +263,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/TUR/navy_admirals/TUR_Arif_Pasa.dds"
+				large="gfx/leaders/TUR/TUR_arif_pasha.dds"
 			}
 		}
 		navy_leader={
-			traits={ old_guard }
+			traits={old_guard_navy ironside gentlemanly}
 			skill=2
 			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=3
 			legacy_id=90097
 		}
 	}

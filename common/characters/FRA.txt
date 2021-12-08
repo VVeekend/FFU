@@ -51,15 +51,15 @@ characters={
 				small="GFX_idea_FRA_joseph_gallieni"
 			}
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_joseph_gallieni.dds"
+				large="gfx/leaders/FRA/FRA_Joseph_Gallieni.dds"
 			}
 		}
 		field_marshal={
-			traits={ old_guard }
+			traits={ ambusher infantry_officer }
 			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=5
 			logistics_skill=4
 			legacy_id=32019
 		}
@@ -84,7 +84,7 @@ characters={
 				small="GFX_idea_FRA_joseph_joffre"
 			}
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_joseph_joffre.dds"
+				large="gfx/leaders/FRA/FRA_joseph_joffre.dds"
 			}
 		}
 		field_marshal={
@@ -117,7 +117,7 @@ characters={
 				small="GFX_idea_FRA_robert_nivelle"
 			}
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_robert_nivelle.dds"
+				large="gfx/leaders/FRA/FRA_robert_nivelle.dds"
 			}
 		}
 		corps_commander={
@@ -150,7 +150,7 @@ characters={
 				small="GFX_idea_FRA_ferdinand_foch"
 			}
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_ferdinand_foch.dds"
+				large="gfx/leaders/FRA/FRA_ferdinand_foch.dds"
 			}
 		}
 		corps_commander={
@@ -309,13 +309,13 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_philippe_petain.dds"
+				large="gfx/leaders/FRA/FRA_philippe_petain.dds"
 			}
 		}
 		corps_commander={
-			traits={ unyielding_defender }
-			skill=3
-			attack_skill=2
+			traits={ trickster unyielding_defender }
+			skill=4
+			attack_skill=3
 			defense_skill=4
 			planning_skill=2
 			logistics_skill=4
@@ -327,7 +327,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_henri_berthelot.dds"
+				large="gfx/leaders/FRA/FRA_Henri_Berthelot.dds"
 			}
 		}
 		corps_commander={
@@ -345,7 +345,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_louis_franchet_d_esperey.dds"
+				large="gfx/leaders/FRA/FRA_louis_franchet_d_esperey.dds"
 			}
 		}
 		corps_commander={
@@ -363,7 +363,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_emile_fayolle.dds"
+				large="gfx/leaders/FRA/FRA_emile_fayolle.dds"
 			}
 		}
 		corps_commander={
@@ -381,16 +381,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_hubert_lyautey.dds"
+				large="gfx/leaders/FRA/FRA_hubert_lyautey.dds"
 			}
 		}
 		corps_commander={
-			traits={ skirmisher }
+			traits={ media_personality desert_fox commando cavalry_officer trickster }
 			skill=2
-			attack_skill=2
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=32004
 		}
 	}
@@ -399,7 +399,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/army_generals/FRA_michel_maunoury.dds"
+				large="gfx/leaders/FRA/FRA_michel_maunoury.dds"
 			}
 		}
 		corps_commander={
@@ -416,7 +416,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/navy_admirals/FRA_de_lapeyrere.dds"
+				large="gfx/leaders/FRA/FRA_de_lapeyrere.dds"
 			}
 		}
 		navy_leader={
@@ -433,7 +433,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/navy_admirals/FRA_du_vignaux.dds"
+				large="gfx/leaders/FRA/FRA_du_vignaux.dds"
 			}
 		}
 		navy_leader={
@@ -451,7 +451,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/navy_admirals/FRA_lucien_lacaze.dds"
+				large="gfx/leaders/FRA/FRA_lucien_lacaze.dds"
 			}
 		}
 		navy_leader={
@@ -468,7 +468,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/FRA/navy_admirals/FRA_ronarc_h.dds"
+				large="gfx/leaders/FRA/FRA_ronarc_h.dds"
 			}
 		}
 		navy_leader={

@@ -43,11 +43,11 @@ characters={
 		}
 	}
 	AUS_conrad_von_hötzendorf={
-		name="Conrad von Hötzendorf"
+		name="Conrad von Hotzendorf"
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Hotzendorf.dds"
+				large="gfx/leaders/AUH/AUH_Conrad_von_Hotzendorf.dds" 
 			}
 		}
 		field_marshal={
@@ -65,15 +65,15 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Bolfras.dds"
+				large="gfx/leaders/AUH/AUH_von_Bolfras.dds"
 			}
 		}
 		field_marshal={
-			skill=3
-			attack_skill=2
-			defense_skill=2
+			skill=2
+			attack_skill=1
+			defense_skill=4
 			planning_skill=3
-			logistics_skill=3
+			logistics_skill=1
 			legacy_id=6386
 		}
 	}
@@ -82,24 +82,25 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Steinstatten.dds"
+				large="gfx/leaders/AUH/AUH_von_Steinstatten.dds"
 			}
 		}
 		corps_commander={
+		    traits={ infantry_officer }
 			skill=3
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=1
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
 			legacy_id=6401
 		}
 	}
 	AUS_svetozar_borojević_von_bojna={
-		name="Svetozar Borojević von Bojna"
+		name="Svetozar von Bojna"
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Bojna.dds"
+				large="gfx/leaders/AUH/AUH_von_Bojna.dds" 
 			}
 		}
 		corps_commander={
@@ -117,15 +118,15 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Pflanzer_Baltin.dds"
+				large="gfx/leaders/AUH/AUH_von_Pflanzer_Baltin.dds"
 			}
 		}
 		corps_commander={
 			skill=3
-			attack_skill=1
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=1
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
 			legacy_id=6111
 		}
 	}
@@ -134,16 +135,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_Dankl_von_Krasnik.dds"
+				large="gfx/leaders/AUH/AUH_Dankl_von_Krasnik.dds"
 			}
 		}
 		corps_commander={
-			traits={ scavenger expert_improviser }
-			skill=3
+			traits={ trait_reckless inflexible_strategist scavenger expert_improviser }
+			skill=2
 			attack_skill=2
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
 			legacy_id=6139
 		}
 	}
@@ -152,16 +153,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/AUH/army_generals/AUH_von_Kovesshaza.dds"
+				large="gfx/leaders/AUH/AUH_von_Kovesshaza.dds"
 			}
 		}
 		corps_commander={
 			traits={ urban_assault_specialist }
-			skill=3
-			attack_skill=3
-			defense_skill=1
+			skill=2
+			attack_skill=5
+			defense_skill=2
 			planning_skill=2
-			logistics_skill=2
+			logistics_skill=1
 			legacy_id=6396
 		}
 	}
@@ -187,16 +188,16 @@ characters={
 				small="GFX_idea_AUH_anton_haus"
 			}
 			army={
-				large="gfx/hoi4tgw_portraits/AUH/navy_admirals/AUH_haus.dds"
+				large="gfx/leaders/AUH/AUH_Anton_Haus.dds"
 			}
 		}
 		navy_leader={
-			traits={ superior_tactician }
+			traits={ gunnery_expert }
 			skill=3
-			attack_skill=1
+			attack_skill=2
 			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			maneuvering_skill=3
+			coordination_skill=2
 			legacy_id=6162
 		}
 	}
@@ -221,15 +222,16 @@ characters={
 				small="GFX_idea_AUH_hermann_von_spaun"
 			}
 			army={
-				large="gfx/hoi4tgw_portraits/AUH/navy_admirals/AUH_von_Spaun.dds"
+				large="gfx/leaders/AUH/AUH_von_Spaun.dds"
 			}
 		}
 		navy_leader={
+		    traits = { gentlemanly }
 			skill=3
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=3
 			legacy_id=6234
 		}
 	}
@@ -238,16 +240,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/AUH/navy_admirals/AUH_horthy.dds"
+				large="gfx/leaders/HUN/HUN_miklos_horthy.dds"
 			}
 		}
 		navy_leader={
-			traits={ superior_tactician }
+			traits={ superior_tactician navy_media_personality }
 			skill=3
 			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=3
 			legacy_id=6394
 		}
 	}
