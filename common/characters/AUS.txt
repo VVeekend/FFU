@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			#desc="AUH_viktor_adler_DESC"
+			##desc="AUH_viktor_adler_DESC"
 			ideology=marxism
 			expire="1935.1.1.1"
 			id=-1
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			#desc="AUH_franz_ferdinand_DESC"
+			##desc="AUH_franz_ferdinand_DESC"
 			ideology=despotism
 			expire="1935.1.1.1"
 			id=-1
@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			#desc="AUH_franz_joseph_i_DESC"
+			##desc="AUH_franz_joseph_i_DESC"
 			ideology=autocracy
 			traits={ autocratic_imperialist }
 			expire="1935.1.1.1"

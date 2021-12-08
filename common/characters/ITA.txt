@@ -73,7 +73,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="ITA_giacinto_menotti_serrati_DESC"
+			#desc="ITA_giacinto_menotti_serrati_DESC"
 			ideology=stalinism
 			expire="1935.1.1.1"
 			id=-1
@@ -87,7 +87,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="ITA_benito_mussolini_DESC"
+			#desc="ITA_benito_mussolini_DESC"
 			ideology=nazism
 			expire="1935.1.1.1"
 			id=-1
@@ -101,13 +101,13 @@ characters={
 			}
 		}
 		country_leader={
-			desc="ITA_vittorio_emanuele_iii_DESC"
+			#desc="ITA_vittorio_emanuele_iii_DESC"
 			ideology=conservatism
 			expire="1935.1.1.1"
 			id=-1
 		}
 		country_leader={
-			desc="ITA_vittorio_emanuele_iii_DESC"
+			#desc="ITA_vittorio_emanuele_iii_DESC"
 			ideology=despotism
 			expire="1935.1.1.1"
 			id=-1

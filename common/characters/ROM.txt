@@ -73,7 +73,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="ROM_ferdinand_i_DESC"
+			#desc="ROM_ferdinand_i_DESC"
 			ideology=despotism
 			expire="1935.1.1.1"
 			id=-1
@@ -87,7 +87,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="ROM_christian_rakovsky_DESC"
+			#desc="ROM_christian_rakovsky_DESC"
 			ideology=stalinism
 			expire="1935.1.1.1"
 			id=-1
@@ -101,7 +101,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="ROM_carol_i_DESC"
+			#desc="ROM_carol_i_DESC"
 			ideology=conservatism
 			expire="1935.1.1.1"
 			id=-1

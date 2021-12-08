@@ -18,7 +18,6 @@ recruit_character = LUX_damien_nagelmackers
 recruit_character = LUX_florent_pirmez
 
 1910.1.1 = {
-	oob = "LUX_1910"
 
 	#-------------------------------------------------------
 	#							NF

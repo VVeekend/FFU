@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="FRA_alexandre_millerand_DESC"
+			#desc="FRA_alexandre_millerand_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -171,7 +171,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="FRA_charles_jonnart_DESC"
+			#desc="FRA_charles_jonnart_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -185,7 +185,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="FRA_gaston_doumergue_DESC"
+			#desc="FRA_gaston_doumergue_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -199,7 +199,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="FRA_louis_frossard_DESC"
+			#desc="FRA_louis_frossard_DESC"
 			ideology=stalinism
 			expire="1935.1.1.1"
 			id=-1
@@ -213,7 +213,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="FRA_georges_clemenceau_DESC"
+			#desc="FRA_georges_clemenceau_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -227,7 +227,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="FRA_paul_painleve_DESC"
+			#desc="FRA_paul_painleve_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -241,7 +241,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="FRA_jules_meline_DESC"
+			#desc="FRA_jules_meline_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -255,7 +255,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="FRA_jules_pams_DESC"
+			#desc="FRA_jules_pams_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -269,7 +269,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="FRA_paul_doumer_DESC"
+			#desc="FRA_paul_doumer_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -283,7 +283,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="FRA_philippe_viii_DESC"
+			#desc="FRA_philippe_viii_DESC"
 			ideology=conservatism
 			expire="1935.1.1.1"
 			id=-1
@@ -297,7 +297,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="FRA_armand_fallieres_DESC"
+			#desc="FRA_armand_fallieres_DESC"
 			ideology=liberalism
 			traits={ figurehead_president }
 			expire="1935.1.1.1"

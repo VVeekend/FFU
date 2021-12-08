@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="LUX_marie_adelaide_DESC"
+			#desc="LUX_marie_adelaide_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="LUX_aloys_kaiser_DESC"
+			#desc="LUX_aloys_kaiser_DESC"
 			ideology=stalinism
 			expire="1935.1.1.1"
 			id=-1
@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="LUX_william_iv_DESC"
+			#desc="LUX_william_iv_DESC"
 			ideology=conservatism
 			expire="1935.1.1.1"
 			id=-1

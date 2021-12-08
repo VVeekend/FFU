@@ -37,7 +37,7 @@ characters={
 
 			army={
 			    small="GFX_idea_GER_reinhard_scheer"
-				large="gfx/admiral/GER_scheer.dds"
+				large="gfx/leaders/GER/GER_reinhard_scheer.dds"
 			}
 		}
 		advisor={
@@ -55,12 +55,12 @@ characters={
 				}
 		}
 		navy_leader={
-			traits={ superior_tactician }
-			skill=4
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			traits={ superior_tactician gentlemanly }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			maneuvering_skill=2
+			coordination_skill=4
 			legacy_id=34053
 		}
 	}
@@ -69,7 +69,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/admiral/GER_von_tirpitz.dds"
+				large="gfx/leaders/GER/GER_alfred_tirpitz.dds"
 				small="GFX_idea_GER_alfred_von_tirpitz"
 			}
 		}
@@ -88,12 +88,12 @@ characters={
 					}
 			}
 		navy_leader={
-			traits={ spotter }
+			traits={ navy_media_personality gunnery_expert spotter }
 			skill=3
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			attack_skill=5
+			defense_skill=2
+			maneuvering_skill=4
+			coordination_skill=2
 			legacy_id=34298
 		}
 	}
@@ -102,7 +102,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/admiral/GER_von_holtzendorff.dds"
+				large="gfx/leaders/GER/GER_henning_holtzendorff.dds"
 				small="GFX_idea_GER_henning_von_holtzendorff"
 
 			}
@@ -110,10 +110,10 @@ characters={
 		navy_leader={
 			traits={ blockade_runner }
 			skill=3
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=4
+			coordination_skill=2
 			legacy_id=34312
 		}
 			advisor={
@@ -139,22 +139,8 @@ characters={
 			}
 		}
 		country_leader={
-			desc="GER_wilhelm_iii_DESC"
+			#desc="GER_wilhelm_iii_DESC"
 			ideology=autocracy
-			expire="1935.1.1.1"
-			id=-1
-		}
-	}
-	GER_paul_von_hindenburg={
-		name="Paul von Hindenburg"
-		portraits={
-			civilian={
-				large="gfx/leaders/GER_paul_von_hindenburg.dds"
-			}
-		}
-		country_leader={
-			desc="GER_paul_von_hindenburg_DESC"
-			ideology=conservatism
 			expire="1935.1.1.1"
 			id=-1
 		}
@@ -167,22 +153,8 @@ characters={
 			}
 		}
 		country_leader={
-			desc="GER_adolf_hitler_DESC"
+			#desc="GER_adolf_hitler_DESC"
 			ideology=nazism
-			expire="1935.1.1.1"
-			id=-1
-		}
-	}
-	GER_erich_ludendorff={
-		name="Erich Ludendorff"
-		portraits={
-			civilian={
-				large="gfx/leaders/GER/GER_erich_ludendorff.dds"
-			}
-		}
-		country_leader={
-			desc="GER_erich_ludendorff_DESC"
-			ideology=fascism_ideology
 			expire="1935.1.1.1"
 			id=-1
 		}
@@ -195,7 +167,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="GER_friedrich_ebert_DESC"
+			#desc="GER_friedrich_ebert_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -209,7 +181,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="GER_karl_liebknecht_DESC"
+			#desc="GER_karl_liebknecht_DESC"
 			ideology=marxism
 			expire="1935.1.1.1"
 			id=-1
@@ -223,7 +195,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="GER_wilhelm_ii_DESC"
+			#desc="GER_wilhelm_ii_DESC"
 			ideology=autocracy
 			traits={ autocratic_imperialist }
 			expire="1935.1.1.1"
@@ -231,11 +203,11 @@ characters={
 		}
 	}
 	GER_von_gallwitz={
-		name="von Gallwitz"
+		name="Max von Gallwitz"
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/GER/army_generals/GER_von_gallwitz.dds"
+				large="gfx/leaders/GER/GER_Max_von_Gallwitz.dds"
 			}
 		}
 		field_marshal={
@@ -253,7 +225,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/GER/army_generals/GER_duke_albrecht_of_wurttemberg.dds"
+				large="gfx/leaders/GER/GER_albrecht_von_wurttemberg.dds"
 			}
 		}
 		field_marshal={
@@ -271,7 +243,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_rupprecht_of_bavaria.dds"
+				large="gfx/leaders/GER/GER_rupprecht_von_wittelsbach.dds"
 			}
 		}
 		field_marshal={
@@ -289,7 +261,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/GER/army_generals/GER_crown_prince_wilhelm_of_prussia.dds"
+				large="gfx/leaders/GER/GER_wilhelm_iii.dds"
 			}
 		}
 		field_marshal={
@@ -306,7 +278,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/hoi4tgw_portraits/GER/army_generals/GER_von_prittwitz_und_gaffron_m.dds"
+				large="gfx/leaders/GER/GER_maximilian_prittwitz.dds"
 			}
 		}
 		corps_commander={
@@ -319,29 +291,12 @@ characters={
 			legacy_id=34036
 		}
 	}
-	GER_von_hellingrath={
-		name="von Hellingrath"
-		portraits={
-
-			army={
-				large="gfx/generals/GER_von_hellingrath.dds"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=34025
-		}
-	}
 	GER_von_kluck={
-		name="von Kluck"
+		name="Alexander von Kluck"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_kluck.dds"
+				large="gfx/leaders/GER/GER_alexander_kluck.dds"
 			}
 		}
 		corps_commander={
@@ -353,29 +308,12 @@ characters={
 			legacy_id=34029
 		}
 	}
-	GER_von_preußen_w.={
-		name="von Preußen W."
-		portraits={
-
-			army={
-				large="gfx/generals/GER_von_preussen_w.dds"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=34032
-		}
-	}
 	GER_von_francois={
-		name="von Francois"
+		name="Hermann von Francois"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_francois.dds"
+				large="gfx/leaders/GER/GER_hermann_francois.dds"
 			}
 		}
 		corps_commander={
@@ -388,11 +326,11 @@ characters={
 		}
 	}
 	GER_von_falkenhayn_erich={
-		name="von Falkenhayn Erich"
+		name="Erich von Falkenhayn"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_falkenhayn_erich.dds"
+				large="gfx/leaders/GER/GER_erich_falkenhayn.dds"
 			}
 		}
 		corps_commander={
@@ -406,11 +344,11 @@ characters={
 		}
 	}
 	GER_von_einem={
-		name="von Einem"
+		name="Karl von Einem"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_einem.dds"
+				large="gfx/leaders/GER/GER_karl_einem.dds"
 			}
 		}
 		corps_commander={
@@ -424,11 +362,11 @@ characters={
 		}
 	}
 	GER_von_hutier={
-		name="von Hutier"
+		name="Oskar von Hutier"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_hutier.dds"
+				large="gfx/leaders/GER/GER_oskar_hutier.dds"
 			}
 		}
 		corps_commander={
@@ -442,11 +380,11 @@ characters={
 		}
 	}
 	GER_ludendorff={
-		name="Ludendorff"
+		name="Erich Ludendorff"
 		portraits={
-
+		
 			army={
-				large="gfx/generals/GER_ludendorff.dds"
+				large="gfx/leaders/GER/GER_erich_ludendorff.dds" 
 			}
 		}
 		corps_commander={
@@ -460,11 +398,11 @@ characters={
 		}
 	}
 	GER_von_der_marwitz={
-		name="von der Marwitz"
+		name="Georg von der Marwitz"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_der_marwitz.dds"
+				large="gfx/leaders/GER/GER_georg_marwitz.dds"
 			}
 		}
 		corps_commander={
@@ -478,11 +416,11 @@ characters={
 		}
 	}
 	GER_von_lettowvorbeck={
-		name="von Lettow-Vorbeck"
+		name="Paul von Lettow-Vorbeck"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_lettow_vorbeck.dds"
+				large="gfx/leaders/GER/GER_paul_lettow_vorbeck.dds"
 			}
 		}
 		corps_commander={
@@ -496,11 +434,11 @@ characters={
 		}
 	}
 	GER_von_below_o.={
-		name="von Below O."
+		name="Otto von Below"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_below_o.dds"
+				large="gfx/leaders/GER/GER_otto_below.dds"
 			}
 		}
 		corps_commander={
@@ -513,11 +451,11 @@ characters={
 		}
 	}
 	GER_von_gündell={
-		name="von Gündell"
+		name="Erich von Gündell"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_gundell.dds"
+				large="gfx/leaders/GER/GER_erich_gundell.dds"
 			}
 		}
 		corps_commander={
@@ -530,30 +468,12 @@ characters={
 			legacy_id=34101
 		}
 	}
-	GER_von_heydebreck={
-		name="von Heydebreck"
-		portraits={
-
-			army={
-				large="gfx/generals/GER_von_heydebreck.dds"
-			}
-		}
-		corps_commander={
-			traits={ trickster }
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=1
-			logistics_skill=2
-			legacy_id=34103
-		}
-	}
 	GER_krafft_von_dellmensingen={
 		name="Krafft von Dellmensingen"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_krafft_von_dellmensingen.dds"
+				large="gfx/leaders/GER_krafft_von_dellmensingen.dds"
 			}
 		}
 		corps_commander={
@@ -567,11 +487,11 @@ characters={
 		}
 	}
 	GER_sixt_von_armin={
-		name="Sixt von Armin"
+		name="Friedrich Sixt von Armin"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_sixt_von_armin.dds"
+				large="gfx/leaders/GER/GER_sixt_von_armin.dds"
 			}
 		}
 		corps_commander={
@@ -585,11 +505,11 @@ characters={
 		}
 	}
 	GER_von_schlieffen={
-		name="von Schlieffen"
+		name="Alfred von Schlieffen"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_schlieffen.dds"
+				large="gfx/leaders/GER/GER_alfred_von_schlieffen.dds"
 			}
 		}
 		corps_commander={
@@ -603,11 +523,11 @@ characters={
 		}
 	}
 	GER_von_der_goltz_c.={
-		name="von der Goltz C."
+		name="Colmar von der Goltz"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_der_goltz_c.dds"
+				large="gfx/leaders/GER/GER_colmar_von_goltz.dds"
 			}
 		}
 		corps_commander={
@@ -621,11 +541,11 @@ characters={
 		}
 	}
 	GER_von_hindenburg={
-		name="von Hindenburg"
+		name="Paul von Hindenburg"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_hindenburg.dds"
+				large="gfx/leaders/GER/GER_Paul_von_Hindenburg.dds"
 			}
 		}
 		corps_commander={
@@ -639,11 +559,11 @@ characters={
 		}
 	}
 	GER_von_dem_borne={
-		name="von dem Borne"
+		name="Kurt von dem Borne"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_dem_borne.dds"
+				large="gfx/leaders/GER/GER_Kurt_von_dem_Borne.dds"
 			}
 		}
 		corps_commander={
@@ -657,11 +577,11 @@ characters={
 		}
 	}
 	GER_von_bülow={
-		name="von Bülow"
+		name="Karl von Bulow"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_bulow.dds"
+				large="gfx/leaders/GER/GER_karl_bulow.dds"
 			}
 		}
 		corps_commander={
@@ -675,11 +595,11 @@ characters={
 		}
 	}
 	GER_von_mackensen={
-		name="von Mackensen"
+		name="August von Mackensen"
 		portraits={
 
 			army={
-				large="gfx/generals/GER_von_mackensen.dds"
+				large="gfx/leaders/GER/GER_august_von_mackensen.dds"
 			}
 		}
 		corps_commander={
@@ -697,16 +617,16 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/admiral/GER_hipper.dds"
+				large="gfx/leaders/GER/GER_franz_hipper.dds"
 			}
 		}
 		navy_leader={
-			traits={ spotter }
-			skill=4
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			traits={ navy_media_personality gunnery_expert spotter }
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			maneuvering_skill=4
+			coordination_skill=2
 			legacy_id=34055
 		}
 	}
@@ -715,52 +635,17 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/admiral/GER_von_spee.dds"
+				large="gfx/leaders/GER/GER_maximilian_spee.dds"
 			}
 		}
 		navy_leader={
-			traits={ superior_tactician }
-			skill=4
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+		   traits={ navy_career_officer superior_tactician fleet_protector }
+	       skill=3 
+           attack_skill=3
+	       defense_skill=4
+	       maneuvering_skill=4
+	       coordination_skill=3
 			legacy_id=34054
-		}
-	}
-	GER_lothar_von_arnauld_de_la_perière={
-		name="Lothar von Arnauld de la Perière"
-		portraits={
-
-			army={
-				large="gfx/admiral/GER_von_arnauld_de_la_periere.dds"
-			}
-		}
-		navy_leader={
-			traits={ seawolf }
-			skill=4
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=34226
-		}
-	}
-	GER_karl_von_müller={
-		name="Karl von Müller"
-		portraits={
-
-			army={
-				large="gfx/admiral/GER_von_muller_k.dds"
-			}
-		}
-		navy_leader={
-			skill=4
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=34228
 		}
 	}
 	GER_curt_von_prittwitz_und_gaffron={
@@ -768,32 +653,34 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/admiral/GER_von_prittwitz_boc.dds"
+				large="gfx/leaders/GER/GER_curt_prittwitz.dds"
 			}
 		}
 		navy_leader={
+		    traits={ naval_lineage navy_media_personality }
 			skill=3
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=3
 			legacy_id=34306
 		}
 	}
 	GER_friedrich_graf_von_baudissin={
-		name="Friedrich Graf von Baudissin"
+		name="Friedrich von Baudissin"
 		portraits={
 
 			army={
-				large="gfx/admiral/GER_von_baudissin.dds"
+				large="gfx/leaders/GER/GER_friedrich_baudissin.dds"
 			}
 		}
 		navy_leader={
+		    traits={ navy_career_officer }
 			skill=3
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			attack_skill=2
+			defense_skill=4
+			maneuvering_skill=2
+			coordination_skill=3
 			legacy_id=34313
 		}
 	}
@@ -1478,27 +1365,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_GER_arthur_zimmermann"
-				}
-			}
-		}
-		GER_Yaboi={
-			advisor={
-				slot = political_advisor
-				idea_token = GER_Yaboi
-				allowed  = {
-						tag  = GER
-					}
-					traits  = {
-						war_industrialist 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="GER_Yaboi"
-			portraits={
-				army={
-					small="GFX_idea_rudolf_hess"
 				}
 			}
 		}

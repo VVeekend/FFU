@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="HOL_wilhelmina_DESC"
+			#desc="HOL_wilhelmina_DESC"
 			ideology=socialism
 			expire="1935.1.1.1"
 			id=-1
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="HOL_Abraham_DESC"
+			#desc="HOL_Abraham_DESC"
 			ideology=centrism
 			expire="1935.1.1.1"
 			id=-1
@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="HOL_Pieter_DESC"
+			#desc="HOL_Pieter_DESC"
 			ideology=marxism
 			expire="1935.1.1.1"
 			id=-1

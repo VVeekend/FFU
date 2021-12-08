@@ -25,7 +25,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SER_filip_filipovic_DESC"
+			#desc="SER_filip_filipovic_DESC"
 			ideology=stalinism
 			expire="1935.1.1.1"
 			id=-1
@@ -39,13 +39,13 @@ characters={
 			}
 		}
 		country_leader={
-			desc="SER_peter_i_DESC"
+			#desc="SER_peter_i_DESC"
 			ideology=conservatism
 			expire="1935.1.1.1"
 			id=-1
 		}
 		country_leader={
-			desc="SER_peter_i_DESC"
+			#desc="SER_peter_i_DESC"
 			ideology=autocracy
 			expire="1935.1.1.1"
 			id=-1

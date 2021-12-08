@@ -39,7 +39,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POR_bernadino_machado_DESC"
+			#desc="POR_bernadino_machado_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -53,7 +53,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POR_sidonio_pais_DESC"
+			#desc="POR_sidonio_pais_DESC"
 			ideology=despotism
 			expire="1935.1.1.1"
 			id=-1
@@ -67,7 +67,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POR_emanuel_ii_DESC"
+			#desc="POR_emanuel_ii_DESC"
 			ideology=despotism
 			expire="1935.1.1.1"
 			id=-1
@@ -81,7 +81,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POR_joao_do_canto_e_castro_DESC"
+			#desc="POR_joao_do_canto_e_castro_DESC"
 			ideology=despotism
 			expire="1935.1.1.1"
 			id=-1
@@ -95,7 +95,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POR_antonio_jose_de_almeida_DESC"
+			#desc="POR_antonio_jose_de_almeida_DESC"
 			ideology=conservatism
 			expire="1935.1.1.1"
 			id=-1
@@ -109,7 +109,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POR_teofilo_braga_DESC"
+			#desc="POR_teofilo_braga_DESC"
 			ideology=liberalism
 			expire="1935.1.1.1"
 			id=-1
@@ -123,7 +123,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc="POR_manuel_ii_DESC"
+			#desc="POR_manuel_ii_DESC"
 			ideology=despotism
 			expire="1935.1.1.1"
 			id=-1
