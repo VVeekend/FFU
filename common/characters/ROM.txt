@@ -5,8 +5,23 @@ characters={
 
 			army={
 				large="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Constantin_Prezan.dds"
+				small="GFX_idea_ROM_constantin_prezan"
 			}
 		}
+			advisor={
+				slot = high_command
+				idea_token = ROM_constantin_prezan
+				ledger  = army 
+					allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						army_infantry_2 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		field_marshal={
 			traits={ old_guard offensive_doctrine }
 			skill=6
@@ -23,8 +38,23 @@ characters={
 
 			army={
 				large="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Alexandru_Averescu.dds"
+				small="GFX_idea_ROM_alexandru_averescu"
 			}
 		}
+			advisor={
+				slot = high_command
+				idea_token = ROM_alexandru_averescu
+				ledger  = army 
+					allowed  = {
+						tag  = ROM
+					}
+					traits  = {
+						army_concealment_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		field_marshal={
 			traits={ offensive_doctrine }
 			skill=3
@@ -435,28 +465,6 @@ characters={
 				}
 			}
 		}
-		ROM_constantin_prezan={
-			advisor={
-				slot = high_command
-				idea_token = ROM_constantin_prezan
-				ledger  = army 
-					allowed  = {
-						tag  = ROM
-					}
-					traits  = {
-						army_infantry_2 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="ROM_constantin_prezan"
-			portraits={
-				army={
-					small="GFX_idea_ROM_constantin_prezan"
-				}
-			}
-		}
 		ROM_dumitru_iliescu={
 			advisor={
 				slot = army_chief
@@ -538,28 +546,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_ROM_vintila_bratianu"
-				}
-			}
-		}
-		ROM_alexandru_averescu={
-			advisor={
-				slot = high_command
-				idea_token = ROM_alexandru_averescu
-				ledger  = army 
-					allowed  = {
-						tag  = ROM
-					}
-					traits  = {
-						army_concealment_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="ROM_alexandru_averescu"
-			portraits={
-				army={
-					small="GFX_idea_ROM_alexandru_averescu"
 				}
 			}
 		}

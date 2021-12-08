@@ -5,8 +5,22 @@ characters={
 
 			army={
 				large="gfx/generals/POR_gomes_da_costa.tga"
+				small="GFX_idea_POR_gomes_da_costa"
 			}
 		}
+			advisor={
+				slot = army_chief
+				idea_token = POR_gomes_da_costa
+				allowed  = {
+						tag  = POR
+					}
+					traits  = {
+						army_chief_offensive_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		corps_commander={
 			traits={ infantry_leader }
 			skill=3
@@ -831,27 +845,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_POR_antonio_maria_baptista"
-				}
-			}
-		}
-		POR_gomes_da_costa={
-			advisor={
-				slot = army_chief
-				idea_token = POR_gomes_da_costa
-				allowed  = {
-						tag  = POR
-					}
-					traits  = {
-						army_chief_offensive_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="POR_gomes_da_costa"
-			portraits={
-				army={
-					small="GFX_idea_POR_gomes_da_costa"
 				}
 			}
 		}

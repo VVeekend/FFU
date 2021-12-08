@@ -5,8 +5,23 @@ characters={
 
 			army={
 				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Luigi_Cadorna.dds"
+				small="GFX_idea_ITA_luigi_cadorna"
 			}
 		}
+			advisor={
+				slot = high_command
+				idea_token = ITA_luigi_cadorna
+				ledger  = army 
+					allowed  = {
+						tag  = ITA
+					}
+					traits  = {
+						army_regrouping_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		field_marshal={
 			traits={ old_guard }
 			skill=2
@@ -23,8 +38,23 @@ characters={
 
 			army={
 				large="gfx/hoi4tgw_portraits/ITA/army_generals/ITA_Armando_Diaz.dds"
+				small="GFX_idea_ITA_armando_diaz"
 			}
 		}
+			advisor={
+				slot = high_command
+				idea_token = ITA_armando_diaz
+				ledger  = army 
+					allowed  = {
+						tag  = ITA
+					}
+					traits  = {
+						army_entrenchment_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		field_marshal={
 			traits={ infantry_leader trait_mountaineer }
 			skill=4
@@ -205,28 +235,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_ITA_eduardo_moroni"
-				}
-			}
-		}
-		ITA_luigi_cadorna={
-			advisor={
-				slot = high_command
-				idea_token = ITA_luigi_cadorna
-				ledger  = army 
-					allowed  = {
-						tag  = ITA
-					}
-					traits  = {
-						army_regrouping_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="ITA_luigi_cadorna"
-			portraits={
-				army={
-					small="GFX_idea_ITA_luigi_cadorna"
 				}
 			}
 		}
@@ -767,28 +775,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_ITA_vittorio_alfieri"
-				}
-			}
-		}
-		ITA_armando_diaz={
-			advisor={
-				slot = high_command
-				idea_token = ITA_armando_diaz
-				ledger  = army 
-					allowed  = {
-						tag  = ITA
-					}
-					traits  = {
-						army_entrenchment_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="ITA_armando_diaz"
-			portraits={
-				army={
-					small="GFX_idea_ITA_armando_diaz"
 				}
 			}
 		}

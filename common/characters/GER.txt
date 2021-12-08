@@ -5,6 +5,7 @@ characters={
 
 			army={
 				large="gfx/admiral/GER_von_fischel.dds"
+				small="GFX_idea_GER_max_von_fischel"
 			}
 		}
 		advisor={
@@ -35,6 +36,7 @@ characters={
 		portraits={
 
 			army={
+			    small="GFX_idea_GER_reinhard_scheer"
 				large="gfx/admiral/GER_scheer.dds"
 			}
 		}
@@ -68,8 +70,23 @@ characters={
 
 			army={
 				large="gfx/admiral/GER_von_tirpitz.dds"
+				small="GFX_idea_GER_alfred_von_tirpitz"
 			}
 		}
+			advisor={
+				slot = high_command
+				idea_token = GER_alfred_von_tirpitz
+				ledger  = navy 
+					allowed  = {
+						tag  = GER
+					}
+					traits  = {
+						navy_capital_ship_2 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		navy_leader={
 			traits={ spotter }
 			skill=3
@@ -86,6 +103,8 @@ characters={
 
 			army={
 				large="gfx/admiral/GER_von_holtzendorff.dds"
+				small="GFX_idea_GER_henning_von_holtzendorff"
+
 			}
 		}
 		navy_leader={
@@ -97,6 +116,20 @@ characters={
 			coordination_skill=1
 			legacy_id=34312
 		}
+			advisor={
+				slot = high_command
+				idea_token = GER_henning_von_holtzendorff
+				ledger  = navy 
+					allowed  = {
+						tag  = GER
+					}
+					traits  = {
+						navy_anti_submarine_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 	}
 	GER_wilhelm_iii={
 		name="Wilhelm III"
@@ -853,28 +886,6 @@ characters={
 				}
 			}
 		}
-		GER_henning_von_holtzendorff={
-			advisor={
-				slot = high_command
-				idea_token = GER_henning_von_holtzendorff
-				ledger  = navy 
-					allowed  = {
-						tag  = GER
-					}
-					traits  = {
-						navy_anti_submarine_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="GER_henning_von_holtzendorff"
-			portraits={
-				army={
-					small="GFX_idea_GER_henning_von_holtzendorff"
-				}
-			}
-		}
 		GER_karl_trimborn={
 			advisor={
 				slot = political_advisor
@@ -1381,7 +1392,7 @@ characters={
 			name="GER_wilhelm_haehnelt"
 			portraits={
 				army={
-					small="GFX_idea_GER_wilhelm_haehnelt"
+					small="GFX_idea_rudolf_hess"
 				}
 			}
 		}
@@ -1406,28 +1417,6 @@ characters={
 				}
 			}
 		}
-		GER_reinhard_scheer={
-			advisor={
-				slot = navy_chief
-				idea_token = GER_reinhard_scheer
-				ledger  = navy 
-					allowed  = {
-						tag  = GER
-					}
-					traits  = {
-						navy_chief_maneuver_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="GER_reinhard_scheer"
-			portraits={
-				army={
-					small="GFX_idea_GER_reinhard_scheer"
-				}
-			}
-		}
 		GER_gottlieb_von_jagow={
 			advisor={
 				slot = political_advisor
@@ -1446,28 +1435,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_GER_gottlieb_von_jagow"
-				}
-			}
-		}
-		GER_alfred_von_tirpitz={
-			advisor={
-				slot = high_command
-				idea_token = GER_alfred_von_tirpitz
-				ledger  = navy 
-					allowed  = {
-						tag  = GER
-					}
-					traits  = {
-						navy_capital_ship_2 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="GER_alfred_von_tirpitz"
-			portraits={
-				army={
-					small="GFX_idea_GER_alfred_von_tirpitz"
 				}
 			}
 		}
@@ -1575,28 +1542,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_GER_clemens_von_delbruck"
-				}
-			}
-		}
-		GER_max_von_fischel={
-			advisor={
-				slot = navy_chief
-				idea_token = GER_max_von_fischel
-				ledger  = navy 
-					allowed  = {
-						tag  = GER
-					}
-					traits  = {
-						navy_chief_decisive_battle_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="GER_max_von_fischel"
-			portraits={
-				army={
-					small="GFX_idea_GER_max_von_fischel"
 				}
 			}
 		}

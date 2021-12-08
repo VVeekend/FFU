@@ -4,8 +4,20 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/hoi4tgw_portraits/TUR/country_leaders/TUR_mustafa_kemal.dds"
+				small="GFX_idea_TUR_mustafa_kemal-96389"
 			}
 		}
+			advisor={
+				slot = high_command
+				idea_token = TUR_mustafa_kemal
+				ledger  = army 
+					allowed  = {
+						tag  = TUR
+					}
+					traits  = {
+						army_concealment_2 
+					}
+			}
 		corps_commander={
 			traits={ infantry_leader desert_fox defensive_doctrine fast_planner }
 			skill=4
@@ -586,25 +598,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_TUR_mehemmed_naby"
-				}
-			}
-		}
-		TUR_mustafa_kemal={
-			advisor={
-				slot = high_command
-				idea_token = TUR_mustafa_kemal
-				ledger  = army 
-					allowed  = {
-						tag  = TUR
-					}
-					traits  = {
-						army_concealment_2 
-					}
-			}
-			name="TUR_mustafa_kemal"
-			portraits={
-				army={
-					small="GFX_idea_TUR_mustafa_kemal-96389"
 				}
 			}
 		}
