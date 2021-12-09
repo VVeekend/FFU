@@ -43,25 +43,6 @@ characters={
 				}
 			}
 		}
-		ENG_ernest_swinton={
-			advisor={
-				slot = high_command
-				idea_token = ENG_ernest_swinton
-				ledger  = army 
-					traits  = {
-						army_armored_3 
-					}
-					allowed  = {
-						tag  = ENG
-					}
-			}
-			name="ENG_ernest_swinton"
-			portraits={
-				army={
-					small="GFX_idea_rudolf_hess"
-				}
-			}
-		}
 		ENG_david_beatty={
 			advisor={
 				slot = navy_chief
@@ -216,28 +197,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_ENG_st_john_brodrick"
-				}
-			}
-		}
-		ENG_john_french={
-			advisor={
-				slot = high_command
-				idea_token = ENG_john_french
-				ledger  = army 
-					allowed  = {
-						tag  = ENG
-					}
-					traits  = {
-						army_artillery_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="ENG_john_french"
-			portraits={
-				army={
-					small="GFX_idea_ENG_john_french"
 				}
 			}
 		}
@@ -799,6 +758,40 @@ characters={
 			legacy_id=-1
 		}
 	}
+
+		ENG_john_french={
+			name="ENG_john_french"
+			portraits={		    
+				army={
+				    large="gfx/leaders/ENG/ENG_john_french.dds"
+					small="GFX_idea_ENG_john_french"					
+				}
+			}		
+			advisor={
+				slot = high_command
+				idea_token = ENG_john_french
+				ledger  = army 
+					allowed  = {
+						tag  = ENG
+					}
+					traits  = {
+						army_artillery_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
+		corps_commander={
+			traits={ old_guard politically_connected defensive_doctrine }
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+		
 	ENG_aylmer_hunterweston={
 		name="Aylmer Hunter-Weston"
 		portraits={
@@ -1054,6 +1047,17 @@ characters={
 				large="gfx/leaders/ENG/ENG_john_capper.dds"
 			}
 		}
+			advisor={
+				slot = high_command
+				idea_token = ENG_ernest_swinton
+				ledger  = army 
+					traits  = {
+						army_armored_3 
+					}
+					allowed  = {
+						tag  = ENG
+					}
+			}
 		corps_commander={
 			traits={ camouflage_expert panzer_leader }
 			skill=2

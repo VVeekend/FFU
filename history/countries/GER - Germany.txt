@@ -154,9 +154,14 @@ recruit_character = GER_friedrich_von_baudissin
 		nukes = 1
 		tank_unlocker1 = 1
 
-		# Industry
-		
+		# Industry		
 		ww1_medicine1 = 1
+
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
 	}
 
 	set_politics = {

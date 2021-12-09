@@ -90,7 +90,6 @@ recruit_character = ENG_henrey_plummer
 recruit_character = ENG_graham_tyron
 recruit_character = ENG_frederick_roberts
 recruit_character = ENG_frederick_sykes
-recruit_character = ENG_ernest_swinton
 recruit_character = ENG_douglas_haig
 recruit_character = ENG_david_beatty
 recruit_character = ENG_john_jellicoe
@@ -180,6 +179,12 @@ recruit_character = ENG_david_henderson
 		tank_unlocker1 = 1	
 
 		# Industry
+		
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
 		
 	}
 

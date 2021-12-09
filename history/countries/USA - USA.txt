@@ -116,6 +116,11 @@ recruit_character = USA_adna_r_chaffee
 		electronic_mechanical_engineering = 1
 		chemical_research = 1
 
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
 	}
 
 	set_politics = {

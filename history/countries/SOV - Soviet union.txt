@@ -27,13 +27,11 @@ recruit_character = SOV_anton_denikin
 recruit_character = SOV_alexei_evert
 recruit_character = SOV_nikolay_iudovich_ivanov
 recruit_character = SOV_alexey_kaledin
-recruit_character = SOV_aleksey_kuropatkin
 recruit_character = SOV_platon_lechitsky
 recruit_character = SOV_pavel_karlovitch_rennenkampf
 recruit_character = SOV_aleksandr_samsonov
 recruit_character = SOV_vladimir_sakharov
 recruit_character = SOV_dmitry_shcherbachev
-recruit_character = SOV_piotr_wrangel
 recruit_character = SOV_nikolai_yudenich
 recruit_character = SOV_yevgeni_ivanovich_alekseyev
 recruit_character = SOV_andrei_eberhardt
@@ -64,16 +62,7 @@ recruit_character = SOV_RUS_pyotr_nesterov
 recruit_character = SOV_RUS_grand_duke_nikolai
 recruit_character = SOV_RUS_nikolai_golitsyn
 recruit_character = SOV_RUS_pavel_ryabushinsky
-recruit_character = SOV_yuri_danilov
-														
-
-#NAVY
-create_navy_leader={ name = "Aleksandr Kolchak" id=76649 portrait_path="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_kolchak.dds" traits={ blockade_runner superior_tactician } skill=4 }
-create_navy_leader={  name = "Yevgeni Ivanovich Alekseyev" id=77234 portrait_path="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_admiral_alekseyev.dds" traits={ superior_tactician  } skill=3 }
-create_navy_leader={ name = "Andrei Eberhardt" id=76323 portrait_path="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_eberhard.dds" traits={ ironside } skill=3 }													
-create_navy_leader={ name = "Grand Duke Alexander" id=76455 portrait_path="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_gd_alexander.dds" traits={ spotter } skill=2 }																	
-create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4tgw_portraits/RUS/navy_admirals/RUS_rusin.dds" traits={   } skill=2 }
-
+recruit_character = SOV_yuri_danilov												
 
 1910.1.1 = {
 	oob = "SOV_1910"
@@ -125,6 +114,12 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 		electronic_mechanical_engineering = 1
 
 		# Industry
+
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
 		
 	}
 

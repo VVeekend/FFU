@@ -129,6 +129,12 @@ set_technology = {
 		basic_heavy_armor_scheme = 1
 		basic_ship_hull_cruiser = 1
 		mtg_transport = 1
+
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
 	}
 
 	set_politics = {

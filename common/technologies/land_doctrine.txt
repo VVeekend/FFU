@@ -15,8 +15,6 @@ technologies = {
 		xp_unlock_cost = 30
 		xp_research_bonus = 1.00
 		
-		attrition = 0.08
-		
 		doctrine = yes	
 		research_cost = 2.5
 		folder = {
@@ -1334,9 +1332,6 @@ technologies = {
 			
 			
 		}
-		category_artillery = {
-			soft_attack = 0.05
-		}
 		categories = {
 			land_doctrine
 			
@@ -2258,16 +2253,6 @@ technologies = {
 	
 		doctrine = yes	
 		
-		category_all_armor = {
-			max_organisation = 2
-		}
-		category_tanks = {
-			max_organisation = 2
-		}
-		cavalry = {
-			max_organisation = 4
-		}
-		
 		path = {
 			leads_to_tech = cavalry_charges
 			research_cost_coeff = 1
@@ -2328,6 +2313,13 @@ technologies = {
 		cavalry = {
 			soft_attack = 0.05
 			breakthrough = 0.05
+			max_organisation = 4
+		}
+		category_all_armor = {
+			max_organisation = 2
+		}
+		category_tanks = {
+			max_organisation = 2
 		}
 		
 		path = {
@@ -2841,12 +2833,6 @@ technologies = {
 	ww1_battlefield_support = {
 		 
 		
-		category_army = {
-			default_morale = 0.1
-		}
-		
-		org_loss_when_moving = -0.1
-		
 		path = {
 			leads_to_tech = battlefield_commissions
 			research_cost_coeff = 1
@@ -2952,7 +2938,7 @@ technologies = {
 	weather_reporting = {
 		 
 	
-		org_loss_when_moving = -0.1
+		org_loss_when_moving = -0.15
 		
 		doctrine = yes	
 		research_cost = 2.5
@@ -3032,7 +3018,10 @@ technologies = {
 		 
 		
 		planning_speed = 0.1
-
+		category_army = {
+			default_morale = 0.1
+		}
+		
 		doctrine = yes	
 		research_cost = 2.5
 		xp_research_type = army

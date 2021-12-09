@@ -132,6 +132,12 @@ recruit_character = AUS_AUH_franz_conrad_von_hotzendorf
 		tank_unlocker1 = 1
 
 		# Industry
+
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
 		
 	}
 

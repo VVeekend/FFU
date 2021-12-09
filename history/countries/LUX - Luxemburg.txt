@@ -63,6 +63,12 @@ recruit_character = LUX_florent_pirmez
 		electronic_mechanical_engineering = 1
 
 		# Industry
+
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
 	}
 
 	set_politics = {

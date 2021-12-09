@@ -4,7 +4,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/admiral/GER_von_fischel.dds"
+				large="gfx/leaders/GER/GER_max_fischel.dds"
 				small="GFX_idea_GER_max_von_fischel"
 			}
 		}
@@ -23,11 +23,11 @@ characters={
 				}
 		}
 		navy_leader={
-			skill=3
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=2
 			legacy_id=34314
 		}
 	}
@@ -211,12 +211,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ thorough_planner }
+			traits={ thorough_planner inflexible_strategist }
 			skill=3
 			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
 			legacy_id=34038
 		}
 	}
@@ -229,11 +229,11 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ ranger }
+			traits={ thorough_planner politically_connected }
 			skill=3
 			attack_skill=3
-			defense_skill=3
-			planning_skill=2
+			defense_skill=2
+			planning_skill=3
 			logistics_skill=3
 			legacy_id=34337
 		}
@@ -250,9 +250,9 @@ characters={
 			traits={ infantry_leader }
 			skill=2
 			attack_skill=2
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
 			legacy_id=34547
 		}
 	}
@@ -265,16 +265,17 @@ characters={
 			}
 		}
 		field_marshal={
+		    traits={ media_personality politically_connected trait_cautious }
 			skill=2
-			attack_skill=2
+			attack_skill=3
 			defense_skill=2
-			planning_skill=2
+			planning_skill=3
 			logistics_skill=3
 			legacy_id=34548
 		}
 	}
 	GER_maximilian_von_prittwitz_und_gaffron={
-		name="Maximilian von Prittwitz und Gaffron"
+		name="Maximilian von Prittwitz"
 		portraits={
 
 			army={
@@ -284,9 +285,9 @@ characters={
 		corps_commander={
 			traits={ old_guard }
 			skill=3
-			attack_skill=1
-			defense_skill=4
-			planning_skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
 			logistics_skill=2
 			legacy_id=34036
 		}
@@ -300,11 +301,12 @@ characters={
 			}
 		}
 		corps_commander={
+		    traits = { infantry_officer }
 			skill=3
-			attack_skill=1
+			attack_skill=3
 			defense_skill=2
-			planning_skill=2
-			logistics_skill=1
+			planning_skill=4
+			logistics_skill=2
 			legacy_id=34029
 		}
 	}
@@ -317,11 +319,11 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=4
-			attack_skill=2
+			skill=2
+			attack_skill=4
 			defense_skill=1
-			planning_skill=1
-			logistics_skill=2
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=34037
 		}
 	}
@@ -331,15 +333,30 @@ characters={
 
 			army={
 				large="gfx/leaders/GER/GER_erich_falkenhayn.dds"
+				small="GFX_idea_GER_erich_von_falkenhayn"
 			}
 		}
+			advisor={
+				slot = high_command
+				idea_token = GER_erich_von_falkenhayn
+				ledger  = army 
+					allowed  = {
+						tag  = GER
+					}
+					traits  = {
+						army_infantry_2 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		corps_commander={
-			traits={ aggressive_assaulter fortress_buster }
-			skill=3
-			attack_skill=4
-			defense_skill=1
+			traits={ career_officer politically_connected brilliant_strategist }
+			skill=4
+			attack_skill=3
+			defense_skill=3
 			planning_skill=4
-			logistics_skill=1
+			logistics_skill=3
 			legacy_id=34040
 		}
 	}
@@ -352,12 +369,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ fortress_buster }
+			traits={ politically_connected trait_cautious }
 			skill=3
-			attack_skill=1
+			attack_skill=2
 			defense_skill=2
-			planning_skill=1
-			logistics_skill=2
+			planning_skill=3
+			logistics_skill=4
 			legacy_id=34043
 		}
 	}
@@ -367,15 +384,30 @@ characters={
 
 			army={
 				large="gfx/leaders/GER/GER_oskar_hutier.dds"
+				small="GFX_idea_GER_oskar_von_hutier"
 			}
 		}
+			advisor={
+				slot = army_chief
+				idea_token = GER_oskar_von_hutier
+				ledger  = army 
+					allowed  = {
+						tag  = GER
+					}
+					traits  = {
+						army_chief_morale_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		corps_commander={
-			traits={ fortress_buster }
+			traits={ }
 			skill=4
-			attack_skill=3
-			defense_skill=3
-			planning_skill=1
-			logistics_skill=1
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=2
 			legacy_id=34045
 		}
 	}
@@ -388,11 +420,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ winter_specialist swamp_fox ranger winter_expert }
-			skill=4
+			traits={  brilliant_strategist winter_specialist ranger winter_expert aggressive_assaulter }
+			skill=5
 			attack_skill=4
 			defense_skill=4
-			planning_skill=4
+			planning_skill=5
 			logistics_skill=3
 			legacy_id=34046
 		}
@@ -406,11 +438,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ fortress_buster }
+			traits={ cavalry_officer }
 			skill=4
-			attack_skill=1
-			defense_skill=2
-			planning_skill=2
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
 			logistics_skill=1
 			legacy_id=34048
 		}
@@ -424,7 +456,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trickster ambusher camouflage_expert guerilla_fighter }
+			traits={ trickster ambusher camouflage_expert guerilla_fighter jungle_rat }
 			skill=4
 			attack_skill=2
 			defense_skill=7
@@ -442,11 +474,11 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=4
+			skill=3
 			attack_skill=2
 			defense_skill=2
 			planning_skill=3
-			logistics_skill=2
+			logistics_skill=4
 			legacy_id=34074
 		}
 	}
@@ -459,11 +491,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ fortress_buster }
-			skill=3
-			attack_skill=1
-			defense_skill=1
-			planning_skill=2
+			traits={ infantry_officer hill_fighter commando }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
 			logistics_skill=2
 			legacy_id=34101
 		}
@@ -477,12 +509,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ commando }
+			traits={ commando trait_mountaineer }
 			skill=3
-			attack_skill=2
+			attack_skill=3
 			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
+			planning_skill=2
+			logistics_skill=3
 			legacy_id=34117
 		}
 	}
@@ -495,12 +527,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ infantry_expert ambusher }
-			skill=3
+			traits={ }
+			skill=2
 			attack_skill=2
-			defense_skill=5
+			defense_skill=4
 			planning_skill=3
-			logistics_skill=3
+			logistics_skill=2
 			legacy_id=34127
 		}
 	}
@@ -515,9 +547,9 @@ characters={
 		corps_commander={
 			traits={ thorough_planner }
 			skill=3
-			attack_skill=2
-			defense_skill=1
-			planning_skill=5
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
 			logistics_skill=3
 			legacy_id=34245
 		}
@@ -528,15 +560,30 @@ characters={
 
 			army={
 				large="gfx/leaders/GER/GER_colmar_von_goltz.dds"
+				small="GFX_idea_GER_colmar_von_der_goltz"
 			}
 		}
+			advisor={
+				slot = high_command
+				idea_token = GER_colmar_von_der_goltz
+				ledger  = army 
+					allowed  = {
+						tag  = GER
+					}
+					traits  = {
+						army_entrenchment_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		corps_commander={
 			traits={ desert_fox unyielding_defender }
 			skill=3
-			attack_skill=2
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=5
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=34260
 		}
 	}
@@ -550,11 +597,11 @@ characters={
 		}
 		corps_commander={
 			traits={ infantry_leader trait_engineer ranger fast_planner }
-			skill=3
+			skill=5
 			attack_skill=5
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=1
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
 			legacy_id=34315
 		}
 	}
@@ -567,12 +614,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ fortress_buster }
-			skill=3
-			attack_skill=3
+			traits={ fortress_buster infantry_officer }
+			skill=1
+			attack_skill=2
 			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=34321
 		}
 	}
@@ -582,15 +629,30 @@ characters={
 
 			army={
 				large="gfx/leaders/GER/GER_karl_bulow.dds"
+				small="GFX_idea_GER_karl_von_bulow"
 			}
 		}
+			advisor={
+				slot = high_command
+				idea_token = GER_karl_von_bulow
+				ledger  = army 
+					allowed  = {
+						tag  = GER
+					}
+					traits  = {
+						army_cavalry_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		corps_commander={
-			traits={ fortress_buster }
-			skill=3
-			attack_skill=2
-			defense_skill=2
+			traits={ fortress_buster career_officer politically_connected harsh_leader } 
+			skill=4
+			attack_skill=4
+			defense_skill=4
 			planning_skill=3
-			logistics_skill=1
+			logistics_skill=2
 			legacy_id=34332
 		}
 	}
@@ -600,15 +662,30 @@ characters={
 
 			army={
 				large="gfx/leaders/GER/GER_august_von_mackensen.dds"
+				small="GFX_idea_GER_august_von_mackensen"
 			}
 		}
+			advisor={
+				slot = army_chief
+				idea_token = GER_august_von_mackensen
+				ledger  = army 
+					allowed  = {
+						tag  = GER
+					}
+					traits  = {
+						army_chief_drill_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		corps_commander={
-			traits={ cavalry_leader cavalry_expert expert_improviser }
-			skill=4
-			attack_skill=3
-			defense_skill=5
+			traits={ old_guard cavalry_leader cavalry_expert expert_improviser }
+			skill=5
+			attack_skill=5
+			defense_skill=4
 			planning_skill=2
-			logistics_skill=6
+			logistics_skill=2
 			legacy_id=34485
 		}
 	}
@@ -624,7 +701,7 @@ characters={
 			traits={ navy_media_personality gunnery_expert spotter }
 			skill=3
 			attack_skill=5
-			defense_skill=2
+			defense_skill=4
 			maneuvering_skill=4
 			coordination_skill=2
 			legacy_id=34055
@@ -672,8 +749,23 @@ characters={
 
 			army={
 				large="gfx/leaders/GER/GER_friedrich_baudissin.dds"
+				small="GFX_idea_GER_friedrich_von_baudissin"
 			}
 		}
+			advisor={
+				slot = navy_chief
+				idea_token = GER_friedrich_von_baudissin
+				ledger  = navy 
+					allowed  = {
+						tag  = GER
+					}
+					traits  = {
+						navy_chief_old_guard 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		navy_leader={
 		    traits={ navy_career_officer }
 			skill=3
@@ -729,50 +821,6 @@ characters={
 				}
 			}
 		}
-		GER_august_von_mackensen={
-			advisor={
-				slot = army_chief
-				idea_token = GER_august_von_mackensen
-				ledger  = army 
-					allowed  = {
-						tag  = GER
-					}
-					traits  = {
-						army_chief_drill_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="GER_august_von_mackensen"
-			portraits={
-				army={
-					small="GFX_idea_GER_august_von_mackensen"
-				}
-			}
-		}
-		GER_erich_von_falkenhayn={
-			advisor={
-				slot = high_command
-				idea_token = GER_erich_von_falkenhayn
-				ledger  = army 
-					allowed  = {
-						tag  = GER
-					}
-					traits  = {
-						army_infantry_2 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="GER_erich_von_falkenhayn"
-			portraits={
-				army={
-					small="GFX_idea_GER_erich_von_falkenhayn"
-				}
-			}
-		}
 		GER_karl_trimborn={
 			advisor={
 				slot = political_advisor
@@ -791,28 +839,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_GER_karl_trimborn"
-				}
-			}
-		}
-		GER_karl_von_bulow={
-			advisor={
-				slot = high_command
-				idea_token = GER_karl_von_bulow
-				ledger  = army 
-					allowed  = {
-						tag  = GER
-					}
-					traits  = {
-						army_cavalry_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="GER_karl_von_bulow"
-			portraits={
-				army={
-					small="GFX_idea_GER_karl_von_bulow"
 				}
 			}
 		}
@@ -856,28 +882,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_GER_theobald_von_bethmann_hollweg"
-				}
-			}
-		}
-		GER_colmar_von_der_goltz={
-			advisor={
-				slot = high_command
-				idea_token = GER_colmar_von_der_goltz
-				ledger  = army 
-					allowed  = {
-						tag  = GER
-					}
-					traits  = {
-						army_entrenchment_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="GER_colmar_von_der_goltz"
-			portraits={
-				army={
-					small="GFX_idea_GER_colmar_von_der_goltz"
 				}
 			}
 		}
@@ -1011,28 +1015,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_GER_ernst_von_hoeppner"
-				}
-			}
-		}
-		GER_friedrich_von_baudissin={
-			advisor={
-				slot = navy_chief
-				idea_token = GER_friedrich_von_baudissin
-				ledger  = navy 
-					allowed  = {
-						tag  = GER
-					}
-					traits  = {
-						navy_chief_old_guard 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="GER_friedrich_von_baudissin"
-			portraits={
-				army={
-					small="GFX_idea_GER_friedrich_von_baudissin"
 				}
 			}
 		}
@@ -1236,28 +1218,6 @@ characters={
 			portraits={
 				army={
 					small="GFX_idea_GER_josias_von_heeringen"
-				}
-			}
-		}
-		GER_oskar_von_hutier={
-			advisor={
-				slot = army_chief
-				idea_token = GER_oskar_von_hutier
-				ledger  = army 
-					allowed  = {
-						tag  = GER
-					}
-					traits  = {
-						army_chief_morale_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-			name="GER_oskar_von_hutier"
-			portraits={
-				army={
-					small="GFX_idea_GER_oskar_von_hutier"
 				}
 			}
 		}

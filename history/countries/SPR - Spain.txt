@@ -87,6 +87,12 @@ set_technology = {
 
 		# Industry
 		mtg_transport = 1
+
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
 	}
 
 	set_politics = {

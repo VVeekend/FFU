@@ -17,16 +17,13 @@ recruit_character = GRE_george_i
 recruit_character = GRE_panagiótis_danglís
 recruit_character = GRE_nikolaos_trikoupis
 recruit_character = GRE_víctor_doúsmanis
-recruit_character = GRE_bairas
 recruit_character = GRE_zymvrakakis_e.
 recruit_character = GRE_nider
 recruit_character = GRE_papoulas
 recruit_character = GRE_paraskevopoulos
 recruit_character = GRE_hatzianestis
-recruit_character = GRE_vlahopoulos
 recruit_character = GRE_sapountzakis
 recruit_character = GRE_prince_andreas
-recruit_character = GRE_miliotiskomninos
 recruit_character = GRE_mazarakis
 recruit_character = GRE_othonaios
 recruit_character = GRE_kondylis
@@ -103,8 +100,7 @@ set_technology = {
 		chemical_research = 1
 
 		# Industry
-		
-		
+				
 		# Navy
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
@@ -122,6 +118,12 @@ set_technology = {
 		basic_heavy_armor_scheme = 1
 		basic_ship_hull_cruiser = 1
 		mtg_transport = 1
+
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
 	}
 
 	set_politics = {

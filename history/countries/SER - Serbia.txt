@@ -72,6 +72,12 @@ recruit_character = SER_momcilo_hadzilic
 		chemical_research = 1
 
 		# Industry
+
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
 		
 	}
 
