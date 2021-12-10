@@ -142,7 +142,6 @@ recruit_character = SOV_yuri_danilov
 		RUS_ww1_orthodox_church
 		RUS_ww1_tsushima_humiliation
 		RUS_ww1_mixed_railways
-		SOV_incompetent_russian_general_staff
 		SOV_weak_central_government
 	}
 	
