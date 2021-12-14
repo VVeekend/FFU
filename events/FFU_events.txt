@@ -53,3 +53,24 @@ country_event = {
 		name = "Good to know"	
 	}
 }
+
+##Event: 1914 Chirstmas Truce
+news_event = {
+	id = ffu.3
+	title = ffu.3.title
+	desc = ffu.3.desc
+	picture = GFX_1914_chirstmas_truce-122744
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = ffu.3.a
+		ai_chance = { factor = 1}
+		FRA = {
+			set_variable = {
+				Global.super_event=8				
+			}
+	FFU_show_super_event = yes }
+		hidden_effect = {
+			every_country = {limit = {check_variable= { super_events_enabled > 0} }
+				scoped_sound_effect="FFU_christmas_truce" }
+	}}}

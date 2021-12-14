@@ -101,4 +101,44 @@ country_event = {
 	}
 }
 
+##Event: Plan XVII Development?
+country_event = {
+	id = ffufrance.5
+	title = ffufrance.5.title
+	desc = ffufrance.5.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = ffufrance.5.a
+		ai_chance = { factor = 1}
+	}
+}
+##Event: Plan XVII
+country_event = {
+	id = ffufrance.6
+	title = ffufrance.6.title
+	desc = ffufrance.6.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = ffufrance.6.a
+		add_ideas = FRA_plan_xvii
+		ai_chance = { factor = 1}
+	}
+}
+##Event: Plan XVII Failure
+country_event = {
+	id = ffufrance.7
+	title = ffufrance.7.title
+	desc = ffufrance.7.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = ffufrance.7.a
+		ai_chance = { factor = 1}
+		remove_ideas = FRA_elan 
+		remove_ideas = FRA_plan_xvii
+	}
+}
+
 #____________________________________________________________

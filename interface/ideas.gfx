@@ -6662,4 +6662,10 @@ spriteType = { name = "GFX_idea_GRE_eleftherios_venizelos" texturefile = "gfx/in
 		name = "GFX_idea_chistmas_truce-102183"
 		texturefile = "gfx/interface/ideas/chistmas_truce-102183.dds"
 	}
+	
+	##Icon For: Plan XVII
+	SpriteType = { 
+		name = "GFX_idea_FRA_plan_xvii-122742"
+		texturefile = "gfx/interface/ideas/FRA_plan_xvii-122742.dds"
+	}
 }

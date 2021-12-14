@@ -170,19 +170,6 @@ ideas={
 			}
 		}
 
-		SOV_incompetent_russian_general_staff = {
-			picture = SPR_international_brigades
-			allowed = {
-				original_tag = SOV
-			}
-			modifier = {			
-			army_morale_factor = -0.1				
-			training_time_army_factor = 0.25			
-			}
-			research_bonus = { 	land_doctrine = -0.2
-			}
-		}
-
 		SOV_weak_central_government = {
 			picture = por_monarchist_uprising
 			allowed = {

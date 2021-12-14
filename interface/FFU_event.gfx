@@ -5,3 +5,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/event_gfx/arme_dafrique_arrives_in_toulon-106274.dds"
 	}
 }
+spriteTypes = { 
+	##Icon For: 1914 Chirstmas Truce
+	SpriteType = { 
+		name = "GFX_1914_chirstmas_truce-122744"
+		texturefile = "gfx/interface/event_gfx/1914_chirstmas_truce-122744.dds"
+	}
+}

@@ -38,3 +38,8 @@
  super_event_title_7:0 "SCHLIEFFEN PLAN"
  super_event_text_7:0 "Belgium is a nation, not a road. \n- King Albert I"
  super_event_button_text_7:0 "Hold Little Belgium."
+ 
+ super_event_picture_8:0 "FFU_christmas_truce"
+ super_event_title_8:0 "CHRISTMAS TRUCE"
+ super_event_text_8:0 "On Christmas Eve at noon, fire ceased completely – on both fronts. Of course it was unusual that the opposite side also ceased fire. Then my officer controlling the sentries came in and said ‘Do you expect a surprise attack? Because it’s very unusual the situation.’ I said, ‘No I don’t think so. But anyhow everyone is awake, no one is sleeping and the sentries are still on duty. So I think it’s alright. \n- British private Marmaduke Walkinton"
+ super_event_button_text_8:0 "Alittle peace."
