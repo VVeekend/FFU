@@ -40,5 +40,12 @@ ideas = {
 				industrial_capacity_dockyard = 1.0
 			}
 		}
+		chistmas_truce = {
+			picture = chistmas_truce-102183
+			modifier = {
+				breakthrough_factor = -1.00
+                army_attack_factor = -1.00
+			}
+		}
 	}
 }
