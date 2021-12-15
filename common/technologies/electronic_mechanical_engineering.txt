@@ -43,12 +43,20 @@ technologies = {
 		start_year = 1915
 		research_cost = 3
 		enable_equipment_modules = {
-			
-			tank_cast_armor
-			
+			tank_torsion_bar_suspension
+			tank_gasoline_engine					
+			tank_riveted_armor
 			tank_suspensionless_tracks
-			
+			tank_light_one_man_tank_turret
+			tank_light_two_man_tank_turret
+			tank_light_three_man_tank_turret
+			tank_light_fixed_superstructure_turret
+			tank_heavy_two_man_tank_turret
+			tank_heavy_three_man_tank_turret
+			tank_heavy_fixed_superstructure_turret
+			extra_ammo_storage			
 		}
+		
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 2 }
@@ -56,6 +64,11 @@ technologies = {
 
 		folder = {
 			name = armour_folder
+			position = { x = -4 y = 3 }
+		}
+
+		folder = {
+			name = nsb_armour_folder
 			position = { x = -4 y = 3 }
 		}
 		
@@ -203,6 +216,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		enable_equipment_modules = { 
+			tank_radio_1
+		}
+		
 		research_cost = 1.0
 		start_year = 1910
 		
@@ -230,13 +247,13 @@ technologies = {
 		# units with radios can more efficiently join combats when there is room
 		land_reinforce_rate = 0.02
 		
+		research_cost = 1.0
+		start_year = 1912
+		
 		path = {
 			leads_to_tech = radio2
 			research_cost_coeff = 1
 		}
-		
-		research_cost = 1.0
-		start_year = 1912
 		
 		folder = {
 			name = electronics_folder
@@ -291,7 +308,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipment_modules = { 
-			tank_radio_1
+			tank_radio_2
 		}
 		
 		research_cost = 1.0

@@ -5,9 +5,6 @@ technologies = {
 		enable_equipments = {
 			ww1_fighter_equipment_1
 		}
-
-		sub_technologies = sub_technologies={ ww1_fakefighter1 ww1_fighter1b }
-		#sub_technologies = sub_technologies={ ww1_fighter1b }
 	
 		path = {
 			leads_to_tech = ww1_fighter2
@@ -51,30 +48,12 @@ technologies = {
 		ai_will_do = {			factor = 0		}
 	}
 
-
-
-	ww1_fighter1b = {
-
-		enable_equipments = {
-			ww1_fighter_equipment_1b
-		}
-		
-		research_cost = 2
-		start_year = 1914
-	
-		categories = {
-			light_air
-			light_fighter
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	ww1_fighter2 = {
-
+	
+		allow = {
+            date > 1914.6.1
+        }
+		
 		enable_equipments = {
 			ww1_fighter_equipment_2
 		}
@@ -104,7 +83,11 @@ technologies = {
 	}
 
 	ww1_fighter2b = {
-
+	
+		allow = {
+            date > 1914.6.1
+        }
+		
 		enable_equipments = {
 			ww1_fighter_equipment_2b
 		}

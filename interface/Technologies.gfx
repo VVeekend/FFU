@@ -5777,4 +5777,32 @@ spriteTypes = {
 		name = "GFX_FRA_wartime_train_medium"
 		texturefile = "gfx/interface/technologies/FRA_train_equipment_2.dds"
 	}
+	SpriteType = {
+		name = "GFX_amphibious_drive_medium"
+		texturefile = "gfx/interface/technologies/nsb_amphibious_drive_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_tech_1_medium"
+		texturefile = "gfx/interface/technologies/nsb_engine_tech_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_tech_2_medium"
+		texturefile = "gfx/interface/technologies/nsb_engine_tech_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_tech_3_medium"
+		texturefile = "gfx/interface/technologies/nsb_engine_tech_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_tech_4_medium"
+		texturefile = "gfx/interface/technologies/nsb_engine_tech_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_armor_tech_1_medium"
+		texturefile = "gfx/interface/technologies/nsb_armor_tech_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_armor_tech_2_medium"
+		texturefile = "gfx/interface/technologies/nsb_armor_tech_2.dds"
+	}
  }

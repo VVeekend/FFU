@@ -21,7 +21,7 @@ equipments = {
 
 		module_slots = {
 			main_armament_slot = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					tank_small_main_armament
 					tank_flamethrower
@@ -35,7 +35,7 @@ equipments = {
 				}
 			}
 			suspension_type_slot = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					tank_suspension_type
 					tank_non_tracked_suspension_type

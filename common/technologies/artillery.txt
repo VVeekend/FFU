@@ -7,10 +7,7 @@ technologies = {
 			
 		}
 		enable_equipment_modules = {
-			tank_medium_howitzer
-			tank_small_cannon_2
-			tank_close_support_gun
-			secondary_turret_close_support_gun
+        tank_small_cannon
 		}
 
 		start_year = 1900
@@ -157,11 +154,6 @@ technologies = {
 		enable_equipments = {
 			heavy_field_gun_equipment_2
 		}
-		enable_equipment_modules = {
-			tank_medium_howitzer_2
-			tank_medium_cannon
-
-		}
 		
 		path = {
 			leads_to_tech = bonus_bertha2 
@@ -222,9 +214,6 @@ technologies = {
 
 		enable_equipments = {
 			heavy_field_gun_equipment_3
-		}
-		enable_equipment_modules = {
-			tank_heavy_howitzer
 		}
 
 		path = {
@@ -330,6 +319,13 @@ technologies = {
 
 		enable_equipments = {
 			light_field_gun_equipment_2
+		}
+		
+		enable_equipment_modules = {
+			tank_small_cannon_2
+			tank_medium_howitzer
+			tank_medium_cannon
+
 		}
 		
 		path = {
@@ -449,6 +445,11 @@ technologies = {
 
 		enable_equipments = {
 			artillery_equipment_1
+		}
+		
+		enable_equipment_modules = {
+	        tank_medium_cannon_2
+			tank_heavy_howitzer
 		}
 		
 		path = {

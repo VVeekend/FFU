@@ -528,7 +528,6 @@ technologies = {
 			equipment_capture_factor = 0.02
 		}
 		
-		
 		path = {
 			leads_to_tech = tech_maintenance_company3
 			research_cost_coeff = 1

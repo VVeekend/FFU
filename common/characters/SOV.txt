@@ -175,7 +175,21 @@ characters={
 
 			army={
 				large="gfx/leaders/RUS/RUS_alexei_brusilov.dds"
+				small="GFX_idea_RUS_alexei_brusilov"
 			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = RUS_alexei_brusilov
+			allowed  = {
+					tag  = SOV
+				}
+				traits  = {
+					army_chief_defensive_3 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
 		}
 		corps_commander={
 			traits={ aggressive_assaulter infantry_expert brilliant_strategist trickster thorough_planner }
@@ -358,7 +372,7 @@ characters={
 		}
 		corps_commander={
 			traits={ brilliant_strategist fortress_buster infantry_leader } 
-			skill=4
+			skill=5
 			attack_skill=5
 			defense_skill=4
 			planning_skill=2
@@ -525,27 +539,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_RUS_alexei_polivanov"
-			}
-		}
-	}
-	SOV_RUS_alexei_brusilov={
-		advisor={
-			slot = army_chief
-			idea_token = RUS_alexei_brusilov
-			allowed  = {
-					tag  = SOV
-				}
-				traits  = {
-					army_chief_defensive_3 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-		name="RUS_alexei_brusilov"
-		portraits={
-			army={
-				small="GFX_idea_RUS_alexei_brusilov"
 			}
 		}
 	}
@@ -1010,29 +1003,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_RUS_pavel_ryabushinsky"
-			}
-		}
-	}
-	SOV_yuri_danilov={
-		advisor={
-			slot = high_command
-			idea_token = SOV_yuri_danilov
-			allowed  = {
-					tag  = SOV
-				}
-				ledger  = army 
-				traits  = {
-					army_infantry_3 
-				}
-				available  = {
-					has_completed_focus  = SOV_army_reform 
-				}
-				cost  = 150.000
-		}
-		name="SOV_yuri_danilov"
-		portraits={
-			army={
-				small="GFX_idea_rudolf_hess"
 			}
 		}
 	}

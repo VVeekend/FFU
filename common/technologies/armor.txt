@@ -135,7 +135,12 @@ technologies = {
 	ww1_light_tank =
 	{
 
-		enable_equipments = { ww1_light_tank_equipment_1 }
+		enable_equipments = {
+			light_tank_chassis_1
+			light_tank_destroyer_chassis_1
+			light_tank_artillery_chassis_1
+			light_tank_aa_chassis_1
+		}
 
 		on_research_complete = {
 
@@ -172,23 +177,58 @@ technologies = {
 		ai_will_do = { factor=50 }
 		start_year = 1915
 	}
+	ww1_light_tank_interwar_1 =
+	{
+		enable_equipments = { ww1_light_tank_equipment_2 }
 
-
-
-	ww1_light_tank_b = {
-
-		enable_equipments = {
-			ww1_light_tank_equipment_1b
+		path = {
+			leads_to_tech = ww1_light_tank_interwar_2
+			research_cost_coeff = 1
 		}
 	
-		research_cost = 0.5
-		start_year = 1916
-		
-		ai_will_do = { factor = 0 }
-		
-		categories = { armor }
+		research_cost = 2
+		folder =
+		{
+			name = armour_folder
+			position = { x = -4 y = 8 }
+		}
+		categories = {
+			armor
+			cat_light_armor
+		}
+		ai_will_do = { factor=1 }
+		start_year = 1917
 	}
 
+
+	ww1_light_tank_interwar_2 =
+	{
+		enable_equipments = { ww1_light_tank_equipment_3 }
+
+		path = {
+			leads_to_tech = basic_light_tank
+			research_cost_coeff = 1
+		}
+
+		path =
+		{
+			leads_to_tech = ww1_heavy_tank_interwar
+			research_cost_coeff = 0.9
+		}
+	
+		research_cost = 2
+		folder =
+		{
+			name = armour_folder
+			position = { x = -4 y = 10 }
+		}
+		categories = {
+			armor
+			cat_light_armor
+		}
+		ai_will_do = { factor=1 }
+		start_year = 1918
+	}
 
 	ww1_heavy_tank =
 	{
@@ -285,62 +325,4 @@ technologies = {
 			cat_heavy_armor
 		}
 	}
-
-
-	ww1_light_tank_interwar_1 =
-	{
-		enable_equipments = { ww1_light_tank_equipment_2 }
-
-		path = {
-			leads_to_tech = ww1_light_tank_interwar_2
-			research_cost_coeff = 1
-		}
-	
-		research_cost = 2
-		folder =
-		{
-			name = armour_folder
-			position = { x = -4 y = 8 }
-		}
-		categories = {
-			armor
-			cat_light_armor
-		}
-		ai_will_do = { factor=1 }
-		start_year = 1917
-	}
-
-
-	ww1_light_tank_interwar_2 =
-	{
-		enable_equipments = { ww1_light_tank_equipment_3 }
-
-		path = {
-			leads_to_tech = basic_light_tank
-			research_cost_coeff = 1
-		}
-
-		path =
-		{
-			leads_to_tech = ww1_heavy_tank_interwar
-			research_cost_coeff = 0.9
-		}
-	
-		research_cost = 2
-		folder =
-		{
-			name = armour_folder
-			position = { x = -4 y = 10 }
-		}
-		categories = {
-			armor
-			cat_light_armor
-		}
-		ai_will_do = { factor=1 }
-		start_year = 1918
-	}
-
-
-###################################################
-	
 }
