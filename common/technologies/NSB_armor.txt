@@ -327,7 +327,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -6 y = 4 }
+			position = { x = 1 y = 4 }
 		}
 
 		categories = {
@@ -353,7 +353,7 @@ technologies = {
 		start_year = 1919
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -6 y = 8 }
+			position = { x = 1  y = 8 }
 		}
 
 		categories = {
@@ -376,7 +376,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 7 y = 4 }
+			position = { x = 1 y = 4 }
 		}
 
 		categories = {
@@ -401,7 +401,7 @@ technologies = {
 		start_year = 1919
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 7 y = 6 }
+			position = { x = 1 y = 6 }
 		}
 
 		categories = {
@@ -424,7 +424,7 @@ technologies = {
 		start_year = 1920
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 7 y = 8 }
+			position = { x = 1 y = 8 }
 		}
 
 		categories = {
@@ -442,7 +442,7 @@ technologies = {
 		start_year = 1921
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 7 y = 10 }
+			position = { x = 1 y = 10 }
 		}
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_4_tt
