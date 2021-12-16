@@ -211,12 +211,7 @@ category = stormtrooper_tech }
 			factor = 1
 		}
 		completion_reward = {
-			add_tech_bonus = {
-name = land_doc_bonus
-bonus = 2.0
-uses = 1
-category = land_doctrine
-			}
+			army_experience = 100
 add_tech_bonus = {
 name = support_tech_bonus
 bonus = 1.0
@@ -849,14 +844,7 @@ instant_build = yes  } }
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = {
-			add_tech_bonus = {
-            name = land_doc_bonus
-            bonus = 1.0
-            uses = 2
-            category = land_doctrine
-			}
-		}
+		completion_reward = { army_experience = 100	}
 	}
 
 	#Focus for Unrestricted submarine warfare
@@ -929,7 +917,7 @@ instant_build = yes  } }
 focus = {
 		id = GER_ww1_army_effort_1
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = GER_ww1_equipment_effort_1 }
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_1 }
@@ -1007,7 +995,7 @@ focus = {
 		 focus=GER_ww1_aircraftprod_1
 		 focus=GER_ww1_large_navy_1}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = GER_ww1_equipment_effort_2 }
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_2 }
@@ -1099,7 +1087,7 @@ focus = {
 		 focus=GER_ww1_aircraftprod_2
 		 focus=GER_ww1_large_navy_2}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=38 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=38 army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = GER_ww1_equipment_effort_3 }
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_3 }
@@ -1191,7 +1179,7 @@ focus = {
 		 focus=GER_ww1_aircraftprod_3
 		 focus=GER_ww1_large_navy_3}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=38 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=38 army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = GER_ww1_equipment_effort_4 }
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_4 }
@@ -1285,7 +1273,7 @@ focus = {
 		 focus=GER_ww1_aircraftprod_4
 		 focus=GER_ww1_large_navy_4}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=38 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=38 army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = GER_ww1_equipment_effort_5 }
 		mutually_exclusive = { focus = GER_ww1_artillery_effort_5 }

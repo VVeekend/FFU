@@ -3816,7 +3816,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_ww1_gwtank_chassis_medium"
+		name = "GFX_ww1_light_tank_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/FRA_ww1_light_tank_1.dds"  #We use Renault FT as Generic One
 	}
 
@@ -3904,7 +3904,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_ENG_ww1_gwtank_chassis_medium"
+		name = "GFX_ENG_ww1_light_tank_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/ENG_ww1_light_tank_1.dds"
 	}
 	SpriteType = {
@@ -3960,7 +3960,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_FRA_ww1_gwtank_chassis_medium"
+		name = "GFX_FRA_ww1_light_tank_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/FRA_ww1_light_tank_1.dds"
 	}
 	SpriteType = {
@@ -4067,11 +4067,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_GER_ww1_gwtank_chassis_medium"
+		name = "GFX_GER_ww1_light_tank_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/GER_ww1_light_tank_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_ww1_gwtank_chassis_interwar_1_medium"
+		name = "GFX_GER_ww1_light_tank_interwar_1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/GER_ww1_light_tank_2.dds"
 	}
 	SpriteType = {
@@ -4115,7 +4115,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_AUH_ww1_gwtank_chassis_medium"
+		name = "GFX_AUH_ww1_light_tank_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/AUH_ww1_light_tank_1.dds"
 	}
 
@@ -4157,7 +4157,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_SOV_ww1_gwtank_chassis_medium"
+		name = "GFX_SOV_ww1_light_tank_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/tank/SOV_ww1_light_tank_1.dds"
 	}
 	SpriteType = {

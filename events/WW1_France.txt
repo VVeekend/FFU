@@ -136,8 +136,21 @@ country_event = {
 	option = {
 		name = ffufrance.7.a
 		ai_chance = { factor = 1}
-		remove_ideas = FRA_elan 
 		remove_ideas = FRA_plan_xvii
+	}
+}
+
+##Event: Plan XVII Failure
+country_event = {
+	id = ffufrance.8
+	title = ffufrance.8.title
+	desc = ffufrance.8.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = ffufrance.8.a
+		ai_chance = { factor = 1}
+		remove_ideas = FRA_elan
 	}
 }
 

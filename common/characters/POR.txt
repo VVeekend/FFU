@@ -1,36 +1,4 @@
 characters={
-	POR_gomes_da_costa={
-		name="Gomes da Costa"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_gomes_da_costa.tga"
-				small="GFX_idea_POR_gomes_da_costa"
-			}
-		}
-			advisor={
-				slot = army_chief
-				idea_token = POR_gomes_da_costa
-				allowed  = {
-						tag  = POR
-					}
-					traits  = {
-						army_chief_offensive_1 
-					}
-					ai_will_do  = {
-						factor  = 1.000
-					}
-			}
-		corps_commander={
-			traits={ infantry_leader }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
-			legacy_id=70006
-		}
-	}
 	POR_bernadino_machado={
 		name="Bernadino Machado"
 		portraits={
@@ -129,449 +97,104 @@ characters={
 			id=-1
 		}
 	}
-	POR_alves_roçadas={
-		name="Alves Roçadas"
+	POR_oscar_f_carmona={
+		name="Óscar F. Carmona"
 		portraits={
 
 			army={
-				large="gfx/generals/POR_alves_rocadas.tga"
+				large="gfx/leaders/POR/POR_oscar_carmona.dds"
 			}
 		}
 		corps_commander={
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70002
-		}
-	}
-	POR_de_sousa_rosa={
-		name="de Sousa Rosa"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_de_sousa_rosa.tga"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70003
-		}
-	}
-	POR_pereira_deça={
-		name="Pereira d'Eça"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_pereira_d_eca.tga"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=1
 			legacy_id=70004
 		}
 	}
-	POR_martins_de_carvalho={
-		name="Martins de Carvalho"
+	POR_manuel_gomes_da_costa={
+		name="Manuel Gomes da Costa"
 		portraits={
 
 			army={
-				large="gfx/generals/POR_martins_de_carvalho.tga"
+				large="gfx/leaders/POR/POR_manuel_gomes.dds"
+				small="GFX_idea_POR_gomes_da_costa"
 			}
 		}
+			advisor={
+				slot = army_chief
+				idea_token = POR_gomes_da_costa
+				allowed  = {
+						tag  = POR
+					}
+					traits  = {
+						army_chief_offensive_1 
+					}
+					ai_will_do  = {
+						factor  = 1.000
+					}
+			}
 		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70008
+		    traits={ infantry_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=70006
 		}
 	}
-	POR_rodrigues_ribeiro={
-		name="Rodrigues Ribeiro"
+	POR_jose_vicente_de_freitas={
+		name="Jose Vicente de Freitas"
 		portraits={
 
 			army={
-				large="gfx/generals/POR_rodrigues_ribeiro.tga"
+				large="gfx/leaders/POR/POR_jose_vicente.dds"
 			}
 		}
 		corps_commander={
 			skill=2
 			attack_skill=1
-			defense_skill=1
-			planning_skill=1
+			defense_skill=2
+			planning_skill=2
 			logistics_skill=1
 			legacy_id=70009
 		}
 	}
-	POR_sinel_de_cordes={
-		name="Sinel de Cordes"
+	POR_artur_ivens_ferraz={
+		name="Artur Ivens Ferraz"
 		portraits={
 
 			army={
-				large="gfx/generals/POR_sinel_de_cordes.tga"
+				large="gfx/leaders/POR/POR_artur_ferraz.dds"
 			}
 		}
 		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70010
-		}
-	}
-	POR_norton_de_matos={
-		name="Norton de Matos"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_norton_de_matos.tga"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70011
-		}
-	}
-	POR_pimenta_de_castro={
-		name="Pimenta de Castro"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_pimenta_de_castro.tga"
-			}
-		}
-		corps_commander={
-			traits={ cavalry_leader }
-			skill=3
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70012
-		}
-	}
-	POR_pais={
-		name="Pais"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_pais.tga"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70013
-		}
-	}
-	POR_de_elvas_cardeira={
-		name="de Elvas Cardeira"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_de_elvas_cardeira.tga"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70015
-		}
-	}
-	POR_ribeiro_júnior={
-		name="Ribeiro Júnior"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_ribeiro_junior.tga"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70019
-		}
-	}
-	POR_da_cunha_corte_rial={
-		name="da Cunha Corte Rial"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_da_cunha_corte_rial.tga"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70020
-		}
-	}
-	POR_camacho={
-		name="Camacho"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_camacho.tga"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70021
-		}
-	}
-	POR_coelho={
-		name="Coelho"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_coelho.tga"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70023
-		}
-	}
-	POR_de_freitas={
-		name="de Freitas"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_de_freitas.tga"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70024
-		}
-	}
-	POR_de_andrade={
-		name="de Andrade"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_de_andrade.tga"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70026
-		}
-	}
-	POR_rodrigeus_da_silva={
-		name="Rodrigeus da Silva"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_rodrigeus_da_silva.tga"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70027
-		}
-	}
-	POR_de_abreu_t={
-		name="de Abreu,T"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_de_abreu_t.tga"
-			}
-		}
-		corps_commander={
-			traits={ cavalry_leader }
-			skill=3
-			attack_skill=3
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=3
-			legacy_id=70028
-		}
-	}
-	POR_simas_machados={
-		name="Simas Machados"
-		portraits={
-
-			army={
-				large="gfx/generals/POR_simas_machados.tga"
-			}
-		}
-		corps_commander={
-			traits={ old_guard panzer_leader }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70029
-		}
-	}
-	POR_de_sousa_telles={
-		name="de Sousa Telles"
-		portraits={
-
-			army={
-				large="gfx/fieldmarshal/POR_de_sousa_telles.tga"
-			}
-		}
-		field_marshal={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70014
-		}
-	}
-	POR_da_silva_oliveira={
-		name="da Silva Oliveira"
-		portraits={
-
-			army={
-				large="gfx/fieldmarshal/POR_da_silva_oliveira.tga"
-			}
-		}
-		field_marshal={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=70016
-		}
-	}
-	POR_leote_do_rego={
-		name="Leote do Rego"
-		portraits={
-
-			army={
-				large="gfx/admiral/POR_leote_do_rego.tga"
-			}
-		}
-		navy_leader={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=70007
-		}
-	}
-	POR_de_maia={
-		name="de Maia"
-		portraits={
-
-			army={
-				large="gfx/admiral/POR_de_maia.tga"
-			}
-		}
-		navy_leader={
-			skill=3
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=70017
-		}
-	}
-	POR_de_azevedo_coutinho_p={
-		name="de Azevedo Coutinho P."
-		portraits={
-
-			army={
-				large="gfx/admiral/POR_de_azevedo_coutinho_p.tga"
-			}
-		}
-		navy_leader={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=70018
-		}
-	}
-	POR_bastro={
-		name="Bastro"
-		portraits={
-
-			army={
-				large="gfx/admiral/POR_bastro.tga"
-			}
-		}
-		navy_leader={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=70022
-		}
-	}
-	POR_de_azevedo_coutinho_v.={
-		name="de Azevedo Coutinho V."
-		portraits={
-
-			army={
-				large="gfx/admiral/POR_de_azevedo_coutinho_v.tga"
-			}
-		}
-		navy_leader={
-			skill=3
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
+	     skill = 1
+	     attack_skill = 1
+	     defense_skill = 2
+	     planning_skill = 3
+	     logistics_skill = 1
 			legacy_id=70025
+		}
+	}
+	POR_jose_m_cabecadas={
+		name="José M. Cabeçadas"
+		portraits={
+
+			army={
+				large="gfx/leaders/POR/POR_jose_mendes.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=32302
 		}
 	}
 	POR_augusto_de_noronha={

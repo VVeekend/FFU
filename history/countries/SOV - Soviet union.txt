@@ -40,7 +40,6 @@ recruit_character = SOV_aleksandr_rusin
 recruit_character = SOV_vladimir_dzhunkovsky
 recruit_character = SOV_RUS_vasily_shulgin
 recruit_character = SOV_RUS_alexei_polivanov
-recruit_character = SOV_RUS_alexei_brusilov
 recruit_character = SOV_RUS_michael_alexandrovich
 recruit_character = SOV_RUS_ivan_grigorovich
 recruit_character = SOV_alexander_izvolsky

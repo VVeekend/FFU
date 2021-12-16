@@ -195,7 +195,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = { army_experience=100 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience=100 army_experience = 50 }
 	}
 
 	#Focus for 1911 Cisleithanian legislative election
@@ -946,7 +946,7 @@ remove_ideas = AUS_romanian_dissidents
 focus = {
 		id = AUS_ww1_army_effort_1
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = AUS_ww1_equipment_effort_1 }
 		mutually_exclusive = { focus = AUS_ww1_artillery_effort_1 }
@@ -1024,7 +1024,7 @@ focus = {
 		 focus=AUS_ww1_aircraftprod_1
 		 focus=AUS_ww1_large_navy_1}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = AUS_ww1_equipment_effort_2 }
 		mutually_exclusive = { focus = AUS_ww1_artillery_effort_2 }
@@ -1116,7 +1116,7 @@ focus = {
 		 focus=AUS_ww1_aircraftprod_2
 		 focus=AUS_ww1_large_navy_2}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = AUS_ww1_equipment_effort_3 }
 		mutually_exclusive = { focus = AUS_ww1_artillery_effort_3 }
@@ -1208,7 +1208,7 @@ focus = {
 		 focus=AUS_ww1_aircraftprod_3
 		 focus=AUS_ww1_large_navy_3}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = AUS_ww1_equipment_effort_4 }
 		mutually_exclusive = { focus = AUS_ww1_artillery_effort_4 }
@@ -1302,7 +1302,7 @@ focus = {
 		 focus=AUS_ww1_aircraftprod_4
 		 focus=AUS_ww1_large_navy_4}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = AUS_ww1_equipment_effort_5 }
 		mutually_exclusive = { focus = AUS_ww1_artillery_effort_5 }

@@ -14,7 +14,12 @@
  TANK_UNLOCKER_SPECIAL:0 "The development of a Tank Prototype is an essential prerequisite for the development of conventional Tanks. This technology must be researched before you can research advanced tanks."
  TANK_UNLOCKER_RESEARCHED:0 "Allows research of additional tank technologies"
 
-
+ ww1_light_tank:0 "1915 Light Chassis"
+ ww1_light_tank_interwar_1:0 "1917 Light Tank Chassis"
+ ww1_light_tank_interwar_2:0 "1918 Light Tank Chassis"
+ heavy_tank_chassis_0:0 "1915 Heavy Tank Chassis" 
+ ww1_heavy_tank2:0 "1917 Heavy Tank Chassis"
+ ww1_super_heavy_tank:0 "1917 Super Heavy Tank Chassis"  
  ##########################################################
 
  ww1_armored_car_equipment_1:0 "Armored Car I"
