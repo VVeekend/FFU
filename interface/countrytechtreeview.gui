@@ -1704,11 +1704,11 @@ guiTypes = {
 			
 		    instantTextBoxType = {
 					name = "tac_research_1"
-					position = { x = 850 y = 325 }
+					position = { x = 820 y = 325 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "Unlocks June 1914 -->"
+					text = "<--Unlocks June 1914 -->"
 					maxWidth = 600
 					maxHeight = 62
 					format = center

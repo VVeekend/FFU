@@ -128,11 +128,6 @@ focus_tree = {
          amount = 1000 
          producer = SER 
             }
-		add_equipment_to_stockpile= {
-         type = horse_equipment_0
-         amount = 1000 
-         producer = SER 
-            }
         }
 		}
 	}
@@ -493,42 +488,6 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Tsar Personal Command
-	focus = {
-		id = SOV_tsar_personal_command
-		icon = GFX_SOV_tsar_personal_command-45145
-		x = 15
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = SOV_army_reform }
-		ai_will_do = {
-			factor = 1
-		}
-		complete_tooltip = {
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = SOV_vladimir_marushevsky
-			random_unit_leader = { limit = { has_id	= 70484 } 
-			add_unit_leader_trait = infantry_leader
-			add_unit_leader_trait = trait_engineer
-			add_skill_level = 4
-            add_attack = 1
-			add_defense = 1
-            add_planning = 1 }
-		}
-		completion_reward = {
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = SOV_vladimir_marushevsky
-			random_unit_leader = { limit = { has_id	= 70484 } 
-			add_unit_leader_trait = infantry_leader
-			add_unit_leader_trait = trait_engineer
-			add_skill_level = 4
-            add_attack = 1
-			add_defense = 1
-            add_planning = 1 }
-		}
-	}
-
 	#Focus for Degtyaryov Plant
 	focus = {
 		id = SOV_degtyaryov_plant
@@ -857,7 +816,7 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = SOV_main_directorate_of_the_general_staff }
-		completion_reward = { add_tech_bonus={ name=artillery_bonus bonus=2 uses = 1 category=artillery }  add_tech_bonus={ name=land_doc_bonus bonus=2 uses=1 category=land_doctrine } }
+		completion_reward = { add_tech_bonus={ name=artillery_bonus bonus=2 uses = 1 category=artillery }  army_experience = 100 }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1050,25 +1009,6 @@ technology = tech_recon4
 		}
 	}
 
-	#Focus for Army Reform
-	focus = {
-		id = SOV_army_reform
-		icon = GFX_SOV_army_reform-45143
-		x = 15
-		y = 3
-		cost = 2
-		available_if_capitulated = yes
-		prerequisite = { focus = SOV_main_directorate_of_the_general_staff }
-		ai_will_do = {
-			factor = 1
-		}
-		available = {has_army_experience> 500}
-		completion_reward = { remove_ideas= SOV_incompetent_russian_general_staff army_experience = -500 
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = SOV_yuri_danilov  }
-	
-	}
-
 	#Focus for Concessions to Radicals
 	focus = {
 		id = SOV_concessions_to_radicals
@@ -1132,44 +1072,6 @@ technology = tech_recon4
 		}
 	}
 
-	#Focus for Promote Competent Generals
-	focus = {
-		id = SOV_promote_competent_generals
-		icon = GFX_SOV_promote_competent_generals-45143
-		x = 14
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = SOV_army_reform }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			random_unit_leader = { limit = { has_id	= 76187 } 
-			add_unit_leader_trait = infantry_leader
-			add_unit_leader_trait = trait_engineer
-			add_unit_leader_trait = swamp_fox
-			add_unit_leader_trait = brilliant_strategist
-			add_skill_level = 1
-            add_attack = 1
-			add_defense = 1
-            add_planning = 2 }
-			
-			random_unit_leader = { limit = { has_id	= 76837 } 
-			add_unit_leader_trait = infantry_leader
-			add_unit_leader_trait = trickster
-			add_skill_level = 1
-            add_attack = 1
-            add_planning = 2 }
-			
-			random_unit_leader = { limit = { has_id	= 76546 } 
-			add_unit_leader_trait = hill_fighter
-			add_skill_level = 1
-            add_defense = 3
-            add_planning = 1 }
-						}
-	}
-
 	#Focus for Support Greece
 	focus = {
 		id = SOV_support_greece
@@ -1193,11 +1095,6 @@ technology = tech_recon4
          type = support_equipment
          amount = 1000 
          producer = GRE 
-            }
-		add_equipment_to_stockpile= {
-         type = horse_equipment_0
-         amount = 1000 
-         producer = GRE 
             }	
         }
 		}
@@ -1209,7 +1106,7 @@ technology = tech_recon4
 focus = {
 		id = SOV_ww1_army_effort_1
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = SOV_ww1_equipment_effort_1 }
 		mutually_exclusive = { focus = SOV_ww1_artillery_effort_1 }
@@ -1287,7 +1184,7 @@ focus = {
 		 focus=SOV_ww1_aircraftprod_1
 		 focus=SOV_ww1_large_navy_1}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = SOV_ww1_equipment_effort_2 }
 		mutually_exclusive = { focus = SOV_ww1_artillery_effort_2 }
@@ -1379,7 +1276,7 @@ focus = {
 		 focus=SOV_ww1_aircraftprod_2
 		 focus=SOV_ww1_large_navy_2}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = SOV_ww1_equipment_effort_3 }
 		mutually_exclusive = { focus = SOV_ww1_artillery_effort_3 }
@@ -1471,7 +1368,7 @@ focus = {
 		 focus=SOV_ww1_aircraftprod_3
 		 focus=SOV_ww1_large_navy_3}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = SOV_ww1_equipment_effort_4 }
 		mutually_exclusive = { focus = SOV_ww1_artillery_effort_4 }
@@ -1565,7 +1462,7 @@ focus = {
 		 focus=SOV_ww1_aircraftprod_4
 		 focus=SOV_ww1_large_navy_4}
 		icon = GFX_goal_generic_allies_build_infantry
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		mutually_exclusive = { focus = SOV_ww1_equipment_effort_5 }
 		mutually_exclusive = { focus = SOV_ww1_artillery_effort_5 }

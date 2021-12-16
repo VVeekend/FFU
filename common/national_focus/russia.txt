@@ -543,7 +543,7 @@ focus_tree = {
 		id = RUS_ww1_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = RUS_ww1_recover_after_civwar }
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 19
@@ -599,7 +599,7 @@ focus_tree = {
 		prerequisite = { focus=RUS_ww1_army_effort }
 		available = { date > 1911.1.1 }
 		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 19
@@ -683,7 +683,7 @@ focus_tree = {
 		prerequisite = { focus=RUS_ww1_doctrine_effort }
 		available = { date > 1913.1.1 }
 		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 19
@@ -707,7 +707,7 @@ focus_tree = {
 		prerequisite = { focus=RUS_ww1_doctrine_effort_2 }
 		available = { date > 1915.1.1 }
 		icon = GFX_goal_generic_army_doctrines
-		completion_reward = { army_experience=15 add_tech_bonus={ name=land_doc_bonus bonus=1 uses=1 category=land_doctrine } }
+		completion_reward = { army_experience = 50 }
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 19

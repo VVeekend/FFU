@@ -183,7 +183,11 @@ technologies = {
 		enable_equipments = {
 			ww1_seaplane_equipment_1
 		}
-	
+		
+		allow = {
+            date > 1914.6.1
+        }
+		
 		path = {
 			leads_to_tech = ww1_seaplane2
 			research_cost_coeff = 1
@@ -390,7 +394,11 @@ technologies = {
 		enable_equipments = {
 			ww1_zeppelin_equipment_1
 		}
-	
+		
+		allow = {
+            date > 1914.6.1
+        }
+		
 		path = {
 			leads_to_tech = ww1_zeppelin2
 			research_cost_coeff = 1

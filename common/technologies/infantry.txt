@@ -1694,15 +1694,6 @@ technologies = {
 	
 	early_motorised = {
 
-		enable_subunits = {
-			motorized
-		}
-		
-		enable_subunits = {	
-		mot_recon 
-		
-		}
-
 		enable_equipments = {
 			motorized_equipment_1
 		}

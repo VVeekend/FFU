@@ -236,9 +236,6 @@ technologies = {
 
 		on_research_complete = {
 
-			hidden_effect = {
-					load_oob = "unlock_ww1_heavy_tank"
-			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
