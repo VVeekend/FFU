@@ -2525,8 +2525,15 @@ technologies = {
 			breakthrough = 0.05
 			defense = 0.05
 		}
-		category_all_infantry = {
-			default_morale = 0.02
+		motorized = {
+			soft_attack = 0.05
+			defense = 0.05
+			default_morale = 0.2
+			max_organisation = 5
+		}
+		armored_car = {
+			default_morale = 0.2
+			max_organisation = 5
 		}
 		enable_subunits = {
 			motorized
@@ -2596,11 +2603,13 @@ technologies = {
 			breakthrough = 0.05
 			defense = 0.05
 		}
-		category_all_infantry = {
-			default_morale = 0.02
+		motorized = {
+			max_organisation = 5
+			soft_attack = 0.05
+			defense = 0.05
 		}
-		category_artillery = {
-			default_morale = 0.02
+		armored_car = {
+			max_organisation = 5
 		}
 		
 		research_cost = 2.5

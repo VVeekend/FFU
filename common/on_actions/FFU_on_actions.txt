@@ -41,7 +41,7 @@ on_actions = {
 			}
 			SWI = {
 				country_event = { id = ww1_firstbalkan.40 days = 851 }
-				country_event = { id = ffu.3 days = 1362 }
+				country_event = { id = ffu.3 days = 1453 }
 			}
 
 			TUR = {

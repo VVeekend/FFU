@@ -657,31 +657,6 @@ characters={
 			}
 		}
 	}
-	SOV_vladimir_marushevsky={
-		advisor={
-			slot = high_command
-			idea_token = SOV_vladimir_marushevsky
-			ledger  = army 
-				allowed  = {
-					tag  = SOV
-				}
-				available  = {
-					SOV = {
-						has_completed_focus  = SOV_tsar_personal_command 
-					}
-				}
-				traits  = {
-					army_commando_1 
-				}
-				cost  = 150.000
-		}
-		name="SOV_vladimir_marushevsky"
-		portraits={
-			army={
-				small="GFX_idea_rudolf_hess"
-			}
-		}
-	}
 	SOV_RUS_vasily_gurko={
 		advisor={
 			slot = army_chief

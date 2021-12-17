@@ -269,12 +269,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 		    every_country = {
-		        limit {
-			        OR = {
-			            tag = FRA
-			            is_in_faction_with = FRA
-				    }
-			    }
 		        add_opinion_modifier = {
 			        target = ROOT modifier = entente_friendship
 			    }

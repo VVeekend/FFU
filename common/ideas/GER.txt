@@ -127,6 +127,7 @@ ideas={
 		GER_industrialized_warfare = {
 			ledger = army
 			picture = ger_rebuild_the_nation
+			modifier = { production_speed_rail_way_factor = 0.1 }
 			equipment_bonus = {
 				infantry_equipment = {					
                 build_cost_ic = -0.04 instant = yes
@@ -136,7 +137,7 @@ ideas={
 				}
                 fighter_equipment = {					
                  build_cost_ic = -0.04 instant = yes
-				}
+				}			
 			}
 		}
 			GER_extreme_military_spending = {
@@ -149,6 +150,8 @@ ideas={
 			    production_speed_arms_factory_factor = 0.20
 		        production_speed_industrial_complex_factor = 0.10
 			    industrial_capacity_dockyard = 0.25
+				production_speed_rail_way_factor = 0.33
+				production_speed_supply_node_factor = 0.33
 				consumer_goods_factor = -0.10
 			}
 		}

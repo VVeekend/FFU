@@ -44,13 +44,13 @@ give_guarantee = BEL # United Kingdom guaranteed the independence of Belgium - T
 #-------------------------------------------------------
 #					POLITICS & ARMY
 #-------------------------------------------------------
+recruit_character = ENG_george_v
 recruit_character = ENG_tom_mann
 recruit_character = ENG_gilbert_elliotmurraykynynmound
 recruit_character = ENG_charles_hardinge
 recruit_character = ENG_frederic_thesiger
 recruit_character = ENG_rufus_isaacs
 recruit_character = ENG_walter_davidson
-recruit_character = ENG_george_v
 recruit_character = ENG_edward_grey
 recruit_character = ENG_henry_petty_fitzmaurice
 recruit_character = ENG_frederick_maurice
@@ -383,10 +383,4 @@ create_equipment_variant = {
           mid_1_custom_slot = ship_secondaries_1
           mid_2_custom_slot = ship_secondaries_1
           rear_1_custom_slot = ship_super_heavy_battery_1 } }
-}
-
-1910.6.1 = {
-	create_country_leader={ name = "George V" desc=ENG_george_v_DESC picture = "gfx/leaders/ENG/ENG_george_v.dds" expire="1935.1.1" ideology=conservatism traits={  } }
-	set_country_flag = king_death_george
-	set_country_flag = saf_release
 }

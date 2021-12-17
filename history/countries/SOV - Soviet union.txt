@@ -45,7 +45,6 @@ recruit_character = SOV_RUS_ivan_grigorovich
 recruit_character = SOV_alexander_izvolsky
 recruit_character = SOV_RUS_konstantin_v_rodzaevsky
 recruit_character = SOV_RUS_vladimir_kokovtsov
-recruit_character = SOV_vladimir_marushevsky
 recruit_character = SOV_RUS_vasily_gurko
 recruit_character = SOV_RUS_aleksandr_lukomsky
 recruit_character = SOV_RUS_mikhail_alexeev
@@ -60,8 +59,7 @@ recruit_character = SOV_RUS_pyotr_krasnov
 recruit_character = SOV_RUS_pyotr_nesterov
 recruit_character = SOV_RUS_grand_duke_nikolai
 recruit_character = SOV_RUS_nikolai_golitsyn
-recruit_character = SOV_RUS_pavel_ryabushinsky
-recruit_character = SOV_yuri_danilov												
+recruit_character = SOV_RUS_pavel_ryabushinsky												
 
 1910.1.1 = {
 	oob = "SOV_1910"

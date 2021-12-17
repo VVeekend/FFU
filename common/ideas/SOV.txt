@@ -17,7 +17,6 @@ ideas={
 			removal_cost = -1
 			modifier = {
 				production_factory_efficiency_gain_factor = -0.1
-				production_factory_max_efficiency_factor = 0.1
 				line_change_production_efficiency_factor = -0.1
 
 			}
@@ -29,6 +28,7 @@ ideas={
 			removal_cost = -1
 			modifier = {
 				production_factory_max_efficiency_factor = 0.1
+				production_speed_rail_way_factor = 0.2
 
 			}
 		}

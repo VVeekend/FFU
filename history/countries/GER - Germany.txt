@@ -65,14 +65,9 @@ recruit_character = GER_josias_von_heeringen
 recruit_character = GER_hermann_von_stein
 recruit_character = GER_adolf_wild_von_hohenborn
 recruit_character = GER_wilhelm_heye
-recruit_character = GER_august_von_mackensen
 recruit_character = GER_wilhelm_groener
 recruit_character = GER_otto_von_lossow
-recruit_character = GER_oskar_von_hutier
-recruit_character = GER_erich_von_falkenhayn
 recruit_character = GER_helmuth_von_moltke
-recruit_character = GER_colmar_von_der_goltz
-recruit_character = GER_karl_von_bulow
 recruit_character = GER_august_von_heeringen
 recruit_character = GER_wilhelm_siegert
 recruit_character = GER_wilhelm_haehnelt
@@ -83,7 +78,6 @@ recruit_character = GER_walter_von_eberhardt
 recruit_character = GER_ernst_von_hoeppner
 recruit_character = GER_hugo_von_pohl
 recruit_character = GER_eduard_von_capelle
-recruit_character = GER_friedrich_von_baudissin
 
 
 1910.1.1 = {

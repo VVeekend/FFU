@@ -194,7 +194,7 @@ characters={
 			defense_skill=2
 			maneuvering_skill=1
 			coordination_skill=1
-			legacy_id=32302
+			legacy_id=32378
 		}
 	}
 	POR_augusto_de_noronha={
