@@ -534,7 +534,6 @@ focus_tree = {
 			add_political_power= 150
 		}
 		completion_reward = {
-		    set_rule = { can_send_volunteers = yes }
 			add_political_power= 150
 		}
 	}

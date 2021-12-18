@@ -60,8 +60,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus={ bonus=2 uses=2           
-       		technology = ww1_light_tank 
-                technology = ww1_light_tank_b
+       		    technology = ww1_light_tank 
                 technology= ww1_light_tank_interwar_1
                 technology= ww1_light_tank_interwar_2 }
 		}

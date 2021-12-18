@@ -506,6 +506,20 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 					}
 
+					#instantTextBoxType = {
+					#	name = "armour_year3"
+					#	position = { x = 60 y = 278 }
+					#	textureFile = ""
+					#	font = "hoi_36header"
+					#	borderSize = {x = 0 y = 4}
+					#	text = "1915"
+					#	maxWidth = 80
+					#	maxHeight = 32
+					#	format = left
+					#	Orientation = "UPPER_LEFT"
+					#}
+
+
 					instantTextBoxType = {
 						name = "armour_year4"
 						position = { x = 60 y = 450 }
@@ -516,8 +530,14 @@ guiTypes = {
 						maxWidth = 80
 						maxHeight = 32
 						format = left
+
+
+
+
 						Orientation = "UPPER_LEFT"
 					}
+
+
 						
 					instantTextBoxType = {
 						name = "armour_year5"
@@ -572,7 +592,7 @@ guiTypes = {
 				#	name = "armour_subtitle_prototype"
 				#	position = { x = 200 y = 51 }
 				#	textureFile = ""
-				#	font = "hoi_36header"
+				#	font = "hoi_33"
 				#	borderSize = {x = 0 y = 4}
 				#	text = "PROTOTYPE"
 				#	maxWidth = 200
@@ -585,10 +605,10 @@ guiTypes = {
 					name = "armour_subtitle_heavy"
 					position = { x = 450 y = 30 }
 					textureFile = ""
-					font = "hoi_36header"
+					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "ARMORED_TITLE_HEAVY"
-					maxWidth = 200
+					maxWidth = 250
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
@@ -598,11 +618,11 @@ guiTypes = {
 					name = "armour_subtitle_light"
 					position = { x = -70 y = 30  }
 					textureFile = ""
-					font = "hoi_36header"
+					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "ARMORED_TITLE_LIGHT"
 					maxWidth = 200
-					maxHeight = 50
+					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
 				}	
@@ -612,7 +632,7 @@ guiTypes = {
 					name = "armour_subtitle_armored_car"
 					position = { x = -400 y = -60  }
 					textureFile = ""
-					font = "hoi_36header"
+					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
 					text = "ARMORED_TITLE_ARMORED_CAR"
 					maxWidth = 300
@@ -646,7 +666,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "tank_unlocker1_tree"
-				position = { x = 1000 y = 100 }
+				position = { x = 1550 y = 100 }
 				size = { width = 400 height = 400 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"

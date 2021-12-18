@@ -261,37 +261,4 @@ ideas={
 			}
 		}
 	
-	naval_manufacturer={
-			designer = yes 
-			central_research_institute_of_shipbuilding_technology={ allowed={ tag=SOV } research_bonus={ naval_equipment=0.10 } traits={ naval_manufacturer } picture=generic_naval_manufacturer_2 }
-			rubin_marine_engineering={ allowed={ tag=SOV } research_bonus={ naval_equipment=0.10 } traits={ raiding_fleet_naval_manufacturer } picture=generic_naval_manufacturer_3 }
-			baltic_shipyard={ allowed={ tag=SOV } research_bonus={ naval_equipment=0.10 } traits={ coastal_defence_naval_manufacturer } picture=generic_naval_manufacturer_1 }
-			}
-	aircraft_manufacturer={
-			designer = yes 
-			igor_sikorsky={ allowed={ tag=SOV } research_bonus={ air_equipment=0.10 } traits={ medium_aircraft_manufacturer } picture=generic_air_manufacturer_2 }
-			zhukovsky_air_force_academy={ allowed={ tag=SOV } research_bonus={ air_equipment=0.10 } traits={ light_aircraft_manufacturer } picture=generic_air_manufacturer_3 }
-			}
-	materiel_manufacturer={
-			designer = yes 
-			va_degtyarev_plant={ allowed={ tag=SOV } research_bonus={ infantry_weapons=0.10 } traits={ infantry_equipment_manufacturer } picture=generic_infantry_equipment_manufacturer_2 }
-			tula_arms_plant={ allowed={ tag=SOV } research_bonus={ infantry_weapons=0.10 } traits={ infantry_equipment_manufacturer } }
-			obukhov_plant={ allowed={ tag=SOV } research_bonus={ artillery=0.10 } traits={ artillery_manufacturer } picture=generic_artillery_manufacturer_1 }
-			}
-	industrial_concern={
-			designer = yes 
-			machine_building_plant_mzik={ allowed={ tag=SOV }    research_bonus = {
-							    industry = 0.10
-							    
-							   } traits={ industrial_concern } picture=generic_tank_manufacturer_2 }
-			kharkov_locomotive_factory={ allowed={ tag=SOV }    research_bonus = {
-							    industry = 0.10
-							    
-							   } traits={ electronics_concern } picture=generic_tank_manufacturer_3 }
-			}
-	tank_manufacturer={
-			designer = yes 
-			vyatka_factory_design_bureau={ allowed={ tag=SOV } research_bonus={ armor=0.10 } traits={ tank_manufacturer } picture=generic_tank_manufacturer_2 }
-			}
-	
 }
