@@ -72,5 +72,5 @@ news_event = {
 	FFU_show_super_event = yes }
 		hidden_effect = {
 			every_country = {limit = {check_variable= { super_events_enabled > 0} }
-				scoped_sound_effect="FFU_christmas_truce" add_timed_idea = { idea = chistmas_truce  days = 4 } }
+				scoped_sound_effect="FFU_christmas_truce" add_timed_idea = { idea = chistmas_truce  days = 7 } }
 	}}}

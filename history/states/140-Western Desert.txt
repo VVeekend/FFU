@@ -2,8 +2,10 @@
 state={
 	id=140
 	name="STATE_140"
-
+		impassable = yes
 	history={
+		owner = EGY
+		add_core_of = EGY
 		buildings = {
 			infrastructure = 0
 
@@ -16,5 +18,5 @@ state={
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category = wasteland
 }

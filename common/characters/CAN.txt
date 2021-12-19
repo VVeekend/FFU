@@ -18,7 +18,7 @@ characters={
 		portraits={
 
 			army={
-				large="gfx/generals/CAN_currie_ja.dds"
+				large="gfx/leaders/CAN/CAN_arthur_currie.dds" 
 			}
 		}
 		field_marshal={
@@ -28,315 +28,95 @@ characters={
 			defense_skill=3
 			planning_skill=7
 			logistics_skill=3
+			legacy_id=13305
+		}
+	}
+	CAN_julian_byng={
+		name="Julian Byng"
+		portraits={
+
+			army={
+				large="gfx/leaders/CAN/CAN_julian_byng.dds" 
+			}
+		}
+		field_marshal={
+			traits = { old_guard politically_connected cavalry_officer } 
+			skill=6
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 3
+	        logistics_skill = 2
 			legacy_id=13015
 		}
 	}
-	CAN_radcliffe={
-		name="Radcliffe"
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_radcliffe.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13002
-		}
-	}
 	CAN_turner={
-		name="Turner"
+		name="Richard Turner"
 		portraits={
 
 			army={
-				large="gfx/generals/CAN_turner.dds"
+				large="gfx/leaders/CAN/CAN_richard_turner.dds"
 			}
 		}
 		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
 			legacy_id=13003
 		}
 	}
 	CAN_lipsettl={
-		name="Lipsett,L.J."
+		name="Louis Lipsett"
 		portraits={
 
 			army={
-				large="gfx/generals/CAN_lipsett_lj.dds"
+				large="gfx/leaders/CAN/CAN_louis_lipsett.dds"
 			}
 		}
 		corps_commander={
-			traits={ fortress_buster }
+			traits = { brilliant_strategist }
 			skill=3
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
 			legacy_id=13004
 		}
 	}
-	CAN_tuxford={
-		name="Tuxford"
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_tuxford.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13005
-		}
-	}
-	CAN_loomisc.b.={
-		name="Loomis,C.B."
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_loomis_cb.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13006
-		}
-	}
-	CAN_hartmcharg={
-		name="Hart-McHarg"
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_hart_mcharg.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13007
-		}
-	}
-	CAN_meighen={
-		name="Meighen"
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_meighen.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13008
-		}
-	}
-	CAN_boyle={
-		name="Boyle"
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_boyle.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13009
-		}
-	}
 	CAN_mercerm.s.={
-		name="Mercer,M.S."
+		name="Malcolm Mercer"
 		portraits={
 
 			army={
-				large="gfx/generals/CAN_mercer_ms.dds"
+				large="gfx/leaders/CAN/CAN_malcom_mercer.dds"
 			}
 		}
 		corps_commander={
 			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=13016
 		}
 	}
-	CAN_burstallh.e.={
-		name="Burstall,H.E."
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_burstall_he.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13017
-		}
-	}
-	CAN_macdonell={
-		name="Macdonell A.C."
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_macdonell_ac.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13018
-		}
-	}
-	CAN_steele={
-		name="Steele"
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_steele.dds"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13019
-		}
-	}
 	CAN_hughes={
-		name="Hughes"
+		name="Samuel Hughes"
 		portraits={
 
 			army={
-				large="gfx/generals/CAN_hughes.dds"
+				large="gfx/leaders/CAN/CAN_sam_hughes.dds"
 			}
 		}
 		corps_commander={
-			traits={ commando }
+			traits={ politically_connected inflexible_strategist }
 			skill=3
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
 			legacy_id=13020
-		}
-	}
-	CAN_ogradyhaly={
-		name="O`Grady-Haly"
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_o`grady_haly.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13028
-		}
-	}
-	CAN_hutton={
-		name="Hutton"
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_hutton.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13029
-		}
-	}
-	CAN_otter={
-		name="Otter"
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_otter.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13030
-		}
-	}
-	CAN_lake={
-		name="Lake"
-		portraits={
-
-			army={
-				large="gfx/generals/CAN_lake.dds"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13031
-		}
-	}
-	CAN_cochrane={
-		name="Cochrane"
-		portraits={
-
-			army={
-				large="gfx/fieldmarshal/CAN_cochrane.dds"
-			}
-		}
-		field_marshal={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=13027
 		}
 	}
 	CAN_alex_walker={

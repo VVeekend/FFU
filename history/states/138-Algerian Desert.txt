@@ -2,8 +2,10 @@
 state={
 	id=138
 	name="STATE_138"
-
+		impassable = yes
 	history={
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
 			infrastructure = 0
 
@@ -16,5 +18,5 @@ state={
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category = wasteland
 }

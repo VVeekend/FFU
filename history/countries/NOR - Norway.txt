@@ -1,0 +1,137 @@
+﻿capital = 301
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_fuel_ratio = 0.20
+set_research_slots = 3
+set_stability = 0.7
+set_convoys = 80
+
+#-------------------------------------------------------
+#					POLITICS & ARMY
+#-------------------------------------------------------
+
+# LEADERS
+recruit_character = NOR_haakon_vii
+recruit_character = NOR_johan_mowinckel
+recruit_character = NOR_jens_bratlie
+recruit_character = NOR_otto_halvorsen
+recruit_character = NOR_otto_blehr
+recruit_character = NOR_wollert_konow
+
+# GENERALS
+recruit_character = NOR_olsson
+recruit_character = NOR_hansen
+recruit_character = NOR_angell
+recruit_character = NOR_sindinglarsen
+recruit_character = NOR_vogt
+recruit_character = NOR_raeder
+recruit_character = NOR_borresen
+recruit_character = NOR_von_munthe_af_morgenstierne
+recruit_character = NOR_griffindawes
+recruit_character = NOR_berglund
+recruit_character = NOR_sparre
+
+# ADVISORS
+recruit_character = NOR_einar_sem_jacobsen
+recruit_character = NOR_trygve_frivold_graff_vang
+recruit_character = NOR_christian_theodor_holtfodt
+recruit_character = NOR_johan_christopher_raeder
+recruit_character = NOR_kristian_f_petersen
+recruit_character = NOR_anton_omholt
+recruit_character = NOR_christian_michelet
+recruit_character = NOR_nils_ihlen
+recruit_character = NOR_einar_wilhelm_anton_martin_krohn
+recruit_character = NOR_gunnar_knudsen
+recruit_character = NOR_christian_holtfodt
+recruit_character = NOR_karl_friedrich_griffin_dawes
+recruit_character = NOR_lars_abrahamsen
+
+
+
+
+1910.1.1 = {
+	set_politics = {
+	    ruling_party = democratic
+	    last_election = "1909.10.25"
+	    election_frequency = 36
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 64
+	    fascism = 0
+	    communism = 4
+	    neutrality = 32
+	}
+	add_ideas = {
+		neutrality_idea
+	}
+ 	set_technology = {
+
+		# Infantry
+		infantry_weapons = 1
+		ww1infantry_weapons1 = 1
+		support_weapons = 1
+		infantry_binoculars = 1
+		infantry_grenade = 1
+		machine_gun = 1
+		machine_gun_1 = 1
+		ww1_ambulance1 = 1
+		early_motorised = 1
+		
+
+		# Support
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		tech_military_police = 1
+		tech_maintenance_company = 1
+		tech_field_hospital = 1
+		tech_logistics_company = 1
+		basic_train = 1
+
+		# Armor
+		gwtank=1 # 1910 Armored Car
+
+		# Artillery
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+		interwar_antiair=1
+
+		# Navy
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		ship_hull_super_heavy = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_heavy_armor_scheme = 1
+		basic_ship_hull_cruiser = 1
+		mtg_transport = 1
+
+
+		# Air
+
+		# Engineering
+		electronic_mechanical_engineering = 1
+		chemical_research = 1
+		nukes = 1
+		tank_unlocker1 = 1	
+
+		# Industry
+		
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
+		
+	} }

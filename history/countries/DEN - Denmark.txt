@@ -1,0 +1,138 @@
+﻿capital = 27
+
+#-------------------------------------------------------
+#					GENERIC VALUES
+#-------------------------------------------------------
+set_fuel_ratio = 0.20
+set_research_slots = 3
+set_stability = 0.75
+set_convoys = 40
+
+#-------------------------------------------------------
+#					POLITICS & ARMY
+#-------------------------------------------------------
+
+# LEADER
+recruit_character = DEN_frederick_viii
+
+# ARMY
+recruit_character = DEN_palle_berthelsen
+
+# NAVY
+recruit_character = DEN_carstensen
+recruit_character = DEN_evers
+recruit_character = DEN_garde
+recruit_character = DEN_kofoed_hansen
+recruit_character = DEN_topsoe_jensen
+recruit_character = DEN_juelbrockdorff
+
+
+# ADVISORS
+recruit_character = DEN_otto_kofoed_hansen
+recruit_character = DEN_niels_nergaard
+recruit_character = DEN_henri_konow
+recruit_character = DEN_jens_christensen
+recruit_character = DEN_johan_deuntzer
+recruit_character = DEN_svend_hogsbro
+recruit_character = DEN_henri_wenck
+recruit_character = DEN_frederik_schroder
+recruit_character = DEN_edvard_brandes
+recruit_character = DEN_tage_reedtz_thott
+recruit_character = DEN_otto_liebe
+
+
+1910.1.1 = {
+	oob = "DEN_1910"
+
+	#-------------------------------------------------------
+	#							NF
+	#-------------------------------------------------------
+
+	#-------------------------------------------------------
+
+ 	set_technology = {
+
+		# Infantry
+		infantry_weapons = 1
+		ww1infantry_weapons1 = 1
+		support_weapons = 1
+		infantry_binoculars = 1
+		infantry_grenade = 1
+		machine_gun = 1
+		machine_gun_1 = 1
+		ww1_ambulance1 = 1
+		early_motorised = 1
+		
+
+		# Support
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		tech_military_police = 1
+		tech_maintenance_company = 1
+		tech_field_hospital = 1
+		tech_logistics_company = 1
+		basic_train = 1
+
+		# Armor
+		gwtank=1 # 1910 Armored Car
+
+		# Artillery
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+		interwar_antiair=1
+
+		# Navy
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		ship_hull_super_heavy = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_heavy_armor_scheme = 1
+		basic_ship_hull_cruiser = 1
+		mtg_transport = 1
+
+
+		# Air
+
+		# Engineering
+		electronic_mechanical_engineering = 1
+		chemical_research = 1
+		nukes = 1
+		tank_unlocker1 = 1	
+
+		# Industry
+		
+		# Doctrine
+		ww1_infantry = 1
+		ww1_artillery = 1
+		ww1_battlefield_support = 1
+		mobile_doctrines = 1
+		
+	}
+
+	set_politics = {
+	    ruling_party = neutrality
+	    last_election = "1910.4.30"
+	    election_frequency = 48
+	    elections_allowed = yes
+	}
+	set_popularities = {
+	    democratic = 5
+	    fascism = 1
+	    communism = 2
+	    neutrality = 92
+	}
+
+	add_ideas = {
+		neutrality_idea
+	}
+}
