@@ -1,0 +1,4 @@
+.vscode
+resources/bin
+resources/obj
+resources/resources.csproj

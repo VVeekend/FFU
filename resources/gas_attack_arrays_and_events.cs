@@ -92,18 +92,18 @@ namespace gasattacks
                     {
                         if(fileLines[i+1].Split(' ')[x] != String.Empty)
                         {
-				try
-				{
-					if (isLand(Convert.ToInt32(fileLines[i+1].Split(' ')[x]),definitions))
-					{
-                	                	sProvinces.Add(Convert.ToInt32(fileLines[i+1].Split(' ')[x]));
-					}
-				}
-				catch(System.Exception)
-                            	{
-                                	Console.WriteLine("sProvinces exception");
-                                	continue;
-                            	}
+                            try
+                            {
+                                if (isLand(Convert.ToInt32(fileLines[i+1].Split(' ')[x]),definitions))
+                                {
+                                    sProvinces.Add(Convert.ToInt32(fileLines[i+1].Split(' ')[x]));
+                                }
+                            }
+                            catch(System.Exception)
+                            {
+                                Console.WriteLine("sProvinces exception");
+                                continue;
+                            }
                         }
                     }
                 }
@@ -128,9 +128,9 @@ namespace gasattacks
                 if(!String.IsNullOrWhiteSpace(item))
                 {
                     read = item.Split(';');
-                    if(Convert.ToInt32(read[0]) == ID && read != null && read[3] == "land" )
+                    if(Convert.ToInt32(read[0]) == ID && read != null && read[4] == "land" )
                     {
-			    return true;
+			            return true;
                     }
                 }
             }
