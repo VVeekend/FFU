@@ -14,10 +14,10 @@ ideas={
 			picture = TUR_outdated_army-96313
 			modifier = {
 				army_attack_factor = -0.05
-army_morale_factor = -0.05
-acclimatization_cold_climate_gain_factor = -0.50
+                army_morale_factor = -0.05
+                acclimatization_cold_climate_gain_factor = -0.50
+                experience_gain_army_factor = -0.10
 			}
-research_bonus = { 	land_doctrine = -0.10 }
 		}
 
 		TUR_1914_law_of_military_obligation = {

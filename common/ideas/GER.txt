@@ -13,7 +13,6 @@ ideas={
 			GER_clemens_von_delbruck={ allowed={ tag=GER } traits={ popular_figurehead } ai_will_do={ factor=1 } }
 			GER_karl_trimborn={ allowed={ tag=GER } traits={ silent_workhorse } ai_will_do={ factor=1 } }
 			#GER_gustav_bauer={ allowed={ tag=GER } traits={ editor } ai_will_do={ factor=1 } }
-			GER_Yaboi={ allowed={ tag=GER } picture = rudolf_hess traits={ war_industrialist } ai_will_do={ factor=1 } }
 
 			GER_wolfgang_kapp={
 					allowed={ tag=GER }
@@ -368,13 +367,14 @@ ideas={
 
 			removal_cost = -1
 			
-			research_bonus = { 	land_doctrine = 0.15
-			naval_doctrine = 0.15
-			air_doctrine = 0.15
+			modifier = { 	
+			   experience_gain_army_factor = 0.15
+			   experience_gain_navy_factor = 0.15
+			   experience_gain_air_factor = 0.15	   
 			}
 
 			modifier={ stability_factor  = 0.10 
-			global_building_slots_factor = 0.4
+			global_building_slots_factor = 0.5
 
 			}
 		}

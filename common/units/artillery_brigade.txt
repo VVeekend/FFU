@@ -20,7 +20,7 @@ sub_units = {
 			category_artillery
 		}
 		
-		combat_width = 3
+		combat_width = 2
 		
 		manpower = 500
 		need = { 
@@ -29,10 +29,10 @@ sub_units = {
 	    }
 		
 		max_strength = 6
-		max_organisation = 10
+		max_organisation = 25
 		default_morale = 0.2
 		training_time = 120
-		weight = 0.5
+		weight = 5
 		supply_consumption = 0.04
 		
 		#Line artillery bonuses
@@ -96,37 +96,75 @@ sub_units = {
 			category_line_artillery
 		}		
 
-		combat_width = 3
+		combat_width = 2
 
 		need = {
 			rocket_artillery_equipment = 36
 		}
 		supply_consumption = 0.28
 		manpower = 500
-		max_organisation = 10
+		max_organisation = 25
 		default_morale = 0.1
-		max_strength = 0.6
+		max_strength = 6
 		training_time = 120
-		weight = 0.5
+		weight = 2
 
 		supply_consumption = 0.04
+	}
+
+	mot_artillery_brigade = {
+		abbreviation = "MRT"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			motorized
+			artillery
+		}
+
+		group = mobile
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+		}
+
+		combat_width = 2
+		transport = motorized_equipment
+		manpower = 500
+		need = { 
+		      light_field_gun_equipment = 32
+			  infantry_equipment = 25
+			  motorized_equipment = 35
+	    }
+		
+		max_strength = 6
+		max_organisation = 25
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.25
 		
 		forest = {
-			attack = -0.0
-			movement = -0.2
+			attack = -0.2
+			movement = -0.5
 		}
 
 		hills = {
-			movement = -0.00
+			movement = -0.05
 		}
 
 		mountain = {
-			movement = -0.0
+			movement = -0.2
 		}
 
 		jungle = {
 			attack = -0.25
-			movement = -0.2
+			movement = -0.5
 		}
 
 		marsh = {
@@ -134,8 +172,12 @@ sub_units = {
 			movement = -0.3
 		}
 
+		fort = {
+			attack = 0.1
+		}
+
 		river = {
-			attack = -0.0
+			attack = -0.2
 			movement = -0.2
 		}
 

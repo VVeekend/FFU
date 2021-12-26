@@ -36,8 +36,8 @@ on_actions = {
 			}
 			SER = {
 				country_event = { id = ww1_franzferdinand.2 days = 1304 }
-				country_event = { id = ww1_firstbalkan.4 days = 609 }
 				country_event = { id = ww1_firstbalkan.2 days = 578 }
+				country_event = { id = ww1_firstbalkan.4 days = 609 }
 			}
 			SWI = {
 				country_event = { id = ww1_firstbalkan.40 days = 851 }
@@ -145,63 +145,6 @@ on_actions = {
                         			producer = ENG
             				}
 				} }
-
-			if = {
-				limit = { SER = { is_ai = yes } }
-				SOV = {
-			         	add_equipment_to_stockpile= {
-                        			type = infantry_equipment_1
-                        			amount = 120000
-                        			producer = SOV
-            				}
-				}
-				SOV = {
-			         	add_equipment_to_stockpile= {
-                        			type = support_equipment
-                        			amount = 400
-                        			producer = SOV
-            				}
-				}
-				SOV = {
-			         	add_equipment_to_stockpile= {
-                        			type = light_field_gun_equipment_1
-                        			amount = 240
-                        			producer = SOV
-            				}
-				}
-			}
-
-			if = {
-				limit = { GRE = { is_ai = yes } }
-				SOV = {
-			         	add_equipment_to_stockpile= {
-                        			type = infantry_equipment_1
-                        			amount = 60000
-                        			producer = SOV
-            				}
-				}
-				SOV = {
-			         	add_equipment_to_stockpile= {
-                        			type = support_equipment
-                        			amount = 400
-                        			producer = SOV
-            				}
-				}
-				SOV = {
-			         	add_equipment_to_stockpile= {
-                        			type = light_field_gun_equipment_1
-                        			amount = 240
-                        			producer = SOV
-            				}
-				}
-				SOV = {
-			         	add_equipment_to_stockpile= {
-                        			type = heavy_field_gun_equipment_1
-                        			amount = 780
-                        			producer = SOV
-            				}
-				}
-			}
 
 			if = {
 				limit = {
@@ -28441,7 +28384,6 @@ on_actions = {
 	         		BEL = {
 						set_country_flag = belgium_is_kill
 						add_state_core = 35
-						set_capital = 35
 						transfer_state = 35
 						add_ideas = we_fight_on
 					  }

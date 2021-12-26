@@ -34,8 +34,6 @@ country_event = {
 	title = ww1_firstbalkan.2.t
 	desc = ww1_firstbalkan.2.d
 	picture=ww1_france_2
-
-	fire_only_once = yes
 	is_triggered_only = yes
 		
 	# SER Yes
@@ -64,7 +62,6 @@ country_event = {
             }
 		}
 		hidden_effect = {
-			news_event = { days = 1 id = kis_news.108 }
 		BUL = {
 				add_ideas = war_economy }
 		}

@@ -352,7 +352,7 @@ characters={
 			}
 		corps_commander={
 			traits={ career_officer politically_connected brilliant_strategist }
-			skill=4
+			skill=5
 			attack_skill=3
 			defense_skill=3
 			planning_skill=4
@@ -420,8 +420,8 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={  brilliant_strategist winter_specialist ranger winter_expert aggressive_assaulter }
-			skill=5
+			traits={  brilliant_strategist winter_specialist ranger winter_expert aggressive_assaulter trickster }
+			skill=6
 			attack_skill=4
 			defense_skill=4
 			planning_skill=5
@@ -456,7 +456,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trickster ambusher camouflage_expert guerilla_fighter jungle_rat }
+			traits={ commando trickster ambusher camouflage_expert guerilla_fighter jungle_rat }
 			skill=4
 			attack_skill=2
 			defense_skill=7
@@ -596,8 +596,8 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ infantry_leader trait_engineer ranger fast_planner }
-			skill=5
+			traits={  trickster infantry_leader trait_engineer ranger fast_planner }
+			skill=6
 			attack_skill=5
 			defense_skill=4
 			planning_skill=4
@@ -1251,7 +1251,7 @@ characters={
 						tag  = GER
 					}
 					traits  = {
-						prince_of_terror 
+						war_industrialist 
 					}
 					ai_will_do  = {
 						factor  = 1.000

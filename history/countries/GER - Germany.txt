@@ -78,6 +78,7 @@ recruit_character = GER_walter_von_eberhardt
 recruit_character = GER_ernst_von_hoeppner
 recruit_character = GER_hugo_von_pohl
 recruit_character = GER_eduard_von_capelle
+recruit_character = GER_wolfgang_kapp
 
 
 1910.1.1 = {

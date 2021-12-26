@@ -4,8 +4,6 @@ state={
 	name="STATE_310"
 		impassable = yes
 	history={
-		owner = FRA
-		add_core_of = FRA
 		buildings = {
 			infrastructure = 0
 

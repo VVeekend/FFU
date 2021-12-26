@@ -489,7 +489,7 @@ characters={
 					tag  = SOV
 				}
 		}
-		name="SOV_vladimir_dzhunkovsky"
+	    name="Vladimir Dzhunkovsky"
 		portraits={
 			army={
 				small="GFX_idea_rudolf_hess"
@@ -608,7 +608,7 @@ characters={
 					tag  = SOV
 				}
 		}
-		name="SOV_alexander_izvolsky"
+		name="Alexander Izvolsky"
 		portraits={
 			army={
 				small="GFX_idea_rudolf_hess"
@@ -830,6 +830,7 @@ characters={
 		}
 	}
 	SOV_roman_malinovsky={
+	    name="Roman Malinovsky"
 		advisor={
 			slot = political_advisor
 			idea_token = SOV_roman_malinovsky

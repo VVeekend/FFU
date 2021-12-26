@@ -59,11 +59,12 @@ ENG_annex_POR = {
 		icon = generic_operation
 
 			allowed = {
-				tag = POR
+				tag = ENG
 			}
 
 			available = {
 				POR = { is_ai = yes }
+				date > 1914.07.29
 			}
 			
 			fire_only_once = yes
@@ -87,7 +88,6 @@ ENG_annex_BEL = {
 		icon = generic_operation
 		
 		available = {
-			NOT = { has_global_flag = ffu_ww1_starts }
 			date > 1914.07.29
 		}
 			allowed = {

@@ -324,7 +324,7 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1918
+		start_year = 1915
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 1 y = 4 }
@@ -335,9 +335,6 @@ technologies = {
 		}
 	}
 	armor_tech_2 = {
-		enable_equipment_modules = {
-			tank_welded_armor
-		}
 
 		#path = {
 		#	leads_to_tech = armor_tech_2
@@ -350,7 +347,7 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1919
+		start_year = 1917
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 1  y = 8 }
@@ -373,7 +370,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1918
+		start_year = 1915
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 1 y = 4 }
@@ -398,7 +395,7 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1919
+		start_year = 1916
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 1 y = 6 }
@@ -421,7 +418,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1920
+		start_year = 1917
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 1 y = 8 }
@@ -439,7 +436,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1921
+		start_year = 1918
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 1 y = 10 }

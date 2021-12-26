@@ -555,7 +555,11 @@ characters={
 				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
+			allowed  = {
+					tag  = ENG
+				}
 			slot = political_advisor
+			idea_token = ENG_edward_grey
 			traits  = {
 				captain_of_industry 
 			}
@@ -570,7 +574,11 @@ characters={
 				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
+			allowed  = {
+					tag  = ENG
+				}
 			slot = political_advisor
+			idea_token =  ENG_henry_petty_fitzmaurice
 			traits  = {
 				dealbroker
 			}
@@ -585,7 +593,11 @@ characters={
 				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
+			allowed  = {
+					tag  = ENG
+				}
 			slot = political_advisor
+			idea_token = ENG_frederick_maurice
 			traits  = {
 				silent_workhorse
 			}
@@ -600,7 +612,11 @@ characters={
 				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
+			allowed  = {
+					tag  = ENG
+				}
 			slot = political_advisor
+			idea_token = ENG_arthur_balfour
 			traits  = {
 				conservative_nationalist
 			}
@@ -615,7 +631,11 @@ characters={
 				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
+			allowed  = {
+					tag  = ENG
+				}
 			slot = political_advisor
+			idea_token = ENG_george_macdonogh
 			traits  = {
 				head_of_intelligence
 			}
@@ -629,7 +649,11 @@ characters={
 				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
+			allowed  = {
+					tag  = ENG
+				}
 			slot = political_advisor
+			idea_token = ENG_reginald_mckenna
 			traits  = {
 				armaments_organizer 
 			}
@@ -643,7 +667,11 @@ characters={
 				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
+			allowed  = {
+					tag  = ENG
+				}
 			slot = political_advisor
+			idea_token = ENG_herbert_samuel
 			traits  = {
 				compassionate_gentleman
 			}
@@ -657,7 +685,11 @@ characters={
 				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
+			allowed  = {
+					tag  = ENG
+				}
 			slot = political_advisor
+			idea_token = ENG_aretas_akers_douglas
 			traits  = {
 				economist
 			}
@@ -671,7 +703,11 @@ characters={
 				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
+			allowed  = {
+					tag  = ENG
+				}
 			slot = political_advisor
+			idea_token = ENG_arthur_henderson
 			traits  = {
 				popular_figurehead
 			}
@@ -685,7 +721,11 @@ characters={
 				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
+			allowed  = {
+					tag  = ENG
+				}
 			slot = political_advisor
+			idea_token = ENG_william_peel
 			traits  = {
 				connected_citizen
 			}
@@ -699,7 +739,11 @@ characters={
 				large="gfx/hoi4tgw_portraits/ENG/advisor/ENG_edward_grey.dds"
 			} }
 		advisor={
+			allowed  = {
+					tag  = ENG
+				}
 			slot = political_advisor
+			idea_token = ENG_herbert_mullaly
 			traits  = {
 				war_industrialist
 			}

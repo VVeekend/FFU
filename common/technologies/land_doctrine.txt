@@ -2537,11 +2537,12 @@ technologies = {
 		}
 		enable_subunits = {
 			motorized
-		}
-		
+		}		
 		enable_subunits = {	
-		mot_recon 
-		
+		mot_recon 	
+		}
+		enable_subunits = {	
+		mot_artillery_brigade	
 		}
 		path = {
 			leads_to_tech = infantry_tank_artillery_coordination
