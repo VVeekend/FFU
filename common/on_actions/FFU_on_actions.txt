@@ -32,13 +32,22 @@ on_actions = {
 				country_event = { id = ffufrance.6 days = 1309 }
 				country_event = { id = ffufrance.7 days = 1345 }
 				country_event = { id = ffufrance.8 days = 1430 }
-				country_event = { id = ffufrance.4 days = 2497 }
-			}
+				country_event = { id = ffufrance.4 days = 2497 } }
+				
+			if = { 
+			    limit = { SER = { exists = yes } }		
 			SER = {
 				country_event = { id = ww1_franzferdinand.2 days = 1304 }
 				country_event = { id = ww1_firstbalkan.2 days = 578 }
 				country_event = { id = ww1_firstbalkan.4 days = 609 }
-			}
+			} }
+			
+			if = { 
+			    limit = { SER = { exists = no } }		
+			GER = {
+				country_event = { id = ww1_franzferdinand.2 days = 1304 }
+			} }
+			
 			SWI = {
 				country_event = { id = ww1_firstbalkan.40 days = 851 }
 				country_event = { id = ffu.3 days = 1453 }

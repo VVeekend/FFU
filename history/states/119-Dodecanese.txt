@@ -13,7 +13,10 @@ state={
 				naval_base = 5
 			}
 		}
-
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
 	}
 
 	provinces={

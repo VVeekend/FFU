@@ -11,7 +11,11 @@ state={
 		owner = DEN
 		add_core_of = DEN
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 	   }
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
     }
  }

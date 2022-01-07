@@ -11,10 +11,12 @@ state={
 		add_core_of = MOR
 		buildings = {
 			infrastructure = 3
-			air_base = 3
 
 		}
-
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
 	}
 
 	provinces={

@@ -17,6 +17,10 @@ state={
 		victory_points = {
 			5225 1 
 		}
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
 	}
 	state_category=town
 	manpower=320000

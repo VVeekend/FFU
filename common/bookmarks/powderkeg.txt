@@ -4,7 +4,7 @@ bookmarks = {
 		desc =  POWDERKEG_DESC 
 		date = 1911.1.1.1
 		picture =  GFX_select_date_1910 
-		default_country =  GER 
+		default_country = FRA
 		default = yes
 
 		 FRA ={
@@ -20,7 +20,7 @@ bookmarks = {
 		}
 		 TUR ={
 			history =  TUR_POWDERKEG_DESC 
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				ww1_Faith_Allah
 			}
@@ -39,7 +39,7 @@ bookmarks = {
 		}
 		 GER ={
 			history =  GER_POWDERKEG_DESC 
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				#general_staff
 				GER_ww1_North_German_Confederation
@@ -70,7 +70,7 @@ bookmarks = {
 		}
 		 SOV ={
 			history =  RUS_POWDERKEG_DESC 
-			ideology = democratic
+			ideology = neutrality
 			ideas = {
 			RUS_ww1_orthodox_church
 			RUS_ww1_tsushima_humiliation
@@ -101,7 +101,7 @@ bookmarks = {
 		 BUL ={
 			minor = yes
 			history =  BUL_POWDERKEG_DESC 
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 
 			}
@@ -124,7 +124,7 @@ bookmarks = {
 		 GRE ={
 			minor = yes
 			history =  GRE_POWDERKEG_DESC 
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 
 			}

@@ -16,7 +16,10 @@ state={
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
-			air_base = 3
+		}
+		1911.1.1.12 = {
+			owner = SWI
+			 
 		}
         }
 }

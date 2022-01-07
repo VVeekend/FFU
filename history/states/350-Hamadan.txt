@@ -13,5 +13,9 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
 	}
 }

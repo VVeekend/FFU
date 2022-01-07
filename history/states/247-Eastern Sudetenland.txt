@@ -16,5 +16,9 @@ state={
 			infrastructure = 7
 			arms_factory = 1
 		}
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
        }
 }

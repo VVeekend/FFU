@@ -59,5 +59,9 @@ state={
 		victory_points = {
 		15588 1 #Havza
 		}
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
 	}
 }

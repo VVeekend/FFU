@@ -14,10 +14,12 @@ state={
 			arms_factory = 2
 			industrial_complex = 3
 			dockyard = 1
-			air_base = 4
 
 		}
-
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
 	}
 
 	provinces={

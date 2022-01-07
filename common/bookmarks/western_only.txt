@@ -1,0 +1,76 @@
+bookmarks = {
+	bookmark = {
+		name =  "Western Front"
+		desc =  WESTERN_DESC 
+		date = 1911.1.1.12
+		picture =  GFX_select_date_western 
+		default_country = GER
+		default = yes
+
+		 FRA ={
+			history =  FRA_POWDERKEG_DESC 
+			ideology = democratic
+			ideas = {
+				FRA_ww1_Revanchism
+				ww1_Scramble_for_Africa
+			}
+			focuses = {
+				
+			}
+		}
+		
+		 ENG ={
+			history =  ENG_POWDERKEG_DESC 
+			ideology = democratic
+			ideas = {
+				stiff_upper_lip
+				ww1_Scramble_for_Africa
+			}
+			focuses = {
+			}
+		}
+		
+		 BEL ={
+			history =  BEL_POWDERKEG_DESC 
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+		 CAN ={
+			history =  CAN_POWDERKEG_DESC 
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+		 GER ={
+			history =  GER_POWDERKEG_DESC 
+			ideology = neutrality
+			ideas = {
+				#general_staff
+				GER_ww1_North_German_Confederation
+				ww1_Scramble_for_Africa
+			}
+			focuses = {
+			}
+		}
+
+		 --- ={
+			history =  OTHER_POWDERKEG_DESC 
+		}
+		
+		effect = {
+			randomize_weather = 22346 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

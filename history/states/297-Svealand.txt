@@ -15,6 +15,9 @@ state={
 		add_core_of = SWE
 		buildings = {
 			}
-
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
 		}
 }

@@ -47,5 +47,9 @@ state={
 		victory_points = {
 		8362 1 
 		}
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
          }
 }

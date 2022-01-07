@@ -48,7 +48,10 @@ state={
 		victory_points = {
 		14979 5
 		}
-
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
 	}
 
 	provinces={

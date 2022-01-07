@@ -51,7 +51,7 @@ state={
         victory_points = {
 		17381 1
 		}
-       victory_points = {
+        victory_points = {
 		17402 1
 		}
         victory_points = {
@@ -83,6 +83,10 @@ state={
 		}
         victory_points = {
 		8242 1
+		}
+		1911.1.1.12 = {
+			owner = SWI
+			 
 		}
 		add_extra_state_shared_building_slots = 14
 	}

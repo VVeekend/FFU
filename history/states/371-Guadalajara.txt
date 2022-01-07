@@ -17,5 +17,9 @@ resources = {
 			industrial_complex = 1
 
 		}
+		1911.1.1.12 = {
+			owner = SWI
+			 
+		}
       }
 }

@@ -284,7 +284,7 @@ country_event = {
 		GER = {
 			set_country_flag = russia_mobilized
 			add_to_war = {
-	            targeted_alliance = AUH enemy = SER
+	            targeted_alliance = AUS enemy = SER
 	        }
 		}
 	}
