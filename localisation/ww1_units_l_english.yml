@@ -4,7 +4,7 @@
  heavy_field_gun_equipment:0 "Heavy Artillery"
  heavy_howitzer_equipment:0 "Heavy Artillery"
  siege_gun_equipment:0 "Siege Gun"
- machinegun_equipment:0 "Machine Gun"
+ machine_gun_equipment:0 "Machine Gun"
  machine_gun_equipment_desc:0 "Machine Gun eq."
  scout:0 "Scout Plane"
  airship:0 "Airship"

@@ -644,6 +644,7 @@ technologies = {
         
 		max_planning = 0.05
 		attrition = -0.01
+		coordination_bonus = 0.01
 		doctrine = yes	
 		research_cost = 2.5
 		xp_research_type = army
@@ -2123,6 +2124,7 @@ technologies = {
 		 
 
 		land_reinforce_rate = 0.02
+		coordination_bonus = 0.01
 
 		path = {
 			leads_to_tech = telephone_communications
@@ -2167,6 +2169,7 @@ technologies = {
 	
 		land_reinforce_rate = 0.02
 		planning_speed = 0.05
+		coordination_bonus = 0.02
 
 		doctrine = yes	
 		research_cost = 2.5

@@ -105,6 +105,7 @@ NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0
 NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP =0 --Division experience drop if unit has different battalion when switching templates(vanilla 0.5 but can be circumvented with template editing)
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1       -- WAS 0.25 | Turns out that no Russian volunteers to Spain leads to at least 15 veteran +75% heavy tanks at barb every game that kill nearly every Russia player in less than 3 months. Just wait until Germany players manage to get 30 vet heavies by using minors more
 NDefines.NMilitary.MIN_SUPPLY_CONSUMPTION = 0.02
+NDefines.NMilitary.UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE = 0
 
 NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.5
 NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.0
@@ -180,6 +181,10 @@ NDefines.NOperatives.PROPAGANDA_DAILY_XP_GAIN = 0
 NDefines.NOperatives.BECOME_SPYMASTER_MIN_UPGRADES = 0
 
 NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 2 -- WAS 1 aka TRAINED | Since the above was changed there is no point to not allowing divs to be trained to regular considering that its only 10% stats now.
+
+NDefines.NSupply.NODE_STARTING_PENALTY_PER_PROVINCE = 0.25
+NDefines.NSupply.NODE_ADDED_PENALTY_PER_PROVINCE = 0.50
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 100.0
 
 ----------------------HFU BATTLEPLAN REWORK----------------------
 --NDefines.NMilitary.PLAN_MIN_AUTOMATED_EMPTY_POCKET_SIZE = 10		--dont know how this works-- The battle plan system will only automatically attack provinces in pockets that has no resistance and are no bigger than these many provinces
