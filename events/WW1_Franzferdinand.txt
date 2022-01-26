@@ -396,12 +396,59 @@ country_event = {
 	# Schlieffen Plan - War with FRA, BEL and RUS, Invasion of LUX
 	option = {
 		name = ww1_franzferdinand.8.a
+		trigger = { country_exists = SER }
 		ai_chance =  { factor = 100 }
 
 		GER = {
 			add_timed_idea = {
 					days = 100
 					idea = GER_schlieffen1
+			}
+			declare_war_on = {
+				type = annex_everything
+				target = BEL
+			}
+			set_variable = {
+				Global.super_event=7
+				
+			}
+			FFU_show_super_event = yes
+		}
+
+        FRA = { add_to_faction = BEL }
+		FRA = { add_to_faction = LUX }
+		hidden_effect = {
+			add_named_threat = {
+				threat = 30
+				name = "The Great War"
+			}
+	        AUS = {
+				add_to_war = {
+		            targeted_alliance = GER enemy = BEL
+		        }
+		    }
+		}		
+
+		LUX = {
+			add_to_war = {
+	            targeted_alliance = BEL enemy = GER
+	        }
+        }
+		hidden_effect = {
+			every_country = {limit = {check_variable= { super_events_enabled > 0} }
+				scoped_sound_effect="FFU_schlieffen_plan" }
+			FRA = { country_event = { id = ffufrance.1 days = 50  } }
+	}
+}
+	option = {
+		name = ww1_franzferdinand.8.b
+		trigger = { NOT = { country_exists = SER } }
+		ai_chance =  { factor = 100 }
+
+		GER = {
+			add_timed_idea = {
+					days = 66
+					idea = GER_schlieffen2
 			}
 			declare_war_on = {
 				type = annex_everything

@@ -290,6 +290,50 @@ ideas={
 			
 		}
 		
+		GER_schlieffen2 = {
+		
+			allowed = {
+				original_tag = GER
+				always = no #event or decision
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = German_staff_ww1
+			
+			modifier = { 
+				ai_focus_aggressive_factor = 0.1
+			}	
+			targeted_modifier = {
+				tag = BEL
+				attack_bonus_against = 0.50
+				breakthrough_factor = 0.20
+				defense_bonus_against = 0.10
+			}
+						
+			targeted_modifier = {
+				tag = FRA
+				attack_bonus_against = 0.25
+				defense_bonus_against = 0.10
+			}
+			targeted_modifier = {
+				tag = ENG
+				attack_bonus_against = 0.25
+				defense_bonus_against = 0.10
+			}
+			
+			targeted_modifier = {
+				tag = POR
+				attack_bonus_against = 0.25
+				defense_bonus_against = 0.10
+			}
+			
+		}
+		
 		GER_westernfront = {
 		
 			allowed = {

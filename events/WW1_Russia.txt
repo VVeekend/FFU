@@ -89,6 +89,7 @@ news_event = {
 	}
 
 	trigger = {
+        country_exists = SER	
 		NOT = { has_global_flag = soviets_civil_war }
 		SOV = {
 			OR = {
