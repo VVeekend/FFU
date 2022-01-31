@@ -329,9 +329,7 @@ news_event = {
 	title = ww1_russia.6.t
 	desc = ww1_russia.6.d
 	picture = ww1_russia_5
-
 	major = yes
-
 	mean_time_to_happen = {
 		days = 0
 	}
@@ -352,16 +350,13 @@ news_event = {
 		}
 	}
 
-	immediate = {
 		hidden_effect = {
 			set_global_flag = kis_brestlitovsk
 			RUS = {
 				set_capital = 171
-			    set_rule={ can_send_volunteers=no }
 				country_event = { days = 20 id = ww1_russia.7 }
 				country_event = { days = 2 id = ww1_russia.8 }
 				SOV = {
-					set_rule={ can_send_volunteers=yes }
 					every_state = {
 						limit = {
 							# SOV will get the same core as RUS
@@ -389,9 +384,7 @@ news_event = {
 				diplomatic_relation = {
 					country = AUS
 					relation = military_access
-					active = yes
 				}
-
 				diplomatic_relation = {
 					country = ROM
 					relation = non_aggression_pact
@@ -408,10 +401,8 @@ news_event = {
 					target = RUS
 					transfer_troops = no
 				}
-				add_ideas = octrev
 			}
 		}
-	}
 	
 	option = {
 		name = ww1_russia.6.a

@@ -58,7 +58,6 @@ recruit_character = SWE_fredrik_wachtmeister
 recruit_character = SWE_christian_lundeberg
 
 1910.1.1 = {
-	oob = "SWE_1910"
 
 	#-------------------------------------------------------
 	#							NF

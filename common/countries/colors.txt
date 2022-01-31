@@ -112,14 +112,6 @@ DEN = {
 	color = rgb { 153 116 93 }
 	color_ui = rgb { 199 151 121 }
 }
-JBS = {
-    color = rgb { 120 45 5 }
-    color_ui = rgb { 132 50 6 }
-}
-SAU = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
-}
 PER = {
 	color = rgb { 71 113 97 }
 	color_ui = rgb { 92 147 126 }
