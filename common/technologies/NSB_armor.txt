@@ -15,9 +15,6 @@ technologies = {
 		
 		on_research_complete = {
 
-			hidden_effect = {
-					load_oob = "unlock_ww1_armoredcar"
-			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 	
@@ -109,10 +106,6 @@ technologies = {
 		}
 			
 		on_research_complete = {
-
-			hidden_effect = {
-					load_oob = "unlock_ww1_light_tank"
-			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 

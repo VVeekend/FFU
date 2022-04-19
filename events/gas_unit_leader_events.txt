@@ -4888,15 +4888,15 @@ unit_leader_event = {
     }
 }
 unit_leader_event = {
-    id = gas_unit_leader_events.325
-    title = gas_unit_leader_event.325
-    desc = gas_unit_leader_events.325.d
+    id = gas_unit_leader_events.324
+    title = gas_unit_leader_event.324
+    desc = gas_unit_leader_events.324.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only=yes
     hidden = yes
 
     immediate = {
-        add_to_temp_array = { scope_array = global.army_leader_ids^325 } #a simple workaround
+        add_to_temp_array = { scope_array = global.army_leader_ids^324 } #a simple workaround
         for_each_scope_loop = { #PREV = Country, THIS = Army leader
             array = scope_array
 
@@ -4906,7 +4906,7 @@ unit_leader_event = {
                 }
                 gas_attack_on_provinces = yes
                 unit_leader_event = {
-                    id = gas_unit_leader_events.325
+                    id = gas_unit_leader_events.324
                     hours = 2
                 }
             }

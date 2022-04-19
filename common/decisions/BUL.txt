@@ -50,7 +50,6 @@ operations = {
 		            targeted_alliance = SER enemy = BUL
 		        }
 			}
-			news_event = { days = 1 id = ww1_secondbalkan.100 }
 		}
 
 

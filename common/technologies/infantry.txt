@@ -765,10 +765,7 @@ technologies = {
 			}
 		}
 
-		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_marines"
-			}			
+		on_research_complete = {			
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
@@ -868,9 +865,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_mountaineers"
-			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		
@@ -985,9 +979,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_stormtrooper"
-			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
@@ -1065,9 +1056,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_jaegers"
-			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
@@ -1469,7 +1457,6 @@ technologies = {
 		on_research_complete = {
 
 			hidden_effect = {
-				load_oob = "unlock_GER_ww1_infantry2"
 				custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 			}
 		}

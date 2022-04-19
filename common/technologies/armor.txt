@@ -1,6 +1,6 @@
 technologies = {
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
-	gwtank = { # First Armored Car
+	gwtank1 = { # First Armored Car
 
 		enable_equipments = { gw_armored_car_equipment }
         
@@ -8,11 +8,7 @@ technologies = {
 			armored_car
 		}
 		
-		on_research_complete = {
-
-			hidden_effect = {
-					load_oob = "unlock_ww1_armoredcar"
-			}
+		on_research_complete = {		
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 	
@@ -134,9 +130,6 @@ technologies = {
 
 		on_research_complete = {
 
-			hidden_effect = {
-					load_oob = "unlock_ww1_light_tank"
-			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
@@ -190,10 +183,6 @@ technologies = {
 		enable_equipments = { ww1_heavy_tank_equipment_1 }
 
 		on_research_complete = {
-
-			hidden_effect = {
-					load_oob = "unlock_ww1_heavy_tank"
-			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 

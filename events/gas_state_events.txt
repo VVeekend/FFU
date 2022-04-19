@@ -3008,8 +3008,8 @@ state_event = {
     }
 }
 state_event = {
-    id = gas_state_events.325
-    title = gas_state_events.325.t
+    id = gas_state_events.324
+    title = gas_state_events.324.t
     desc = gas_state_events.d
     picture = GFX_report_event_generic_read_write
     is_triggered_only = yes
@@ -3017,7 +3017,7 @@ state_event = {
 
     immediate = {
 
-        325 = {
+        324 = {
             gas_state_event_effect = yes
         }
 
